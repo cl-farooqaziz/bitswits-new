@@ -1,0 +1,36 @@
+.aboutus {
+    padding-top: 175px;
+    padding-bottom: 200px;
+}
+
+.decade{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.spaceimg {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.aboutbtn {
+    width: 226px;
+    height: 45px;
+    font-family: 'Montserrat';
+    border: unset;
+    border-radius: unset;
+    margin-top: 7%;
+    font-size: 15px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1399px) { 
+
+
+
+
+ }

@@ -1,0 +1,29 @@
+.footer{
+    background-color: #272727;
+    padding-top: 80px;
+}
+.project {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 4%;
+}
+
+.past{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #707070;
+}
+
+.patner {
+    padding-left: 0;
+}
+.patner li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.patner li {
+    padding-bottom: 20px;
+}

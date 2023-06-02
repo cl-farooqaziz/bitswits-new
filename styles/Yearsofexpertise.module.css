@@ -1,0 +1,19 @@
+.yearsofexpertise {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+}
+.yearsofexpertise .allbest {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.yearsofexpertise .allbest h4 {
+    text-align: center;
+}
+.yearsofexpertise .allbest h3 {
+    text-align: center;
+}
+.yearsofexpertise .allbest p {
+    text-align: center;
+}

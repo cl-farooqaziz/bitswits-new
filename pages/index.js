@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import Banner from '@/components/Banner'
+import About from '@/components/About'
+import Yearsofexpertise from '@/components/Yearsofexpertise'
 
 
 export default function Home() {
@@ -10,6 +13,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+
+      <Banner />
+      <About />
+      <Yearsofexpertise />
+
+
+
     </>
   )
 }
