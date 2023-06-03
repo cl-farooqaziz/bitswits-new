@@ -1,127 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 /* fontfamily */
 
-.fontf{
-    font-family: 'Montserrat', sans-serif;
+.fontf {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* fontweight */
 
-.font-regular{
-    font-weight: 400;
+.font-regular {
+  font-weight: 400;
 }
-.font-medium{
-    font-weight: 500;
+.font-medium {
+  font-weight: 500;
 }
 .font-semibold {
-    font-weight: 600;
+  font-weight: 600;
 }
-.font-bold  {
-    font-weight: 700;
+.font-bold {
+  font-weight: 700;
 }
-.font-extrabold   {
-    font-weight: 800;
+.font-extrabold {
+  font-weight: 800;
 }
 
 /* fontsizes */
 
-.font65{
-    font-size: 65px;
+.font65 {
+  font-size: 65px;
 }
-.font25{
-    font-size: 25px;
+.font25 {
+  font-size: 25px;
 }
-.font15{
-    font-size: 15px;
+.font15 {
+  font-size: 15px;
 }
-.font20{
-    font-size: 20px;
+.font20 {
+  font-size: 20px;
 }
-.font21{
-    font-size: 21px;
+.font21 {
+  font-size: 21px;
 }
-.font8{
-    font-size: 8px;
+.font8 {
+  font-size: 8px;
 }
-.font10{
-    font-size: 10px;
+.font10 {
+  font-size: 10px;
 }
-.font14{
-    font-size: 14px;
+.font14 {
+  font-size: 14px;
 }
-.font12{
-    font-size: 12px;
+.font16 {
+  font-size: 16px;
 }
-.font75{
-    font-size: 75px;
+.font12 {
+  font-size: 12px;
 }
-.font70{
-    font-size: 70px;
+.font75 {
+  font-size: 75px;
 }
-.font30{
-    font-size: 30px;
+.font70 {
+  font-size: 70px;
 }
-.font50{
-    font-size: 50px;
+.font30 {
+  font-size: 30px;
 }
-.font40{
-    font-size: 40px;
+.font50 {
+  font-size: 50px;
+}
+.font40 {
+  font-size: 40px;
 }
 
 /* linehight */
 
-.line60{
-    line-height: 65px;
+.line60 {
+  line-height: 65px;
 }
-.line30{
-    line-height: 30px;
+.line30 {
+  line-height: 30px;
 }
-
 
 /* colors */
-.black{
-    color: #000000;
+.black {
+  color: #000000;
 }
 
 .grdiant {
-    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.white{
-    color: #FFFFFF;
+.white {
+  color: #ffffff;
 }
 
 .lightgrey {
-    color: #B2B2B2;
+  color: #b2b2b2;
 }
 .grey {
-    color: #707070;
+  color: #707070;
 }
 
 /* text alignments */
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
-.left{
-    text-align: left;
+.left {
+  text-align: left;
 }
-.right{
-    text-align: right;
-}
-
-.texdocration{
-    text-decoration: none;
+.right {
+  text-align: right;
 }
 
-.letterspace{
-    letter-spacing: 2px;
+.texdocration {
+  text-decoration: none;
+}
+
+.letterspace {
+  letter-spacing: 2px;
 }
 
 .texttran {
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F32F5E;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F32F5E;
 }

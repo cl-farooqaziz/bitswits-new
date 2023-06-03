@@ -1,0 +1,152 @@
+.header {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f6f1ff;
+}
+
+.navBar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 20px 0px 15px;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  height: 100%;
+}
+
+.menu li a {
+  color: #000;
+  height: 100%;
+  padding: 0 40px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.active {
+  background-color: #272727;
+}
+
+.active a {
+  color: #fff !important;
+}
+
+.megaMenu1 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  padding: 30px 20px;
+  z-index: 2;
+  background-color: #272727;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  overflow-y: scroll;
+  display: none;
+}
+
+.megaMenu2 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  padding: 30px 20px;
+  z-index: 2;
+  background-color: #272727;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  overflow-y: scroll;
+  display: none;
+}
+
+.megaMenu3 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  padding: 30px 20px;
+  z-index: 2;
+  background-color: #272727;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  overflow-y: scroll;
+  display: none;
+}
+
+.megaRow {
+  row-gap: 50px;
+}
+
+.listHeading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #919191;
+  padding-bottom: 8px;
+}
+
+.listHeading h5 {
+  color: #fff;
+}
+
+.megaIcon {
+  max-height: 24px;
+}
+
+.listHeading img {
+  max-height: 22px;
+}
+
+.listBody ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.listBody ul li a {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0;
+  color: #ccc;
+}
+
+.listBody ul li span {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.listBody p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ccc;
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.listMain2{
+    background-color: #141414;
+    height: 100%;
+}
