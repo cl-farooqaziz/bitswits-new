@@ -1,0 +1,15 @@
+.trusted {
+    background-color: #F1F1F1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.startup {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+    filter: opacity(0.5);
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
