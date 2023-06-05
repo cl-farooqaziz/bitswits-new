@@ -1,0 +1,61 @@
+.nextproject{
+    background-image: url('/images/nextproject/nextbanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nextproject {
+    height: 754px;
+    display: flex;
+    align-items: center;
+}
+.talging {
+    background-image: linear-gradient(to right, #F32FC2, #5F6FE9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.project {
+    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
+    width: 295px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+}
+.nextalign {
+    display: flex;
+    gap: 8px;
+    margin-top: 3%;
+}
+.mobile{
+    background-color: #797979;
+    width: 182px;
+    height: 195px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: .9;
+}
+
+.mobile h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.mobile p {
+    color: #434343;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+}

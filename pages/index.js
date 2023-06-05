@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Banner from '@/components/Banner'
 import About from '@/components/About'
 import Yearsofexpertise from '@/components/Yearsofexpertise'
+import Blogfaqs from '@/components/Blogfaqs'
+import Nextproject from '@/components/Nextproject'
+import Ourservices from '@/components/Ourservices'
+import Lookingfor from '@/components/Lookingfor'
 
 
 export default function Home() {
@@ -17,6 +21,11 @@ export default function Home() {
       <Banner />
       <About />
       <Yearsofexpertise />
+      <Ourservices />
+      <Lookingfor />
+      <Nextproject />
+      <Blogfaqs/>
+   
 
 
 
