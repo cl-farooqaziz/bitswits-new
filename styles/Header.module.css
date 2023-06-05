@@ -37,63 +37,76 @@
   gap: 3px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
+  transition: all 0.4s ease-in-out;
 }
 
-.active {
+.menu li a:hover {
   background-color: #272727;
+  color: #fff;
 }
 
-.active a {
-  color: #fff !important;
+.megaList1:hover .megaLink,
+.megaList2:hover .megaLink,
+.megaList3:hover .megaLink {
+  background-color: #272727;
+  color: #fff;
+}
+
+.megaList1 .megaMenu1,
+.megaList2 .megaMenu2,
+.megaList3 .megaMenu3 {
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: 2;
+  display: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #272727;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all 0.4s ease-in-out;
+}
+
+.megaList1:hover .megaMenu1,
+.megaList2:hover .megaMenu2,
+.megaList3:hover .megaMenu3 {
+  display: block;
+  animation: 0.7s ease-in-out forwards growDown;
+  transform-origin: top;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 .megaMenu1 {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
   height: 90vh;
   padding: 30px 20px;
-  z-index: 2;
-  background-color: #272727;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  overflow-y: scroll;
-  display: none;
 }
 
 .megaMenu2 {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-  height: 60vh;
+  height: 65vh;
   padding: 30px 20px;
-  z-index: 2;
-  background-color: #272727;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  overflow-y: scroll;
-  display: none;
 }
 
 .megaMenu3 {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
   height: 90vh;
-  padding: 30px 20px;
-  z-index: 2;
-  background-color: #272727;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  overflow-y: scroll;
-  display: none;
 }
 
 .megaRow {
-  row-gap: 50px;
+  row-gap: 35px;
 }
 
 .listHeading {
@@ -132,6 +145,12 @@
   color: #ccc;
 }
 
+.listBody ul li a:hover {
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .listBody ul li span {
   font-size: 12px;
   font-weight: 500;
@@ -146,7 +165,67 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.listMain2{
-    background-color: #141414;
-    height: 100%;
+.listMain2 {
+  background-color: #141414;
+  height: 100%;
+}
+
+.megaMenu3 .megaRow {
+  padding: 30px 20px;
+}
+
+.megaMenu3 .listMain2 {
+  padding: 30px 20px 30px 10px;
+}
+
+.listMain2 .listBody ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.listMain2 .listBody ul li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.listMain2 .listBody ul li a span {
+  color: #fff;
+}
+
+.listMain2 .listBody ul li a img {
+  filter: invert(1);
+  width: 28px;
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 991px) {
+  .navBar {
+    position: unset;
+  }
+
+  .menu li a {
+    padding: 0 12px;
+    font-size: 13px;
+  }
+
+  .megaMenu2 {
+    height: 80vh;
+  }
+
+  .listImg {
+    text-align: center;
+  }
+
+  .listMain2 {
+    height: 90vh;
+  }
+
+  .resList{
+    margin-top: 10px;
+  }
 }

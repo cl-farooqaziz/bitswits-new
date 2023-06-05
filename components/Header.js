@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Header.module.css'
@@ -21,20 +21,62 @@ import ourbg from '../public/images/icons/ourbg.png'
 import web from '../public/images/icons/web.png'
 import hosting from '../public/images/icons/hosting.png'
 import tailormade from '../public/images/icons/tailormade.png'
+import estate from '../public/images/icons/estate.png'
+import travel from '../public/images/icons/travel.png'
+import b2b from '../public/images/icons/b2b.png'
+import b2c from '../public/images/icons/b2c.png'
+import health from '../public/images/icons/health.png'
+import education from '../public/images/icons/education.png'
+import finance from '../public/images/icons/finance.png'
+import media from '../public/images/icons/media.png'
+import foods from '../public/images/icons/foods.png'
+import tickets from '../public/images/icons/tickets.png'
+import automotive from '../public/images/icons/automotive.png'
+
 
 const Header = () => {
+
+    const [isActive, setIsActive] = useState(false);
+    const [megamenu1, setMegaMenu1] = useState(false);
+    const [megamenu2, setMegaMenu2] = useState(false);
+    const [megamenu3, setMegaMenu3] = useState(false);
+
+    const handleMenu = () => {
+        setIsActive((prev) => !prev);
+    }
+
+    const handleMegaMenu1 = () => {
+        setMegaMenu1((prev) => !prev);
+    }
+
+    const handleMegaMenu2 = () => {
+        setMegaMenu2((prev) => !prev);
+    }
+
+    const handleMegaMenu3 = () => {
+        setMegaMenu3((prev) => !prev);
+    }
+
     return (
         <>
             <header className={styles.header}>
-                <nav className={styles.navBar}>
+                <nav className={isActive ? `${styles.navBar} ${styles.active}` : `${styles.navBar}`}>
                     <ul className={styles.menu}>
-                        <li className={`${styles.megaList1} ${styles.active}`}>
-                            <Link href='#'>TECHNOLOGIES
+                        <li className={`${styles.megaList1}`}>
+                            <div className={styles.backArrow}>
+                                <Image
+                                    alt="bitswits"
+                                    src={backarrow}
+                                    loading="lazy"
+                                />
+                            </div>
+                            <Link href='#' className={styles.megaLink}>
+                                TECHNOLOGIES
                                 <FaAngleDown />
                             </Link>
                             <div className={styles.megaMenu1}>
                                 <Row className={styles.megaRow}>
-                                    <Col lg={6}>
+                                    <Col md={6}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -47,7 +89,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={6}>
+                                                    <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -76,7 +118,7 @@ const Header = () => {
                                                         </ul>
                                                     </Col>
 
-                                                    <Col lg={6}>
+                                                    <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -102,7 +144,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={6}>
+                                    <Col md={6}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -115,7 +157,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={6}>
+                                                    <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -156,7 +198,7 @@ const Header = () => {
                                                         </ul>
                                                     </Col>
 
-                                                    <Col lg={6}>
+                                                    <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -194,7 +236,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col md={3}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -207,7 +249,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -239,7 +281,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col md={3}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -252,7 +294,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -284,7 +326,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col md={3}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -297,7 +339,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -347,7 +389,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col md={3}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -360,7 +402,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -404,8 +446,8 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
-                                        <div className={styles.listMain}>
+                                    <Col md={3}>
+                                        <div className={`${styles.listMain} ${styles.resList}`}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
                                                     <Image className='img-fluid'
@@ -417,7 +459,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -443,7 +485,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col md={3}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -456,7 +498,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -512,7 +554,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col md={3}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -525,7 +567,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -539,8 +581,8 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
-                                        <div className={styles.listMain}>
+                                    <Col md={3}>
+                                        <div className={`${styles.listMain} ${styles.resList}`}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
                                                     <Image className='img-fluid'
@@ -552,7 +594,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -581,14 +623,21 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li>
-                            <Link href='#'>
+                        <li className={`${styles.megaList2}`}>
+                            <div className={styles.backArrow}>
+                                <Image
+                                    alt="bitswits"
+                                    src={backarrow}
+                                    loading="lazy"
+                                />
+                            </div>
+                            <Link href='#' className={styles.megaLink}>
                                 OUR COMPANY
                                 <FaAngleDown />
                             </Link>
                             <div className={styles.megaMenu2}>
                                 <Row className={styles.megaRow}>
-                                    <Col lg={3}>
+                                    <Col lg={3} md={6}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -601,7 +650,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
                                                                 <Link href='#'>
@@ -663,7 +712,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col lg={3} md={6}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -676,7 +725,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
+                                                    <Col md={12}>
                                                         <p>Headquartered in Albourne (near Brighton in the UK) we combine a passion for client satisfaction with technology innovation and business process expertise. We established our business in 2002, now have an in-house team of 1,000+ employees Internationally and we're still growing rapidly year on year.</p>
                                                     </Col>
                                                 </Row>
@@ -696,16 +745,23 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li>
-                            <Link href='#'>
+                        <li className={`${styles.megaList3}`}>
+                            <div className={styles.backArrow}>
+                                <Image
+                                    alt="bitswits"
+                                    src={backarrow}
+                                    loading="lazy"
+                                />
+                            </div>
+                            <Link href='#' className={styles.megaLink}>
                                 SERVICES
                                 <FaAngleDown />
                             </Link>
                             <div className={styles.megaMenu3}>
                                 <Row>
-                                    <Col lg={9}>
+                                    <Col md={9}>
                                         <Row className={styles.megaRow}>
-                                            <Col lg={4}>
+                                            <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -718,7 +774,7 @@ const Header = () => {
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
-                                                            <Col lg={12}>
+                                                            <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link href='#'>
@@ -762,7 +818,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col lg={4}>
+                                            <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -775,7 +831,7 @@ const Header = () => {
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
-                                                            <Col lg={12}>
+                                                            <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link href='#'>
@@ -807,7 +863,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col lg={4}>
+                                            <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -820,7 +876,7 @@ const Header = () => {
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
-                                                            <Col lg={12}>
+                                                            <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link href='#'>
@@ -846,8 +902,8 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col lg={4}>
-                                                <div className={styles.listMain}>
+                                            <Col md={4}>
+                                                <div className={`${styles.listMain} ${styles.resList}`}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
                                                             <Image className='img-fluid'
@@ -859,7 +915,7 @@ const Header = () => {
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
-                                                            <Col lg={12}>
+                                                            <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link href='#'>
@@ -897,7 +953,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col lg={4}>
+                                            <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -910,7 +966,7 @@ const Header = () => {
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
-                                                            <Col lg={12}>
+                                                            <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link href='#'>
@@ -942,7 +998,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col lg={4}>
+                                            <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -955,7 +1011,7 @@ const Header = () => {
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
-                                                            <Col lg={12}>
+                                                            <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link href='#'>
@@ -987,7 +1043,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col lg={4}>
+                                            <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -1000,7 +1056,7 @@ const Header = () => {
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
-                                                            <Col lg={12}>
+                                                            <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link href='#'>
@@ -1016,73 +1072,145 @@ const Header = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col md={3} className='p-0'>
                                         <div className={styles.listMain2}>
                                             <div className={styles.listHeading}>
-                                                <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
-                                                        src={company}
-                                                        alt='bitswits'
-                                                    />
-                                                </div>
-                                                <h5 className='font14 fontf font-semibold mb-0'>COMPANY</h5>
+                                                <h5 className='font20 fontf font-semibold mb-0'>INDUSTRIES</h5>
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
-                                                    <Col lg={12}>
-                                                        <ul className='mb-0 ps-0 mt-2'>
+                                                    <Col md={12}>
+                                                        <ul className='mb-0 ps-0 mt-2 pt-1'>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Creative Agency</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={estate}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Real Estate</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Fulfilment</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={travel}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Travel & Hospitality</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Get More</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={b2b}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>B2B Solutions</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Our Corporate Values</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={b2c}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>B2C Solutions</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Facts and Figures</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={health}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Healthcare</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Video Testimonials</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={education}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Education and E Learning</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Reasons to Choose Us</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={finance}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Banking & Finance</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Partnership and Certifications</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={education}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Startup Solutions</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Contact Us</span>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={media}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Media & Publishing</span>
+                                                                </Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link href='#'>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={foods}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Food Ordering Solutions</span>
+                                                                </Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link href='#'>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={tickets}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Ticket Booking Solutions</span>
+                                                                </Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link href='#'>
+                                                                    <div className={styles.megaIcon}>
+                                                                        <Image className='img-fluid'
+                                                                            src={automotive}
+                                                                            alt='bitswits'
+                                                                        />
+                                                                    </div>
+                                                                    <span>Automotive Solutions</span>
                                                                 </Link>
                                                             </li>
                                                         </ul>
@@ -1094,12 +1222,17 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li>
+                        <li onClick={handleMenu}>
                             <Link href='#'>OUR WORK</Link>
                         </li>
-                        <li>
+                        <li onClick={handleMenu}>
                             <Link href='#'>ENQUIRE NOW</Link>
                         </li>
+                        <div className={styles.navTogle} onClick={handleMenu}>
+                            <span className={isActive ? `${styles.line} ${styles.line1}` : `${styles.line}`}></span>
+                            <span className={isActive ? `${styles.line} ${styles.line2}` : `${styles.line}`}></span>
+                            <span className={isActive ? `${styles.line} ${styles.line3}` : `${styles.line}`}></span>
+                        </div>
                     </ul>
                 </nav>
             </header>
