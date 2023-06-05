@@ -5,6 +5,7 @@ import styles from '@/styles/Header.module.css'
 import { Row, Col } from 'react-bootstrap'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 //images
+import logo from '../public/images/icons/logo.png'
 import php from '../public/images/icons/php.png'
 import eCom from '../public/images/icons/eCom.png'
 import dotnet from '../public/images/icons/dotnet.png'
@@ -32,6 +33,7 @@ import media from '../public/images/icons/media.png'
 import foods from '../public/images/icons/foods.png'
 import tickets from '../public/images/icons/tickets.png'
 import automotive from '../public/images/icons/automotive.png'
+import backarrow from '../public/images/icons/back-arrow.webp'
 
 
 const Header = () => {
@@ -60,21 +62,29 @@ const Header = () => {
     return (
         <>
             <header className={styles.header}>
-                <nav className={isActive ? `${styles.navBar} ${styles.active}` : `${styles.navBar}`}>
-                    <ul className={styles.menu}>
-                        <li className={`${styles.megaList1}`}>
-                            <div className={styles.backArrow}>
-                                <Image
-                                    alt="bitswits"
-                                    src={backarrow}
-                                    loading="lazy"
-                                />
-                            </div>
+                <div className={styles.navLogo}>
+                    <Link href="/">
+                        <Image className='img-fluid'
+                            src={logo}
+                            alt="bitswits"
+                        />
+                    </Link>
+                </div>
+                <nav className={styles.navBar}>
+                    <ul className={isActive ? `${styles.menu} ${styles.active}` : `${styles.menu}`}>
+                        <li className={`${styles.megaList1} ${styles.navList}`} onClick={handleMegaMenu1}>
                             <Link href='#' className={styles.megaLink}>
                                 TECHNOLOGIES
                                 <FaAngleDown />
                             </Link>
-                            <div className={styles.megaMenu1}>
+                            <div className={megamenu1 ? `${styles.megaMenu1} ${styles.opnMenu1}` : `${styles.megaMenu1}`}>
+                                <div className={styles.backArrow}>
+                                    <Image
+                                        alt="bitswits"
+                                        src={backarrow}
+                                        loading="lazy"
+                                    />
+                                </div>
                                 <Row className={styles.megaRow}>
                                     <Col md={6}>
                                         <div className={styles.listMain}>
@@ -623,19 +633,19 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li className={`${styles.megaList2}`}>
-                            <div className={styles.backArrow}>
-                                <Image
-                                    alt="bitswits"
-                                    src={backarrow}
-                                    loading="lazy"
-                                />
-                            </div>
+                        <li className={`${styles.megaList2} ${styles.navList}`} onClick={handleMegaMenu2}>
                             <Link href='#' className={styles.megaLink}>
                                 OUR COMPANY
                                 <FaAngleDown />
                             </Link>
-                            <div className={styles.megaMenu2}>
+                            <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
+                                <div className={styles.backArrow}>
+                                    <Image
+                                        alt="bitswits"
+                                        src={backarrow}
+                                        loading="lazy"
+                                    />
+                                </div>
                                 <Row className={styles.megaRow}>
                                     <Col lg={3} md={6}>
                                         <div className={styles.listMain}>
@@ -721,7 +731,7 @@ const Header = () => {
                                                         alt='bitswits'
                                                     />
                                                 </div>
-                                                <h5 className='font14 fontf font-semibold mb-0'>PHP</h5>
+                                                <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
                                             </div>
                                             <div className={styles.listBody}>
                                                 <Row>
@@ -745,19 +755,19 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li className={`${styles.megaList3}`}>
-                            <div className={styles.backArrow}>
-                                <Image
-                                    alt="bitswits"
-                                    src={backarrow}
-                                    loading="lazy"
-                                />
-                            </div>
+                        <li className={`${styles.megaList3} ${styles.navList}`} onClick={handleMegaMenu3}>
                             <Link href='#' className={styles.megaLink}>
                                 SERVICES
                                 <FaAngleDown />
                             </Link>
-                            <div className={styles.megaMenu3}>
+                            <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
+                                <div className={styles.backArrow}>
+                                    <Image
+                                        alt="bitswits"
+                                        src={backarrow}
+                                        loading="lazy"
+                                    />
+                                </div>
                                 <Row>
                                     <Col md={9}>
                                         <Row className={styles.megaRow}>
@@ -1072,7 +1082,7 @@ const Header = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col md={3} className='p-0'>
+                                    <Col md={3} className='p-md-0'>
                                         <div className={styles.listMain2}>
                                             <div className={styles.listHeading}>
                                                 <h5 className='font20 fontf font-semibold mb-0'>INDUSTRIES</h5>
@@ -1222,18 +1232,18 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li onClick={handleMenu}>
+                        <li className={styles.navList} onClick={handleMenu}>
                             <Link href='#'>OUR WORK</Link>
                         </li>
-                        <li onClick={handleMenu}>
+                        <li className={`${styles.navList} ${styles.inqBtn}`} onClick={handleMenu}>
                             <Link href='#'>ENQUIRE NOW</Link>
                         </li>
-                        <div className={styles.navTogle} onClick={handleMenu}>
-                            <span className={isActive ? `${styles.line} ${styles.line1}` : `${styles.line}`}></span>
-                            <span className={isActive ? `${styles.line} ${styles.line2}` : `${styles.line}`}></span>
-                            <span className={isActive ? `${styles.line} ${styles.line3}` : `${styles.line}`}></span>
-                        </div>
                     </ul>
+                    <div className={styles.navTogle} onClick={handleMenu}>
+                        <span className={isActive ? `${styles.line} ${styles.line1}` : `${styles.line}`}></span>
+                        <span className={isActive ? `${styles.line} ${styles.line2}` : `${styles.line}`}></span>
+                        <span className={isActive ? `${styles.line} ${styles.line3}` : `${styles.line}`}></span>
+                    </div>
                 </nav>
             </header>
         </>

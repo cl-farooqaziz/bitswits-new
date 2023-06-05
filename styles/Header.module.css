@@ -1,9 +1,15 @@
 .header {
   height: 65px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: #f6f1ff;
+}
+
+.navLogo {
+  margin-left: 15px;
+  margin-top: 35px;
 }
 
 .navBar {
@@ -129,6 +135,14 @@
   max-height: 22px;
 }
 
+.listImg {
+  text-align: center;
+}
+
+.listImg img {
+  width: 85%;
+}
+
 .listBody ul {
   display: flex;
   flex-direction: column;
@@ -159,6 +173,7 @@
 
 .listBody p {
   font-size: 13px;
+  line-height: 22px;
   font-weight: 500;
   color: #ccc;
   margin-top: 5px;
@@ -201,6 +216,21 @@
   width: 28px;
 }
 
+.navTogle,
+.backArrow {
+  display: none;
+}
+
+.inqBtn a {
+  color: #fff !important;
+  transition: all 0.5s ease-in-out;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+}
+
+.inqBtn a:hover {
+  background-image: linear-gradient(to right, #82369c, #0047ff);
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 991px) {
@@ -210,22 +240,170 @@
 
   .menu li a {
     padding: 0 12px;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .megaMenu2 {
     height: 80vh;
   }
 
-  .listImg {
-    text-align: center;
+  .listImg img {
+    width: 100%;
   }
 
   .listMain2 {
     height: 90vh;
   }
 
-  .resList{
+  .resList {
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 15px;
+  }
+
+  .navLogo {
+    margin-left: 0px;
+  }
+
+  .navBar {
+    box-shadow: none;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 85%;
+    z-index: 9;
+    height: 100vh;
+    padding: 50px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: #272727;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+  .menu li a svg {
+    font-size: 25px;
+  }
+
+  .menu .navList {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .menu .inqBtn {
+    border-bottom: 0px;
+  }
+
+  .menu li a {
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .megaList1 .megaMenu1,
+  .megaList2 .megaMenu2,
+  .megaList3 .megaMenu3 {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    opacity: 1;
+    transition: all 0.7s ease-in-out;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .megaList1:hover .megaMenu1,
+  .megaList2:hover .megaMenu2,
+  .megaList3:hover .megaMenu3 {
+    display: unset;
+    animation: unset;
+    transform-origin: unset;
+  }
+
+  .megaMenu1.opnMenu1,
+  .megaMenu2.opnMenu2,
+  .megaMenu3.opnMenu3 {
+    left: 0%;
+  }
+
+  .listBody ul li span {
+    font-size: 16px;
+  }
+
+  .listBody p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .listHeading h5 {
+    font-size: 18px;
+  }
+
+  .listHeading img {
+    max-height: unset;
+  }
+
+  .listMain2 .listBody ul li a img {
+    width: auto;
+  }
+
+  .listMain2 {
+    height: 100%;
+  }
+
+  .navTogle {
+    display: block;
+  }
+
+  .navTogle .line {
+    background-color: #000;
+    width: 30px;
+    height: 3px;
+    display: block;
+    margin: 6px auto;
+    transition: 0.5s ease-in-out;
+  }
+
+  .navTogle .line.line1 {
+    transform: translateY(10px) rotate(45deg);
+    position: absolute;
+    top: 13px;
+    right: 15px;
+  }
+
+  .navTogle .line.line2 {
+    display: none;
+  }
+
+  .navTogle .line.line3 {
+    transform: translateY(-9px) rotate(-45deg);
+    margin-top: 20px;
+  }
+
+  .backArrow {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    filter: invert(1);
+  }
+
+  .backArrow img {
+    width: 25px;
+    height: 25px;
   }
 }
