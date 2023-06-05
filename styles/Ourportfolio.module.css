@@ -1,7 +1,8 @@
-.lookingfor{
-    padding-top: 120px;
+.ourportfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.bttns1 {
+.bttns1{
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);
     width: 198px;
     height: 45px;
@@ -16,5 +17,5 @@
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }

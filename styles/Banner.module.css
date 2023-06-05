@@ -170,3 +170,12 @@
 .sharjah a {
     display: block;
 }
+
+@media screen and (max-width: 1440px) {
+.bannerimg img{
+    height: 420px;
+}
+
+
+
+ }

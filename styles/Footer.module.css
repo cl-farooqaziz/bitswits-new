@@ -76,3 +76,17 @@
     font-weight: bold;
     margin-top: 12%;
 }
+
+@media screen and (max-width: 1399px) { 
+ 
+  
+  .patner li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  
+  }

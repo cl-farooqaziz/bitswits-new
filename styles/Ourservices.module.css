@@ -1,7 +1,7 @@
-.ourservices{
+.ourservices {
     background-color: #272727;
     padding-top: 65px;
-    
+
 }
 
 
@@ -22,14 +22,39 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .project {
     padding-bottom: 65px;
     border-bottom: 1px solid #707070;
 }
-.imgapost{
-    position:relative;
-}
+
 .imgapost {
+    position: relative;
+}
+
+.imgapost img {
     position: absolute;
-    width: 37%;
+
+}
+
+@media screen and (max-width: 1399px) {
+    .imgapost img {
+        position: absolute;
+        width: 75%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .imgapost img {
+        position: absolute;
+        width: 70%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
 }

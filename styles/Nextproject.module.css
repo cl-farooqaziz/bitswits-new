@@ -59,3 +59,10 @@
     margin: 0;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 1399px) {
+.project {
+    font-size: 22px;
+}
+}

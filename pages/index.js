@@ -6,6 +6,8 @@ import Blogfaqs from '@/components/Blogfaqs'
 import Nextproject from '@/components/Nextproject'
 import Ourservices from '@/components/Ourservices'
 import Lookingfor from '@/components/Lookingfor'
+import Trusted from '@/components/Trusted'
+import Ourportfolio from '@/components/Ourportfolio'
 
 
 export default function Home() {
@@ -23,8 +25,12 @@ export default function Home() {
       <Yearsofexpertise />
       <Ourservices />
       <Lookingfor />
+      <Trusted />
+      <Ourportfolio />
       <Nextproject />
       <Blogfaqs/>
+   
+      
    
 
 
