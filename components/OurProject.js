@@ -52,21 +52,21 @@ const OurProject = () => {
                                                     <h3 className='font20 fontf font-semibold white'>Discovery</h3>
                                                     <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
@@ -81,7 +81,7 @@ const OurProject = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="Bitswits" className='img-fluid'
+                                                    <Image className='img-fluid'
                                                         src={slideImg1}
                                                         alt="bitswits"
                                                     />
@@ -96,21 +96,21 @@ const OurProject = () => {
                                                     <h3 className='font20 fontf font-semibold white'>Discovery</h3>
                                                     <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
@@ -125,7 +125,7 @@ const OurProject = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="Bitswits" className='img-fluid'
+                                                    <Image className='img-fluid'
                                                         src={slideImg2}
                                                         alt="bitswits"
                                                     />
@@ -140,21 +140,21 @@ const OurProject = () => {
                                                     <h3 className='font20 fontf font-semibold white'>Discovery</h3>
                                                     <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
@@ -169,7 +169,7 @@ const OurProject = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="Bitswits" className='img-fluid'
+                                                    <Image className='img-fluid'
                                                         src={slideImg3}
                                                         alt="bitswits"
                                                     />
@@ -184,21 +184,21 @@ const OurProject = () => {
                                                     <h3 className='font20 fontf font-semibold white'>Discovery</h3>
                                                     <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
                                                         <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
                                                     </div>
                                                     <div className={styles.slideList}>
-                                                        <Image alt="Bitswits" className='img-fluid'
+                                                        <Image className='img-fluid'
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
@@ -213,7 +213,7 @@ const OurProject = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="Bitswits" className='img-fluid'
+                                                    <Image className='img-fluid'
                                                         src={slideImg4}
                                                         alt="bitswits"
                                                     />
