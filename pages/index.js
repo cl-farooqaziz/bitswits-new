@@ -8,6 +8,7 @@ import Ourservices from '@/components/Ourservices'
 import Lookingfor from '@/components/Lookingfor'
 import Trusted from '@/components/Trusted'
 import Ourportfolio from '@/components/Ourportfolio'
+import OurProject from '@/components/OurProject'
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Lookingfor />
       <Trusted />
       <Ourportfolio />
+      <OurProject />
       <Nextproject />
       <Blogfaqs />
     </>

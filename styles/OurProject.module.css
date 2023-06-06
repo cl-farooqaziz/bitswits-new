@@ -1,0 +1,51 @@
+.ourProject {
+  background-color: #272727;
+  padding: 50px 0;
+}
+
+.bttns1 {
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  width: 198px;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.prjctSlider {
+  background-color: #575757;
+  width: 65%;
+}
+
+.slideRow {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 15px 8px;
+}
+
+.slideList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.slideList img {
+  width: 10px;
+}
+
+.slideCntnt a {
+  font-size: 20px;
+  font-weight: 700;
+}

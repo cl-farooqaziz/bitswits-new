@@ -1,7 +1,8 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 import styles from '@/styles/Nextproject.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
 import icon1 from '../public/images/nextproject/icon1.png'
 import icon2 from '../public/images/nextproject/icon2.png'
 import icon3 from '../public/images/nextproject/icon3.png'
@@ -10,7 +11,6 @@ import icon5 from '../public/images/nextproject/icon5.png'
 import icon6 from '../public/images/nextproject/icon6.png'
 import icon7 from '../public/images/nextproject/icon7.png'
 
-import Image from 'next/image'
 
 const Nextproject = () => {
     return (
