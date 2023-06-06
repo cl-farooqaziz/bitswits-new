@@ -67,6 +67,10 @@
     font-weight: 400;
 }
 
+.nextalign1{
+    display: none;
+}
+
 
 @media screen and (max-width: 1399px) {
     .project {
@@ -106,6 +110,18 @@
 
 }
 @media screen and (max-width: 480px) { 
+
+    .mobile {
+        backdrop-filter: unset;
+    }
+
+    .nextalign1{
+        display: block;
+        margin-top: 10%;
+    }
+    .nextalign{
+        display: none;
+    }
 
     .mobile {
         width: 100%;

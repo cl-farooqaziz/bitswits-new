@@ -66,7 +66,7 @@ const Ourportfolio = () => {
                         </Col>
                     </Row>
 
-                    <Slider {...awardslogo} className='mt-5'>
+                    <Slider {...awardslogo} className='mt-5 ourarrows2'>
 
 
                         <div className={styles.rightlogo}>
