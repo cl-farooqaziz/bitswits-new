@@ -61,7 +61,7 @@
 }
 .bttns1{
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);
-    width: 198px;
+    width: 272px;
     height: 45px;
     display: block;
     display: flex;
@@ -89,4 +89,31 @@
   }
   
   
+  }
+
+
+  @media screen and (max-width: 767px) {  
+  .bttns1 {
+    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
+    width: 50%;
+    height: 45px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.policy p {
+    text-align: center;
+}
+
   }

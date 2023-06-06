@@ -179,3 +179,59 @@
 
 
  }
+
+
+ @media screen and (max-width: 991px) {
+    .banner {
+        background-color: #F6F1FF;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .read {
+        display: none;
+    }
+    .discuss {
+        display: none!important;
+    }
+    .bannerform {
+        height: auto;
+    }
+    .bannerimg img {
+        height: 420px;
+        display: none;
+    }
+    .make {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        margin-top: 45%;
+    }
+    .banner h1 {
+        padding-top: 150px;
+    }
+
+    .free p {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .take p {
+        color: white;
+        font-size: 11px;
+    }
+
+    .formsbanner .forminput::placeholder{
+        color: white;
+        
+    }
+    
+    .formsbanner .formarea::placeholder{
+        color: white;
+       
+        
+    }
+
+}

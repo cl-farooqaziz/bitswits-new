@@ -64,7 +64,7 @@ const Header = () => {
             <header className={styles.header}>
                 <div className={styles.navLogo}>
                     <Link href="/">
-                        <Image className='img-fluid'
+                        <Image alt="Bitswits" className='img-fluid'
                             src={logo}
                             alt="bitswits"
                         />
@@ -79,7 +79,7 @@ const Header = () => {
                             </Link>
                             <div className={megamenu1 ? `${styles.megaMenu1} ${styles.opnMenu1}` : `${styles.megaMenu1}`}>
                                 <div className={styles.backArrow}>
-                                    <Image
+                                    <Image alt="Bitswits"
                                         alt="bitswits"
                                         src={backarrow}
                                         loading="lazy"
@@ -90,7 +90,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={php}
                                                         alt='bitswits'
                                                     />
@@ -158,7 +158,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={eCom}
                                                         alt='bitswits'
                                                     />
@@ -250,7 +250,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={dotnet}
                                                         alt='bitswits'
                                                     />
@@ -295,7 +295,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={crm}
                                                         alt='bitswits'
                                                     />
@@ -340,7 +340,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={cms}
                                                         alt='bitswits'
                                                     />
@@ -403,7 +403,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={fullStack}
                                                         alt='bitswits'
                                                     />
@@ -460,7 +460,7 @@ const Header = () => {
                                         <div className={`${styles.listMain} ${styles.resList}`}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={apps}
                                                         alt='bitswits'
                                                     />
@@ -499,7 +499,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={games}
                                                         alt='bitswits'
                                                     />
@@ -568,7 +568,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={marketing}
                                                         alt='bitswits'
                                                     />
@@ -595,7 +595,7 @@ const Header = () => {
                                         <div className={`${styles.listMain} ${styles.resList}`}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={more}
                                                         alt='bitswits'
                                                     />
@@ -640,7 +640,7 @@ const Header = () => {
                             </Link>
                             <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
                                 <div className={styles.backArrow}>
-                                    <Image
+                                    <Image alt="Bitswits"
                                         alt="bitswits"
                                         src={backarrow}
                                         loading="lazy"
@@ -651,7 +651,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={company}
                                                         alt='bitswits'
                                                     />
@@ -726,7 +726,7 @@ const Header = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="Bitswits" className='img-fluid'
                                                         src={about}
                                                         alt='bitswits'
                                                     />
@@ -745,7 +745,7 @@ const Header = () => {
                                     <Col lg={6}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="Bitswits" className='img-fluid'
                                                     src={ourbg}
                                                     alt='bitswits'
                                                 />
@@ -762,7 +762,7 @@ const Header = () => {
                             </Link>
                             <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
                                 <div className={styles.backArrow}>
-                                    <Image
+                                    <Image alt="Bitswits"
                                         alt="bitswits"
                                         src={backarrow}
                                         loading="lazy"
@@ -775,7 +775,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image className='img-fluid'
+                                                            <Image alt="Bitswits" className='img-fluid'
                                                                 src={web}
                                                                 alt='bitswits'
                                                             />
@@ -832,7 +832,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image className='img-fluid'
+                                                            <Image alt="Bitswits" className='img-fluid'
                                                                 src={apps}
                                                                 alt='bitswits'
                                                             />
@@ -877,7 +877,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image className='img-fluid'
+                                                            <Image alt="Bitswits" className='img-fluid'
                                                                 src={marketing}
                                                                 alt='bitswits'
                                                             />
@@ -916,7 +916,7 @@ const Header = () => {
                                                 <div className={`${styles.listMain} ${styles.resList}`}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image className='img-fluid'
+                                                            <Image alt="Bitswits" className='img-fluid'
                                                                 src={games}
                                                                 alt='bitswits'
                                                             />
@@ -967,7 +967,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image className='img-fluid'
+                                                            <Image alt="Bitswits" className='img-fluid'
                                                                 src={hosting}
                                                                 alt='bitswits'
                                                             />
@@ -1012,7 +1012,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image className='img-fluid'
+                                                            <Image alt="Bitswits" className='img-fluid'
                                                                 src={cms}
                                                                 alt='bitswits'
                                                             />
@@ -1057,7 +1057,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image className='img-fluid'
+                                                            <Image alt="Bitswits" className='img-fluid'
                                                                 src={tailormade}
                                                                 alt='bitswits'
                                                             />
@@ -1094,7 +1094,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={estate}
                                                                             alt='bitswits'
                                                                         />
@@ -1105,7 +1105,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={travel}
                                                                             alt='bitswits'
                                                                         />
@@ -1116,7 +1116,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={b2b}
                                                                             alt='bitswits'
                                                                         />
@@ -1127,7 +1127,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={b2c}
                                                                             alt='bitswits'
                                                                         />
@@ -1138,7 +1138,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={health}
                                                                             alt='bitswits'
                                                                         />
@@ -1149,7 +1149,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={education}
                                                                             alt='bitswits'
                                                                         />
@@ -1160,7 +1160,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={finance}
                                                                             alt='bitswits'
                                                                         />
@@ -1171,7 +1171,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={education}
                                                                             alt='bitswits'
                                                                         />
@@ -1182,7 +1182,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={media}
                                                                             alt='bitswits'
                                                                         />
@@ -1193,7 +1193,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={foods}
                                                                             alt='bitswits'
                                                                         />
@@ -1204,7 +1204,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={tickets}
                                                                             alt='bitswits'
                                                                         />
@@ -1215,7 +1215,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href='#'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image className='img-fluid'
+                                                                        <Image alt="Bitswits" className='img-fluid'
                                                                             src={automotive}
                                                                             alt='bitswits'
                                                                         />

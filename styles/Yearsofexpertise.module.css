@@ -17,3 +17,20 @@
 .yearsofexpertise .allbest p {
     text-align: center;
 }
+
+@media screen and (max-width: 991px) {
+
+.yearsofexpertise .allbest {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 767px) {
+    
+    .allbest h4 {
+        line-height: 1.3;
+    }
+
+}

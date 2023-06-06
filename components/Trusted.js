@@ -23,15 +23,15 @@ const Trusted = () => {
                 </Col>
             </Row>
          <div className={styles.startup}>
-            <Image src={icon1} className="im-fluid" />
-            <Image src={icon2} className="im-fluid" />
-            <Image src={icon3} className="im-fluid" />
-            <Image src={icon4} className="im-fluid" />
-            <Image src={icon5} className="im-fluid" />
-            <Image src={icon6} className="im-fluid" />
-            <Image src={icon7} className="im-fluid" />
-            <Image src={icon8} className="im-fluid" />
-            <Image src={icon9} className="im-fluid" />
+            <Image alt="Bitswits" src={icon1} className="im-fluid" />
+            <Image alt="Bitswits" src={icon2} className="im-fluid" />
+            <Image alt="Bitswits" src={icon3} className="im-fluid" />
+            <Image alt="Bitswits" src={icon4} className="im-fluid" />
+            <Image alt="Bitswits" src={icon5} className="im-fluid" />
+            <Image alt="Bitswits" src={icon6} className="im-fluid" />
+            <Image alt="Bitswits" src={icon7} className="im-fluid" />
+            <Image alt="Bitswits" src={icon8} className="im-fluid" />
+            <Image alt="Bitswits" src={icon9} className="im-fluid" />
         </div>   
         </Container>
     </section>

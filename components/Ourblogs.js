@@ -11,7 +11,7 @@ import ourportfolio3 from '../public/images/ourportfolio/3.png'
 import Image from 'next/image';
 import { RiArrowRightUpLine } from 'react-icons/ri';
 
-const Ourportfolio = () => {
+const Ourblogs = () => {
 
     var awardslogo = {
         dots: true,
@@ -59,10 +59,10 @@ const Ourportfolio = () => {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Work</h5>
                         </Col>
                         <Col lg={8}>
-                            <h4 className='font65 black fontf font-bold line60 black'>Our <span className='grdiant'>Portfolio</span></h4>
+                            <h4 className='font65 black fontf font-bold line60 black'>Our <span className='grdiant'>Blogs</span></h4>
                         </Col>
                         <Col lg={2}>
-                            <Link className={styles.bttns1} href="#">View All Work</Link>
+                            <Link className={styles.bttns1} href="#">View All Blogs</Link>
                         </Col>
                     </Row>
 
@@ -104,4 +104,4 @@ const Ourportfolio = () => {
     )
 }
 
-export default Ourportfolio
+export default Ourblogs

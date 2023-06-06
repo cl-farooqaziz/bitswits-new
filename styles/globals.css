@@ -11,15 +11,19 @@
 .font-regular {
   font-weight: 400;
 }
+
 .font-medium {
   font-weight: 500;
 }
+
 .font-semibold {
   font-weight: 600;
 }
+
 .font-bold {
   font-weight: 700;
 }
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -29,45 +33,59 @@
 .font65 {
   font-size: 65px;
 }
+
 .font25 {
   font-size: 25px;
 }
+
 .font15 {
   font-size: 15px;
 }
+
 .font20 {
   font-size: 20px;
 }
+
 .font21 {
   font-size: 21px;
 }
+
 .font8 {
   font-size: 8px;
 }
+
 .font10 {
   font-size: 10px;
 }
+
 .font14 {
   font-size: 14px;
 }
+
 .font16 {
   font-size: 16px;
 }
+
 .font12 {
   font-size: 12px;
 }
+
 .font75 {
   font-size: 75px;
 }
+
 .font70 {
   font-size: 70px;
 }
+
 .font30 {
   font-size: 30px;
 }
+
 .font50 {
   font-size: 50px;
 }
+
 .font40 {
   font-size: 40px;
 }
@@ -77,6 +95,7 @@
 .line60 {
   line-height: 65px;
 }
+
 .line30 {
   line-height: 30px;
 }
@@ -99,6 +118,7 @@
 .lightgrey {
   color: #b2b2b2;
 }
+
 .grey {
   color: #707070;
 }
@@ -108,9 +128,11 @@
 .center {
   text-align: center;
 }
+
 .left {
   text-align: left;
 }
+
 .right {
   text-align: right;
 }
@@ -165,6 +187,7 @@ a {
   color: black;
   background-color: #faf7fa;
 }
+
 .faqsblog .accordion-body {
   font-size: 16px;
   color: black;
@@ -186,10 +209,12 @@ a {
 .faqsblog .accordion-item {
   background-color: #faf7fa;
 }
+
 .faqsblog .accordion-item:first-of-type {
   border-top-left-radius: unset;
   border-top-right-radius: unset;
 }
+
 .faqsblog .accordion-item:last-of-type {
   border-bottom-right-radius: unset;
   border-bottom-right-radius: unset;
@@ -210,15 +235,18 @@ a {
   border-bottom: 1px solid #4d4c4c !important;
   border: unset;
 }
+
 .ourservicesfaqs .accordion-button:not(.collapsed) {
   color: #ffffff;
   background-color: unset;
   box-shadow: unset;
 }
+
 .ourservicesfaqs .accordion-item:last-of-type {
   border-bottom-right-radius: unset;
   border-bottom-left-radius: unset;
 }
+
 .ourservicesfaqs .accordion-button {
   background-color: unset;
   color: #ffffff;
@@ -229,6 +257,7 @@ a {
   font-family: "Montserrat";
   font-weight: bold;
 }
+
 .ourservicesfaqs .accordion-body {
   color: #b2b2b2;
   font-size: 15px;
@@ -242,24 +271,102 @@ a {
   .font15 {
     font-size: 13px;
   }
+
   .font65 {
     font-size: 55px;
   }
+
   .font75 {
     font-size: 55px;
   }
+
   .font25 {
     font-size: 18px;
   }
+
   .ourservicesfaqs .accordion-body {
     font-size: 13px;
   }
+
   .ourservicesfaqs .accordion-button {
     font-size: 20px;
     font-family: "Montserrat";
     font-weight: bold;
   }
+
   .faqsblog .accordion-body {
     font-size: 13px;
   }
+}
+
+
+@media screen and (max-width: 1280px) {
+
+  .font30 {
+    font-size: 25px;
+  }
+
+  .font50 {
+    font-size: 40px;
+  }
+
+  .font75 {
+    font-size: 45px;
+  }
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .line60 {
+    line-height: 50px;
+  }
+
+  .aboutfold .col-md-2 {
+    width: 100%;
+  }
+
+  .font65 {
+    font-size: 40px;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .font65 {
+    font-size: 30px;
+  }
+
+  .line60 {
+    line-height: 40px;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .ourservicesfaqs .accordion-body {
+    font-size: 18px;
+}
+  .font15 {
+    font-size: 18px;
+}
+
+  .font75 {
+    font-size: 35px;
+  }
+
+  .font30 {
+    font-size: 20px;
+  }
+  .ourservicesfaqs .accordion-button {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+
 }

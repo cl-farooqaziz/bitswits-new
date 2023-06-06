@@ -7,7 +7,7 @@
 
 .bttns1 {
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);
-    width: 198px;
+    width: 100%;
     height: 45px;
     display: block;
     display: flex;
@@ -58,3 +58,24 @@
     }
 
 }
+@media screen and (max-width: 991px) {
+    .imgapost img {
+        position: unset;
+        width: 75%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-top: 10%;
+        display: block;
+    } 
+
+    .bttns1 {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+
+  
+}
+

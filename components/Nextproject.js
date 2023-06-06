@@ -29,37 +29,37 @@ const Nextproject = () => {
                     </Row>
                     <div className={styles.nextalign}>
                         <div className={styles.mobile}>
-                            <Image src={icon1} className="img-fluid" />
+                            <Image alt="Bitswits" src={icon1} className="img-fluid" />
                             <h3>Enterprise</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image src={icon2} className="img-fluid" />
+                            <Image alt="Bitswits" src={icon2} className="img-fluid" />
                             <h3>MObile App Daily</h3>
                             <p>Top Mobile Application Development Company</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image src={icon3} className="img-fluid" />
+                            <Image alt="Bitswits" src={icon3} className="img-fluid" />
                             <h3>App Futura</h3>
                             <p>Top Application Development Company</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image src={icon4} className="img-fluid" />
+                            <Image alt="Bitswits" src={icon4} className="img-fluid" />
                             <h3>Clutch</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image src={icon5} className="img-fluid" />
+                            <Image alt="Bitswits" src={icon5} className="img-fluid" />
                             <h3>Clutch</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image src={icon6} className="img-fluid" />
+                            <Image alt="Bitswits" src={icon6} className="img-fluid" />
                             <h3>Good Firms</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image src={icon7} className="img-fluid" />
+                            <Image alt="Bitswits" src={icon7} className="img-fluid" />
                             <h3>INC.5000</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>

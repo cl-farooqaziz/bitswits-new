@@ -72,7 +72,7 @@ const Ourservices = () => {
                         </Col>
                         <Col lg={6}>
                           <div className={styles.imgapost}>
-                          <Image src={icon1} className="img-fluid" />
+                          <Image alt="Bitswits" src={icon1} className="img-fluid" />
                           </div>
                         </Col>
                     </Row>

@@ -1,6 +1,6 @@
 .aboutus {
     padding-top: 175px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 
 .decade{
@@ -28,9 +28,23 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 1399px) { 
+@media screen and (max-width: 480px) { 
 
+    .decade {
+        display: flex;
+        gap: 25px;
+        align-items: flex-start;
+        flex-direction: column;
+       
+    }
 
+    .aboutus {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .aboutus h2{
+        font-size: 25px;
+    }
 
 
  }

@@ -19,7 +19,7 @@ const Banner = () => {
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
                         <h1 className='font65 black fontf font-bold line60'> Affordable <span className='grdiant'> Website</span> <br></br> <span className='grdiant'>Mobile App</span> & <span className='grdiant'>Game</span><br></br> Development</h1>
-                        <p className='font25 black fontf font-medium line30'>We deliver great results, on time and on budget. Contact us <br></br> to start talking about your project today!</p>
+                        <p className='font25 black fontf font-medium line30'>We deliver great results, on time and on budget. Contact us to start talking about your project today!</p>
 
                         <div className={`${styles.bttnsto} mt-3`}>
                             <Link className={styles.bttns1} href="#">Book A Call</Link>
@@ -27,7 +27,7 @@ const Banner = () => {
                         </div>
 
                         <div className={styles.bannerimg}>
-                            <Image loading="lazy" src={alignicon} className="img-fluid" alt="bitswits" />
+                            <Image alt="Bitswits" loading="lazy" src={alignicon} className="img-fluid"  />
                         </div>
 
 
@@ -70,7 +70,7 @@ const Banner = () => {
 
 
                                             <div>
-                                                <Image src={icon1} className='img-fluid' />
+                                                <Image alt="Bitswits" src={icon1} className='img-fluid' />
                                             </div>
                                             <div>
                                                 <p className='font8 font-bold fontf mb-1'>Delaware</p>
@@ -89,7 +89,7 @@ const Banner = () => {
                                     </div>
                                     <div className={`${styles.alignment} d-flex`}>
                                         <div>
-                                            <Image src={icon2} className='img-fluid' />
+                                            <Image alt="Bitswits" src={icon2} className='img-fluid' />
                                         </div>
                                         <div>
                                             <p className='font8 font-bold fontf mb-1'>Sharjah</p>
@@ -105,7 +105,7 @@ const Banner = () => {
 
 
                                             <div>
-                                                <Image src={icon3} className='img-fluid' />
+                                                <Image alt="Bitswits" src={icon3} className='img-fluid' />
                                             </div>
                                             <div>
                                                 <p className='font8 font-bold fontf mb-1'>Karachi</p>
@@ -119,7 +119,7 @@ const Banner = () => {
 
 
                                             <div>
-                                                <Image src={icon4} className='img-fluid' />
+                                                <Image alt="Bitswits" src={icon4} className='img-fluid' />
                                             </div>
                                             <div>
                                             <p className='font8 font-bold fontf mb-1'>Malaysia</p>

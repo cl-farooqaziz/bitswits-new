@@ -16,7 +16,7 @@ const About = () => {
             <section className={styles.aboutus}>
 
                 <Container>
-                    <Row>
+                    <Row className='aboutfold'>
                         <Col md={2}>
                             <h3 className='font20 fontf font-semibold mt-5 letterspace black'>About Us</h3>
                         </Col>
@@ -35,7 +35,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image src={icon4} className='img-fluid' />
+                                        <Image alt="Bitswits" src={icon4} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -47,7 +47,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image src={icon1} className='img-fluid' />
+                                        <Image alt="Bitswits" src={icon1} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -60,7 +60,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image src={icon6} className='img-fluid' />
+                                        <Image alt="Bitswits" src={icon6} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -72,7 +72,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image src={icon5} className='img-fluid' />
+                                        <Image alt="Bitswits" src={icon5} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -84,7 +84,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image src={icon2} className='img-fluid' />
+                                        <Image alt="Bitswits" src={icon2} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -95,7 +95,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image src={icon3} className='img-fluid' />
+                                        <Image alt="Bitswits" src={icon3} className='img-fluid' />
                                     </div>
 
                                     <div>

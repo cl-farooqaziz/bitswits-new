@@ -13,3 +13,37 @@
     justify-content: space-between;
 }
 
+
+@media screen and (max-width: 1280px) {
+
+.startup {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap-reverse;
+    filter: opacity(0.5);
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .startup {
+        gap: 35px;
+        flex-wrap: wrap-reverse;
+        filter: opacity(0.5);
+        margin-top: 2%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    .trusted {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+ }
