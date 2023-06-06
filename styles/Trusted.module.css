@@ -12,7 +12,9 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.startup1{
+    display: none;
+}
 
 @media screen and (max-width: 1280px) {
 
@@ -46,4 +48,17 @@
         padding-bottom: 100px;
     }
 
+ }
+@media screen and (max-width: 480px) {
+
+.startup{
+    display: none;
+}
+.startup1 {
+    display: block;
+    margin-top: 10%;
+}
+.startup1  img{
+    padding: 10px;
+}
  }

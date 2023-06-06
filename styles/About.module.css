@@ -11,7 +11,7 @@
 }
 
 .spaceimg {
-    display: flex;
+    display: flex!important;
     align-items: center;
     gap: 12px;
 }
@@ -27,8 +27,16 @@
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);
     text-transform: uppercase;
 }
+.nextalign1 {
+    display: none;
+}
 
 @media screen and (max-width: 480px) { 
+
+   
+    .decade .spaceimg{
+        display: none!important;
+    }
 
     .decade {
         display: flex;
