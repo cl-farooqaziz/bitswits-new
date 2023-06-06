@@ -44,7 +44,7 @@ const OurProject = () => {
                         </Col>
                         <Col lg={12}>
                             <div className='mt-5'>
-                                <Slider {...ourproject} className={`${styles.prjctSlider}`}>
+                                <Slider {...ourproject} className={`${styles.prjctSlider} prjctSlider`}>
                                     <div className={styles.slideBox}>
                                         <Row className={styles.slideRow}>
                                             <Col lg={5}>

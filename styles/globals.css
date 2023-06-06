@@ -265,6 +265,32 @@ a {
   font-weight: 500;
 }
 
+.ourservicesfaqs .accordion-button:not(.collapsed)::after {
+  background-image: url(/images/ourservices/after.png) !important;
+}
+.ourservicesfaqs .accordion-button::after {
+  background-image: url(/images/ourservices/before.png) !important;
+}
+
+/* ===============OurProject================ */
+.prjctSlider .slick-next:before {
+  content: url(../public/images/workprojects/slideright.png);
+}
+
+.prjctSlider .slick-prev:before {
+  content: url(../public/images/workprojects/slideleft.png);
+}
+
+.prjctSlider .slick-prev, .prjctSlider .slick-next{
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1399px) {
@@ -299,9 +325,7 @@ a {
   }
 }
 
-
 @media screen and (max-width: 1280px) {
-
   .font30 {
     font-size: 25px;
   }
@@ -313,12 +337,9 @@ a {
   .font75 {
     font-size: 45px;
   }
-
 }
 
-
 @media screen and (max-width: 991px) {
-
   .line60 {
     line-height: 50px;
   }
@@ -330,9 +351,7 @@ a {
   .font65 {
     font-size: 40px;
   }
-
 }
-
 
 @media screen and (max-width: 767px) {
   .font65 {
@@ -342,18 +361,15 @@ a {
   .line60 {
     line-height: 40px;
   }
-
 }
-
 
 @media screen and (max-width: 480px) {
-
   .ourservicesfaqs .accordion-body {
     font-size: 18px;
-}
+  }
   .font15 {
     font-size: 18px;
-}
+  }
 
   .font75 {
     font-size: 35px;
@@ -366,7 +382,5 @@ a {
     font-size: 18px;
     font-family: "Montserrat";
     font-weight: bold;
-}
-
-
+  }
 }
