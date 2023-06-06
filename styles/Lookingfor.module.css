@@ -39,6 +39,21 @@
     color: black;
     font-weight: 500;
 }
+.devlp .btnblack{
+    width: 447px;
+    border: 1px solid #737272;
+    background-color: black;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
 .roadmap{
 
     padding-left: 0;
@@ -118,6 +133,22 @@
     }
 
     @media screen and (max-width: 767px) { 
+
+        .devlp .btnblack{
+            width: 100%;
+            border: 1px solid #737272;
+            background-color: black;
+            height: 47px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            color: white;
+            font-weight: 500;
+        }
 
         .devlp .game {
             width: 100%;
