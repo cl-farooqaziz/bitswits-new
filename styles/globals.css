@@ -157,6 +157,28 @@ a {
   text-decoration: none !important;
 }
 
+/* ======Btns====== */
+
+.bttns1 {
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  width: max-content;
+  max-width: 280px;
+  height: 45px;
+  padding: 0 50px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 /* scrollbar */
 
 /* width */
@@ -273,25 +295,87 @@ a {
 }
 
 /* ===============OurProject================ */
-.prjctSlider .slick-next:before {
-  content: url(../public/images/workprojects/slideright.png);
-}
 
-.prjctSlider .slick-prev:before {
-  content: url(../public/images/workprojects/slideleft.png);
-}
-
-.prjctSlider .slick-prev, .prjctSlider .slick-next{
-  width: 40px;
-  height: 40px;
-  background-color: #fff;
+.prjctSlider .slick-prev,
+.prjctSlider .slick-next {
+  opacity: 1;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 100%;
+  background-color: unset;
+}
+
+.prjctSlider .slick-next {
+  right: -260px;
+}
+.prjctSlider .slick-prev {
+  left: 870px;
+}
+
+.prjctSlider .slick-prev::before,
+.prjctSlider .slick-next::before {
+  opacity: 1;
+}
+
+.prjctSlider .slick-next::before {
+  content: url(../public/images/workprojects/slideright.png);
+}
+
+.prjctSlider .slick-next:hover::before {
+  content: url(../public/images/workprojects/sliderighthvr.png);
+}
+
+.prjctSlider .slick-prev::before {
+  content: url(../public/images/workprojects/slideleft.png);
+}
+
+.prjctSlider .slick-prev:hover::before {
+  content: url(../public/images/workprojects/slidelefthvr.png);
+}
+
+/* =========================== */
+
+.ourarrows2 .slick-next:before {
+  content: url(../public/images/ourportfolio/arrow2.png);
+  background-color: #000000;
+  padding: 28%;
+  border-radius: 50px;
+}
+.ourarrows2 .slick-prev:before {
+  content: url(../public/images/ourportfolio/arrow.png);
+  background-color: #000000;
+  padding: 28%;
+  border-radius: 50px;
+}
+.ourarrows2 .slick-prev {
+  top: -7%;
+  right: 8% !important;
+  left: unset !important;
+}
+.ourarrows2 .slick-next {
+  top: -7%;
+  right: 22px !important;
+}
+
+.prohome .slick-slide img {
+  display: inline-flex;
+  margin: 0 auto;
+  padding-top: 3%;
 }
 
 /* ===============Media Queries================ */
+
+@media screen and (min-width: 1440px) {
+  .prjctSlider .slick-next {
+    right: -300px;
+  }
+  .prjctSlider .slick-prev {
+    left: 1010px;
+  }
+}
 
 @media screen and (max-width: 1399px) {
   .font15 {
@@ -351,6 +435,15 @@ a {
   .font65 {
     font-size: 40px;
   }
+
+  .prjctSlider .slick-next {
+    right: 20px;
+    top: 0;
+  }
+  .prjctSlider .slick-prev {
+    left: 350px;
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -360,6 +453,12 @@ a {
 
   .line60 {
     line-height: 40px;
+  }
+
+  .ourarrows2 .slick-prev {
+    top: -7%;
+    right: 19% !important;
+    left: unset !important;
   }
 }
 
@@ -382,5 +481,20 @@ a {
     font-size: 18px;
     font-family: "Montserrat";
     font-weight: bold;
+  }
+
+  .usapost .slick-dots li button:before {
+    color: #ffffff !important;
+  }
+  .proclass .slick-dots li button:before {
+    color: #ffffff !important;
+  }
+  .proclass .slick-slide img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+  .ourarrows2 {
+    margin-top: 25% !important;
   }
 }

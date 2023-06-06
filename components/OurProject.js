@@ -9,6 +9,7 @@ import slideImg1 from '../public/images/workprojects/slideimg1.svg'
 import slideImg2 from '../public/images/workprojects/slideimg2.svg'
 import slideImg3 from '../public/images/workprojects/slideimg3.svg'
 import slideImg4 from '../public/images/workprojects/slideimg4.svg'
+import slideImg from '../public/images/workprojects/slideimg.png'
 import slidebefore from '../public/images/workprojects/slidebefore.png'
 
 
@@ -40,9 +41,11 @@ const OurProject = () => {
                             </h4>
                         </Col>
                         <Col lg={2}>
-                            <Link className={styles.bttns1} href="#">Connect Now!</Link>
+                            <Link className={`${styles.bttns1} bttns1 mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
+                                Connect Now!
+                            </Link>
                         </Col>
-                        <Col lg={12}>
+                        <Col lg={8}>
                             <div className='mt-5'>
                                 <Slider {...ourproject} className={`${styles.prjctSlider} prjctSlider`}>
                                     <div className={styles.slideBox}>
@@ -72,7 +75,7 @@ const OurProject = () => {
                                                         />
                                                         <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
                                                     </div>
-                                                    <div className='mt-3'>
+                                                    <div className='mt-3 mb-3 mb-lg-0'>
                                                         <Link href="#" className='grdiant'>
                                                             BOOK A CALL
                                                         </Link>
@@ -116,7 +119,7 @@ const OurProject = () => {
                                                         />
                                                         <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
                                                     </div>
-                                                    <div className='mt-3'>
+                                                    <div className='mt-3 mb-3 mb-lg-0'>
                                                         <Link href="#" className='grdiant'>
                                                             BOOK A CALL
                                                         </Link>
@@ -160,7 +163,7 @@ const OurProject = () => {
                                                         />
                                                         <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
                                                     </div>
-                                                    <div className='mt-3'>
+                                                    <div className='mt-3 mb-3 mb-lg-0'>
                                                         <Link href="#" className='grdiant'>
                                                             BOOK A CALL
                                                         </Link>
@@ -204,7 +207,7 @@ const OurProject = () => {
                                                         />
                                                         <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
                                                     </div>
-                                                    <div className='mt-3'>
+                                                    <div className='mt-3 mb-3 mb-lg-0'>
                                                         <Link href="#" className='grdiant'>
                                                             BOOK A CALL
                                                         </Link>
@@ -222,6 +225,14 @@ const OurProject = () => {
                                         </Row>
                                     </div>
                                 </Slider>
+                            </div>
+                        </Col>
+                        <Col lg={4}>
+                            <div className={`${styles.slideArrow} mt-5`}>
+                                <Image className='img-fluid'
+                                    src={slideImg}
+                                    alt="bitswits"
+                                />
                             </div>
                         </Col>
                     </Row>
