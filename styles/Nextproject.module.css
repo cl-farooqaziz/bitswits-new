@@ -48,8 +48,8 @@
 }
 
 .mobile h3 {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 800;
     color: black;
     font-family: 'Montserrat';
     letter-spacing: 1px;
@@ -59,8 +59,9 @@
 }
 
 .mobile p {
-    color: #434343;
-    font-size: 12px;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 14px;
     text-align: center;
     margin: 0;
     font-weight: 400;

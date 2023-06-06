@@ -98,21 +98,15 @@
 }
 
 .megaMenu1 {
-  height: 90vh;
   padding: 30px 20px;
 }
 
 .megaMenu2 {
-  height: 65vh;
   padding: 30px 20px;
 }
 
-.megaMenu3 {
-  height: 90vh;
-}
-
 .megaRow {
-  row-gap: 35px;
+  row-gap: 30px;
 }
 
 .listHeading {
@@ -233,6 +227,28 @@
 
 /* ===============Media Queries================ */
 
+@media screen and (min-width: 1440) {
+  .megaMenu1,
+  .megaMenu2,
+  .megaMenu3 {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .megaMenu1 {
+    height: 90vh;
+  }
+
+  .megaMenu2 {
+    height: 60vh;
+  }
+
+  .megaMenu3 {
+    height: 90vh;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .navBar {
     position: unset;
@@ -243,16 +259,14 @@
     font-size: 12px;
   }
 
-  .megaMenu2 {
-    height: 80vh;
-  }
-
-  .listImg img {
-    width: 100%;
+  .megaMenu1,
+  .megaMenu2,
+  .megaMenu3 {
+    height: 85vh;
   }
 
   .listMain2 {
-    height: 90vh;
+    height: 85vh;
   }
 
   .resList {
@@ -358,6 +372,10 @@
 
   .listMain2 .listBody ul li a img {
     width: auto;
+  }
+
+  .listImg img {
+    width: 100%;
   }
 
   .listMain2 {
