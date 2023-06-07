@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/lookingfor.module.css'
+import styles from '@/styles/Looking.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import { RxArrowRight } from 'react-icons/rx'
