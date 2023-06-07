@@ -109,7 +109,7 @@ const Ourservices = () => {
                         <Col lg={6}>
                             <Accordion defaultActiveKey="0">
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header onClick={game}>
+                                    <Accordion.Header onMouseEnter={game}>
                                         Mobile Application
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -117,7 +117,7 @@ const Ourservices = () => {
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
-                                    <Accordion.Header onClick={game1}>
+                                    <Accordion.Header onMouseEnter={game1}>
                                         Game Design
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -126,27 +126,27 @@ const Ourservices = () => {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header onClick={game2}>Web 3.0 Design</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game2}>Web 3.0 Design</Accordion.Header>
                                     <Accordion.Body>
                                         For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="3">
-                                    <Accordion.Header onClick={game3}>Blockchain</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game3}>Blockchain</Accordion.Header>
                                     <Accordion.Body>
                                         For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="4">
-                                    <Accordion.Header onClick={game4}>Web Flow Development</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game4}>Web Flow Development</Accordion.Header>
                                     <Accordion.Body>
                                         For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="5">
-                                    <Accordion.Header onClick={game5}>Artificial Intelligence</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game5}>Artificial Intelligence</Accordion.Header>
                                     <Accordion.Body>
                                         For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
                                     </Accordion.Body>

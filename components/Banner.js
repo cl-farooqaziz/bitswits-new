@@ -74,14 +74,14 @@ const Banner = () => {
                                                 <Image alt="Bitswits" src={icon1} className='img-fluid' />
                                             </div>
                                             <div>
-                                                <p className='font8 font-bold fontf mb-1'>Delaware</p>
+                                                <p className='font8 font-bold fontf mb-1 white'>Delaware</p>
                                                 <Link href="#" className='font10 font-bold fontf white texdocration'>+1 833 500 6007</Link>
                                                 <Link href="#" className='font10 font-bold fontf white texdocration'>+1 312 379 5987</Link>
                                             </div>
 
                                         </div>
                                         <div>
-                                            <p className='font8 font-bold fontf mb-1'>California</p>
+                                            <p className='font8 font-bold fontf mb-1 white'>California</p>
                                             <Link href="#" className='font10 font-bold fontf white texdocration'>+1 312 379 5987</Link>
                                             <Link href="#" className='font10 font-bold fontf white texdocration'>+1 833 500 6007</Link>
 
@@ -93,7 +93,7 @@ const Banner = () => {
                                             <Image alt="Bitswits" src={icon2} className='img-fluid' />
                                         </div>
                                         <div>
-                                            <p className='font8 font-bold fontf mb-1'>Sharjah</p>
+                                            <p className='font8 font-bold fontf mb-1 white'>Sharjah</p>
                                             <Link href="#" className='font10 font-bold fontf white texdocration'>+97 155 503 1266</Link>
                                         </div>
                                     </div>
@@ -109,7 +109,7 @@ const Banner = () => {
                                                 <Image alt="Bitswits" src={icon3} className='img-fluid' />
                                             </div>
                                             <div>
-                                                <p className='font8 font-bold fontf mb-1'>Karachi</p>
+                                                <p className='font8 font-bold fontf mb-1 white'>Karachi</p>
                                                 <Link href="#" className='font10 font-bold fontf white texdocration'>+92 346 828 0101</Link>
 
                                             </div>
@@ -123,7 +123,7 @@ const Banner = () => {
                                                 <Image alt="Bitswits" src={icon4} className='img-fluid' />
                                             </div>
                                             <div>
-                                            <p className='font8 font-bold fontf mb-1'>Malaysia</p>
+                                            <p className='font8 font-bold fontf mb-1 white'>Malaysia</p>
                                             <Link href="#" className='font10 font-bold fontf white texdocration'>Labuan</Link>
 
                                             </div>

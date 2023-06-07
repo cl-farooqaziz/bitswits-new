@@ -28,12 +28,15 @@
   font-size: 15px;
   font-weight: bold;
 }
+
 .bttns1:hover {
   background-image: linear-gradient(to right, #4a78ef, #f32f5e);
 }
+
 .bttns2:hover {
   background-image: linear-gradient(to right, #0047ff, #82369c);
 }
+
 .bttns2 {
   background-image: linear-gradient(to right, #82369c, #0047ff);
   width: 198px;
@@ -75,9 +78,12 @@
   padding-left: 35px;
   padding-right: 30px;
 }
-.alignment p, .califonia p {
+
+.alignment p,
+.califonia p {
   font-size: 18px;
 }
+
 .bannnerproject {
   justify-content: space-between;
 }
@@ -149,6 +155,11 @@
   margin: 0 auto;
 }
 
+.notice:hover {
+  background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+}
+
+
 .notice {
   background-image: linear-gradient(to right, #f32f5e, #4a78ef);
   width: 40%;
@@ -216,20 +227,23 @@
   .sharjah a {
     display: block;
     font-size: 15px;
-}
+  }
+
   .alignment p {
     font-size: 25px;
-}
+  }
+
   .califonia p {
     font-size: 25px;
-}
+  }
+
   .califonia {
     gap: 50px;
   }
 
   .sharjah {
     justify-content: space-between;
-}
+  }
 
 
   .banner {
@@ -265,10 +279,35 @@
 }
 
 @media screen and (max-width: 1600px) {
+  .alignment p {
+    font-size: 17px;
+  }
+
+  .califonia p {
+    font-size: 17px;
+  }
+
+  .sharjah a {
+    font-size: 12px;
+  }
+
+  .read {
+    padding-top: 50px;
+  }
+
+  .discuss {
+
+    height: 55px;
+
+  }
+
+  .make {
+    background-color: #272727;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
 
 
-
-  
   .banner h1 {
     margin-top: 20px;
     font-size: 75px;
@@ -280,7 +319,34 @@
   }
 }
 
+
+@media screen and (max-width: 1440px) {
+  .sharjah a {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 1366px) {
+
+  .alignment p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .sharjah a {
+    font-size: 10px;
+
+  }
+
+  .califonia p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .califonia {
+    gap: 35px;
+  }
+
   .banner {
     height: auto;
   }
@@ -297,38 +363,65 @@
 
 @media screen and (max-width: 1280px) {
 
-  .discuss {
-    display: none !important;
+  .sharjah a {
+    font-size: 9px;
   }
 
-  .bannerimg img {
-    top: 15px;
-    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+
+
+
+  .alignment p {
+    font-size: 10px;
+    line-height: 1;
   }
 
-  .read {
-    display: none;
+  .califonia p {
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .discuss a {
+    font-size: 11px;
   }
 
   .banner h1 {
-    font-size: 43px;
+    font-size: 40px;
     line-height: 50px;
+  }
+
+  .sharjah a {
+    font-size: 6px;
+  }
+
+  .free p {
+    font-size: 16px;
   }
 
 }
 
 @media screen and (max-width: 991px) {
 
+  .discuss {
+    display: none !important;
+  }
+
+  .read {
+    display: none;
+  }
+
   .take p {
     font-size: 16px;
-}
+  }
 
   .make {
     background-color: #272727;
     padding-top: 75px;
     padding-bottom: 75px;
     margin-top: 7%;
-}
+  }
 
 
   .banner {
@@ -345,24 +438,25 @@
     position: unset;
   }
 
- 
+
 }
 
 @media screen and (max-width: 767px) {
 
   .take p {
     font-size: 14px;
-}
+  }
 
   .banner h1 {
     font-size: 44px;
     line-height: 54px;
-}
-.make {
-  margin-top: 25%;
-}
+  }
 
- }
+  .make {
+    margin-top: 25%;
+  }
+
+}
 
 
 @media screen and (max-width: 480px) {
@@ -370,7 +464,7 @@
   .banner h1 {
     font-size: 30px;
     line-height: 40px;
-}
+  }
 
   .read {
     display: none;
