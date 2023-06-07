@@ -28,7 +28,12 @@
   font-size: 15px;
   font-weight: bold;
 }
-
+.bttns1:hover {
+  background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+}
+.bttns2:hover {
+  background-image: linear-gradient(to right, #0047ff, #82369c);
+}
 .bttns2 {
   background-image: linear-gradient(to right, #82369c, #0047ff);
   width: 198px;
@@ -204,6 +209,26 @@
 
 
 @media screen and (max-width: 1920px) {
+
+  .sharjah a {
+    display: block;
+    font-size: 15px;
+}
+  .alignment p {
+    font-size: 25px;
+}
+  .califonia p {
+    font-size: 25px;
+}
+  .califonia {
+    gap: 50px;
+  }
+
+  .sharjah {
+    justify-content: space-between;
+}
+
+
   .banner {
     height: 100vh;
   }
@@ -224,11 +249,11 @@
   }
 
   .read {
-    padding-top: 30px;
+    padding-top: 100px;
   }
 
   .bannerimg img {
-    top: 65px;
+    top: 0px;
   }
 
   .bttnsto {
@@ -237,6 +262,10 @@
 }
 
 @media screen and (max-width: 1600px) {
+
+
+
+  
   .banner h1 {
     margin-top: 20px;
     font-size: 75px;

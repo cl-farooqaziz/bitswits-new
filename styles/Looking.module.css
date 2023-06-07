@@ -28,7 +28,7 @@
 .devlp .game{
     width: 447px;
     border: 1px solid #737272;
-    height: 47px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@
     width: 447px;
     border: 1px solid #737272;
     background-color: black;
-    height: 47px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;

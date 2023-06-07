@@ -76,7 +76,9 @@
     font-weight: bold;
     margin-top: 12%;
 }
-
+.bttns1:hover {
+    background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+}
 @media screen and (max-width: 1399px) { 
  
   

@@ -23,67 +23,67 @@ const Ourservices = () => {
 
     function game() {
 
-       
+
         gameapp(true);
         gameapp1(false);
         gameapp2(false);
         gameapp3(false);
         gameapp4(false);
         gameapp5(false);
-  
+
     }
     function game1() {
-      
+
         gameapp(false);
         gameapp1(true);
         gameapp2(false);
         gameapp3(false);
         gameapp4(false);
         gameapp5(false);
-      
+
     }
     function game2() {
-      
+
         gameapp(false);
         gameapp1(false);
         gameapp2(true);
         gameapp3(false);
         gameapp4(false);
         gameapp5(false);
-   
+
     }
 
     function game3() {
-      
+
         gameapp(false);
         gameapp1(false);
         gameapp2(false);
         gameapp3(true);
         gameapp4(false);
         gameapp5(false);
-      
+
     }
 
     function game4() {
-      
+
         gameapp(false);
         gameapp1(false);
         gameapp2(false);
         gameapp3(false);
         gameapp4(true);
         gameapp5(false);
-     
+
     }
 
     function game5() {
-      
+
         gameapp(false);
         gameapp1(false);
         gameapp2(false);
         gameapp3(false);
         gameapp4(false);
         gameapp5(true);
-   
+
     }
 
 
@@ -155,64 +155,64 @@ const Ourservices = () => {
                             </Accordion>
                         </Col>
                         <Col lg={6}>
-{gameshow ?
-                            <div className={styles.imgapost}>
-                                <Image alt="Bitswits" src={icon1} className="img-fluid" />
-                            </div>
-:
-''
+                            {gameshow ?
+                                <div className={styles.imgapost}>
+                                    <Image alt="Bitswits" src={icon1} className="img-fluid" />
+                                </div>
+                                :
+                                ''
 
-}
-
-
+                            }
 
 
-{gameshow1 ?
-                            <div className={styles.imgapost}>
-                                <Image alt="Bitswits" src={icon2} className="img-fluid" />
-                            </div>
-:
-''
-
-}
 
 
-{gameshow2 ?
-                            <div className={styles.imgapost}>
-                                <Image alt="Bitswits" src={icon3} className="img-fluid" />
-                            </div>
-:
-''
+                            {gameshow1 ?
+                                <div className={styles.imgapost}>
+                                    <Image alt="Bitswits" src={icon2} className="img-fluid" />
+                                </div>
+                                :
+                                ''
 
-}
+                            }
 
-{gameshow3 ?
-                            <div className={styles.imgapost}>
-                                <Image alt="Bitswits" src={icon4} className="img-fluid" />
-                            </div>
-:
-''
 
-}
+                            {gameshow2 ?
+                                <div className={styles.imgapost}>
+                                    <Image alt="Bitswits" src={icon3} className="img-fluid" />
+                                </div>
+                                :
+                                ''
 
-{gameshow4 ?
-                            <div className={styles.imgapost}>
-                                <Image alt="Bitswits" src={icon5} className="img-fluid" />
-                            </div>
-:
-''
+                            }
 
-}
-{gameshow5 ?
-                            <div className={styles.imgapost}>
-                                <Image alt="Bitswits" src={icon6} className="img-fluid" />
-                            </div>
-:
-''
+                            {gameshow3 ?
+                                <div className={styles.imgapost}>
+                                    <Image alt="Bitswits" src={icon4} className="img-fluid" />
+                                </div>
+                                :
+                                ''
 
-}
+                            }
 
-                            
+                            {gameshow4 ?
+                                <div className={styles.imgapost1}>
+                                    <Image alt="Bitswits" src={icon5} className="img-fluid" />
+                                </div>
+                                :
+                                ''
+
+                            }
+                            {gameshow5 ?
+                                <div className={styles.imgapost}>
+                                    <Image alt="Bitswits" src={icon6} className="img-fluid" />
+                                </div>
+                                :
+                                ''
+
+                            }
+
+
                         </Col>
 
                     </Row>

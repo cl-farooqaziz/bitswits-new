@@ -70,8 +70,17 @@
 .nextalign1{
     display: none;
 }
+.project:hover {
+    background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+}
 
+@media screen and (min-width: 1399px) { 
 
+    .mobile p {
+        max-width: 150px;
+    }
+
+}
 @media screen and (max-width: 1399px) {
     .project {
         font-size: 22px;

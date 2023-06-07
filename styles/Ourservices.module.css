@@ -36,11 +36,17 @@
     position: absolute;
 
 }
+.imgapost1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
 @media screen and (max-width: 1399px) {
     .imgapost img {
         position: absolute;
-        width: 75%;
+        width: 100%;
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -48,16 +54,16 @@
 }
 
 @media screen and (min-width: 1400px) {
-
     .imgapost img {
         position: absolute;
-        width: 70%;
+        width: 90%;
         left: 0;
         right: 0;
         margin: 0 auto;
     }
-
 }
+
+
 @media screen and (max-width: 1280px) {
 
     .ourservices {
