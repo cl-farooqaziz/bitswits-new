@@ -152,7 +152,7 @@ const About = () => {
 
 
 
-                            <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4 `}>
+                            <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
 
                                 <div className={styles.spaceimg}>
 

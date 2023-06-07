@@ -10,6 +10,7 @@ import Trusted from '@/components/Trusted'
 import Ourportfolio from '@/components/Ourportfolio'
 import OurProject from '@/components/OurProject'
 import Ourblogs from '@/components/Ourblogs'
+import ClientsThink from '@/components/ClientsThink'
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <Trusted />
       <Ourportfolio />
       <OurProject />
+      <ClientsThink />
       <Nextproject />
       <Ourblogs />
     </>
