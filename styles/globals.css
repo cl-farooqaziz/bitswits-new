@@ -416,7 +416,10 @@ input::-webkit-inner-spin-button {
 
 .prohome .slick-dots li button::before,
 .ourarrows2 .slick-dots li button::before,
-.clintSlider .slick-dots li button::before {
+.clintSlider .slick-dots li button::before, 
+.startposition .slick-dots li button::before, 
+.proclass .slick-dots li button::before, 
+.usapost .slick-dots li button::before {
   content: "";
   position: absolute;
   bottom: -30px;
@@ -425,6 +428,10 @@ input::-webkit-inner-spin-button {
   color: black;
   background-color: #4a78ef;
   border-radius: 100%;
+}
+
+.proclass div{
+  margin-bottom: .5%;
 }
 
 /* ===============Media Queries================ */

@@ -82,7 +82,7 @@ const Trusted = () => {
           </div>
 
 
-          <Slider {...awardslogo} className={styles.startup1}>
+          <Slider {...awardslogo} className={` ${styles.startup1}  startposition `}>
             <Image alt="Bitswits" src={icon1} className="img-fluid" />
             <Image alt="Bitswits" src={icon2} className="img-fluid" />
             <Image alt="Bitswits" src={icon3} className="img-fluid" />

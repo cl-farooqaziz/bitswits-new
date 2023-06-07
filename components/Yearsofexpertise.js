@@ -74,7 +74,7 @@ const Yearsofexpertise = () => {
                 
                 <Container className={styles.mobile}>
 
-                    <Slider {...awardslogo} className={` ${styles.allbest} usapost`}>
+                    <Slider {...awardslogo} className={` ${styles.allbest} usapost pt-3 mb-5`}>
 
 
 

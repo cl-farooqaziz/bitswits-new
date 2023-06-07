@@ -56,7 +56,7 @@ const Ourblogs = () => {
                 <Container className='newyou'>
                     <Row className={styles.project}>
                         <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Work</h5>
+                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Insight</h5>
                         </Col>
                         <Col lg={7}>
                             <h4 className='font65 black fontf font-bold line60 black'>Our <span className='grdiant'>Blogs</span></h4>
