@@ -4,8 +4,92 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Accordion from 'react-bootstrap/Accordion';
 import icon1 from '../public/images/ourservices/sideimg.png'
+import icon2 from '../public/images/ourservices/game.png'
+import icon3 from '../public/images/ourservices/web30.png'
+import icon4 from '../public/images/ourservices/blockchain.png'
+import icon5 from '../public/images/ourservices/webflow.png'
+import icon6 from '../public/images/ourservices/artifical.png'
 import Image from 'next/image';
+import { useState } from 'react'
 const Ourservices = () => {
+
+
+    const [gameshow, gameapp] = useState(true);
+    const [gameshow1, gameapp1] = useState(false);
+    const [gameshow2, gameapp2] = useState(false);
+    const [gameshow3, gameapp3] = useState(false);
+    const [gameshow4, gameapp4] = useState(false);
+    const [gameshow5, gameapp5] = useState(false);
+
+    function game() {
+
+       
+        gameapp(true);
+        gameapp1(false);
+        gameapp2(false);
+        gameapp3(false);
+        gameapp4(false);
+        gameapp5(false);
+  
+    }
+    function game1() {
+      
+        gameapp(false);
+        gameapp1(true);
+        gameapp2(false);
+        gameapp3(false);
+        gameapp4(false);
+        gameapp5(false);
+      
+    }
+    function game2() {
+      
+        gameapp(false);
+        gameapp1(false);
+        gameapp2(true);
+        gameapp3(false);
+        gameapp4(false);
+        gameapp5(false);
+   
+    }
+
+    function game3() {
+      
+        gameapp(false);
+        gameapp1(false);
+        gameapp2(false);
+        gameapp3(true);
+        gameapp4(false);
+        gameapp5(false);
+      
+    }
+
+    function game4() {
+      
+        gameapp(false);
+        gameapp1(false);
+        gameapp2(false);
+        gameapp3(false);
+        gameapp4(true);
+        gameapp5(false);
+     
+    }
+
+    function game5() {
+      
+        gameapp(false);
+        gameapp1(false);
+        gameapp2(false);
+        gameapp3(false);
+        gameapp4(false);
+        gameapp5(true);
+   
+    }
+
+
+
+
+
     return (
         <>
             <section className={styles.ourservices}>
@@ -23,58 +107,114 @@ const Ourservices = () => {
                     </Row>
                     <Row className='mt-5 pb-5 ourservicesfaqs'>
                         <Col lg={6}>
-                        <Accordion defaultActiveKey="0">
-                        <Accordion.Item eventKey="0">
-                                <Accordion.Header>
-                                Mobile Application
-                                </Accordion.Header>
-                                <Accordion.Body>
-                                For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="1">
-                                <Accordion.Header>
-                                Game Design
-                                </Accordion.Header>
-                                <Accordion.Body>
-                                    For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
-                                </Accordion.Body>
-                            </Accordion.Item>
+                            <Accordion defaultActiveKey="0">
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header onClick={game}>
+                                        Mobile Application
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="1">
+                                    <Accordion.Header onClick={game1}>
+                                        Game Design
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    </Accordion.Body>
+                                </Accordion.Item>
 
-                            <Accordion.Item eventKey="2">
-                                <Accordion.Header>Web 3.0 Design</Accordion.Header>
-                                <Accordion.Body>
-                                    For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
-                                </Accordion.Body>
-                            </Accordion.Item>
+                                <Accordion.Item eventKey="2">
+                                    <Accordion.Header onClick={game2}>Web 3.0 Design</Accordion.Header>
+                                    <Accordion.Body>
+                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    </Accordion.Body>
+                                </Accordion.Item>
 
-                            <Accordion.Item eventKey="3">
-                                <Accordion.Header>Blockchain</Accordion.Header>
-                                <Accordion.Body>
-                                    For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
-                                </Accordion.Body>
-                            </Accordion.Item>
+                                <Accordion.Item eventKey="3">
+                                    <Accordion.Header onClick={game3}>Blockchain</Accordion.Header>
+                                    <Accordion.Body>
+                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    </Accordion.Body>
+                                </Accordion.Item>
 
-                            <Accordion.Item eventKey="4">
-                                <Accordion.Header>Web Flow Development</Accordion.Header>
-                                <Accordion.Body>
-                                    For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="5">
-                                <Accordion.Header>Artificial Intelligence</Accordion.Header>
-                                <Accordion.Body>
-                                    For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
-                                </Accordion.Body>
-                            </Accordion.Item>
-              
-                        </Accordion>
+                                <Accordion.Item eventKey="4">
+                                    <Accordion.Header onClick={game4}>Web Flow Development</Accordion.Header>
+                                    <Accordion.Body>
+                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="5">
+                                    <Accordion.Header onClick={game5}>Artificial Intelligence</Accordion.Header>
+                                    <Accordion.Body>
+                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+
+                            </Accordion>
                         </Col>
                         <Col lg={6}>
-                          <div className={styles.imgapost}>
-                          <Image alt="Bitswits" src={icon1} className="img-fluid" />
-                          </div>
+{gameshow ?
+                            <div className={styles.imgapost}>
+                                <Image alt="Bitswits" src={icon1} className="img-fluid" />
+                            </div>
+:
+''
+
+}
+
+
+
+
+{gameshow1 ?
+                            <div className={styles.imgapost}>
+                                <Image alt="Bitswits" src={icon2} className="img-fluid" />
+                            </div>
+:
+''
+
+}
+
+
+{gameshow2 ?
+                            <div className={styles.imgapost}>
+                                <Image alt="Bitswits" src={icon3} className="img-fluid" />
+                            </div>
+:
+''
+
+}
+
+{gameshow3 ?
+                            <div className={styles.imgapost}>
+                                <Image alt="Bitswits" src={icon4} className="img-fluid" />
+                            </div>
+:
+''
+
+}
+
+{gameshow4 ?
+                            <div className={styles.imgapost}>
+                                <Image alt="Bitswits" src={icon5} className="img-fluid" />
+                            </div>
+:
+''
+
+}
+{gameshow5 ?
+                            <div className={styles.imgapost}>
+                                <Image alt="Bitswits" src={icon6} className="img-fluid" />
+                            </div>
+:
+''
+
+}
+
+                            
                         </Col>
+
                     </Row>
                 </Container>
 
