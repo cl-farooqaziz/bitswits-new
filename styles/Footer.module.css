@@ -92,6 +92,14 @@
   }
 
 
+  @media screen and (max-width: 991px) {  
+
+    .bttns1{
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+
+  } 
   @media screen and (max-width: 767px) {  
   .bttns1 {
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);

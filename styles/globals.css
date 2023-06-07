@@ -165,7 +165,7 @@ a {
 
 .bttns1 {
   background-image: linear-gradient(to right, #f32f5e, #4a78ef);
-  width: max-content;
+  width:100%;
   max-width: 280px;
   height: 45px;
   padding: 0 50px;
@@ -178,7 +178,7 @@ a {
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -472,7 +472,13 @@ a {
   }
 }
 
+
 @media screen and (max-width: 1280px) {
+  .clintSlider .slick-prev {
+    right:0;
+    top: -40px;
+  }
+
   .font30 {
     font-size: 25px;
   }
@@ -485,6 +491,17 @@ a {
     font-size: 45px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+
+  .clintSlider .slick-prev {
+    right: -32%;
+    top: -40px;
+    left: unset;
+}
+
+ }
+
 
 @media screen and (max-width: 991px) {
   .line60 {
@@ -564,7 +581,7 @@ a {
     margin: 0 auto;
     padding-top: 3%;
   }
-  .ourarrows2 {
-    margin-top: 25% !important;
-  }
+  .newyou .row {
+    margin-bottom: 25%;
+}
 }

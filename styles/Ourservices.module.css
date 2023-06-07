@@ -58,7 +58,20 @@
     }
 
 }
+@media screen and (max-width: 1280px) {
+
+    .ourservices {
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+
+
+ }
 @media screen and (max-width: 991px) {
+
+
+  
+
     .imgapost img {
         position: unset;
         width: 75%;
@@ -76,6 +89,9 @@
 
 @media screen and (max-width: 480px) { 
 
-  
+    .ourservices {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
 }
 

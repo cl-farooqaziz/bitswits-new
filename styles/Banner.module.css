@@ -6,6 +6,12 @@
   padding-top: 55px;
 }
 
+.email {
+  padding-right: 1px;
+  position: relative;
+  left: -3px;
+}
+
 .bttns1 {
   background-image: linear-gradient(to right, #f32f5e, #4a78ef);
   width: 198px;
@@ -22,6 +28,7 @@
   font-size: 15px;
   font-weight: bold;
 }
+
 .bttns2 {
   background-image: linear-gradient(to right, #82369c, #0047ff);
   width: 198px;
@@ -38,6 +45,7 @@
   font-size: 15px;
   font-weight: bold;
 }
+
 .bttnsto {
   flex-direction: row;
   align-items: center;
@@ -62,9 +70,11 @@
   padding-left: 35px;
   padding-right: 30px;
 }
+
 .bannnerproject {
   justify-content: space-between;
 }
+
 .discuss a {
   text-decoration: none;
 }
@@ -74,6 +84,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .free {
   max-width: 85%;
   margin: 0 auto;
@@ -88,18 +99,22 @@
   margin-bottom: 2%;
   padding-left: 4%;
 }
+
 .formsbanner .forminput::placeholder {
   color: #444444;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
 }
+
 .formsbanner .forminput:focus-visible {
   outline: none;
 }
+
 .formsbanner .formarea:focus-visible {
   outline: none;
 }
+
 .formsbanner .formarea::placeholder {
   color: #444444;
   font-family: "Montserrat", sans-serif;
@@ -117,6 +132,7 @@
   padding-left: 4%;
   padding-top: 4%;
 }
+
 .formsbanner {
   max-width: 85%;
   margin: 0 auto;
@@ -154,6 +170,7 @@
 .califonia {
   gap: 11px;
 }
+
 .sharjah {
   max-width: 85%;
   margin: 0 auto;
@@ -238,48 +255,106 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+
+  .discuss {
+    display: none !important;
+  }
+
+  .bannerimg img {
+    top: 15px;
+    display: none;
+  }
+
+  .read {
+    display: none;
+  }
+
+  .banner h1 {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+}
+
 @media screen and (max-width: 991px) {
+
+  .take p {
+    font-size: 16px;
+}
+
+  .make {
+    background-color: #272727;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-top: 7%;
+}
+
+
   .banner {
     background-color: #f6f1ff;
     height: auto;
   }
 
   .banner h1 {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 65px;
+    line-height: 75px;
   }
 
   .bannerimg img {
     position: unset;
   }
+
+ 
 }
 
-@media screen and (max-width: 991px) {
-  .banner h1 {
-    margin-top: 0px;
-    font-size: 34px;
-    line-height: 44px;
-  }
+@media screen and (max-width: 767px) {
+
+  .take p {
+    font-size: 14px;
 }
+
+  .banner h1 {
+    font-size: 44px;
+    line-height: 54px;
+}
+.make {
+  margin-top: 25%;
+}
+
+ }
+
+
 @media screen and (max-width: 480px) {
+
+  .banner h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
   .read {
     display: none;
   }
+
   .discuss {
     display: none !important;
   }
+
   .bannerform {
     height: auto;
   }
+
   .bannerimg img {
     height: 420px;
     display: none;
   }
+
   .make {
     padding-top: 45px;
     padding-bottom: 45px;
     margin-top: 40%;
   }
+
   .banner h1 {
     padding-top: 150px;
   }

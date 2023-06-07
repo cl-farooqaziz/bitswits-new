@@ -31,7 +31,29 @@
 .nextalign1 {
     display: none!important;
 }
+
+
+
+@media screen and (max-width: 1280px) { 
+    .aboutus {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+ }
+@media screen and (max-width: 991px) {
+
+    .aboutus {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+ }
 @media screen and (max-width: 480px) { 
+
+
+    .aboutbtn {
+        margin-top: 15%; 
+    }
+
     .nextalign1 {
         display: block!important;
     }

@@ -53,7 +53,7 @@ const Ourportfolio = () => {
     return (
         <>
             <section className={styles.ourportfolio}>
-                <Container>
+                <Container className='newyou'>
                     <Row className={styles.project}>
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Work</h5>

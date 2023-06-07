@@ -1,6 +1,6 @@
 .ourProject {
   background-color: #272727;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .prjctSlider {
@@ -47,6 +47,11 @@
 
 /* ===============Media Queries================ */
 
+@media screen and (max-width: 1280px) {
+ 
+
+
+ }
 @media screen and (max-width: 991px) {
 
   .prjctSlider {

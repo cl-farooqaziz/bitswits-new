@@ -18,7 +18,7 @@ const About = () => {
         dots: true,
         arrows: false,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,

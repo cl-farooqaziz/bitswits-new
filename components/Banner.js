@@ -8,6 +8,7 @@ import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon3 from '../public/images/banner/icon3.png'
 import icon4 from '../public/images/banner/icon4.png'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 
 
 const Banner = () => {
@@ -36,7 +37,7 @@ const Banner = () => {
                         <div className={styles.bannerform}>
 
                             <div className={`${styles.discuss} d-flex`}>
-                                <p className='font12 font-semibold lightgrey fontf m-0'>Let's discuss your project: </p>
+                                <p className='font12 font-semibold lightgrey fontf m-0'> <BsFillTelephoneFill size={10} className={styles.email} />Let's discuss your project: </p>
                                 <Link className='font21 font-medium white fontf' href='tel:(833) 500-6007'>(833) 500-6007</Link>
                             </div>
 

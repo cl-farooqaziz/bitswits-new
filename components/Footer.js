@@ -76,7 +76,7 @@ const Footer = () => {
 
               <div className={styles.fill}>
                 <div>
-                  <BsFillTelephoneFill size={20} className={styles.email} />
+                  <BsFillTelephoneFill size={25} className={styles.email} />
                 </div>
                 <div>
                   <Link className='font15 font-medium white fontf' href="tel:+1 312 379 5987">+1 312 379 5987</Link> <br></br>

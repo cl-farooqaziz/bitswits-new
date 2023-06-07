@@ -249,6 +249,16 @@
   }
 }
 
+@media screen and (max-width: 1280px) { 
+
+  .menu li a {
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+
+}
+
 @media screen and (max-width: 991px) {
   .navBar {
     position: unset;
