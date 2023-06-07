@@ -1,6 +1,7 @@
 .ourservices {
     background-color: #272727;
     padding-top: 65px;
+    height: 115vh;
 
 }
 .bttns1:hover {
@@ -28,6 +29,7 @@
 .project {
     padding-bottom: 65px;
     border-bottom: 1px solid #707070;
+   
 }
 
 .imgapost {
@@ -82,7 +84,12 @@
 @media screen and (max-width: 991px) {
 
 
-
+    .ourservices {
+        background-color: #272727;
+        padding-top: 65px;
+        height: auto;
+    
+    }
 
     .imgapost img {
         position: unset;
