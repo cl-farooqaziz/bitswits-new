@@ -1,9 +1,11 @@
 .ourservices {
     background-color: #272727;
     padding-top: 65px;
-    height: 115vh;
+    height: 75vh;
 
 }
+
+
 .bttns1:hover {
     background-image: linear-gradient(to right, #4a78ef, #f32f5e);
 }
@@ -50,7 +52,23 @@
 .imgapost1 {
     margin-top: 6%;
 }
+@media screen and (max-width: 1600px) { 
+
+    .ourservices {
+        height: 90vh;
+    
+    }
+
+}
 @media screen and (max-width: 1399px) {
+
+    .ourservices {
+        height: 100vh;
+    
+    }
+
+  
+
     .imgapost img {
         position: absolute;
         width: 100%;
