@@ -111,6 +111,10 @@
 }
 @media screen and (max-width: 480px) { 
 
+    .mobile p {
+        line-height: 1.3;
+    }
+
     .mobile {
         backdrop-filter: unset;
     }

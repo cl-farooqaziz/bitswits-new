@@ -100,6 +100,7 @@
     }
 
   } 
+
   @media screen and (max-width: 767px) {  
   .bttns1 {
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);
@@ -125,3 +126,11 @@
 }
 
   }
+
+  @media screen and (max-width: 480px) {  
+
+    .past h3 {
+        margin-top: 9%;
+    }
+
+   }
