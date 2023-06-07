@@ -62,7 +62,7 @@ const Ourblogs = () => {
                             <h4 className='font65 black fontf font-bold line60 black'>Our <span className='grdiant'>Blogs</span></h4>
                         </Col>
                         <Col lg={3}>
-                            <Link className={styles.bttns1} href="#">View All Blogs</Link>
+                            <Link className={styles.bttns1} href="#">View All Blogs </Link>
                         </Col>
                     </Row>
 
