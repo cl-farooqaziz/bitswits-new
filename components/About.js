@@ -161,7 +161,7 @@ const About = () => {
                                     </div>
 
                                     <div>
-                                        <p className='fontf font25 font-medium m-0 black'>Home,</p>
+                                        <p className='fontf font25 font-medium m-0 black'>Home</p>
                                     </div>
 
                                 </div>
@@ -173,7 +173,7 @@ const About = () => {
                                     </div>
 
                                     <div>
-                                        <p className='fontf font25 font-medium m-0 black'>food,</p>
+                                        <p className='fontf font25 font-medium m-0 black'>food</p>
                                     </div>
 
                                 </div>
@@ -186,7 +186,7 @@ const About = () => {
                                     </div>
 
                                     <div>
-                                        <p className='fontf font25 font-medium m-0 black'>improve health,</p>
+                                        <p className='fontf font25 font-medium m-0 black'>improve health</p>
                                     </div>
 
                                 </div>
@@ -198,7 +198,7 @@ const About = () => {
                                     </div>
 
                                     <div>
-                                        <p className='fontf font25 font-medium m-0 black'>make better trade,</p>
+                                        <p className='fontf font25 font-medium m-0 black'>make better trade</p>
                                     </div>
 
                                 </div>
@@ -210,7 +210,7 @@ const About = () => {
                                     </div>
 
                                     <div>
-                                        <p className='fontf font25 font-medium m-0 black'>educate leaders,</p>
+                                        <p className='fontf font25 font-medium m-0 black'>educate leaders</p>
                                     </div>
 
                                 </div>
@@ -222,7 +222,7 @@ const About = () => {
                                     </div>
 
                                     <div>
-                                        <p className='fontf font25 font-medium m-0 black'>and more,</p>
+                                        <p className='fontf font25 font-medium m-0 black'>and more</p>
                                     </div>
 
                                 </div>

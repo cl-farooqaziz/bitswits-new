@@ -27,12 +27,14 @@
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);
     text-transform: uppercase;
 }
+
 .nextalign1 {
-    display: none;
+    display: none!important;
 }
-
 @media screen and (max-width: 480px) { 
-
+    .nextalign1 {
+        display: block!important;
+    }
    
     .decade .spaceimg{
         display: none!important;
