@@ -325,19 +325,19 @@ a {
 }
 
 .prjctSlider .slick-next::before {
-  content: url(../public/images/workprojects/slideright.png);
+  content: url(/images/workprojects/slideright.png);
 }
 
 .prjctSlider .slick-next:hover::before {
-  content: url(../public/images/workprojects/sliderighthvr.png);
+  content: url(/images/workprojects/sliderighthvr.png);
 }
 
 .prjctSlider .slick-prev::before {
-  content: url(../public/images/workprojects/slideleft.png);
+  content: url(/images/workprojects/slideleft.png);
 }
 
 .prjctSlider .slick-prev:hover::before {
-  content: url(../public/images/workprojects/slidelefthvr.png);
+  content: url(/images/workprojects/slidelefthvr.png);
 }
 
 /* =============ClientSlider============== */
@@ -378,13 +378,13 @@ a {
 }
 
 .ourarrows2 .slick-next:before {
-  content: url(../public/images/ourportfolio/arrow2.png);
+  content: url(/images/ourportfolio/arrow2.png);
   background-color: #000000;
   padding: 28%;
   border-radius: 50px;
 }
 .ourarrows2 .slick-prev:before {
-  content: url(../public/images/ourportfolio/arrow.png);
+  content: url(/images/ourportfolio/arrow.png);
   background-color: #000000;
   padding: 28%;
   border-radius: 50px;
