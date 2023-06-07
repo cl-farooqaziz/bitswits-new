@@ -29,7 +29,7 @@ function ClientsThink() {
         <section className={styles.ourClients}>
             <Container>
                 <Row className={styles.clients}>
-                    <Col lg={3}>
+                    <Col lg={2}>
                         <h5 className='font20 fontf font-semibold mt-1 letterspace black mb-0'>Reviews</h5>
                     </Col>
                     <Col lg={7}>
@@ -38,7 +38,7 @@ function ClientsThink() {
                             Think About US
                         </h4>
                     </Col>
-                    <Col lg={2}>
+                    <Col lg={3}>
                         <Link className={`${styles.bttns1} bttns1 mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
                             View All
                         </Link>
