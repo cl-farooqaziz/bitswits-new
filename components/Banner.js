@@ -31,25 +31,27 @@ const Banner = () => {
                             <Link className={styles.bttns2} href="#">Live Chat </Link>
                         </div>
 
+
+<div className={styles.bannerimg2}>  
                         <div className={styles.bannerimg1}>
 
-                            <div className={styles.logo1}>
+                            <div className={` ${styles.logo1} ${styles.logo13} `}>
 
-                                <Image alt="Bitswits" loading="lazy" src={alignicon4} className="img-fluid" />
-                                <Image alt="Bitswits" loading="lazy" src={alignicon3} className="img-fluid" />
+                                <Image alt="Bitswits" loading="lazy" src={alignicon4} className={` ${styles.bottom}  img-fluid`} />
+                                <Image alt="Bitswits" loading="lazy" src={alignicon3} className={`${styles.bottom1}  img-fluid mt-3` } />
 
                             </div>
 
                             <div className={styles.logo1}>
-                                <Image alt="Bitswits" loading="lazy" src={alignicon} className="img-fluid" />
+                                <Image alt="Bitswits" loading="lazy" src={alignicon} className={`${styles.bottom2} img-fluid` } />
                             </div>
 
-                            <div className={styles.logo1}>
-                            <Image alt="Bitswits" loading="lazy" src={alignicon2} className="img-fluid" />
-                                <Image alt="Bitswits" loading="lazy" src={alignicon1} className="img-fluid" />
+                            <div className={` ${styles.logo1} ${styles.logo14} `}>
+                            <Image alt="Bitswits" loading="lazy" src={alignicon2} className={`${styles.bottom3} img-fluid` } />
+                                <Image alt="Bitswits" loading="lazy" src={alignicon1} className={`${styles.bottom4} img-fluid` } />
                         
-                            </div>
-
+                        </div>
+</div>
 
 
 

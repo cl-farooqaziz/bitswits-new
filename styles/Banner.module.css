@@ -233,6 +233,103 @@
 
 
 
+
+
+
+.logo13 {
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+}
+.logo14 {
+  transform: translatey(0px);
+  animation: float1 5s ease-in-out infinite;
+}
+
+
+@keyframes float {
+0% {
+  
+  transform: translatey(0px);
+}
+50% {
+  
+  transform: translatey(-20px);
+}
+100% {
+  
+  transform: translatey(0px);
+}
+}
+
+@keyframes float1 {
+  0% {
+    
+    transform: translatey(0px);
+  }
+  50% {
+    
+    transform: translatey(20px);
+  }
+  100% {
+    
+    transform: translatey(0px);
+  }
+  }
+
+
+
+  .bottom {
+    animation:  buger-bottom;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translate(0, 200%);
+  }
+  .bottom1 {
+    animation:  buger-bottom;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translate(0, 200%);
+  
+  }
+  .bottom2 {
+    animation:  buger-bottom;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translate(0, 200%);
+   
+  }
+  .bottom3 {
+    animation: buger-bottom;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translate(0, 200%);
+  }
+  .bottom4 {
+    animation: buger-bottom;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translate(0, 200%);
+  }
+
+@keyframes buger-bottom {
+    0% {
+        transform: translate(0, 200%);
+        opacity: .5;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+
+
+
 @media screen and (max-width: 1920px) {
 
 
@@ -348,6 +445,15 @@
 }
 
 @media screen and (max-width: 1366px) {
+
+
+  .bannerimg2 {
+    position: relative;
+  }
+  .bannerimg1 {
+    position: absolute;
+  }
+  
 
   .alignment p {
     font-size: 14px;
