@@ -32,14 +32,14 @@ const Footer = () => {
 
           <Row className={styles.past}>
             <Col lg={4}>
-              <h3 className='grdiant fontf font-bold font40 mb-5'>BitsWits</h3>
+              <h3 className='grdiant fontf font-bold font40 mb-4'>BitsWits</h3>
               <p className='font15 font-medium white fontf'>For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.</p>
 
               <Link className={styles.bttns1} href="#">Book A Call</Link>
 
             </Col>
             <Col lg={2}>
-              <h3 className='font25 font-bold white fontf mb-5'>Discover</h3>
+              <h3 className='font25 font-bold white fontf mb-4'>Discover</h3>
               <ul className={styles.patner}>
                 <li> <Link href="#">ABOUT US</Link> </li>
                 <li> <Link href="#">WORK</Link> </li>
@@ -49,7 +49,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg={2}>
-              <h3 className='font25 font-bold white fontf mb-5'>Services</h3>
+              <h3 className='font25 font-bold white fontf mb-4'>Services</h3>
               <ul className={styles.patner}>
                 <li> <Link href="#">WEB DESIGN</Link> </li>
                 <li> <Link href="#">MOBILE APP DESIGN</Link> </li>
@@ -58,7 +58,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg={3}>
-              <h3 className='font25 font-bold white fontf mb-5'>Contact</h3>
+              <h3 className='font25 font-bold white fontf mb-4'>Contact</h3>
 
 
 

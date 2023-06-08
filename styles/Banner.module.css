@@ -197,7 +197,7 @@
   max-width: 85%;
   margin: 0 auto;
   gap: 21px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .alignment {
@@ -224,9 +224,14 @@
 
 @media screen and (max-width: 1920px) {
 
+
+  .alignment {
+    gap: 30px;
+}
+
   .sharjah a {
     display: block;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .alignment p {
@@ -234,7 +239,7 @@
   }
 
   .califonia p {
-    font-size: 25px;
+    font-size: 14px;
   }
 
   .califonia {
@@ -279,6 +284,11 @@
 }
 
 @media screen and (max-width: 1600px) {
+
+  .alignment{
+    gap: 15px;
+}
+
   .alignment p {
     font-size: 17px;
   }
@@ -288,7 +298,7 @@
   }
 
   .sharjah a {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .read {
@@ -334,7 +344,7 @@
   }
 
   .sharjah a {
-    font-size: 10px;
+    font-size: 9px;
 
   }
 
@@ -364,7 +374,7 @@
 @media screen and (max-width: 1280px) {
 
   .sharjah a {
-    font-size: 9px;
+    font-size: 7px;
   }
 
 }

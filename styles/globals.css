@@ -426,8 +426,20 @@ input::-webkit-inner-spin-button {
   width: 15px;
   height: 15px;
   color: black;
-  background-color: #4a78ef;
+  background-color: unset;
+  border: 1px solid black;
   border-radius: 100%;
+}
+.prohome .slick-dots li.slick-active button:before, 
+.ourarrows2 .slick-dots li.slick-active button:before, 
+.clintSlider .slick-dots li.slick-active button:before, 
+.startposition .slick-dots li.slick-active button:before, 
+.proclass .slick-dots li.slick-active button:before, 
+.usapost .slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: black;
+  background-color: #4A78EF;
+  border: unset;
 }
 
 .proclass div{
