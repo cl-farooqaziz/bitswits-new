@@ -18,7 +18,12 @@
     font-weight: bold;
     text-transform: uppercase;
 }
-
+.bttns1:hover {
+    background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+}
+.btn1:hover {
+    background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+}
 .devlp{
     color: black;
     display: flex;
