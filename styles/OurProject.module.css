@@ -35,8 +35,8 @@
 }
 
 .slideImg {
-  margin-top: 2px;
-  margin-bottom: 2px;
+  
+  width: 80%;
 }
 
 .slideArrow {
@@ -49,8 +49,9 @@
 .bttns1:hover {
   transition: background-color 2s;
   background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
-
 }
+
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1280px) {

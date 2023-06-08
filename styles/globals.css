@@ -448,8 +448,33 @@ input::-webkit-inner-spin-button {
 
 .sidenew .slick-current {
   background-color: #565656;
-  width: 830px!important;
-  padding: 1%;
+  width: 820px!important;
+  padding: 30px;
+}
+.sidenew  .slick-slide.slick-active {
+  padding: 20px;
+}
+
+.sidenew .d-flex {
+  align-items: center;
+}
+/* .sidenew .slick-cloned {
+  display: none!important;
+} */
+
+.sidenew:after {
+  position: absolute;
+  content: '';
+  background-color: #000000de;
+  width: 294px;
+  height: 387px;
+  top: 0;
+  right: -9px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+.sidenew {
+  position: relative;
 }
 
 /* ===============Media Queries================ */
