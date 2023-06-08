@@ -20,7 +20,7 @@ const Footer = () => {
         <Container>
           <Row className={styles.project}>
             <Col lg={4}>
-              <h3 className='fontf font-bold grdiant font50'>Start Project</h3>
+              <h3 className={` ${styles.now} fontf font-bold grdiant font50`}>Start Project</h3>
             </Col>
             <Col lg={4}>
               <h3 className='fontf font-bold white font50'>Right Now <span className={styles.now}> . </span> </h3>

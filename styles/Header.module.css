@@ -223,7 +223,8 @@
 }
 
 .inqBtn a:hover {
-  background-image: linear-gradient(to right, #82369c, #0047ff);
+    transition: background-color 2s;
+    background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
 }
 
 /* ===============Media Queries================ */

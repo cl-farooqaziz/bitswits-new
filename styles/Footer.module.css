@@ -81,6 +81,27 @@
     transition: background-color 2s;
     background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
 }
+
+.now:hover {
+    text-shadow: 1px 4px #ffffff;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.now {
+    transition: 1s ease;
+}
+
+.email:hover {
+    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.email {
+    
+    transition: 1s ease;
+
+}
+
 @media screen and (max-width: 1399px) { 
  
   

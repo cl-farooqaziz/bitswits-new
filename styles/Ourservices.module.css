@@ -53,6 +53,31 @@
 .imgapost1 {
     margin-top: 6%;
 }
+
+.bottom4 {
+    width: 100%;
+    height: auto;
+    animation: buger-bottom;
+    animation-delay: 1ms;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translate(0, 200%);
+    
+  }
+
+@keyframes buger-bottom {
+    0% {
+        transform: translate(0, 200%);
+        opacity: .5;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+
+
 @media screen and (max-width: 1600px) { 
 
     .ourservices {
