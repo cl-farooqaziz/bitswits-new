@@ -18,11 +18,14 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .bttns1:hover {
-    background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+    transition: background-color 2s;
+    background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
 }
 .btn1:hover {
-    background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+    transition: background-color 2s;
+    background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
 }
 .devlp{
     color: black;
@@ -105,6 +108,27 @@
     position: absolute;
     height: auto;
     bottom: 0px;
+}
+
+.bottom4 {
+    width: 100%;
+    height: auto;
+    animation: buger-bottom;
+    animation-delay: 1ms;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translate(0, 100%);
+  }
+
+@keyframes buger-bottom {
+    0% {
+        transform: translate(0, 100%);
+        opacity: .5;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
 }
 
 

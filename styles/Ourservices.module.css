@@ -7,7 +7,8 @@
 
 
 .bttns1:hover {
-    background-image: linear-gradient(to right, #4a78ef, #f32f5e);
+    transition: background-color 2s;
+    background: linear-gradient(90deg, #4a78ef, transparent) #f32f5e;
 }
 
 .bttns1 {

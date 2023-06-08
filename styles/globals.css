@@ -576,6 +576,19 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 480px) {
+
+  .usapost .slick-dots li button::before,.proclass .slick-dots li button::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    width: 15px;
+    height: 15px;
+    color: black;
+    background-color: unset;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
   .ourservicesfaqs .accordion-body {
     font-size: 18px;
   }

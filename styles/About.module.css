@@ -28,12 +28,25 @@
     text-transform: uppercase;
 }
 
+.aboutbtn:hover {
+    transition: background-color 2s;
+    background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
+  }
+
 .nextalign1 {
     display: none!important;
 }
 
 
 
+@media screen and (max-width: 1366px) {  
+
+    .aboutus {
+        padding-top: 125px;
+        
+    }
+
+}
 @media screen and (max-width: 1280px) { 
     .aboutus {
         padding-top: 120px;

@@ -93,7 +93,7 @@ const Lookingfor = () => {
                         </Col>
                         <Col lg={6}>
                           <div className={styles.output}>
-                             <Image alt="Bitswits" src={ourportfolio3} className="img-fluid" />
+                             <Image alt="Bitswits" src={ourportfolio3} className={ gameshow ? styles.bottom4 : styles.bottom4 } />
                           </div>
                         </Col>
                     </Row>
@@ -137,7 +137,7 @@ const Lookingfor = () => {
     </Col>
     <Col lg={6}>
       <div className={styles.output}>
-         <Image alt="Bitswits" src={ourportfolio31} className="img-fluid" />
+         <Image alt="Bitswits" src={ourportfolio31} className={ gameshow ? styles.bottom4 : styles.bottom4 } />
       </div>
     </Col>
 </Row>
@@ -182,7 +182,7 @@ const Lookingfor = () => {
     </Col>
     <Col lg={6}>
       <div className={styles.output}>
-         <Image alt="Bitswits" src={ourportfolio32} className="img-fluid" />
+         <Image alt="Bitswits" src={ourportfolio32} className={ gameshow ? styles.bottom4 : styles.bottom4 } />
       </div>
     </Col>
 </Row>

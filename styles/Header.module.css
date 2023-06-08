@@ -286,12 +286,16 @@
 }
 
 @media screen and (max-width: 767px) {
+
+
+
   .header {
     padding: 0 15px;
   }
 
   .navLogo {
     margin-left: 0px;
+    width: 30%;
   }
 
   .navBar {
@@ -436,3 +440,12 @@
     height: 25px;
   }
 }
+
+@media screen and (max-width: 480px) { 
+
+  .navLogo {
+    width: 60%;
+  }
+
+}
+

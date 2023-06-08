@@ -27,15 +27,9 @@
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
+  transition: background-color 1s;
 }
 
-.bttns1:hover {
-  background-image: linear-gradient(to right, #4a78ef, #f32f5e);
-}
-
-.bttns2:hover {
-  background-image: linear-gradient(to right, #0047ff, #82369c);
-}
 
 .bttns2 {
   background-image: linear-gradient(to right, #82369c, #0047ff);
@@ -52,6 +46,20 @@
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
+
+}
+
+.bttns2:hover {
+  transition: background-color 2s;
+  background: linear-gradient(90deg, #4a78ef, transparent) #f32f5e;
+}
+.notice:hover {
+  transition: background-color 2s;
+  background: linear-gradient(90deg, #4a78ef, transparent) #f32f5e;
+}
+.bttns1:hover {
+  transition: background-color 2s;
+  background: linear-gradient(90deg, #0047ff, transparent) #82369c;
 }
 
 .bttnsto {
@@ -155,9 +163,7 @@
   margin: 0 auto;
 }
 
-.notice:hover {
-  background-image: linear-gradient(to right, #4a78ef, #f32f5e);
-}
+
 
 
 .notice {
@@ -445,6 +451,7 @@
 }
 
 @media screen and (max-width: 1366px) {
+  
 
 
   .bannerimg2 {
@@ -531,6 +538,10 @@
 
 @media screen and (max-width: 991px) {
 
+  .bannerimg1 img {
+    display: none;
+  }
+
   .discuss {
     display: none !important;
   }
@@ -587,6 +598,8 @@
 
 
 @media screen and (max-width: 480px) {
+
+
 
   .banner h1 {
     font-size: 30px;
