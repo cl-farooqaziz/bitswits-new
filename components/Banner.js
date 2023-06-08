@@ -3,7 +3,11 @@ import styles from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
-import alignicon from '../public/images/banner/bannerimage.svg'
+import alignicon from '../public/images/banner/bannerimage.png'
+import alignicon1 from '../public/images/banner/bannerimage1.png'
+import alignicon2 from '../public/images/banner/bannerimage2.png'
+import alignicon3 from '../public/images/banner/bannerimage3.png'
+import alignicon4 from '../public/images/banner/bannerimage4.png'
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon3 from '../public/images/banner/icon3.png'
@@ -27,8 +31,31 @@ const Banner = () => {
                             <Link className={styles.bttns2} href="#">Live Chat </Link>
                         </div>
 
-                        <div className={styles.bannerimg}>
-                            <Image alt="Bitswits" loading="lazy" src={alignicon} className="img-fluid" />
+                        <div className={styles.bannerimg1}>
+
+                            <div className={styles.logo1}>
+
+                                <Image alt="Bitswits" loading="lazy" src={alignicon4} className="img-fluid" />
+                                <Image alt="Bitswits" loading="lazy" src={alignicon3} className="img-fluid" />
+
+                            </div>
+
+                            <div className={styles.logo1}>
+                                <Image alt="Bitswits" loading="lazy" src={alignicon} className="img-fluid" />
+                            </div>
+
+                            <div className={styles.logo1}>
+                            <Image alt="Bitswits" loading="lazy" src={alignicon2} className="img-fluid" />
+                                <Image alt="Bitswits" loading="lazy" src={alignicon1} className="img-fluid" />
+                        
+                            </div>
+
+
+
+
+                            {/* <Image alt="Bitswits" loading="lazy" src={alignicon} className="img-fluid" />
+                            <Image alt="Bitswits" loading="lazy" src={alignicon1} className="img-fluid" />
+                            <Image alt="Bitswits" loading="lazy" src={alignicon2} className="img-fluid" /> */}
                         </div>
 
 
