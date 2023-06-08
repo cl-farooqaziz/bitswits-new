@@ -383,6 +383,18 @@ a {
   padding: 28%;
   border-radius: 50px;
 }
+.sidenew .slick-next:before {
+  content: url(/images/ourportfolio/arrow2.png);
+  background-color: #000000;
+  padding: 28%;
+  border-radius: 50px;
+}
+.sidenew .slick-prev:before {
+  content: url(/images/ourportfolio/arrow.png);
+  background-color: #000000;
+  padding: 28%;
+  border-radius: 50px;
+}
 .ourarrows2 .slick-prev:before {
   content: url(/images/ourportfolio/arrow.png);
   background-color: #000000;
@@ -395,6 +407,21 @@ a {
   left: unset !important;
 }
 .ourarrows2 .slick-next {
+  top: -7%;
+  right: 22px !important;
+}
+
+.ourarrows2 .slick-initialized .slick-slide {
+  display: block;
+  padding-left: 26px;
+}
+
+.sidenew .slick-prev {
+  top: -7%;
+  right: 8% !important;
+  left: unset !important;
+}
+.sidenew .slick-next {
   top: -7%;
   right: 22px !important;
 }
@@ -419,7 +446,7 @@ input::-webkit-inner-spin-button {
 .clintSlider .slick-dots li button::before, 
 .startposition .slick-dots li button::before, 
 .proclass .slick-dots li button::before, 
-.usapost .slick-dots li button::before {
+.usapost .slick-dots li button::before  {
   content: "";
   position: absolute;
   bottom: -30px;
@@ -430,12 +457,26 @@ input::-webkit-inner-spin-button {
   border: 1px solid black;
   border-radius: 100%;
 }
+
+.sidenew .slick-dots li button::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  width: 15px;
+  height: 15px;
+  color: black;
+  background-color: unset;
+  border: 1px solid rgb(163, 162, 162);
+  border-radius: 100%;
+}
+
 .prohome .slick-dots li.slick-active button:before, 
 .ourarrows2 .slick-dots li.slick-active button:before, 
 .clintSlider .slick-dots li.slick-active button:before, 
 .startposition .slick-dots li.slick-active button:before, 
 .proclass .slick-dots li.slick-active button:before, 
-.usapost .slick-dots li.slick-active button:before {
+.usapost .slick-dots li.slick-active button:before, 
+.sidenew .slick-dots li.slick-active button:before {
   opacity: .75;
   color: black;
   background-color: #4A78EF;
@@ -447,13 +488,21 @@ input::-webkit-inner-spin-button {
 }
 
 .sidenew .slick-current {
-  background-color: #565656;
-  width: 820px!important;
-  padding: 30px;
+ 
+  width: 980px!important;
+
+  margin-right: 1%;
 }
-.sidenew  .slick-slide.slick-active {
+/* .sidenew  .slick-slide.slick-active {
   padding: 20px;
+  padding-left: 35px!important;
+} */
+.sidenew .slick-slide {
+  background-color: #565656!important;
+  padding: 20px;
+  padding-left: 35px!important;
 }
+
 
 .sidenew .d-flex {
   align-items: center;
@@ -477,6 +526,10 @@ input::-webkit-inner-spin-button {
   position: relative;
 }
 
+.sidenewlong{
+  display: none!important;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (min-width: 1440px) {
@@ -498,6 +551,14 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1399px) {
+
+  .sidenew .slick-current {
+    background-color: #565656;
+    width: 800px!important;
+    margin-right: 1%;
+  }
+
+
   .font15 {
     font-size: 13px;
   }
@@ -551,6 +612,14 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width: 1200px) {
 
+  .sidenew .slick-current {
+    background-color: #565656;
+    width: 640px!important;
+    padding: 30px;
+    margin-right: 1%;
+}
+
+
   .clintSlider .slick-prev {
     right: -32%;
     top: -40px;
@@ -561,6 +630,23 @@ input::-webkit-inner-spin-button {
 
 
 @media screen and (max-width: 991px) {
+
+  .sidenew:after {
+    background-color: unset;
+    backdrop-filter: unset;
+}
+.sidenew .slick-current {
+  width: 25%!important;
+}
+
+.sidenew {
+  display: none!important;
+}
+.sidenewlong {
+  display: block!important;
+}
+
+
   .line60 {
     line-height: 50px;
   }
@@ -598,6 +684,9 @@ input::-webkit-inner-spin-button {
   .prjctSlider .slick-prev {
     left: 270px;
   }
+
+
+
 
   .ourarrows2 .slick-prev {
     top: -7%;

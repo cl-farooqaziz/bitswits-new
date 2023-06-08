@@ -34,11 +34,12 @@
   font-weight: 700;
 }
 
-.slideImg {
-  
-  width: 80%;
-}
 
+.slideImg {
+  width: 80%;
+  height: 346px;
+  overflow: hidden;
+}
 .slideArrow {
   width: 100%;
   display: flex;
@@ -51,15 +52,21 @@
   background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
 }
 
+.slideImg img {
+  width: 100%;
+  height: 345px;
+}
+
+
 
 /* ===============Media Queries================ */
 
-@media screen and (max-width: 1280px) {
+
+@media screen and (max-width: 991px) {
+
  
 
-
- }
-@media screen and (max-width: 991px) {
+  
 
   .prjctSlider {
     width: 70%;
