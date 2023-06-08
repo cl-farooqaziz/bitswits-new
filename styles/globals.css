@@ -446,6 +446,12 @@ input::-webkit-inner-spin-button {
   margin-bottom: .5%;
 }
 
+.sidenew .slick-current {
+  background-color: #565656;
+  width: 830px!important;
+  padding: 1%;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (min-width: 1440px) {

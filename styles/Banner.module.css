@@ -288,37 +288,37 @@
   .bottom {
     animation:  buger-bottom;
     animation-delay: 0s;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     transform: translate(0, 200%);
   }
   .bottom1 {
     animation:  buger-bottom;
-    animation-delay: 1s;
-    animation-duration: 3s;
+    animation-delay: .5s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     transform: translate(0, 200%);
   
   }
   .bottom2 {
     animation:  buger-bottom;
-    animation-delay: 2s;
-    animation-duration: 3s;
+    animation-delay: .8s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     transform: translate(0, 200%);
    
   }
   .bottom3 {
     animation: buger-bottom;
-    animation-delay: 4s;
-    animation-duration: 3s;
+    animation-delay: 1.3s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     transform: translate(0, 200%);
   }
   .bottom4 {
     animation: buger-bottom;
-    animation-delay: 5s;
-    animation-duration: 3s;
+    animation-delay: 1.6s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     transform: translate(0, 200%);
   }
