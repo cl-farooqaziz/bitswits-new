@@ -1,5 +1,6 @@
 .lookingfor{
     padding-top: 120px;
+    overflow: hidden;
 }
 .bttns1 {
     background-image: linear-gradient(to right, #F32F5E, #4A78EF);
