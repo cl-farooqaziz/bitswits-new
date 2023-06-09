@@ -417,6 +417,11 @@ a {
   content: url(/images/workprojects/slidelefthvr.png);
   filter: invert(0);
 }
+
+
+
+/* blog and portofolio slider */
+
 .ourarrows2 .slick-prev:hover::before {
   content: url(/images/workprojects/slidelefthvr.png);
   filter: invert(0);
@@ -435,6 +440,9 @@ a {
   content: url(/images/workprojects/slideright.png);
   filter: invert(1);
 }
+
+
+
 
 /* =============Other Sliders============== */
 
