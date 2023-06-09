@@ -387,6 +387,7 @@ a {
   overflow: visible;
 }
 
+.clintSlider .slick-dots,
 .clintSlidermbl .slick-dots {
   bottom: -40px;
 }
