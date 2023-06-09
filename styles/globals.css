@@ -387,7 +387,7 @@ a {
   overflow: visible;
 }
 
-.clintSlider .slick-dots {
+.clintSlidermbl .slick-dots {
   bottom: -40px;
 }
 
@@ -420,7 +420,7 @@ a {
   z-index: 1;
   margin-right: -360px;
   -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(14px);
 }
 
 .clintSlider .slick-list .slick-track .slick-slide.slick-active {
@@ -433,7 +433,7 @@ a {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 30px;
+  width: 40px;
   background-color: #fff;
   display: block;
   margin-right: -40px;
@@ -493,6 +493,7 @@ a {
 /* =============Other Sliders============== */
 
 .prohome .slick-dots,
+.startposition .slick-dots,
 .ourarrows2 .slick-dots {
   bottom: -40px;
 }
@@ -529,6 +530,7 @@ input::-webkit-inner-spin-button {
 .prohome .slick-dots li button::before,
 .ourarrows2 .slick-dots li button::before,
 .clintSlider .slick-dots li button::before,
+.clintSlidermbl .slick-dots li button::before,
 .startposition .slick-dots li button::before,
 .proclass .slick-dots li button::before,
 .usapost .slick-dots li button::before {
@@ -557,6 +559,7 @@ input::-webkit-inner-spin-button {
 .prohome .slick-dots li.slick-active button:before,
 .ourarrows2 .slick-dots li.slick-active button:before,
 .clintSlider .slick-dots li.slick-active button:before,
+.clintSlidermbl .slick-dots li.slick-active button:before,
 .startposition .slick-dots li.slick-active button:before,
 .proclass .slick-dots li.slick-active button:before,
 .usapost .slick-dots li.slick-active button:before,
@@ -573,10 +576,6 @@ input::-webkit-inner-spin-button {
   margin-bottom: 0.5%;
 }
 
-.sidenewlong {
-  display: none !important;
-}
-
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {
@@ -590,16 +589,39 @@ input::-webkit-inner-spin-button {
     right: -12%;
   }
 
+  .newproject .slick-list::before {
+    top: -2px;
+    bottom: -2px;
+  }
+
   .newproject .slick-list .slick-track .slick-slide.slick-active::after {
     content: "";
     position: absolute;
-    top: 0;
+    top: -2px;
     right: 0;
-    bottom: 0;
+    bottom: -2px;
     width: 130px;
     background-color: #272727;
     display: block;
     margin-right: -30px;
+  }
+
+  .clintSlider .slick-prev {
+    top: -15%;
+    right: 14%;
+    left: unset;
+  }
+  .clintSlider .slick-next {
+    top: -15%;
+    right: 9%;
+  }
+
+  .clintSlider .slick-list::before {
+    top: -2px;
+  }
+
+  .clintSlider .slick-list .slick-track .slick-slide.slick-active::after {
+    top: -2px;
   }
 }
 
@@ -628,16 +650,6 @@ input::-webkit-inner-spin-button {
 
   .newproject .slick-list .slick-track .slick-slide.slick-active::after {
     width: 50px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .clintSlider .slick-next {
-    right: -310px;
-  }
-
-  .clintSlider .slick-prev {
-    left: 1150px;
   }
 }
 
@@ -694,11 +706,6 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 1280px) {
-  .clintSlider .slick-prev {
-    right: 0;
-    top: -40px;
-  }
-
   .font30 {
     font-size: 25px;
   }
@@ -721,12 +728,6 @@ input::-webkit-inner-spin-button {
     padding: 30px;
     margin-right: 1%;
   }
-
-  .clintSlider .slick-prev {
-    right: -32%;
-    top: -40px;
-    left: unset;
-  }
 }
 
 /* ========================= */
@@ -745,6 +746,15 @@ input::-webkit-inner-spin-button {
     display: none !important;
   }
 
+  .newproject {
+    display: none !important;
+  }
+
+  .sidenewlong {
+    display: block !important;
+    padding: 3% 7%;
+  }
+
   .line60 {
     line-height: 50px;
   }
@@ -756,6 +766,18 @@ input::-webkit-inner-spin-button {
   .font65 {
     font-size: 40px;
   }
+
+  .clintSlider .slick-list::before {
+    display: none;
+  }
+
+  .clintSlider .slick-list::after {
+    display: none;
+  }
+
+  .clintSlider .slick-list .slick-track .slick-slide.slick-active::after {
+    display: none;
+  }
 }
 
 /* ========================= */
@@ -766,13 +788,7 @@ input::-webkit-inner-spin-button {
     align-items: center;
     justify-content: flex-start;
   }
-  .newproject {
-    display: none !important;
-  }
-  .sidenewlong {
-    display: block !important;
-    padding: 3%;
-  }
+
   .font65 {
     font-size: 30px;
   }

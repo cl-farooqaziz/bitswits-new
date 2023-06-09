@@ -237,8 +237,6 @@ const OurProject = () => {
                     {/*============= mobile slider ==============*/}
 
                     <Slider {...ourproject1} className='sidenewlong mt-5'>
-
-                     
                             <div className={styles.slideCntnt}>
                                 <h3 className='font20 fontf font-semibold white'>Discovery</h3>
                                 <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>

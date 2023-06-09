@@ -25,7 +25,7 @@ function ClientsThink() {
 
     var clientsthinkMbl = {
         dots: true,
-        arrows: true,
+        arrows: false,
         infinite: true,
         autoplay: true,
         speed: 500,
@@ -247,7 +247,7 @@ function ClientsThink() {
                         </Col>
                         <Col lg={12}>
                             <div className='mt-5'>
-                                <Slider {...clientsthinkMbl} className={`${styles.clintSlider} clintSlider`}>
+                                <Slider {...clientsthinkMbl} className={`${styles.clintSlider} clintSlidermbl`}>
                                     <div className={styles.slideBox}>
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
@@ -259,31 +259,33 @@ function ClientsThink() {
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
-                                                <div className={styles.slideCntnt}>
-                                                    <Image className='img-fluid'
-                                                        src={slidebefore}
-                                                        alt="bitswits"
-                                                    />
-                                                    <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                    <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
-                                                        Vivien Francis
-                                                    </h5>
-                                                    <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                <div className={styles.slideInner}>
+                                                    <div className={styles.slideCntnt}>
+                                                        <Image className='img-fluid'
+                                                            src={slidebefore}
+                                                            alt="bitswits"
+                                                        />
+                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                            Vivien Francis
+                                                        </h5>
+                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                    </div>
+                                                    <ul className={styles.sliderli}>
+                                                        <li>
+                                                            <span>Client</span>
+                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Year</span>
+                                                            <span className='font-bold fontf'>2023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Scope of work</span>
+                                                            <span className='font-bold fontf'>Web Design</span>
+                                                        </li>
+                                                    </ul>
                                                 </div>
-                                                <ul className={styles.sliderli}>
-                                                    <li>
-                                                        <span>Client</span>
-                                                        <span className='font-bold fontf'>Asia School of Business (ASB)</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Year</span>
-                                                        <span className='font-bold fontf'>2023</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Scope of work</span>
-                                                        <span className='font-bold fontf'>Web Design</span>
-                                                    </li>
-                                                </ul>
                                             </Col>
                                         </Row>
                                     </div>
@@ -298,31 +300,33 @@ function ClientsThink() {
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
-                                                <div className={styles.slideCntnt}>
-                                                    <Image className='img-fluid'
-                                                        src={slidebefore}
-                                                        alt="bitswits"
-                                                    />
-                                                    <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                    <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
-                                                        Vivien Francis
-                                                    </h5>
-                                                    <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                <div className={styles.slideInner}>
+                                                    <div className={styles.slideCntnt}>
+                                                        <Image className='img-fluid'
+                                                            src={slidebefore}
+                                                            alt="bitswits"
+                                                        />
+                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                            Vivien Francis
+                                                        </h5>
+                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                    </div>
+                                                    <ul className={styles.sliderli}>
+                                                        <li>
+                                                            <span>Client</span>
+                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Year</span>
+                                                            <span className='font-bold fontf'>2023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Scope of work</span>
+                                                            <span className='font-bold fontf'>Web Design</span>
+                                                        </li>
+                                                    </ul>
                                                 </div>
-                                                <ul className={styles.sliderli}>
-                                                    <li>
-                                                        <span>Client</span>
-                                                        <span className='font-bold fontf'>Asia School of Business (ASB)</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Year</span>
-                                                        <span className='font-bold fontf'>2023</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Scope of work</span>
-                                                        <span className='font-bold fontf'>Web Design</span>
-                                                    </li>
-                                                </ul>
                                             </Col>
                                         </Row>
                                     </div>
@@ -337,31 +341,33 @@ function ClientsThink() {
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
-                                                <div className={styles.slideCntnt}>
-                                                    <Image className='img-fluid'
-                                                        src={slidebefore}
-                                                        alt="bitswits"
-                                                    />
-                                                    <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                    <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
-                                                        Vivien Francis
-                                                    </h5>
-                                                    <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                <div className={styles.slideInner}>
+                                                    <div className={styles.slideCntnt}>
+                                                        <Image className='img-fluid'
+                                                            src={slidebefore}
+                                                            alt="bitswits"
+                                                        />
+                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                            Vivien Francis
+                                                        </h5>
+                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                    </div>
+                                                    <ul className={styles.sliderli}>
+                                                        <li>
+                                                            <span>Client</span>
+                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Year</span>
+                                                            <span className='font-bold fontf'>2023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Scope of work</span>
+                                                            <span className='font-bold fontf'>Web Design</span>
+                                                        </li>
+                                                    </ul>
                                                 </div>
-                                                <ul className={styles.sliderli}>
-                                                    <li>
-                                                        <span>Client</span>
-                                                        <span className='font-bold fontf'>Asia School of Business (ASB)</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Year</span>
-                                                        <span className='font-bold fontf'>2023</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Scope of work</span>
-                                                        <span className='font-bold fontf'>Web Design</span>
-                                                    </li>
-                                                </ul>
                                             </Col>
                                         </Row>
                                     </div>
@@ -376,31 +382,33 @@ function ClientsThink() {
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
-                                                <div className={styles.slideCntnt}>
-                                                    <Image className='img-fluid'
-                                                        src={slidebefore}
-                                                        alt="bitswits"
-                                                    />
-                                                    <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                    <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
-                                                        Vivien Francis
-                                                    </h5>
-                                                    <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                <div className={styles.slideInner}>
+                                                    <div className={styles.slideCntnt}>
+                                                        <Image className='img-fluid'
+                                                            src={slidebefore}
+                                                            alt="bitswits"
+                                                        />
+                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                            Vivien Francis
+                                                        </h5>
+                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                    </div>
+                                                    <ul className={styles.sliderli}>
+                                                        <li>
+                                                            <span>Client</span>
+                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Year</span>
+                                                            <span className='font-bold fontf'>2023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Scope of work</span>
+                                                            <span className='font-bold fontf'>Web Design</span>
+                                                        </li>
+                                                    </ul>
                                                 </div>
-                                                <ul className={styles.sliderli}>
-                                                    <li>
-                                                        <span>Client</span>
-                                                        <span className='font-bold fontf'>Asia School of Business (ASB)</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Year</span>
-                                                        <span className='font-bold fontf'>2023</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>Scope of work</span>
-                                                        <span className='font-bold fontf'>Web Design</span>
-                                                    </li>
-                                                </ul>
                                             </Col>
                                         </Row>
                                     </div>
