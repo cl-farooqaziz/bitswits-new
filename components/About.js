@@ -59,7 +59,7 @@ const About = () => {
                 <Container>
                     <Row className='aboutfold'>
                         <Col md={2}>
-                            <h3 className='font20 fontf font-semibold mt-5 letterspace black'>About Us</h3>
+                            <h3 className='font20 fontf font-semibold mt-1 letterspace black'>About Us</h3>
                         </Col>
                         <Col md={10}>
                             <h2 className='font65 black fontf font-bold line60'>The Development Agency<br></br> For  <span className='grdiant'>100% Results</span> </h2>

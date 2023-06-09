@@ -370,6 +370,7 @@ a {
   background-color: #000000c9;
   z-index: 1;
   margin-right: -350px;
+  backdrop-filter: blur(4px);
 }
 
 .newproject .slick-list .slick-track .slick-slide.slick-active {

@@ -13,14 +13,14 @@ const Counter = ({ stopNumber }) => {
           return prevCount + 1;
         }
       });
-    }, 10);
+    }, 1);
 
     return () => {
       clearInterval(timer);
     };
   }, [stopNumber]);
 
-  return <div>{count}+</div>;
+  return <div className='counter'>{count}+</div>;
 };
 
 export default Counter;
