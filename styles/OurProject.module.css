@@ -1,21 +1,17 @@
 .ourProject {
   background-color: #272727;
   padding: 100px 0;
+  overflow: hidden;
 }
 
-.prjctSlider {
-  background-color: #575757;
+.newproject{
+  margin-top: 60px;
 }
 
-.slideRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0;
-}
-
-.slideBox {
-  padding: 15px 8px;
+.slideBox{
+  background-color: #565656;
+  padding: 30px;
+  padding-left: 60px;
 }
 
 .slideList {
@@ -29,63 +25,34 @@
   width: 10px;
 }
 
+.slideCntnt{
+  width: 100%;
+}
+
 .slideCntnt a {
   font-size: 20px;
   font-weight: 700;
 }
 
-
-.slideImg {
-  width: 80%;
-  height: 346px;
-  overflow: hidden;
+.slideImg{
+  text-align: center;
 }
-.slideArrow {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
 
 .bttns1:hover {
   transition: background-color 2s;
-  background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
+  background: linear-gradient(90deg, #4a78ef, transparent) #f32f5e;
 }
-
-.slideImg img {
-  width: 100%;
-  height: 345px;
-}
-
-
 
 /* ===============Media Queries================ */
 
-
 @media screen and (max-width: 991px) {
-
- 
-
-  
-
-  .prjctSlider {
-    width: 70%;
-    margin: 0 auto;
-  }
-
   .slideImg {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-  .slideArrow {
-    display: none;
-  }
 }
 
-@media screen and (max-width: 767px) {
-  .prjctSlider {
-    width: 100%;
-  }
-}
+
+
+
