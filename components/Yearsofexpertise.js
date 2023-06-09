@@ -4,8 +4,11 @@ import styles from '@/styles/Yearsofexpertise.module.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Counter from './Counter';
 
 const Yearsofexpertise = () => {
+
+
 
     var awardslogo = {
         dots: true,
@@ -50,22 +53,22 @@ const Yearsofexpertise = () => {
             <section className={` ${styles.yearsofexpertise}`}>
                 <Container className={` ${styles.allbest} ${styles.desk} `}>
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>21+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'>  <Counter stopNumber={21} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>years of <br></br> expertise</h4>
                         <p className='font15 fontf white font-medium'>Established 2002 in the USA </p>
                     </div>
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>1,000+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={1000} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>Dedicated <br></br> Developers</h4>
                         <p className='font15 fontf white font-medium'>All directly employed by us </p>
                     </div>
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>12,500+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'> <Counter stopNumber={12500} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>Happy Clients</h4>
                         <p className='font15 fontf white font-medium'>See genuine testimonial videos </p>
                     </div>
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>20,000+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'> <Counter stopNumber={20000} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>Projects <br></br> Delivered</h4>
                         <p className='font15 fontf white font-medium'>See examples our work </p>
                     </div>
@@ -79,22 +82,22 @@ const Yearsofexpertise = () => {
 
 
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>21+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={21} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>years of <br></br> expertise</h4>
                         <p className='font15 fontf white font-medium'>Established 2002 in the USA </p>
                     </div>
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>1,000+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={1000} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>Dedicated <br></br> Developers</h4>
                         <p className='font15 fontf white font-medium'>All directly employed by us </p>
                     </div>
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>12,500+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={12500} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>Happy Clients</h4>
                         <p className='font15 fontf white font-medium'>See genuine testimonial videos </p>
                     </div>
                     <div>
-                        <h3 className='font75 grdiant font-bold fontf'>20,000+</h3>
+                        <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={20000} /></h3>
                         <h4 className='font25 fontf white font-extrabold texttran'>Projects <br></br> Delivered</h4>
                         <p className='font15 fontf white font-medium'>See examples our work </p>
                     </div>

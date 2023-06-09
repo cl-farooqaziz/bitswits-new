@@ -11,6 +11,9 @@ import { AiFillLinkedin } from 'react-icons/ai'
 import { BsPinterest } from 'react-icons/bs'
 import { AiFillBehanceCircle } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
+import icon from '../public/images/footer/icon.png'
+import Image from 'next/image'
+
 const Footer = () => {
   return (
     <>
@@ -95,6 +98,7 @@ const Footer = () => {
                 <div className={styles.spacing}> </div>
                 <Link href="#"> <AiFillBehanceCircle size={20} className={styles.email} /></Link>
                 <Link href="#"> <BsPinterest size={20} className={styles.email} /></Link>
+                <Link href="#" > <Image src={icon} className={`${styles.email}`} /> </Link>
                 <Link href="#"> <FaTelegramPlane size={20} className={styles.email} /></Link>
               </div>
 

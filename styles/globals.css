@@ -481,6 +481,19 @@ input::-webkit-inner-spin-button {
   border: 1px solid black;
   border-radius: 100%;
 }
+.sidenewlong .slick-dots li button::before {
+
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  width: 15px;
+  height: 15px;
+  color: black;
+  background-color: unset;
+  border: 1px solid rgb(236, 234, 234);
+  border-radius: 100%;
+
+}
 
 .prohome .slick-dots li.slick-active button:before,
 .ourarrows2 .slick-dots li.slick-active button:before,
@@ -488,15 +501,21 @@ input::-webkit-inner-spin-button {
 .startposition .slick-dots li.slick-active button:before,
 .proclass .slick-dots li.slick-active button:before,
 .usapost .slick-dots li.slick-active button:before,
-.sidenew .slick-dots li.slick-active button:before {
+.sidenew .slick-dots li.slick-active button:before,
+.sidenewlong .slick-dots li.slick-active button:before {
   opacity: 0.75;
-  color: black;
+  color: unset;
   background-color: #4a78ef;
   border: unset;
+  border-radius: 50px;
 }
 
 .proclass div {
   margin-bottom: 0.5%;
+}
+
+.sidenewlong {
+  display: none!important;
 }
 
 /* ===============Media Queries================ */
@@ -667,9 +686,7 @@ input::-webkit-inner-spin-button {
     display: none !important;
   }
 
-  .sidenewlong {
-    display: block !important;
-  }
+
 
   .line60 {
     line-height: 50px;
@@ -687,6 +704,19 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 767px) {
+
+  .slideImg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+  .newproject {
+    display: none!important;
+  }
+  .sidenewlong {
+    display: block!important;
+    padding: 3%;
+  }
   .font65 {
     font-size: 30px;
   }
