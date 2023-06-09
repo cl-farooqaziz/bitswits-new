@@ -3,11 +3,6 @@
     padding-bottom: 40px;
     background-color: black;
 }
-.yearsofexpertise .allbest {
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-}
 .yearsofexpertise .allbest h4 {
     text-align: center;
 }

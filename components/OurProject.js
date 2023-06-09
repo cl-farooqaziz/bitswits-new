@@ -22,10 +22,7 @@ const OurProject = () => {
         centerMode: true,
         centerPadding: '90px',
         variableWidth: false,  
-         
     };
-
-
 
     var ourproject1 = {
         dots: true,
