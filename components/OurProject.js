@@ -272,7 +272,7 @@ const OurProject = () => {
                                     </Link>
                                 </div>
                                 <div className={styles.slideImg}>
-                                <Image className='img-fluid'
+                                <Image className='img-fluid mt-5'
                                     src={slideImg1}
                                     alt="bitswits"
                                 />
@@ -313,7 +313,7 @@ const OurProject = () => {
                                 </div>
 
                                 <div className={styles.slideImg}>
-                                <Image className='img-fluid'
+                                <Image className='img-fluid mt-5'
                                     src={slideImg2}
                                     alt="bitswits"
                                 />
@@ -354,7 +354,7 @@ const OurProject = () => {
                                     </Link>
                                 </div>
                                 <div className={styles.slideImg}>
-                                <Image className='img-fluid'
+                                <Image className='img-fluid mt-5'
                                     src={slideImg3}
                                     alt="bitswits"
                                 />
@@ -394,7 +394,7 @@ const OurProject = () => {
                                     </Link>
                                 </div>
                                 <div className={styles.slideImg}>
-                                <Image className='img-fluid'
+                                <Image className='img-fluid mt-5'
                                     src={slideImg4}
                                     alt="bitswits"
                                 />

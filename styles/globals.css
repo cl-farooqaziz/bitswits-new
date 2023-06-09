@@ -407,6 +407,7 @@ a {
   filter: invert(0);
 }
 
+
 .clintSlider .slick-prev::before {
   content: url(/images/workprojects/slideleft.png);
   filter: invert(1);
@@ -416,6 +417,24 @@ a {
   content: url(/images/workprojects/slidelefthvr.png);
   filter: invert(0);
 }
+.ourarrows2 .slick-prev:hover::before {
+  content: url(/images/workprojects/slidelefthvr.png);
+  filter: invert(0);
+}
+
+.ourarrows2 .slick-next:hover::before {
+  content: url(/images/workprojects/sliderighthvr.png);
+  filter: invert(0);
+}
+
+.ourarrows2 .slick-prev::before {
+  content: url(/images/workprojects/slideleft.png);
+  filter: invert(1);
+}
+.ourarrows2 .slick-next::before {
+  content: url(/images/workprojects/slideright.png);
+  filter: invert(1);
+}
 
 /* =============Other Sliders============== */
 
@@ -424,19 +443,7 @@ a {
   bottom: -40px;
 }
 
-.ourarrows2 .slick-next:before {
-  content: url(/images/ourportfolio/arrow2.png);
-  background-color: #000000;
-  padding: 28%;
-  border-radius: 50px;
-}
 
-.ourarrows2 .slick-prev:before {
-  content: url(/images/ourportfolio/arrow.png);
-  background-color: #000000;
-  padding: 28%;
-  border-radius: 50px;
-}
 .ourarrows2 .slick-prev {
   top: -7%;
   right: 8% !important;
