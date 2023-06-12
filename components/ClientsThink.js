@@ -48,7 +48,7 @@ function ClientsThink() {
                             </h4>
                         </Col>
                         <Col lg={3}>
-                            <Link className={`${styles.bttns1} bttns1 mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
+                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
                                 View All
                             </Link>
                         </Col>

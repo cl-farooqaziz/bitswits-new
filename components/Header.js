@@ -66,7 +66,7 @@ const Header = () => {
                     <Link href="/">
                         <Image alt="Bitswits" className='img-fluid'
                             src={logo}
-                 
+
                         />
                     </Link>
                 </div>
@@ -80,7 +80,7 @@ const Header = () => {
                             <div className={megamenu1 ? `${styles.megaMenu1} ${styles.opnMenu1}` : `${styles.megaMenu1}`}>
                                 <div className={styles.backArrow}>
                                     <Image alt="Bitswits"
-                                       
+
                                         src={backarrow}
                                         loading="lazy"
                                     />
@@ -92,7 +92,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={php}
-                                                       
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>PHP</h5>
@@ -160,7 +160,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={eCom}
-                                                     
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>E-COMMERCE</h5>
@@ -252,7 +252,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={dotnet}
-                                                      
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>.NET</h5>
@@ -297,7 +297,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={crm}
-                                                       
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>CRM SOLUTIONS</h5>
@@ -342,7 +342,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={cms}
-                                                     
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>CMS</h5>
@@ -405,7 +405,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={fullStack}
-                                                      
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>FULL STACK</h5>
@@ -462,7 +462,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={apps}
-                                                       
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>MOBILE APPS</h5>
@@ -501,7 +501,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={games}
-                                                     
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>GAMES DEVELOPMENT</h5>
@@ -570,7 +570,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={marketing}
-                                                        
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>MARKETING SERVICES</h5>
@@ -597,7 +597,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={more}
-                                                       
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>MORE</h5>
@@ -641,7 +641,7 @@ const Header = () => {
                             <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
                                 <div className={styles.backArrow}>
                                     <Image alt="Bitswits"
-                                       
+
                                         src={backarrow}
                                         loading="lazy"
                                     />
@@ -653,7 +653,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={company}
-                                                       
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>COMPANY</h5>
@@ -728,7 +728,7 @@ const Header = () => {
                                                 <div className={styles.megaIcon}>
                                                     <Image alt="Bitswits" className='img-fluid'
                                                         src={about}
-                                                    
+
                                                     />
                                                 </div>
                                                 <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
@@ -747,7 +747,7 @@ const Header = () => {
                                             <div className={styles.listImg}>
                                                 <Image alt="Bitswits" className='img-fluid'
                                                     src={ourbg}
-                                                
+
                                                 />
                                             </div>
                                         </div>
@@ -763,7 +763,7 @@ const Header = () => {
                             <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
                                 <div className={styles.backArrow}>
                                     <Image alt="Bitswits"
-                                      
+
                                         src={backarrow}
                                         loading="lazy"
                                     />
@@ -777,7 +777,7 @@ const Header = () => {
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
                                                                 src={web}
-                                                               
+
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>WEB</h5>
@@ -833,7 +833,7 @@ const Header = () => {
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
-                                                                src={apps}  />
+                                                                src={apps} />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
                                                     </div>
@@ -877,7 +877,7 @@ const Header = () => {
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
                                                                 src={marketing}
-                                                              
+
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>SEO</h5>
@@ -916,7 +916,7 @@ const Header = () => {
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
                                                                 src={games}
-                                                                
+
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
@@ -967,7 +967,7 @@ const Header = () => {
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
                                                                 src={hosting}
-                                                            
+
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>CLOUD & HOSTING</h5>
@@ -1012,7 +1012,7 @@ const Header = () => {
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
                                                                 src={cms}
-                                                            
+
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
@@ -1057,7 +1057,7 @@ const Header = () => {
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
                                                                 src={tailormade}
-                                                              
+
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>TAILORMADE SOLUTION</h5>
@@ -1094,7 +1094,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={estate}
-                                                                          
+
                                                                         />
                                                                     </div>
                                                                     <span>Real Estate</span>
@@ -1105,7 +1105,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={travel}
-                                                                          
+
                                                                         />
                                                                     </div>
                                                                     <span>Travel & Hospitality</span>
@@ -1116,7 +1116,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={b2b}
-                                                                         
+
                                                                         />
                                                                     </div>
                                                                     <span>B2B Solutions</span>
@@ -1127,7 +1127,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={b2c}
-                                                                         
+
                                                                         />
                                                                     </div>
                                                                     <span>B2C Solutions</span>
@@ -1138,7 +1138,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={health}
-                                                                         
+
                                                                         />
                                                                     </div>
                                                                     <span>Healthcare</span>
@@ -1149,7 +1149,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={education}
-                                                                          
+
                                                                         />
                                                                     </div>
                                                                     <span>Education and E Learning</span>
@@ -1160,7 +1160,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={finance}
-                                                                          
+
                                                                         />
                                                                     </div>
                                                                     <span>Banking & Finance</span>
@@ -1171,7 +1171,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={education}
-                                                                           
+
                                                                         />
                                                                     </div>
                                                                     <span>Startup Solutions</span>
@@ -1182,7 +1182,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={media}
-                                                                          
+
                                                                         />
                                                                     </div>
                                                                     <span>Media & Publishing</span>
@@ -1193,7 +1193,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={foods}
-                                                                          
+
                                                                         />
                                                                     </div>
                                                                     <span>Food Ordering Solutions</span>
@@ -1204,7 +1204,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={tickets}
-                                                                          
+
                                                                         />
                                                                     </div>
                                                                     <span>Ticket Booking Solutions</span>
@@ -1215,7 +1215,7 @@ const Header = () => {
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={automotive}
-                                                                           
+
                                                                         />
                                                                     </div>
                                                                     <span>Automotive Solutions</span>

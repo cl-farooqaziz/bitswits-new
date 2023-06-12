@@ -1,95 +1,105 @@
 .aboutus {
-    padding-top: 175px;
-    padding-bottom: 120px;
+  padding-top: 175px;
+  padding-bottom: 120px;
 }
 
-.decade{
-    display: flex;
-    gap: 25px;
-    align-items: center;
-    flex-wrap: wrap;
+.decade {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .spaceimg {
-    display: flex!important;
-    align-items: center;
-    gap: 12px;
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
 }
 .aboutbtn {
-    width: 226px;
-    height: 45px;
-    font-family: 'Montserrat';
-    border: unset;
-    border-radius: unset;
-    margin-top: 7%;
-    font-size: 15px;
-    font-weight: 700;
-    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
-    text-transform: uppercase;
+  width: 226px;
+  height: 45px;
+  font-family: "Montserrat";
+  border: unset;
+  border-radius: unset;
+  margin-top: 7%;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
 }
 
 .aboutbtn:hover {
-    transition: background-color 2s;
-    background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
-  }
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+}
 
 .nextalign1 {
-    display: none!important;
+  display: none !important;
 }
 
-
-
-@media screen and (max-width: 1366px) {  
-
-    .aboutus {
-        padding-top: 125px;
-        
-    }
-
+.toltip {
+  position: relative;
 }
-@media screen and (max-width: 1280px) { 
-    .aboutus {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
- }
+
+.toltip .tolImg {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  top: -260px;
+  left: -50px;
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.spaceimg:hover .toltip .tolImg {
+  display: block;
+}
+
+@media screen and (max-width: 1366px) {
+  .aboutus {
+    padding-top: 125px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .aboutus {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 @media screen and (max-width: 991px) {
+  .aboutus {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutbtn {
+    margin-top: 15%;
+  }
 
-    .aboutus {
-        padding-top: 80px;
-        padding-bottom: 120px;
-    }
- }
-@media screen and (max-width: 480px) { 
+  .nextalign1 {
+    display: block !important;
+  }
 
+  .decade .spaceimg {
+    display: none !important;
+  }
 
-    .aboutbtn {
-        margin-top: 15%; 
-    }
+  .decade {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
 
-    .nextalign1 {
-        display: block!important;
-    }
-   
-    .decade .spaceimg{
-        display: none!important;
-    }
-
-    .decade {
-        display: flex;
-        gap: 25px;
-        align-items: flex-start;
-        flex-direction: column;
-       
-    }
-
-    .aboutus {
-        padding-top: 50px;
-        padding-bottom: 100px;
-    }
-    .aboutus h2{
-        font-size: 25px;
-    }
-
-
- }
+  .aboutus {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .aboutus h2 {
+    font-size: 25px;
+  }
+}

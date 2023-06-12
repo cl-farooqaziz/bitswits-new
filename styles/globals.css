@@ -30,12 +30,17 @@
 
 /* fontsizes */
 
+.font11 {
+  font-size: 11px;
+}
+
 .font65 {
-  font-size: 65px;
+  font-size: 45px;
+  line-height: 50px;
 }
 
 .font25 {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .font15 {
@@ -79,7 +84,7 @@
 }
 
 .font75 {
-  font-size: 75px;
+  font-size: 45px;
 }
 
 .font70 {
@@ -91,7 +96,7 @@
 }
 
 .font50 {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .font40 {
@@ -101,7 +106,7 @@
 /* linehight */
 
 .line60 {
-  line-height: 65px;
+  line-height: 50px;
 }
 
 .line30 {
@@ -155,6 +160,10 @@
 
 .texttran {
   text-transform: uppercase;
+}
+
+.textCaps {
+  text-transform: capitalize;
 }
 
 ul {
@@ -681,18 +690,6 @@ input::-webkit-inner-spin-button {
     font-size: 13px;
   }
 
-  .font65 {
-    font-size: 55px;
-  }
-
-  .font75 {
-    font-size: 55px;
-  }
-
-  .font25 {
-    font-size: 1.5rem;
-  }
-
   .ourservicesfaqs .accordion-body {
     font-size: 13px;
   }
@@ -717,10 +714,6 @@ input::-webkit-inner-spin-button {
 
   .font50 {
     font-size: 40px;
-  }
-
-  .font75 {
-    font-size: 45px;
   }
 }
 
@@ -830,10 +823,6 @@ input::-webkit-inner-spin-button {
   }
   .font15 {
     font-size: 18px;
-  }
-
-  .font75 {
-    font-size: 35px;
   }
 
   .font30 {

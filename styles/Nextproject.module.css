@@ -16,17 +16,29 @@
     -webkit-text-fill-color: transparent;
 }
 
+.project:hover {
+    transition: background-color 2s;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 .project {
-    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
-    width: 295px;
-    height: 50px;
+    background-color: #fff;
+    width: 250px;
+    max-width: 350px;
+    height: 45px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #000;
     font-family: 'Montserrat';
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
     font-weight: bold;
-    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .nextalign {
@@ -71,10 +83,6 @@
 
 .nextalign1{
     display: none;
-}
-.project:hover {
-    transition: background-color 2s;
-    background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
 }
 
 .mobile:hover {

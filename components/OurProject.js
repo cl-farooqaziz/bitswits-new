@@ -47,7 +47,7 @@ const OurProject = () => {
                             </h4>
                         </Col>
                         <Col lg={3}>
-                            <Link className={`${styles.bttns1} bttns1 mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
+                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
                                 Connect Now!
                             </Link>
                         </Col>
@@ -57,31 +57,31 @@ const OurProject = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font24 fontf font-semibold white'>Discovery</h3>
-                                                <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                                <h3 className='font40 fontf font-semibold white'>Discovery</h3>
+                                                <p className='font18 fontf'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
+                                                    <p className='font16 fontf mb-0'>Determine UX challenges & goals</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
+                                                    <p className='font16 fontf mb-0'>Conduct user research & interviews</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
+                                                    <p className='font16 fontf mb-0'>Analyze data for targeted UX solutions</p>
                                                 </div>
                                                 <div className='mt-3 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='grdiant'>
+                                                    <Link href="#" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -101,31 +101,31 @@ const OurProject = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font24 fontf font-semibold white'>Discovery</h3>
-                                                <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                                <h3 className='font40 fontf font-semibold white'>Discovery</h3>
+                                                <p className='font18 fontf'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
+                                                    <p className='font16 fontf mb-0'>Determine UX challenges & goals</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
+                                                    <p className='font16 fontf mb-0'>Conduct user research & interviews</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
+                                                    <p className='font16 fontf mb-0'>Analyze data for targeted UX solutions</p>
                                                 </div>
                                                 <div className='mt-3 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='grdiant'>
+                                                    <Link href="#" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -145,31 +145,31 @@ const OurProject = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font24 fontf font-semibold white'>Discovery</h3>
-                                                <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                                <h3 className='font40 fontf font-semibold white'>Discovery</h3>
+                                                <p className='font18 fontf'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
+                                                    <p className='font16 fontf mb-0'>Determine UX challenges & goals</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
+                                                    <p className='font16 fontf mb-0'>Conduct user research & interviews</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
+                                                    <p className='font16 fontf mb-0'>Analyze data for targeted UX solutions</p>
                                                 </div>
                                                 <div className='mt-3 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='grdiant'>
+                                                    <Link href="#" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -189,31 +189,31 @@ const OurProject = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font24 fontf font-semibold white'>Discovery</h3>
-                                                <p className='font15 fontf white'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                                <h3 className='font40 fontf font-semibold white'>Discovery</h3>
+                                                <p className='font18 fontf'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Determine UX challenges & goals</p>
+                                                    <p className='font16 fontf mb-0'>Determine UX challenges & goals</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Conduct user research & interviews</p>
+                                                    <p className='font16 fontf mb-0'>Conduct user research & interviews</p>
                                                 </div>
                                                 <div className={styles.slideList}>
                                                     <Image className='img-fluid'
                                                         src={slidebefore}
                                                         alt="bitswits"
                                                     />
-                                                    <p className='font12 fontf white mb-0'>Analyze data for targeted UX solutions</p>
+                                                    <p className='font16 fontf mb-0'>Analyze data for targeted UX solutions</p>
                                                 </div>
                                                 <div className='mt-3 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='grdiant'>
+                                                    <Link href="#" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>

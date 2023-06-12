@@ -1,134 +1,127 @@
-.footer{
-    background-color: #272727;
-    padding-top: 80px;
+.footer {
+  background-color: #272727;
+  padding-top: 80px;
 }
 .project {
-    border-bottom: 1px solid #707070;
-    padding-bottom: 4%;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 4%;
 }
 
-.past{
-    padding-top: 30px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #707070;
-    justify-content: space-between;
+.past {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #707070;
+  justify-content: space-between;
 }
 
 .patner {
-    padding-left: 0;
+  padding-left: 0;
 }
 .patner li a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-size: 15px;
-    font-weight: 500;
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .patner li {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .policy p {
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .now {
-    color: #ee3163;
+  color: #ee3163;
 }
 
-.fill{
-    display: flex;
-    gap: 15px;
-    margin-bottom: 2%;
-    align-items: center;
+.fill {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 2%;
+  align-items: center;
 }
-.email{
-    width: 45px;
-    background-color: #464646;
-    height: 45px;
-    padding: 13px;
-    color: white;
+.email {
+  width: 45px;
+  background-color: #464646;
+  height: 45px;
+  padding: 13px;
+  color: white;
 }
 
 .socialicons {
-    margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 .spacing {
-    margin-bottom: 2%;
-}
-.bttns1{
-    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
-    width: 272px;
-    height: 45px;
-    display: block;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Montserrat';
-    list-style: none;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 12%;
+  margin-bottom: 2%;
 }
 .bttns1:hover {
+  transition: background-color 2s;
+  background-color: #272727;
+  color: #fff;
+  border: 1px solid #fff;
+}
 
-    transition: background-color 2s;
-    background: linear-gradient(90deg, #4A78EF, transparent) #f32f5e;
+.bttns1 {
+  background-color: #fff;
+  width: 270px;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .now:hover {
-    text-shadow: 1px 4px #ffffff;
-    transition: 1s ease;
-    cursor: pointer;
+  text-shadow: 1px 4px #ffffff;
+  transition: 1s ease;
+  cursor: pointer;
 }
 .now {
-    transition: 1s ease;
+  transition: 1s ease;
 }
 
 .email:hover {
-    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
-    transform: scale(1.1);
-    transition: 1s ease;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  transform: scale(1.1);
+  transition: 1s ease;
 }
 .email {
-    
-    transition: 1s ease;
-
+  transition: 1s ease;
 }
 
-@media screen and (max-width: 1399px) { 
- 
-  
+@media screen and (max-width: 1399px) {
   .patner li a {
     color: white;
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 13px;
     font-weight: 500;
   }
-  
-  
-  }
+}
 
-
-  @media screen and (max-width: 991px) {  
-
-    .bttns1{
-        margin-top: 5%;
-        margin-bottom: 8%;
-    }
-
-  } 
-
-  @media screen and (max-width: 767px) {  
+@media screen and (max-width: 991px) {
   .bttns1 {
-    background-image: linear-gradient(to right, #F32F5E, #4A78EF);
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bttns1 {
+    background-image: linear-gradient(to right, #f32f5e, #4a78ef);
     width: 50%;
     height: 45px;
     display: block;
@@ -137,25 +130,22 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     list-style: none;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
     margin-top: 4%;
     margin-bottom: 7%;
-}
-
-.policy p {
-    text-align: center;
-}
-
   }
 
-  @media screen and (max-width: 480px) {  
+  .policy p {
+    text-align: center;
+  }
+}
 
-    .past h3 {
-        margin-top: 9%;
-    }
-
-   }
+@media screen and (max-width: 480px) {
+  .past h3 {
+    margin-top: 9%;
+  }
+}

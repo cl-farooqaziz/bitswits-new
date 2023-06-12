@@ -1,66 +1,77 @@
 .banner {
   background-color: #f6f1ff;
- 
 }
 
 .banner h1 {
-  padding-top: 55px;
+  padding-top: 30px;
 }
 
-.email {
-  padding-right: 1px;
-  position: relative;
-  left: -3px;
+.banner .banerTxt {
+  margin-left: 25px;
+}
+
+.banner .banerTxt p {
+  font-size: 18px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.call img {
+  width: 20px;
 }
 
 .bttns1 {
-  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
   width: 198px;
   height: 45px;
-  display: block;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #000;
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
   transition: background-color 1s;
+  border: 1px solid #000;
 }
 
-
 .bttns2 {
-  background-image: linear-gradient(to right, #82369c, #0047ff);
   width: 198px;
   height: 45px;
-  display: block;
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: #000;
   justify-content: center;
-  color: white;
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
-
+  border: 1px solid #000;
 }
 
 .bttns2:hover {
-  transition: background-color 2s;
-  background: linear-gradient(90deg, #4a78ef, transparent) #f32f5e;
+  transition: background-color 1s;
+  background-color: #000;
+  color: #fff;
 }
 .notice:hover {
-  transition: background-color 2s;
-  background: linear-gradient(90deg, #4a78ef, transparent) #f32f5e;
+  transition: background-color 1s;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
 .bttns1:hover {
-  transition: background-color 2s;
-  background: linear-gradient(90deg, #0047ff, transparent) #82369c;
+  transition: background-color 1s;
+  background-color: #000;
+  color: #fff;
 }
 
 .bttnsto {
@@ -76,8 +87,10 @@
 }
 
 .bannerform {
-  background-color: black;
+  background-color: #272727;
   height: 100%;
+  width: 390px;
+  margin-left: auto;
 }
 
 .discuss {
@@ -102,9 +115,9 @@
 }
 
 .make {
-  background-color: #272727;
-  padding-top: 45px;
-  padding-bottom: 100px;
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .free {
@@ -125,7 +138,7 @@
 }
 
 .formsbanner .forminput::placeholder {
-  color: #444444;
+  color: #eeeeee;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -140,7 +153,7 @@
 }
 
 .formsbanner .formarea::placeholder {
-  color: #444444;
+  color: #eeeeee;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -164,11 +177,8 @@
   margin: 0 auto;
 }
 
-
-
-
 .notice {
-  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  background-color: #fff;
   width: 40%;
   height: 45px;
   display: block;
@@ -176,7 +186,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #000;
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
@@ -192,28 +202,36 @@
 
 .read {
   padding-top: 15px;
-  background-color: #000000;
+  background-color: #272727;
   padding-bottom: 75px;
 }
 
-.califonia {
-  gap: 11px;
-}
-
-.sharjah {
-  max-width: 85%;
-  margin: 0 auto;
-  gap: 21px;
-  align-items: flex-start;
-}
-
-.alignment {
-  gap: 5px;
+.locations {
+  display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
-.sharjah a {
-  display: block;
+.locInner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.locImg {
+  text-align: center;
+}
+
+.locInner img {
+  width: 40px;
+  height: 40px;
+}
+
+.subInner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .bannerimg {
@@ -225,11 +243,10 @@
   left: 0;
 }
 
-
-.logo1{
+.logo1 {
   display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .bannerimg1 {
@@ -237,11 +254,6 @@
   gap: 50px;
   margin-top: 4%;
 }
-
-
-
-
-
 
 .logo13 {
   transform: translatey(0px);
@@ -252,97 +264,81 @@
   animation: float1 5s ease-in-out infinite;
 }
 
-
 @keyframes float {
-0% {
-  
-  transform: translatey(0px);
-}
-50% {
-  
-  transform: translatey(-20px);
-}
-100% {
-  
-  transform: translatey(0px);
-}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 
 @keyframes float1 {
   0% {
-    
     transform: translatey(0px);
   }
   50% {
-    
     transform: translatey(20px);
   }
   100% {
-    
     transform: translatey(0px);
   }
-  }
+}
 
-
-
-  .bottom {
-    animation:  buger-bottom;
-    animation-delay: 0s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    transform: translate(0, 200%);
-  }
-  .bottom1 {
-    animation:  buger-bottom;
-    animation-delay: .5s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    transform: translate(0, 200%);
-  
-  }
-  .bottom2 {
-    animation:  buger-bottom;
-    animation-delay: .8s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    transform: translate(0, 200%);
-   
-  }
-  .bottom3 {
-    animation: buger-bottom;
-    animation-delay: 1.3s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    transform: translate(0, 200%);
-  }
-  .bottom4 {
-    animation: buger-bottom;
-    animation-delay: 1.6s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    transform: translate(0, 200%);
-  }
+.bottom {
+  animation: buger-bottom;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom1 {
+  animation: buger-bottom;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom2 {
+  animation: buger-bottom;
+  animation-delay: 0.8s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom3 {
+  animation: buger-bottom;
+  animation-delay: 1.3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom4 {
+  animation: buger-bottom;
+  animation-delay: 1.6s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
 
 @keyframes buger-bottom {
-    0% {
-        transform: translate(0, 200%);
-        opacity: .5;
-    }
-    100% {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
+  0% {
+    transform: translate(0, 200%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
-
-
-
 
 @media screen and (max-width: 1920px) {
-
-
   .alignment {
     gap: 30px;
-}
+  }
 
   .sharjah a {
     display: block;
@@ -365,7 +361,6 @@
     justify-content: space-between;
   }
 
-
   .banner {
     height: 100vh;
   }
@@ -373,7 +368,7 @@
   .banner h1 {
     margin-top: 50px;
     font-size: 95px;
-    line-height: 105px;
+    line-height: 95px;
   }
 
   .bannerform {
@@ -381,8 +376,8 @@
   }
 
   .formsbanner .forminput {
-    height: 50px;
-    margin-bottom: 5%;
+    height: 40px;
+    margin-bottom: 4%;
   }
 
   .read {
@@ -399,10 +394,9 @@
 }
 
 @media screen and (max-width: 1600px) {
-
-  .alignment{
+  .alignment {
     gap: 15px;
-}
+  }
 
   .alignment p {
     font-size: 17px;
@@ -417,33 +411,23 @@
   }
 
   .read {
-    padding-top: 50px;
+    padding-top: 25px;
   }
 
   .discuss {
-
     height: 55px;
-
   }
-
-  .make {
-    background-color: #272727;
-    padding-top: 30px;
-    padding-bottom: 50px;
-  }
-
 
   .banner h1 {
     margin-top: 20px;
-    font-size: 75px;
-    line-height: 85px;
+    font-size: 70px;
+    line-height: 75px;
   }
 
   .bannerimg img {
     top: 15px;
   }
 }
-
 
 @media screen and (max-width: 1440px) {
   .sharjah a {
@@ -452,16 +436,12 @@
 }
 
 @media screen and (max-width: 1366px) {
-  
-
-
   .bannerimg2 {
     position: relative;
   }
   .bannerimg1 {
     position: absolute;
   }
-  
 
   .alignment p {
     font-size: 14px;
@@ -470,7 +450,6 @@
 
   .sharjah a {
     font-size: 9px;
-
   }
 
   .califonia p {
@@ -487,8 +466,8 @@
   }
 
   .banner h1 {
-    font-size: 65px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 55px;
   }
 
   .bannerform {
@@ -497,17 +476,12 @@
 }
 
 @media screen and (max-width: 1280px) {
-
   .sharjah a {
     font-size: 7px;
   }
-
 }
 
 @media screen and (max-width: 1199px) {
-
-
-
   .alignment p {
     font-size: 10px;
     line-height: 1;
@@ -534,11 +508,9 @@
   .free p {
     font-size: 16px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
-
   .bannerimg1 img {
     display: none;
   }
@@ -555,14 +527,6 @@
     font-size: 16px;
   }
 
-  .make {
-    background-color: #272727;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    margin-top: 7%;
-  }
-
-
   .banner {
     background-color: #f6f1ff;
     height: auto;
@@ -576,12 +540,9 @@
   .bannerimg img {
     position: unset;
   }
-
-
 }
 
 @media screen and (max-width: 767px) {
-
   .take p {
     font-size: 14px;
   }
@@ -590,18 +551,9 @@
     font-size: 44px;
     line-height: 54px;
   }
-
-  .make {
-    margin-top: 25%;
-  }
-
 }
 
-
 @media screen and (max-width: 480px) {
-
-
-
   .banner h1 {
     font-size: 30px;
     line-height: 40px;
@@ -624,12 +576,6 @@
     display: none;
   }
 
-  .make {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    margin-top: 40%;
-  }
-
   .banner h1 {
     padding-top: 150px;
   }
@@ -645,11 +591,4 @@
     font-size: 11px;
   }
 
-  .formsbanner .forminput::placeholder {
-    color: white;
-  }
-
-  .formsbanner .formarea::placeholder {
-    color: white;
-  }
 }

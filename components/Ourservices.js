@@ -140,7 +140,7 @@ const Ourservices = () => {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="4">
-                                    <Accordion.Header onMouseEnter={game4}>Web Flow Development</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game4}>Data Science</Accordion.Header>
                                     <Accordion.Body>
                                         For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
                                     </Accordion.Body>
