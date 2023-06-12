@@ -21,7 +21,7 @@
 }
 
 .call img {
-  width: 20px;
+  width: 35px;
 }
 
 .bttns1 {
@@ -89,7 +89,7 @@
 .bannerform {
   background-color: #272727;
   height: 100%;
-  width: 390px;
+  width: 450px;
   margin-left: auto;
 }
 
@@ -116,7 +116,7 @@
 
 .make {
   background-color: #000;
-  padding-top: 20px;
+  padding-top: 29px;
   padding-bottom: 30px;
 }
 
@@ -126,14 +126,14 @@
 }
 
 .formsbanner .forminput {
-  background-color: #707070;
+  background-color: #272727;
   border: unset;
   height: 45px;
   width: 100%;
   border-radius: unset;
   margin-bottom: 2%;
   padding-left: 4%;
-  color: white;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -223,8 +223,8 @@
 }
 
 .locInner img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 .subInner {

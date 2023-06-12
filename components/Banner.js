@@ -108,7 +108,7 @@ const Banner = () => {
                                             <Image alt="Bitswits" src={icon1} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
-                                            <p className='font13 font-bold fontf mb-0 white'>USA</p>
+                                            <p className='font15 font-bold fontf mb-0 white'>USA</p>
                                             <Link href="#" className='font12 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
                                             </Link>
@@ -120,7 +120,7 @@ const Banner = () => {
                                             <Image alt="Bitswits" src={icon2} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
-                                            <p className='font13 font-bold fontf mb-0 white'>UAE</p>
+                                            <p className='font15 font-bold fontf mb-0 white'>UAE</p>
                                             <Link href="#" className='font12 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
                                             </Link>
@@ -132,7 +132,7 @@ const Banner = () => {
                                             <Image alt="Bitswits" src={icon4} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
-                                            <p className='font13 font-bold fontf mb-0 white'>MALAYSIA</p>
+                                            <p className='font15 font-bold fontf mb-0 white'>MALAYSIA</p>
                                             <Link href="#" className='font12 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
                                             </Link>

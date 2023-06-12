@@ -10,6 +10,9 @@ import icon6 from '../public/images/trusted/icon6.png'
 import icon7 from '../public/images/trusted/icon7.png'
 import icon8 from '../public/images/trusted/icon8.png'
 import icon9 from '../public/images/trusted/icon9.png'
+import icon10 from '../public/images/trusted/icon10.png'
+import icon11 from '../public/images/trusted/icon11.png'
+import icon12 from '../public/images/trusted/icon12.png'
 import Image from 'next/image'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -19,13 +22,14 @@ import "slick-carousel/slick/slick-theme.css";
 const Trusted = () => {
 
   var awardslogo = {
-    dots: true,
+    dots: false,
     arrows: false,
-    loop: true,
-    autoplay: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 3000,
+    pauseOnHover: false,
+    cssEase: 'linear',
+    slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
       {
@@ -66,37 +70,44 @@ const Trusted = () => {
               <h4 className='font-semibold font25 fontf black center'>TRUSTED BY STARTUPS TO PUBLICLY LISTED COMPANIES</h4>
             </Col>
           </Row>
-
-
-
-          <div className={styles.startup}>
-            <Image alt="Bitswits" src={icon1} className="img-fluid" />
-            <Image alt="Bitswits" src={icon2} className="img-fluid" />
-            <Image alt="Bitswits" src={icon3} className="img-fluid" />
-            <Image alt="Bitswits" src={icon4} className="img-fluid" />
-            <Image alt="Bitswits" src={icon5} className="img-fluid" />
-            <Image alt="Bitswits" src={icon6} className="img-fluid" />
-            <Image alt="Bitswits" src={icon7} className="img-fluid" />
-            <Image alt="Bitswits" src={icon8} className="img-fluid" />
-            <Image alt="Bitswits" src={icon9} className="img-fluid" />
-          </div>
-
-
-          <Slider {...awardslogo} className={` ${styles.startup1}  startposition `}>
-            <Image alt="Bitswits" src={icon1} className="img-fluid" />
-            <Image alt="Bitswits" src={icon2} className="img-fluid" />
-            <Image alt="Bitswits" src={icon3} className="img-fluid" />
-            <Image alt="Bitswits" src={icon4} className="img-fluid" />
-            <Image alt="Bitswits" src={icon5} className="img-fluid" />
-            <Image alt="Bitswits" src={icon6} className="img-fluid" />
-            <Image alt="Bitswits" src={icon7} className="img-fluid" />
-            <Image alt="Bitswits" src={icon8} className="img-fluid" />
-            <Image alt="Bitswits" src={icon9} className="img-fluid" />
+          <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon1} className="img-fluid" />
+            </div>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon2} className="img-fluid" />
+            </div>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon3} className="img-fluid" />
+            </div>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon4} className="img-fluid" />
+            </div>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon5} className="img-fluid" />
+            </div>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon6} className="img-fluid" />
+            </div>
+            <div className={`${styles.strpImg} ${styles.minImg}`}>
+              <Image alt="Bitswits" src={icon7} className="img-fluid" />
+            </div>
+            <div className={`${styles.strpImg} ${styles.minImg}`}>
+              <Image alt="Bitswits" src={icon8} className="img-fluid" />
+            </div>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon9} className="img-fluid" />
+            </div>
+            <div className={`${styles.strpImg} ${styles.minImg}`}>
+              <Image alt="Bitswits" src={icon10} className="img-fluid" />
+            </div>
+            <div className={`${styles.strpImg} ${styles.minImg}`}>
+              <Image alt="Bitswits" src={icon11} className="img-fluid" />
+            </div>
+            <div className={styles.strpImg}>
+              <Image alt="Bitswits" src={icon12} className="img-fluid" />
+            </div>
           </Slider>
-
-
-
-
         </Container>
       </section>
     </>
