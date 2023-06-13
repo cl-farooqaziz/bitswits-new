@@ -33,7 +33,7 @@ const Banner = () => {
 
 
                             <div className={styles.bannerimg2}>
-                                <div className={styles.bannerimg1}>
+                                {/* <div className={styles.bannerimg1}>
 
                                     <div className={` ${styles.logo1} ${styles.logo13} `}>
 
@@ -51,7 +51,7 @@ const Banner = () => {
                                         <Image alt="Bitswits" loading="lazy" src={alignicon1} className={`${styles.bottom4} img-fluid`} />
 
                                     </div>
-                                </div>
+                                </div> */}
 
 
 
@@ -74,7 +74,7 @@ const Banner = () => {
                                         Let's discuss your project:
                                     </p>
                                 </div>
-                                <Link className='font14 font-medium white fontf' href='tel:(833) 500-6007'>(833) 500-6007</Link>
+                                <Link className={`${styles.formA} font14 font-medium white fontf`} href='tel:(833) 500-6007'>(833) 500-6007</Link>
                             </div>
 
                             <div className={styles.make}>
