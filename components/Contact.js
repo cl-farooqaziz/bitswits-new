@@ -35,7 +35,7 @@ const Contact = () => {
                                    
                                 </div>
                                 <div className={styles.social}>
-                                    <h4 className='font16 fontf mt-4 mb-3'>OUR SOCIALS</h4>
+                                    <h5 className='font16 fontf mt-5 mb-3'>OUR SOCIALS</h5>
                                     <div className={styles.socialIcn}>
                                         <Link href="#"> <FaLinkedin className={styles.email} /></Link>
                                         <Link href="#"> <FaFacebookSquare className={styles.email} /></Link>
@@ -49,7 +49,7 @@ const Contact = () => {
                             </div>
                         </Col>
                         <Col lg={7}>
-                            <div className={styles.cntcForm}>
+                            <div className={`${styles.cntcForm} mt-5 mt-lg-0`}>
                                 <form>
                                     <Row>
                                         <Col lg={6}>

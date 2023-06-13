@@ -103,6 +103,7 @@
   .ourservices {
     background-color: #272727;
     padding-top: 65px;
+    padding-bottom: 30px;
     height: auto;
   }
 
@@ -118,12 +119,5 @@
 
   .bttns1 {
     width: 270px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .ourservices {
-    padding-top: 90px;
-    padding-bottom: 40px;
   }
 }

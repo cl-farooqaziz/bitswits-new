@@ -41,20 +41,26 @@
   .bttns1 {
     font-size: 13px;
   }
-  .ourportfolio {
-    padding-top: 100px;
-    padding-bottom: 130px;
-  }
 }
 @media screen and (max-width: 991px) {
   .rightlogo img {
     width: 100%;
   }
+
   .bttns1 {
     width: 270px;
     font-size: 13px;
   }
+
+  .ourportfolio {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .ourportfolio {
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
 }

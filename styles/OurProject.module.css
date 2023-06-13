@@ -122,4 +122,53 @@
     display: flex;
     align-items: center;
   }
+
+  .ourProject {
+    padding: 70px 0 100px;
+  }
+
+  .slideCntnt {
+    width: 100%;
+  }
+
+  .slideCntnt p {
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+
+  .line {
+    width: 88%;
+  }
+
+  .bttns1 {
+    width: 270px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ourProject {
+    padding: 5 0px 0 80px;
+  }
+
+  .slideBox {
+    padding: 30px;
+  }
+
+  .slideCntnt h3 {
+    font-size: 30px;
+  }
+
+  .slideCntnt p {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+
+  .slideList p {
+    font-size: 13px;
+  }
+
+  .line {
+    width: 78%;
+  }
 }

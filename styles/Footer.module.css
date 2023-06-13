@@ -1,6 +1,6 @@
 .footer {
   background-color: #272727;
-  padding-top: 80px;
+  padding-top: 65px;
 }
 .project {
   border-bottom: 1px solid #707070;
@@ -169,30 +169,44 @@
     margin-top: 5%;
     margin-bottom: 8%;
   }
+
+  .startup1::before {
+    display: none;
+  }
+
+  .startup1::after {
+    display: none;
+  }
+
+  .startup1 img {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .minImg img {
+    width: 70%;
+  }
+
+  .patner li {
+    padding-bottom: 12px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .bttns1 {
-    background-image: linear-gradient(to right, #f32f5e, #4a78ef);
     width: 50%;
-    height: 45px;
-    display: block;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: "Montserrat";
-    list-style: none;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 4%;
-    margin-bottom: 7%;
   }
 
   .policy p {
     text-align: center;
+  }
+
+  .footer {
+    padding-top: 45px;
+  }
+
+  .past {
+    padding-top: 0px;
   }
 }
 

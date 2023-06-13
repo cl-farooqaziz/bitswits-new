@@ -60,7 +60,7 @@
   align-items: center;
   justify-content: center;
   color: #000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
   font-size: 15px;
@@ -79,15 +79,14 @@
 /* ===============Media Queries================ */
 
 @media screen and (min-width: 1440px) {
-
   .slideCntnt {
     padding-top: 45px;
   }
 
-  .slideCntnt img{
+  .slideCntnt img {
     margin-bottom: 10px;
   }
-  .slideCntnt h5{
+  .slideCntnt h5 {
     margin-top: 20px !important;
   }
 
@@ -120,10 +119,20 @@
   .slideImg img {
     width: 100%;
   }
+
+  .bttns1 {
+    width: 270px;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .clintSlider {
     width: 100%;
+  }
+
+  .ourClientsMbl {
+    display: block;
+    padding: 50px 0 85px;
   }
 }

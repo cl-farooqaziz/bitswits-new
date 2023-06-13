@@ -217,7 +217,7 @@
 }
 
 .inqBtn a:hover {
-    transition: background-color 2s;
+  transition: background-color 2s;
 }
 
 /* ===============Media Queries================ */
@@ -244,14 +244,11 @@
   }
 }
 
-@media screen and (max-width: 1280px) { 
-
+@media screen and (max-width: 1280px) {
   .menu li a {
     padding: 0 20px;
     font-size: 15px;
-}
-
-
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -280,9 +277,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
-
-
   .header {
     padding: 0 15px;
   }
@@ -435,11 +429,8 @@
   }
 }
 
-@media screen and (max-width: 480px) { 
-
+@media screen and (max-width: 480px) {
   .navLogo {
     width: 60%;
   }
-
 }
-

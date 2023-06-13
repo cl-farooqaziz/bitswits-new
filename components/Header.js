@@ -1060,7 +1060,7 @@ const Header = () => {
 
                                                             />
                                                         </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>TAILORMADE SOLUTION</h5>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>DATA SCIENCE</h5>
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
@@ -1069,7 +1069,7 @@ const Header = () => {
                                                                     <li>
                                                                         <Link href='#'>
                                                                             <FaAngleRight />
-                                                                            <span>TailorMade</span>
+                                                                            <span>DATA SCIENCE</span>
                                                                         </Link>
                                                                     </li>
                                                                 </ul>

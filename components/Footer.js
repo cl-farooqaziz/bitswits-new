@@ -45,18 +45,10 @@ const Footer = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 4,
           slidesToScroll: 2,
           infinite: true,
 
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 2
         }
       },
       {
@@ -130,7 +122,7 @@ const Footer = () => {
 
             </Col>
             <Col lg={2}>
-              <h3 className='font25 font-bold white fontf mb-4'>Discover</h3>
+              <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Discover</h3>
               <ul className={styles.patner}>
                 <li> <Link href="#">ABOUT US</Link> </li>
                 <li> <Link href="#">WORK</Link> </li>
@@ -140,7 +132,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg={2}>
-              <h3 className='font25 font-bold white fontf mb-4'>Services</h3>
+              <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Services</h3>
               <ul className={styles.patner}>
                 <li> <Link href="#">WEB DESIGN</Link> </li>
                 <li> <Link href="#">MOBILE APP DESIGN</Link> </li>
@@ -149,7 +141,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg={3}>
-              <h3 className='font25 font-bold white fontf mb-4'>Contact</h3>
+              <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Contact</h3>
 
 
 

@@ -103,7 +103,7 @@
   font-size: 40px;
 }
 
-.font60{
+.font60 {
   font-size: 50px;
   line-height: 68px;
 }
@@ -317,6 +317,11 @@ a {
 }
 
 /* ===============OurProject================ */
+
+.sidenewlong .slick-dots {
+  bottom: -40px;
+  left: 0;
+}
 
 .newproject .slick-list {
   overflow: visible;
@@ -756,7 +761,6 @@ input::-webkit-inner-spin-button {
 
   .sidenewlong {
     display: block !important;
-    padding: 3% 7%;
   }
 
   .line60 {
@@ -782,6 +786,10 @@ input::-webkit-inner-spin-button {
   .clintSlider .slick-list .slick-track .slick-slide.slick-active::after {
     display: none;
   }
+
+  .sidenewlong .slick-dots {
+    bottom: -50px;
+  }
 }
 
 /* ========================= */
@@ -801,11 +809,16 @@ input::-webkit-inner-spin-button {
     line-height: 40px;
   }
 
+  .font50 {
+    font-size: 35px;
+  }
+
   .ourarrows2 .slick-prev {
     top: -7%;
     right: 19% !important;
     left: unset !important;
   }
+
 }
 
 /* ========================= */

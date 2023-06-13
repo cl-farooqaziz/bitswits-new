@@ -567,8 +567,12 @@
   }
 
   .banner .banerTxt {
-    margin-left: 0px;
-    padding: 140px 0;
+    padding: 0;
+    margin: 14px 0;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .banner h1 {
@@ -590,7 +594,7 @@
 @media screen and (max-width: 480px) {
   .banner h1 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 35px;
   }
 
   .read {
