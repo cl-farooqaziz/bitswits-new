@@ -13,8 +13,62 @@ import { AiFillBehanceCircle } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 import icon from '../public/images/footer/icon.png'
 import Image from 'next/image'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+//images
+import icon1 from '../public/images/awards/award1.png'
+import icon2 from '../public/images/awards/award2.png'
+import icon3 from '../public/images/awards/award3.png'
+import icon4 from '../public/images/awards/award4.png'
+import icon5 from '../public/images/awards/award5.png'
+import icon6 from '../public/images/awards/award6.png'
+import icon7 from '../public/images/awards/award7.png'
+import icon8 from '../public/images/awards/award8.png'
+import icon9 from '../public/images/awards/award9.png'
+import icon10 from '../public/images/awards/award10.png'
+import icon11 from '../public/images/awards/award11.png'
 
 const Footer = () => {
+
+  var awardslogo = {
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 3000,
+    pauseOnHover: false,
+    cssEase: 'linear',
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      }
+    ]
+  };
+
   return (
     <>
 
@@ -22,14 +76,48 @@ const Footer = () => {
 
         <Container>
           <Row className={styles.project}>
-            <Col lg={4}>
-              <h3 className={` ${styles.now} fontf font-bold grdiant font50`}>Start Project</h3>
+            <Col lg={12}>
+              <h4 className='font30 fontf font-bold white mb-0 text-center'>
+                <span className='grdiant'>Award-winning Platform</span> <br />
+                Trusted by Enterprises
+              </h4>
             </Col>
-            <Col lg={4}>
-              <h3 className='fontf font-bold white font50'>Right Now <span className={styles.now}> . </span> </h3>
-            </Col>
-            <Col lg={4}>
-              <h3 className='fontf font-bold white font50'>Start Project</h3>
+            <Col lg={12}>
+              <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon1} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon2} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon3} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon4} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon5} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon6} className="img-fluid" />
+                </div>
+                <div className={`${styles.strpImg} ${styles.minImg}`}>
+                  <Image alt="Bitswits" src={icon7} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon8} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon9} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon10} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="Bitswits" src={icon11} className="img-fluid" />
+                </div>
+              </Slider>
             </Col>
           </Row>
 

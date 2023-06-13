@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 12px;
+  margin-top: 15px;
 }
 
 .slideList img {
@@ -110,6 +110,12 @@
 }
 
 /* ===============Media Queries================ */
+
+@media screen and (max-width: 1366px) {
+  .slideList p {
+    font-size: 15px;
+  }
+}
 
 @media screen and (max-width: 991px) {
   .slideImg {

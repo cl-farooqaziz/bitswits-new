@@ -138,7 +138,7 @@
 }
 
 .formsbanner .forminput::placeholder {
-  color: #eeeeee;
+  color: #707070;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -153,14 +153,14 @@
 }
 
 .formsbanner .formarea::placeholder {
-  color: #eeeeee;
+  color: #707070;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
 }
 
 .formsbanner .formarea {
-  background-color: #707070;
+  background-color: #272727;
   border: unset;
   height: 100px;
   width: 100%;
@@ -391,16 +391,15 @@
 }
 
 @media screen and (min-width: 1600px) {
-  .call p{
+  .call p {
     font-size: 16px;
   }
 
-  .formA{
+  .formA {
     font-size: 20px;
     font-weight: 600;
   }
 }
-
 
 @media screen and (max-width: 1600px) {
   .alignment {
@@ -566,6 +565,15 @@
   .bannerform {
     width: 100%;
   }
+
+  .banner .banerTxt {
+    margin-left: 0px;
+    padding: 140px 0;
+  }
+
+  .banner h1 {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -600,15 +608,6 @@
   .bannerimg img {
     height: 420px;
     display: none;
-  }
-
-  .banner .banerTxt {
-    margin-left: 0px;
-    padding: 140px 0;
-  }
-
-  .banner h1 {
-    padding-top: 0px;
   }
 
   .free p {

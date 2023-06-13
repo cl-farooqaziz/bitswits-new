@@ -701,9 +701,9 @@ input::-webkit-inner-spin-button {
   }
 
   .ourservicesfaqs .accordion-button {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Montserrat";
-    font-weight: bold;
+    font-weight: 300;
   }
 
   .faqsblog .accordion-body {
