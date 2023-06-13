@@ -22,20 +22,17 @@ const Contact = () => {
                                 <div className={styles.getInTch}>
                                     <div className={styles.touch}>
                                         <FaRegEnvelope />
-                                        <span>hey@zensite.co</span>
+                                        <span>info@bitswits.co</span>
                                     </div>
                                     <div className={styles.touch}>
                                         <FaPhoneAlt />
-                                        <span>+65 3158 6926 (SG)</span>
+                                        <span>+1 (833) 500-6007 </span>
                                     </div>
                                     <div className={styles.touch}>
                                         <FaPhoneAlt />
-                                        <span>+65 3158 6926 (MY)</span>
+                                        <span>+1 (312) 379 5987</span>
                                     </div>
-                                    <div className={`${styles.touch} ${styles.loctn}`}>
-                                        <FaMapMarkerAlt />
-                                        <span>68 Circular Rd, Unit 02-01, Singapore 049422</span>
-                                    </div>
+                                   
                                 </div>
                                 <div className={styles.social}>
                                     <h4 className='font16 fontf mt-4 mb-3'>OUR SOCIALS</h4>
