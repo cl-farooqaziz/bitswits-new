@@ -10,7 +10,6 @@ import alignicon3 from '../public/images/banner/bannerimage3.png'
 import alignicon4 from '../public/images/banner/bannerimage4.png'
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
-import icon3 from '../public/images/banner/icon3.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
 

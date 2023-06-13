@@ -1,0 +1,157 @@
+.contact {
+  padding: 50px 0;
+}
+
+.getInTch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.touch {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.loctn {
+  align-items: flex-start;
+}
+
+.touch svg {
+  font-size: 20px;
+  color: #797979;
+}
+
+.touch span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #525252;
+}
+
+.social h4 {
+  color: #8b8b8b;
+}
+
+.socialIcn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.socialIcn svg {
+  color: #797979;
+  font-size: 24px;
+}
+
+.socialIcn svg:hover {
+  color: #000;
+}
+
+.socialIcn img {
+  filter: invert(1);
+  filter: brightness(0.5);
+  width: 22px;
+  height: 22px;
+}
+
+.socialIcn img:hover {
+  filter: brightness(0);
+}
+
+.cntcForm form label {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.875;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+  display: block;
+}
+
+.cntcForm form label span {
+  color: #f32f4d;
+}
+
+.cntcForm form input,
+.cntcForm form select {
+  min-height: 52px;
+  background-color: #fff;
+  border: 1px #000;
+  border-bottom: 1px solid #c9c9c9;
+  border-radius: 0;
+  padding: 14px 0;
+  width: 100%;
+  height: 38px;
+  vertical-align: middle;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  display: block;
+}
+
+.cntcForm form textarea {
+  height: 120px;
+  min-height: 52px;
+  background-color: #fff;
+  border: 1px #000;
+  border-bottom: 1px solid #c9c9c9;
+  border-radius: 0;
+  padding: 14px 0;
+  width: 100%;
+  vertical-align: middle;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  display: block;
+}
+
+.cntcForm form input:focus,
+.cntcForm form select,
+.cntcForm form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #3898ec;
+}
+
+.cntcForm form ::placeholder {
+  font-size: 16px;
+  color: #a5a5a5;
+}
+
+.btns {
+  background-color: #272727;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btns:hover {
+  transition: background-color 2s;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.formPara p {
+  color: #8b8b8b;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.link {
+  color: #f32f4d;
+}

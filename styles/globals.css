@@ -103,6 +103,11 @@
   font-size: 40px;
 }
 
+.font60{
+  font-size: 50px;
+  line-height: 68px;
+}
+
 /* linehight */
 
 .line60 {

@@ -1,5 +1,6 @@
 .banner {
-  background-color: #f6f1ff;
+  background-color: #fff;
+  background-image: linear-gradient(135deg,#f8fdff,#fdf3f6 66%,#feebf0);
 }
 
 .banner h1 {
@@ -89,7 +90,6 @@
 .bannerform {
   background-color: #272727;
   height: 100%;
-  width: 450px;
   margin-left: auto;
 }
 
@@ -170,6 +170,7 @@
   padding-top: 4%;
   color: white;
   font-family: "Montserrat", sans-serif;
+  resize: none;
 }
 
 .formsbanner {
@@ -361,18 +362,10 @@
     justify-content: space-between;
   }
 
-  .banner {
-    height: 100vh;
-  }
-
   .banner h1 {
     margin-top: 50px;
     font-size: 95px;
     line-height: 95px;
-  }
-
-  .bannerform {
-    height: 100vh;
   }
 
   .formsbanner .forminput {
@@ -390,6 +383,10 @@
 
   .bttnsto {
     margin-top: 30px !important;
+  }
+
+  .bannerform{
+    width: 500px;
   }
 }
 
@@ -432,6 +429,10 @@
 @media screen and (max-width: 1440px) {
   .sharjah a {
     font-size: 10px;
+  }
+
+  .bannerform{
+    width: 450px;
   }
 }
 
