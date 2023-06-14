@@ -218,6 +218,7 @@
 
 .inqBtn a:hover {
   transition: background-color 2s;
+  background-color: #000;
 }
 
 /* ===============Media Queries================ */

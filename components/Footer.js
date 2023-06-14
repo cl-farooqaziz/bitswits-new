@@ -74,7 +74,7 @@ const Footer = () => {
                 Trusted by Enterprises
               </h4>
             </Col>
-            <Col lg={12}>
+            <Col lg={12} className={styles.trstCol}>
               <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
                 <div className={styles.strpImg}>
                   <Image alt="Bitswits" src={icon1} className="img-fluid" />
@@ -124,20 +124,20 @@ const Footer = () => {
             <Col lg={2}>
               <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Discover</h3>
               <ul className={styles.patner}>
-                <li> <Link href="#">ABOUT US</Link> </li>
-                <li> <Link href="#">WORK</Link> </li>
-                <li> <Link href="#">SERVICES</Link> </li>
-                <li> <Link href="#">BLOG</Link> </li>
-                <li> <Link href="#">CAREERS</Link> </li>
+                <li> <Link href="#">About Us</Link> </li>
+                <li> <Link href="#">Work</Link> </li>
+                <li> <Link href="#">Services</Link> </li>
+                <li> <Link href="#">Blog</Link> </li>
+                <li> <Link href="#">Careers</Link> </li>
               </ul>
             </Col>
             <Col lg={2}>
               <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Services</h3>
               <ul className={styles.patner}>
-                <li> <Link href="#">WEB DESIGN</Link> </li>
-                <li> <Link href="#">MOBILE APP DESIGN</Link> </li>
-                <li> <Link href="#">WEB3 DESIGN</Link> </li>
-                <li> <Link href="#">BLOCKCHAIN</Link> </li>
+                <li> <Link href="#">Web Design</Link> </li>
+                <li> <Link href="#">Mobile App Design</Link> </li>
+                <li> <Link href="#">Web3 Design</Link> </li>
+                <li> <Link href="#">Blockchain</Link> </li>
               </ul>
             </Col>
             <Col lg={3}>

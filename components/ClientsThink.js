@@ -14,12 +14,11 @@ import slidebefore from '../public/images/clients/stars.png'
 function ClientsThink() {
 
     var clientsthink = {
-        dots: true,
+        dots: false,
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerMode: true,
-        centerPadding: '90px 0px 0px',
+        centerMode: false,
         variableWidth: false,
     };
 
@@ -73,11 +72,11 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Vivien Francis
                                                         </h5>
-                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
@@ -114,11 +113,11 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Vivien Francis
                                                         </h5>
-                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
@@ -155,11 +154,11 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Vivien Francis
                                                         </h5>
-                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
@@ -196,11 +195,11 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
-                                                        <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Vivien Francis
                                                         </h5>
-                                                        <p className='font12 fontf black mt-1 mb-0 pb-3'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>

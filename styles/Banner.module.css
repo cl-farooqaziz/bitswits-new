@@ -1,6 +1,7 @@
 .banner {
   background-color: #fff;
   background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0);
+  position: relative;
 }
 
 .banner h1 {
@@ -91,6 +92,8 @@
   background-color: #272727;
   height: 100%;
   margin-left: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .discuss {
@@ -336,6 +339,38 @@
   }
 }
 
+.bannerimg2 {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+/* ============================================= */
+
+@media screen and (min-width: 2020px) {
+  .call {
+    gap: 12px;
+  }
+
+  .call p {
+    font-size: 24px;
+  }
+
+  .formA {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner,
+  .bannerform {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-width: 1920px) {
   .alignment {
     gap: 30px;
@@ -388,16 +423,13 @@
   .bannerform {
     width: 550px;
   }
-}
-
-@media screen and (min-width: 1600px) {
   .call p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .formA {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
   }
 }
 
@@ -439,6 +471,15 @@
   .bannerform {
     width: 486px;
   }
+
+  .call p {
+    font-size: 16px;
+  }
+
+  .formA {
+    font-size: 20px;
+    font-weight: 500;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -449,12 +490,21 @@
   .bannerform {
     width: 450px;
   }
+
+  .call img {
+    width: 22px;
+  }
+
+  .call p {
+    font-size: 14px;
+  }
+
+  .formA {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1366px) {
-  .bannerimg2 {
-    position: relative;
-  }
   .bannerimg1 {
     position: absolute;
   }
@@ -577,6 +627,10 @@
 
   .banner h1 {
     padding-top: 0px;
+  }
+
+  .bannerimg2 {
+    display: none;
   }
 }
 

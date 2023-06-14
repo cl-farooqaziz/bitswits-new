@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
 /* fontfamily */
 
 .fontf {
@@ -406,61 +413,9 @@ a {
 
 /* =============ClientSlider============== */
 
-.clintSlider .slick-list {
-  overflow: visible;
-}
-
 .clintSlider .slick-dots,
 .clintSlidermbl .slick-dots {
   bottom: -40px;
-}
-
-.clintSlider {
-  position: relative;
-}
-
-.clintSlider .slick-list::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 500px;
-  display: block;
-  background-color: #fff;
-  z-index: 1;
-  margin-left: -500px;
-}
-
-.clintSlider .slick-list::after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0;
-  bottom: 6px;
-  width: 500px;
-  display: block;
-  background-color: #73707075;
-  z-index: 1;
-  margin-right: -360px;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(14px);
-}
-
-.clintSlider .slick-list .slick-track .slick-slide.slick-active {
-  position: relative;
-}
-
-.clintSlider .slick-list .slick-track .slick-slide.slick-active::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 40px;
-  background-color: #fff;
-  display: block;
-  margin-right: -40px;
 }
 
 .clintSlider .slick-prev {

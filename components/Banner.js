@@ -3,11 +3,15 @@ import styles from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
-import alignicon from '../public/images/banner/bannerimage.png'
-import alignicon1 from '../public/images/banner/bannerimage1.png'
-import alignicon2 from '../public/images/banner/bannerimage2.png'
-import alignicon3 from '../public/images/banner/bannerimage3.png'
-import alignicon4 from '../public/images/banner/bannerimage4.png'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+//images
+import banImg1 from '../public/images/banner/bannerimg1.png'
+import banImg2 from '../public/images/banner/bannerimg2.png'
+import banImg3 from '../public/images/banner/bannerimg1.png'
+import banImg4 from '../public/images/banner/bannerimg2.png'
+import banImg5 from '../public/images/banner/bannerimg1.png'
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
@@ -15,9 +19,21 @@ import callIcn from '../public/images/banner/call-icon.png'
 
 
 const Banner = () => {
+
+    var bannerslider = {
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 20000,
+        pauseOnHover: false,
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1
+
+    };
+
     return (
-
-
         <section className={styles.banner}>
             <Container fluid>
                 <Row className={styles.bannnerproject}>
@@ -33,13 +49,30 @@ const Banner = () => {
 
 
                             <div className={styles.bannerimg2}>
+
+                                <Slider {...bannerslider} className={` ${styles.startup1} bannerslider mt-4`}>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="Bitswits" src={banImg1} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="Bitswits" src={banImg2} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="Bitswits" src={banImg3} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="Bitswits" src={banImg4} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="Bitswits" src={banImg5} className="img-fluid" />
+                                    </div>
+                                </Slider>
+
+
                                 {/* <div className={styles.bannerimg1}>
-
                                     <div className={` ${styles.logo1} ${styles.logo13} `}>
-
                                         <Image alt="Bitswits" loading="lazy" src={alignicon4} className={` ${styles.bottom}  img-fluid`} />
                                         <Image alt="Bitswits" loading="lazy" src={alignicon3} className={`${styles.bottom1}  img-fluid mt-3`} />
-
                                     </div>
 
                                     <div className={styles.logo1}>
@@ -52,8 +85,6 @@ const Banner = () => {
 
                                     </div>
                                 </div> */}
-
-
 
                                 {/* <Image alt="Bitswits" loading="lazy" src={alignicon} className="img-fluid" />
                             <Image alt="Bitswits" loading="lazy" src={alignicon1} className="img-fluid" />
