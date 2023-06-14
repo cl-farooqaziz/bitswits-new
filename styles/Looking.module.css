@@ -101,6 +101,13 @@
   border: 1px solid #000;
 }
 
+.btn1:hover {
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
 .output {
   position: relative;
   height: 100%;
