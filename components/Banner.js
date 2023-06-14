@@ -7,11 +7,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //images
-import banImg1 from '../public/images/banner/bannerimg1.png'
-import banImg2 from '../public/images/banner/bannerimg2.png'
-import banImg3 from '../public/images/banner/bannerimg1.png'
-import banImg4 from '../public/images/banner/bannerimg2.png'
-import banImg5 from '../public/images/banner/bannerimg1.png'
+import banImg1 from '../public/images/banner/bannerImg1.png'
+import banImg2 from '../public/images/banner/bannerImg2.png'
+import banImg3 from '../public/images/banner/bannerImg1.png'
+import banImg4 from '../public/images/banner/bannerImg2.png'
+import banImg5 from '../public/images/banner/bannerImg1.png'
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'

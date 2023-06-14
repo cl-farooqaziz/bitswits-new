@@ -101,8 +101,9 @@ const Contact = () => {
                                                     <option value="Webflow Development">Mobile/Web Design</option>
                                                     <option value="Web Development">Web Development</option>
                                                     <option value="Web3 Design">Web3 Design</option>
-                                                    <option value="Product Research &amp; Strategy">Product Research &amp; Strategy</option>
-                                                    <option value="Design Subscription/Retainer">Design Subscription/Retainer</option>
+                                                    <option value="BlockChain">BlockChain</option>
+                                                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                                                    <option value="Data Science">Data Science</option>
                                                     <option value="Others">Others</option>
                                                 </select>
                                             </div>
