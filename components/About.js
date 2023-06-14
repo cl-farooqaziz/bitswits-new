@@ -73,13 +73,13 @@ const About = () => {
                             <p className='font25 fontf font-medium mt-4 mb-4 black'>For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.</p>
 
 
-                            <div className={styles.decade}>
+                            <Row className={styles.decade}>
 
-                                <div>
+                                <Col md={4}>
                                     <p className='fontf font25 font-medium m-0 black'>The portfolios we serve provide</p>
-                                </div>
+                                </Col>
 
-                                <div className={styles.spaceimg}>
+                                <Col md={3} className={styles.spaceimg}>
 
                                     <div>
                                         <Image alt="Bitswits" src={icon4} className='img-fluid' />
@@ -92,9 +92,9 @@ const About = () => {
                                             alt='Bitswits'
                                         />
                                     </div>
-                                </div>
+                                </Col>
 
-                                <div className={styles.spaceimg}>
+                                <Col md={2} className={styles.spaceimg}>
 
                                     <div>
                                         <Image alt="Bitswits" src={icon1} className='img-fluid' />
@@ -108,10 +108,10 @@ const About = () => {
                                         />
                                     </div>
 
-                                </div>
+                                </Col>
 
 
-                                <div className={styles.spaceimg}>
+                                <Col md={3} className={styles.spaceimg}>
 
                                     <div>
                                         <Image alt="Bitswits" src={icon6} className='img-fluid' />
@@ -125,9 +125,9 @@ const About = () => {
                                         />
                                     </div>
 
-                                </div>
+                                </Col>
 
-                                <div className={styles.spaceimg}>
+                                <Col md={4} className={styles.spaceimg}>
 
                                     <div>
                                         <Image alt="Bitswits" src={icon5} className='img-fluid' />
@@ -141,9 +141,9 @@ const About = () => {
                                         />
                                     </div>
 
-                                </div>
+                                </Col>
 
-                                <div className={styles.spaceimg}>
+                                <Col md={3} className={styles.spaceimg}>
 
                                     <div>
                                         <Image alt="Bitswits" src={icon2} className='img-fluid' />
@@ -157,9 +157,9 @@ const About = () => {
                                         />
                                     </div>
 
-                                </div>
+                                </Col>
 
-                                <div className={styles.spaceimg}>
+                                <Col md={3} className={styles.spaceimg}>
 
                                     <div>
                                         <Image alt="Bitswits" src={icon3} className='img-fluid' />
@@ -173,11 +173,11 @@ const About = () => {
                                         />
                                     </div>
 
-                                </div>
+                                </Col>
 
 
 
-                            </div>
+                            </Row>
 
 
 

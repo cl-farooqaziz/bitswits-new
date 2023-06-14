@@ -420,12 +420,12 @@ a {
 
 .clintSlider .slick-prev {
   top: -15%;
-  right: 2%;
+  right: 8%;
   left: unset;
 }
 .clintSlider .slick-next {
   top: -15%;
-  right: -5%;
+  right: 22px;
 }
 
 .clintSlider .slick-next::before {
@@ -590,16 +590,6 @@ input::-webkit-inner-spin-button {
     margin-right: -15px;
   }
 
-  .clintSlider .slick-prev {
-    top: -15%;
-    right: 14%;
-    left: unset;
-  }
-  .clintSlider .slick-next {
-    top: -15%;
-    right: 9%;
-  }
-
   .clintSlider .slick-list::before {
     top: -2px;
   }
@@ -653,7 +643,7 @@ input::-webkit-inner-spin-button {
   }
   .newproject .slick-next {
     top: 50%;
-    right: -5%;
+    right: -4.5%;
   }
 
   .ourservicesfaqs .accordion-body {

@@ -587,10 +587,6 @@
     display: none;
   }
 
-  .discuss {
-    display: none !important;
-  }
-
   .read {
     display: none;
   }
@@ -619,8 +615,7 @@
 
   .banner .banerTxt {
     padding: 0;
-    margin: 14px 0;
-    height: 90vh;
+    margin: 14px 0 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
