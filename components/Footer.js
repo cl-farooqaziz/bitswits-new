@@ -178,7 +178,7 @@ const Footer = () => {
                 <div className={styles.spacing}> </div>
                 <Link href="#"> <AiFillBehanceCircle size={20} className={styles.email} /></Link>
                 <Link href="#"> <BsPinterest size={20} className={styles.email} /></Link>
-                <Link href="#" > <Image src={icon} className={`${styles.email}`} /> </Link>
+                <Link href="#" > <Image src={icon} alt='Bitswits' className={`${styles.email}`} /> </Link>
                 <Link href="#"> <FaTelegramPlane size={20} className={styles.email} /></Link>
               </div>
 

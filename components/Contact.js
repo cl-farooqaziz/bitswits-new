@@ -32,7 +32,7 @@ const Contact = () => {
                                         <FaPhoneAlt />
                                         <span>+1 (312) 379 5987</span>
                                     </div>
-                                   
+
                                 </div>
                                 <div className={styles.social}>
                                     <h5 className='font16 fontf mt-5 mb-3'>OUR SOCIALS</h5>
@@ -41,7 +41,7 @@ const Contact = () => {
                                         <Link href="#"> <FaFacebookSquare className={styles.email} /></Link>
                                         <Link href="#"> <FaInstagram className={styles.email} /></Link>
                                         <Link href="#"> <FaDribbble className={styles.email} /></Link>
-                                        <Link href="#" > <Image src={icon} className={`${styles.email}`} /> </Link>
+                                        <Link href="#" > <Image src={icon} alt='Bitswits' className={`${styles.email}`} /> </Link>
                                         <Link href="#"> <FaPinterest className={styles.email} /></Link>
                                         <Link href="#"> <FaBehance className={styles.email} /></Link>
                                     </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                                     <Row>
                                         <Col lg={6}>
                                             <div className='mb-4'>
-                                                <label for="fname" className='form-label'>
+                                                <label className='form-label'>
                                                     First Name
                                                     <span className={styles.imp}>*</span>
                                                 </label>
@@ -63,7 +63,7 @@ const Contact = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className='mb-4'>
-                                                <label for="lname" className='form-label'>
+                                                <label className='form-label'>
                                                     Last Name
                                                     <span className={styles.imp}>*</span>
                                                 </label>
@@ -72,7 +72,7 @@ const Contact = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className='mb-4'>
-                                                <label for="email" className='form-label'>
+                                                <label className='form-label'>
                                                     Email Address
                                                     <span className={styles.imp}>*</span>
                                                 </label>
@@ -81,7 +81,7 @@ const Contact = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className='mb-4'>
-                                                <label for="company" className='form-label'>Company Size</label>
+                                                <label className='form-label'>Company Size</label>
                                                 <select id="company" name="Company" data-name="Company" className={styles.wSelect}>
                                                     <option value="0">Company Size</option>
                                                     <option value="1">Only 1</option>
@@ -95,7 +95,7 @@ const Contact = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className='mb-4'>
-                                                <label for="Service" className='form-label'>Service</label>
+                                                <label className='form-label'>Service</label>
                                                 <select id="Service" name="Service" data-name="Service" className={styles.wSelect}>
                                                     <option value="">Select service</option>
                                                     <option value="Webflow Development">Mobile/Web Design</option>
@@ -109,7 +109,7 @@ const Contact = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className='mb-4'>
-                                                <label for="Source" className='form-label'>How did you find us?</label>
+                                                <label className='form-label'>How did you find us?</label>
                                                 <select id="Source" name="Source" data-name="Source" className={styles.wSelect}>
                                                     <option value="">How did you find us?</option>
                                                     <option value="Google">Google</option>
@@ -123,7 +123,7 @@ const Contact = () => {
                                         </Col>
                                         <Col lg={12}>
                                             <div className='mb-4'>
-                                                <label for="Budget" className='form-label'>
+                                                <label className='form-label'>
                                                     What have you budgeted for this project?
                                                     <span className={styles.imp}>*</span>
                                                 </label>
@@ -140,13 +140,13 @@ const Contact = () => {
                                         </Col>
                                         <Col lg={12}>
                                             <div className='mb-4'>
-                                                <label for="Message" className='form-label'>About Your Project</label>
-                                                <textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Tell us about your project goals &amp; timeline in a snapshot. Please include any necessary links about your project." class="form-field text-area w-input"></textarea>
+                                                <label className='form-label'>About Your Project</label>
+                                                <textarea id="Message" name="Message" maxLength="5000" data-name="Message" placeholder="Tell us about your project goals &amp; timeline in a snapshot. Please include any necessary links about your project." className="form-field text-area w-input"></textarea>
                                             </div>
                                         </Col>
                                         <Col lg={12}>
                                             <div className='mb-5 mt-3 text-center'>
-                                                <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Ld6Ox0lAAAAADUM1uxAXKGybcB6zB8x3owVCUTM&amp;co=aHR0cHM6Ly96ZW5zaXRlLmNvOjQ0Mw..&amp;hl=en&amp;v=Xh5Zjh8Od10-SgxpI_tcSnHR&amp;size=normal&amp;cb=l17p04q98i1h" width="304" height="78" role="presentation" name="a-uig0r51k4l2w" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                                <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Ld6Ox0lAAAAADUM1uxAXKGybcB6zB8x3owVCUTM&amp;co=aHR0cHM6Ly96ZW5zaXRlLmNvOjQ0Mw..&amp;hl=en&amp;v=Xh5Zjh8Od10-SgxpI_tcSnHR&amp;size=normal&amp;cb=l17p04q98i1h" width="304" height="78" role="presentation" name="a-uig0r51k4l2w" frameBorder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
                                             </div>
                                         </Col>
                                         <Col lg={12}>
