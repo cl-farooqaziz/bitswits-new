@@ -23,6 +23,7 @@ const Banner = () => {
     var bannerslider = {
         dots: false,
         arrows: false,
+        infinite: true,
         autoplay: true,
         autoplaySpeed: 0,
         speed: 20000,
@@ -67,7 +68,6 @@ const Banner = () => {
                                         <Image alt="Bitswits" src={banImg5} className="img-fluid" />
                                     </div>
                                 </Slider>
-
 
                                 {/* <div className={styles.bannerimg1}>
                                     <div className={` ${styles.logo1} ${styles.logo13} `}>

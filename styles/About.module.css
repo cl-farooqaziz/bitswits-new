@@ -14,6 +14,7 @@
   display: flex !important;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
 }
 .aboutbtn {
   width: 226px;
@@ -45,13 +46,12 @@
 }
 
 .toltip .tolImg {
-  width: 400px;
-  height: 250px;
   position: absolute;
   top: -260px;
   left: -50px;
   display: none;
   transition: all 0.5s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .spaceimg:hover .toltip .tolImg {

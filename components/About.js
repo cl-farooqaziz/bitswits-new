@@ -168,7 +168,7 @@ const About = () => {
                                     <div className={styles.toltip}>
                                         <p className='fontf font25 font-medium m-0 black'>and more,</p>
                                         <Image className={styles.tolImg}
-                                            src={thumb4}
+                                            src={thumb6}
                                             alt='Bitswits'
                                         />
                                     </div>

@@ -17,6 +17,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //images
+import logo from '../public/images/icons/footerlogo.png'
 import icon1 from '../public/images/awards/award1.png'
 import icon2 from '../public/images/awards/award2.png'
 import icon3 from '../public/images/awards/award3.png'
@@ -115,7 +116,13 @@ const Footer = () => {
 
           <Row className={styles.past}>
             <Col lg={4}>
-              <h3 className='grdiant fontf font-bold font40 mb-4'>BitsWits</h3>
+              <div className={styles.footLogo}>
+                <Link href="/">
+                  <Image alt="Bitswits" className='img-fluid'
+                    src={logo}
+                  />
+                </Link>
+              </div>
               <p className='font15 font-medium white fontf'>For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.</p>
 
               <Link className={styles.bttns1} href="#">Book A Call</Link>
