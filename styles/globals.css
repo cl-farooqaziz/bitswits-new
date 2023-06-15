@@ -326,7 +326,7 @@ a {
 /* ===============OurProject================ */
 
 .sidenewlong .slick-dots {
-  bottom: -40px;
+  bottom: -55px;
   left: 0;
 }
 
@@ -413,9 +413,8 @@ a {
 
 /* =============ClientSlider============== */
 
-.clintSlider .slick-dots,
 .clintSlidermbl .slick-dots {
-  bottom: -40px;
+  bottom: -50px;
 }
 
 .clintSlider .slick-prev {
@@ -471,10 +470,14 @@ a {
 
 /* =============Other Sliders============== */
 
+.usapost .slick-dots {
+  bottom: -45px;
+}
+
 .prohome .slick-dots,
 .startposition .slick-dots,
 .ourarrows2 .slick-dots {
-  bottom: -40px;
+  bottom: -50px;
 }
 
 .startposition .slick-track {
@@ -732,8 +735,17 @@ input::-webkit-inner-spin-button {
     display: none;
   }
 
-  .sidenewlong .slick-dots {
-    bottom: -50px;
+  .usapost .slick-dots li button::before,
+  .proclass .slick-dots li button::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    width: 15px;
+    height: 15px;
+    color: black;
+    background-color: unset;
+    border: 1px solid white;
+    border-radius: 100%;
   }
 }
 
@@ -768,19 +780,6 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 480px) {
-  .usapost .slick-dots li button::before,
-  .proclass .slick-dots li button::before {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    width: 15px;
-    height: 15px;
-    color: black;
-    background-color: unset;
-    border: 1px solid white;
-    border-radius: 100%;
-  }
-
   .ourservicesfaqs .accordion-body {
     font-size: 18px;
   }

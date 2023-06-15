@@ -2,6 +2,7 @@
   background-color: #fff;
   background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0);
   position: relative;
+  overflow: hidden;
 }
 
 .banner h1 {

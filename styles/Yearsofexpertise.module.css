@@ -1,43 +1,32 @@
 .yearsofexpertise {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
 }
 .yearsofexpertise .allbest h4 {
-    text-align: center;
+  text-align: center;
 }
 .yearsofexpertise .allbest h3 {
-    text-align: center;
+  text-align: center;
 }
 .yearsofexpertise .allbest p {
-    text-align: center;
+  text-align: center;
 }
 .mobile {
-    display: none;
-   }
+  display: none;
+}
 @media screen and (max-width: 991px) {
+  .desk {
+    display: none;
+  }
 
-.yearsofexpertise .allbest {
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    flex-direction: column;
-}
-}
-@media screen and (max-width: 767px) {
-    
-    .allbest h4 {
-        line-height: 1.3;
-    }
-
-}
-@media screen and (max-width: 480px) {
-   .desk{
-    display: none!important;
-   } 
-   .mobile {
+  .mobile {
     display: block;
-   }
+  }
+}
 
-
+@media screen and (max-width: 767px) {
+  .allbest h4 {
+    line-height: 1.3;
+  }
 }

@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import styles from '@/styles/Footer.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
+import styles from '@/styles/Footer.module.css'
+import { Container, Row, Col } from 'react-bootstrap'
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
@@ -12,7 +13,6 @@ import { BsPinterest } from 'react-icons/bs'
 import { AiFillBehanceCircle } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 import icon from '../public/images/footer/icon.png'
-import Image from 'next/image'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -115,55 +115,16 @@ const Footer = () => {
           </Row>
 
           <Row className={styles.past}>
-            <Col lg={4}>
-              <div className={styles.footLogo}>
-                <Link href="/">
-                  <Image alt="Bitswits" className='img-fluid'
-                    src={logo}
-                  />
-                </Link>
-              </div>
-              <p className='font15 font-medium white fontf'>For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.</p>
-
-              <Link className={styles.bttns1} href="#">Book A Call</Link>
-
-            </Col>
-            <Col lg={2}>
-              <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Discover</h3>
-              <ul className={styles.patner}>
-                <li> <Link href="#">About Us</Link> </li>
-                <li> <Link href="#">Work</Link> </li>
-                <li> <Link href="#">Services</Link> </li>
-                <li> <Link href="#">Blog</Link> </li>
-                <li> <Link href="#">Careers</Link> </li>
-              </ul>
-            </Col>
-            <Col lg={2}>
-              <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Services</h3>
-              <ul className={styles.patner}>
-                <li> <Link href="#">Web Design</Link> </li>
-                <li> <Link href="#">Mobile App Design</Link> </li>
-                <li> <Link href="#">Web3 Design</Link> </li>
-                <li> <Link href="#">Blockchain</Link> </li>
-              </ul>
-            </Col>
             <Col lg={3}>
               <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Contact</h3>
-
-
-
               <div className={styles.fill}>
                 <div>
                   <BsFillEnvelopeFill size={20} className={styles.email} />
                 </div>
                 <div>
                   <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co"> info@bitswits.co</Link>
-
                 </div>
               </div>
-
-
-
               <div className={styles.fill}>
                 <div>
                   <BsFillTelephoneFill size={25} className={styles.email} />
@@ -171,12 +132,8 @@ const Footer = () => {
                 <div>
                   <Link className='font15 font-medium white fontf' href="tel:+1 312 379 5987">+1 312 379 5987</Link> <br></br>
                   <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007">+1 833 500 6007</Link>
-
                 </div>
               </div>
-
-
-
               <div className={styles.socialicons}>
                 <Link href="#"> <FaFacebookF size={20} className={styles.email} /></Link>
                 <Link href="#"> <AiOutlineInstagram size={20} className={styles.email} /></Link>
@@ -188,8 +145,88 @@ const Footer = () => {
                 <Link href="#" > <Image src={icon} alt='Bitswits' className={`${styles.email}`} /> </Link>
                 <Link href="#"> <FaTelegramPlane size={20} className={styles.email} /></Link>
               </div>
-
-
+            </Col>
+            <Col lg={2}>
+              <h3 className='font25 font-bold white fontf mb-2'>Discover</h3>
+              <ul className={styles.patner}>
+                <li> <Link href="#">About Us</Link> </li>
+                <li> <Link href="#">Work</Link> </li>
+                <li> <Link href="#">Services</Link> </li>
+                <li> <Link href="#">Blog</Link> </li>
+                <li> <Link href="#">Careers</Link> </li>
+              </ul>
+            </Col>
+            <Col lg={7}>
+              <Row>
+                <Col lg={4}>
+                  <div className='mb-4'>
+                    <h3 className='font25 font-bold white fontf mb-2'>WEB</h3>
+                    <ul className={styles.patner}>
+                      <li><Link href="#">Web Development</Link></li>
+                      <li><Link href="#">PHP Development Services</Link></li>
+                      <li><Link href="#">CRM Solutions</Link></li>
+                      <li><Link href="#">eCommerce Development</Link></li>
+                      <li><Link href="#">Enterprise Portal Solution</Link></li>
+                      <li><Link href="#">Magento Enterprise Solution</Link></li>
+                    </ul>
+                  </div>
+                  <div className='mb-4'>
+                    <h3 className='font25 font-bold white fontf mb-2'>GAME</h3>
+                    <ul className={styles.patner}>
+                      <li><Link href="#">Game Development</Link></li>
+                      <li><Link href="#">2d Art</Link></li>
+                      <li><Link href="#">3d Art</Link></li>
+                      <li><Link href="#">Augmented Reality</Link></li>
+                      <li><Link href="#">Virtual Reality</Link></li>
+                    </ul>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className='mb-4'>
+                    <h3 className='font25 font-bold white fontf mb-2'>APP</h3>
+                    <ul className={styles.patner}>
+                      <li><Link href="#">Progressive Web App</Link></li>
+                      <li><Link href="#">Mobile App Development</Link></li>
+                      <li><Link href="#">Internet Of Things</Link></li>
+                      <li><Link href="#">Enterprise Mobility Solutions</Link></li>
+                    </ul>
+                  </div>
+                  <div className='mb-4'>
+                    <h3 className='font25 font-bold white fontf mb-2'>BLOCKCHAIN & AI</h3>
+                    <ul className={styles.patner}>
+                      <li><Link href="#">Amazon Web Services</Link></li>
+                      <li><Link href="#">Azure Services</Link></li>
+                      <li><Link href="#">Managed Server Support</Link></li>
+                      <li><Link href="#">Cloud Computing</Link></li>
+                    </ul>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className='mb-4'>
+                    <h3 className='font25 font-bold white fontf mb-2'>SEO</h3>
+                    <ul className={styles.patner}>
+                      <li><Link href="#">Search Engine Optimization</Link></li>
+                      <li><Link href="#">Keyword Research</Link></li>
+                      <li><Link href="#">Link Building</Link></li>
+                    </ul>
+                  </div>
+                  <div className='mb-4'>
+                    <h3 className='font25 font-bold white fontf mb-2'>DIGITAL MARKETING</h3>
+                    <ul className={styles.patner}>
+                      <li><Link href="#">Social Media Optimization</Link></li>
+                      <li><Link href="#">Pay Per Click Services</Link></li>
+                      <li><Link href="#">Digital Marketing</Link></li>
+                      <li><Link href="#">Conversion Rate Optimisation</Link></li>
+                    </ul>
+                  </div>
+                  <div className='mb-4'>
+                    <h3 className='font25 font-bold white fontf mb-2'>DATA SCIENCE</h3>
+                    <ul className={styles.patner}>
+                      <li><Link href="#">Data Science</Link></li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
 

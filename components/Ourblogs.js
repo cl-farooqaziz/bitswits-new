@@ -14,9 +14,9 @@ import { RiArrowRightUpLine } from 'react-icons/ri';
 const Ourblogs = () => {
 
     var awardslogo = {
-        dots: true,
+        dots: false,
         arrows: true,
-        loop:true,
+        loop: true,
         autoplay: true,
         infinite: true,
         speed: 500,
@@ -29,6 +29,8 @@ const Ourblogs = () => {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
+                    dots: true,
+                    arrows: false,
 
                 }
             },
@@ -37,16 +39,11 @@ const Ourblogs = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    initialSlide: 2
+                    initialSlide: 2,
+                    dots: true,
+                    arrows: false,
                 }
             },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }
         ]
     };
 
@@ -93,7 +90,7 @@ const Ourblogs = () => {
                             <p className='fontf font15 black font-medium'>Construction, Building, 3D Printing, CAD</p>
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
-                      
+
 
 
                     </Slider>

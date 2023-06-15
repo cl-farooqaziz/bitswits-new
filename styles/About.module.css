@@ -15,6 +15,7 @@
   gap: 12px;
   cursor: pointer;
 }
+
 .aboutbtn {
   width: 226px;
   height: 45px;
@@ -38,7 +39,7 @@
 }
 
 .nextalign1 {
-  display: none !important;
+  display: none;
 }
 
 .toltip {
@@ -61,24 +62,23 @@
   display: block;
 }
 
-@media screen and (max-width: 480px) {
-  .aboutbtn {
-    margin-top: 15%;
-  }
-
+@media screen and (max-width: 991px) {
   .nextalign1 {
-    display: block !important;
-  }
-
-  .decade .spaceimg {
-    display: none !important;
+    display: block;
   }
 
   .decade {
-    display: flex;
-    gap: 25px;
-    align-items: flex-start;
-    flex-direction: column;
+    display: none;
+  }
+
+  .spaceimg {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutbtn {
+    margin-top: 15%;
   }
 
   .aboutus {

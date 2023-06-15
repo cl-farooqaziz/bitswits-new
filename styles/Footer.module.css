@@ -34,10 +34,27 @@
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 500;
+  position: relative;
+}
+
+.patner li a::before{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+  transition: all .7s ease-in-out;
+}
+
+.patner li a:hover::before {
+  width: 100%;
 }
 
 .patner li {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .policy p {
@@ -196,10 +213,6 @@
 
   .minImg img {
     width: 70%;
-  }
-
-  .patner li {
-    padding-bottom: 12px;
   }
 }
 

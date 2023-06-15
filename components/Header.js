@@ -970,7 +970,7 @@ const Header = () => {
 
                                                             />
                                                         </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>CLOUD & HOSTING</h5>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>BLOCKCHAIN & AI</h5>
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>

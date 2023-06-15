@@ -40,14 +40,6 @@ const About = () => {
                 }
             },
             {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 2
-                }
-            },
-            {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
@@ -67,7 +59,7 @@ const About = () => {
                         <Col md={2}>
                             <h3 className='font20 fontf font-semibold mt-1 letterspace black'>About Us</h3>
                         </Col>
-                        <Col md={10}>
+                        <Col lg={10}>
                             <h2 className='font65 black fontf font-bold line60'>The Development Agency<br></br> For  <span className='grdiant'>100% Results</span> </h2>
 
                             <p className='font25 fontf font-medium mt-4 mb-4 black'>For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.</p>

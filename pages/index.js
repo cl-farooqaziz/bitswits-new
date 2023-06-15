@@ -12,6 +12,7 @@ import OurProject from '@/components/OurProject'
 import Ourblogs from '@/components/Ourblogs'
 import ClientsThink from '@/components/ClientsThink'
 import Contact from '@/components/Contact'
+import Rated from '@/components/Rated'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
       <Banner />
+      <Rated />
       <About />
       <Yearsofexpertise />
       <Ourservices />

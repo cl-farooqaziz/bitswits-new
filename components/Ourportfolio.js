@@ -14,9 +14,9 @@ import { RiArrowRightUpLine } from 'react-icons/ri';
 const Ourportfolio = () => {
 
     var awardslogo = {
-        dots: true,
+        dots: false,
         arrows: true,
-        loop:true,
+        loop: true,
         autoplay: true,
         infinite: true,
         speed: 500,
@@ -29,6 +29,8 @@ const Ourportfolio = () => {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
+                    dots: true,
+                    arrows: false,
 
                 }
             },
@@ -37,16 +39,11 @@ const Ourportfolio = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    initialSlide: 2
+                    initialSlide: 2,
+                    dots: true,
+                    arrows: false,
                 }
             },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }
         ]
     };
 
@@ -85,7 +82,7 @@ const Ourportfolio = () => {
                             <Image alt="Bitswits" src={ourportfolio1} className="img-fluid mb-4" />
                             <Link className='fontf font25 black font-bold mt-5' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
-                      
+
 
 
                     </Slider>
