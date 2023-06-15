@@ -43,8 +43,8 @@ function ClientsThink() {
                         </Col>
                         <Col lg={7}>
                             <h4 className='font50 black fontf font-bold line60 mb-0'>
-                                <span className='grdiant'>What Clients</span> <br />
-                                Think About US
+                            Feedback From  <br /> <span className='grdiant'>our Valued Clients!</span> 
+                              
                             </h4>
                         </Col>
                         <Col lg={3}>
@@ -72,9 +72,9 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>For me, BitsWits is the perfect app development company that focuses on delivering quality outcomes on time and at affordable prices. I have worked with this company for more than eight months now and they have gained my trust. From game developers and designers to whatnot, I believe each worker is well-trained and knows their work in terms of satisfying clients</p>
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                            Vivien Francis
+                                                        John Phil
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
@@ -113,9 +113,9 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I am extremely delighted by the app development services provided by BitsWits. They assisted me in turning my idea into a fully functional and user-friendly mobile application. The team included experts and they knew how to captivate their customers through quality customer service. From guiding you through each process, this app development company will provide you with top-notch services. Stop waiting and call them now!</p>
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                            Vivien Francis
+                                                        Emma White
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>

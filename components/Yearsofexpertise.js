@@ -55,23 +55,23 @@ const Yearsofexpertise = () => {
                     <Row>
                         <Col lg={3}>
                             <h3 className='font75 grdiant font-bold fontf'>  <Counter stopNumber={21} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>years of <br></br> expertise</h4>
-                            <p className='font15 fontf white font-medium'>Established 2002 in the USA </p>
+                            <h4 className='font18 fontf white font-extrabold texttran'>YEARS OF <br></br> EXPERTISE</h4>
+                            <p className='font15 fontf white font-medium'>Established in 2002 in the USA </p>
                         </Col>
                         <Col lg={3}>
                             <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={1000} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>Dedicated <br></br> Developers</h4>
-                            <p className='font15 fontf white font-medium'>All directly employed by us </p>
+                            <h4 className='font18 fontf white font-extrabold texttran'>DEDICATED <br></br> DEVELOPERS </h4>
+                            <p className='font15 fontf white font-medium'>All directly employed by BitsWits</p>
                         </Col>
                         <Col lg={3}>
                             <h3 className='font75 grdiant font-bold fontf'> <Counter stopNumber={12500} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>Happy <br></br> Clients</h4>
-                            <p className='font15 fontf white font-medium'>See genuine testimonial videos </p>
+                            <h4 className='font18 fontf white font-extrabold texttran'>SATISFIED <br></br> CLIENTS</h4>
+                            <p className='font15 fontf white font-medium'>Check the genuine testimonial videos</p>
                         </Col>
                         <Col lg={3}>
                             <h3 className='font75 grdiant font-bold fontf'> <Counter stopNumber={20000} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>Projects <br></br> Delivered</h4>
-                            <p className='font15 fontf white font-medium'>See examples our work </p>
+                            <h4 className='font18 fontf white font-extrabold texttran'>PROJECTS  <br></br> DELIVERED </h4>
+                            <p className='font15 fontf white font-medium'>Check the delivered work now!</p>
                         </Col>
                     </Row>
                 </Container>

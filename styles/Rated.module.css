@@ -6,8 +6,8 @@
   align-items: center;
   justify-content: center;
   row-gap: 20px;
-  border-bottom: 1px solid white;
   padding-bottom: 25px;
+  font-family: 'Montserrat';
 }
 
 .people {

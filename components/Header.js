@@ -976,30 +976,20 @@ const Header = () => {
                                                         <Row>
                                                             <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
+                                                                   
+
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href="#"> 
                                                                             <FaAngleRight />
-                                                                            <span>Amazon Web Services</span>
+                                                                            <span>Mobile App Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    <li>
-                                                                        <Link href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Azure Services</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Managed Server Support Services</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Cloud Computing</span>
-                                                                        </Link>
-                                                                    </li>
+                                                                    <li><Link href="#"> <FaAngleRight /><span>Game Development</span></Link></li>
+                                                                    <li><Link href="#"> <FaAngleRight /><span>Website Development</span></Link></li>
+                                                                    <li><Link href="#"> <FaAngleRight /><span>Blockchain Development</span></Link></li>
+                                                                    <li><Link href="#"> <FaAngleRight /><span>AI Development</span></Link></li>
+                                                                    <li><Link href="#"> <FaAngleRight /><span>AR/VR Development</span></Link></li>
+                                                                    <li><Link href="#"> <FaAngleRight /><span>UI/UX Design</span></Link></li>
                                                                 </ul>
                                                             </Col>
                                                         </Row>

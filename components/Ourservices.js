@@ -99,7 +99,7 @@ const Ourservices = () => {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white'>Services</h5>
                         </Col>
                         <Col lg={7}>
-                            <h4 className='font65 black fontf font-bold line60 white'>Our <span className='grdiant'>Services</span> </h4>
+                            <h4 className='font65 black fontf font-bold line60 white'> <span className='grdiant'>Services</span> Offered by Us! </h4>
                         </Col>
                         <Col lg={3}>
                             <Link className={styles.bttns1} href="#">Book a Call</Link>
@@ -110,45 +110,45 @@ const Ourservices = () => {
                             <Accordion defaultActiveKey="0">
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header onMouseEnter={game}>
-                                        Mobile Application
+                                    	Mobile Application Development
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    <span className='grdiant'>Develop your app</span> with our advanced mobile applications solutions that deliver smooth user experiences and boost your growth in the digital world.
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
                                     <Accordion.Header onMouseEnter={game1}>
-                                        Game Design
+                                    	Game Development
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    Dive into a  world of captivating gameplay and stunning visuals that are carefully designed by our <span className='grdiant'> expert game developers </span> where every pixel comes to life and every level sparks excitement
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header onMouseEnter={game2}>Web 3.0 Design</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game2}>Web App Development </Accordion.Header>
                                     <Accordion.Body>
-                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    Grow your online presence with our skilled <span className='grdiant'>web app development company</span> . We ensure flawless functionality and outstanding user experiences by developing robust and scalable mobile apps.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="3">
-                                    <Accordion.Header onMouseEnter={game3}>Blockchain</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game3}>Blockchain Game Development </Accordion.Header>
                                     <Accordion.Body>
-                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    Enter into an exciting gaming adventure with the best blockchain game development company, which focuses on emerging gaming with transparency and security of blockchain technology, creating immersive and decentralized game experiences.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="4">
-                                    <Accordion.Header onMouseEnter={game4}>Data Science</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game4}>Artificial Intelligence </Accordion.Header>
                                     <Accordion.Body>
-                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    Boost productivity and save your precious time and resources by utilizing the power of the future - Artificial Intelligence. Discover the excellent levels of efficiency and effectiveness with our AI-driven solutions
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="5">
-                                    <Accordion.Header onMouseEnter={game5}>Artificial Intelligence</Accordion.Header>
+                                    <Accordion.Header onMouseEnter={game5}>UI/UX App Design</Accordion.Header>
                                     <Accordion.Body>
-                                        For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.
+                                    BitsWits, a <span className='grdiant'>UI/UX app design company</span> , helps to enhance user experience with intuitive interfaces that engage users and make interactions enjoyable. Our skilled <span className='grdiant'>mobile app UI designers</span> assist in bringing the best outcomes.
                                     </Accordion.Body>
                                 </Accordion.Item>
 

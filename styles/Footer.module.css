@@ -29,10 +29,10 @@
   padding-left: 0;
 }
 .patner li a {
-  color: white;
+  color: #cacaca;
   text-decoration: none;
   font-family: "Montserrat";
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
   position: relative;
 }
@@ -184,10 +184,10 @@
 
 @media screen and (max-width: 1399px) {
   .patner li a {
-    color: white;
+    color: #cacaca;
     text-decoration: none;
     font-family: "Montserrat";
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
   }
 }

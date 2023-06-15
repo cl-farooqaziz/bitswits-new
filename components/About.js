@@ -60,9 +60,11 @@ const About = () => {
                             <h3 className='font20 fontf font-semibold mt-1 letterspace black'>About Us</h3>
                         </Col>
                         <Col lg={10}>
-                            <h2 className='font65 black fontf font-bold line60'>The Development Agency<br></br> For  <span className='grdiant'>100% Results</span> </h2>
+                            <h2 className='font65 black fontf font-bold line60'>The Mobile  For  <span className='grdiant'>App Development Company </span> Thriving to Master Innovation! </h2>
 
-                            <p className='font25 fontf font-medium mt-4 mb-4 black'>For the past decade, we have partnered with some of the world’s leading start-ups to help them create user experience designs that drive results and accelerate their digital products' growth.</p>
+                            <p className='font25 fontf font-medium mt-4 mb-4 black'>Our expert<span className='grdiant'> mobile app developers </span> work with the world’s leading start-ups, mid-level companies and enterprises to create advanced user experiences. </p>
+
+                            <p className='font25 fontf font-medium mt-4 mb-4 black'>Witness the brilliance of our diverse portfolio which includes sound, food, pro-health improvement, real estate, traveling, and much more.  </p>
 
 
                             <Row className={styles.decade}>

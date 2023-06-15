@@ -71,8 +71,8 @@ const Footer = () => {
           <Row className={styles.project}>
             <Col lg={12}>
               <h4 className='font30 fontf font-bold white mb-0 text-center'>
-                <span className='grdiant'>Award-winning Platform</span> <br />
-                Trusted by Enterprises
+                <span className='grdiant'>Our Partnerships </span> <br />
+                and Appraisals!
               </h4>
             </Col>
             <Col lg={12} className={styles.trstCol}>
@@ -194,10 +194,16 @@ const Footer = () => {
                   <div className='mb-4'>
                     <h3 className='font25 font-bold white fontf mb-2'>BLOCKCHAIN & AI</h3>
                     <ul className={styles.patner}>
-                      <li><Link href="#">Amazon Web Services</Link></li>
-                      <li><Link href="#">Azure Services</Link></li>
-                      <li><Link href="#">Managed Server Support</Link></li>
-                      <li><Link href="#">Cloud Computing</Link></li>
+                  
+                      <li><Link href="#">Mobile App Development</Link></li>
+                      <li><Link href="#">Game Development</Link></li>
+                      <li><Link href="#">Website Development</Link></li>
+                      <li><Link href="#">Blockchain Development</Link></li>
+                      <li><Link href="#">AI Development</Link></li>
+                      <li><Link href="#">AR/VR Development</Link></li>
+                      <li><Link href="#">UI/UX Design</Link></li>
+
+
                     </ul>
                   </div>
                 </Col>
