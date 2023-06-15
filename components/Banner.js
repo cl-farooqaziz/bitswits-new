@@ -38,9 +38,9 @@ const Banner = () => {
         <section className={styles.banner}>
             <Container fluid>
                 <Row className={styles.bannnerproject}>
-                    <Col lg={8}>
+                    <Col lg={7}>
                         <div className={styles.banerTxt}>
-                            <h1 className='font65 black fontf font-bold line60'> Empower Digital Experiences with BitsWits: A  <span className='grdiant'> Website</span>  <span className='grdiant'>Top Mobile App Development Company in US!</span> </h1>
+                        <h1 className='font65 black fontf font-bold line60'> Affordable <span className='grdiant'> Website</span> <br></br> <span className='grdiant'>Mobile App</span> & <span className='grdiant'>Game</span><br></br> Development</h1>
                             <p className='black fontf font-medium line30'>Rationalize your gaming and <span className='grdiant'> mobile app development </span> experience <br></br>  with our affordable packages and prompt deliveries. </p>
 
                             <div className={`${styles.bttnsto} mt-3`}>

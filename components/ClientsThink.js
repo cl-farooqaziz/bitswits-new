@@ -43,7 +43,7 @@ function ClientsThink() {
                         </Col>
                         <Col lg={7}>
                             <h4 className='font50 black fontf font-bold line60 mb-0'>
-                            Feedback From  <br /> <span className='grdiant'>our Valued Clients!</span> 
+                            Feedback From  <br /> <span className='grdiant'>Our Valued Clients!</span> 
                               
                             </h4>
                         </Col>

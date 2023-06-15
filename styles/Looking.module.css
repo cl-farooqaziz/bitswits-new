@@ -32,49 +32,42 @@
   color: black;
   display: flex;
   background-color: #f6f6f6;
-  overflow-x: scroll;
+
 }
-.arrow{
-  text-align: right;
-  margin-bottom: 2%;
-}
-.aling{
-  cursor: pointer;
-}
-.aling1 {
-  margin-right: 2%;
-}
+
 
 
 .devlp .game {
-  min-width: 370px;
+  width: 447px;
   border: 1px solid #737272;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   color: black;
   font-weight: 500;
   background-color: #fff;
+  text-align: center;
 }
 .devlp .btnblack {
-  min-width: 375px;
+  width: 447px;
   border: 1px solid #737272;
   background-color: black;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   color: white;
   font-weight: 500;
+  text-align: center;
 }
 .roadmap {
   padding-left: 0;
