@@ -5,9 +5,11 @@ import Link from 'next/link'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ourportfolio1 from '../public/images/ourportfolio/1.png'
-import ourportfolio2 from '../public/images/ourportfolio/2.png'
-import ourportfolio3 from '../public/images/ourportfolio/3.png'
+import ourportfolio1 from '../public/images/ourportfolio/11.jpg'
+import ourportfolio2 from '../public/images/ourportfolio/22.jpg'
+import ourportfolio3 from '../public/images/ourportfolio/33.png'
+import ourportfolio4 from '../public/images/ourportfolio/4.png'
+
 import Image from 'next/image';
 import { RiArrowRightUpLine } from 'react-icons/ri';
 
@@ -79,10 +81,11 @@ const Ourportfolio = () => {
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio1} className="img-fluid mb-4" />
+                            <Image alt="Bitswits" src={ourportfolio4} className="img-fluid mb-4" />
                             <Link className='fontf font25 black font-bold mt-5' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
 
+                     
 
 
                     </Slider>
