@@ -6,6 +6,7 @@ import { RxArrowRight } from 'react-icons/rx'
 import ourportfolio3 from '../public/images/lookingfor/loop.png'
 import ourportfolio31 from '../public/images/lookingfor/loop2.png'
 import ourportfolio32 from '../public/images/lookingfor/loop3.png'
+import uiux from '../public/images/lookingfor/uiux.png'
 
 // blockchain
 
@@ -484,7 +485,7 @@ Service
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={ourportfolio32} className='img-fluid' />
+                                    <Image alt="Bitswits" src={uiux} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
