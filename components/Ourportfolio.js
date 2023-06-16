@@ -5,8 +5,8 @@ import Link from 'next/link'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ourportfolio1 from '../public/images/ourportfolio/11.jpg'
-import ourportfolio2 from '../public/images/ourportfolio/22.jpg'
+import ourportfolio1 from '../public/images/ourportfolio/11.png'
+import ourportfolio2 from '../public/images/ourportfolio/22.png'
 import ourportfolio3 from '../public/images/ourportfolio/33.png'
 import ourportfolio4 from '../public/images/ourportfolio/4.png'
 
