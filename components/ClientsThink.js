@@ -43,8 +43,8 @@ function ClientsThink() {
                         </Col>
                         <Col lg={7}>
                             <h4 className='font50 black fontf font-bold line60 mb-0'>
-                            Feedback From  <br /> <span className='grdiant'>Our Valued Clients!</span> 
-                              
+                                Feedback From  <br /> <span className='grdiant'>Our Valued Clients!</span>
+
                             </h4>
                         </Col>
                         <Col lg={3}>
@@ -72,9 +72,15 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-1 mb-0`}>For me, BitsWits is the perfect app development company that focuses on delivering quality outcomes on time and at affordable prices. I have worked with this company for more than eight months now and they have gained my trust. From game developers and designers to whatnot, I believe each worker is well-trained and knows their work in terms of satisfying clients</p>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-1 mb-0`}>
+                                                            BitsWits was a lifesaver for our business. We needed to create an app that could be used on
+                                                            multiple platforms, but we didn’t have a lot of technical know-how or additional development
+                                                            resources. Their team made it easy for us and delivered exactly what we needed. They stayed on
+                                                            top of our project and kept us informed throughout the process. We wouldn't hesitate to
+                                                            recommend them for any of your app development needs!
+                                                        </p>
                                                         <h5 className='font16 font-semibold fontf black mt-3 mb-0'>
-                                                        John Phil
+                                                            Bryce Carlos
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
@@ -113,9 +119,12 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I am extremely delighted by the app development services provided by BitsWits. They assisted me in turning my idea into a fully functional and user-friendly mobile application. The team included experts and they knew how to captivate their customers through quality customer service. From guiding you through each process, this app development company will provide you with top-notch services. Stop waiting and call them now!</p>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>We hired mobile app developers to create a completely new mobile app for our company. The team
+                                                            at BitsWits was really professional, efficient, and knowledgeable in the latest technologies and
+                                                            trends. We couldn't be happier with the results and will definitely be recommending them to
+                                                            anyone looking for top-notch mobile app development company.</p>
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                        Emma White
+                                                            Aden Ward
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
@@ -154,9 +163,12 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>We recently worked with BitsWits to build a custom mobile app for our business. Their mobile app
+                                                            development company team was very knowledgeable and professional throughout the entire process,
+                                                            providing expert guidance and support every step of the way. We would highly recommend them to
+                                                            anyone looking for a reliable and cost-effective mobile app development solution.</p>
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                            Vivien Francis
+                                                            Annabella Josh
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
@@ -195,9 +207,147 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>We were looking for a reliable team of Flutter app developers, and we found the perfect fit in
+                                                            BitsWits. Their expertise and commitment to quality resulted in an exceptional app that exceeded
+                                                            our expectations. We highly recommend their services!</p>
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                            Vivien Francis
+                                                            Abraham Jones
+                                                        </h5>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                    </div>
+                                                    <ul className={styles.sliderli}>
+                                                        <li>
+                                                            <span>Client</span>
+                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Year</span>
+                                                            <span className='font-bold fontf'>2023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Scope of work</span>
+                                                            <span className='font-bold fontf'>Web Design</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+
+                                    <div className={styles.slideBox}>
+                                        <Row className={styles.slideRow}>
+                                            <Col lg={4} className='pe-lg-0'>
+                                                <div className={styles.slideImg}>
+                                                    <Image className='img-fluid'
+                                                        src={slideImg4}
+                                                        alt="bitswits"
+                                                    />
+                                                </div>
+                                            </Col>
+                                            <Col lg={8} className='ps-lg-0'>
+                                                <div className={styles.slideInner}>
+                                                    <div className={styles.slideCntnt}>
+                                                        <Image className='img-fluid'
+                                                            src={slidebefore}
+                                                            alt="bitswits"
+                                                        />
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}> We're very satisfied with the results of our working relationship with BitsWits.
+                                                            We were able to create a high-quality mobile app that not only met our specifications but
+                                                            exceeded them in every way. The entire team was friendly and professional throughout the entire
+                                                            process, and we would definitely recommend their services to anyone looking for a reliable
+                                                            custom app development company.</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
+                                                            Chavi Miles
+                                                        </h5>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                    </div>
+                                                    <ul className={styles.sliderli}>
+                                                        <li>
+                                                            <span>Client</span>
+                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Year</span>
+                                                            <span className='font-bold fontf'>2023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Scope of work</span>
+                                                            <span className='font-bold fontf'>Web Design</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+
+                                    <div className={styles.slideBox}>
+                                        <Row className={styles.slideRow}>
+                                            <Col lg={4} className='pe-lg-0'>
+                                                <div className={styles.slideImg}>
+                                                    <Image className='img-fluid'
+                                                        src={slideImg4}
+                                                        alt="bitswits"
+                                                    />
+                                                </div>
+                                            </Col>
+                                            <Col lg={8} className='ps-lg-0'>
+                                                <div className={styles.slideInner}>
+                                                    <div className={styles.slideCntnt}>
+                                                        <Image className='img-fluid'
+                                                            src={slidebefore}
+                                                            alt="bitswits"
+                                                        />
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}> BitsWits have done a great job making an attractive and eye-catching IOS application.
+                                                            I am grateful to the team for delivering this application perfectly on very short notice.
+                                                            Thanks a lot.</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
+                                                            Andrew Drake
+                                                        </h5>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                    </div>
+                                                    <ul className={styles.sliderli}>
+                                                        <li>
+                                                            <span>Client</span>
+                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Year</span>
+                                                            <span className='font-bold fontf'>2023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Scope of work</span>
+                                                            <span className='font-bold fontf'>Web Design</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+
+
+                                    <div className={styles.slideBox}>
+                                        <Row className={styles.slideRow}>
+                                            <Col lg={4} className='pe-lg-0'>
+                                                <div className={styles.slideImg}>
+                                                    <Image className='img-fluid'
+                                                        src={slideImg4}
+                                                        alt="bitswits"
+                                                    />
+                                                </div>
+                                            </Col>
+                                            <Col lg={8} className='ps-lg-0'>
+                                                <div className={styles.slideInner}>
+                                                    <div className={styles.slideCntnt}>
+                                                        <Image className='img-fluid'
+                                                            src={slidebefore}
+                                                            alt="bitswits"
+                                                        />
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>Hiring Flutter app developers from BitsWits was one of the best decisions I have ever made. They
+                                                            are highly skilled and knowledgeable professionals who understand customer needs and deliver
+                                                            well-crafted solutions to us. Overall, we are extremely satisfied with their service and highly
+                                                            recommend them to anyone looking for reliable and cost-effective Flutter solutions.</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
+                                                            Winnie Brooks
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
