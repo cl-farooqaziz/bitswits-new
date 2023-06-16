@@ -94,9 +94,7 @@
 
  }
 @media screen and (min-width: 1440px) {
-  .slideCntnt {
-    padding-top: 45px;
-  }
+
 
   .slideCntnt img {
     margin-bottom: 10px;
@@ -105,9 +103,7 @@
     margin-top: 20px !important;
   }
 
-  .sliderli {
-    margin-top: 40px;
-  }
+
 }
 
 @media screen and (max-width: 1200px) { 
