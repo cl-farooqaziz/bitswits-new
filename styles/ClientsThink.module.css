@@ -84,6 +84,15 @@
 
 /* ===============Media Queries================ */
 
+@media screen and (min-width: 1920px) {
+
+
+  .slideImg img {
+    width: 100%;
+    height: 418px;
+  }
+
+ }
 @media screen and (min-width: 1440px) {
   .slideCntnt {
     padding-top: 45px;
