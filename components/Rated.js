@@ -27,7 +27,7 @@ const Rated = () => {
                                     <div className={styles.new}>
                                         <Image src={new1} className="img-fluid" alt="bitswits" />
                                         <p className="font14 white text-center">
-                                            4.8 out of 5 (review rating) <br />
+                                            4.8 out of 5 (review rating) 
                                             Over 1,200+ reviews
                                         </p>
                                     </div>
