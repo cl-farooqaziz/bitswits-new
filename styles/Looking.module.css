@@ -177,6 +177,11 @@
   filter:unset;
 }
 
+.livechat {
+  display: flex;
+  gap: 10px;
+}
+
 @media screen and (max-width: 1280px) {
   .output img {
     position: absolute;

@@ -186,19 +186,22 @@ const Lookingfor = () => {
 
                                     </div>
                                     <div className={styles.game1}>
-                                        <h3 className='fontf black font-bold font20'>Service</h3>
+                                        <h3 className='fontf black font-bold font20'>Services</h3>
                                         <ul className={styles.roadmap}>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> iOS App Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Beacon Apps</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Android App Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> React Native Apps</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Smart Watch Apps</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} />Mobile Web Apps</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> iOS App Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Beacon Apps</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Android App Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> React Native Apps</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Smart Watch Apps</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} />Mobile Web Apps</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <Link className={styles.btn1} href="#">Book a Call</Link>
+                                <div className={styles.livechat}>
+                                    <Link className={styles.btn1} href="#">Book a Call</Link>
+                                    <Link className={styles.btn1} href="#">Live Chat</Link>
+                                </div>
 
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
@@ -241,18 +244,21 @@ const Lookingfor = () => {
 
                                     </div>
                                     <div className={styles.game1}>
-                                        <h3 className='fontf black font-bold font20'>Service</h3>
+                                        <h3 className='fontf black font-bold font20'>Services</h3>
                                         <ul className={styles.roadmap}>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Unity Game Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> 2D & 3D Game Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> iOS Game Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> HTML5 Game Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Android Game Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Unity Game Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> 2D & 3D Game Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> iOS Game Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> HTML5 Game Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Android Game Development</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <Link className={styles.btn1} href="#">Book a Call</Link>
+                                <div className={styles.livechat}>
+                                    <Link className={styles.btn1} href="#">Book a Call</Link>
+                                    <Link className={styles.btn1} href="#">Live Chat</Link>
+                                </div>
 
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
@@ -292,22 +298,25 @@ const Lookingfor = () => {
                                 <div className={`${styles.devlp1} mt-4 mb-4`}>
                                     <div className={styles.game2}>
                                         <h3 className='fontf black font-bold font20'>Timeframe</h3>
-                                        <p className='fontf black font-medium font15'>1-3 months </p>
+                                        <p className='fontf black font-medium font15'>2-3 weeks </p>
 
                                     </div>
                                     <div className={styles.game1}>
-                                        <h3 className='fontf black font-bold font20'>Service</h3>
+                                        <h3 className='fontf black font-bold font20'>Services</h3>
                                         <ul className={styles.roadmap}>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} />Custom Web Applications Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Progressive Web Apps</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> REST API Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Mobile Web Apps</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Opensource Framework Experts</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} />Custom Web Applications Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Progressive Web Apps</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> REST API Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Mobile Web Apps</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Opensource Framework Experts</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <Link className={styles.btn1} href="#">Book a Call</Link>
+                                <div className={styles.livechat}>
+                                    <Link className={styles.btn1} href="#">Book a Call</Link>
+                                    <Link className={styles.btn1} href="#">Live Chat</Link>
+                                </div>
 
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
@@ -343,23 +352,26 @@ const Lookingfor = () => {
                                 <div className={`${styles.devlp1} mt-4 mb-4`}>
                                     <div className={styles.game2}>
                                         <h3 className='fontf black font-bold font20'>Timeframe</h3>
-                                        <p className='fontf black font-medium font15'>1-3 months </p>
+                                        <p className='fontf black font-medium font15'>3-4 months </p>
 
                                     </div>
                                     <div className={styles.game1}>
-                                        <h3 className='fontf black font-bold font20'>Service</h3>
+                                        <h3 className='fontf black font-bold font20'>Services</h3>
                                         <ul className={styles.roadmap}>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Smart Contracts Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Crypto Exchange Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Blockchain App Consultation</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Crypto Wallet Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Hyperledger Based Solutions</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> IEO & ICO Services</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Smart Contracts Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Crypto Exchange Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Blockchain App Consultation</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Crypto Wallet Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Hyperledger Based Solutions</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> IEO & ICO Services</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <Link className={styles.btn1} href="#">Book a Call</Link>
+                                <div className={styles.livechat}>
+                                    <Link className={styles.btn1} href="#">Book a Call</Link>
+                                    <Link className={styles.btn1} href="#">Live Chat</Link>
+                                </div>
 
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
@@ -390,23 +402,26 @@ const Lookingfor = () => {
                                 <div className={`${styles.devlp1} mt-4 mb-4`}>
                                     <div className={styles.game2}>
                                         <h3 className='fontf black font-bold font20'>Timeframe</h3>
-                                        <p className='fontf black font-medium font15'>1-3 months </p>
+                                        <p className='fontf black font-medium font15'>4-5 months </p>
 
                                     </div>
                                     <div className={styles.game1}>
-                                        <h3 className='fontf black font-bold font20'>Service</h3>
+                                        <h3 className='fontf black font-bold font20'>Services</h3>
                                         <ul className={styles.roadmap}>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> AI-Based Solutions</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Intelligent Recommendation Engine</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Chatbot Development</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Voice-based AI</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Business Process Automation</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Computer Vision</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> AI-Based Solutions</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Intelligent Recommendation Engine</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Chatbot Development</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Voice-based AI</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Business Process Automation</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Computer Vision</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <Link className={styles.btn1} href="#">Book a Call</Link>
+                                <div className={styles.livechat}>
+                                    <Link className={styles.btn1} href="#">Book a Call</Link>
+                                    <Link className={styles.btn1} href="#">Live Chat</Link>
+                                </div>
 
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
@@ -438,29 +453,33 @@ const Lookingfor = () => {
                                      <div className={styles.servbold}><Image src={uiuxdevelopementicon3} className='img-fluid' /></div> 
                                      <div className={styles.servbold}><Image src={uiuxdevelopementicon4} className='img-fluid' /></div> 
                                 </div>
-
+Service
 
 
                                 <div className={`${styles.devlp1} mt-4 mb-4`}>
                                     <div className={styles.game2}>
                                         <h3 className='fontf black font-bold font20'>Timeframe</h3>
-                                        <p className='fontf black font-medium font15'>1-3 months </p>
+                                        <p className='fontf black font-medium font15'>2-3 days </p>
 
                                     </div>
                                     <div className={styles.game1}>
-                                        <h3 className='fontf black font-bold font20'>Service</h3>
+                                        <h3 className='fontf black font-bold font20'>Services</h3>
                                         <ul className={styles.roadmap}>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Graphic Designing</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Branding</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> User Interface</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Responsive Design</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> UX Design</li>
-                                            <li className='fontf black font-medium font15'> <RxArrowRight size={20} /> Design Language</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Graphic Designing</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Branding</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> User Interface</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Responsive Design</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> UX Design</li>
+                                            <li className='fontf black font-medium font14 ling25'> <RxArrowRight size={20} /> Design Language</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <Link className={styles.btn1} href="#">Book a Call</Link>
+                                <div className={styles.livechat}>
+                                    <Link className={styles.btn1} href="#">Book a Call</Link>
+                                    <Link className={styles.btn1} href="#">Live Chat</Link>
+                                </div>
+                                
 
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
