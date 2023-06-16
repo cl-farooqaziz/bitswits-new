@@ -39,6 +39,12 @@ export default function Home() {
       setShowComponent3(true);
       setShowComponent4(true);
       setShowComponent5(true);
+      setShowComponent6(true);
+      setShowComponent7(true);
+      setShowComponent8(true);
+      setShowComponent9(true);
+      setShowComponent10(true);
+      setShowComponent11(true);
     }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
 
     return () => clearTimeout(timeout);
