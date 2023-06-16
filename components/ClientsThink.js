@@ -83,20 +83,26 @@ function ClientsThink() {
                                                         <h5 className='font16 font-semibold fontf black mt-3 mb-0'>
                                                             Bryce Carlos
                                                         </h5>
-                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>
+                                                            CEO / FOUNDER SOUL SOUND
+                                                        </p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
                                                             <span>Client</span>
-                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                            <span className='font-bold fontf'>
+                                                                Soul Sound Application
+                                                            </span>
                                                         </li>
                                                         <li>
                                                             <span>Year</span>
-                                                            <span className='font-bold fontf'>2023</span>
+                                                            <span className='font-bold fontf'>2021</span>
                                                         </li>
                                                         <li>
                                                             <span>Scope of work</span>
-                                                            <span className='font-bold fontf'>Web Design</span>
+                                                            <span className='font-bold fontf'>
+                                                                Mobile App Development
+                                                            </span>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -127,20 +133,26 @@ function ClientsThink() {
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Aden Ward
                                                         </h5>
-                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>
+                                                            CO-FOUNDER PRO HEALTH
+                                                        </p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
                                                             <span>Client</span>
-                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                            <span className='font-bold fontf'>
+                                                                Pro Health Application
+                                                            </span>
                                                         </li>
                                                         <li>
                                                             <span>Year</span>
-                                                            <span className='font-bold fontf'>2023</span>
+                                                            <span className='font-bold fontf'>2018</span>
                                                         </li>
                                                         <li>
                                                             <span>Scope of work</span>
-                                                            <span className='font-bold fontf'>Web Design</span>
+                                                            <span className='font-bold fontf'>
+                                                                Web Design & Mobile Development
+                                                            </span>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -171,20 +183,24 @@ function ClientsThink() {
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Winnie Brooks
                                                         </h5>
-                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>
+                                                            FOUNDER AND CEO GLOW SPA
+                                                        </p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
                                                             <span>Client</span>
-                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                            <span className='font-bold fontf'>
+                                                                Glow Spa Application
+                                                            </span>
                                                         </li>
                                                         <li>
                                                             <span>Year</span>
-                                                            <span className='font-bold fontf'>2023</span>
+                                                            <span className='font-bold fontf'>2022</span>
                                                         </li>
                                                         <li>
                                                             <span>Scope of work</span>
-                                                            <span className='font-bold fontf'>Web Design</span>
+                                                            <span className='font-bold fontf'>Web Design, Mobile Application And Marketing</span>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -216,20 +232,26 @@ function ClientsThink() {
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Chavi Miles
                                                         </h5>
-                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>
+                                                            CO-FOUNDER BLISS TRAVEL
+                                                        </p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
                                                             <span>Client</span>
-                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                            <span className='font-bold fontf'>
+                                                                Bliss Travel Application
+                                                            </span>
                                                         </li>
                                                         <li>
                                                             <span>Year</span>
-                                                            <span className='font-bold fontf'>2023</span>
+                                                            <span className='font-bold fontf'>2017</span>
                                                         </li>
                                                         <li>
                                                             <span>Scope of work</span>
-                                                            <span className='font-bold fontf'>Web Design</span>
+                                                            <span className='font-bold fontf'>
+                                                                Desktop & Mobile Application Development
+                                                            </span>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -259,20 +281,26 @@ function ClientsThink() {
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Andrew Drake
                                                         </h5>
-                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
+                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>
+                                                            FOUNDER / CEO MARK PLACE
+                                                        </p>
                                                     </div>
                                                     <ul className={styles.sliderli}>
                                                         <li>
                                                             <span>Client</span>
-                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
+                                                            <span className='font-bold fontf'>
+                                                                Mark Place Application
+                                                            </span>
                                                         </li>
                                                         <li>
                                                             <span>Year</span>
-                                                            <span className='font-bold fontf'>2023</span>
+                                                            <span className='font-bold fontf'>2022</span>
                                                         </li>
                                                         <li>
                                                             <span>Scope of work</span>
-                                                            <span className='font-bold fontf'>Web Design</span>
+                                                            <span className='font-bold fontf'>
+                                                                Blockchain And Mobile Application
+                                                            </span>
                                                         </li>
                                                     </ul>
                                                 </div>
