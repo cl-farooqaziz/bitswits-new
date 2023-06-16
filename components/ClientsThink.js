@@ -72,8 +72,8 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>For me, BitsWits is the perfect app development company that focuses on delivering quality outcomes on time and at affordable prices. I have worked with this company for more than eight months now and they have gained my trust. From game developers and designers to whatnot, I believe each worker is well-trained and knows their work in terms of satisfying clients</p>
-                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-1 mb-0`}>For me, BitsWits is the perfect app development company that focuses on delivering quality outcomes on time and at affordable prices. I have worked with this company for more than eight months now and they have gained my trust. From game developers and designers to whatnot, I believe each worker is well-trained and knows their work in terms of satisfying clients</p>
+                                                        <h5 className='font16 font-semibold fontf black mt-3 mb-0'>
                                                         John Phil
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>

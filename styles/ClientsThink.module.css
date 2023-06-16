@@ -35,6 +35,9 @@
 
 .slideCntnt .hight {
   font-size: 17px;
+  height: 100px;
+  overflow-x: unset;
+  overflow-y: auto;
 }
 
 .sliderli {
@@ -97,7 +100,24 @@
   }
 }
 
+@media screen and (max-width: 1200px) { 
+
+  .sliderli li {
+    padding: 5px 20px;
+  }
+
+
+ }
 @media screen and (max-width: 991px) {
+
+  .slideCntnt .hight {
+    font-size: 17px;
+    height: auto;
+    overflow-x: unset;
+    overflow-y: unset;
+  }
+
+
   .ourClients {
     display: none;
   }

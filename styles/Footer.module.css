@@ -183,6 +183,10 @@
 }
 
 @media screen and (max-width: 1399px) {
+
+
+
+
   .patner li a {
     color: #cacaca;
     text-decoration: none;
@@ -193,6 +197,12 @@
 }
 
 @media screen and (max-width: 991px) {
+
+
+  .policy p {
+    text-align: center;
+}
+
   .bttns1 {
     margin-top: 5%;
     margin-bottom: 8%;
