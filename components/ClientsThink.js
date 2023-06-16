@@ -9,6 +9,7 @@ import slideImg1 from '../public/images/clients/client1.png'
 import slideImg2 from '../public/images/clients/client2.png'
 import slideImg3 from '../public/images/clients/client3.png'
 import slideImg4 from '../public/images/clients/client4.png'
+import slideImg5 from '../public/images/clients/client5.png'
 import slidebefore from '../public/images/clients/stars.png'
 
 function ClientsThink() {
@@ -163,12 +164,12 @@ function ClientsThink() {
                                                             src={slidebefore}
                                                             alt="bitswits"
                                                         />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>We recently worked with BitsWits to build a custom mobile app for our business. Their mobile app
-                                                            development company team was very knowledgeable and professional throughout the entire process,
-                                                            providing expert guidance and support every step of the way. We would highly recommend them to
-                                                            anyone looking for a reliable and cost-effective mobile app development solution.</p>
+                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>Hiring Flutter app developers from BitsWits was one of the best decisions I have ever made. They
+                                                            are highly skilled and knowledgeable professionals who understand customer needs and deliver
+                                                            well-crafted solutions to us. Overall, we are extremely satisfied with their service and highly
+                                                            recommend them to anyone looking for reliable and cost-effective Flutter solutions.</p>
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                            Annabella Josh
+                                                            Winnie Brooks
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
@@ -190,50 +191,6 @@ function ClientsThink() {
                                             </Col>
                                         </Row>
                                     </div>
-                                    <div className={styles.slideBox}>
-                                        <Row className={styles.slideRow}>
-                                            <Col lg={4} className='pe-lg-0'>
-                                                <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
-                                                        src={slideImg4}
-                                                        alt="bitswits"
-                                                    />
-                                                </div>
-                                            </Col>
-                                            <Col lg={8} className='ps-lg-0'>
-                                                <div className={styles.slideInner}>
-                                                    <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
-                                                            src={slidebefore}
-                                                            alt="bitswits"
-                                                        />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>We were looking for a reliable team of Flutter app developers, and we found the perfect fit in
-                                                            BitsWits. Their expertise and commitment to quality resulted in an exceptional app that exceeded
-                                                            our expectations. We highly recommend their services!</p>
-                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                            Abraham Jones
-                                                        </h5>
-                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
-                                                    </div>
-                                                    <ul className={styles.sliderli}>
-                                                        <li>
-                                                            <span>Client</span>
-                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
-                                                        </li>
-                                                        <li>
-                                                            <span>Year</span>
-                                                            <span className='font-bold fontf'>2023</span>
-                                                        </li>
-                                                        <li>
-                                                            <span>Scope of work</span>
-                                                            <span className='font-bold fontf'>Web Design</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-
                                     <div className={styles.slideBox}>
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
@@ -279,13 +236,12 @@ function ClientsThink() {
                                             </Col>
                                         </Row>
                                     </div>
-
                                     <div className={styles.slideBox}>
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
                                                     <Image className='img-fluid'
-                                                        src={slideImg4}
+                                                        src={slideImg5}
                                                         alt="bitswits"
                                                     />
                                                 </div>
@@ -302,52 +258,6 @@ function ClientsThink() {
                                                             Thanks a lot.</p>
                                                         <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
                                                             Andrew Drake
-                                                        </h5>
-                                                        <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
-                                                    </div>
-                                                    <ul className={styles.sliderli}>
-                                                        <li>
-                                                            <span>Client</span>
-                                                            <span className='font-bold fontf'>Asia School of Business (ASB)</span>
-                                                        </li>
-                                                        <li>
-                                                            <span>Year</span>
-                                                            <span className='font-bold fontf'>2023</span>
-                                                        </li>
-                                                        <li>
-                                                            <span>Scope of work</span>
-                                                            <span className='font-bold fontf'>Web Design</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-
-
-                                    <div className={styles.slideBox}>
-                                        <Row className={styles.slideRow}>
-                                            <Col lg={4} className='pe-lg-0'>
-                                                <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
-                                                        src={slideImg4}
-                                                        alt="bitswits"
-                                                    />
-                                                </div>
-                                            </Col>
-                                            <Col lg={8} className='ps-lg-0'>
-                                                <div className={styles.slideInner}>
-                                                    <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
-                                                            src={slidebefore}
-                                                            alt="bitswits"
-                                                        />
-                                                        <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>Hiring Flutter app developers from BitsWits was one of the best decisions I have ever made. They
-                                                            are highly skilled and knowledgeable professionals who understand customer needs and deliver
-                                                            well-crafted solutions to us. Overall, we are extremely satisfied with their service and highly
-                                                            recommend them to anyone looking for reliable and cost-effective Flutter solutions.</p>
-                                                        <h5 className='font16 font-semibold fontf black mt-4 mb-0'>
-                                                            Winnie Brooks
                                                         </h5>
                                                         <p className='font14 fontf black mt-1 mb-0 pb-0'>Digital Marketing Consultant of Asia School of Business</p>
                                                     </div>
