@@ -19,32 +19,12 @@ import React, { useState, useEffect } from 'react';
 export default function Home() {
 
   const [showComponent, setShowComponent] = useState(false);
-  const [showComponent1, setShowComponent1] = useState(false);
-  const [showComponent2, setShowComponent2] = useState(false);
-  const [showComponent3, setShowComponent3] = useState(false);
-  const [showComponent4, setShowComponent4] = useState(false);
-  const [showComponent5, setShowComponent5] = useState(false);
-  const [showComponent6, setShowComponent6] = useState(false);
-  const [showComponent7, setShowComponent7] = useState(false);
-  const [showComponent8, setShowComponent8] = useState(false);
-  const [showComponent9, setShowComponent9] = useState(false);
-  const [showComponent10, setShowComponent10] = useState(false);
-  const [showComponent11, setShowComponent11] = useState(false);
+
 
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowComponent(true);
-      setShowComponent1(true);
-      setShowComponent2(true);
-      setShowComponent3(true);
-      setShowComponent4(true);
-      setShowComponent5(true);
-      setShowComponent6(true);
-      setShowComponent7(true);
-      setShowComponent8(true);
-      setShowComponent9(true);
-      setShowComponent10(true);
-      setShowComponent11(true);
+
     }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
 
     return () => clearTimeout(timeout);
@@ -60,46 +40,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-      <Banner />
 
-      {showComponent && (
 
+      {/* {showComponent && (
         <Rated />
+      )} */}
 
-      )}
-      {showComponent1 && (
-        <About />
-      )}
-      {showComponent2 && (
-        <Yearsofexpertise />
-      )}
-      {showComponent3 && (
-        <Ourservices />
-      )}
-      {showComponent4 && (
-        <Lookingfor />
-      )}
-      {showComponent5 && (
-        <Trusted />
-      )}
-      {showComponent6 && (
+      <Banner />
+      <Rated />
+      <About />
+      <Yearsofexpertise />
+      <Ourservices />
+      <Lookingfor />
+      <Trusted />
       <Ourportfolio />
-      )}
-      {showComponent7 && (
       <OurProject />
-      )}
-      {showComponent8 && (
       <ClientsThink />
-      )}
-      {showComponent9 && (
       <Nextproject />
-      )}
-      {showComponent10 && (
       <Ourblogs />
-      )}
-      {showComponent11 && (
       <Contact />
-      )}
+
 
 
 
