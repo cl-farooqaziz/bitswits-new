@@ -9,6 +9,8 @@ import ourportfolio32 from '../public/images/lookingfor/loop3.png'
 import uiux from '../public/images/lookingfor/uiux.png'
 import ai from '../public/images/lookingfor/ai.png'
 import web from '../public/images/lookingfor/web.png'
+import blockchain from '../public/images/lookingfor/blockchain.png'
+import gamedev from '../public/images/lookingfor/gamedev.png'
 
 // blockchain
 
@@ -266,7 +268,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={ourportfolio31} className='img-fluid' />
+                                    <Image alt="Bitswits" src={gamedev} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
@@ -379,7 +381,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={ourportfolio32} className='img-fluid' />
+                                    <Image alt="Bitswits" src={blockchain} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
