@@ -115,6 +115,112 @@ const Footer = () => {
           </Row>
 
           <Row className={styles.past}>
+
+            <Col lg={9}>
+
+            <div className={styles.footinfofullrelative}>
+                <div className={styles.ftrhd}>Industries</div>
+                <Link href="#" title="TII Real Estate"> Real Estate</Link> <span className={styles.cornaer}> | </span> 
+                <Link href="#" title="TII Travel and Hospitality"> Travel Hospitality</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII B2B Solutions">B2B Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII B2C Solutions"> B2C Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Healthcare"> Healthcare</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Education And e-Learning"> Education <span className="text-trans-none">e</span>-Learning </Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Banking And Finance"> Banking Finance</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Startup Solutions"> Startup Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Media And Publishing"> Media Publishing</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Food ordering Solutions Industry"> Food Ordering Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Train Ticket Booking Solution"> Train Ticket Booking Solutions</Link> 
+                <div className={styles.ftrhd}>Services</div>
+                <Link href="#" title="TII Progressive Web App Development Service">Progressive Web App Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Mobile App Development Service">Mobile App Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hybrid App Development Service">Hybrid App Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII PHP Development Services">PHP Development Services </Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Web Development"> Web Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Game Development"> Game Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII 2D Art">2D Art</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII 3D Art">3D Art</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII CRM Solutions">CRM Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII e-Commerce Development Service">
+                    <span className="text-trans-none">e</span>-Commerce Development
+                </Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Azure Service">Azure Services</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Amazon Web Service">Amazon Web Services</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="Managed Server Support Services">Managed Server Support Services</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Search Engine Optimization">Search Engine Optimization</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Pay Per Click Services">Pay Per Click Services</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Keyword Research">Keyword Research</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Link Building">Link Building</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="Enterprise Mobility Solution">Enterprise Mobility Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Social Media Optimization">Social Media Optimization</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Internet Of Things">Internet Of Things</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Digital Marketing">Digital Marketing</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Enterprise Portal Solution">Enterprise Portal Solution</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Magento Enterprise Solution">Magento Enterprise Solution</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Cloud Computing">Cloud Computing</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Conversion Rate Optimisation.html">Conversion Rate Optimisation</Link> 
+                <div className={styles.ftrhd}>Technologies</div>
+                <Link href="#" title="TII Hire ASP.NET Developer">ASP.NET</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire C# Developer">C#</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire DNN Developer">DNN</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Xamarin Developer">Xamarin</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire PHP Developer">PHP</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire CakePHP Developer">CakePHP</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Laravel Developer">Laravel</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire YII Developer">YII</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Zend Developer">Zend</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Symfony Developer">Symfony</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Ruby on Rails Developer">ROR</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Java Developer">Java</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Angular JS Developer">Angular JS</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Node JS Developer">Node JS</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire React Native Developer">React Native</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Mean Stack Developer">MEAN Stack</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Android Developer">Android</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire iOS Developer">iOS</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire SEO Experts">SEO Experts</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Website Designer Developer">Website Designer</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Database Developer Analyst">Database Developer</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Umbraco Developer">Umbraco</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Wordpress Developer">Wordpress</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire DNN Developer">Craft</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Magento Developer">Magento</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Magento 2 Developer">Magento 2</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Unity 3D Developer">Unity 3D</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Joomla Developer">Joomla</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Drupal Developer">Drupal</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire MS Dynamics CRM Developer">MS Dynamics CRM</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Salesforce Developer">Salesforce</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire SugarCRM Developer">SugarCRM</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Codeigniter Developer">Codeigniter</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Shopify Developer">Shopify</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire SharePoint Developer">SharePoint</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Quality Analyst">Quality Analyst</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire MongoDB Developer">MongoDB</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Opencart Developer">Opencart</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Python Developer">Python</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire wooCommerce Developer">WooCommerce</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Prestashop Developer">PrestaShop</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire BigCommerce Developer">BigCommerce</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire nopCommerce Developer">NopCommerce</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire VirtueMart Developer">VirtueMart</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Hire Zencart Developer">Zencart</Link> 
+                <div className={styles.ftrhd}>Quick Links</div>
+                <Link href="#" title="Home">Home</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Portfolio">Portfolio</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Enquire">Enquire Now</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Contact Us">Contact Us</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="TII Sitemap">Sitemap</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="News Events">News Events</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="Make Payment">Make Payment</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="Blog">Blog</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" title="Fulfilment">Fulfilment</Link> 
+           
+            </div>
+
+
+            </Col>
+
             <Col lg={3}>
               <h3 className='font25 font-bold white fontf mb-3 mb-lg-4'>Contact</h3>
               <div className={styles.fill}>
@@ -136,17 +242,17 @@ const Footer = () => {
               </div>
               <div className={styles.socialicons}>
                 <Link href="#"> <FaFacebookF size={20} className={styles.email} /></Link>
-                <Link href="#"> <AiOutlineInstagram size={20} className={styles.email} /></Link>
-                <Link href="#"> <AiOutlineTwitter size={20} className={styles.email} /></Link>
-                <Link href="#"> <AiFillLinkedin size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiOutlineInstagram  size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiOutlineTwitter  size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiFillLinkedin  size={20} className={styles.email} /></Link>
                 <div className={styles.spacing}> </div>
-                <Link href="#"> <AiFillBehanceCircle size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiFillBehanceCircle  size={20} className={styles.email} /></Link>
                 <Link href="#"> <BsPinterest size={20} className={styles.email} /></Link>
                 <Link href="#" > <Image src={icon} alt='Bitswits' className={`${styles.email}`} /> </Link>
                 <Link href="#"> <FaTelegramPlane size={20} className={styles.email} /></Link>
               </div>
             </Col>
-            <Col lg={2}>
+            {/* <Col lg={2}>
               <h3 className='font25 font-bold white fontf mb-2'>Discover</h3>
               <ul className={styles.patner}>
                 <li> <Link href="#">About Us</Link> </li>
@@ -233,7 +339,7 @@ const Footer = () => {
                   </div>
                 </Col>
               </Row>
-            </Col>
+            </Col> */}
           </Row>
 
 

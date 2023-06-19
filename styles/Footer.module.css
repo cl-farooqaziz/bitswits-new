@@ -37,6 +37,50 @@
   position: relative;
 }
 
+.footinfofullrelative a {
+  color: #cacaca;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  line-height: 2;
+}
+.footinfofullrelative a:hover{
+  color: white;
+}
+
+.footinfofullrelative a:hover::before {
+  width: 100%;
+}
+
+.footinfofullrelative a::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+  transition: all .7s ease-in-out;
+}
+
+.cornaer{
+  color: white;
+  font-weight: 100;
+}
+.ftrhd {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 20px 0 10px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
 .patner li a::before{
   content: "";
   position: absolute;
