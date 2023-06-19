@@ -43,10 +43,10 @@ function ClientsThink() {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black mb-0'>Reviews</h5>
                         </Col>
                         <Col lg={7}>
-                            <h4 className='font50 black fontf font-bold line60 mb-0'>
+                            <h2 className='font50 black fontf font-bold line60 mb-0'>
                                 Feedback From  <br /> <span className='grdiant'>Our Valued Clients!</span>
 
-                            </h4>
+                            </h2>
                         </Col>
                         <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">

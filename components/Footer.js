@@ -70,10 +70,10 @@ const Footer = () => {
         <Container>
           <Row className={styles.project}>
             <Col lg={12}>
-              <h4 className='font30 fontf font-bold white mb-0 text-center'>
+              <h2 className='font30 fontf font-bold white mb-0 text-center'>
                 <span className='grdiant'>Our Partnerships </span> <br />
                 and Appraisals!
-              </h4>
+              </h2>
             </Col>
             <Col lg={12} className={styles.trstCol}>
               <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>

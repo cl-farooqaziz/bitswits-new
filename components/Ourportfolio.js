@@ -58,7 +58,7 @@ const Ourportfolio = () => {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Work</h5>
                         </Col>
                         <Col lg={7}>
-                        <h4 className='font65 black fontf font-bold line60 black'>Our <span className='grdiant'>Portfolio</span></h4>
+                        <h2 className='font65 black fontf font-bold line60 black'>Our <span className='grdiant'>Portfolio</span></h2>
                         </Col>
                         <Col lg={3}>
                             <Link className={styles.bttns1} href="#">View All Work</Link>

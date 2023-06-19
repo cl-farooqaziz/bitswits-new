@@ -42,10 +42,10 @@ const OurProject = () => {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white mb-0'>Capabilities</h5>
                         </Col>
                         <Col lg={6}>
-                        <h4 className='font50 black fontf font-bold line60 white mb-0'>
+                        <h2 className='font50 black fontf font-bold line60 white mb-0'>
                                 <span className='grdiant'>How We Work</span> <br />
                                 On Projects
-                            </h4>
+                            </h2>
                         </Col>
                         <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
