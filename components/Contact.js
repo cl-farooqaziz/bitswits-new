@@ -15,9 +15,9 @@ const Contact = () => {
                     <Row className='justify-content-between'>
                         <Col lg={4}>
                             <div className={styles.cntcTxt}>
-                                <h4 className='font60 black fontf font-bold line60 mb-4'>
+                                <h2 className='font60 black fontf font-bold line60 mb-4'>
                                     LET’S TALK ABOUT YOUR PROJECTS
-                                </h4>
+                                </h2>
                                 <p className='font18 fontf mb-4'>Have a project idea? Tell us more about the details and we'll get back to you within 24 hours</p>
                                 <div className={styles.getInTch}>
                                     <div className={styles.touch}>
