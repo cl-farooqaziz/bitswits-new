@@ -109,7 +109,7 @@ const Ourservices = () => {
                         <Col lg={6}>
                             <Accordion defaultActiveKey="0">
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header onMouseEnter={game}>
+                                    <Accordion.Header onClick={game}>
                                     	Mobile Application Development
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -117,7 +117,7 @@ const Ourservices = () => {
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
-                                    <Accordion.Header onMouseEnter={game1}>
+                                    <Accordion.Header onClick={game1}>
                                     	Game Development
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -126,27 +126,27 @@ const Ourservices = () => {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header onMouseEnter={game2}>Web App Development </Accordion.Header>
+                                    <Accordion.Header onClick={game2}>Web App Development </Accordion.Header>
                                     <Accordion.Body>
                                     Grow your online presence with our skilled <span className='grdiant'>web app development company</span> . We ensure flawless functionality and outstanding user experiences by developing robust and scalable mobile apps.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="3">
-                                    <Accordion.Header onMouseEnter={game3}>Blockchain Game Development </Accordion.Header>
+                                    <Accordion.Header onClick={game3}>Blockchain Game Development </Accordion.Header>
                                     <Accordion.Body>
                                     Enter into an exciting gaming adventure with the best blockchain game development company, which focuses on emerging gaming with transparency and security of blockchain technology, creating immersive and decentralized game experiences.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="4">
-                                    <Accordion.Header onMouseEnter={game4}>Artificial Intelligence </Accordion.Header>
+                                    <Accordion.Header onClick={game4}>Artificial Intelligence </Accordion.Header>
                                     <Accordion.Body>
                                     Boost productivity and save your precious time and resources by utilizing the power of the future - Artificial Intelligence. Discover the excellent levels of efficiency and effectiveness with our AI-driven solutions
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="5">
-                                    <Accordion.Header onMouseEnter={game5}>UI/UX App Design</Accordion.Header>
+                                    <Accordion.Header onClick={game5}>UI/UX App Design</Accordion.Header>
                                     <Accordion.Body>
                                     BitsWits, a <span className='grdiant'>UI/UX app design company</span> , helps to enhance user experience with intuitive interfaces that engage users and make interactions enjoyable. Our skilled <span className='grdiant'>mobile app UI designers</span> assist in bringing the best outcomes.
                                     </Accordion.Body>
