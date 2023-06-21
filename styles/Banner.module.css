@@ -553,7 +553,6 @@
 
   .aboutBanner .bannerform {
     height: 100%;
-    width: 400px;
   }
 }
 
@@ -640,6 +639,10 @@
   }
 
   .bannerimg2 {
+    display: none;
+  }
+
+  .abtBannerImg {
     display: none;
   }
 }
