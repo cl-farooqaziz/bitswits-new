@@ -1,3 +1,5 @@
+/* =====Home Banner===== */
+
 .banner {
   background-color: #fff;
   background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0);
@@ -227,8 +229,6 @@
   text-align: center;
 }
 
-
-
 .subInner {
   display: flex;
   align-items: center;
@@ -346,6 +346,18 @@
   width: 100%;
 }
 
+/* =====About Banner===== */
+
+.aboutBanner {
+  background-color: #e7eaf1;
+  background-image: unset;
+}
+
+.abtBannerImg img {
+  width: 100%;
+  margin-left: 50px;
+}
+
 /* ============================================= */
 
 @media screen and (min-width: 2020px) {
@@ -397,7 +409,6 @@
   }
 
   .banner h1 {
-   
     font-size: 95px;
     line-height: 95px;
   }
@@ -537,6 +548,11 @@
 
   .bannerform {
     height: auto;
+    width: 400px;
+  }
+
+  .aboutBanner .bannerform {
+    height: 100%;
     width: 400px;
   }
 }

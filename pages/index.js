@@ -1,8 +1,9 @@
 import Head from 'next/head'
+import React, { useState, useEffect } from 'react';
+//components
 import Banner from '@/components/Banner'
 import About from '@/components/About'
 import Yearsofexpertise from '@/components/Yearsofexpertise'
-import Blogfaqs from '@/components/Blogfaqs'
 import Nextproject from '@/components/Nextproject'
 import Ourservices from '@/components/Ourservices'
 import Lookingfor from '@/components/Lookingfor'
@@ -13,7 +14,6 @@ import Ourblogs from '@/components/Ourblogs'
 import ClientsThink from '@/components/ClientsThink'
 import Contact from '@/components/Contact'
 import Rated from '@/components/Rated'
-import React, { useState, useEffect } from 'react';
 
 
 export default function Home() {
@@ -41,7 +41,6 @@ export default function Home() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-
       {/* {showComponent && (
         <Rated />
       )} */}
@@ -59,10 +58,6 @@ export default function Home() {
       <Nextproject />
       <Ourblogs />
       <Contact />
-
-
-
-
     </>
   )
 }
