@@ -909,6 +909,49 @@ const Header = () => {
                                                         </Row>
                                                     </div>
                                                 </div>
+                                                <div className={`${styles.listMain} mt-4`}>
+                                                    <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image alt="Bitswits" className='img-fluid'
+                                                                src={cms}
+
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
+                                                    </div>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link href='/social-media-optimization'>
+                                                                            <FaAngleRight />
+                                                                            <span>Social Media Optimization</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link href='/pay-per-click-services'>
+                                                                            <FaAngleRight />
+                                                                            <span>Pay Per Click Services</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link href='/digital-marketing'>
+                                                                            <FaAngleRight />
+                                                                            <span>Digital Marketing</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link href='/conversion-rate-optimisation'>
+                                                                            <FaAngleRight />
+                                                                            <span>Conversion Rate Optimisation</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
                                             </Col>
                                             <Col md={4}>
                                                 <div className={`${styles.listMain} ${styles.resList}`}>
@@ -926,31 +969,31 @@ const Header = () => {
                                                             <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/game-development'>
                                                                             <FaAngleRight />
                                                                             <span>Game Development</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/2d-art'>
                                                                             <FaAngleRight />
                                                                             <span>2D Art</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/3d-art'>
                                                                             <FaAngleRight />
                                                                             <span>3D Art</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/augmented-reality'>
                                                                             <FaAngleRight />
                                                                             <span>Augmented Reality</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/virtual-reality'>
                                                                             <FaAngleRight />
                                                                             <span>Virtual Reality</span>
                                                                         </Link>
@@ -1005,34 +1048,34 @@ const Header = () => {
 
                                                             />
                                                         </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>Explainer Video</h5>
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
                                                             <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/2d-cartoon-animation'>
                                                                             <FaAngleRight />
-                                                                            <span>Social Media Optimization</span>
+                                                                            <span>2D Cartoon Animation</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/whiteboard-animation'>
                                                                             <FaAngleRight />
-                                                                            <span>Pay Per Click Services</span>
+                                                                            <span>Whiteboard Animation</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/motion-graphics'>
                                                                             <FaAngleRight />
-                                                                            <span>Digital Marketing</span>
+                                                                            <span>Motion Graphics</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/3d-animation'>
                                                                             <FaAngleRight />
-                                                                            <span>Conversion Rate Optimisation</span>
+                                                                            <span>3D Animation</span>
                                                                         </Link>
                                                                     </li>
                                                                 </ul>
@@ -1057,7 +1100,7 @@ const Header = () => {
                                                             <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
-                                                                        <Link href='#'>
+                                                                        <Link href='/data-science'>
                                                                             <FaAngleRight />
                                                                             <span>DATA SCIENCE</span>
                                                                         </Link>
