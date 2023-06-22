@@ -346,7 +346,7 @@
   width: 100%;
 }
 
-/* =====About Banner===== */
+/* =========== About Banner ========== */
 
 .aboutBanner {
   background-color: #e7eaf1;
@@ -354,6 +354,17 @@
 }
 
 .abtBannerImg img {
+  width: 100%;
+  margin-left: 50px;
+}
+
+/* =========== Services Banner ========== */
+
+.webDevelpmnt {
+  background-color: #efefef;
+}
+
+.srvcBannerImg img {
   width: 100%;
   margin-left: 50px;
 }
@@ -642,7 +653,8 @@
     display: none;
   }
 
-  .abtBannerImg {
+  .abtBannerImg,
+  .srvcBannerImg {
     display: none;
   }
 }

@@ -7,15 +7,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //images
-import phone1 from '../public/images/aboutslider/phone1.png'
-import phone2 from '../public/images/aboutslider/phone2.png'
-import phone3 from '../public/images/aboutslider/phone3.png'
-import phone4 from '../public/images/aboutslider/phone4.png'
-import phone5 from '../public/images/aboutslider/phone5.png'
-import phone6 from '../public/images/aboutslider/phone6.png'
-import phone7 from '../public/images/aboutslider/phone7.png'
-import phone8 from '../public/images/aboutslider/phone8.png'
-import phone9 from '../public/images/aboutslider/phone9.png'
+import phone1 from '../public/images/aboutslider/phone1.svg'
+import phone2 from '../public/images/aboutslider/phone2.svg'
+import phone3 from '../public/images/aboutslider/phone3.svg'
+import phone4 from '../public/images/aboutslider/phone4.svg'
+import phone5 from '../public/images/aboutslider/phone5.svg'
+import phone6 from '../public/images/aboutslider/phone6.svg'
+import phone7 from '../public/images/aboutslider/phone7.svg'
+import phone8 from '../public/images/aboutslider/phone8.svg'
+import phone9 from '../public/images/aboutslider/phone9.svg'
 
 
 const AboutUsSec = () => {

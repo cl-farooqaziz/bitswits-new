@@ -8,7 +8,6 @@ import Ourservices from '@/components/AbtOurservices'
 import Nextproject from '@/components/Nextproject'
 import ClientsThink from '@/components/ClientsThink'
 import Contact from '@/components/Contact'
-import AbtCta from '@/components/AbtCta';
 import OurProject from '@/components/OurProject';
 
 
@@ -38,7 +37,6 @@ export default function aboutUs() {
             <About />
             <Yearsofexpertise />
             <Ourservices />
-            <AbtCta />
             <OurProject />
             <ClientsThink />
             <Nextproject />

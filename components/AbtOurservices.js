@@ -10,7 +10,6 @@ import icon2 from '../public/images/icons/perspective.png'
 import icon3 from '../public/images/icons/challenge.png'
 import icon4 from '../public/images/icons/collaborative.png'
 import icon5 from '../public/images/icons/Communicate.png'
-import icon6 from '../public/images/icons/dediteams.png'
 
 
 const AbtOurservices = () => {
@@ -24,7 +23,7 @@ const AbtOurservices = () => {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white'>Services</h5>
                         </Col>
                         <Col lg={7}>
-                            <h2 className='font65 black fontf font-bold line60 white'>BitsWits: <span className='grdiant'>The Core Values!</span></h2>
+                            <h2 className='font50 black fontf font-bold line60 white'>BitsWits: <span className='grdiant'>The Core Values!</span></h2>
                         </Col>
                         <Col lg={3}>
                             <Link className={styles.bttns1} href="#">CONSULT WITH OUR TEAM!</Link>

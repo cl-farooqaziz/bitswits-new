@@ -3,45 +3,24 @@ import styles from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 //images
-import banImg1 from '../public/images/banner/bannerImg1.png'
-import banImg2 from '../public/images/banner/bannerImg2.png'
-import banImg3 from '../public/images/banner/bannerImg1.png'
-import banImg4 from '../public/images/banner/bannerImg2.png'
-import banImg5 from '../public/images/banner/bannerImg1.png'
+import banImg from '../public/images/banner/webBanner.png'
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
 
 
-const Banner = () => {
-
-    var bannerslider = {
-        dots: false,
-        arrows: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 20000,
-        pauseOnHover: false,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        slidesToScroll: 1
-
-    };
+const ServicesBanner = () => {
 
     return (
-        <section className={styles.banner}>
+        <section className={`${styles.banner} ${styles.webDevelpmnt}`}>
             <Container fluid>
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
                         <div className={styles.banerTxt}>
-                            <h1 className='font65 black fontf font-bold line60'> Affordable <span className='grdiant'> Website</span> <br></br> <span className='grdiant'>Mobile App</span> & <span className='grdiant'>Game</span><br></br> Development</h1>
-                            <p className='black fontf font-medium line30'>Rationalize your gaming and <span className='grdiant'> mobile app development </span> experience <br></br>  with our affordable packages and prompt deliveries. </p>
+                            <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Mobile App Development </span> Company!</h1>
+                            <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
 
                             <div className={`${styles.bttnsto} mt-3`}>
                                 <Link className={styles.bttns1} href="#">Book A Call</Link>
@@ -49,46 +28,10 @@ const Banner = () => {
                             </div>
 
 
-                            <div className={styles.bannerimg2}>
-
-                                <Slider {...bannerslider} className={` ${styles.startup1} bannerslider mt-4`}>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="Bitswits" src={banImg1} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="Bitswits" src={banImg2} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="Bitswits" src={banImg3} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="Bitswits" src={banImg4} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="Bitswits" src={banImg5} className="img-fluid" />
-                                    </div>
-                                </Slider>
-
-                                {/* <div className={styles.bannerimg1}>
-                                    <div className={` ${styles.logo1} ${styles.logo13} `}>
-                                        <Image alt="Bitswits" loading="lazy" src={alignicon4} className={` ${styles.bottom}  img-fluid`} />
-                                        <Image alt="Bitswits" loading="lazy" src={alignicon3} className={`${styles.bottom1}  img-fluid mt-3`} />
-                                    </div>
-
-                                    <div className={styles.logo1}>
-                                        <Image alt="Bitswits" loading="lazy" src={alignicon} className={`${styles.bottom2} img-fluid`} />
-                                    </div>
-
-                                    <div className={` ${styles.logo1} ${styles.logo14} `}>
-                                        <Image alt="Bitswits" loading="lazy" src={alignicon2} className={`${styles.bottom3} img-fluid`} />
-                                        <Image alt="Bitswits" loading="lazy" src={alignicon1} className={`${styles.bottom4} img-fluid`} />
-
-                                    </div>
-                                </div> */}
-
-                                {/* <Image alt="Bitswits" loading="lazy" src={alignicon} className="img-fluid" />
-                            <Image alt="Bitswits" loading="lazy" src={alignicon1} className="img-fluid" />
-                            <Image alt="Bitswits" loading="lazy" src={alignicon2} className="img-fluid" /> */}
+                            <div className={styles.srvcBannerImg}>
+                                <div className={styles.logo14}>
+                                    <Image alt="Bitswits" loading="lazy" src={banImg} className={`${styles.bottom3} img-fluid`} />
+                                </div>
                             </div>
                         </div>
                     </Col>
@@ -171,22 +114,12 @@ const Banner = () => {
                                 </div>
 
                             </div>
-
-
                         </div>
                     </Col>
                 </Row>
             </Container>
         </section>
-
-
-
-
-
-
-
-
     )
 }
 
-export default Banner
+export default ServicesBanner
