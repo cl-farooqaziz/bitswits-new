@@ -13,16 +13,6 @@ import OurProject from '@/components/OurProject';
 
 export default function aboutUs() {
 
-    const [showComponent, setShowComponent] = useState(false);
-
-    useEffect(() => {
-        const timeout = setTimeout(() => {
-            setShowComponent(true);
-
-        }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
-
-        return () => clearTimeout(timeout);
-    }, []);
 
     return (
         <>
