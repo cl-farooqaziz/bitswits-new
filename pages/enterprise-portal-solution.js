@@ -17,12 +17,12 @@ import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
 
 
-export default function aboutUs() {
+export default function ecommerencedevelopment() {
 
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Web Development </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'>ENTERPRISE PORTAL SOLUTION </span> Company!</h1>
 
     const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
 
@@ -106,7 +106,7 @@ export default function aboutUs() {
 
     // Swipe component data
 
-
+    
 
 
 
@@ -137,43 +137,43 @@ export default function aboutUs() {
 
 
             <Swipe
-                foldimg={foldimg}
-                title='We Design Engaging Mobile Apps your users will swipe through from start to finish'
-                para='Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-                subtitle='High Performance User Experience'
-                subpara='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-                subtitle2='Swipe that Convert'
-                subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-
+            foldimg  = {foldimg}
+            title = 'We Design Engaging Mobile Apps your users will swipe through from start to finish'
+            para = 'Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
+            subtitle = 'High Performance User Experience'
+            subpara = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
+            subtitle2 = 'Swipe that Convert'
+            subpara2 = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
+            
             />
 
 
 
             <Ahead
-                title='Our Mobile App Research Data that puts you ahead of others'
-                para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-                subtitle='Laser Focused User Research'
-                subpara='We remain laser focused on your target audience to best meet their needs and requirements.'
-                subtitle2='Competitive Advantage'
-                subpara2='Our research process gives you a competitive advantage and up-to-date market insights.'
-                ahead={aheadimage}
-
+            title = 'Our Mobile App Research Data that puts you ahead of others'
+            para = 'We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
+            subtitle = 'Laser Focused User Research'
+            subpara = 'We remain laser focused on your target audience to best meet their needs and requirements.'
+            subtitle2 = 'Competitive Advantage'
+            subpara2 = 'Our research process gives you a competitive advantage and up-to-date market insights.'
+            ahead  = {aheadimage}
+            
             />
 
 
 
             <Ensure
-                foldimg={foldensure}
-                title='We Test and Optimize your mobile app to ensure best user experience'
-                para='We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-                subtitle='Constant Innovation'
-                subpara='In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-                subtitle2=' Active On-Going Support'
-                subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
-
+            foldimg  = {foldensure}
+            title = 'We Test and Optimize your mobile app to ensure best user experience'
+            para = 'We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
+            subtitle = 'Constant Innovation'
+            subpara = 'In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
+            subtitle2 = ' Active On-Going Support'
+            subpara2 = 'We only rely on real evidence-based improvements that drives conversion rates.'
+            
+            
+            
             />
-
-
             <OurProject />
             <ClientsThink />
             <Nextproject />

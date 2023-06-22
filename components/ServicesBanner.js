@@ -4,14 +4,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 //images
-import banImg from '../public/images/banner/webBanner.png'
+
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
 
 
-const ServicesBanner = () => {
+const ServicesBanner = (props) => {
 
     return (
         <section className={`${styles.banner} ${styles.webDevelpmnt}`}>
@@ -19,8 +19,11 @@ const ServicesBanner = () => {
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
                         <div className={styles.banerTxt}>
-                            <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Mobile App Development </span> Company!</h1>
-                            <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+
+
+                        {props.title}
+
+                        {props.para}
 
                             <div className={`${styles.bttnsto} mt-3`}>
                                 <Link className={styles.bttns1} href="#">Book A Call</Link>
@@ -30,7 +33,7 @@ const ServicesBanner = () => {
 
                             <div className={styles.srvcBannerImg}>
                                 <div className={styles.logo14}>
-                                    <Image alt="Bitswits" loading="lazy" src={banImg} className={`${styles.bottom3} img-fluid`} />
+                                    <Image alt="Bitswits" loading="lazy" src={props.bannerimg} className={`${styles.bottom3} img-fluid`} />
                                 </div>
                             </div>
                         </div>

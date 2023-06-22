@@ -3,10 +3,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Services.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-//image
-import foldimg from '../public/images/services/webEnsure.svg'
 
-const Ensure = () => {
+
+
+const Ensure = (props) => {
     return (
         <>
             <section className={`${styles.serviceBox} ${styles.ensure}`}>
@@ -14,31 +14,37 @@ const Ensure = () => {
                     <Row>
                         <Col lg={5}>
                             <div className={styles.swipeImg}>
-                                <Image src={foldimg} alt='bitswits' className='img-fluid' />
+                                <Image src={props.foldimg} alt='bitswits' className='img-fluid' />
                             </div>
                         </Col>
                         <Col lg={7}>
                             <div className={styles.swipeTxt}>
                                 <h2 className='font30 black fontf font-bold line40 black'>
-                                    We Test and Optimize your mobile app to ensure best user experience
+                                  {props.title}
                                 </h2>
-                                <p className='black fontf font-medium line30'>We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.</p>
+                                <p className='black fontf font-medium line30'>
+                                    {props.para}
+                                </p>
                                 <div className='mt-4'>
                                     <Row className='justify-content-between'>
                                         <Col lg={6}>
                                             <div className={styles.swapBox}>
                                                 <h5 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
-                                                    Constant Innovation
+                                                     {props.subtitle}
                                                 </h5>
-                                                <p className='font14 black fontf font-medium line30'>In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.</p>
+                                                <p className='font14 black fontf font-medium line30'>
+                                                    {props.subpara}
+                                                </p>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.swapBox}>
                                                 <h5 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
-                                                    Active On-Going Support
+                                                   {props.subtitle2}
                                                 </h5>
-                                                <p className='font14 black fontf font-medium line30'>We only rely on real evidence-based improvements that drives conversion rates.</p>
+                                                <p className='font14 black fontf font-medium line30'>
+                                                    {props.subpara2}
+                                                </p>
                                             </div>
                                         </Col>
                                         <Col sm={5}>
