@@ -120,45 +120,45 @@ const Footer = () => {
 
             <div className={styles.footinfofullrelative}>
                 <div className={styles.ftrhd}>Industries</div>
-                <Link href="#" title="TII Real Estate"> Real Estate</Link> <span className={styles.cornaer}> | </span> 
-                <Link href="#" title="TII Travel and Hospitality"> Travel Hospitality</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII B2B Solutions">B2B Solutions</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII B2C Solutions"> B2C Solutions</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Healthcare"> Healthcare</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Education And e-Learning"> Education <span className="text-trans-none">e</span>-Learning </Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Banking And Finance"> Banking Finance</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Startup Solutions"> Startup Solutions</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Media And Publishing"> Media Publishing</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Food ordering Solutions Industry"> Food Ordering Solutions</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Train Ticket Booking Solution"> Train Ticket Booking Solutions</Link> 
+                <Link href="/real-estate" title="TII Real Estate"> Real Estate</Link> <span className={styles.cornaer}> | </span> 
+                <Link href="/travel-hospitality" title="TII Travel and Hospitality"> Travel Hospitality</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/b2b-solutions" title="TII B2B Solutions">B2B Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/b2c-solutions" title="TII B2C Solutions"> B2C Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/healthcare" title="TII Healthcare"> Healthcare</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/education-and-e-learning" title="TII Education And e-Learning"> Education <span className="text-trans-none">e</span>-Learning </Link> <span className={styles.cornaer}> | </span>
+                <Link href="/banking-finance" title="TII Banking And Finance"> Banking Finance</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/startup-solutions" title="TII Startup Solutions"> Startup Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/media-publishing" title="TII Media And Publishing"> Media Publishing</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/food-ordering-solutions" title="TII Food ordering Solutions Industry"> Food Ordering Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/ticket-booking-solutions" title="TII Train Ticket Booking Solution"> Train Ticket Booking Solutions</Link> 
                 <div className={styles.ftrhd}>Services</div>
-                <Link href="#" title="TII Progressive Web App Development Service">Progressive Web App Development</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Mobile App Development Service">Mobile App Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/progressive-web-app-development" title="TII Progressive Web App Development Service">Progressive Web App Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/mobile-app-development" title="TII Mobile App Development Service">Mobile App Development</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Hybrid App Development Service">Hybrid App Development</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII PHP Development Services">PHP Development Services </Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Web Development"> Web Development</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Game Development"> Game Development</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII 2D Art">2D Art</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII 3D Art">3D Art</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII CRM Solutions">CRM Solutions</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII e-Commerce Development Service">
+                <Link href="/php-development-service" title="TII PHP Development Services">PHP Development Services </Link> <span className={styles.cornaer}> | </span>
+                <Link href="/web-development" title="TII Web Development"> Web Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/game-development" title="TII Game Development"> Game Development</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/2d-art" title="TII 2D Art">2D Art</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/3d-art" title="TII 3D Art">3D Art</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/crm-solution" title="TII CRM Solutions">CRM Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/e-commerence-development" title="TII e-Commerce Development Service">
                     <span className="text-trans-none">e</span>-Commerce Development
                 </Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Azure Service">Azure Services</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Amazon Web Service">Amazon Web Services</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="Managed Server Support Services">Managed Server Support Services</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Search Engine Optimization">Search Engine Optimization</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Pay Per Click Services">Pay Per Click Services</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Keyword Research">Keyword Research</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Link Building">Link Building</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="Enterprise Mobility Solution">Enterprise Mobility Solutions</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Social Media Optimization">Social Media Optimization</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Internet Of Things">Internet Of Things</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Digital Marketing">Digital Marketing</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Enterprise Portal Solution">Enterprise Portal Solution</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Magento Enterprise Solution">Magento Enterprise Solution</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/search-engine-optimization" title="TII Search Engine Optimization">Search Engine Optimization</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/pay-per-click-services" title="TII Pay Per Click Services">Pay Per Click Services</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/keyword-research" title="TII Keyword Research">Keyword Research</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/link-building" title="TII Link Building">Link Building</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/enterprise-mobility-solutions" title="Enterprise Mobility Solution">Enterprise Mobility Solutions</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/social-media-optimization" title="TII Social Media Optimization">Social Media Optimization</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/internet-of-things" title="TII Internet Of Things">Internet Of Things</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/digital-marketing" title="TII Digital Marketing">Digital Marketing</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/enterprise-portal-solution" title="TII Enterprise Portal Solution">Enterprise Portal Solution</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/magento-enterprise-solution" title="TII Magento Enterprise Solution">Magento Enterprise Solution</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Cloud Computing">Cloud Computing</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Conversion Rate Optimisation.html">Conversion Rate Optimisation</Link> 
+                <Link href="/conversion-rate-optimisation" title="TII Conversion Rate Optimisation.html">Conversion Rate Optimisation</Link> 
                 <div className={styles.ftrhd}>Technologies</div>
                 <Link href="#" title="TII Hire ASP.NET Developer">ASP.NET</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Hire C# Developer">C#</Link> <span className={styles.cornaer}> | </span>
@@ -206,7 +206,7 @@ const Footer = () => {
                 <Link href="#" title="TII Hire VirtueMart Developer">VirtueMart</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Hire Zencart Developer">Zencart</Link> 
                 <div className={styles.ftrhd}>Quick Links</div>
-                <Link href="#" title="Home">Home</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/" title="Home">Home</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Portfolio">Portfolio</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Enquire">Enquire Now</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" title="TII Contact Us">Contact Us</Link> <span className={styles.cornaer}> | </span>
