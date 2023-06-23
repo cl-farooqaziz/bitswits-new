@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'; import Link from 'next/link';
 import banImg from '../public/images/banner/webBanner.png'
 import foldimg from '../public/images/services/webSwipe.svg'
 import foldensure from '../public/images/services/webEnsure.svg'
@@ -37,21 +37,21 @@ export default function augmentedreality() {
             Mobile App Design
         </h5>
         <div className={styles.servcsList}>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 UI UX Design
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 Research & Discovery
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 Wireframing & Prototyping
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 iOS + Android Applications
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 Post Launch Support
-            </a>
+            </Link>
         </div>
     </div>
 
@@ -60,21 +60,21 @@ export default function augmentedreality() {
             User Research
         </h5>
         <div className={styles.servcsList}>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 User Journey & Persona Building
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 User Testing
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 Participant Recruitments
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 Research Method & Material Development
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 Iterative Research
-            </a>
+            </Link>
         </div>
     </div>
 
@@ -84,21 +84,21 @@ export default function augmentedreality() {
             UX Optimization
         </h5>
         <div className={styles.servcsList}>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 User Experience Assessment
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 User & KPIs Data Analysis
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 A/B Testing
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 Feature Experimentation
-            </a>
-            <a href='#' className='font14 fontf font-semibold mt-1 black'>
+            </Link>
+            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
                 UX Iterations
-            </a>
+            </Link>
         </div>
     </div>
 

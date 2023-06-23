@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'; import Link from 'next/link';
 //components
 import Banner from '@/components/Banner'
 import About from '@/components/About'
