@@ -1123,7 +1123,7 @@ const Header = () => {
                                                     <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2 pt-1'>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/real-estate'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={estate}
@@ -1134,7 +1134,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/travel-hospitality'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={travel}
@@ -1145,7 +1145,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/b2b-solutions'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={b2b}
@@ -1156,7 +1156,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/b2c-solutions'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={b2c}
@@ -1167,7 +1167,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/healthcare'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={health}
@@ -1178,7 +1178,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/education-and-e-learning'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={education}
@@ -1189,7 +1189,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/banking-finance'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={finance}
@@ -1200,7 +1200,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/startup-solutions'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={education}
@@ -1211,7 +1211,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/media-publishing'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={media}
@@ -1222,7 +1222,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/food-ordering-solutions'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={foods}
@@ -1233,7 +1233,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/ticket-booking-solutions'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={tickets}
@@ -1244,7 +1244,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/automotive-solutions'>
                                                                     <div className={styles.megaIcon}>
                                                                         <Image alt="Bitswits" className='img-fluid'
                                                                             src={automotive}
