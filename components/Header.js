@@ -1013,7 +1013,7 @@ const Header = () => {
 
                                                             />
                                                         </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>BLOCKCHAIN & AI</h5>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>BLOCKCHAIN</h5>
                                                     </div>
                                                     <div className={styles.listBody}>
                                                         <Row>
@@ -1022,17 +1022,17 @@ const Header = () => {
                                                                    
 
                                                                     <li>
-                                                                        <Link href="#"> 
+                                                                        <Link href="/blockchain-app-development"> 
                                                                             <FaAngleRight />
-                                                                            <span>Mobile App Development</span>
+                                                                            <span>Blockchain App Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    <li><Link href="#"> <FaAngleRight /><span>Game Development</span></Link></li>
-                                                                    <li><Link href="#"> <FaAngleRight /><span>Website Development</span></Link></li>
-                                                                    <li><Link href="#"> <FaAngleRight /><span>Blockchain Development</span></Link></li>
-                                                                    <li><Link href="#"> <FaAngleRight /><span>AI Development</span></Link></li>
-                                                                    <li><Link href="#"> <FaAngleRight /><span>AR/VR Development</span></Link></li>
-                                                                    <li><Link href="#"> <FaAngleRight /><span>UI/UX Design</span></Link></li>
+                                                                    <li><Link href="/dapp-development"> <FaAngleRight /><span>dApp Development</span></Link></li>
+                                                                    <li><Link href="/nft-marketplace-development"> <FaAngleRight /><span>NFT Marketplace Development</span></Link></li>
+                                                                    <li><Link href="/blockchain-wallet-development"> <FaAngleRight /><span>Blockchain Wallet Development</span></Link></li>
+                                                                    <li><Link href="/supply-chain-blockchain-development"> <FaAngleRight /><span>Supply Chain Blockchain Development</span></Link></li>
+
+                                                                  
                                                                 </ul>
                                                             </Col>
                                                         </Row>
