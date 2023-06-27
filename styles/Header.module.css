@@ -85,6 +85,20 @@
   transform-origin: top;
 }
 
+.header .download{
+  color: white;
+  height: unset;
+  padding: unset;
+  font-size: 14px;
+  font-weight: 400;
+  display: unset;
+  align-items: unset;
+  gap: unset;
+  text-transform: unset;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+
 @keyframes growDown {
   0% {
     transform: scaleY(0);
