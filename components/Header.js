@@ -674,18 +674,7 @@ const Header = () => {
                                                                     <span>Fulfilment</span>
                                                                 </Link>
                                                             </li>
-                                                            <li>
-                                                                <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Get More</span>
-                                                                </Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Our Corporate Values</span>
-                                                                </Link>
-                                                            </li>
+                                                          
                                                             <li>
                                                                 <Link href='#'>
                                                                     <FaAngleRight />
@@ -704,12 +693,7 @@ const Header = () => {
                                                                     <span>Reasons to Choose Us</span>
                                                                 </Link>
                                                             </li>
-                                                            <li>
-                                                                <Link href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Partnership and Certifications</span>
-                                                                </Link>
-                                                            </li>
+                                                        
                                                             <li>
                                                                 <Link href='#'>
                                                                     <FaAngleRight />
@@ -736,10 +720,12 @@ const Header = () => {
                                             <div className={styles.listBody}>
                                                 <Row>
                                                     <Col md={12}>
-                                                        <p>Headquartered in Albourne (near Brighton in the UK) we combine a passion for client satisfaction with technology innovation and business process expertise. We established our business in 2002, now have an in-house team of 1,000+ employees Internationally and we're still growing rapidly year on year.</p>
+
+                                                    <p className='mt-1'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
+                                                      
                                                           <Link className={styles.download} href='#' download><FaAngleRight className='white font14' /> Download our E-brochure</Link>
 
-                                                          <p className='mt-3'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
+                                                        
 
                                                     </Col>
                                                 </Row>
