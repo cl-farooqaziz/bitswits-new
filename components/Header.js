@@ -663,7 +663,7 @@ const Header = () => {
                                                     <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link href='#'>
+                                                                <Link href='/about-us'>
                                                                     <FaAngleRight />
                                                                     <span>Creative Agency</span>
                                                                 </Link>
@@ -738,6 +738,9 @@ const Header = () => {
                                                     <Col md={12}>
                                                         <p>Headquartered in Albourne (near Brighton in the UK) we combine a passion for client satisfaction with technology innovation and business process expertise. We established our business in 2002, now have an in-house team of 1,000+ employees Internationally and we're still growing rapidly year on year.</p>
                                                           <Link className={styles.download} href='#' download><FaAngleRight className='white font14' /> Download our E-brochure</Link>
+
+                                                          <p className='mt-3'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
+
                                                     </Col>
                                                 </Row>
                                             </div>
