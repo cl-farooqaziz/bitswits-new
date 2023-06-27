@@ -30,7 +30,7 @@ export default function automotivesolutions() {
     // coverage component data
 
 
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
+    const subtile = <h2 className='font50 black fontf font-bold line60'>Our <span className='grdiant'>Mobile App</span> Services</h2>
 
     const mobile = <div>
         <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
