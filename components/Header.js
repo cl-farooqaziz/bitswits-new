@@ -737,7 +737,7 @@ const Header = () => {
                                                 <Row>
                                                     <Col md={12}>
                                                         <p>Headquartered in Albourne (near Brighton in the UK) we combine a passion for client satisfaction with technology innovation and business process expertise. We established our business in 2002, now have an in-house team of 1,000+ employees Internationally and we're still growing rapidly year on year.</p>
-                                                        <FaAngleRight className='white' />  <Link className={styles.download} href='#' download>Download our E-brochure</Link>
+                                                        <FaAngleRight className='white font14' />  <Link className={styles.download} href='#' download>Download our E-brochure</Link>
                                                     </Col>
                                                 </Row>
                                             </div>
