@@ -29,7 +29,7 @@ import icon8 from '../public/images/awards/award8.png'
 import icon9 from '../public/images/awards/award9.png'
 import icon10 from '../public/images/awards/award10.png'
 import icon11 from '../public/images/awards/award11.png'
-import apple from '../public/images/apple/apple.png'
+import apple from '../public/images/apple/apple.svg'
 
 const Footer = () => {
 
@@ -254,7 +254,7 @@ const Footer = () => {
               </div>
 
               <div className='mt-5'>
-                <Image alt="Bitswits" src={apple} className="img-fluid"  /> 
+                <Image alt="Bitswits" src={apple} className="img-fluid w-75"  /> 
               </div>
             </Col>
             {/* <Col lg={2}>
