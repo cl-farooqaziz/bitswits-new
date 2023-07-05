@@ -38,6 +38,11 @@ import backarrow from '../public/images/icons/back-arrow.webp'
 
 const Header = () => {
 
+
+const opnen = () => {
+     window.open('../companyprofile.pdf', '_blank');
+}
+
     const [isActive, setIsActive] = useState(false);
     const [megamenu1, setMegaMenu1] = useState(false);
     const [megamenu2, setMegaMenu2] = useState(false);
@@ -721,7 +726,11 @@ const Header = () => {
                                                 <Row>
                                                     <Col md={12}>
                                                         <p className='mt-1'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
-                                                        <Link className={styles.download} href='../companyprofile.pdf' target='_blank' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
+                                                        <Link className={styles.download}  onClick={opnen} href='#'  download><FaAngleRight className='white font14' />Download our E-brochure</Link>
+
+                                              
+
+
                                                     </Col>
                                                 </Row>
                                             </div>
