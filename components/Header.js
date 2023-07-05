@@ -39,7 +39,8 @@ import backarrow from '../public/images/icons/back-arrow.webp'
 const Header = () => {
 
 
-const opnen = () => {
+const opnen = (e) => {
+    e.preventDefault();
      window.open('../companyprofile.pdf', '_blank');
 }
 
