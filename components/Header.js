@@ -674,7 +674,7 @@ const Header = () => {
                                                                     <span>Fulfilment</span>
                                                                 </Link>
                                                             </li>
-                                                          
+
                                                             <li>
                                                                 <Link href='#'>
                                                                     <FaAngleRight />
@@ -693,7 +693,7 @@ const Header = () => {
                                                                     <span>Reasons to Choose Us</span>
                                                                 </Link>
                                                             </li>
-                                                        
+
                                                             <li>
                                                                 <Link href='#'>
                                                                     <FaAngleRight />
@@ -720,13 +720,8 @@ const Header = () => {
                                             <div className={styles.listBody}>
                                                 <Row>
                                                     <Col md={12}>
-
-                                                    <p className='mt-1'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
-                                                      
-                                                          <Link className={styles.download} href='#' download><FaAngleRight className='white font14' /> Download our E-brochure</Link>
-
-                                                        
-
+                                                        <p className='mt-1'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
+                                                        <Link className={styles.download} href='../companyprofile.pdf' target='_blank' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
                                                     </Col>
                                                 </Row>
                                             </div>
@@ -737,7 +732,6 @@ const Header = () => {
                                             <div className={styles.listImg}>
                                                 <Image alt="Bitswits" className='img-fluid'
                                                     src={ourbg}
-
                                                 />
                                             </div>
                                         </div>
@@ -753,7 +747,6 @@ const Header = () => {
                             <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
                                 <div className={styles.backArrow}>
                                     <Image alt="Bitswits"
-
                                         src={backarrow}
                                         loading="lazy"
                                     />
@@ -767,7 +760,6 @@ const Header = () => {
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="Bitswits" className='img-fluid'
                                                                 src={web}
-
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>WEB</h5>
@@ -1009,10 +1001,10 @@ const Header = () => {
                                                         <Row>
                                                             <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
-                                                                   
+
 
                                                                     <li>
-                                                                        <Link href="/blockchain-app-development"> 
+                                                                        <Link href="/blockchain-app-development">
                                                                             <FaAngleRight />
                                                                             <span>Blockchain App Development</span>
                                                                         </Link>
@@ -1022,7 +1014,7 @@ const Header = () => {
                                                                     <li><Link href="/blockchain-wallet-development"> <FaAngleRight /><span>Blockchain Wallet Development</span></Link></li>
                                                                     <li><Link href="/supply-chain-blockchain-development"> <FaAngleRight /><span>Supply Chain Blockchain Development</span></Link></li>
 
-                                                                  
+
                                                                 </ul>
                                                             </Col>
                                                         </Row>
