@@ -33,3 +33,32 @@
   background-color: #000000;
   color: #fff;
 }
+
+
+/* ============================================= */
+
+@media screen and (min-width: 1440px) {
+  .heading {
+    background-size: 20%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    background-image: unset;
+  }
+
+  .heading svg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    padding: 0;
+  }
+
+  .heading h2 br{
+    display: none;
+  }
+}

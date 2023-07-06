@@ -1,33 +1,57 @@
-.soulOverView{
-    padding: 100px 0 50px;
+.soulOverView {
+  padding: 100px 0 50px;
 }
 
-.heading{
-    background-image: url(../public/images/case-icon.svg);
-    background-size: 80%;
-    background-position: left;
-    background-repeat: no-repeat;
-    height: 100%;
-    padding: 40px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.heading {
+  background-image: url(../public/images/case-icon.svg);
+  background-size: 70%;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .heading svg {
-    font-size: 30px;
+  font-size: 30px;
+}
+
+.contnt a {
+  color: #000;
+  font-weight: 800;
+}
+
+.foldImg {
+  text-align: center;
+}
+
+.foldImg img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* ============================================= */
+
+@media screen and (min-width: 1440px) {
+  .heading {
+    background-size: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    background-image: unset;
+    padding: 0;
   }
 
-.contnt a{
-    color: #000;
-    font-weight: 800;
+  .heading svg {
+    display: none;
+  }
 }
 
-.foldImg{
-    text-align: center;
-}
-
-.foldImg img{
-    width: 100%;
-    margin-top: 50px;
+@media screen and (max-width: 767px) {
+  .soulOverView {
+    padding: 25px 0 50px;
+  }
 }

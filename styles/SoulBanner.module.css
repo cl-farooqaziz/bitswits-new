@@ -75,6 +75,7 @@
   .soulBanner {
     padding: 0px 0 20px;
     height: auto;
+    background-size: 70%;
     background-position: bottom left;
   }
 
@@ -111,11 +112,16 @@
 @media screen and (max-width: 767px) {
   .soulBanner {
     background-image: unset;
+    padding: 50px 0 0;
   }
 
   .heading h2 {
     font-size: 28px;
     text-align: center;
+  }
+
+ .heading {
+    margin-top: 0px;
   }
 
   .contnt {

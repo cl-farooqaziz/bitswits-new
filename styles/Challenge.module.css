@@ -4,10 +4,9 @@
 
 .heading {
   background-image: url(../public/images/case-icon.svg);
-  background-size: 80%;
+  background-size: 70%;
   background-position: right;
   background-repeat: no-repeat;
-  height: 100%;
   padding: 40px 0;
   display: flex;
   align-items: center;
@@ -16,4 +15,33 @@
 
 .heading svg {
   font-size: 30px;
+}
+
+/* ============================================= */
+
+@media screen and (min-width: 1440px) {
+  .heading {
+    background-size: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    background-image: unset;
+    padding: 0;
+  }
+
+  .heading svg {
+    display: none;
+  }
+
+  .soulRow {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .soulchallengs {
+    padding: 25px 0 50px;
+  }
 }

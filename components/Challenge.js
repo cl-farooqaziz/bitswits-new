@@ -9,7 +9,7 @@ const Challenge = () => {
         <>
             <section className={styles.soulchallengs}>
                 <Container>
-                    <Row className='align-items-center'>
+                    <Row className={`${styles.soulRow} align-items-center`}>
                         <Col lg={8}>
                             <div className={styles.contnt}>
                                 <p className='font16 black fontf font-medium line30'>
