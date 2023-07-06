@@ -1,0 +1,25 @@
+.creation1{
+    background-color: #FAFAFA;
+    padding: 5%;
+    border-radius: 10px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.creation{
+    background-image: linear-gradient(to right, #F32F53 , #F32FC2,#4A78EF);
+    padding: 5%;
+    border-radius: 10px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.creation1:hover{
+    background-image: linear-gradient(to right, #F32F53 , #F32FC2,#4A78EF);
+    color: white;
+    cursor: pointer;
+}

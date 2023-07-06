@@ -30,12 +30,17 @@ const OverView = () => {
                                 <Link href="#">Read More</Link>
                             </div>
                         </Col>
-                        <Col lg={12}>
+                    </Row>
+                </Container>
+
+                <Container fluid>
+                   <Row>
+                   <Col lg={12} className='p-0'>
                             <div className={styles.foldImg}>
                                 <Image className='img-fluid' src={foldImg} alt='Bitswits'/>
                             </div>
                         </Col>
-                    </Row>
+                    </Row> 
                 </Container>
             </section>
         </>

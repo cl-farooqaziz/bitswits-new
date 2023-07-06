@@ -11,6 +11,7 @@ import OurProject from '@/components/OurProject'
 import Ourblogs from '@/components/Ourblogs'
 import ClientsThink from '@/components/ClientsThink'
 import Contact from '@/components/Contact'
+import Profilecreation from '@/components/Profilecreation'
 
 
 export default function Home() {
@@ -46,7 +47,7 @@ export default function Home() {
       <OverView />
       <Challenge />
       <Solutions />
-      <OurProject />
+      <Profilecreation />
       <ClientsThink />
       <Nextproject />
       <Ourblogs />
