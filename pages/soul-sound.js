@@ -46,7 +46,6 @@ export default function Home() {
       <OverView />
       <Challenge />
       <Solutions />
-
       <OurProject />
       <ClientsThink />
       <Nextproject />

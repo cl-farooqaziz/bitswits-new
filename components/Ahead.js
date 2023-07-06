@@ -44,7 +44,7 @@ const Ahead = (props) => {
                                         </Col>
                                         <Col sm={5}>
                                             <Link className={`${styles.bttns1} mt-3`} href="#">
-                                                Book A Call
+                                            Call Us Now!
                                             </Link>
                                         </Col>
                                     </Row>

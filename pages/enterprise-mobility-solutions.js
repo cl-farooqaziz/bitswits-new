@@ -20,11 +20,39 @@ import aheadimage from '../public/images/services/webAhead.svg'
 export default function enterprisemobilitysolutions() {
 
 
-    // banner component data
+    const toppartop = <span> BitsWits, the top <span className='grdiant'>enterprise mobility solutions company</span> , delivers a consistent user experience across all platforms with our comprehensive compatibility testing. By addressing compatibility issues, we ensure that your solutions function smoothly, increasing engagement and usability.  </span>
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> ENTERPRISE MOBILITY SOLUTIONS </span> Company!</h1>
+    const toptitle = <span> Continuous Testing and Optimization of  <span className='grdiant'>Enterprise Mobility Solutions</span> Provide Best User Experience!  </span>
+ 
+    const aheadtitle = <span> 
+        Drive Business Success with Our Remarkable  <span className='grdiant'>Enterprise Mobility Management Services!</span>
+    </span>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const topsubpara = <span> BitsWits prioritizes putting its users first with its user-centric approach to <span className='grdiant'>enterprise mobility solutions</span> . We conduct in-depth usability testing and gather valuable feedback to improve user interfaces, navigation, and overall user experience.  </span>
+
+    const aheadpara = <span> BitsWits, the top <span className='grdiant'>enterprise mobility solutions company</span>, assists in maximizing business potential with our <span className='grdiant'>enterprise mobility</span> services. Our team deliver innovative solutions that enable smooth access to business assets remotely.  </span>
+
+
+    const folpos  = <span> We Craft <span className='grdiant'>Enterprise Mobility Solutions</span> That Fit Your Organizational Objectives! </span> 
+
+    const high = <span> Businesses need <span className='grdiant'>enterprise mobility solutions</span> to stay agile and competitive in the market, and we help organizations by designing and implementing <span className='grdiant'>custom mobility solutions</span> that align with their organizational goals to help them grow in the mobile-first era. </span>
+
+
+    const aheadsubpara = <span> It’s time to break down all communication barriers and improve effective communication with our <span className='grdiant'>mobility</span> solutions, from enabling real-time communication and file sharing to using tools that empower teams to work together efficiently and boost innovation.  </span>
+
+    const aheadbutpar2 = <span> BitsWits assists in mobilizing your business processes with our top <span  className='grdiant'>enterprise mobility solutions</span> to optimize operational efficiency. Smooth running workflows, automating tasks, and accessing real-time data on the go help improve productivity and bring down costs. </span>
+
+
+    const heading = <h1 className='font65 black fontf font-bold line60'>A Well-Known  <br /><span className='grdiant'> Enterprise Mobility Solutions Company! </span></h1>
+
+    const para = <p className='black fontf font-medium line30'>
+
+        BitsWits help businesses stay ahead in competition in today's fast-paced world. Our customized <span className='grdiant'>enterprise mobility services</span> connect your team, data, and apps on any device, boosting productivity, collaboration, and growth. By prioritizing user satisfaction, we ensure that your <span className='grdiant'>enterprise mobility solutions</span> deliver exceptional experiences that exceed user expectations.
+
+    </p>
+
+
+
 
 
     // coverage component data
@@ -106,7 +134,7 @@ export default function enterprisemobilitysolutions() {
 
     // Swipe component data
 
-    
+
 
 
 
@@ -137,42 +165,42 @@ export default function enterprisemobilitysolutions() {
 
 
             <Swipe
-            foldimg  = {foldimg}
-            title = 'We Design Engaging Mobile Apps your users will swipe through from start to finish'
-            para = 'Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-            subtitle = 'High Performance User Experience'
-            subpara = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-            subtitle2 = 'Swipe that Convert'
-            subpara2 = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-            
+                foldimg={foldimg}
+                title={folpos}
+                para= {high}
+                subtitle='Enterprise Mobility Management'
+                subpara='With years of experience in enterprise mobility, applications, and data security management, we help businesses to streamline operations and increase productivity, driving them towards the new heights of success and innovation.'
+                subtitle2='Enterprise Mobility Consultation'
+                subpara2='BitsWits advise businesses on optimizing mobile technology, including device management, app development, security, and improving user experience. We help them leverage mobile capabilities for increased productivity and improved performance.'
+
             />
 
 
 
             <Ahead
-            title = 'Our Mobile App Research Data that puts you ahead of others'
-            para = 'We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-            subtitle = 'Laser Focused User Research'
-            subpara = 'We remain laser focused on your target audience to best meet their needs and requirements.'
-            subtitle2 = 'Competitive Advantage'
-            subpara2 = 'Our research process gives you a competitive advantage and up-to-date market insights.'
-            ahead  = {aheadimage}
-            
+                title={aheadtitle}
+                para={aheadpara}
+                subtitle='Break Down all Communication Barriers!'
+                subpara={aheadsubpara}
+                subtitle2='Optimize Operational Efficiency '
+                subpara2={aheadbutpar2}
+                ahead={aheadimage}
+
             />
 
 
 
             <Ensure
-            foldimg  = {foldensure}
-            title = 'We Test and Optimize your mobile app to ensure best user experience'
-            para = 'We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-            subtitle = 'Constant Innovation'
-            subpara = 'In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-            subtitle2 = ' Active On-Going Support'
-            subpara2 = 'We only rely on real evidence-based improvements that drives conversion rates.'
-            
-            
-            
+                foldimg={foldensure}
+                title={toptitle}
+                para= {topsubpara}
+                subtitle='Safeguarding and Protecting Data'
+                subpara='To reduce risks, we investigate weaknesses, conduct penetration tests, and implement effective safety precautions in effect. By placing a high priority on security, we make sure that your solutions comply with the highest guidelines and satisfy you with our security.'
+                subtitle2='Ensuring Consistency Across All Platforms'
+                subpara2={toppartop}
+
+
+
             />
             <OurProject />
             <ClientsThink />

@@ -20,11 +20,51 @@ import aheadimage from '../public/images/services/webAhead.svg'
 export default function mobileappdevelopment() {
 
 
+    const drives = <span>
+        For the purpose of generating data-informed product decisions, our research data serves as the basis. Our <span className='grdiant'>mobile application developers</span> create apps that are tailored to users' interests by better understanding their target demographic, which results in increasing engagement. 
+    </span>
+
+    const increasing = <span>Our skilled <span className='grdiant'>mobile app developers</span> are dedicated to maximizing the performance of your mobile applications. Through careful testing and analysis, we pinpoint problem areas and carry out calculated optimizations that produce a smooth and positive user experience. </span>
+
+
+    const optimization = <span>
+        Our leading <span className='grdiant'>mobile app development agency</span> Bitswits has a team of experts who are dedicated to ensuring that your mobile app delivers the best user experience every time. We ensure that our <span className='grdiant'>mobile app developers</span> build apps by going above and beyond to test and optimize your applications while effortlessly implementing A/B testing to  boost your app’s performance. 
+    </span>
+
+
+    const exceptional = <span>Experience Exceptional <span className='grdiant'>Mobile App Development Services!</span> </span> 
+
+    const remain = <span>
+        We conduct thorough market research and analyze user behavior data to understand customer preferences, and pain points. <span className='grdiant'>Our mobile application developers</span> later use this information while building the apps. 
+    </span>
+
+    const data =<span>Gain a Competitive Edge with Our Top <span className='grdiant'>Mobile App Development Services!</span> </span>
+
+    const convert = <span> We <span className='grdiant'>Build a Mobile App</span> That Provides Smooth Experiences</span>
+
+    const focuses = <span>
+        The mobile app development process at BitsWits focuses on creating engaging and personalized mobile app experiences that keep users coming back for more. Whether it’s through responsive designs, real-time updates, or offline capabilities, our <span className='grdiant'>mobile app development services</span> improve engagement and drive conversions. 
+    </span>
+
+    const engaging = <span> At BitsWits, our team of skilled <span className='grdiant'> mobile app developers</span> while utilizing their technical expertise <span className='grdiant'>builds a mobile app</span> that has a deeper understanding of the behavior of the user to create applications that load quickly and work smoothly for a smooth experience across all devices and platforms.</span>
+
+    const lab = <span>Improved Performance of  <span className='grdiant'>Mobile App Development Services</span> </span>
+
+    const swipetitle = <span> BitsWits Makes Mobile Experiences Better with Engaging <span className='grdiant'>Mobile App Development Services!</span> </span>
+
+    const each = <span> At BitsWits, we are the most reliable and leading <span className='grdiant'>mobile app development agency</span> that has a team of dedicated experts and professionals who transform mobile experiences and create captivating mobile applications from start to finish. By utilizing a data-driven approach and detailed research, our <span className='grdiant'>mobile app developers</span> design attractive interfaces and build a mobile app that drives actions while keeping the latest design trends in mind. We ensure that our app developers not only function smoothly but also attract users with visually appealing applications. </span>
+
+
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> MOBILE APP DEVELOPMENT </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'> Mobile App Development Company </span></h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <p className='black fontf font-medium line30'>
+
+    With decades of experience, BitsWits, a <span className='grdiant'>top mobile app development company</span>, has been dedicated to delivering smooth experiences and attractive app designs that increase profits for businesses across the nation. Our professional <span className='grdiant'>mobile app developers</span> focus on providing exceptional mobile apps and assist customers in developing solutions for improved metrics and maximized ROI. Hire us for professional, simplified, and top-quality <span className='grdiant'>mobile app development services</span> and <span className='grdiant'>build a mobile app</span> that will let you stand out in the market.    
+        
+        
+    </p>
 
 
     // coverage component data
@@ -138,24 +178,24 @@ export default function mobileappdevelopment() {
 
             <Swipe
             foldimg  = {foldimg}
-            title = 'We Design Engaging Mobile Apps your users will swipe through from start to finish'
-            para = 'Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-            subtitle = 'High Performance User Experience'
-            subpara = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-            subtitle2 = 'Swipe that Convert'
-            subpara2 = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
+            title = {swipetitle}
+            para = {each}
+            subtitle = {lab}
+            subpara = {engaging}
+            subtitle2 = {convert}
+            subpara2 = {focuses}
             
             />
 
 
 
             <Ahead
-            title = 'Our Mobile App Research Data that puts you ahead of others'
-            para = 'We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-            subtitle = 'Laser Focused User Research'
-            subpara = 'We remain laser focused on your target audience to best meet their needs and requirements.'
-            subtitle2 = 'Competitive Advantage'
-            subpara2 = 'Our research process gives you a competitive advantage and up-to-date market insights.'
+            title = {data}
+            para = 'Our mobile app developers use the latest technologies and trends to create apps with special features, improved functions, and exceptional user experiences. Our use of the latest tech stack ensures your app is up-to-date and sets you apart from competitors.'
+            subtitle = 'Utilizing Data for Informed Product Decisions'
+            subpara = {remain}
+            subtitle2 = 'Uniting Cross-Functional Teams For Product Success'
+            subpara2 = 'We work with a collaborative approach among cross-functional teams, including mobile app designers, developers, and product managers, to ensure a holistic approach to data utilization and project success.'
             ahead  = {aheadimage}
             
             />
@@ -164,12 +204,12 @@ export default function mobileappdevelopment() {
 
             <Ensure
             foldimg  = {foldensure}
-            title = 'We Test and Optimize your mobile app to ensure best user experience'
-            para = 'We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-            subtitle = 'Constant Innovation'
-            subpara = 'In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-            subtitle2 = ' Active On-Going Support'
-            subpara2 = 'We only rely on real evidence-based improvements that drives conversion rates.'
+            title = {exceptional}
+            para = {optimization}
+            subtitle = 'Improvements and Quality Results!'
+            subpara = {increasing}
+            subtitle2 = 'Data-Informed Product Decisions!'
+            subpara2 = {drives}
             
             
             
