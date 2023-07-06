@@ -6,7 +6,7 @@ import { FaAngleRight } from 'react-icons/fa'
 const Solutions = () => {
     return (
         <>
-            <section className={styles.soulchallengs}>
+            <section className={styles.soulSolution}>
                 <Container>
                     <Row className='align-items-center'>
                         <Col lg={4}>

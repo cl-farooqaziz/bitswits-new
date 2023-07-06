@@ -6,12 +6,15 @@ import Banner from '@/components/SoulBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
-import Nextproject from '@/components/Nextproject'
-import OurProject from '@/components/OurProject'
-import Ourblogs from '@/components/Ourblogs'
-import ClientsThink from '@/components/ClientsThink'
-import Contact from '@/components/Contact'
 import Profilecreation from '@/components/Profilecreation'
+import ColorHarmony from '@/components/ColorHarmony';
+import Horizons from '@/components/Horizons';
+import SoulCTA from '@/components/SoulCTA';
+import OurProject from '@/components/OurProject'
+import ClientsThink from '@/components/ClientsThink'
+import Nextproject from '@/components/Nextproject'
+import Ourblogs from '@/components/Ourblogs'
+import Contact from '@/components/Contact'
 
 
 export default function Home() {
@@ -48,6 +51,10 @@ export default function Home() {
       <Challenge />
       <Solutions />
       <Profilecreation />
+      <ColorHarmony />
+      <Horizons />
+      <SoulCTA />
+      <OurProject />
       <ClientsThink />
       <Nextproject />
       <Ourblogs />

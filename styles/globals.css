@@ -1,16 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
+@font-face {
+  font-family: Nofex;
+  src: url(../public/fonts/Nofex-1GLBv.otf);
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Montserrat";
 }
 
 /* fontfamily */
 
 .fontf {
   font-family: "Montserrat", sans-serif;
+}
+
+.fontN {
+  font-family: "Nofex", sans-serif;
 }
 
 /* fontweight */
@@ -161,7 +173,7 @@ body {
 
 /* text alignments */
 
-.rowGap{
+.rowGap {
   row-gap: 30px;
 }
 
@@ -595,10 +607,9 @@ input::-webkit-inner-spin-button {
   align-items: center;
   justify-content: flex-start;
   gap: 26px;
-
 }
 
-.abtourservices .accordion-header button img{
+.abtourservices .accordion-header button img {
   width: 4%;
 }
 
@@ -806,10 +817,9 @@ input::-webkit-inner-spin-button {
     border-radius: 100%;
   }
 
-  .abtourservices .accordion-header button img{
+  .abtourservices .accordion-header button img {
     width: 5%;
   }
-
 }
 
 /* ========================= */
@@ -839,10 +849,9 @@ input::-webkit-inner-spin-button {
     left: unset !important;
   }
 
-  .abtourservices .accordion-header button img{
+  .abtourservices .accordion-header button img {
     width: 10%;
   }
-
 }
 
 /* ========================= */
