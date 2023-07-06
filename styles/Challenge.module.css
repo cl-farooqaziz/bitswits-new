@@ -1,0 +1,24 @@
+.soulchallengs {
+  padding: 50px 0;
+}
+
+.heading {
+  background-image: url(../public/images/case-icon.svg);
+  background-size: 80%;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading svg {
+  font-size: 30px;
+}
+
+.contnt a {
+  color: #000;
+  font-weight: 800;
+}
