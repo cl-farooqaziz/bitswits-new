@@ -2,29 +2,52 @@ import React from 'react'
 import styles from '@/styles/ColorHarmony.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-const ColorHarmony = () => {
+const ColorHarmony = (props) => {
     return (
         <>
-            <section className={styles.soulHarmony}>
+            <section className={styles[props.caseHarmony]}>
                 <Container>
                     <Row className='align-items-center gy-4'>
                         <Col lg={12}>
                             <div className={styles.heading}>
-                                <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
-                                    Choose the no. of features as <br /> per your requirements.
-                                </h2>
+                                {props.heading}
                             </div>
                         </Col>
 
+                        {props.colorbx1 ?
 
-                        <Col className='col-6'>
-                            <div className={styles.left}>#E4F81E</div>
-                        </Col>
-                        <Col className='col-6'>
-                            <div className={styles.right}>#000000</div>
-                        </Col>
+                            <>
+                                <Col lg={6}>
+                                    {props.left}
+                                </Col>
 
+                                <Col lg={6}>
+                                    {props.right}
+                                </Col>
+                            </>
+                            :
+                            ''
+                        }
 
+                        {props.colorbx2 ?
+
+                            <>
+                                <Col lg={4}>
+                                    {props.left}
+                                </Col>
+
+                                <Col lg={4}>
+                                    {props.mid}
+                                </Col>
+
+                                <Col lg={4}>
+                                    {props.right}
+                                </Col>
+                            </>
+                            :
+                            ''
+                        }
+                        
                     </Row>
                 </Container>
             </section>

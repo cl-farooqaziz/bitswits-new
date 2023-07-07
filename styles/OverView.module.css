@@ -20,7 +20,7 @@
   font-size: 30px;
 }
 
-.contnt{
+.contnt {
   margin-top: 50px;
 }
 
@@ -54,6 +54,14 @@
 
   .heading svg {
     display: none;
+  }
+
+  .caseOverView {
+    padding: 50px 0 50px;
+  }
+
+  .contnt {
+    margin-top: 0px;
   }
 }
 

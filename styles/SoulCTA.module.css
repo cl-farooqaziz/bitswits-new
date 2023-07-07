@@ -24,6 +24,11 @@
 }
 .health {
   background-image: url(../public/images/case-health/cta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  margin-top: -150px;
 }
 .food {
   background-image: url(../public/images/case-food/posy.webp);
@@ -41,13 +46,21 @@
 /* ============================================= */
 
 @media screen and (max-width: 991px) {
-  .soulCta {
+  .soulCta,
+  .soulmark,
+  .posy,
+  .health,
+  .food {
     padding: 80px 0 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .soulCta {
+  .soulCta,
+  .soulmark,
+  .posy,
+  .health,
+  .food {
     margin-top: -120px;
   }
 }

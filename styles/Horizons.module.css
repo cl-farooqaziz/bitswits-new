@@ -13,6 +13,11 @@
   justify-content: space-between;
 }
 
+.contnt a {
+  color: #000;
+  font-weight: 800;
+}
+
 /* ============================================= */
 
 @media screen and (min-width: 1440px) {

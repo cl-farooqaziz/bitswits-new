@@ -12,10 +12,11 @@ const Horizons = (props) => {
                     <Row>
                         <Col lg={6}>
                             <div className={styles.heading}>
-                               { props.uncovered}
+                               {props.uncovered}
                             </div>
                             <div className={styles.contnt}>
                                 {props.data}
+                                {props.data2}
                             </div>
                         </Col>
                         <Col lg={6}>

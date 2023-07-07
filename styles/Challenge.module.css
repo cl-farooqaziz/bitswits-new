@@ -50,6 +50,10 @@
   .soulRow {
     flex-direction: column-reverse;
   }
+
+  .headBox h2{
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {

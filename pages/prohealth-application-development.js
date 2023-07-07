@@ -1,12 +1,14 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/ColorHarmony.module.css'
 //components
 import Banner from '@/components/HealthBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
 import Profilecreation from '@/components/Profilecreation'
-import ColorHarmony2 from '@/components/ColorHarmony2';
+import ColorHarmony from '@/components/ColorHarmony';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
 import OurProject from '@/components/OurProject'
@@ -75,13 +77,20 @@ export default function prohealth() {
   const media = <h4 className='font30 fontf font-bold '>Reviews And Ratings</h4>
   const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
 
+  const heading = <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
+    Color Harmony
+  </h2>
+
+  const left = <div className={styles.left}>#7586D4</div>
+  const mid = <div className={styles.mid}>#000000</div>
+  const right = <div className={styles.right}>#EDEFF5</div>
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
     BitsWits Helped <br /> Put Medicine <br /> Within Reach!
   </h2>
 
-  const data = <p className='font16 black fontf font-medium line30'>
-    The launch of the newly-made pharma mobile application was a success, with millions of people downloading the app within the first few months. The app received positive customer reviews, most praising its user-friendly design and helpful features. As a result, BitsWits made it possible for Pro Health to broaden its reach and reach a broad range of audiences through the app...
+  const data2 = <p className='font16 black fontf font-medium line30'>
+    The launch of the newly-made pharma mobile application was a success, with millions of people downloading the app within the first few months. The app received positive customer reviews, most praising its user-friendly design and helpful features. As a result, BitsWits made it possible for Pro Health to broaden its reach and reach a broad range of audiences through the app...<Link href="#"> Read More</Link>
   </p>
 
   const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
@@ -145,12 +154,20 @@ export default function prohealth() {
         part1='true'
       />
 
-      <ColorHarmony2 />
+      <ColorHarmony
+        heading={heading}
+        left={left}
+        mid={mid}
+        right={right}
+        colorbx1=''
+        colorbx2='true'
+        caseHarmony='health'
+      />
 
       <Horizons
         uncovered={uncovered}
         foldImg00={foldImg00}
-        data={data}
+        data2={data2}
       />
 
       <SoulCTA

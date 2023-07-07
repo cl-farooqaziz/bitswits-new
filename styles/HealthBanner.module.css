@@ -1,7 +1,7 @@
 .healthBanner {
-  background-image: url(../public/images/case-health/banner.png);
+  background-image: url(/_next/static/media/banner.fac1cbab.png);
   background-size: cover;
-  background-position: right;
+  background-position: -35px 10px;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -14,17 +14,169 @@
   background-size: 70%;
   display: block;
   position: absolute;
-  right: -175px;
+  right: -225px;
   bottom: 0;
-  width: 65%;
-  height: 730px;
+  width: 56%;
+  height: 895px;
 }
 
 .heading h1 {
   margin-top: 100px;
   margin-left: -15px;
+  font-size: 360px;
+  line-height: 290px;
+}
+
+.contnt h2 {
+  font-size: 40px;
+  line-height: 60px;
 }
 
 .contnt p {
-  width: 70%;
+  width: 80%;
+  font-size: 20px;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 1600px) {
+  .healthBanner {
+    background-size: contain;
+    background-position: 35px 70px;
+  }
+
+  .heading::before {
+    background-size: 60%;
+    right: -335px;
+    width: 65%;
+    height: 780px;
+  }
+
+  .heading h1 {
+    font-size: 300px;
+    line-height: 250px;
+  }
+
+  .contnt h2 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+
+  .contnt p {
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .healthBanner {
+    background-size: 110%;
+    background-position: -75px 35px;
+  }
+
+  .heading::before {
+    background-size: 65%;
+    right: -300px;
+    height: 800px;
+  }
+
+  .heading h1 {
+    font-size: 280px;
+    line-height: 250px;
+  }
+
+  .contnt h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .heading::before {
+    background-size: 70%;
+    right: -260px;
+  }
+
+  .heading h1 {
+    font-size: 260px;
+    line-height: 220px;
+  }
+
+  .contnt h2 {
+    font-size: 28px;
+  }
+
+  .contnt p {
+    width: 78%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .healthBanner {
+    background-size: 100%;
+    background-position: -20px 70px;
+  }
+
+  .heading::before {
+    background-size: 60%;
+    right: -235px;
+    height: 680px;
+  }
+
+  .heading h1 {
+    font-size: 240px;
+    line-height: 210px;
+  }
+
+  .contnt h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .contnt p {
+    width: 78%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .healthBanner {
+    background-size: 115%;
+    background-position: -60px 30px;
+  }
+
+  .heading::before {
+    background-size: 69%;
+    right: -245px;
+    height: 745px;
+  }
+
+  .heading h1 {
+    font-size: 245px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .healthBanner {
+    background-image: unset;
+  }
+
+  .heading::before {
+    display: none;
+  }
+
+  .heading h1 {
+    font-size: 80px;
+    line-height: 80px;
+    margin-left: -5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .contnt h2 br {
+    display: none;
+  }
+
+  .contnt p {
+    width: 100%;
+    text-align: justify;
+  }
 }

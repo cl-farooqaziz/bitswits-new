@@ -1,5 +1,6 @@
-.soulHarmony,
-.markHarmony {
+.soul,
+.mark,
+.health {
   padding: 50px 0;
 }
 
@@ -25,6 +26,8 @@
   font-weight: 600;
 }
 
+/* ============SoulHarmony============ */
+
 .soulHarmony .left {
   background-color: #e4f81e;
   color: #000;
@@ -35,20 +38,37 @@
   color: #fff;
 }
 
-/* ============markHarmony============ */
+/* ============MarkHarmony============ */
 
-.markHarmony .left {
+.left {
   background-color: #81ccc8;
   color: #000;
 }
 
-.markHarmony .mid {
+.mid {
   background-color: #a5d1cd;
   color: #fff;
 }
 
-.markHarmony .right {
+.right {
   background-color: #efefef;
+  color: #000;
+}
+
+/* ============HealthHarmony============ */
+
+.health .left {
+  background-color: #7586d4;
+  color: #000;
+}
+
+.health .mid {
+  background-color: #000000;
+  color: #fff;
+}
+
+.health .right {
+  background-color: #edeff5;
   color: #000;
 }
 
