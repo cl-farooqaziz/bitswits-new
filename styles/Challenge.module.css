@@ -1,4 +1,4 @@
-.soulchallengs {
+.caseChallengs {
   padding: 50px 0;
 }
 
@@ -7,7 +7,10 @@
   background-size: 70%;
   background-position: right;
   background-repeat: no-repeat;
-  padding: 40px 0;
+  padding: 0 0 20px;
+}
+
+.headBox {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,6 +18,15 @@
 
 .heading svg {
   font-size: 30px;
+}
+
+.headBox h2{
+  margin-left: 40px;
+}
+
+.contnt a {
+  color: #000;
+  font-weight: 800;
 }
 
 /* ============================================= */

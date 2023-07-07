@@ -3,44 +3,60 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/OverView.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-//image
-import foldImg from '../public/images/case-soul-sound/beats.png'
 import { FaAngleRight } from 'react-icons/fa'
 
 
-const OverView = () => {
+const OverView = (props) => {
     return (
         <>
-            <section className={styles.soulOverView}>
+            <section className={styles[props.caseOverView]}>
                 <Container>
-                    <Row>
+                <Row className='align-items-center'>
                         <Col lg={4}>
                             <div className={styles.heading}>
-                                <h2 className='font50 black fontf font-bold line60'>
-                                    Overview
-                                </h2>
-                                <FaAngleRight />
+                                <div className={styles.headBox}>
+                                    {props.title ?
+                                        <h2 className='font50 black fontf font-bold line60'>
+                                            {props.title}
+                                        </h2>
+                                        :
+                                        ''
+                                    }
+                                    <FaAngleRight />
+                                </div>
+
+                                {props.subtitle ?
+                                    <h5 className='font20 black fontf font-bold line30'>
+                                        {props.subtitle}
+                                    </h5>
+                                    :
+                                    ''
+                                }
                             </div>
                         </Col>
                         <Col lg={8}>
                             <div className={styles.contnt}>
-                                <p className='font16 black fontf font-medium line30'>
-                                    Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...
-                                </p>
-                                <Link href="#">Read More</Link>
+                                {props.text ?
+                                    <p className='font16 black fontf font-medium line30'>
+                                        {props.text}
+                                        <Link href="#"> Read More</Link>
+                                    </p>
+                                    :
+                                    ''
+                                }
                             </div>
                         </Col>
                     </Row>
                 </Container>
 
                 <Container fluid>
-                   <Row>
-                   <Col lg={12} className='p-0'>
+                    <Row>
+                        <Col lg={12} className='p-0'>
                             <div className={styles.foldImg}>
-                                <Image className='img-fluid' src={foldImg} alt='Bitswits'/>
+                                <Image className='img-fluid' src={props.imagefold} alt='Bitswits' />
                             </div>
                         </Col>
-                    </Row> 
+                    </Row>
                 </Container>
             </section>
         </>

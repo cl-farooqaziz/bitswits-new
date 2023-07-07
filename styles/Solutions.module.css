@@ -1,4 +1,4 @@
-.soulSolution {
+.caseSolution {
   padding: 50px 0;
 }
 
@@ -7,7 +7,10 @@
   background-size: 70%;
   background-position: left;
   background-repeat: no-repeat;
-  padding: 40px 0;
+  padding: 0 0 20px;
+}
+
+.headBox {
   display: flex;
   align-items: center;
   justify-content: space-between;

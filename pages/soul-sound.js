@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; 
-import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
 //components
 import Banner from '@/components/SoulBanner'
 import OverView from '@/components/OverView'
@@ -15,9 +14,11 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
+//images
+import foldImg from '../public/images/case-soul-sound/beats.png'
 
 
-export default function Home() {
+export default function SoulSound() {
 
   const [showComponent, setShowComponent] = useState(false);
 
@@ -32,6 +33,35 @@ export default function Home() {
   }, []);
 
 
+  const CaseOverView = [
+    {
+      title: 'Overview',
+      text: 'Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...',
+      imagefold: foldImg,
+      caseOverView: 'caseOverView'
+    }
+  ]
+
+  const newspan = <span>The <br /> Challenge</span>
+
+  const CaseChallengs = [
+    {
+      title: newspan,
+      subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
+      text: 'One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.',
+      caseChallengs: 'caseChallengs'
+    }
+  ]
+
+  const newspan2 = <span>The <br /> Solutions</span>
+
+  const CaseSolutions = [
+    {
+      title: newspan2,
+      text: 'BitsWits utilized its intellect to address and contend with the challenges head-on. We conducted extensive research into user behavior and preferences to create a music app explicitly tailored to user`s needs and goals. We analyzed data on how best to interact with each user.',
+      caseSolution: 'caseSolution'
+    }
+  ]
 
   return (
     <>
@@ -47,9 +77,32 @@ export default function Home() {
       )} */}
 
       <Banner />
-      <OverView />
-      <Challenge />
-      <Solutions />
+
+      {CaseOverView.map((item, i) =>
+        <OverView key={i}
+          title={item.title}
+          text={item.text}
+          imagefold={item.imagefold}
+          caseOverView={item.caseOverView}
+        />
+      )}
+
+      {CaseChallengs.map((item, i) =>
+        <Challenge key={i}
+          title={item.title}
+          text={item.text}
+          caseChallengs={item.caseChallengs}
+        />
+      )}
+
+      {CaseSolutions.map((item, i) =>
+        <Solutions key={i}
+          title={item.title}
+          text={item.text}
+          caseSolution={item.caseSolution}
+        />
+      )}
+
       <Profilecreation />
       <ColorHarmony />
       <Horizons />

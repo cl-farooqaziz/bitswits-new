@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Profilecreation = () => {
     return (
-        <section className='profilecreation'>
+        <section className={styles.profilecreation}>
             <Container>
                 <Row>
                     <Col lg={12}>

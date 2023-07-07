@@ -130,7 +130,21 @@ body {
   line-height: 68px;
 }
 
+.font80{
+  font-size: 125px;
+  line-height: 120px;
+}
+
+.font90{
+  font-size: 320px;
+  left: 280px;
+}
+
 /* linehight */
+
+.line65 {
+  line-height: 65px;
+}
 
 .line60 {
   line-height: 56px;
