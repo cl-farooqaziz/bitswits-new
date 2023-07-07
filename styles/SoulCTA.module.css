@@ -24,6 +24,9 @@
 }
 .health {
   background-image: url(../public/images/case-health/cta.png);
+}
+.food {
+  background-image: url(../public/images/case-food/posy.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

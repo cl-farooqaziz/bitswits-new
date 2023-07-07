@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/MarkBanner'
+import Banner2 from '@/components/MarkBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
@@ -109,7 +109,7 @@ export default function MarkPlace() {
         <Rated />
       )} */}
 
-            <Banner />
+            <Banner2 />
 
             {CaseOverView.map((item, i) =>
                 <OverView key={i}
