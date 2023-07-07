@@ -2,20 +2,15 @@ import React from 'react'
 import styles from '@/styles/SoulCTA.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-const SoulCTA = () => {
+const SoulCTA = (props) => {
     return (
         <>
-            <section className={styles.soulCta}>
+            <section className={styles[props.soulCta]}>
                 <Container>
                     <Row>
                         <Col lg={6}>
                             <div className={styles.heading}>
-                                <h2 className='font50 white fontN font-bold line60 mb-0'>
-                                    BitsWits <br />
-                                    Uncovered <br />
-                                    New Musical <br />
-                                    Horizons!
-                                </h2>
+                              {props.headfire}
                             </div>
                         </Col>
                     </Row>

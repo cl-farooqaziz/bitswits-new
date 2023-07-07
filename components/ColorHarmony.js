@@ -15,12 +15,16 @@ const ColorHarmony = () => {
                                 </h2>
                             </div>
                         </Col>
+
+
                         <Col className='col-6'>
                             <div className={styles.left}>#E4F81E</div>
                         </Col>
                         <Col className='col-6'>
                             <div className={styles.right}>#000000</div>
                         </Col>
+
+
                     </Row>
                 </Container>
             </section>
