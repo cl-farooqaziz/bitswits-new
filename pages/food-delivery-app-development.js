@@ -14,9 +14,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
+import foldImg00 from '../public/images/case-food/horizons.svg'
 //images
-import foldImg from '../public/images/case-soul-sound/beats.png'
+import foldImg from '../public/images/case-food/beats.png'
 
 
 export default function fooddelivery() {
@@ -43,13 +43,14 @@ export default function fooddelivery() {
     }
   ]
 
-  const newspan = <span>The <br /> Challenge</span>
+  const newspan = <span>The <br /> Problem</span>
+
+  const newtextpont = <span> The client asked BitsWits to design a user-friendly and intuitive mobile application that allows customers to place orders swimmingly. They further requested to incorporate a secure payment method and real-time tracking feature to keep tabs on all orders. <br></br>  And since free items are always customers' favorite, our client asked for this unique feature to be added to the app.</span>  
 
   const CaseChallengs = [
     {
       title: newspan,
-      subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
-      text: 'One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.',
+      text: newtextpont,
       caseChallengs: 'caseChallengs'
     }
   ]
@@ -59,37 +60,37 @@ export default function fooddelivery() {
   const CaseSolutions = [
     {
       title: newspan2,
-      text: 'BitsWits utilized its intellect to address and contend with the challenges head-on. We conducted extensive research into user behavior and preferences to create a music app explicitly tailored to user`s needs and goals. We analyzed data on how best to interact with each user.',
+      text: 'We were ecstatic when Find Food presented us with this food delivery apps development project – our highly experienced and knowledgeable team members, who specialize in developing all sorts of applications, embraced the challenge. Eventually, it took three months to make this dream a reality. We deployed a plethora of features, some of which are as follows:',
       caseSolution: 'caseSolution'
     }
   ]
 
 
 
-  const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
+  const demo = <h4 className='font30 fontf font-bold'>Sign In</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>To make food ordering a breeze, the professionals at BitsWits devised sign-in and sign-up options that offer customers expedited access to their contact information. Furthermore, the app is designed with quick navigation features so customers can find what they are looking for effortlessly. With this simple setup, updating customer details whenever desired has never been easier.</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Music <br></br> Recommendation</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
+  const profile = <h4 className='font30 fontf font-bold '>Coupon</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
 
-  const push = <h4 className='font30 fontf font-bold '>Push <br></br> Notifications</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
+  const push = <h4 className='font30 fontf font-bold '>Secure Payment Method</h4>
+  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
 
-  const media = <h4 className='font30 fontf font-bold '>Social <br></br> Media Integration</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
+  const media = <h4 className='font30 fontf font-bold '>Reviews And Ratings</h4>
+  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
 
-  const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
+
 
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
-    BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
+    BitsWits Came <br />
+    Up With A <br />
+    Flavorful <br />
+    Victory!!
   </h2>
 
   const data = <p className='font16 black fontf font-medium line30'>
-  The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
+ By offering customers unparalleled convenience today, the food delivery application of Find Food is functioning exceptionally well. BitsWits made it easy for the app owner to connect customers to their favorite food chains easily. Additionally, customers appreciated the convenience of ordering food...
 </p>
 
 const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
@@ -153,7 +154,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
         media1={media1}
         part='true'
         part1='true'
-        music={music}
+  
       />
 
 
@@ -168,7 +169,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
 
       <SoulCTA
       headfire = {headfire}
-      soulCta = 'soulCta'
+      soulCta = 'food'
       />
 
 

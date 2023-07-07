@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/SoulBanner'
+import Banner1 from '@/components/TravelBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
@@ -125,7 +125,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
         <Rated />
       )} */}
 
-      <Banner />
+      <Banner1 />
 
       {CaseOverView.map((item, i) =>
         <OverView key={i}

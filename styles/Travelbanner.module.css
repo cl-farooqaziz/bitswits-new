@@ -1,0 +1,17 @@
+.stock{
+  position: relative;
+  
+}
+.travel{
+  position: absolute;
+  margin-top: 3%;
+}
+.intention{
+  position: relative;
+  
+}
+.giving{
+  position: absolute;
+  margin-top: -6%;
+  max-width: 850px;
+}
