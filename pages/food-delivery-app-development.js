@@ -37,7 +37,7 @@ export default function fooddelivery() {
   const CaseOverView = [
     {
       title: 'Overview',
-      text: 'Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...',
+      text: 'Nowadays, most, if not all, food outlets collaborate with food delivery app development services to reach a wide range of audiences and expand their business. Given this, Find Food, a small-scale food delivery startup, approached BitsWits to design an attractive food application that enables customers to place meal orders from their favorite food chain.',
       imagefold: foldImg,
       caseOverView: 'caseOverView'
     }

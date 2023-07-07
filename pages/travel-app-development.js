@@ -14,9 +14,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
+import foldImg00 from '../public/images/case-travel/horizons.svg'
 //images
-import foldImg from '../public/images/case-soul-sound/beats.png'
+import foldImg from '../public/images/case-travel/beats.png'
 
 
 export default function travelapp() {
@@ -34,62 +34,72 @@ export default function travelapp() {
   }, []);
 
 
+const domoer = <span>  <b>Today, the travel and hospitality industries depend heavily on mobile applications, and 2023</b> <br></br> Established with the intention of giving unique and once-in-a-lifetime travel experiences to people touring the world, one of the most reputable travel companies, Gateway Tour Agency, works hard to provide people with top-notch quality services. In addition, the travel agency creates unique, personalized packages that not only meet but even go beyond expectations. </span>
+
+
   const CaseOverView = [
     {
       title: 'Overview',
-      text: 'Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...',
+      text: domoer,
       imagefold: foldImg,
       caseOverView: 'caseOverView'
     }
   ]
 
-  const newspan = <span>The <br /> Challenge</span>
+  const newspan = <span>The Concept Behind Bliss <br></br> Travel </span>
 
   const CaseChallengs = [
     {
       title: newspan,
       subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
-      text: 'One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.',
+      text: 'The travel market is becoming immensely competitive; thus, it is essential to come up with fresh ideas for beating the growing competition. Through mobile apps, travel firms can grow their customer base by keeping current clients and luring new ones. Given that nearly 85% of travelers bring a mobile device on their tour, it is essential for travel agencies to stay in touch and communicate with their clients at all times.',
       caseChallengs: 'caseChallengs'
     }
   ]
 
-  const newspan2 = <span>The <br /> Solutions</span>
+  const newspan2 = <span>Typeface  <br /> Used in <br /> Application</span>
 
   const CaseSolutions = [
     {
       title: newspan2,
-      text: 'BitsWits utilized its intellect to address and contend with the challenges head-on. We conducted extensive research into user behavior and preferences to create a music app explicitly tailored to user`s needs and goals. We analyzed data on how best to interact with each user.',
+      text: 'The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram, Snapchat, and Facebook. Although the idea was unique, people would not buy it if the implementation was not done the right way.',
       caseSolution: 'caseSolution'
     }
   ]
 
 
 
-  const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
+  const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
+  const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>
 
-  const profile = <h4 className='font30 fontf font-bold '>Music <br></br> Recommendation</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
+AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
 
-  const push = <h4 className='font30 fontf font-bold '>Push <br></br> Notifications</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
+AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
 
-  const media = <h4 className='font30 fontf font-bold '>Social <br></br> Media Integration</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
+AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
 
-  const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
+
+
+  </p>
+
+  const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
+  const profile1 = <p className='font14 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+
+ 
+
+
 
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
-    BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
+
+    The Process of <br /> Elevation:
   </h2>
 
-  const data = <p className='font16 black fontf font-medium line30'>
-  The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
+  const data = <p className='font16 black fontf font-medium line30 mt-3'>
+
+<b>From Vision to Design Crafting appealing UI Designs</b>  <br />
+
+ Admittedly, there aren't many travel apps made specifically for getting genuine travel information, customizing travel plans, and reserving desired destinations. Therefore, Gateway Tour Agency wanted to give their customers an application that can give them a more convenient
 </p>
 
 const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
@@ -147,13 +157,9 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
         demo1={demo1}
         profile={profile}
         profile1={profile1}
-        push={push}
-        push1={push1}
-        media={media}
-        media1={media1}
         part='true'
-        part1='true'
-        music={music}
+
+
       />
 
 
@@ -168,7 +174,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
 
       <SoulCTA
       headfire = {headfire}
-      soulCta = 'soulCta'
+      soulCta = 'posy'
       />
 
 

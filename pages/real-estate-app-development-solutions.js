@@ -16,7 +16,7 @@ import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
 //images
 import foldImg from '../public/images/case-mark-place/foldimg.png'
-import foldImg00  from '../public/images/case-mark-place/horizons.png'
+import foldImg00 from '../public/images/case-mark-place/horizons.png'
 
 
 export default function MarkPlace() {
@@ -47,52 +47,54 @@ export default function MarkPlace() {
     const CaseChallengs = [
         {
             title: 'The Concept Behind Mark Place',
-            text2: 'Due to their expertise in the field, the team at bitswits.co aimed to develop the Mark Place Real Estate Application, which would provide a detailed list of properties for sale as well as tools and information to help users make wise real estate decisions. A platform where anyone could look for their ideal home, rent a property, or even sell one. In addition to focusing on the buying and selling of properties, we wanted to create an app that provides essential information on real estate trends and factors to take into account when dealing with real estate properties. A single location where people may go for all of their housing-related needs and easily access a wide range of housing options.',
+            text: 'Due to their expertise in the field, the team at bitswits.co aimed to develop the Mark Place Real Estate Application, which would provide a detailed list of properties for sale as well as tools and information to help users make wise real estate decisions. A platform where anyone could look for their ideal home, rent a property, or even sell one. In addition to focusing on the buying and selling of properties, we wanted to create an app that provides essential information on real estate trends and factors to take into account when dealing with real estate properties. A single location where people may go for all of their housing-related needs and easily access a wide range of housing options.',
             caseChallengs: 'caseChallengs'
         }
     ]
 
     const CaseSolutions = [
-      {
-        title: 'Typeface Used in Application',
-        text: 'The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram, Snapchat, and Facebook. Although the idea was unique, people would not buy it if the implementation was not done the right way.',
-        caseSolution: 'caseSolution'
-      }
+        {
+            title: 'Typeface Used in Application',
+            text: 'The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram, Snapchat, and Facebook. Although the idea was unique, people would not buy it if the implementation was not done the right way.',
+            caseSolution: 'caseSolution'
+        }
     ]
 
 
-    const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
-    const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
-  
-    const profile = <h4 className='font30 fontf font-bold '>Music <br></br> Recommendation</h4>
-    const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
-  
-    const push = <h4 className='font30 fontf font-bold '>Push <br></br> Notifications</h4>
-    const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
-  
-    const media = <h4 className='font30 fontf font-bold '>Social <br></br> Media Integration</h4>
-    const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
-  
+    const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
+    const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>
+        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
+
+        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
+
+        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 
+
+
+    </p>
+
+    const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
+    const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+
+
+
     const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
-  
-  
+
+
     const uncovered = <h2 className='font65 black fontf font-bold line60'>
-      BitsWits <br />
-      Uncovered <br />
-      New Musical <br />
-      Horizons!
+        The Process of <br></br> Elevation:
     </h2>
-  
-    const data = <p className='font16 black fontf font-medium line30'>
-    The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
-  </p>
-  
-  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
-      BitsWits <br />
-      Uncovered <br />
-      New Musical <br />
-      Horizons!
-      </h2>
+
+    const data = <p className='font16 black fontf font-medium line30 mt-4'>
+        <b>From Vision to Design Crafting appealing UI Designs</b> <br></br>
+        One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.
+    </p>
+
+    const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
+        BitsWits <br />
+        Uncovered <br />
+        New Musical <br />
+        Horizons!
+    </h2>
 
     return (
         <>
@@ -122,7 +124,7 @@ export default function MarkPlace() {
             {CaseChallengs.map((item, i) =>
                 <Challenge key={i}
                     title={item.title}
-                    text2={item.text2}
+                    text={item.text}
                     imagefold={item.imagefold}
                     caseChallengs={item.caseChallengs}
                 />
@@ -136,30 +138,25 @@ export default function MarkPlace() {
                 />
             )}
 
-<Profilecreation
-        demo={demo}
-        demo1={demo1}
-        profile={profile}
-        profile1={profile1}
-        push={push}
-        push1={push1}
-        media={media}
-        media1={media1}
-        part='true'
-        part1='true'
-        music={music}
-      />
+            <Profilecreation
+                demo={demo}
+                demo1={demo1}
+                profile={profile}
+                profile1={profile1}
+                part='true'
+                part1=''
+            />
             <ColorHarmony2 />
             <Horizons
-      uncovered = {uncovered}
-      foldImg00 = {foldImg00}
-      data = {data}
-      />
+                uncovered={uncovered}
+                foldImg00={foldImg00}
+                data={data}
+            />
 
-      <SoulCTA
-      headfire = {headfire}
-      soulCta = 'soulCta'
-      />
+            <SoulCTA
+                headfire={headfire}
+                soulCta='soulmark'
+            />
 
             <OurProject />
             <ClientsThink />
