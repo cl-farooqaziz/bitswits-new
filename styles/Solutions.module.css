@@ -4,7 +4,7 @@
 
 .heading {
   background-image: url(../public/images/case-icon.svg);
-  background-size: 70%;
+  background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
   padding: 0 0 20px;
