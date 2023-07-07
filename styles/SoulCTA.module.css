@@ -22,6 +22,14 @@
   padding: 50px 0;
   margin-top: -150px;
 }
+.health {
+  background-image: url(../public/images/case-health/cta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  margin-top: -150px;
+}
 
 .soulCta h2 {
   letter-spacing: 2px;

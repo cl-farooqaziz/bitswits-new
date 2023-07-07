@@ -11,7 +11,7 @@ const ColorHarmony2 = () => {
                         <Col lg={12}>
                             <div className={styles.heading}>
                                 <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
-                                    Choose the no. of features as <br /> per your requirements.
+                                    Color Harmony
                                 </h2>
                             </div>
                         </Col>

@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/SoulBanner'
+import Banner from '@/components/HealthBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
 import Profilecreation from '@/components/Profilecreation'
-import ColorHarmony from '@/components/ColorHarmony';
+import ColorHarmony2 from '@/components/ColorHarmony2';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
 import OurProject from '@/components/OurProject'
@@ -14,9 +14,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
 //images
-import foldImg from '../public/images/case-soul-sound/beats.png'
+import foldImg from '../public/images/case-health/foldimg.png'
+import foldImg00 from '../public/images/case-health/horizons.png'
 
 
 export default function prohealth() {
@@ -37,19 +37,18 @@ export default function prohealth() {
   const CaseOverView = [
     {
       title: 'Overview',
-      text: 'Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...',
+      text: 'Pro Health has been operating as a local pharmacy in the USA since 1965. The company takes great pleasure in providing timely service and giving patients a one-stop shop for their medication requirements. Among the many services offered by Pro Health, some of the most common are terminal illness care services, medication synchronization, and drug flavoring.',
       imagefold: foldImg,
       caseOverView: 'caseOverView'
     }
   ]
 
-  const newspan = <span>The <br /> Challenge</span>
+  const newspan = <span>The <br /> Problem</span>
 
   const CaseChallengs = [
     {
       title: newspan,
-      subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
-      text: 'One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.',
+      text2: 'Many pharmaceutical applications usually take a "one-and-done" method, meaning: they create an app but don`t continue to maintain it or make it user-friendly. The same was the case with Pro Health. Though the company launched the app but failed to keep the app updated according to the modern developments in the pharmaceutical sector.',
       caseChallengs: 'caseChallengs'
     }
   ]
@@ -59,47 +58,38 @@ export default function prohealth() {
   const CaseSolutions = [
     {
       title: newspan2,
-      text: 'BitsWits utilized its intellect to address and contend with the challenges head-on. We conducted extensive research into user behavior and preferences to create a music app explicitly tailored to user`s needs and goals. We analyzed data on how best to interact with each user.',
+      text: 'The professionals of BitsWits accepted this challenged and poured in a lot of hard work to build a responsive and user-friendly pharma app that complies with the relevant laws. Our pharma mobile app developers have spent years creating cutting-edge mobile apps for consumers in the retail and pharmaceutical industries. We deployed the following features to ensure a well-functioning app:',
       caseSolution: 'caseSolution'
     }
   ]
 
+  const demo = <h4 className='font30 fontf font-bold'>Sign In</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>To make food ordering a breeze, the professionals at BitsWits devised sign-in and sign-up options that offer customers expedited access to their contact information. Furthermore, the app is designed with quick navigation features so customers can find what they are looking for effortlessly. With this simple setup, updating customer details whenever desired has never been easier.</p>
 
+  const profile = <h4 className='font30 fontf font-bold '>Coupon</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
 
-  const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
+  const push = <h4 className='font30 fontf font-bold '>Secure Payment Method</h4>
+  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Music <br></br> Recommendation</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
-
-  const push = <h4 className='font30 fontf font-bold '>Push <br></br> Notifications</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
-
-  const media = <h4 className='font30 fontf font-bold '>Social <br></br> Media Integration</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
-
-  const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
+  const media = <h4 className='font30 fontf font-bold '>Reviews And Ratings</h4>
+  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
 
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
+    BitsWits Helped <br /> Put Medicine <br /> Within Reach!
+  </h2>
+
+  const data = <p className='font16 black fontf font-medium line30'>
+    The launch of the newly-made pharma mobile application was a success, with millions of people downloading the app within the first few months. The app received positive customer reviews, most praising its user-friendly design and helpful features. As a result, BitsWits made it possible for Pro Health to broaden its reach and reach a broad range of audiences through the app...
+  </p>
+
+  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     BitsWits <br />
     Uncovered <br />
     New Musical <br />
     Horizons!
   </h2>
-
-  const data = <p className='font16 black fontf font-medium line30'>
-  The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
-</p>
-
-const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
-    BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
-    </h2>
-
-
 
 
   return (
@@ -129,7 +119,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
       {CaseChallengs.map((item, i) =>
         <Challenge key={i}
           title={item.title}
-          text={item.text}
+          text2={item.text2}
           caseChallengs={item.caseChallengs}
         />
       )}
@@ -153,24 +143,20 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
         media1={media1}
         part='true'
         part1='true'
-        music={music}
       />
 
-
-      <ColorHarmony />
-
+      <ColorHarmony2 />
 
       <Horizons
-      uncovered = {uncovered}
-      foldImg00 = {foldImg00}
-      data = {data}
+        uncovered={uncovered}
+        foldImg00={foldImg00}
+        data={data}
       />
 
       <SoulCTA
-      headfire = {headfire}
-      soulCta = 'soulCta'
+        headfire={headfire}
+        soulCta='health'
       />
-
 
       <OurProject />
       <ClientsThink />

@@ -58,10 +58,6 @@ body {
   line-height: 60px;
 }
 
-.font25 {
-  font-size: 18px;
-}
-
 .font15 {
   font-size: 15px;
 }
@@ -79,6 +75,10 @@ body {
 
 .font21 {
   font-size: 21px;
+}
+
+.font24 {
+  font-size: 24px;
 }
 
 .font8 {
@@ -130,14 +130,19 @@ body {
   line-height: 68px;
 }
 
-.font80{
+.font80 {
   font-size: 125px;
   line-height: 120px;
 }
 
-.font90{
+.font90 {
   font-size: 320px;
-  left: 280px;
+  line-height: 280px;
+}
+
+.font100 {
+  font-size: 230px;
+  line-height: 190px;
 }
 
 /* linehight */
@@ -165,6 +170,10 @@ body {
 /* colors */
 .black {
   color: #000000;
+}
+
+.liBlack {
+  color: #272727;
 }
 
 .grdiant {
