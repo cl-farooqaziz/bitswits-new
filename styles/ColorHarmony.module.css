@@ -1,6 +1,6 @@
 .soul,
 .mark,
-.health {
+.health,.ride {
   padding: 50px 0;
 }
 
@@ -70,6 +70,17 @@
 .health .right {
   background-color: #edeff5;
   color: #000;
+}
+/* ============RideHarmony============ */
+
+.ride .left {
+  background-color: #FF6600;
+  color: #000;
+}
+
+.ride .right {
+  background-color: #303439;
+  color: #fff;
 }
 
 /* ============================================= */

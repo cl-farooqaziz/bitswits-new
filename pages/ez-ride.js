@@ -1,7 +1,9 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/ColorHarmony.module.css'
 //components
-import Banner from '@/components/SoulBanner'
+import Banner from '@/components/RideBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
@@ -14,9 +16,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
 //images
-import foldImg from '../public/images/case-soul-sound/beats.png'
+import foldImg from '../public/images/case-ride/foldimg.png'
+import foldImg00 from '../public/images/case-ride/horizons.png'
 
 
 export default function ezride() {
@@ -37,70 +39,69 @@ export default function ezride() {
   const CaseOverView = [
     {
       title: 'Overview',
-      text: 'Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...',
+      subtext: 'Making the Ride Easier: Why Easy Ride Chose BitsWits for Ride Hailing App Development Services',
+      text: 'BitsWits devised an application Easy Ride, a ride-hailing app allowing users to quickly and conveniently hail a ride from their smartphone. With Easy Ride, users can easily select the type of vehicle they want, book it in advance or at the last minute, and track their driver`s progress until they reach their destination. Easy Ride also provides riders....',
       imagefold: foldImg,
       caseOverView: 'caseOverView'
     }
   ]
 
-  const newspan = <span>The <br /> Challenge</span>
+  const newspan = <span>The Concept <br /> Behind EZ <br /> Ride</span>
 
   const CaseChallengs = [
     {
       title: newspan,
       subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
-      text: 'One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.',
+      text2: 'The demand for ride hailing services is increasing, and soon, it is predicted that the transportation service sector would increase by $250 billion. In order to give riders the finest ride hailing experience possible, Easy Ride must have a unique solution created by a reputable ride-hailing app development company....',
       caseChallengs: 'caseChallengs'
     }
   ]
 
-  const newspan2 = <span>The <br /> Solutions</span>
+  const newspan2 = <span>Typeface <br /> Used in <br /> Application</span>
 
   const CaseSolutions = [
     {
       title: newspan2,
-      text: 'BitsWits utilized its intellect to address and contend with the challenges head-on. We conducted extensive research into user behavior and preferences to create a music app explicitly tailored to user`s needs and goals. We analyzed data on how best to interact with each user.',
+      text: 'The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram, Snapchat, and Facebook. Although the idea was unique, people would not buy it if the implementation was not done the right way.',
       caseSolution: 'caseSolution'
     }
   ]
 
+  const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>
+    AaBbCcDdEeFfGgHhIiJjKkLlMmNnOo PpQqRrSsTtUuVvWwXxYyZz
+    AaBbCcDdEeFfGgHhIiJjKkLlMmNnOo PpQqRrSsTtUuVvWwXxYyZz
+    AaBbCcDdEeFfGgHhIiJjKkLlMmNnOo PpQqRrSsTtUuVvWwXxYyZz
+  </p>
 
+  const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
-  const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
+  const heading = <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
+    Color Harmony
+  </h2>
 
-  const profile = <h4 className='font30 fontf font-bold '>Music <br></br> Recommendation</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
-
-  const push = <h4 className='font30 fontf font-bold '>Push <br></br> Notifications</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
-
-  const media = <h4 className='font30 fontf font-bold '>Social <br></br> Media Integration</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
-
-  const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
-
+  const left = <div className={styles.left}>#FF6600</div>
+  const right = <div className={styles.right}>#303439</div>
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
+    The Process of <br /> Elevation:
+  </h2>
+
+  const covered = <h5 className='font20 black fontf font-bold line30'>
+    From Vision to Design Crafting appealing UI Designs
+  </h5>
+
+  const data2 = <p className='font16 black fontf font-medium line30'>
+    The ride hailing service app Easy Ride by BitsWits has revolutionized the way people move around by providing an affordable, convenient, and safe mode of transport. The app offers users a range of different vehicles to choose from including...<Link href="#"> Read More</Link>
+  </p>
+
+  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     BitsWits <br />
     Uncovered <br />
     New Musical <br />
     Horizons!
   </h2>
-
-  const data = <p className='font16 black fontf font-medium line30'>
-  The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
-</p>
-
-const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
-    BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
-    </h2>
-
-
-
 
   return (
     <>
@@ -120,6 +121,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
       {CaseOverView.map((item, i) =>
         <OverView key={i}
           title={item.title}
+          subtext={item.subtext}
           text={item.text}
           imagefold={item.imagefold}
           caseOverView={item.caseOverView}
@@ -129,7 +131,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
       {CaseChallengs.map((item, i) =>
         <Challenge key={i}
           title={item.title}
-          text={item.text}
+          text2={item.text2}
           caseChallengs={item.caseChallengs}
         />
       )}
@@ -147,28 +149,31 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
         demo1={demo1}
         profile={profile}
         profile1={profile1}
-        push={push}
-        push1={push1}
-        media={media}
-        media1={media1}
         part='true'
-        part1='true'
-        music={music}
+        part1=''
       />
 
 
-      <ColorHarmony />
+      <ColorHarmony
+        heading={heading}
+        left={left}
+        right={right}
+        colorbx1='true'
+        colorbx2=''
+        caseHarmony='ride'
+      />
 
 
       <Horizons
-      uncovered = {uncovered}
-      foldImg00 = {foldImg00}
-      data = {data}
+        uncovered={uncovered}
+        covered={covered}
+        foldImg00={foldImg00}
+        data2={data2}
       />
 
       <SoulCTA
-      headfire = {headfire}
-      soulCta = 'soulCta'
+        headfire={headfire}
+        soulCta='ride'
       />
 
 

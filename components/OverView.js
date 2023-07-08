@@ -11,7 +11,7 @@ const OverView = (props) => {
         <>
             <section className={styles[props.caseOverView]}>
                 <Container>
-                <Row className='align-items-center'>
+                    <Row className='align-items-center'>
                         <Col lg={4}>
                             <div className={styles.heading}>
                                 <div className={styles.headBox}>
@@ -22,10 +22,6 @@ const OverView = (props) => {
                                         :
                                         ''
                                     }
-
-                             
-
-                                    
                                     <FaAngleRight />
                                 </div>
 
@@ -40,6 +36,15 @@ const OverView = (props) => {
                         </Col>
                         <Col lg={8}>
                             <div className={styles.contnt}>
+
+                                {props.subtext ?
+                                    <h5 className='font20 black fontf font-bold line30'>
+                                        {props.subtext}
+                                    </h5>
+                                    :
+                                    ''
+                                }
+
                                 {props.text ?
                                     <p className='font16 black fontf font-medium line30'>
                                         {props.text}

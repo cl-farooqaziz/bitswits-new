@@ -17,11 +17,11 @@ const ColorHarmony = (props) => {
                         {props.colorbx1 ?
 
                             <>
-                                <Col lg={6}>
+                                <Col className='col-6'>
                                     {props.left}
                                 </Col>
 
-                                <Col lg={6}>
+                                <Col className='col-6'>
                                     {props.right}
                                 </Col>
                             </>
@@ -32,22 +32,22 @@ const ColorHarmony = (props) => {
                         {props.colorbx2 ?
 
                             <>
-                                <Col lg={4}>
+                                <Col className='col-4'>
                                     {props.left}
                                 </Col>
 
-                                <Col lg={4}>
+                                <Col className='col-4'>
                                     {props.mid}
                                 </Col>
 
-                                <Col lg={4}>
+                                <Col className='col-4'>
                                     {props.right}
                                 </Col>
                             </>
                             :
                             ''
                         }
-                        
+
                     </Row>
                 </Container>
             </section>

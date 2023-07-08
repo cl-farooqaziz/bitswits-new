@@ -2,7 +2,6 @@ import React from 'react'
 import styles from '@/styles/SoulBanner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-
 const SoulBanner = () => {
     return (
         <>
