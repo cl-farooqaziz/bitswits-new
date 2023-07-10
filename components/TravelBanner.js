@@ -8,7 +8,7 @@ import foldImg00 from '../public/images/case-travel/banner.png'
 const TravelBanner = () => {
     return (
         <>
-            <section>
+            <section className={styles.people}>
                 <Container fluid className='mt-4'>
                     <Row>
                         <Col lg={12}>
@@ -17,7 +17,7 @@ const TravelBanner = () => {
                             </div>
                         </Col>
                         <Col lg={12}>
-                            <Image src={foldImg00} className='img-fluid' ></Image>
+                            <Image src={foldImg00} className='img-fluid w-100' ></Image>
                         </Col>
                         <Col lg={12}>
                            <div className={styles.intention}>
