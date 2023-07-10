@@ -62,15 +62,16 @@ const About = () => {
                         <Col lg={10}>
                             <h2 className='font50 black fontf font-bold line60'>The Mobile <span className='grdiant'>App Development Company </span> Thriving to Master Innovation! </h2>
 
-                            <p className='font25 fontf font-medium mt-4 mb-4 black'>Our expert<span className='grdiant'> mobile app developers </span> work with the world’s leading start-ups, mid-level companies and enterprises to create advanced user experiences. </p>
+                            <p className='font20 fontf font-medium mt-4 mb-4 black'>Our expert<span className='grdiant'> mobile app developers </span> work with the world’s leading start-ups, mid-level companies and enterprises to create advanced user experiences. </p>
 
-                            <p className='font25 fontf font-medium mt-4 mb-4 black'>Witness the brilliance of our diverse portfolio which includes sound, food, pro-health improvement, real estate, traveling, and much more.  </p>
-
+                            <p className='font20 fontf font-medium mt-4 mb-4 black'>Witness the brilliance of our diverse portfolio which includes sound, food, pro-health improvement, real estate, traveling, and much more.  </p>
 
                             <Row className={styles.decade}>
 
                                 <Col md={4}>
-                                    <p className='fontf font25 font-medium m-0 black'>The portfolios we serve provide</p>
+                                    <div className={`${styles.toltip} ${styles.smlp}`}>
+                                        <p className='fontf font20 font-medium m-0 black'>The portfolios we serve provide</p>
+                                    </div>
                                 </Col>
 
                                 <Col md={3} className={styles.spaceimg}>
@@ -80,7 +81,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font25 font-medium m-0 black'>Home,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Home,</p>
                                         <Image className={styles.tolImg}
                                             src={thumb1}
                                             alt='Bitswits'
@@ -95,7 +96,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font25 font-medium m-0 black'>food,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>food,</p>
                                         <Image className={styles.tolImg}
                                             src={thumb2}
                                             alt='Bitswits'
@@ -112,7 +113,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font25 font-medium m-0 black'>improve health,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>improve health,</p>
                                         <Image className={styles.tolImg}
                                             src={thumb3}
                                             alt='Bitswits'
@@ -128,7 +129,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font25 font-medium m-0 black'>make better trade,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>make better trade,</p>
                                         <Image className={styles.tolImg}
                                             src={thumb4}
                                             alt='Bitswits'
@@ -143,8 +144,8 @@ const About = () => {
                                         <Image alt="Bitswits" src={icon2} className='img-fluid' />
                                     </div>
 
-                                    <div className={styles.toltip}>
-                                        <p className='fontf font25 font-medium m-0 black'>educate leaders,</p>
+                                    <div className={`${styles.toltip} ${styles.smlp}`}>
+                                        <p className='fontf font20 font-medium m-0 black'>educate leaders,</p>
                                         <Image className={styles.tolImg}
                                             src={thumb5}
                                             alt='Bitswits'
@@ -160,7 +161,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font25 font-medium m-0 black'>and more,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>and more,</p>
                                         <Image className={styles.tolImg}
                                             src={thumb6}
                                             alt='Bitswits'

@@ -1,6 +1,7 @@
 .soul,
 .mark,
-.health,.ride {
+.health,
+.ride {
   padding: 50px 0;
 }
 
@@ -38,8 +39,6 @@
   color: #fff;
 }
 
-
-
 /* ============MarkHarmony============ */
 
 .left {
@@ -57,10 +56,9 @@
   color: #000;
 }
 
-
 /* travel */
 
-.travel .right{
+.travel .right {
   background-color: #081213;
   color: #fff;
 }
@@ -84,7 +82,7 @@
 /* ============RideHarmony============ */
 
 .ride .left {
-  background-color: #FF6600;
+  background-color: #ff6600;
   color: #000;
 }
 
@@ -96,7 +94,7 @@
 /* ============bacteria============ */
 
 .bacteria .left {
-  background-color: #B266FE;
+  background-color: #b266fe;
   color: #000;
 }
 

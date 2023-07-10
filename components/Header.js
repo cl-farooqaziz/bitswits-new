@@ -1276,7 +1276,7 @@ const Header = () => {
                                                 loading="lazy"
                                             />
                                             <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="#">
+                                                <Link className={styles.workTitle} href="/travel-app-development">
                                                     Travel App
                                                 </Link>
                                                 <span className={styles.realDummy}>
@@ -1290,7 +1290,7 @@ const Header = () => {
                                                 loading="lazy"
                                             />
                                             <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="#">
+                                                <Link className={styles.workTitle} href="/real-estate-app-development-solutions">
                                                     Real Estate App
                                                 </Link>
                                                 <span className={styles.realDummy}>
@@ -1304,7 +1304,7 @@ const Header = () => {
                                                 loading="lazy"
                                             />
                                             <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="#">
+                                                <Link className={styles.workTitle} href="/bacteria-app-development">
                                                     Bacteria App
                                                 </Link>
                                                 <span className={styles.realDummy}>
@@ -1320,7 +1320,7 @@ const Header = () => {
                                                 loading="lazy"
                                             />
                                             <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="#">
+                                                <Link className={styles.workTitle} href="/music-streaming-app-development">
                                                     Sound App
                                                 </Link>
                                                 <span className={styles.realDummy}>
@@ -1334,7 +1334,7 @@ const Header = () => {
                                                 loading="lazy"
                                             />
                                             <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="#">
+                                                <Link className={styles.workTitle} href="/prohealth-application-development">
                                                     PROHealth App
                                                 </Link>
                                                 <span className={styles.realDummy}>
@@ -1348,7 +1348,7 @@ const Header = () => {
                                                 loading="lazy"
                                             />
                                             <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="#">
+                                                <Link className={styles.workTitle} href="/ez-ride">
                                                     Rider App
                                                 </Link>
                                                 <span className={styles.realDummy}>
@@ -1364,7 +1364,7 @@ const Header = () => {
                                                 loading="lazy"
                                             />
                                             <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="#">
+                                                <Link className={styles.workTitle} href="/food-delivery-app-development">
                                                     Food App
                                                 </Link>
                                                 <span className={styles.realDummy}>

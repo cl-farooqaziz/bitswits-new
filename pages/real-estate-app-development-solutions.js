@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/ColorHarmony.module.css'
 //components
 import Banner2 from '@/components/MarkBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
 import Profilecreation from '@/components/Profilecreation'
-import ColorHarmony2 from '@/components/ColorHarmony2';
+import ColorHarmony from '@/components/ColorHarmony';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
 import OurProject from '@/components/OurProject'
@@ -60,30 +61,25 @@ export default function MarkPlace() {
         }
     ]
 
-
     const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
     const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>
         AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
-
         AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
-
-        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 
-
-
+        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
     </p>
-
     const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
     const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
-
-
-    const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
-
+    const heading = <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
+        Color Harmony
+    </h2>
+    const left = <div className={styles.left}>#81CCC8</div>
+    const mid = <div className={styles.mid}>#A5D1CD</div>
+    const right = <div className={styles.right}>#EFEFEF</div>
 
     const uncovered = <h2 className='font65 black fontf font-bold line60'>
         The Process of <br></br> Elevation:
     </h2>
-
     const data = <p className='font16 black fontf font-medium line30 mt-4'>
         <b>From Vision to Design Crafting appealing UI Designs</b> <br></br>
         One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.
@@ -146,7 +142,17 @@ export default function MarkPlace() {
                 part='true'
                 part1=''
             />
-            <ColorHarmony2 />
+
+            <ColorHarmony
+                heading={heading}
+                left={left}
+                mid={mid}
+                right={right}
+                colorbx1=''
+                colorbx2='true'
+                caseHarmony='mark'
+            />
+
             <Horizons
                 uncovered={uncovered}
                 foldImg00={foldImg00}

@@ -65,7 +65,7 @@
 
 /* ===== About Us Page ===== */
 
-.aboutus.aboutUsSec{
+.aboutus.aboutUsSec {
   padding-bottom: 0;
 }
 
@@ -96,6 +96,12 @@
 }
 
 /* ================== Media Query ================== */
+
+@media screen and (max-width: 1366px) {
+  .smlp p {
+    font-size: 19px;
+  }
+}
 
 @media screen and (max-width: 991px) {
   .nextalign1 {

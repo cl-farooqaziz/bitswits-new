@@ -80,7 +80,6 @@ export default function prohealth() {
   const heading = <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
     Color Harmony
   </h2>
-
   const left = <div className={styles.left}>#7586D4</div>
   const mid = <div className={styles.mid}>#000000</div>
   const right = <div className={styles.right}>#EDEFF5</div>
@@ -88,7 +87,6 @@ export default function prohealth() {
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
     BitsWits Helped <br /> Put Medicine <br /> Within Reach!
   </h2>
-
   const data2 = <p className='font16 black fontf font-medium line30'>
     The launch of the newly-made pharma mobile application was a success, with millions of people downloading the app within the first few months. The app received positive customer reviews, most praising its user-friendly design and helpful features. As a result, BitsWits made it possible for Pro Health to broaden its reach and reach a broad range of audiences through the app...<Link href="#"> Read More</Link>
   </p>

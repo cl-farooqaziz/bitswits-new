@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/ColorHarmony.module.css'
 //components
 import Banner1 from '@/components/TravelBanner'
 import OverView from '@/components/OverView'
@@ -14,11 +15,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-travel/horizons.svg'
 //images
 import foldImg from '../public/images/case-travel/beats.png'
-
-import styles from '@/styles/ColorHarmony.module.css'
+import foldImg00 from '../public/images/case-travel/horizons.svg'
 
 export default function travelapp() {
 
