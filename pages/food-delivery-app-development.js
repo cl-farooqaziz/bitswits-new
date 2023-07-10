@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/ColorHarmony.module.css'
 //components
 import Banner from '@/components/Foodbanner'
 import OverView from '@/components/OverView'
@@ -14,10 +15,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-food/horizons.svg'
 //images
 import foldImg from '../public/images/case-food/beats.png'
-import styles from '@/styles/ColorHarmony.module.css'
+import foldImg00 from '../public/images/case-food/horizons.svg'
 
 export default function fooddelivery() {
 
@@ -45,7 +45,7 @@ export default function fooddelivery() {
 
   const newspan = <span>The <br /> Problem</span>
 
-  const newtextpont = <span> The client asked BitsWits to design a user-friendly and intuitive mobile application that allows customers to place orders swimmingly. They further requested to incorporate a secure payment method and real-time tracking feature to keep tabs on all orders. <br></br>  And since free items are always customers' favorite, our client asked for this unique feature to be added to the app.</span>  
+  const newtextpont = <span> The client asked BitsWits to design a user-friendly and intuitive mobile application that allows customers to place orders swimmingly. They further requested to incorporate a secure payment method and real-time tracking feature to keep tabs on all orders. <br></br>  And since free items are always customers' favorite, our client asked for this unique feature to be added to the app.</span>
 
   const CaseChallengs = [
     {
@@ -79,9 +79,6 @@ export default function fooddelivery() {
   const media = <h4 className='font30 fontf font-bold '>Reviews And Ratings</h4>
   const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
 
-
-
-
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
     BitsWits Came <br />
     Up With A <br />
@@ -90,29 +87,25 @@ export default function fooddelivery() {
   </h2>
 
   const data = <p className='font16 black fontf font-medium line30'>
- By offering customers unparalleled convenience today, the food delivery application of Find Food is functioning exceptionally well. BitsWits made it easy for the app owner to connect customers to their favorite food chains easily. Additionally, customers appreciated the convenience of ordering food...
-</p>
+    By offering customers unparalleled convenience today, the food delivery application of Find Food is functioning exceptionally well. BitsWits made it easy for the app owner to connect customers to their favorite food chains easily. Additionally, customers appreciated the convenience of ordering food...
+  </p>
 
-const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
+  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     BitsWits <br />
     Uncovered <br />
     New Musical <br />
     Horizons!
-    </h2>
+  </h2>
 
-const code1 = <div className={styles.ride}> <span className={styles.left}>#FF6B03</span> </div>
-const code2 = <div className={styles.soulHarmony}> <span className={styles.right}>#000000</span>  </div>
-const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
-
-
-const headingbanner = <h1 className='font320 black fontf font-bold'>Find  <br/>Food</h1>
+  const code1 = <div className={styles.ride}> <span className={styles.left}>#FF6B03</span> </div>
+  const code2 = <div className={styles.soulHarmony}> <span className={styles.right}>#000000</span>  </div>
+  const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
 
 
-
-
-const para1 = <p className='black fontf font-bold  font25'>Food Delivery Services That Kill the <br></br> Distance in No Time! </p>
-const para2 = <p className='black fontf font-medium '>The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep </p>
-const para3 = <p className='black fontf font-medium '>Food delivery options have emerged as popular options to order food from favorite restaurants without leaving their homes. And this, in turn, has caused a substantial change in consumer preferences. </p>
+  const headingbanner = <h1 className='font320 black fontf font-bold'>Find  <br />Food</h1>
+  const para1 = <p className='black fontf font-bold  font25'>Food Delivery Services That Kill the <br></br> Distance in No Time! </p>
+  const para2 = <p className='black fontf font-medium '>The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep </p>
+  const para3 = <p className='black fontf font-medium '>Food delivery options have emerged as popular options to order food from favorite restaurants without leaving their homes. And this, in turn, has caused a substantial change in consumer preferences. </p>
 
   return (
     <>
@@ -128,10 +121,10 @@ const para3 = <p className='black fontf font-medium '>Food delivery options have
       )} */}
 
       <Banner
-       title={headingbanner}
-       para1={para1}
-       para2={para2}
-       para3={para3}
+        title={headingbanner}
+        para1={para1}
+        para2={para2}
+        para3={para3}
       />
 
       {CaseOverView.map((item, i) =>
@@ -170,27 +163,27 @@ const para3 = <p className='black fontf font-medium '>Food delivery options have
         media1={media1}
         part='true'
         part1='true'
-  
+
       />
 
 
-<ColorHarmony
-      heading = {heading12}
-      colorbx1 = 'true'
-      left = {code1}
-      right = {code2}
+      <ColorHarmony
+        heading={heading12}
+        colorbx1='true'
+        left={code1}
+        right={code2}
       />
 
 
       <Horizons
-      uncovered = {uncovered}
-      foldImg00 = {foldImg00}
-      data = {data}
+        uncovered={uncovered}
+        foldImg00={foldImg00}
+        data={data}
       />
 
       <SoulCTA
-      headfire = {headfire}
-      soulCta = 'food'
+        headfire={headfire}
+        soulCta='food'
       />
 
 

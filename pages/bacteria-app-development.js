@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/ColorHarmony.module.css'
 //components
-import Banner from '@/components/SoulBanner'
+import Banner from '@/components/BacteriaBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
@@ -14,10 +15,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-becteria/horizons.svg'
 //images
 import foldImg from '../public/images/case-becteria/beats.svg'
-import styles from '@/styles/ColorHarmony.module.css'
+import foldImg00 from '../public/images/case-becteria/horizons.svg'
 
 export default function bacteriaapp() {
 
@@ -33,6 +33,10 @@ export default function bacteriaapp() {
     return () => clearTimeout(timeout);
   }, []);
 
+
+  const headingbanner = <h1 className='black fontf font-bold'>GERM-GUARD</h1>
+  const para1 = <h3 className='black fontf font-bold'>Bacteria-Free Living <br /> Made Possible With <br /> Our Shield App!.</h3>
+  const para2 = <p className='black fontf font-medium'>BitsWits created a scalable and personalized cleaning services application with effortless appointment scheduling, booking, and payment integration. The instant reservation management feature has enhanced the brand image and increased customer loyalty – Germ-Guard reported an astonishing 70% in progress within just days of launching the app!</p>
 
   const CaseOverView = [
     {
@@ -63,8 +67,6 @@ export default function bacteriaapp() {
     }
   ]
 
-
-
   const demo = <h4 className='font30 fontf font-bold'>One-Tap Booking</h4>
   const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>With this feature, customers can easily book a cleaning service at any time of day or night without having to go through the hassle of calling multiple companies and comparing prices. Customers can also select from services such as deep cleaning, carpet cleaning, and area rug cleaning.</p>
 
@@ -77,9 +79,6 @@ export default function bacteriaapp() {
   const media = <h4 className='font30 fontf font-bold '>Secure Payments</h4>
   const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With secure payments, customer data such as credit card numbers and other personal information are encrypted so that unauthorized third parties cannot access them. It helps protect customers from potentially fraudulent activity while also giving businesses the peace of mind that their data is safe and secure.</p>
 
- 
-
-
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
     BitsWits <br />
     Swept Away  <br />
@@ -88,19 +87,19 @@ export default function bacteriaapp() {
   </h2>
 
   const data = <p className='font16 black fontf font-medium line30'>
-Germ-Guard is a revolutionary new cleaning app developed by BitsWits that makes housekeeping a breeze. With Germ-Guard, users can easily keep track of their cleaning schedule and tasks with a click of a button. The user-friendly interface navigates, making it perfect for busy households...
-</p>
+    Germ-Guard is a revolutionary new cleaning app developed by BitsWits that makes housekeeping a breeze. With Germ-Guard, users can easily keep track of their cleaning schedule and tasks with a click of a button. The user-friendly interface navigates, making it perfect for busy households...
+  </p>
 
-const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
+  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     BitsWits <br />
     Uncovered <br />
     New Musical <br />
     Horizons!
-    </h2>
+  </h2>
 
-const code1 = <div className={styles.bacteria}> <span className={styles.left}>#B266FE</span> </div>
-const code2 = <div className={styles.bacteria}> <span className={styles.right}>#000000</span>  </div>
-const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
+  const code1 = <div className={styles.bacteria}> <span className={styles.left}>#B266FE</span> </div>
+  const code2 = <div className={styles.bacteria}> <span className={styles.right}>#000000</span>  </div>
+  const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
 
 
   return (
@@ -116,7 +115,11 @@ const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harm
         <Rated />
       )} */}
 
-      <Banner />
+      <Banner
+        title={headingbanner}
+        para1={para1}
+        para2={para2}
+      />
 
       {CaseOverView.map((item, i) =>
         <OverView key={i}
@@ -156,26 +159,23 @@ const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harm
         part1='true'
       />
 
-
-<ColorHarmony
-      heading = {heading12}
-      colorbx1 = 'true'
-      left = {code1}
-      right = {code2}
+      <ColorHarmony
+        heading={heading12}
+        colorbx1='true'
+        left={code1}
+        right={code2}
       />
 
-
       <Horizons
-      uncovered = {uncovered}
-      foldImg00 = {foldImg00}
-      data = {data}
+        uncovered={uncovered}
+        foldImg00={foldImg00}
+        data={data}
       />
 
       <SoulCTA
-      headfire = {headfire}
-      soulCta = 'soulCtapost'
+        headfire={headfire}
+        soulCta='soulCtapost'
       />
-
 
       <OurProject />
       <ClientsThink />

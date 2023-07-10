@@ -1,0 +1,106 @@
+.gaurd {
+  margin-top: 5%;
+  background-image: url(../public/images/case-becteria/banner.svg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.gaurd h1 {
+  font-size: 250px;
+  line-height: 245px;
+  text-align: center;
+}
+
+.gaurd h3 {
+  font-size: 75px;
+  line-height: 85px;
+}
+
+.gaurd p {
+  font-size: 28px;
+  line-height: 45px;
+  margin-top: 20px;
+}
+
+.gaurd .banImg {
+  margin-top: -100px;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 1600px) {
+  .gaurd h1 {
+    font-size: 200px;
+    text-align: center;
+  }
+
+  .gaurd h3 {
+    font-size: 65px;
+    line-height: 75px;
+  }
+
+  .gaurd p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .gaurd h1 {
+    font-size: 180px;
+    text-align: center;
+  }
+
+  .gaurd h3 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+  .gaurd p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .gaurd h1 {
+    font-size: 160px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gaurd h1 {
+    font-size: 100px;
+    line-height: 125px;
+    text-align: center;
+  }
+
+  .gaurd h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .gaurd .banImg {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gaurd {
+    margin-top: 10%;
+    background-position: bottom center;
+  }
+
+  .gaurd h1 {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .gaurd h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

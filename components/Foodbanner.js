@@ -11,17 +11,15 @@ const Foodbanner = (props) => {
             <section className={`${styles.foody} contpost`}>
                 <Container fluid>
                     <Row>
-                       
                         <Col lg={6}>
-                          {props.title}
-                          {props.para1}
-                          {props.para2}
-                          {props.para3}
+                            {props.title}
+                            {props.para1}
+                            {props.para2}
+                            {props.para3}
                         </Col>
                         <Col lg={6}>
                             <Image src={foldImg00} className='img-fluid' ></Image>
                         </Col>
-                       
                     </Row>
                 </Container>
             </section>
