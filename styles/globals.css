@@ -659,6 +659,11 @@ input::-webkit-inner-spin-button {
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {
+
+  .services{
+    font-size: 28px;
+    line-height: 45px;
+  }
   .newproject .slick-prev {
     top: 50%;
     right: -5%;
@@ -697,6 +702,11 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width: 1600px) {
 
+  .services{
+    font-size: 20px;
+    line-height: 35px;
+  }
+
   .font320 {
     font-size: 375px;
     line-height: 320px;
@@ -714,6 +724,11 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1440px) {
+
+  .services{
+    font-size: 16px;
+    line-height: 25px;
+  }
 
   .font320 {
     font-size: 335px;
