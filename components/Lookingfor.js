@@ -458,7 +458,7 @@ const Lookingfor = () => {
                                      <div className={styles.servbold}><Image src={uiuxdevelopementicon3} className='img-fluid' /></div> 
                                      <div className={styles.servbold}><Image src={uiuxdevelopementicon4} className='img-fluid' /></div> 
                                 </div>
-Service
+
 
 
                                 <div className={`${styles.devlp1} mt-4 mb-4`}>
