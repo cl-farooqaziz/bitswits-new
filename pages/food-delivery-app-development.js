@@ -110,7 +110,7 @@ const headingbanner = <h1 className='font320 black fontf font-bold'>Find  <br/>F
 
 
 
-const para1 = <p className='black fontf font-bold  font25'>Food Delivery Services That Kill the <br></br> Distance in No Time! </p>
+const para1 = <h3 className='black fontf font-bold  font25'>Food Delivery Services That Kill the <br></br> Distance in No Time! </h3>
 const para2 = <p className='black fontf font-medium '>The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep </p>
 const para3 = <p className='black fontf font-medium '>Food delivery options have emerged as popular options to order food from favorite restaurants without leaving their homes. And this, in turn, has caused a substantial change in consumer preferences. </p>
 
