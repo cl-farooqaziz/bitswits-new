@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/SoulBanner'
+import Banner from '@/components/Foodbanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
@@ -17,7 +17,7 @@ import Contact from '@/components/Contact'
 import foldImg00 from '../public/images/case-food/horizons.svg'
 //images
 import foldImg from '../public/images/case-food/beats.png'
-
+import styles from '@/styles/ColorHarmony.module.css'
 
 export default function fooddelivery() {
 
@@ -100,8 +100,19 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     Horizons!
     </h2>
 
+const code1 = <div className={styles.ride}> <span className={styles.left}>#FF6B03</span> </div>
+const code2 = <div className={styles.soulHarmony}> <span className={styles.right}>#000000</span>  </div>
+const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
 
 
+const headingbanner = <h1 className='font320 black fontf font-bold'>Find  <br/>Food</h1>
+
+
+
+
+const para1 = <p className='black fontf font-bold  font25'>Food Delivery Services That Kill the <br></br> Distance in No Time! </p>
+const para2 = <p className='black fontf font-medium '>The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep </p>
+const para3 = <p className='black fontf font-medium '>Food delivery options have emerged as popular options to order food from favorite restaurants without leaving their homes. And this, in turn, has caused a substantial change in consumer preferences. </p>
 
   return (
     <>
@@ -116,7 +127,12 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
         <Rated />
       )} */}
 
-      <Banner />
+      <Banner
+       title={headingbanner}
+       para1={para1}
+       para2={para2}
+       para3={para3}
+      />
 
       {CaseOverView.map((item, i) =>
         <OverView key={i}
@@ -158,7 +174,12 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
       />
 
 
-      <ColorHarmony />
+<ColorHarmony
+      heading = {heading12}
+      colorbx1 = 'true'
+      left = {code1}
+      right = {code2}
+      />
 
 
       <Horizons

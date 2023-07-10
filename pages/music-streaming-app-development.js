@@ -16,6 +16,8 @@ import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
 import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
 //images
+
+import styles from '@/styles/ColorHarmony.module.css'
 import foldImg from '../public/images/case-soul-sound/beats.png'
 
 
@@ -44,6 +46,8 @@ export default function SoulSound() {
   ]
 
   const newspan = <span>The <br /> Challenge</span>
+
+  const heading12 = <h3 className='fontf font60 black center font-bold'>Choose the no. of features as <br></br> per your requirements.</h3>
 
   const CaseChallengs = [
     {
@@ -99,7 +103,8 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     Horizons!
     </h2>
 
-
+const code1 = <div className={styles.soulHarmony}> <span className={styles.left}>#E4F81E</span> </div> 
+const code2 = <div className={styles.soulHarmony}> <span className={styles.right}>#000000</span> </div> 
 
 
   return (
@@ -157,7 +162,12 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
       />
 
 
-      <ColorHarmony />
+      <ColorHarmony
+      heading = {heading12}
+      colorbx1 = 'true'
+      left = {code1}
+      right = {code2}
+      />
 
 
       <Horizons

@@ -14,10 +14,10 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
+import foldImg00 from '../public/images/case-becteria/horizons.svg'
 //images
-import foldImg from '../public/images/case-soul-sound/beats.png'
-
+import foldImg from '../public/images/case-becteria/beats.svg'
+import styles from '@/styles/ColorHarmony.module.css'
 
 export default function bacteriaapp() {
 
@@ -37,19 +37,18 @@ export default function bacteriaapp() {
   const CaseOverView = [
     {
       title: 'Overview',
-      text: 'Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...',
+      text: 'Germ-Guard is a cutting-edge cleaning company with headquarters in the USA. Their network in the USA includes more than 500 plus workforce of cleaning companies. Not only this, but they provide on-demand neighborhood cleaning services as well. The company intended to revolutionize the cleaning sector for commercial, residential, and industrial properties in the USA by connecting homeowners with verified, trained, and insured cleaners..',
       imagefold: foldImg,
       caseOverView: 'caseOverView'
     }
   ]
 
-  const newspan = <span>The <br /> Challenge</span>
+  const newspan = <span>The <br /> Problem</span>
 
   const CaseChallengs = [
     {
       title: newspan,
-      subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
-      text: 'One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.',
+      text: 'The client`s overarching objective was to create a mobile application to help users clean and disinfect their surroundings, such as homes, offices, and public places. The client was in a quandary about the features that must be included in the app. Not only this, but they also talked about the potential benefits of creating a bacteria app. The client also requested to make the mobile application user-friendly and available on various platforms like iOS and Android.',
       caseChallengs: 'caseChallengs'
     }
   ]
@@ -59,37 +58,37 @@ export default function bacteriaapp() {
   const CaseSolutions = [
     {
       title: newspan2,
-      text: 'BitsWits utilized its intellect to address and contend with the challenges head-on. We conducted extensive research into user behavior and preferences to create a music app explicitly tailored to user`s needs and goals. We analyzed data on how best to interact with each user.',
+      text: 'To begin with, our client and the BitsWits team held a thorough brainstorming session to comprehend their requirements and business strategy. Our highly-skilled team shed light on some potential benefits of bacteria app development. Based on our conversation, we created the Germ-Guard app, which streamlines, trusts, and affordably provides cleaning services for homes and businesses.',
       caseSolution: 'caseSolution'
     }
   ]
 
 
 
-  const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
+  const demo = <h4 className='font30 fontf font-bold'>One-Tap Booking</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>With this feature, customers can easily book a cleaning service at any time of day or night without having to go through the hassle of calling multiple companies and comparing prices. Customers can also select from services such as deep cleaning, carpet cleaning, and area rug cleaning.</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Music <br></br> Recommendation</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
+  const profile = <h4 className='font30 fontf font-bold '>Check Cleaner Availability</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With this feature, users can check the availability of different cleaners in their area quickly and easily. It helps to ensure they get the best service at the most convenient time. It helps customers save time by allowing them to identify the best-suited cleaners for their needs quickly.</p>
 
-  const push = <h4 className='font30 fontf font-bold '>Push <br></br> Notifications</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
+  const push = <h4 className='font30 fontf font-bold '>View Bookings</h4>
+  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The view bookings feature is an excellent advantage for those who need to schedule their cleaning services in advance, as it eliminates the need for phone calls or emails. This way, customers can select the date and time of their appointment, view available options for the service, and even make changes if needed.</p>
 
-  const media = <h4 className='font30 fontf font-bold '>Social <br></br> Media Integration</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
+  const media = <h4 className='font30 fontf font-bold '>Secure Payments</h4>
+  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With secure payments, customer data such as credit card numbers and other personal information are encrypted so that unauthorized third parties cannot access them. It helps protect customers from potentially fraudulent activity while also giving businesses the peace of mind that their data is safe and secure.</p>
 
-  const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
+ 
 
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
     BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
+    Swept Away  <br />
+    The Stress Of  <br />
+    Housekeeping!
   </h2>
 
   const data = <p className='font16 black fontf font-medium line30'>
-  The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
+Germ-Guard is a revolutionary new cleaning app developed by BitsWits that makes housekeeping a breeze. With Germ-Guard, users can easily keep track of their cleaning schedule and tasks with a click of a button. The user-friendly interface navigates, making it perfect for busy households...
 </p>
 
 const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
@@ -99,7 +98,9 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     Horizons!
     </h2>
 
-
+const code1 = <div className={styles.bacteria}> <span className={styles.left}>#B266FE</span> </div>
+const code2 = <div className={styles.bacteria}> <span className={styles.right}>#000000</span>  </div>
+const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
 
 
   return (
@@ -153,11 +154,15 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
         media1={media1}
         part='true'
         part1='true'
-        music={music}
       />
 
 
-      <ColorHarmony />
+<ColorHarmony
+      heading = {heading12}
+      colorbx1 = 'true'
+      left = {code1}
+      right = {code2}
+      />
 
 
       <Horizons
@@ -168,7 +173,7 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
 
       <SoulCTA
       headfire = {headfire}
-      soulCta = 'soulCta'
+      soulCta = 'soulCtapost'
       />
 
 

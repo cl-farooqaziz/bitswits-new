@@ -18,6 +18,7 @@ import foldImg00 from '../public/images/case-travel/horizons.svg'
 //images
 import foldImg from '../public/images/case-travel/beats.png'
 
+import styles from '@/styles/ColorHarmony.module.css'
 
 export default function travelapp() {
 
@@ -109,8 +110,9 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     Horizons!
     </h2>
 
-
-
+const code1 =  <span className={styles.left}>#55BAAA</span> 
+const code2 = <div className={styles.travel}> <span className={styles.right}>#081213</span>  </div>
+const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
 
   return (
     <>
@@ -163,7 +165,12 @@ const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
       />
 
 
-      <ColorHarmony />
+<ColorHarmony
+      heading = {heading12}
+      colorbx1 = 'true'
+      left = {code1}
+      right = {code2}
+      />
 
 
       <Horizons

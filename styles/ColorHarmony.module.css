@@ -12,7 +12,7 @@
   padding: 40px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .left,
@@ -38,6 +38,8 @@
   color: #fff;
 }
 
+
+
 /* ============MarkHarmony============ */
 
 .left {
@@ -53,6 +55,14 @@
 .right {
   background-color: #efefef;
   color: #000;
+}
+
+
+/* travel */
+
+.travel .right{
+  background-color: #081213;
+  color: #fff;
 }
 
 /* ============HealthHarmony============ */
@@ -80,6 +90,18 @@
 
 .ride .right {
   background-color: #303439;
+  color: #fff;
+}
+
+/* ============bacteria============ */
+
+.bacteria .left {
+  background-color: #B266FE;
+  color: #000;
+}
+
+.bacteria .right {
+  background-color: #000000;
   color: #fff;
 }
 
