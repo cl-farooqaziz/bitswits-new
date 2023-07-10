@@ -34,19 +34,23 @@ import foods from '../public/images/icons/foods.png'
 import tickets from '../public/images/icons/tickets.png'
 import automotive from '../public/images/icons/automotive.png'
 import backarrow from '../public/images/icons/back-arrow.webp'
+import music from '../public/images/icons/music.png'
+import ride from '../public/images/icons/ride.png'
+import bactria from '../public/images/icons/bactria.png'
 
 
 const Header = () => {
 
 
-const opnen = () => {
-     window.open('../companyprofile.pdf', '_blank');
-}
+    const opnen = () => {
+        window.open('../companyprofile.pdf', '_blank');
+    }
 
     const [isActive, setIsActive] = useState(false);
     const [megamenu1, setMegaMenu1] = useState(false);
     const [megamenu2, setMegaMenu2] = useState(false);
     const [megamenu3, setMegaMenu3] = useState(false);
+    const [megamenu4, setMegaMenu4] = useState(false);
 
     const handleMenu = () => {
         setIsActive((prev) => !prev);
@@ -62,6 +66,10 @@ const opnen = () => {
 
     const handleMegaMenu3 = () => {
         setMegaMenu3((prev) => !prev);
+    }
+
+    const handleMegaMenu4 = () => {
+        setMegaMenu4((prev) => !prev);
     }
 
     return (
@@ -724,7 +732,7 @@ const opnen = () => {
                                                 <Row>
                                                     <Col md={12}>
                                                         <p className='mt-1'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
-                                                        <Link className={styles.download}  onClick={opnen} href='#'  download><FaAngleRight className='white font14' />Download our E-brochure</Link>
+                                                        <Link className={styles.download} onClick={opnen} href='#' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
                                                     </Col>
                                                 </Row>
                                             </div>
@@ -1248,8 +1256,125 @@ const opnen = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li className={styles.navList} onClick={handleMenu}>
-                            <Link href='#'>OUR WORK</Link>
+                        <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMegaMenu4}>
+                            <Link href='#' className={styles.megaLink}>
+                                OUR WORK
+                                <FaAngleDown />
+                            </Link>
+                            <div className={megamenu4 ? `${styles.megaMenu4} ${styles.opnMenu4}` : `${styles.megaMenu4}`}>
+                                <div className={styles.backArrow}>
+                                    <Image alt="Bitswits"
+                                        src={backarrow}
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <Row className={styles.megaRow}>
+                                    <Col lg={4} md={6}>
+                                        <div className={styles.workBox}>
+                                            <Image alt="Bitswits"
+                                                src={travel}
+                                                loading="lazy"
+                                            />
+                                            <div className={styles.ourWork}>
+                                                <Link className={styles.workTitle} href="#">
+                                                    Travel App
+                                                </Link>
+                                                <span className={styles.realDummy}>
+                                                    Create Hassle-Free Travel...
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div className={`${styles.workBox} my-5`}>
+                                            <Image alt="Bitswits"
+                                                src={estate}
+                                                loading="lazy"
+                                            />
+                                            <div className={styles.ourWork}>
+                                                <Link className={styles.workTitle} href="#">
+                                                    Real Estate App
+                                                </Link>
+                                                <span className={styles.realDummy}>
+                                                    A Real Estate App Instilling...
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div className={styles.workBox}>
+                                            <Image alt="Bitswits"
+                                                src={bactria}
+                                                loading="lazy"
+                                            />
+                                            <div className={styles.ourWork}>
+                                                <Link className={styles.workTitle} href="#">
+                                                    Bacteria App
+                                                </Link>
+                                                <span className={styles.realDummy}>
+                                                    Bacteria Shield - Cleaning...
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} md={6}>
+                                        <div className={styles.workBox}>
+                                            <Image alt="Bitswits"
+                                                src={music}
+                                                loading="lazy"
+                                            />
+                                            <div className={styles.ourWork}>
+                                                <Link className={styles.workTitle} href="#">
+                                                    Sound App
+                                                </Link>
+                                                <span className={styles.realDummy}>
+                                                    Developed A Music Streaming...
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div className={`${styles.workBox} my-5`}>
+                                            <Image alt="Bitswits"
+                                                src={health}
+                                                loading="lazy"
+                                            />
+                                            <div className={styles.ourWork}>
+                                                <Link className={styles.workTitle} href="#">
+                                                    PROHealth App
+                                                </Link>
+                                                <span className={styles.realDummy}>
+                                                    AS Medicare - A Pharmacy...
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div className={styles.workBox}>
+                                            <Image alt="Bitswits"
+                                                src={ride}
+                                                loading="lazy"
+                                            />
+                                            <div className={styles.ourWork}>
+                                                <Link className={styles.workTitle} href="#">
+                                                    Rider App
+                                                </Link>
+                                                <span className={styles.realDummy}>
+                                                    EZ Ride is a two-sided market...
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} md={6}>
+                                        <div className={styles.workBox}>
+                                            <Image alt="Bitswits"
+                                                src={foods}
+                                                loading="lazy"
+                                            />
+                                            <div className={styles.ourWork}>
+                                                <Link className={styles.workTitle} href="#">
+                                                    Food App
+                                                </Link>
+                                                <span className={styles.realDummy}>
+                                                    Food Delivery Services That...
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </div>
                         </li>
                         <li className={`${styles.navList} ${styles.inqBtn}`} onClick={handleMenu}>
                             <Link href='#'>ENQUIRE NOW</Link>

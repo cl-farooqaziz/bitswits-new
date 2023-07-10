@@ -53,14 +53,16 @@
 
 .megaList1:hover .megaLink,
 .megaList2:hover .megaLink,
-.megaList3:hover .megaLink {
+.megaList3:hover .megaLink,
+.megaList4:hover .megaLink {
   background-color: #272727;
   color: #fff;
 }
 
 .megaList1 .megaMenu1,
 .megaList2 .megaMenu2,
-.megaList3 .megaMenu3 {
+.megaList3 .megaMenu3,
+.megaList4 .megaMenu4 {
   width: 100%;
   position: absolute;
   top: 60px;
@@ -79,13 +81,14 @@
 
 .megaList1:hover .megaMenu1,
 .megaList2:hover .megaMenu2,
-.megaList3:hover .megaMenu3 {
+.megaList3:hover .megaMenu3,
+.megaList4:hover .megaMenu4 {
   display: block;
   animation: 0.7s ease-in-out forwards growDown;
   transform-origin: top;
 }
 
-.header .download{
+.header .download {
   color: white;
   height: unset;
   padding: unset;
@@ -217,6 +220,48 @@
 .listMain2 .listBody ul li a img {
   filter: invert(1);
   width: 28px;
+}
+
+.megaMenu4 {
+  padding: 40px 20px;
+}
+
+.workBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.workBox img {
+  filter: invert(1);
+}
+
+.ourWork {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ourWork .workTitle {
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.realDummy {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.megaRow a:hover {
+  background-color: #000 !important;
 }
 
 .navTogle,
