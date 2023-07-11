@@ -145,11 +145,11 @@ const Contact = () => {
                                                 <textarea id="Message" name="Message" maxLength="5000" data-name="Message" placeholder="Tell us about your project goals &amp; timeline in a snapshot. Please include any necessary links about your project." className="form-field text-area w-input"></textarea>
                                             </div>
                                         </Col>
-                                        <Col lg={12}>
+                                        {/* <Col lg={12}>
                                             <div className='mb-5 mt-3 text-center'>
                                                 <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Ld6Ox0lAAAAADUM1uxAXKGybcB6zB8x3owVCUTM&amp;co=aHR0cHM6Ly96ZW5zaXRlLmNvOjQ0Mw..&amp;hl=en&amp;v=Xh5Zjh8Od10-SgxpI_tcSnHR&amp;size=normal&amp;cb=l17p04q98i1h" width="304" height="78" role="presentation" name="a-uig0r51k4l2w" frameBorder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
                                             </div>
-                                        </Col>
+                                        </Col> */}
                                         <Col lg={12}>
                                             <div className='mb-5'>
                                                 <button type="submit" id="submit" data-wait="Booking the Call " className={styles.btns}>Time to Book The Call</button>
