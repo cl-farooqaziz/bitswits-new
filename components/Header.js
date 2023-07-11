@@ -733,7 +733,7 @@ const Header = () => {
                                             <div className={styles.listBody}>
                                                 <Row>
                                                     <Col md={12}>
-                                                        <p className='mt-1'>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
+                                                        <p>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
                                                         <Link className={styles.download} onClick={opnen} href='#' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
                                                     </Col>
                                                 </Row>
@@ -1272,126 +1272,132 @@ const Header = () => {
                                 </div>
                                 <Row className={styles.megaRow}>
                                     <Col lg={4} md={6}>
-                                        <div className={styles.workBox}>
-                                            <Image alt="Bitswits"
-                                                src={travel}
-                                                loading="lazy"
-                                            />
-                                            <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="/travel-app-development">
-                                                    Travel App
-                                                </Link>
-                                                <span className={styles.realDummy}>
-                                                    Create Hassle-Free Travel...
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className={`${styles.workBox} my-5`}>
-                                            <Image alt="Bitswits"
-                                                src={estate}
-                                                loading="lazy"
-                                            />
-                                            <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="/real-estate-app-development-solutions">
-                                                    Real Estate App
-                                                </Link>
-                                                <span className={styles.realDummy}>
-                                                    A Real Estate App Instilling...
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className={styles.workBox}>
-                                            <Image alt="Bitswits"
-                                                src={bactria}
-                                                loading="lazy"
-                                            />
-                                            <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="/bacteria-app-development">
-                                                    Bacteria App
-                                                </Link>
-                                                <span className={styles.realDummy}>
-                                                    Bacteria Shield - Cleaning...
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={4} md={6}>
-                                        <div className={styles.workBox}>
-                                            <Image alt="Bitswits"
-                                                src={music}
-                                                loading="lazy"
-                                            />
-                                            <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="/music-streaming-app-development">
-                                                    Sound App
-                                                </Link>
-                                                <span className={styles.realDummy}>
-                                                    Developed A Music Streaming...
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className={`${styles.workBox} my-5`}>
-                                            <Image alt="Bitswits"
-                                                src={health}
-                                                loading="lazy"
-                                            />
-                                            <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="/prohealth-application-development">
-                                                    PROHealth App
-                                                </Link>
-                                                <span className={styles.realDummy}>
-                                                    AS Medicare - A Pharmacy...
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className={styles.workBox}>
-                                            <Image alt="Bitswits"
-                                                src={ride}
-                                                loading="lazy"
-                                            />
-                                            <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="/ez-ride">
-                                                    Rider App
-                                                </Link>
-                                                <span className={styles.realDummy}>
-                                                    EZ Ride is a two-sided market...
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={4} md={6}>
-                                        <div className={styles.workBox}>
-                                            <Image alt="Bitswits"
-                                                src={foods}
-                                                loading="lazy"
-                                            />
-                                            <div className={styles.ourWork}>
-                                                <Link className={styles.workTitle} href="/food-delivery-app-development">
-                                                    Food App
-                                                </Link>
-                                                <span className={styles.realDummy}>
-                                                    Food Delivery Services That...
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className={`${styles.workBox} my-5`}></div>
-                                        <div className={styles.workBox}>
-                                            <div className={`${styles.ourWork} ${styles.cntct}`}>
-                                                <div className={styles.fill}>
-                                                    <div>
-                                                        <BsFillEnvelopeFill size={20} className={styles.email} />
-                                                    </div>
-                                                    <div>
-                                                        <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co"> info@bitswits.co</Link>
-                                                    </div>
+                                        <div className={styles.boxSpace}>
+                                            <div className={styles.workBox}>
+                                                <Image alt="Bitswits"
+                                                    src={travel}
+                                                    loading="lazy"
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/travel-app-development">
+                                                        Travel App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        Create Hassle-Free Travel...
+                                                    </span>
                                                 </div>
-                                                <div className={styles.fill}>
-                                                    <div>
-                                                        <BsFillTelephoneFill size={25} className={styles.email} />
+                                            </div>
+                                            <div className={`${styles.workBox}`}>
+                                                <Image alt="Bitswits"
+                                                    src={estate}
+                                                    loading="lazy"
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/real-estate-app-development-solutions">
+                                                        Real Estate App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        A Real Estate App Instilling...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className={styles.workBox}>
+                                                <Image alt="Bitswits"
+                                                    src={bactria}
+                                                    loading="lazy"
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/bacteria-app-development">
+                                                        Bacteria App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        Bacteria Shield - Cleaning...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} md={6}>
+                                        <div className={styles.boxSpace}>
+                                            <div className={styles.workBox}>
+                                                <Image alt="Bitswits"
+                                                    src={music}
+                                                    loading="lazy"
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/music-streaming-app-development">
+                                                        Sound App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        Developed A Music Streaming...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className={`${styles.workBox}`}>
+                                                <Image alt="Bitswits"
+                                                    src={health}
+                                                    loading="lazy"
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/prohealth-application-development">
+                                                        PROHealth App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        AS Medicare - A Pharmacy...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className={styles.workBox}>
+                                                <Image alt="Bitswits"
+                                                    src={ride}
+                                                    loading="lazy"
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/ez-ride">
+                                                        Rider App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        EZ Ride is a two-sided market...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} md={6}>
+                                        <div className={styles.boxSpace}>
+                                            <div className={styles.workBox}>
+                                                <Image alt="Bitswits"
+                                                    src={foods}
+                                                    loading="lazy"
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/food-delivery-app-development">
+                                                        Food App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        Food Delivery Services That...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className={`${styles.workBox}`}></div>
+                                            <div className={styles.workBox}>
+                                                <div className={`${styles.ourWork} ${styles.cntct}`}>
+                                                    <div className={styles.fill}>
+                                                        <div>
+                                                            <BsFillEnvelopeFill size={20} className={styles.email} />
+                                                        </div>
+                                                        <div>
+                                                            <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co"> info@bitswits.co</Link>
+                                                        </div>
                                                     </div>
-                                                    <div>
-                                                        <Link className='font15 font-medium white fontf mb-2' href="tel:+1 312 379 5987">+1 312 379 5987</Link>
-                                                        <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007">+1 833 500 6007</Link>
+                                                    <div className={styles.fill}>
+                                                        <div>
+                                                            <BsFillTelephoneFill size={25} className={styles.email} />
+                                                        </div>
+                                                        <div>
+                                                            <Link className='font15 font-medium white fontf mb-2' href="tel:+1 312 379 5987">+1 312 379 5987</Link>
+                                                            <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007">+1 833 500 6007</Link>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
