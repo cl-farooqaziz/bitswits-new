@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react'; import Link from 'next/link';
-import banImg from '../public/images/banner/webBanner.png'
-import foldimg from '../public/images/services/webSwipe.svg'
-import foldensure from '../public/images/services/webEnsure.svg'
+import banImg from '../public/images/banner/enterprisebanner.png'
+import foldimg from '../public/images/services/enterprisemobility/enterprise-mobility-solutions-01.png'
+import foldensure from '../public/images/services/enterprisemobility/enterprise-mobility-solutions-03.png'
 //components
 import Banner from '@/components/ServicesBanner'
 import Coverage from '@/components/Coverage';
@@ -14,7 +14,7 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/services/webAhead.svg'
+import aheadimage from '../public/images/services/enterprisemobility/enterprise-mobility-solutions-02.png'
 
 
 export default function enterprisemobilitysolutions() {
