@@ -155,6 +155,12 @@
   }
 }
 @media screen and (max-width: 480px) {
+
+  .nextproject {
+    background-image: unset;
+   background-color: #000;
+  }
+
   .mobile p {
     max-width: unset;
   }

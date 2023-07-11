@@ -3,6 +3,7 @@
 @font-face {
   font-family: Nofex;
   src: url(../public/fonts/Nofex-1GLBv.otf);
+  font-display: swap;
 }
 
 * {
