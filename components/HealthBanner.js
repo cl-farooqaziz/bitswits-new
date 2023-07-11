@@ -6,7 +6,7 @@ const HealthBanner = () => {
     return (
         <>
             <section className={styles.healthBanner}>
-                <Container fluid>
+                <Container>
                     <Row>
                         <Col lg={12}>
                             <div className={styles.heading}>

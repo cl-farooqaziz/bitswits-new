@@ -46,7 +46,7 @@
   position: relative;
   line-height: 2;
 }
-.footinfofullrelative a:hover{
+.footinfofullrelative a:hover {
   color: white;
 }
 
@@ -63,16 +63,16 @@
   width: 0%;
   height: 1px;
   background-color: #fff;
-  transition: all .7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
-.cornaer{
+.cornaer {
   color: white;
   font-weight: 100;
 }
 .ftrhd {
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 800;
   line-height: 1.1;
@@ -81,7 +81,7 @@
   text-transform: uppercase;
 }
 
-.patner li a::before{
+.patner li a::before {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -90,7 +90,7 @@
   width: 0%;
   height: 1px;
   background-color: #fff;
-  transition: all .7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .patner li a:hover::before {
@@ -227,10 +227,6 @@
 }
 
 @media screen and (max-width: 1399px) {
-
-
-
-
   .patner li a {
     color: #cacaca;
     text-decoration: none;
@@ -241,11 +237,9 @@
 }
 
 @media screen and (max-width: 991px) {
-
-
   .policy p {
     text-align: center;
-}
+  }
 
   .bttns1 {
     margin-top: 5%;

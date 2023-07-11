@@ -42,7 +42,7 @@ export default function ezride() {
       subtext: 'Making the Ride Easier: Why Easy Ride Chose BitsWits for Ride Hailing App Development Services',
       text: 'BitsWits devised an application Easy Ride, a ride-hailing app allowing users to quickly and conveniently hail a ride from their smartphone. With Easy Ride, users can easily select the type of vehicle they want, book it in advance or at the last minute, and track their driver`s progress until they reach their destination. Easy Ride also provides riders....',
       imagefold: foldImg,
-      caseOverView: 'caseOverView'
+      caseOverView: 'rideOverView'
     }
   ]
 

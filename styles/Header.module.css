@@ -260,6 +260,26 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.cntct {
+  row-gap: 20px;
+}
+
+.fill {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 2%;
+  align-items: center;
+}
+
+.ourWork .fill a {
+  color: #fff;
+  padding: 0;
+}
+
+.ourWork .fill svg {
+  color: #fff;
+}
+
 .megaRow a:hover {
   background-color: #000 !important;
 }

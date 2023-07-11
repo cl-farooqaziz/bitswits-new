@@ -9,7 +9,7 @@ const TravelBanner = () => {
     return (
         <>
             <section className={styles.people}>
-                <Container fluid className='mt-4'>
+                <Container className='mt-4'>
                     <Row>
                         <Col lg={12}>
                             <div className={styles.stock}>
@@ -21,7 +21,7 @@ const TravelBanner = () => {
                         </Col>
                         <Col lg={12}>
                            <div className={styles.intention}>
-                           <p className={`fontf font16 font-medium black ${styles.giving} `}>Established with the intention of giving unique and once-in-a-lifetime travel experiences to people touring the world, one of the most reputable travel companies, Gateway Tour Agency, works hard to provide people with top-notch quality services. In addition, the travel agency creates unique, personalized packages that not only meet but even go beyond expectations.</p>
+                           <p className={`fontf font16 font-medium black ${styles.giving}`}>Established with the intention of giving unique and once-in-a-lifetime travel experiences to people touring the world, one of the most reputable travel companies, Gateway Tour Agency, works hard to provide people with top-notch quality services. In addition, the travel agency creates unique, personalized packages that not only meet but even go beyond expectations.</p>
                            </div>
                         </Col>
                     </Row>

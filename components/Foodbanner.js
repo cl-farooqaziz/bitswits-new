@@ -9,16 +9,18 @@ const Foodbanner = (props) => {
     return (
         <>
             <section className={`${styles.foody} contpost`}>
-                <Container fluid>
-                    <Row>
-                        <Col lg={6}>
+                <Container>
+                    <Row className={styles.foodRow}>
+                        <Col lg={12}>
                             {props.title}
+                        </Col>
+                        <Col lg={6}>
                             {props.para1}
                             {props.para2}
                             {props.para3}
                         </Col>
                         <Col lg={6}>
-                            <Image src={foldImg00} className='img-fluid' ></Image>
+                            <Image src={foldImg00} className={`${styles.banImg} img-fluid`}></Image>
                         </Col>
                     </Row>
                 </Container>

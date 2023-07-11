@@ -7,57 +7,61 @@
 }
 
 .gaurd h1 {
-  font-size: 250px;
-  line-height: 245px;
+  font-size: 170px;
+  line-height: 180px;
   text-align: center;
 }
 
 .gaurd h3 {
-  font-size: 75px;
-  line-height: 85px;
+  font-size: 50px;
+  line-height: 60px;
 }
 
 .gaurd p {
-  font-size: 28px;
-  line-height: 45px;
+  font-size: 20px;
+  line-height: 30px;
   margin-top: 20px;
 }
 
 .gaurd .banImg {
   margin-top: -100px;
+  width: 780px;
+  position: absolute;
 }
 
 /* ============================================= */
 
 @media screen and (max-width: 1600px) {
   .gaurd h1 {
-    font-size: 200px;
+    font-size: 150px;
   }
 
-  .gaurd h3 {
-    font-size: 65px;
-    line-height: 75px;
-  }
-
-  .gaurd p {
-    font-size: 20px;
-    line-height: 35px;
+  .gaurd .banImg {
+    right: 70px;
+    width: 700px;
   }
 }
 
 @media screen and (max-width: 1440px) {
   .gaurd h1 {
-    font-size: 180px;
+    font-size: 150px;
   }
 
   .gaurd h3 {
-    font-size: 56px;
+    font-size: 50px;
     line-height: 60px;
   }
 
   .gaurd p {
     font-size: 16px;
     line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .gaurd .banImg {
+    right: 70px;
+    width: 620px;
   }
 }
 

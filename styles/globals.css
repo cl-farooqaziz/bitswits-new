@@ -140,11 +140,6 @@ body {
   font-size: 320px;
   line-height: 280px;
 }
-.font320 {
-  font-size: 430px;
-  line-height: 320px;
-  margin-left: -32px
-}
 
 /* linehight */
 
@@ -659,8 +654,7 @@ input::-webkit-inner-spin-button {
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {
-
-  .services{
+  .services {
     font-size: 28px;
     line-height: 45px;
   }
@@ -701,17 +695,11 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1600px) {
-
-  .services{
+  .services {
     font-size: 20px;
     line-height: 35px;
   }
 
-  .font320 {
-    font-size: 375px;
-    line-height: 320px;
-    margin-left: -32px;
-}
   .newproject .slick-prev {
     top: 50%;
     right: 1%;
@@ -724,17 +712,11 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1440px) {
-
-  .services{
+  .services {
     font-size: 16px;
     line-height: 25px;
   }
 
-  .font320 {
-    font-size: 335px;
-    line-height: 250px;
-    margin-left: -32px;
-}
   .newproject .slick-prev {
     top: 50%;
     right: 3%;
@@ -753,17 +735,10 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 1399px) {
-
-  .contpost .row{
+  .contpost .row {
     align-items: center;
   }
 
-  .font320{
-    font-size: 280px;
-    line-height: 200px;
-    margin-left: -15px;
-
-  }
   .sidenew .slick-current {
     background-color: #565656;
     width: 800px !important;
@@ -798,12 +773,6 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 1280px) {
-
-  .font320 {
-    font-size: 298px;
-    line-height: 228px;
-    margin-left: -24px;
-}
   .font30 {
     font-size: 25px;
   }
@@ -816,14 +785,6 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 1200px) {
-
-  .font320 {
-    font-size: 218px;
-    line-height: 167px;
-    margin-left: -24px;
-}
-
-
   .sidenew .slick-current {
     background-color: #565656;
     width: 640px !important;
@@ -835,14 +796,13 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 991px) {
-
   .font320 {
     font-size: 80px;
     line-height: 80px;
     margin-left: -5px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
+  }
 
   .sidenew:after {
     background-color: unset;

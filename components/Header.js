@@ -4,6 +4,8 @@ import Image from 'next/image'
 import styles from '@/styles/Header.module.css'
 import { Row, Col } from 'react-bootstrap'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
+import { BsFillEnvelopeFill } from 'react-icons/bs'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 //images
 import logo from '../public/images/icons/logo.png'
 import php from '../public/images/icons/php.png'
@@ -1370,6 +1372,28 @@ const Header = () => {
                                                 <span className={styles.realDummy}>
                                                     Food Delivery Services That...
                                                 </span>
+                                            </div>
+                                        </div>
+                                        <div className={`${styles.workBox} my-5`}></div>
+                                        <div className={styles.workBox}>
+                                            <div className={`${styles.ourWork} ${styles.cntct}`}>
+                                                <div className={styles.fill}>
+                                                    <div>
+                                                        <BsFillEnvelopeFill size={20} className={styles.email} />
+                                                    </div>
+                                                    <div>
+                                                        <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co"> info@bitswits.co</Link>
+                                                    </div>
+                                                </div>
+                                                <div className={styles.fill}>
+                                                    <div>
+                                                        <BsFillTelephoneFill size={25} className={styles.email} />
+                                                    </div>
+                                                    <div>
+                                                        <Link className='font15 font-medium white fontf mb-2' href="tel:+1 312 379 5987">+1 312 379 5987</Link>
+                                                        <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007">+1 833 500 6007</Link>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </Col>

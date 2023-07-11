@@ -9,7 +9,7 @@ const BacteriaBanner = (props) => {
     return (
         <>
             <section className={`${styles.gaurd} gaurd`}>
-                <Container fluid>
+                <Container>
                     <Row>
                         <Col lg={12}>
                             {props.title}

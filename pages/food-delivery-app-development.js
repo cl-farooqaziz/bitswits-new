@@ -39,7 +39,7 @@ export default function fooddelivery() {
       title: 'Overview',
       text: 'Nowadays, most, if not all, food outlets collaborate with food delivery app development services to reach a wide range of audiences and expand their business. Given this, Find Food, a small-scale food delivery startup, approached BitsWits to design an attractive food application that enables customers to place meal orders from their favorite food chain.',
       imagefold: foldImg,
-      caseOverView: 'caseOverView'
+      caseOverView: 'foodOverView'
     }
   ]
 
@@ -102,12 +102,8 @@ export default function fooddelivery() {
   const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
 
 
-  const headingbanner = <h1 className='font320 black fontf font-bold'>Find  <br />Food</h1>
-
-
-
-
-  const para1 = <h3 className='black fontf font-bold '>Food Delivery Services That Kill the <br></br> Distance in No Time! </h3>
+  const headingbanner = <h1 className='black fontf font-bold'>FIND  <br />FOOD</h1>
+  const para1 = <h3 className='black fontf font-bold'>Food Delivery Services That Kill the <br></br> Distance in No Time! </h3>
   const para2 = <p className='black fontf font-medium services'>The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep </p>
   const para3 = <p className='black fontf font-medium services'>Food delivery options have emerged as popular options to order food from favorite restaurants without leaving their homes. And this, in turn, has caused a substantial change in consumer preferences. </p>
 
