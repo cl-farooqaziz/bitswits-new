@@ -226,6 +226,16 @@
   padding: 40px 20px;
 }
 
+.megaMenu4 .megaRow {
+  row-gap: 60px;
+}
+
+.boxSpace {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
 .workBox {
   display: flex;
   align-items: center;
@@ -274,10 +284,12 @@
 .ourWork .fill a {
   color: #fff;
   padding: 0;
+  font-size: 16px;
 }
 
 .ourWork .fill svg {
   color: #fff;
+  width: 15px;
 }
 
 .megaRow a:hover {
@@ -305,7 +317,8 @@
 @media screen and (min-width: 1440) {
   .megaMenu1,
   .megaMenu2,
-  .megaMenu3 {
+  .megaMenu3,
+  .megaMenu4 {
     height: auto;
   }
 }
@@ -321,6 +334,10 @@
 
   .megaMenu3 {
     height: 90vh;
+  }
+
+  .megaMenu4 {
+    height: 65vh;
   }
 }
 
@@ -347,12 +364,20 @@
     height: 85vh;
   }
 
+  .megaMenu4 {
+    height: 75vh;
+  }
+
   .listMain2 {
     height: 85vh;
   }
 
   .resList {
     margin-top: 10px;
+  }
+
+  .listImg img {
+    margin-top: 75px;
   }
 }
 
@@ -397,10 +422,22 @@
     height: 50px;
     width: 100%;
     border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
   }
 
   .menu .inqBtn {
     border-bottom: 0px;
+    padding-bottom: 0;
+  }
+
+  .menu .inqBtn a {
+    justify-content: center;
+  }
+
+  .menu .inqBtn a:hover {
+    transition: background-color 2s;
+    background-color: #000;
+    border: 1px solid #fff;
   }
 
   .menu li a {
@@ -410,7 +447,8 @@
 
   .megaList1 .megaMenu1,
   .megaList2 .megaMenu2,
-  .megaList3 .megaMenu3 {
+  .megaList3 .megaMenu3,
+  .megaList4 .megaMenu4 {
     display: block;
     height: 100vh;
     width: 100%;
@@ -424,7 +462,8 @@
 
   .megaList1:hover .megaMenu1,
   .megaList2:hover .megaMenu2,
-  .megaList3:hover .megaMenu3 {
+  .megaList3:hover .megaMenu3,
+  .megaList4:hover .megaMenu4 {
     display: unset;
     animation: unset;
     transform-origin: unset;
@@ -432,7 +471,8 @@
 
   .megaMenu1.opnMenu1,
   .megaMenu2.opnMenu2,
-  .megaMenu3.opnMenu3 {
+  .megaMenu3.opnMenu3,
+  .megaMenu4.opnMenu4 {
     left: 0%;
   }
 
@@ -506,6 +546,28 @@
   .backArrow img {
     width: 25px;
     height: 25px;
+  }
+
+  .ourWork .workTitle {
+    font-size: 16px;
+  }
+
+  .realDummy {
+    font-size: 14px;
+  }
+
+  .megaMenu4 .megaRow {
+    row-gap: 30px;
+  }
+
+  .boxSpace {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .listImg img {
+    margin-top: 25px;
   }
 }
 
