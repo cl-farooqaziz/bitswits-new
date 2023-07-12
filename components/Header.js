@@ -1004,7 +1004,7 @@ const Header = () => {
                                                             <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href="/blockchain-app-development">
+                                                                        <Link onClick={handleMenu} href="/blockchain-app-development-company">
                                                                             <FaAngleRight />
                                                                             <span>Blockchain App Development</span>
                                                                         </Link>
