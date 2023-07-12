@@ -1022,13 +1022,13 @@ const Header = () => {
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href="/blockchain-wallet-development">
+                                                                        <Link onClick={handleMenu} href="/blockchain-wallet-development-company">
                                                                             <FaAngleRight />
                                                                             <span>Blockchain Wallet Development</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href="/supply-chain-blockchain-development">
+                                                                        <Link onClick={handleMenu} href="/supply-chain-blockchain-development-company">
                                                                             <FaAngleRight />
                                                                             <span>Supply Chain Blockchain Development</span>
                                                                         </Link>

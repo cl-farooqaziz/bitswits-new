@@ -22,9 +22,9 @@ export default function blockchainappdevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Blockchain App Development </span> Company!</h1>
+    const heading = <div className='font65 black fontf font-bold line60 mt-5'>Put Your Trust in BitsWits, a Reliable  <h1 className='grdiant font65 black fontf font-bold line60 displayline'>Blockchain App Development Company</h1>!</div>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <p className='black fontf font-medium line30 mt-3'>With an extensive track record of decades, BitsWits, a leading blockchain app development agency, is committed to delivering advanced app solutions to businesses. Our team of top blockchain app developers specializes in creating exceptional web, mobile, and web3 applications, offering innovative designs and development solutions that drive growth and maximize return on investment.  </p>
 
 
     // coverage component data
@@ -106,7 +106,12 @@ export default function blockchainappdevelopment() {
 
     // Swipe component data
 
-    
+    const swip = <div>
+        Enhancing Web3 Experiences with Innovative <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Blockchain App Development Services</h2> By BitsWits!
+    </div>
+    const ensine = <div>
+       Hire BitsWits for  <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Blockchain App Development,</h2> Your Gateway to Success in Any Industry!
+    </div>
 
 
 
@@ -138,24 +143,24 @@ export default function blockchainappdevelopment() {
 
             <Swipe
             foldimg  = {foldimg}
-            title = 'We Design Engaging Mobile Apps your users will swipe through from start to finish'
-            para = 'Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-            subtitle = 'High Performance User Experience'
-            subpara = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-            subtitle2 = 'Swipe that Convert'
-            subpara2 = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
+            title = {swip}
+            para = 'We help businesses utilize blockchain technology in their operations to make things run smoother and safer. At BitsWits, we can create secure apps and online platforms for businesses. We store data using blockchain, which means it can`t be changed. We also use encryption and cryptography to keep data safe when it`s being sent or stored.'
+            subtitle = 'Smooth Integration of Add-ons in Blockchain Apps'
+            subpara = 'Hire best blockchain developers, capable of creating scalable blockchain applications. These apps will incorporate multiple add-ons and connect smoothly with diverse features, catering to every industry and niche.'
+            subtitle2 = 'Custom Enterprise Grade Blockchain Solutions '
+            subpara2 = 'Hire BitsWits to develop custom blockchain solutions for your company using enterprise-grade blockchain that improve data traceability and security while completely eliminating the need for third-party entities.'
             
             />
 
 
 
             <Ahead
-            title = 'Our Mobile App Research Data that puts you ahead of others'
-            para = 'We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-            subtitle = 'Laser Focused User Research'
-            subpara = 'We remain laser focused on your target audience to best meet their needs and requirements.'
-            subtitle2 = 'Competitive Advantage'
-            subpara2 = 'Our research process gives you a competitive advantage and up-to-date market insights.'
+            title = 'Hire The Best Blockchain App Development Services!'
+            para = 'With our blockchain development services, your organization will grow by integrating blockchain technology in custom apps for your business. Hire the top blockchain developers who specialize in developing unique solutions that will change your data management practices.'
+            subtitle = 'DApp Development '
+            subpara = 'Step into the future of decentralized business operations with our blockchain Dapp development services, which are designed to improve your company`s performance.'
+            subtitle2 = 'IEO & ICO Services'
+            subpara2 = 'Our all-inclusive IEO and ICO services provide smart strategies for investors, generating crypto assets securely and boosting their distribution in target markets.'
             ahead  = {aheadimage}
             
             />
@@ -164,12 +169,12 @@ export default function blockchainappdevelopment() {
 
             <Ensure
             foldimg  = {foldensure}
-            title = 'We Test and Optimize your mobile app to ensure best user experience'
-            para = 'We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-            subtitle = 'Constant Innovation'
-            subpara = 'In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-            subtitle2 = ' Active On-Going Support'
-            subpara2 = 'We only rely on real evidence-based improvements that drives conversion rates.'
+            title = {ensine}
+            para = 'Hire BitsWits for blockchain app development to gain an edge over your competitors. Our customized blockchain solutions and specialized developers cater to any industry, niche, and deliver success in your digital initiatives.'
+            subtitle = 'Smart Contract Development '
+            subpara = 'Hire blockchain developers in US with smart contract development expertise. We have successfully developed many kinds of smart contracts that enable conflict-free business operations and transactions.'
+            subtitle2 = 'Blockchain Game Development'
+            subpara2 = 'We create strong gaming infrastructures supported by blockchain technology. Because of their scalability and long-term profitability, these infrastructures attract a wide spectrum of users.'
             
             
             

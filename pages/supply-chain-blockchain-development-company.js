@@ -22,9 +22,12 @@ export default function supplychainblockchaindevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Supply Chain Blockchain Development </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Best  Supply Chain Blockchain Development Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <p className='black fontf font-medium line30'>BitsWits is a US based supply chain blockchain development company that welcomes you all to the forefront of supply chain transformation! Here professional supply chain blockchain developers reshape the way businesses manage their supply chains. Our innovative solutions improve transparency, traceability, and security, turning routine operations into exciting journeys. 
+     </p>
+    const para2 = <p className='black fontf font-medium line30'>Through real-time tracking and verification, our blockchain platforms assist in outshining all competitors. So, what are you waiting for? 
+     </p>
 
 
     // coverage component data
@@ -106,7 +109,7 @@ export default function supplychainblockchaindevelopment() {
 
     // Swipe component data
 
-    
+    const swiptitle = <div className='font30 black fontf font-bold line40 black'>We Provide Top-Quality <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Supply Chain Blockchain Development Services</h2> </div>
 
 
 
@@ -124,6 +127,7 @@ export default function supplychainblockchaindevelopment() {
             <Banner
                 title={heading}
                 para={para}
+                para2={para2}
                 bannerimg={banImg}
             />
 
@@ -138,24 +142,24 @@ export default function supplychainblockchaindevelopment() {
 
             <Swipe
             foldimg  = {foldimg}
-            title = 'We Design Engaging Mobile Apps your users will swipe through from start to finish'
-            para = 'Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-            subtitle = 'High Performance User Experience'
-            subpara = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-            subtitle2 = 'Swipe that Convert'
-            subpara2 = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
+            title = {swiptitle}
+            para = 'Our supply chain blockchain developers manage the supply chain through engaging and dynamic blockchain services. Our team is fueled with passion for innovation, delivering engaging supply chain blockchain development services that leave all traditional methods behind. From attractive real-time tracking to enabling smart contracts, we will make your supply chain successful. '
+            subtitle = 'Improve Transparency in Your Supply Chain'
+            subpara = 'With BitsWits, the top supply chain blockchain development company takes transparency as center stage. Our supply chain blockchain development services enable real-time traceability, ensuring that every step you take is in the right direction. Experience the thrill of knowing exactly where your products are and gain a competitive advantage. '
+            subtitle2 = 'Boost Efficiency with Smart Contracts'
+            subpara2 = 'Let our smart contracts improve your supply chain operations. At BitsWits, our developers create self-executing contracts that automate processes and eliminate inefficiencies. Experience the excitement of our optimized operations, reduced costs, and expanded growth with our professional supply chain blockchain development services. '
             
             />
 
 
 
             <Ahead
-            title = 'Our Mobile App Research Data that puts you ahead of others'
-            para = 'We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-            subtitle = 'Laser Focused User Research'
-            subpara = 'We remain laser focused on your target audience to best meet their needs and requirements.'
-            subtitle2 = 'Competitive Advantage'
-            subpara2 = 'Our research process gives you a competitive advantage and up-to-date market insights.'
+            title = 'The Benefits of Blockchain in Supply Chains'
+            para = 'BitsWits, the leading supply chain blockchain development company in USA, takes advantage of blockchain technology to drive cost-effectiveness across supply chain operations. Our innovative solutions optimize your supply chain processes in a way that leads to increased efficiency and improved profitability. '
+            subtitle = 'Improved Security'
+            subpara = 'Benefit from the built-in security and adaptability of decentralized and encrypted data on permissioned blockchains. These records cannot be deleted, covered up, or tampered with, resulting in a fundamentally secure collaborative solution for supply chain security and preventing unauthorized access.'
+            subtitle2 = 'Smooth Cooperation Between Multiple Entities'
+            subpara2 = 'Using blockchain-based systems, many different entities and participants can communicate quickly through electronic signatures, instant document exchange, auto identification, and a range of other collaborative capabilities, enabling smooth and secure interactions.'
             ahead  = {aheadimage}
             
             />
@@ -164,12 +168,12 @@ export default function supplychainblockchaindevelopment() {
 
             <Ensure
             foldimg  = {foldensure}
-            title = 'We Test and Optimize your mobile app to ensure best user experience'
-            para = 'We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-            subtitle = 'Constant Innovation'
-            subpara = 'In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-            subtitle2 = ' Active On-Going Support'
-            subpara2 = 'We only rely on real evidence-based improvements that drives conversion rates.'
+            title = 'BitsWits Helps You Drive Efficiency and Control in Your Supply Chain Operations'
+            para = 'BitsWits is a successful supply chain blockchain development company where we take control of your supply chain and drive efficiency like never before. Our supply chain blockchain development services empower the supply chain with smart contracts, protected data sharing, and visual monitoring, letting you gain a competitive edge and help maximize performance. '
+            subtitle = 'Top Blockchain Developers for Custom Supply Chain Solutions'
+            subpara = 'Our in-house team is composed of the most qualified and experienced blockchain developers. They actively develop all of our tech solutions for the clients` projects and ensure that every task is managed well by the supply chain blockchain experts. '
+            subtitle2 = 'Advanced in Terms of Innovation and Technology '
+            subpara2 = 'Experience advanced innovation and technology with BitsWits. Hire our blockchain developers to gain access to their expertise and proven track record in successfully implementing unique solutions across different supply chain operations.'
             
             
             

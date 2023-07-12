@@ -29,9 +29,9 @@ const Ensure = (props) => {
                                     <Row className='justify-content-between'>
                                         <Col lg={6}>
                                             <div className={styles.swapBox}>
-                                                <h5 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
+                                                <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
                                                      {props.subtitle}
-                                                </h5>
+                                                </h3>
                                                 <p className='font14 black fontf font-medium line30'>
                                                     {props.subpara}
                                                 </p>
@@ -39,9 +39,9 @@ const Ensure = (props) => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.swapBox}>
-                                                <h5 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
+                                                <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
                                                    {props.subtitle2}
-                                                </h5>
+                                                </h3>
                                                 <p className='font14 black fontf font-medium line30'>
                                                     {props.subpara2}
                                                 </p>

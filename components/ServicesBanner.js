@@ -21,15 +21,26 @@ const ServicesBanner = (props) => {
                         <div className={styles.banerTxt}>
 
 
-                        {props.title}
+                            {props.title}
 
-                        {props.para}
+                            {props.para}
+
+
+                            {props.para2 ?
+
+                                props.para2 
+
+
+                                :
+
+                                ''
+                            }
 
                             <div className={`${styles.bttnsto} mt-3`}>
                                 <Link className={styles.bttns1} href="#">Book A Call</Link>
                                 <Link className={styles.bttns2} href="#">Chat With Us Online! </Link>
 
-                    
+
                             </div>
 
 
