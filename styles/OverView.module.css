@@ -10,9 +10,15 @@
 .heading {
   background-image: url(../public/images/case-icon.svg);
   background-size: contain;
-  background-position: top left;
+  background-position: left;
   background-repeat: no-repeat;
   padding: 50px 0;
+  position: relative;
+}
+
+.caseOverView h5 {
+  position: absolute;
+  bottom: -75px;
 }
 
 .headBox {
@@ -45,12 +51,6 @@
 
 /* ============================================= */
 
-@media screen and (min-width: 1440px) {
-  .heading {
-    background-size: 60%;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .heading {
     background-image: unset;
@@ -62,21 +62,23 @@
   }
 
   .caseOverView {
-    padding: 50px 0 50px;
+    padding: 50px 0;
   }
 
   .contnt {
     margin-top: 0px;
   }
+
+  .caseOverView h5 {
+    position: unset;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
-  .caseOverView {
-    padding: 25px 0 50px;
-  }
-
+  .caseOverView,
   .rideOverView,
   .foodOverView {
-    padding: 25px 0 50px;
+    padding: 25px 0;
   }
 }

@@ -34,11 +34,12 @@ export default function MarkPlace() {
         return () => clearTimeout(timeout);
     }, []);
 
+    const newsubttl = <span>Developed A Music <br /> Streaming App For Music <br /> Lovers To Listen To Millions <br /> Of Track.</span>
 
     const CaseOverView = [
         {
             title: 'Overview',
-            subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
+            subtitle: newsubttl,
             text: 'Real estate apps have a significant impact on how tech-savvy consumers choose their next home. The US National Association of Realtors reports that 51% of purchasers started their search for a home online. Mark Placek Properties, like other businesses, realized it was crucial to make sure real estate brokers incorporated solid real estate UX design standards into apps as the home purchase has become more digital, especially after the Covid19 era. This is the reason they contacted perfectdesignhub.com to design the Real Estate App.',
             imagefold: foldImg,
             caseOverView: 'caseOverView'
@@ -53,20 +54,18 @@ export default function MarkPlace() {
         }
     ]
 
+    const newtxt3 = <span>Typeface <br /> Used in Application</span>
+
     const CaseSolutions = [
         {
-            title: 'Typeface Used in Application',
+            title: newtxt3,
             text: 'The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram, Snapchat, and Facebook. Although the idea was unique, people would not buy it if the implementation was not done the right way.',
             caseSolution: 'caseSolution'
         }
     ]
 
     const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
-    const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>
-        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
-        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
-        AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
-    </p>
+    const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
     const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
     const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 

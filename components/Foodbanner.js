@@ -1,7 +1,8 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from '@/styles/Foodbanner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import Image from 'next/image'
+//images
 import foldImg00 from '../public/images/case-food/banner.svg'
 
 

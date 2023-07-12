@@ -13,7 +13,7 @@ const Solutions = (props) => {
                             <div className={styles.heading}>
                                 <div className={styles.headBox}>
                                     {props.title ?
-                                        <h2 className='font50 black fontf font-bold line60'>
+                                        <h2 className='font40 black fontf font-bold line50'>
                                             {props.title}
                                         </h2>
                                         :

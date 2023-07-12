@@ -1,5 +1,5 @@
 .healthBanner {
-  background-image: url(/_next/static/media/banner.fac1cbab.png);
+  background-image: url(../public/images/case-health/banner.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 .heading::before {
   content: "";
-  background-image: url(/_next/static/media/doc.70ff1d99.png);
+  background-image: url(../public/images/case-health/doc.png);
   background-repeat: no-repeat;
   background-size: 60%;
   display: block;
@@ -35,6 +35,10 @@
 .contnt p {
   width: 80%;
   font-size: 20px;
+}
+
+.mblImg {
+  display: none;
 }
 
 /* ============================================= */
@@ -148,5 +152,9 @@
   .contnt p {
     width: 100%;
     text-align: justify;
+  }
+
+  .mblImg {
+    display: block;
   }
 }

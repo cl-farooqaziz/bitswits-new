@@ -97,9 +97,9 @@ export default function bacteriaapp() {
     Horizons!
   </h2>
 
-  const code1 = <div className={styles.bacteria}> <span className={styles.left}>#B266FE</span> </div>
-  const code2 = <div className={styles.bacteria}> <span className={styles.right}>#000000</span>  </div>
-  const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
+  const code1 = <div> <span className={styles.left}>#B266FE</span> </div>
+  const code2 = <div> <span className={styles.right}>#000000</span>  </div>
+  const heading12 = <h3 className='fontf font50 black center font-bold'>Color Harmony</h3>
 
 
   return (
@@ -164,6 +164,7 @@ export default function bacteriaapp() {
         colorbx1='true'
         left={code1}
         right={code2}
+        caseHarmony='bacteria'
       />
 
       <Horizons

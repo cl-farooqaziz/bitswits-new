@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+  padding-bottom: 100px;
 }
 
 .gaurd h1 {
@@ -59,6 +60,10 @@
 }
 
 @media screen and (max-width: 1366px) {
+  .gaurd {
+    padding-bottom: 0px;
+  }
+
   .gaurd .banImg {
     right: 70px;
     width: 620px;
@@ -67,7 +72,11 @@
 
 @media screen and (max-width: 1280px) {
   .gaurd h1 {
-    font-size: 160px;
+    font-size: 140px;
+  }
+
+  .gaurd .banImg {
+    width: 580px;
   }
 }
 
@@ -78,28 +87,53 @@
   }
 
   .gaurd h3 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 28px;
+    line-height: 30px;
   }
 
   .gaurd .banImg {
     margin-top: 0px;
+    width: 460px;
+    top: 180px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .gaurd {
     margin-top: 10%;
     background-position: bottom center;
   }
 
   .gaurd h1 {
-    font-size: 45px;
+    font-size: 90px;
     line-height: 55px;
+    margin-bottom: 30px;
   }
 
   .gaurd h3 {
     font-size: 30px;
     line-height: 40px;
+  }
+
+  .gaurd .banImg {
+    position: unset;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .gaurd{
+    padding-bottom: 30px;
+  }
+
+  .gaurd h1 {
+    font-size: 80px;
+    line-height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .gaurd h3 {
+    line-height: 35px;
   }
 }

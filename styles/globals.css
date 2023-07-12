@@ -152,6 +152,10 @@ body {
   line-height: 56px;
 }
 
+.line50 {
+  line-height: 50px;
+}
+
 .line40 {
   line-height: 40px;
 }
@@ -796,6 +800,20 @@ input::-webkit-inner-spin-button {
 
 /* ========================= */
 
+@media screen and (max-width: 1024px) {
+  .font90 {
+    font-size: 200px;
+    line-height: 170px;
+  }
+
+  .font80 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+}
+
+/* ========================= */
+
 @media screen and (max-width: 991px) {
   .font320 {
     font-size: 80px;
@@ -867,6 +885,10 @@ input::-webkit-inner-spin-button {
   .abtourservices .accordion-header button img {
     width: 5%;
   }
+
+   br{
+    display: none;
+  }
 }
 
 /* ========================= */
@@ -899,6 +921,16 @@ input::-webkit-inner-spin-button {
 
   .abtourservices .accordion-header button img {
     width: 10%;
+  }
+
+  .font90 {
+    font-size: 75px;
+    line-height: 75px;
+  }
+
+  .font80 {
+    font-size: 50px;
+    line-height: 45px;
   }
 }
 

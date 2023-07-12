@@ -57,21 +57,27 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+  .rideBanner {
+    height: 80vh;
+  }
+
   .contnt p {
     max-width: 80%;
-    bottom: 100px;
+    bottom: 50px;
     right: 10%;
   }
 }
 
 @media screen and (max-width: 991px) {
   .rideBanner {
-    background-position: 50% 40px;
+    background-position: inherit;
+    height: 87vh;
   }
 
   .contnt p {
     max-width: 94%;
-    bottom: 220px;
+    bottom: 60px;
     right: 3%;
     font-size: 20px;
     line-height: 30px;
@@ -80,7 +86,7 @@
 
 @media screen and (max-width: 767px) {
   .contnt p {
-    bottom: 125px;
+    bottom: 0;
     font-size: 18px;
   }
 }

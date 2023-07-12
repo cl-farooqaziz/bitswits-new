@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/ColorHarmony.module.css'
 //components
 import Banner from '@/components/SoulBanner'
 import OverView from '@/components/OverView'
@@ -14,11 +15,9 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
-import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
 //images
-
-import styles from '@/styles/ColorHarmony.module.css'
 import foldImg from '../public/images/case-soul-sound/beats.png'
+import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
 
 
 export default function SoulSound() {
@@ -47,7 +46,7 @@ export default function SoulSound() {
 
   const newspan = <span>The <br /> Challenge</span>
 
-  const heading12 = <h3 className='fontf font60 black center font-bold'>Choose the no. of features as <br></br> per your requirements.</h3>
+  const heading12 = <h3 className='fontf font50 black center font-bold'>Choose the no. of features as <br></br> per your requirements.</h3>
 
   const CaseChallengs = [
     {
@@ -67,8 +66,6 @@ export default function SoulSound() {
       caseSolution: 'caseSolution'
     }
   ]
-
-
 
   const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
   const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
@@ -93,18 +90,18 @@ export default function SoulSound() {
   </h2>
 
   const data = <p className='font16 black fontf font-medium line30'>
-  The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
-</p>
+    The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
+  </p>
 
-const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
+  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     BitsWits <br />
     Uncovered <br />
     New Musical <br />
     Horizons!
-    </h2>
+  </h2>
 
-const code1 = <div className={styles.soulHarmony}> <span className={styles.left}>#E4F81E</span> </div> 
-const code2 = <div className={styles.soulHarmony}> <span className={styles.right}>#000000</span> </div> 
+  const code1 = <div className={styles.soulHarmony}> <span className={styles.left}>#E4F81E</span> </div>
+  const code2 = <div className={styles.soulHarmony}> <span className={styles.right}>#000000</span> </div>
 
 
   return (
@@ -163,22 +160,22 @@ const code2 = <div className={styles.soulHarmony}> <span className={styles.right
 
 
       <ColorHarmony
-      heading = {heading12}
-      colorbx1 = 'true'
-      left = {code1}
-      right = {code2}
+        heading={heading12}
+        colorbx1='true'
+        left={code1}
+        right={code2}
       />
 
 
       <Horizons
-      uncovered = {uncovered}
-      foldImg00 = {foldImg00}
-      data = {data}
+        uncovered={uncovered}
+        foldImg00={foldImg00}
+        data={data}
       />
 
       <SoulCTA
-      headfire = {headfire}
-      soulCta = 'soulCta'
+        headfire={headfire}
+        soulCta='soulCta'
       />
 
 

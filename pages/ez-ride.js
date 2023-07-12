@@ -68,11 +68,7 @@ export default function ezride() {
   ]
 
   const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>
-    AaBbCcDdEeFfGgHhIiJjKkLlMmNnOo PpQqRrSsTtUuVvWwXxYyZz
-    AaBbCcDdEeFfGgHhIiJjKkLlMmNnOo PpQqRrSsTtUuVvWwXxYyZz
-    AaBbCcDdEeFfGgHhIiJjKkLlMmNnOo PpQqRrSsTtUuVvWwXxYyZz
-  </p>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
   const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
   const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>

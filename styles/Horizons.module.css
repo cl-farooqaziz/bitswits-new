@@ -5,7 +5,7 @@
 .heading {
   background-image: url(../public/images/case-icon.svg);
   background-size: contain;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 0 0 10px;
   display: flex;
@@ -20,11 +20,6 @@
 
 /* ============================================= */
 
-@media screen and (min-width: 1440px) {
-  .heading {
-    background-size: 40%;
-  }
-}
 
 @media screen and (max-width: 991px) {
   .heading {

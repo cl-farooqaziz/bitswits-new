@@ -36,7 +36,7 @@ const Challenge = (props) => {
                                 <div className={styles.headBox}>
                                     <FaAngleLeft />
                                     {props.title ?
-                                        <h2 className='font50 black fontf font-bold line60'>
+                                        <h2 className='font40 black fontf font-bold line50'>
                                             {props.title}
                                         </h2>
                                         :

@@ -34,7 +34,7 @@ export default function travelapp() {
   }, []);
 
 
-const domoer = <span>  <b>Today, the travel and hospitality industries depend heavily on mobile applications, and 2023</b> <br></br> Established with the intention of giving unique and once-in-a-lifetime travel experiences to people touring the world, one of the most reputable travel companies, Gateway Tour Agency, works hard to provide people with top-notch quality services. In addition, the travel agency creates unique, personalized packages that not only meet but even go beyond expectations. </span>
+  const domoer = <span>  <b>Today, the travel and hospitality industries depend heavily on mobile applications, and 2023</b> <br></br> Established with the intention of giving unique and once-in-a-lifetime travel experiences to people touring the world, one of the most reputable travel companies, Gateway Tour Agency, works hard to provide people with top-notch quality services. In addition, the travel agency creates unique, personalized packages that not only meet but even go beyond expectations. </span>
 
 
   const CaseOverView = [
@@ -67,28 +67,11 @@ const domoer = <span>  <b>Today, the travel and hospitality industries depend he
     }
   ]
 
-
-
   const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
-  const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>
-
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
-
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
-
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
-
-
-
-  </p>
+  const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
   const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
   const profile1 = <p className='font14 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
-
- 
-
-
-
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
 
@@ -97,21 +80,21 @@ AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br></br>
 
   const data = <p className='font16 black fontf font-medium line30 mt-3'>
 
-<b>From Vision to Design Crafting appealing UI Designs</b>  <br />
+    <b>From Vision to Design Crafting appealing UI Designs</b>  <br />
 
- Admittedly, there aren't many travel apps made specifically for getting genuine travel information, customizing travel plans, and reserving desired destinations. Therefore, Gateway Tour Agency wanted to give their customers an application that can give them a more convenient
-</p>
+    Admittedly, there aren't many travel apps made specifically for getting genuine travel information, customizing travel plans, and reserving desired destinations. Therefore, Gateway Tour Agency wanted to give their customers an application that can give them a more convenient
+  </p>
 
-const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
+  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
     BitsWits <br />
     Uncovered <br />
     New Musical <br />
     Horizons!
-    </h2>
+  </h2>
 
-const code1 =  <span className={styles.left}>#55BAAA</span> 
-const code2 = <div className={styles.travel}> <span className={styles.right}>#081213</span>  </div>
-const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harmony</h3>
+  const code1 = <span className={styles.left}>#55BAAA</span>
+  const code2 = <div className={styles.travel}> <span className={styles.right}>#081213</span>  </div>
+  const heading12 = <h3 className='fontf font50 black center font-bold'>Color Harmony</h3>
 
   return (
     <>
@@ -159,28 +142,27 @@ const heading12 = <h3 className='fontf font60 black center font-bold'>Color Harm
         profile={profile}
         profile1={profile1}
         part='true'
-
-
       />
 
 
-<ColorHarmony
-      heading = {heading12}
-      colorbx1 = 'true'
-      left = {code1}
-      right = {code2}
+      <ColorHarmony
+        heading={heading12}
+        colorbx1='true'
+        left={code1}
+        right={code2}
+        caseHarmony='trvel'
       />
 
 
       <Horizons
-      uncovered = {uncovered}
-      foldImg00 = {foldImg00}
-      data = {data}
+        uncovered={uncovered}
+        foldImg00={foldImg00}
+        data={data}
       />
 
       <SoulCTA
-      headfire = {headfire}
-      soulCta = 'posy'
+        headfire={headfire}
+        soulCta='posy'
       />
 
 
