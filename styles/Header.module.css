@@ -312,6 +312,11 @@
   background-color: #000;
 }
 
+.mblLogo,
+.mbInq {
+  display: none;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (min-width: 1440) {
@@ -391,6 +396,11 @@
     width: 30%;
   }
 
+  .mblLogo {
+    display: block;
+    margin-bottom: 30px;
+  }
+
   .navBar {
     box-shadow: none;
   }
@@ -402,7 +412,7 @@
     width: 85%;
     z-index: 9;
     height: 100vh;
-    padding: 50px 15px;
+    padding: 20px 15px;
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
@@ -432,6 +442,7 @@
 
   .menu .inqBtn a {
     justify-content: center;
+    height: 60px;
   }
 
   .menu .inqBtn a:hover {
@@ -568,6 +579,19 @@
 
   .listImg img {
     margin-top: 25px;
+  }
+
+  .mbInq {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .mbInq .ourWork .fill a {
+    font-size: 18px;
+  }
+
+  .mbInq .ourWork .fill svg {
+    width: 20px;
   }
 }
 
