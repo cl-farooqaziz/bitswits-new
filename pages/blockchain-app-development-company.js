@@ -109,12 +109,33 @@ export default function blockchainappdevelopment() {
     const swip = <div>
         Enhancing Web3 Experiences with Innovative <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Blockchain App Development Services</h2> By BitsWits!
     </div>
-    const ensine = <div>
-       Hire BitsWits for  <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Blockchain App Development,</h2> Your Gateway to Success in Any Industry!
+
+
+    const aheadtitle = <div className='font30 black fontf font-bold line40 black'><h2 className='font30 black fontf font-bold line40 black displayline'>Hire The Best Blockchain App Development Services</h2>!</div>
+
+
+    const ensine = <div className='font30 black fontf font-bold line40 black mb-2'>
+        Hire BitsWits for  <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Blockchain App Development,</h2> Your Gateway to Success in Any Industry!
     </div>
 
 
+    // =================== //
 
+    const swpTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>Smooth Integration of Add-ons in Blockchain Apps</h3>
+
+    const swpTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Custom Enterprise Grade Blockchain Solutions</h3>
+
+    // =================== //
+
+    const ahdTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>DApp Development</h3>
+
+    const ahdTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>IEO & ICO Services</h3>
+
+    // =================== //
+
+    const enshrTtl = <h2 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Smart Contract Development</h2>
+
+    const enshrTtl2 = <h2 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>Blockchain Game Development</h2>
 
 
     return (
@@ -142,42 +163,42 @@ export default function blockchainappdevelopment() {
 
 
             <Swipe
-            foldimg  = {foldimg}
-            title = {swip}
-            para = 'We help businesses utilize blockchain technology in their operations to make things run smoother and safer. At BitsWits, we can create secure apps and online platforms for businesses. We store data using blockchain, which means it can`t be changed. We also use encryption and cryptography to keep data safe when it`s being sent or stored.'
-            subtitle = 'Smooth Integration of Add-ons in Blockchain Apps'
-            subpara = 'Hire best blockchain developers, capable of creating scalable blockchain applications. These apps will incorporate multiple add-ons and connect smoothly with diverse features, catering to every industry and niche.'
-            subtitle2 = 'Custom Enterprise Grade Blockchain Solutions '
-            subpara2 = 'Hire BitsWits to develop custom blockchain solutions for your company using enterprise-grade blockchain that improve data traceability and security while completely eliminating the need for third-party entities.'
-            
+                foldimg={foldimg}
+                title={swip}
+                para='We help businesses utilize blockchain technology in their operations to make things run smoother and safer. At BitsWits, we can create secure apps and online platforms for businesses. We store data using blockchain, which means it can`t be changed. We also use encryption and cryptography to keep data safe when it`s being sent or stored.'
+                subtitle={swpTtl}
+                subpara='Hire best blockchain developers, capable of creating scalable blockchain applications. These apps will incorporate multiple add-ons and connect smoothly with diverse features, catering to every industry and niche.'
+                subtitle2={swpTtl2}
+                subpara2='Hire BitsWits to develop custom blockchain solutions for your company using enterprise-grade blockchain that improve data traceability and security while completely eliminating the need for third-party entities.'
+
             />
 
 
 
             <Ahead
-            title = 'Hire The Best Blockchain App Development Services!'
-            para = 'With our blockchain development services, your organization will grow by integrating blockchain technology in custom apps for your business. Hire the top blockchain developers who specialize in developing unique solutions that will change your data management practices.'
-            subtitle = 'DApp Development '
-            subpara = 'Step into the future of decentralized business operations with our blockchain Dapp development services, which are designed to improve your company`s performance.'
-            subtitle2 = 'IEO & ICO Services'
-            subpara2 = 'Our all-inclusive IEO and ICO services provide smart strategies for investors, generating crypto assets securely and boosting their distribution in target markets.'
-            ahead  = {aheadimage}
-            
+                title={aheadtitle}
+                para='With our blockchain development services, your organization will grow by integrating blockchain technology in custom apps for your business. Hire the top blockchain developers who specialize in developing unique solutions that will change your data management practices.'
+                subtitle={ahdTtl}
+                subpara='Step into the future of decentralized business operations with our blockchain Dapp development services, which are designed to improve your company`s performance.'
+                subtitle2={ahdTtl2}
+                subpara2='Our all-inclusive IEO and ICO services provide smart strategies for investors, generating crypto assets securely and boosting their distribution in target markets.'
+                ahead={aheadimage}
+
             />
 
 
 
             <Ensure
-            foldimg  = {foldensure}
-            title = {ensine}
-            para = 'Hire BitsWits for blockchain app development to gain an edge over your competitors. Our customized blockchain solutions and specialized developers cater to any industry, niche, and deliver success in your digital initiatives.'
-            subtitle = 'Smart Contract Development '
-            subpara = 'Hire blockchain developers in US with smart contract development expertise. We have successfully developed many kinds of smart contracts that enable conflict-free business operations and transactions.'
-            subtitle2 = 'Blockchain Game Development'
-            subpara2 = 'We create strong gaming infrastructures supported by blockchain technology. Because of their scalability and long-term profitability, these infrastructures attract a wide spectrum of users.'
-            
-            
-            
+                foldimg={foldensure}
+                title={ensine}
+                para='Hire BitsWits for blockchain app development to gain an edge over your competitors. Our customized blockchain solutions and specialized developers cater to any industry, niche, and deliver success in your digital initiatives.'
+                subtitle={enshrTtl}
+                subpara='Hire blockchain developers in US with smart contract development expertise. We have successfully developed many kinds of smart contracts that enable conflict-free business operations and transactions.'
+                subtitle2={enshrTtl2}
+                subpara2='We create strong gaming infrastructures supported by blockchain technology. Because of their scalability and long-term profitability, these infrastructures attract a wide spectrum of users.'
+
+
+
             />
             <OurProject />
             <ClientsThink />

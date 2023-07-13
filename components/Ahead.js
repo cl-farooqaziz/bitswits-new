@@ -14,9 +14,7 @@ const Ahead = (props) => {
                     <Row className='rowGap'>
                         <Col lg={7}>
                             <div className={styles.aheadTxt}>
-                                <h2 className='font30 black fontf font-bold line40 black'>
-                                    {props.title}
-                                </h2>
+                                {props.title}
                                 <p className='black fontf font-medium line30'>
                                     {props.para}
                                 </p>
@@ -24,9 +22,7 @@ const Ahead = (props) => {
                                     <Row className='justify-content-between'>
                                         <Col lg={6}>
                                             <div className={styles.swapBox}>
-                                                <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
-                                                    {props.subtitle}
-                                                </h3>
+                                                {props.subtitle}
                                                 <p className='font14 black fontf font-medium line30'>
                                                     {props.subpara}
                                                 </p>
@@ -34,9 +30,7 @@ const Ahead = (props) => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.swapBox}>
-                                                <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>
-                                                    {props.subtitle2}
-                                                </h3>
+                                                {props.subtitle2}
                                                 <p className='font14 black fontf font-medium line30'>
                                                     {props.subpara2}
                                                 </p>
@@ -44,7 +38,7 @@ const Ahead = (props) => {
                                         </Col>
                                         <Col sm={5}>
                                             <Link className={`${styles.bttns1} mt-3`} href="#">
-                                            Call Us Now!
+                                                Call Us Now!
                                             </Link>
                                         </Col>
                                     </Row>
