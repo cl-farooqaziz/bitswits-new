@@ -237,7 +237,7 @@ a {
   text-decoration: none !important;
 }
 
-.displayline{
+.displayline {
   display: inline;
 }
 
@@ -391,6 +391,11 @@ a {
   left: 0;
 }
 
+.sidenewlong.slution .slick-dots {
+  bottom: -75px;
+  left: 0;
+}
+
 .newproject .slick-list {
   overflow: visible;
 }
@@ -401,6 +406,10 @@ a {
 
 .newproject {
   position: relative;
+}
+
+.newproject.solutn .slick-list::after {
+  margin-right: -335px;
 }
 
 .newproject .slick-list::before {
@@ -694,6 +703,10 @@ input::-webkit-inner-spin-button {
     margin-right: -15px;
   }
 
+  .newproject.solutn .slick-list .slick-track .slick-slide.slick-active::after {
+    width: 45px;
+  }
+
   .clintSlider .slick-list::before {
     top: -2px;
   }
@@ -890,7 +903,7 @@ input::-webkit-inner-spin-button {
     width: 5%;
   }
 
-   br{
+  br {
     display: none;
   }
 }

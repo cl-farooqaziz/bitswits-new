@@ -17,7 +17,7 @@ import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
 
 
-export default function nftmarketplacedevelopment() {
+export default function nftgamedevelopment() {
 
 
     // banner component data

@@ -25,7 +25,6 @@
 }
 
 .slideCntnt {
-  
   color: #ececec;
 }
 
@@ -83,7 +82,7 @@
 }
 
 .line::after {
-  content: "04";
+  content: "13";
   position: absolute;
   right: -40px;
   top: -14px;
@@ -109,7 +108,32 @@
   padding: 0.5rem 1rem;
 }
 
+.slidLst {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.slidLst li {
+  padding: 5px 5px 10px 32px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  background: url(../public/images/digital/tick-point.png) no-repeat;
+  background-position: top 9px left 0;
+}
+
+.solutn .slideImg{
+  width: 95%;
+}
+
 /* ===============Media Queries================ */
+
+@media screen and (min-width: 1366px) {
+  .solutn .slideBox {
+    height: 500px;
+  }
+}
 
 @media screen and (max-width: 1366px) {
   .slideList p {

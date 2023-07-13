@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React, { useState, useEffect } from 'react'; import Link from 'next/link';
 //components
 import Banner from '@/components/Banner'
+import Rated from '@/components/Rated'
 import About from '@/components/About'
 import Yearsofexpertise from '@/components/Yearsofexpertise'
 import Nextproject from '@/components/Nextproject'
@@ -9,11 +10,11 @@ import Ourservices from '@/components/Ourservices'
 import Lookingfor from '@/components/Lookingfor'
 import Trusted from '@/components/Trusted'
 import Ourportfolio from '@/components/Ourportfolio'
-import OurProject from '@/components/OurProject'
+import Digital from '@/components/Digital';
 import Ourblogs from '@/components/Ourblogs'
 import ClientsThink from '@/components/ClientsThink'
 import Contact from '@/components/Contact'
-import Rated from '@/components/Rated'
+import OurProject from '@/components/OurProject'
 
 
 export default function Home() {
@@ -53,10 +54,11 @@ export default function Home() {
       <Lookingfor />
       <Trusted />
       <Ourportfolio />
-      <OurProject />
+      <Digital />
       <ClientsThink />
       <Nextproject />
       <Ourblogs />
+      <OurProject />
       <Contact />
     </>
   )

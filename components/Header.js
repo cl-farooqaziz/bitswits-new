@@ -1018,6 +1018,12 @@ const Header = () => {
                                                                     <li>
                                                                         <Link onClick={handleMenu} href="/nft-game-development-company">
                                                                             <FaAngleRight />
+                                                                            <span>NFT Game Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/nft-marketplace-development-company">
+                                                                            <FaAngleRight />
                                                                             <span>NFT Marketplace Development</span>
                                                                         </Link>
                                                                     </li>
