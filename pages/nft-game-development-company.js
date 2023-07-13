@@ -22,9 +22,9 @@ export default function nftmarketplacedevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> NFT Marketplace Development </span> Company!</h1>
+    const heading = <div className='font65 black fontf font-bold line60 mt-5'>Taking Digital Gaming to a Whole New Level with BitsWits, the   <h1 className='grdiant font65 black fontf font-bold line60 displayline'>NFT Game Development Company</h1>!</div>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <p className='black fontf font-medium line30 mt-3'>BitsWits is a top play-to-earn NFT game development company where our expert NFT game developers specialize in creating amazing virtual worlds where players can collect, trade, and compete with multiple digital assets. We focus on providing exceptional NFT game development services that integrate NFTs into dynamic gameplays that offer players with extraordinary ownerships and value. Get in touch with us today and leave your mark in the virtual world.  </p>
 
 
     // coverage component data
@@ -106,10 +106,17 @@ export default function nftmarketplacedevelopment() {
 
     // Swipe component data
 
-    
 
+    const swip = <div>
+        Experience the Future of Mobile Gaming Through Our Attractive  <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>NFT Game Development Services</h2>
+    </div>
 
-
+const aheadtitle = <div>
+Rise High above the Competition with   <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Play-to-Earn NFT Game Development </h2>
+</div>
+   const ensine = <div>
+   Discover the Potential of NFTs with BitsWits, the  <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Best NFT Game Development Agency!</h2> 
+</div>
 
 
     return (
@@ -137,42 +144,42 @@ export default function nftmarketplacedevelopment() {
 
 
             <Swipe
-            foldimg  = {foldimg}
-            title = 'We Design Engaging Mobile Apps your users will swipe through from start to finish'
-            para = 'Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-            subtitle = 'High Performance User Experience'
-            subpara = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-            subtitle2 = 'Swipe that Convert'
-            subpara2 = 'In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-            
+                foldimg={foldimg}
+                title={swip}
+                para='As a top NFT game development company in USA, our team of creative NFT game developers is dedicated towards transforming your mobile gaming experience with our interestingly designed NFT games. We specialize in creating a virtual environment where players can dive into exciting gameplay, collect unique NFTs, and enjoy thrilling adventures. By utilizing a data-driven approach and detailed research, we design attractive NFTs-featured games while keeping the latest design trends in mind. '
+                subtitle='Dive Into an Exciting Gaming Experience'
+                subpara='With our innovative NFT game development services, we smoothly integrate blockchain technology into mobile games, allowing players to own and trade various digital assets. From stunning visuals to engaging storytelling, our games are created to deliver exceptional gaming experience.'
+                subtitle2='Enhancing Mobile Gaming Experience'
+                subpara2='At BitsWits, our NFT game developers and designers work tirelessly to push the limits and boundaries of mobile gaming. Our attractive interfaces created and designed at the best NFT game development company improve overall user experience and utilize the latest technology stack to create games that entertain the players. '
+
             />
 
 
 
             <Ahead
-            title = 'Our Mobile App Research Data that puts you ahead of others'
-            para = 'We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-            subtitle = 'Laser Focused User Research'
-            subpara = 'We remain laser focused on your target audience to best meet their needs and requirements.'
-            subtitle2 = 'Competitive Advantage'
-            subpara2 = 'Our research process gives you a competitive advantage and up-to-date market insights.'
-            ahead  = {aheadimage}
-            
+                title={aheadtitle}
+                para='We develop play-to-earn NFT game development services that position you as a frontrunner in the gaming market. At BitsWits, our team offers complete services from designing the scenes to developing the entire game along with the added services of game testing, post launch support and maintenance. '
+                subtitle='Progressive Game Development'
+                subpara='BitsWits excels in progressive NFT game development, which includes constantly improving gameplay, developing new features, and incorporating user input. Our games deliver dynamic experiences and rewarding chances with a play-to-earn approach.'
+                subtitle2='Cost-Effective Game Development'
+                subpara2='In our NFT gaming solutions and products, we focus on both the latest technology and the cost of operations and development, assuring a balanced approach that delivers value without losing efficiency or an amazing gaming experience.'
+                ahead={aheadimage}
+
             />
 
 
 
             <Ensure
-            foldimg  = {foldensure}
-            title = 'We Test and Optimize your mobile app to ensure best user experience'
-            para = 'We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-            subtitle = 'Constant Innovation'
-            subpara = 'In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-            subtitle2 = ' Active On-Going Support'
-            subpara2 = 'We only rely on real evidence-based improvements that drives conversion rates.'
-            
-            
-            
+                foldimg={foldensure}
+                title={ensine}
+                para='BitsWits is your trusted NFT games development agency for creating online spaces where you gain access to a world of unlimited potential. Our expert team of NFT game developers combines their passion for gaming with their expertise in blockchain technology to create engaging virtual worlds, unique gameplay mechanics, and smooth incorporation of NFTs.  '
+                subtitle='Low Gas Fees for NFT Games'
+                subpara='We leverage cost-effective blockchain transactions to reduce the fees associated with developing games and minting NFTs.'
+                subtitle2='Full-cycle Assistance'
+                subpara2='We provide development services for NFT game projects, and support from concept creation to post-launch, and revisions as needed.'
+
+
+
             />
             <OurProject />
             <ClientsThink />

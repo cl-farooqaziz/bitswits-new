@@ -1010,13 +1010,13 @@ const Header = () => {
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href="/dapp-development">
+                                                                        <Link onClick={handleMenu} href="/decentralized-dapp-development-company">
                                                                             <FaAngleRight />
                                                                             <span>dApp Development</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href="/nft-marketplace-development">
+                                                                        <Link onClick={handleMenu} href="/nft-game-development-company">
                                                                             <FaAngleRight />
                                                                             <span>NFT Marketplace Development</span>
                                                                         </Link>
