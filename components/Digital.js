@@ -46,12 +46,12 @@ const Digital = () => {
             <section className={styles.ourProject}>
                 <Container>
                     <Row className={styles.project}>
-                        <Col lg={3}>
+                        <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white mb-0'>Solutions</h5>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={7}>
                             <h2 className='font50 black fontf font-bold line60 white mb-0'>
-                                Digital Product Solutions For Different Industries
+                            <span className='grdiant'>  Digital Product Solutions </span> For Different Industries
                             </h2>
                         </Col>
                         <Col lg={3}>

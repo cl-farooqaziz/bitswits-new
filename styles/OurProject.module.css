@@ -121,6 +121,7 @@
   color: #fff;
   background: url(../public/images/digital/tick-point.png) no-repeat;
   background-position: top 9px left 0;
+  filter: invert(.1);
 }
 
 .solutn .slideImg{
