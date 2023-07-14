@@ -19,7 +19,7 @@ import OurProject from '@/components/OurProject'
 
 export default function Home() {
 
-  const [showComponent, setShowComponent] = useState(false);
+
 
 
   // useEffect(() => {
@@ -31,16 +31,19 @@ export default function Home() {
   //   return () => clearTimeout(timeout);
   // }, []);
 
-
+  const [showComponent, setShowComponent] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
+   
       if (window.innerWidth <= 480) {
+        setShowComponent(false);
         const timeout = setTimeout(() => {
-          setShowComponent(true);
-    
-        }, 4000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
-    
+         setShowComponent(true);
+       
+
+        }, 5000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
+
         return () => clearTimeout(timeout);
       }
     };
@@ -65,7 +68,7 @@ export default function Home() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-     
+
 
       <Banner />
       <Rated />
@@ -74,22 +77,23 @@ export default function Home() {
       <Ourservices />
       <Lookingfor />
       {showComponent && (
-        
-     <>
-     
-    
-      <Trusted />
-      <Ourportfolio />
-      <Digital />
-      <ClientsThink />
-      <Nextproject />
-      <Ourblogs />
-      <OurProject />
-      <Contact />
-     </>
+        <>
 
-        )}
-      
+          <Trusted />
+          <Ourportfolio />
+          <Digital />
+          <ClientsThink />
+          <Nextproject />
+          <Ourblogs />
+          <OurProject />
+          <Contact />
+        </>
+      )}
+
+
+
+
+
     </>
   )
 }
