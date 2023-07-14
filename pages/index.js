@@ -22,13 +22,36 @@ export default function Home() {
   const [showComponent, setShowComponent] = useState(false);
 
 
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     setShowComponent(true);
+
+  //   }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
+
+  //   return () => clearTimeout(timeout);
+  // }, []);
+
+
+
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowComponent(true);
+    const handleResize = () => {
+      if (window.innerWidth <= 480) {
+        const timeout = setTimeout(() => {
+          setShowComponent(true);
+    
+        }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
+    
+        return () => clearTimeout(timeout);
+      }
+    };
 
-    }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
+    // Attach the event listener
+    window.addEventListener('resize', handleResize);
 
-    return () => clearTimeout(timeout);
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
 
@@ -42,14 +65,16 @@ export default function Home() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-      {/* {showComponent && (
-        <Rated />
-      )} */}
+     
 
       <Banner />
       <Rated />
       <About />
       <Yearsofexpertise />
+      {showComponent && (
+        
+     <>
+     
       <Ourservices />
       <Lookingfor />
       <Trusted />
@@ -60,6 +85,10 @@ export default function Home() {
       <Ourblogs />
       <OurProject />
       <Contact />
+     </>
+
+        )}
+      
     </>
   )
 }

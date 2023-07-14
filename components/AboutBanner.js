@@ -30,7 +30,7 @@ const AboutBanner = () => {
 
                             <div className={styles.abtBannerImg}>
                                 <div className={styles.logo14}>
-                                    <Image alt="Bitswits" loading="lazy" src={banImg} className={`${styles.bottom3} img-fluid`} />
+                                    <Image alt="bitswits"    loading="lazy" src={banImg} className={`${styles.bottom3} img-fluid`} />
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const AboutBanner = () => {
 
                             <div className={`${styles.discuss} d-flex`}>
                                 <div className={styles.call}>
-                                    <Image className='img-fluid'
+                                    <Image alt="bitswits"   className='img-fluid'
                                         src={callIcn}
                                         alt='bitswits'
                                     />
@@ -78,7 +78,7 @@ const AboutBanner = () => {
                                 <div className={styles.locations}>
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="Bitswits" src={icon1} className='img-fluid' />
+                                            <Image alt="bitswits"    src={icon1} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>USA</p>
@@ -90,7 +90,7 @@ const AboutBanner = () => {
                                     </div>
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="Bitswits" src={icon2} className='img-fluid' />
+                                            <Image alt="bitswits"    src={icon2} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>UAE</p>
@@ -102,7 +102,7 @@ const AboutBanner = () => {
 
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="Bitswits" src={icon4} className='img-fluid' />
+                                            <Image alt="bitswits"    src={icon4} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>MALAYSIA</p>

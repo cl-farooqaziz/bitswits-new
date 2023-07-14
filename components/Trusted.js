@@ -64,40 +64,40 @@ const Trusted = () => {
           </Row>
           <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon1} className="img-fluid" />
+              <Image alt="bitswits"    src={icon1} className="img-fluid" />
             </div>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon2} className="img-fluid" />
+              <Image alt="bitswits"    src={icon2} className="img-fluid" />
             </div>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon3} className="img-fluid" />
+              <Image alt="bitswits"    src={icon3} className="img-fluid" />
             </div>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon4} className="img-fluid" />
+              <Image alt="bitswits"    src={icon4} className="img-fluid" />
             </div>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon5} className="img-fluid" />
+              <Image alt="bitswits"    src={icon5} className="img-fluid" />
             </div>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon6} className="img-fluid" />
+              <Image alt="bitswits"    src={icon6} className="img-fluid" />
             </div>
             <div className={`${styles.strpImg} ${styles.minImg}`}>
-              <Image alt="Bitswits" src={icon7} className="img-fluid" />
+              <Image alt="bitswits"    src={icon7} className="img-fluid" />
             </div>
             <div className={`${styles.strpImg} ${styles.minImg}`}>
-              <Image alt="Bitswits" src={icon8} className="img-fluid" />
+              <Image alt="bitswits"    src={icon8} className="img-fluid" />
             </div>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon9} className="img-fluid" />
+              <Image alt="bitswits"    src={icon9} className="img-fluid" />
             </div>
             <div className={`${styles.strpImg} ${styles.minImg}`}>
-              <Image alt="Bitswits" src={icon10} className="img-fluid" />
+              <Image alt="bitswits"    src={icon10} className="img-fluid" />
             </div>
             <div className={`${styles.strpImg} ${styles.minImg}`}>
-              <Image alt="Bitswits" src={icon11} className="img-fluid" />
+              <Image alt="bitswits"    src={icon11} className="img-fluid" />
             </div>
             <div className={styles.strpImg}>
-              <Image alt="Bitswits" src={icon12} className="img-fluid" />
+              <Image alt="bitswits"    src={icon12} className="img-fluid" />
             </div>
           </Slider>
         </Container>

@@ -83,9 +83,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={health}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -112,9 +112,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={fintech}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -141,9 +141,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={realState}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -170,9 +170,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={eCommerce}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -199,9 +199,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={fitness}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -228,9 +228,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={restaurant}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -257,9 +257,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={travel}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -287,9 +287,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={sports}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -316,9 +316,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={social}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -345,9 +345,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={business}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -374,9 +374,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={education}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -403,9 +403,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={entertanmnt}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -432,9 +432,9 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"   className='img-fluid'
                                                     src={logistic}
-                                                    alt="bitswits"
+                                                    
                                                 />
                                             </div>
                                         </Col>
@@ -468,9 +468,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={health}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -497,9 +497,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={fintech}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -526,9 +526,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={realState}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -555,9 +555,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={eCommerce}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -584,9 +584,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={fitness}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -613,9 +613,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={restaurant}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -642,9 +642,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={travel}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -672,9 +672,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={sports}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -701,9 +701,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={social}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -730,9 +730,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={business}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -759,9 +759,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={education}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -788,9 +788,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={entertanmnt}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -817,9 +817,9 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"   className='img-fluid'
                                             src={logistic}
-                                            alt="bitswits"
+                                            
                                         />
                                     </div>
                                 </Col>

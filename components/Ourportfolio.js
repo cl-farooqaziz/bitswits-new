@@ -69,19 +69,19 @@ const Ourportfolio = () => {
 
 
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio1} className="img-fluid  mb-4" />
+                            <Image alt="bitswits"    src={ourportfolio1} className="img-fluid  mb-4" />
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio2} className="img-fluid  mb-4" />
+                            <Image alt="bitswits"    src={ourportfolio2} className="img-fluid  mb-4" />
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio3} className="img-fluid  mb-4" />
+                            <Image alt="bitswits"    src={ourportfolio3} className="img-fluid  mb-4" />
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio4} className="img-fluid mb-4" />
+                            <Image alt="bitswits"    src={ourportfolio4} className="img-fluid mb-4" />
                             <Link className='fontf font25 black font-bold mt-5' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
 

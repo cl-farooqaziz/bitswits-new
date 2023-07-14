@@ -27,7 +27,7 @@ const SoulBanner = () => {
                                     Soul Sound, the world's most distinguished music and audio platform, allows people to explore an incredibly varied creator community. Since its launch, the platform has become renowned for its unique content and features, including connecting with artists immediately and unearthing unheard-of tracks, podcasts, and more, all in one spot!
                                 </p>
                                 <div>
-                                    <Image src={foldImg00} className={`${styles.mblImg} img-fluid`}></Image>
+                                    <Image alt="bitswits"   src={foldImg00} className={`${styles.mblImg} img-fluid`}></Image>
                                 </div>
                             </div>
                         </Col>

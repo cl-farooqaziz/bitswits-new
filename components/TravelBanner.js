@@ -17,7 +17,7 @@ const TravelBanner = () => {
                             </div>
                         </Col>
                         <Col lg={12}>
-                            <Image src={foldImg00} className='img-fluid w-100' ></Image>
+                            <Image alt="bitswits"   src={foldImg00} className='img-fluid w-100' ></Image>
                         </Col>
                         <Col lg={12}>
                            <div className={styles.intention}>

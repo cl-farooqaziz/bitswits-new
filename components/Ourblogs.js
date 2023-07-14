@@ -67,25 +67,25 @@ const Ourblogs = () => {
 
 
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio1} className="img-fluid" />
+                            <Image alt="bitswits"    src={ourportfolio1} className="img-fluid" />
                             <h3 className='fontf font30 black font-bold mt-4 mb-3'>Brewster: Raised by Mighty Buildings in Serie B Funding</h3>
                             <p className='fontf font15 black font-medium'>Construction, Building, 3D Printing, CAD</p>
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio2} className="img-fluid" />
+                            <Image alt="bitswits"    src={ourportfolio2} className="img-fluid" />
                             <h3 className='fontf font30 black font-bold mt-4 mb-3'>PAL: Raised by Mighty  Buildings in Series B  Funding</h3>
                             <p className='fontf font15 black font-medium'>Construction, Building, 3D Printing, CAD</p>
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio3} className="img-fluid" />
+                            <Image alt="bitswits"    src={ourportfolio3} className="img-fluid" />
                             <h3 className='fontf font30 black font-bold mt-4 mb-3'>PAL: Raised by Mighty  Buildings in Series B  Funding</h3>
                             <p className='fontf font15 black font-medium'>Construction, Building, 3D Printing, CAD</p>
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                         <div className={styles.rightlogo}>
-                            <Image alt="Bitswits" src={ourportfolio1} className="img-fluid" />
+                            <Image alt="bitswits"    src={ourportfolio1} className="img-fluid" />
                             <h3 className='fontf font30 black font-bold mt-4 mb-3'>Brewster: Raised by Mighty Buildings in Serie B Funding</h3>
                             <p className='fontf font15 black font-medium'>Construction, Building, 3D Printing, CAD</p>
                             <Link className='fontf font25 black font-bold mt-4' href='#'>View Project <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>

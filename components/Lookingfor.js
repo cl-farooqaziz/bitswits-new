@@ -176,9 +176,9 @@ const Lookingfor = () => {
                                 <p className='fontf black font-medium font15'>Our extensive experience enables us to offer dependable mobile app development solutions that excel in performance and remain highly competitive </p>
 
                                 <div className={styles.way}>
-                                    <div className={styles.servbold}><Image src={mobileappicon1} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={mobileappicon2} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={mobileappicon3} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={mobileappicon1} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={mobileappicon2} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={mobileappicon3} className='img-fluid' /></div>
                                
                                 </div>
 
@@ -211,7 +211,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={ourportfolio3} className='img-fluid' />
+                                    <Image alt="bitswits"    src={ourportfolio3} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
@@ -233,11 +233,11 @@ const Lookingfor = () => {
                                 <p className='fontf black font-medium font15'>BitsWits is a highly proficient company specializing in mobile game development, housing a team of talented game developers who possess a wealth of expertise in delivering tailor-made game development solutions. </p>
 
                                 <div className={styles.way}>
-                                    <div className={styles.servbold}><Image src={gameicon1} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={gameicon2} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={gameicon3} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={gameicon4} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={gameicon5} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={gameicon1} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={gameicon2} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={gameicon3} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={gameicon4} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={gameicon5} className='img-fluid' /></div>
                                 </div>
 
 
@@ -268,7 +268,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={gamedev} className='img-fluid' />
+                                    <Image alt="bitswits"    src={gamedev} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
@@ -291,10 +291,10 @@ const Lookingfor = () => {
                                 <p className='fontf black font-medium font15'>Bitswits is dedicated to enhancing your digital transformation journey with highly advanced and ingenious methodologies. Utilize our scalable website development solutions to effectively expand your global presence and boost growth.</p>
 
                                 <div className={styles.way}>
-                                    <div className={styles.servbold}><Image src={websitedevelopmenticon1} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={websitedevelopmenticon2} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={websitedevelopmenticon3} className='img-fluid' /></div>
-                                    <div className={styles.servbold}><Image src={websitedevelopmenticon4} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={websitedevelopmenticon1} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={websitedevelopmenticon2} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={websitedevelopmenticon3} className='img-fluid' /></div>
+                                    <div className={styles.servbold}><Image alt="bitswits"   src={websitedevelopmenticon4} className='img-fluid' /></div>
                                    
                                 </div>
 
@@ -326,7 +326,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={web} className='img-fluid' />
+                                    <Image alt="bitswits"    src={web} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
@@ -346,10 +346,10 @@ const Lookingfor = () => {
 
 
                                 <div className={styles.way}>
-                                     <div className={styles.servbold}><Image src={icon1} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={icon2} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={icon3} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={icon4} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={icon1} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={icon2} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={icon3} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={icon4} className='img-fluid' /></div> 
                                 </div>
 
 
@@ -381,7 +381,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={blockchain} className='img-fluid' />
+                                    <Image alt="bitswits"    src={blockchain} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
@@ -398,10 +398,10 @@ const Lookingfor = () => {
                                 <p className='fontf black font-medium font15'>At Bitswits, we harness cutting-edge technology to provide unparalleled Artificial Intelligence solutions. Our team consists of highly skilled professionals who specialize in advanced research and development within the field of AI/ML.</p>
 
                                 <div className={styles.way}>
-                                     <div className={styles.servbold}><Image src={aidevelopmenticon1} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={aidevelopmenticon2} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={aidevelopmenticon3} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={aidevelopmenticon4} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={aidevelopmenticon1} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={aidevelopmenticon2} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={aidevelopmenticon3} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={aidevelopmenticon4} className='img-fluid' /></div> 
                                 </div>
 
                                 <div className={`${styles.devlp1} mt-4 mb-4`}>
@@ -431,7 +431,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={ai} className='img-fluid' />
+                                    <Image alt="bitswits"    src={ai} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>
@@ -453,10 +453,10 @@ const Lookingfor = () => {
                                 <p className='fontf black font-medium font15'>BitsWits revolutionize your digital transformation journey with highly advanced and intelligent methodologies. Utilize our scalable website development solutions to achieve efficient global growth.</p>
 
                                 <div className={styles.way}>
-                                     <div className={styles.servbold}><Image src={uiuxdevelopementicon1} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={uiuxdevelopementicon2} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={uiuxdevelopementicon3} className='img-fluid' /></div> 
-                                     <div className={styles.servbold}><Image src={uiuxdevelopementicon4} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={uiuxdevelopementicon1} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={uiuxdevelopementicon2} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={uiuxdevelopementicon3} className='img-fluid' /></div> 
+                                     <div className={styles.servbold}><Image alt="bitswits"   src={uiuxdevelopementicon4} className='img-fluid' /></div> 
                                 </div>
 
 
@@ -489,7 +489,7 @@ const Lookingfor = () => {
                             </Col>
                             <Col lg={6} className='d-none d-lg-block'>
                                 <div className={styles.output}>
-                                    <Image alt="Bitswits" src={uiux} className='img-fluid' />
+                                    <Image alt="bitswits"    src={uiux} className='img-fluid' />
                                 </div>
                             </Col>
                         </Row>

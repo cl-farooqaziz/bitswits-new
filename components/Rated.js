@@ -19,13 +19,13 @@ const Rated = () => {
                             <Row className='align-items-center justify-content-center'>
                                 <Col lg={3}>
                                     <div className={styles.people}>
-                                        <Image src={people} className="img-fluid" alt="bitswits" />
+                                        <Image alt="bitswits"   src={people} className="img-fluid"  />
                                     </div>
                                 </Col>
 
                                 <Col lg={2}>
                                     <div className={styles.new}>
-                                        <Image src={new1} className="img-fluid" alt="bitswits" />
+                                        <Image alt="bitswits"   src={new1} className="img-fluid"  />
                                         <p className="font14 white text-center">
                                             4.8 out of 5 (review rating) 
                                             Over 1,200+ reviews
@@ -35,7 +35,7 @@ const Rated = () => {
 
                                 <Col lg={3}>
                                     <div className={styles.data}>
-                                        <Image src={data} className="img-fluid" alt="bitswits" />
+                                        <Image alt="bitswits"   src={data} className="img-fluid"  />
                                         <div className="post">
                                             <h5 className="font14 white mb-0">HIGH PERFORMER</h5>
                                             <p className="font14 white mb-0">Mobile Application Team</p>
@@ -45,7 +45,7 @@ const Rated = () => {
 
                                 <Col lg={3}>
                                     <div className={styles.data}>
-                                        <Image src={data2} className="img-fluid" alt="bitswits" />
+                                        <Image alt="bitswits"   src={data2} className="img-fluid"  />
                                         <div className="post">
                                             <h5 className="font14 white mb-0">IN TOP 3 BEST RATED</h5>
                                             <p className="font14 white mb-0">Mobile &amp; Game Development </p>
@@ -56,7 +56,7 @@ const Rated = () => {
                         </Col>
                         <Col lg={12}>
                             <div className={styles.rated}>
-                                <Image src={rated} alt="bitswits" className="img-fluid" />
+                                <Image alt="bitswits"   src={rated}  className="img-fluid" />
                             </div>
                         </Col>
                     </Row>

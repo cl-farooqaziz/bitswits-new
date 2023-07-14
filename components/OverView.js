@@ -62,7 +62,7 @@ const OverView = (props) => {
                     <Row>
                         <Col lg={12} className='p-0'>
                             <div className={styles.foldImg}>
-                                <Image className='img-fluid' src={props.imagefold} alt='Bitswits' />
+                                <Image alt="bitswits"   className='img-fluid' src={props.imagefold} alt='Bitswits' />
                             </div>
                         </Col>
                     </Row>

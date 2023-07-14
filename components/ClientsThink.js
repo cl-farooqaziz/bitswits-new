@@ -60,18 +60,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg1}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-1 mb-0`}>
                                                             BitsWits was a lifesaver for our business. We needed to create an app that could be used on
@@ -113,18 +113,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg2}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>We hired mobile app developers to create a completely new mobile app for our company. The team
                                                             at BitsWits was really professional, efficient, and knowledgeable in the latest technologies and
@@ -163,18 +163,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg3}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}>Hiring Flutter app developers from BitsWits was one of the best decisions I have ever made. They
                                                             are highly skilled and knowledgeable professionals who understand customer needs and deliver
@@ -211,18 +211,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg4}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}> We're very satisfied with the results of our working relationship with BitsWits.
                                                             We were able to create a high-quality mobile app that not only met our specifications but
@@ -262,18 +262,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg5}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-3 mb-0`}> BitsWits have done a great job making an attractive and eye-catching IOS application.
                                                             I am grateful to the team for delivering this application perfectly on very short notice.
@@ -340,18 +340,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg1}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
                                                         <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
@@ -381,18 +381,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg2}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
                                                         <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
@@ -422,18 +422,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg3}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
                                                         <h5 className='font15 font-semibold fontf black mt-3 mb-0'>
@@ -463,18 +463,18 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image className='img-fluid'
+                                                    <Image alt="bitswits"   className='img-fluid'
                                                         src={slideImg4}
-                                                        alt="bitswits"
+                                                        
                                                     />
                                                 </div>
                                             </Col>
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image className='img-fluid'
+                                                        <Image alt="bitswits"   className='img-fluid'
                                                             src={slidebefore}
-                                                            alt="bitswits"
+                                                            
                                                         />
                                                         <p className={` ${styles.hight} font13 fontf black mt-2 mb-0`}>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
                                                         <h5 className='font15 font-semibold fontf black mt-3 mb-0'>

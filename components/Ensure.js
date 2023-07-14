@@ -14,7 +14,7 @@ const Ensure = (props) => {
                     <Row>
                         <Col lg={5}>
                             <div className={styles.swipeImg}>
-                                <Image src={props.foldimg} alt='bitswits' className='img-fluid' />
+                                <Image alt="bitswits"   src={props.foldimg} alt='bitswits' className='img-fluid' />
                             </div>
                         </Col>
                         <Col lg={7}>

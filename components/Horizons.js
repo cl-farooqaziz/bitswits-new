@@ -23,7 +23,7 @@ const Horizons = (props) => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.horizImg}>
-                                <Image src={props.foldImg00} alt='Bitswits' className='img-fluid' />
+                                <Image alt="bitswits"   src={props.foldImg00} alt='Bitswits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>

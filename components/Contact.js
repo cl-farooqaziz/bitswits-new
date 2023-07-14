@@ -41,7 +41,7 @@ const Contact = () => {
                                         <Link href="#"> <FaFacebookSquare className={styles.email} /></Link>
                                         <Link href="#"> <FaInstagram className={styles.email} /></Link>
                                         <Link href="#"> <FaDribbble className={styles.email} /></Link>
-                                        <Link href="#" > <Image src={icon} alt='Bitswits' className={`${styles.email}`} /> </Link>
+                                        <Link href="#" > <Image alt="bitswits"   src={icon} alt='Bitswits' className={`${styles.email}`} /> </Link>
                                         <Link href="#"> <FaPinterest className={styles.email} /></Link>
                                         <Link href="#"> <FaBehance className={styles.email} /></Link>
                                     </div>
