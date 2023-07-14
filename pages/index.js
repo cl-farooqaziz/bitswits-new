@@ -39,7 +39,7 @@ export default function Home() {
         const timeout = setTimeout(() => {
           setShowComponent(true);
     
-        }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
+        }, 4000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
     
         return () => clearTimeout(timeout);
       }
@@ -71,12 +71,13 @@ export default function Home() {
       <Rated />
       <About />
       <Yearsofexpertise />
+      <Ourservices />
+      <Lookingfor />
       {showComponent && (
         
      <>
      
-      <Ourservices />
-      <Lookingfor />
+    
       <Trusted />
       <Ourportfolio />
       <Digital />
