@@ -27,7 +27,7 @@ const HealthBanner = () => {
                                     Pharmacies are an indispensable constituent of any healthcare system, ensuring patients have access to the needed medications. In contemporary times, there has been a dramatic growth in demand for healthcare apps; mobile applications designed specifically for this sector are an industry trend on the rise. The amazing portfolio of BitsWits convinced Pro Health, a pharmaceutical company, to use our specialized pharma application development services to accomplish its objective.
                                 </p>
                                 <div>
-                                    <Image alt="bitswits"   src={foldImg00} className={`${styles.mblImg} img-fluid`}></Image>
+                                    <Image  alt="bitswits"     src={foldImg00} className={`${styles.mblImg} img-fluid`}></Image>
                                 </div>
                             </div>
                         </Col>

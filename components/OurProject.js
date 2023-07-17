@@ -66,21 +66,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Discovery</h3>
                                                 <p className='font18 fontf'>We begin every project with a discovery stage in order to identify the actual issue that has to be resolved. The reason is that “the problem well-defined is a problem half-solved.” We tend to focus on:</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Determining UX/UI goals and challenges. </p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Conducting customer research and interviews</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
@@ -95,7 +95,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={slideImg1}
                                                     
                                                 />
@@ -114,21 +114,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Define</h3>
                                                 <p className='font18 fontf'>By thoroughly analyzing the research data, we arrange it into critical focal areas and start developing objectives, user journeys, and experiences. By defining goals and objectives we focus on:</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Creating customer personas</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Discovering the current solutions for them</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
@@ -143,7 +143,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={slideImg2}
                                                     
                                                 />
@@ -162,21 +162,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Design</h3>
                                                 <p className='font18 fontf'>At this stage, we move by fusing creativity with data-driven strategies in our designs and solutions, producing a list of unique, creative, and innovative concepts. Our design team focuses on:</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Beginning the UI/UX work in Figma</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Communication and design feedback</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
@@ -191,7 +191,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={slideImg3}
                                                     
                                                 />
@@ -210,21 +210,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Test & Improve</h3>
                                                 <p className='font18 fontf'>Our Trained <span className='grdiant'>web application developers</span> emphasize on providing solutions that address the needs of the customer and their requirements through prototyping, testing, and development. It includes:</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Experimenting designs in production mode</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
                                                     <p className='font16 fontf mb-0'>Performing A/B testing</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slidebefore}
                                                         
                                                     />
@@ -239,7 +239,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={slideImg4}
                                                     
                                                 />
@@ -265,21 +265,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Discovery</h3>
                                         <p className='font18 fontf'>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>Determine UX challenges & goals</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>Conduct user research & interviews</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
@@ -294,7 +294,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={slideImg1}
                                             
                                         />
@@ -313,21 +313,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Define</h3>
                                         <p className='font18 fontf'>Through thorough research analysis, we consolidate the research data into key focus areas and begin defining goals, user journeys, and experiences.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>Building customer personas</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>Learn about their current cure / solutions</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
@@ -342,7 +342,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={slideImg2}
                                             
                                         />
@@ -361,21 +361,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Design</h3>
                                         <p className='font18 fontf'>At this stage, we diverge by blending creativity and data-driven approaches in our designs and solutions, generating a list of quirky, unique, and innovative ideas.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>UI/UX works begin in Figma</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>Communicating & feedback on designs</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
@@ -390,7 +390,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={slideImg3}
                                             
                                         />
@@ -409,21 +409,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Test & Improve</h3>
                                         <p className='font18 fontf'>Returning to convergence, we focus on delivering solutions that address user needs and pain points through prototyping, testing, and continuous improvement.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>Experiment designs in production mode</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
                                             <p className='font16 fontf mb-0'>Conduct A/B testing</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits"   className='img-fluid'
+                                            <Image  alt="bitswits"     className='img-fluid'
                                                 src={slidebefore}
                                                 
                                             />
@@ -438,7 +438,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={slideImg4}
                                             
                                         />

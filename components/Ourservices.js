@@ -157,7 +157,7 @@ const Ourservices = () => {
                         <Col lg={6} className='d-none d-lg-block'>
                             {gameshow ?
                                 <div className={styles.imgapost}>
-                                    <Image alt="bitswits"    src={icon1} className={gameshow ? styles.bottom4 : styles.bottom4} />
+                                    <Image  alt="bitswits"      src={icon1} className={gameshow ? styles.bottom4 : styles.bottom4} />
                                 </div>
                                 :
                                 ''
@@ -169,7 +169,7 @@ const Ourservices = () => {
 
                             {gameshow1 ?
                                 <div className={styles.imgapost}>
-                                    <Image alt="bitswits"    src={icon2} className={gameshow1 ? styles.bottom4 : styles.bottom4} />
+                                    <Image  alt="bitswits"      src={icon2} className={gameshow1 ? styles.bottom4 : styles.bottom4} />
                                 </div>
                                 :
                                 ''
@@ -179,7 +179,7 @@ const Ourservices = () => {
 
                             {gameshow2 ?
                                 <div className={styles.imgapost}>
-                                    <Image alt="bitswits"    src={icon3} className={gameshow2 ? styles.bottom4 : styles.bottom4} />
+                                    <Image  alt="bitswits"      src={icon3} className={gameshow2 ? styles.bottom4 : styles.bottom4} />
                                 </div>
                                 :
                                 ''
@@ -188,7 +188,7 @@ const Ourservices = () => {
 
                             {gameshow3 ?
                                 <div className={styles.imgapost}>
-                                    <Image alt="bitswits"    src={icon4} className={gameshow3 ? styles.bottom4 : styles.bottom4} />
+                                    <Image  alt="bitswits"      src={icon4} className={gameshow3 ? styles.bottom4 : styles.bottom4} />
                                 </div>
                                 :
                                 ''
@@ -197,7 +197,7 @@ const Ourservices = () => {
 
                             {gameshow4 ?
                                 <div className={styles.imgapost1}>
-                                    <Image alt="bitswits"    src={icon5} className={gameshow4 ? styles.bottom4 : styles.bottom4} />
+                                    <Image  alt="bitswits"      src={icon5} className={gameshow4 ? styles.bottom4 : styles.bottom4} />
                                 </div>
                                 :
                                 ''
@@ -205,7 +205,7 @@ const Ourservices = () => {
                             }
                             {gameshow5 ?
                                 <div className={styles.imgapost}>
-                                    <Image alt="bitswits"    src={icon6} className={gameshow5 ? styles.bottom4 : styles.bottom4} />
+                                    <Image  alt="bitswits"      src={icon6} className={gameshow5 ? styles.bottom4 : styles.bottom4} />
                                 </div>
                                 :
                                 ''

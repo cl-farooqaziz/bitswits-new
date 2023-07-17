@@ -47,7 +47,7 @@ const Ahead = (props) => {
                         </Col>
                         <Col lg={5}>
                             <div className={styles.aheadImg}>
-                                <Image alt="bitswits"   src={props.ahead} alt='bitswits' className='img-fluid' />
+                                <Image  alt="bitswits"     src={props.ahead}  className='img-fluid' />
                             </div>
                         </Col>
                     </Row>

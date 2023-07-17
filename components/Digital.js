@@ -83,7 +83,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={health}
                                                     
                                                 />
@@ -112,7 +112,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={fintech}
                                                     
                                                 />
@@ -141,7 +141,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={realState}
                                                     
                                                 />
@@ -170,7 +170,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={eCommerce}
                                                     
                                                 />
@@ -199,7 +199,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={fitness}
                                                     
                                                 />
@@ -228,7 +228,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={restaurant}
                                                     
                                                 />
@@ -257,7 +257,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={travel}
                                                     
                                                 />
@@ -287,7 +287,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={sports}
                                                     
                                                 />
@@ -316,7 +316,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={social}
                                                     
                                                 />
@@ -345,7 +345,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={business}
                                                     
                                                 />
@@ -374,7 +374,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={education}
                                                     
                                                 />
@@ -403,7 +403,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={entertanmnt}
                                                     
                                                 />
@@ -432,7 +432,7 @@ const Digital = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits"   className='img-fluid'
+                                                <Image  alt="bitswits"     className='img-fluid'
                                                     src={logistic}
                                                     
                                                 />
@@ -468,7 +468,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={health}
                                             
                                         />
@@ -497,7 +497,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={fintech}
                                             
                                         />
@@ -526,7 +526,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={realState}
                                             
                                         />
@@ -555,7 +555,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={eCommerce}
                                             
                                         />
@@ -584,7 +584,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={fitness}
                                             
                                         />
@@ -613,7 +613,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={restaurant}
                                             
                                         />
@@ -642,7 +642,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={travel}
                                             
                                         />
@@ -672,7 +672,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={sports}
                                             
                                         />
@@ -701,7 +701,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={social}
                                             
                                         />
@@ -730,7 +730,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={business}
                                             
                                         />
@@ -759,7 +759,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={education}
                                             
                                         />
@@ -788,7 +788,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={entertanmnt}
                                             
                                         />
@@ -817,7 +817,7 @@ const Digital = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits"   className='img-fluid'
+                                        <Image  alt="bitswits"     className='img-fluid'
                                             src={logistic}
                                             
                                         />

@@ -77,14 +77,14 @@ const About = () => {
                                 <Col md={3} className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon4} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon4} className='img-fluid' />
                                     </div>
 
                                     <div className={styles.toltip}>
                                         <p className='fontf font20 font-medium m-0 black'>Home,</p>
-                                        <Image alt="bitswits"   className={styles.tolImg}
+                                        <Image  alt="bitswits"     className={styles.tolImg}
                                             src={thumb1}
-                                            alt='Bitswits'
+                                            
                                         />
                                     </div>
                                 </Col>
@@ -92,14 +92,14 @@ const About = () => {
                                 <Col md={2} className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon1} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon1} className='img-fluid' />
                                     </div>
 
                                     <div className={styles.toltip}>
                                         <p className='fontf font20 font-medium m-0 black'>food,</p>
-                                        <Image alt="bitswits"   className={styles.tolImg}
+                                        <Image  alt="bitswits"     className={styles.tolImg}
                                             src={thumb2}
-                                            alt='Bitswits'
+                                            
                                         />
                                     </div>
 
@@ -109,14 +109,14 @@ const About = () => {
                                 <Col md={3} className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon6} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon6} className='img-fluid' />
                                     </div>
 
                                     <div className={styles.toltip}>
                                         <p className='fontf font20 font-medium m-0 black'>improve health,</p>
-                                        <Image alt="bitswits"   className={styles.tolImg}
+                                        <Image  alt="bitswits"     className={styles.tolImg}
                                             src={thumb3}
-                                            alt='Bitswits'
+                                            
                                         />
                                     </div>
 
@@ -125,14 +125,14 @@ const About = () => {
                                 <Col md={4} className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon5} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon5} className='img-fluid' />
                                     </div>
 
                                     <div className={styles.toltip}>
                                         <p className='fontf font20 font-medium m-0 black'>make better trade,</p>
-                                        <Image alt="bitswits"   className={styles.tolImg}
+                                        <Image  alt="bitswits"     className={styles.tolImg}
                                             src={thumb4}
-                                            alt='Bitswits'
+                                            
                                         />
                                     </div>
 
@@ -141,14 +141,14 @@ const About = () => {
                                 <Col md={3} className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon2} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon2} className='img-fluid' />
                                     </div>
 
                                     <div className={`${styles.toltip} ${styles.smlp}`}>
                                         <p className='fontf font20 font-medium m-0 black'>educate leaders,</p>
-                                        <Image alt="bitswits"   className={styles.tolImg}
+                                        <Image  alt="bitswits"     className={styles.tolImg}
                                             src={thumb5}
-                                            alt='Bitswits'
+                                            
                                         />
                                     </div>
 
@@ -157,14 +157,14 @@ const About = () => {
                                 <Col md={3} className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon3} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon3} className='img-fluid' />
                                     </div>
 
                                     <div className={styles.toltip}>
                                         <p className='fontf font20 font-medium m-0 black'>and more,</p>
-                                        <Image alt="bitswits"   className={styles.tolImg}
+                                        <Image  alt="bitswits"     className={styles.tolImg}
                                             src={thumb6}
-                                            alt='Bitswits'
+                                            
                                         />
                                     </div>
 
@@ -181,7 +181,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon4} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon4} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -193,7 +193,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon1} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon1} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -206,7 +206,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon6} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon6} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -218,7 +218,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon5} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon5} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -230,7 +230,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon2} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon2} className='img-fluid' />
                                     </div>
 
                                     <div>
@@ -242,7 +242,7 @@ const About = () => {
                                 <div className={styles.spaceimg}>
 
                                     <div>
-                                        <Image alt="bitswits"    src={icon3} className='img-fluid' />
+                                        <Image  alt="bitswits"      src={icon3} className='img-fluid' />
                                     </div>
 
                                     <div>

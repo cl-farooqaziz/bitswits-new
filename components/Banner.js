@@ -53,42 +53,42 @@ const Banner = () => {
 
                                 <Slider {...bannerslider} className={` ${styles.startup1} bannerslider mt-4`}>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits"    src={banImg1} className="img-fluid" />
+                                        <Image  alt="bitswits"      src={banImg1} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits"    src={banImg2} className="img-fluid" />
+                                        <Image  alt="bitswits"      src={banImg2} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits"    src={banImg3} className="img-fluid" />
+                                        <Image  alt="bitswits"      src={banImg3} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits"    src={banImg4} className="img-fluid" />
+                                        <Image  alt="bitswits"      src={banImg4} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits"    src={banImg5} className="img-fluid" />
+                                        <Image  alt="bitswits"      src={banImg5} className="img-fluid" />
                                     </div>
                                 </Slider>
 
                                 {/* <div className={styles.bannerimg1}>
                                     <div className={` ${styles.logo1} ${styles.logo13} `}>
-                                        <Image alt="bitswits"    loading="lazy" src={alignicon4} className={` ${styles.bottom}  img-fluid`} />
-                                        <Image alt="bitswits"    loading="lazy" src={alignicon3} className={`${styles.bottom1}  img-fluid mt-3`} />
+                                        <Image  alt="bitswits"      loading="lazy" src={alignicon4} className={` ${styles.bottom}  img-fluid`} />
+                                        <Image  alt="bitswits"      loading="lazy" src={alignicon3} className={`${styles.bottom1}  img-fluid mt-3`} />
                                     </div>
 
                                     <div className={styles.logo1}>
-                                        <Image alt="bitswits"    loading="lazy" src={alignicon} className={`${styles.bottom2} img-fluid`} />
+                                        <Image  alt="bitswits"      loading="lazy" src={alignicon} className={`${styles.bottom2} img-fluid`} />
                                     </div>
 
                                     <div className={` ${styles.logo1} ${styles.logo14} `}>
-                                        <Image alt="bitswits"    loading="lazy" src={alignicon2} className={`${styles.bottom3} img-fluid`} />
-                                        <Image alt="bitswits"    loading="lazy" src={alignicon1} className={`${styles.bottom4} img-fluid`} />
+                                        <Image  alt="bitswits"      loading="lazy" src={alignicon2} className={`${styles.bottom3} img-fluid`} />
+                                        <Image  alt="bitswits"      loading="lazy" src={alignicon1} className={`${styles.bottom4} img-fluid`} />
 
                                     </div>
                                 </div> */}
 
-                                {/* <Image alt="bitswits"    loading="lazy" src={alignicon} className="img-fluid" />
-                            <Image alt="bitswits"    loading="lazy" src={alignicon1} className="img-fluid" />
-                            <Image alt="bitswits"    loading="lazy" src={alignicon2} className="img-fluid" /> */}
+                                {/* <Image  alt="bitswits"      loading="lazy" src={alignicon} className="img-fluid" />
+                            <Image  alt="bitswits"      loading="lazy" src={alignicon1} className="img-fluid" />
+                            <Image  alt="bitswits"      loading="lazy" src={alignicon2} className="img-fluid" /> */}
                             </div>
                         </div>
                     </Col>
@@ -97,9 +97,9 @@ const Banner = () => {
 
                             <div className={`${styles.discuss} d-flex`}>
                                 <div className={styles.call}>
-                                    <Image alt="bitswits"   className='img-fluid'
+                                    <Image  alt="bitswits"     className='img-fluid'
                                         src={callIcn}
-                                        alt='bitswits'
+                                        
                                     />
                                     <p className='font13 font-semibold lightgrey fontf m-0'>
                                         Let's discuss your project:
@@ -135,7 +135,7 @@ const Banner = () => {
                                 <div className={styles.locations}>
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="bitswits"    src={icon1} className='img-fluid' />
+                                            <Image  alt="bitswits"      src={icon1} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>USA</p>
@@ -147,7 +147,7 @@ const Banner = () => {
                                     </div>
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="bitswits"    src={icon2} className='img-fluid' />
+                                            <Image  alt="bitswits"      src={icon2} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>UAE</p>
@@ -159,7 +159,7 @@ const Banner = () => {
 
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="bitswits"    src={icon4} className='img-fluid' />
+                                            <Image  alt="bitswits"      src={icon4} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>MALAYSIA</p>

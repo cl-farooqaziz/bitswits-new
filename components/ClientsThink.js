@@ -60,7 +60,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg1}
                                                         
                                                     />
@@ -69,7 +69,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -113,7 +113,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg2}
                                                         
                                                     />
@@ -122,7 +122,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -163,7 +163,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg3}
                                                         
                                                     />
@@ -172,7 +172,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -211,7 +211,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg4}
                                                         
                                                     />
@@ -220,7 +220,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -262,7 +262,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg5}
                                                         
                                                     />
@@ -271,7 +271,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -340,7 +340,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg1}
                                                         
                                                     />
@@ -349,7 +349,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -381,7 +381,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg2}
                                                         
                                                     />
@@ -390,7 +390,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -422,7 +422,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg3}
                                                         
                                                     />
@@ -431,7 +431,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
@@ -463,7 +463,7 @@ function ClientsThink() {
                                         <Row className={styles.slideRow}>
                                             <Col lg={4} className='pe-lg-0'>
                                                 <div className={styles.slideImg}>
-                                                    <Image alt="bitswits"   className='img-fluid'
+                                                    <Image  alt="bitswits"     className='img-fluid'
                                                         src={slideImg4}
                                                         
                                                     />
@@ -472,7 +472,7 @@ function ClientsThink() {
                                             <Col lg={8} className='ps-lg-0'>
                                                 <div className={styles.slideInner}>
                                                     <div className={styles.slideCntnt}>
-                                                        <Image alt="bitswits"   className='img-fluid'
+                                                        <Image  alt="bitswits"     className='img-fluid'
                                                             src={slidebefore}
                                                             
                                                         />
