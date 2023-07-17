@@ -16,9 +16,16 @@ import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
-
-
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+import Freequote from './Freequote'
+import { useState } from "react";
 const Banner = () => {
+
+    const [show, setShow] = useState(false);
+
+    function modal(e) { e.preventDefault(); setShow(true); }
+    function closemodal() { setShow(false); }
 
     var bannerslider = {
         dots: false,
@@ -44,7 +51,7 @@ const Banner = () => {
                             <p className='black fontf font-medium line30'>Rationalize your gaming and <span className='grdiant'> mobile app development </span> experience <br></br>  with our affordable packages and prompt deliveries. </p>
 
                             <div className={`${styles.bttnsto} mt-3`}>
-                                <Link className={styles.bttns1} href="#">Book A Call</Link>
+                                <Link className={styles.bttns1} onClick={modal} href="#">Book A Call</Link>
                                 <Link className={styles.bttns2} href="#">Live Chat </Link>
                             </div>
 
@@ -177,6 +184,15 @@ const Banner = () => {
                     </Col>
                 </Row>
             </Container>
+
+
+
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                    <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
+
+
+                </Modal>
+
         </section>
 
 
