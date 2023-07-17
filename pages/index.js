@@ -31,31 +31,31 @@ export default function Home() {
   //   return () => clearTimeout(timeout);
   // }, []);
 
-  const [showComponent, setShowComponent] = useState(true);
+  // const [showComponent, setShowComponent] = useState(true);
 
-  useEffect(() => {
-    const handleResize = () => {
-   
-      if (window.innerWidth <= 480) {
-        setShowComponent(false);
-        const timeout = setTimeout(() => {
-         setShowComponent(true);
-       
+  // useEffect(() => {
+  //   const handleResize = () => {
 
-        }, 5000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
+  //     if (window.innerWidth <= 480) {
+  //       setShowComponent(false);
+  //       const timeout = setTimeout(() => {
+  //        setShowComponent(true);
 
-        return () => clearTimeout(timeout);
-      }
-    };
 
-    // Attach the event listener
-    window.addEventListener('resize', handleResize);
+  //       }, 5000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
 
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  //       return () => clearTimeout(timeout);
+  //     }
+  //   };
+
+  //   // Attach the event listener
+  //   window.addEventListener('resize', handleResize);
+
+  //   // Clean up the event listener on component unmount
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
 
 
 
@@ -76,7 +76,15 @@ export default function Home() {
       <Yearsofexpertise />
       <Ourservices />
       <Lookingfor />
-      {showComponent && (
+      <Trusted />
+      <Ourportfolio />
+      <Digital />
+      <ClientsThink />
+      <Nextproject />
+      <Ourblogs />
+      <OurProject />
+      <Contact />
+      {/* {showComponent && (
         <>
 
           <Trusted />
@@ -88,7 +96,7 @@ export default function Home() {
           <OurProject />
           <Contact />
         </>
-      )}
+      )} */}
 
 
 
