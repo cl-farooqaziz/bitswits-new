@@ -25,16 +25,17 @@ const ServicesBanner = (props) => {
 
                             {props.para}
 
-
                             {props.para2 ?
 
-                                props.para2 
+                                props.para2
 
 
                                 :
 
                                 ''
                             }
+
+                            {props.para3}
 
                             <div className={`${styles.bttnsto} mt-3`}>
                                 <Link className={styles.bttns1} href="#">Book A Call</Link>
@@ -46,7 +47,7 @@ const ServicesBanner = (props) => {
 
                             <div className={styles.srvcBannerImg}>
                                 <div className={styles.logo14}>
-                                    <Image  alt="bitswits"      loading="lazy" src={props.bannerimg} className={`${styles.bottom3} img-fluid`} />
+                                    <Image alt="bitswits" loading="lazy" src={props.bannerimg} className={`${styles.bottom3} img-fluid`} />
                                 </div>
                             </div>
                         </div>
@@ -56,9 +57,9 @@ const ServicesBanner = (props) => {
 
                             <div className={`${styles.discuss} d-flex`}>
                                 <div className={styles.call}>
-                                    <Image  alt="bitswits"     className='img-fluid'
+                                    <Image alt="bitswits" className='img-fluid'
                                         src={callIcn}
-                                        
+
                                     />
                                     <p className='font13 font-semibold lightgrey fontf m-0'>
                                         Let's discuss your project:
@@ -94,7 +95,7 @@ const ServicesBanner = (props) => {
                                 <div className={styles.locations}>
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image  alt="bitswits"      src={icon1} className='img-fluid' />
+                                            <Image alt="bitswits" src={icon1} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>USA</p>
@@ -106,7 +107,7 @@ const ServicesBanner = (props) => {
                                     </div>
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image  alt="bitswits"      src={icon2} className='img-fluid' />
+                                            <Image alt="bitswits" src={icon2} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>UAE</p>
@@ -118,7 +119,7 @@ const ServicesBanner = (props) => {
 
                                     <div className={`${styles.locInner}`}>
                                         <div className={styles.locImg}>
-                                            <Image  alt="bitswits"      src={icon4} className='img-fluid' />
+                                            <Image alt="bitswits" src={icon4} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>MALAYSIA</p>

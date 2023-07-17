@@ -17,14 +17,18 @@ import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
 
 
-export default function blockchainappdevelopment() {
+export default function cryptocurrencydevelopment() {
 
 
     // banner component data
 
-    const heading = <div className='font65 black fontf font-bold line60 mt-5'>Put Your Trust in BitsWits, a Reliable  <h1 className='grdiant font65 black fontf font-bold line60 displayline'>Blockchain App Development Company</h1>!</div>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Building a Secure and Efficient Crypto World with a Reliable <span className='grdiant'>Cryptocurrency Development Company</span>!</h1>
 
-    const para = <p className='black fontf font-medium line30 mt-3'>With an extensive track record of decades, BitsWits, a leading blockchain app development agency, is committed to delivering advanced app solutions to businesses. Our team of top blockchain app developers specializes in creating exceptional web, mobile, and web3 applications, offering innovative designs and development solutions that drive growth and maximize return on investment.  </p>
+    const para = <p className='black fontf font-medium line30 mt-3'>BitsWits, a leading cryptocurrency development company, specializes in the creation and development of cryptocurrencies and blockchain applications.</p>
+
+    const para2 = <p className='black fontf font-medium line30 mt-3'>We specialize in blockchain technology, cryptography, smart contract development, token creation, and wallet development.</p>
+
+    const para3 = <p className='black fontf font-medium line30 mt-3'>Schedule a meeting with our cryptocurrency consultant now and avail a free strategy session!</p>
 
 
     // coverage component data
@@ -106,37 +110,29 @@ export default function blockchainappdevelopment() {
 
     // Swipe component data
 
-    const swip = <div className='font30 black fontf font-bold line40 black'>
-        Enhancing Web3 Experiences with Innovative <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Blockchain App Development Services</h2> By BitsWits!
-    </div>
+    const swip = <h2 className='font30 black fontf font-bold line40 black'>Connecting Communities with Peer-to-Peer Transactions Through <span className='grdiant'>Cryptocurrency App Development</span>!</h2>
 
+    const aheadtitle = <h2 className='font30 black fontf font-bold line40 black'>Building Trust in the Digital Age with Smart Contracts at <span className='grdiant'>BitsWits</span>!</h2>
 
-    const aheadtitle = <div className='font30 black fontf font-bold line40 black'><h2 className='font30 black fontf font-bold line40 black displayline'>Hire The Best Blockchain App Development Services</h2>!</div>
-
-
-    const ensine = <div className='font30 black fontf font-bold line40 black mb-2'>
-        Hire BitsWits for  <h2 className='font30 black fontf font-bold line40 black displayline grdiant'>Blockchain App Development,</h2> Your Gateway to Success in Any Industry!
-    </div>
-
+    const ensine = <h2 className='font30 black fontf font-bold line40 black'>Accelerating Growth Through Fundraising with <span className='grdiant'>Cryptocurrency Application Development Solutions</span>!</h2>
 
     // =================== //
 
-    const swpTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>Smooth Integration of Add-ons in Blockchain Apps</h3>
+    const swpTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>Fast and Low-Cost Transactions</h3>
 
-    const swpTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Custom Enterprise Grade Blockchain Solutions</h3>
-
-    // =================== //
-
-    const ahdTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>DApp Development</h3>
-
-    const ahdTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>IEO & ICO Services</h3>
+    const swpTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Security and Trust</h3>
 
     // =================== //
 
-    const enshrTtl = <h2 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Smart Contract Development</h2>
+    const ahdTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Programming Languages for Smart Contracts</h3>
 
-    const enshrTtl2 = <h2 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>Blockchain Game Development</h2>
+    const ahdTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Minimizing Mistakes with Smart Contracts</h3>
 
+    // =================== //
+
+    const enshrTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Initial Coin Offerings (ICOs)</h3>
+
+    const enshrTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>Decentralized Crowdfunding Platforms</h3>
 
     return (
         <>
@@ -150,6 +146,8 @@ export default function blockchainappdevelopment() {
             <Banner
                 title={heading}
                 para={para}
+                para2={para2}
+                para3={para3}
                 bannerimg={banImg}
             />
 
@@ -165,25 +163,23 @@ export default function blockchainappdevelopment() {
             <Swipe
                 foldimg={foldimg}
                 title={swip}
-                para='We help businesses utilize blockchain technology in their operations to make things run smoother and safer. At BitsWits, we can create secure apps and online platforms for businesses. We store data using blockchain, which means it can`t be changed. We also use encryption and cryptography to keep data safe when it`s being sent or stored.'
+                para='BitsWits, the top cryptocurrency app development company, offers direct peer-to-peer transactions without the need for brokers like banks. This assists users to rapidly and cheaply send and receive money straight to any individual, anywhere in the entire world.'
                 subtitle={swpTtl}
-                subpara='Hire best blockchain developers, capable of creating scalable blockchain applications. These apps will incorporate multiple add-ons and connect smoothly with diverse features, catering to every industry and niche.'
+                subpara='In comparison to standard banking systems, peer-to-peer cryptocurrency transactions are often quicker and have lesser transaction costs. Our team  explores the benefits of cryptocurrencies in terms of speed and cost for facilitating effective peer-to-peer transactions.'
                 subtitle2={swpTtl2}
-                subpara2='Hire BitsWits to develop custom blockchain solutions for your company using enterprise-grade blockchain that improve data traceability and security while completely eliminating the need for third-party entities.'
-
+                subpara2='Cryptocurrency development services at BitsWits, provide trust and security through blockchain technology and draws attention to the transparency of transactions and cryptographic safety precautions made possible by the usage of cryptocurrency.'
             />
 
 
 
             <Ahead
                 title={aheadtitle}
-                para='With our blockchain development services, your organization will grow by integrating blockchain technology in custom apps for your business. Hire the top blockchain developers who specialize in developing unique solutions that will change your data management practices.'
+                para='BitsWits is a cryptocurrency development company where certain cryptocurrencies like Ethereum support smart contracts. Smart contracts have specified criteria that are built into the contract`s code. When specified situations meet the criteria, they automatically carry out transactions and agreements, eliminating the need for intermediates.'
                 subtitle={ahdTtl}
-                subpara='Step into the future of decentralized business operations with our blockchain Dapp development services, which are designed to improve your company`s performance.'
+                subpara='BitsWits utilizes a certain set of computer languages to create smart contracts. Popular programming languages are used to create smart contracts on various blockchain systems, including Vyper, Solidity (the language used in Ethereum), and others.'
                 subtitle2={ahdTtl2}
-                subpara2='Our all-inclusive IEO and ICO services provide smart strategies for investors, generating crypto assets securely and boosting their distribution in target markets.'
+                subpara2='Our cryptocurrency development company offers smart contracts which are more efficient, cheaper, and more secure. They speed up and improve the reliability of transactions by optimizing procedures, lowering human error, and getting rid of the need for intermediaries.'
                 ahead={aheadimage}
-
             />
 
 
@@ -191,14 +187,11 @@ export default function blockchainappdevelopment() {
             <Ensure
                 foldimg={foldensure}
                 title={ensine}
-                para='Hire BitsWits for blockchain app development to gain an edge over your competitors. Our customized blockchain solutions and specialized developers cater to any industry, niche, and deliver success in your digital initiatives.'
+                para='BitsWits, a reputable cryptocurrency app development company, provides users with two revolutionary forms of fundraising, initial coin offerings (ICOs) and security token offerings (STOs). Using these techniques, organizations can raise money by creating and trading their own digital tokens or currencies.'
                 subtitle={enshrTtl}
-                subpara='Hire blockchain developers in US with smart contract development expertise. We have successfully developed many kinds of smart contracts that enable conflict-free business operations and transactions.'
+                subpara='Our cryptocurrency development services offer ICOs, BitsWits revolutionized fundraising by allowing projects to raise capital through the sale of their own digital tokens. ICO funding process includes the development of tokens and token sales which are provided by our team of experts.'
                 subtitle2={enshrTtl2}
-                subpara2='We create strong gaming infrastructures supported by blockchain technology. Because of their scalability and long-term profitability, these infrastructures attract a wide spectrum of users.'
-
-
-
+                subpara2='Decentralized crowdfunding systems based on blockchain technology enable peer-to-peer fundraising. It helps reach investors from around the world and enhances transparency by recording all transactions on an immutable ledger.'
             />
             <OurProject />
             <ClientsThink />

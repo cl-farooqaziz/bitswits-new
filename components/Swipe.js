@@ -14,14 +14,12 @@ const Swipe = (props) => {
                     <Row>
                         <Col lg={5}>
                             <div className={styles.swipeImg}>
-                                <Image  alt="bitswits"     src={props.foldimg}  className='img-fluid' />
+                                <Image alt="bitswits" src={props.foldimg} className='img-fluid' />
                             </div>
                         </Col>
                         <Col lg={7}>
                             <div className={styles.swipeTxt}>
-                                <h2 className='font30 black fontf font-bold line40 black'>
-                                    {props.title}
-                                </h2>
+                                {props.title}
                                 <p className='black fontf font-medium line30'>
                                     {props.para}
                                 </p>
