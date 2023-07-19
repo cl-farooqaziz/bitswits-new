@@ -369,11 +369,11 @@ const Freequote = () => {
               <h3 className='center mb-4'>What type of project is this?</h3>
 
               {error && <p className={styles.error}>{error}</p>}
-
-
+           
 
               <Form.Check
                 type='radio'
+                id="Application - business"
                 label='Application - business'
                 name='pro'
                 value='Application - business'
@@ -383,6 +383,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='Application - game'
+                id="Application - game"
                 name='pro'
                 value='Application - game'
                 checked={selectedOption === 'Application - game'}
@@ -391,6 +392,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='Application - mobile commerce'
+                id="Application - mobile commerce"
                 name='pro'
                 value='Application - mobile commerce'
                 checked={selectedOption === 'Application - mobile commerce'}
@@ -399,6 +401,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='Application - social media'
+                id="Application - social media"
                 name='pro'
                 value='Application - social media'
                 checked={selectedOption === 'Application - social media'}
@@ -407,6 +410,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='Application - utility'
+                id="Application - utility"
                 name='pro'
                 value='Application - utility'
                 checked={selectedOption === 'Application - utility'}
@@ -415,6 +419,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='Application - other'
+                id="Application - other"
                 name='pro'
                 value='Application - other'
                 checked={selectedOption === 'Application - other'}
@@ -423,6 +428,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='Plug-in'
+                id="Plug-in"
                 name='pro'
                 value='Plug-in'
                 checked={selectedOption === 'Plug-in'}
@@ -458,6 +464,7 @@ const Freequote = () => {
                 <Form.Check
                   type='radio'
                   label='Develop a Plug-in'
+                  id="Develop a Plug-in"
                   name="develop"
                   value='Develop a Plug-in'
                   checked={selectedOption1 === 'Develop a Plug-in'}
@@ -471,6 +478,7 @@ const Freequote = () => {
                 <Form.Check
                   type='radio'
                   label='Develop a new app'
+                  id="Develop a new app"
                   name="develop"
                   value='Develop a new app'
                   checked={selectedOption1 === 'Develop a new app'}
@@ -487,6 +495,7 @@ const Freequote = () => {
                 <Form.Check
                   type='radio'
                   label='Change a plug-in that already exists'
+                  id="Change a plug-in that already exists"
                   name="develop"
                   value='Change a plug-in that already exists'
                   checked={selectedOption1 === 'Change a plug-in that already exists'}
@@ -497,6 +506,7 @@ const Freequote = () => {
                 <Form.Check
                   type='radio'
                   label='Changes to an app that already exists'
+                  id="Changes to an app that already exists"
                   name="develop"
                   value='Changes to an app that already exists'
                   checked={selectedOption1 === 'Changes to an app that already exists'}
@@ -512,6 +522,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='I would like to discuss this with the pro'
+                id="I would like to discuss this with the pro"
                 name="develop"
                 value='I would like to discuss this with the pro'
                 checked={selectedOption1 === 'I would like to discuss this with the pro'}
@@ -547,7 +558,7 @@ const Freequote = () => {
 
                   <Form.Check
                     type='checkbox'
-                    id='checkbox'
+                    id='Android'
                     label='Android'
                     name="needed"
                     value='Android'
@@ -562,7 +573,7 @@ const Freequote = () => {
                   />
                   <Form.Check
                     type='checkbox'
-                    id='checkbox'
+                    id='Windows store'
                     label='Windows store'
                     name="needed"
                     value='Windows store'
@@ -659,7 +670,7 @@ const Freequote = () => {
 
               <Form.Check
                 type='checkbox'
-                id='checkbox'
+                id='.NET'
                 label='.NET'
                 name="consider"
                 value='.NET'
@@ -673,7 +684,7 @@ const Freequote = () => {
               />
               <Form.Check
                 type='checkbox'
-                id='checkbox'
+                id='C#'
                 label='C#'
                 name="consider"
                 value='C#'
@@ -682,7 +693,7 @@ const Freequote = () => {
 
               <Form.Check
                 type='checkbox'
-                id='checkbox'
+                id='Java ME'
                 label='Java ME'
                 name="consider"
                 value='Java ME'
@@ -690,7 +701,7 @@ const Freequote = () => {
 
               <Form.Check
                 type='checkbox'
-                id='checkbox'
+                id='Objective C'
                 label='Objective C'
                 name="consider"
                 value='Objective C'
@@ -698,7 +709,7 @@ const Freequote = () => {
 
               <Form.Check
                 type='checkbox'
-                id='checkbox'
+                id='Swift'
                 label='Swift'
                 name="consider"
                 value='Swift'
@@ -707,7 +718,7 @@ const Freequote = () => {
 
               <Form.Check
                 type='checkbox'
-                id='checkbox'
+                id='I`m not sure'
                 label='I`m not sure'
                 name="consider"
                 value='I`m not sure'
@@ -715,7 +726,7 @@ const Freequote = () => {
 
               <Form.Check
                 type='checkbox'
-                id='checkbox'
+                id='I`m looking for guidance from the pro'
                 label='I`m looking for guidance from the pro'
                 name="consider"
                 value='I`m looking for guidance from the pro'
@@ -747,6 +758,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='Yes'
+                id='Yes'
                 value='Yes'
                 name="mind"
                 checked={selectedOption3 === 'Yes'}
@@ -755,6 +767,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='No - I need guidance from the pro'
+                id='No - I need guidance from the pro'
                 name="mind"
                 value='No - I need guidance from the pro'
                 checked={selectedOption3 === 'No - I need guidance from the pro'}
@@ -763,6 +776,7 @@ const Freequote = () => {
               <Form.Check
                 type='radio'
                 label='I`m not sure'
+                id='I`m not sure'
                 name="mind"
                 value='I`m not sure'
                 checked={selectedOption3 === 'I`m not sure'}
@@ -800,50 +814,56 @@ const Freequote = () => {
 
                   <Form.Check
                     type='radio'
-                    label='Less than £1,000'
+                    label='Less than $1,000'
+                    id='Less than $1,000'
                     name="nextpro"
-                    value='Less than £1,000'
-                    checked={selectedOption4 === 'Less than £1,000'}
+                    value='Less than $1,000'
+                    checked={selectedOption4 === 'Less than $1,000'}
                     onChange={handleOptionChange4}
                   />
                   <Form.Check
                     type='radio'
-                    label='£1,000 - £2,999'
+                    label='$1,000 - $2,999'
+                    id='$1,000 - $2,999'
                     name="nextpro"
-                    value='£1,000 - £2,999'
-                    checked={selectedOption4 === '£1,000 - £2,999'}
+                    value='$1,000 - $2,999'
+                    checked={selectedOption4 === '$1,000 - $2,999'}
                     onChange={handleOptionChange4}
                   />
                   <Form.Check
                     type='radio'
-                    label='£3,000 - £4,999'
+                    label='$3,000 - $4,999'
+                    id='$3,000 - $4,999'
                     name="nextpro"
-                    value='£3,000 - £4,999'
-                    checked={selectedOption4 === '£3,000 - £4,999'}
+                    value='$3,000 - $4,999'
+                    checked={selectedOption4 === '$3,000 - $4,999'}
                     onChange={handleOptionChange4}
                   />
                   <Form.Check
                     type='radio'
-                    label='£5,000 - £9,999'
+                    label='$5,000 - $9,999'
+                    id='$5,000 - $9,999'
                     name="nextpro"
-                    value='£5,000 - £9,999'
-                    checked={selectedOption4 === '£5,000 - £9,999'}
+                    value='$5,000 - $9,999'
+                    checked={selectedOption4 === '$5,000 - $9,999'}
                     onChange={handleOptionChange4}
                   />
                   <Form.Check
                     type='radio'
-                    label='£10,000 - £19,999'
+                    label='$10,000 - $19,999'
+                    id='$10,000 - $19,999'
                     name="nextpro"
-                    value='£10,000 - £19,999'
-                    checked={selectedOption4 === '£10,000 - £19,999'}
+                    value='$10,000 - $19,999'
+                    checked={selectedOption4 === '$10,000 - $19,999'}
                     onChange={handleOptionChange4}
                   />
                   <Form.Check
                     type='radio'
-                    label='£20,000 or more'
+                    label='$20,000 or more'
+                    id='$20,000 or more'
                     name="nextpro"
-                    value='£20,000 or more'
-                    checked={selectedOption4 === '£20,000 or more'}
+                    value='$20,000 or more'
+                    checked={selectedOption4 === '$20,000 or more'}
                     onChange={handleOptionChange4}
                   />
 
@@ -871,6 +891,7 @@ const Freequote = () => {
                   <Form.Check
                     type='radio'
                     label='ASAP'
+                    id='ASAP'
                     name="begin"
                     value='ASAP'
                     checked={selectedOption5 === 'ASAP'}
@@ -879,6 +900,7 @@ const Freequote = () => {
                   <Form.Check
                     type='radio'
                     label='Within a week'
+                    id='Within a week'
                     name="begin"
                     value='Within a week'
                     checked={selectedOption5 === 'Within a week'}
@@ -887,6 +909,7 @@ const Freequote = () => {
                   <Form.Check
                     type='radio'
                     label='Within 2 weeks'
+                    id='Within 2 weeks'
                     name="begin"
                     value='Within 2 weeks'
                     checked={selectedOption5 === 'Within 2 weeks'}
@@ -895,6 +918,7 @@ const Freequote = () => {
                   <Form.Check
                     type='radio'
                     label='Within a month'
+                    id='Within a month'
                     name="begin"
                     value='Within a month'
                     checked={selectedOption5 === 'Within a month'}
@@ -903,6 +927,7 @@ const Freequote = () => {
                   <Form.Check
                     type='radio'
                     label='Within 2 months'
+                    id='Within 2 months'
                     name="begin"
                     value='Within 2 months'
                     checked={selectedOption5 === 'Within 2 months'}
@@ -911,6 +936,7 @@ const Freequote = () => {
                   <Form.Check
                     type='radio'
                     label='Within 3 months'
+                    id='Within 3 months'
                     name="begin"
                     value='Within 3 months'
                     checked={selectedOption5 === 'Within 3 months'}
@@ -919,6 +945,7 @@ const Freequote = () => {
                   <Form.Check
                     type='radio'
                     label='I`m not sure'
+                    id='I`m not sure'
                     name="begin"
                     value='I`m not sure'
                     checked={selectedOption5 === 'I`m not sure'}
@@ -959,39 +986,18 @@ const Freequote = () => {
 
               <Form.Check
                 type='radio'
-                label='I`m ready to hire now'
-                value='I`m ready to hire now'
+                label='I`m ready to start now'
+                id='I`m ready to start now'
+                value='I`m ready to start now'
                 name="likely"
-                checked={selectedOption6 === 'I`m ready to hire now'}
+                checked={selectedOption6 === 'I`m ready to start now'}
                 onChange={handleOptionChange6}
               />
-              <Form.Check
-                type='radio'
-                label='I`m definitely going to hire someone'
-                value='I`m definitely going to hire someone'
-                name="likely"
-                checked={selectedOption6 === 'I`m definitely going to hire someone'}
-                onChange={handleOptionChange6}
-              />
-              <Form.Check
-                type='radio'
-                label='I`m likely to hire someone'
-                value='I`m likely to hire someone'
-                name="likely"
-                checked={selectedOption6 === 'I`m likely to hire someone'}
-                onChange={handleOptionChange6}
-              />
-              <Form.Check
-                type='radio'
-                label='I will possibly hire someone'
-                value='I will possibly hire someone'
-                name="likely"
-                checked={selectedOption6 === 'I will possibly hire someone'}
-                onChange={handleOptionChange6}
-              />
+          
               <Form.Check
                 type='radio'
                 label='I`m planning and researching'
+                id='I`m planning and researching'
                 value='I`m planning and researching'
                 name="likely"
                 checked={selectedOption6 === 'I`m planning and researching'}

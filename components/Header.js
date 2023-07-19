@@ -6,6 +6,8 @@ import { Row, Col } from 'react-bootstrap'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
+import Modal from 'react-bootstrap/Modal';
+import Freequote from '../components/Freequote'
 //images
 import logo from '../public/images/icons/logo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
@@ -42,8 +44,14 @@ import ride from '../public/images/icons/ride.png'
 import bactria from '../public/images/icons/bactria.png'
 
 
+
 const Header = () => {
 
+
+    const [show, setShow] = useState(false);
+
+    function modal(e) { e.preventDefault(); setShow(true); }
+    function closemodal() { setShow(false); }
 
     const opnen = () => {
         window.open('../companyprofile.pdf', '_blank');
@@ -1429,7 +1437,7 @@ const Header = () => {
                             </div>
                         </li>
                         <li className={`${styles.navList} ${styles.inqBtn}`} onClick={handleMenu}>
-                            <Link href='#'>ENQUIRE NOW</Link>
+                            <Link onClick={modal} href='#'>ENQUIRE NOW</Link>
                         </li>
                         <li>
                             <div className={styles.mbInq}>
@@ -1474,7 +1482,16 @@ const Header = () => {
                         <span className={isActive ? `${styles.line} ${styles.line3}` : `${styles.line}`}></span>
                     </div>
                 </nav>
+
+                <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
+            </Modal>
+
+
             </header>
+
+            
+           
         </>
     )
 }
