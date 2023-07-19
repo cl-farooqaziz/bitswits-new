@@ -963,6 +963,11 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 767px) {
+
+  .modal-content {
+    border-radius: unset!important;
+    width: unset!important;
+}
   .slideImg {
     display: flex;
     align-items: center;
