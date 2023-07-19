@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
+import React, { useState, useEffect } from 'react'; 
+import Link from 'next/link';
 import banImg from '../public/images/banner/webBanner.png'
 import foldimg from '../public/images/services/webSwipe.svg'
 import foldensure from '../public/images/services/webEnsure.svg'

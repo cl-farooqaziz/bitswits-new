@@ -3,99 +3,30 @@ import styles from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 //images
-import banImg1 from '../public/images/banner/bannerImg1.png'
-import banImg2 from '../public/images/banner/bannerImg2.png'
-import banImg3 from '../public/images/banner/bannerImg1.png'
-import banImg4 from '../public/images/banner/bannerImg2.png'
-import banImg5 from '../public/images/banner/bannerImg1.png'
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
-import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
-import Freequote from './Freequote'
-import { useState } from "react";
-const Banner = () => {
 
-    const [show, setShow] = useState(false);
 
-    function modal(e) { e.preventDefault(); setShow(true); }
-    function closemodal() { setShow(false); }
-
-    var bannerslider = {
-        dots: false,
-        arrows: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 20000,
-        pauseOnHover: false,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        slidesToScroll: 1
-
-    };
+const ServicesBanner = (props) => {
 
     return (
-        <section className={styles.banner}>
+        <section className={`${styles.banner} ${styles.blkChnDev}`}>
             <Container fluid>
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
                         <div className={styles.banerTxt}>
-                            <h1 className='font65 black fontf font-bold line60'> Affordable <span className='grdiant'> Website</span> <br></br> <span className='grdiant'>Mobile App</span> & <span className='grdiant'>Game</span><br></br> Development</h1>
-                            <p className='black fontf font-medium line30'>Rationalize your gaming and <span className='grdiant'> mobile app development </span> experience <br></br>  with our affordable packages and prompt deliveries. </p>
+                            <h1 className='font60 black fontf font-bold line60 mb-4'>
+                                Blockchain <br /> Development <br /> Company
+                            </h1>
+
+                            <p className='font18 black fontf font-medium line30'>Yudiz is a leading blockchain development company providing intelligent services with smooth implementation of blockchain technology in business organizations. We believe in facilitating a digitally empowered environment for fast and secure data transactions across the globe with custom-developed blockchain solutions. Hire the best blockchain developers who are skilled in developing disruptive business solutions for revolutionizing the data-enabled era.</p>
 
                             <div className={`${styles.bttnsto} mt-3`}>
-                                <Link className={styles.bttns1} onClick={modal} href="#">Book A Call</Link>
-                                <Link className={styles.bttns2} href="#">Live Chat </Link>
-                            </div>
-
-
-                            <div className={styles.bannerimg2}>
-
-                                <Slider {...bannerslider} className={` ${styles.startup1} bannerslider mt-4`}>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg1} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg2} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg3} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg4} className="img-fluid" />
-                                    </div>
-                                    <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg5} className="img-fluid" />
-                                    </div>
-                                </Slider>
-
-                                {/* <div className={styles.bannerimg1}>
-                                    <div className={` ${styles.logo1} ${styles.logo13} `}>
-                                        <Image  alt="bitswits"      loading="lazy" src={alignicon4} className={` ${styles.bottom}  img-fluid`} />
-                                        <Image  alt="bitswits"      loading="lazy" src={alignicon3} className={`${styles.bottom1}  img-fluid mt-3`} />
-                                    </div>
-
-                                    <div className={styles.logo1}>
-                                        <Image  alt="bitswits"      loading="lazy" src={alignicon} className={`${styles.bottom2} img-fluid`} />
-                                    </div>
-
-                                    <div className={` ${styles.logo1} ${styles.logo14} `}>
-                                        <Image  alt="bitswits"      loading="lazy" src={alignicon2} className={`${styles.bottom3} img-fluid`} />
-                                        <Image  alt="bitswits"      loading="lazy" src={alignicon1} className={`${styles.bottom4} img-fluid`} />
-
-                                    </div>
-                                </div> */}
-
-                                {/* <Image  alt="bitswits"      loading="lazy" src={alignicon} className="img-fluid" />
-                            <Image  alt="bitswits"      loading="lazy" src={alignicon1} className="img-fluid" />
-                            <Image  alt="bitswits"      loading="lazy" src={alignicon2} className="img-fluid" /> */}
+                                <Link className={styles.bttns1} href="#">Book A Call</Link>
+                                <Link className={styles.bttns2} href="#">Chat With Us Online! </Link>
                             </div>
                         </div>
                     </Col>
@@ -178,23 +109,12 @@ const Banner = () => {
                                 </div>
 
                             </div>
-
-
                         </div>
                     </Col>
                 </Row>
             </Container>
-
-
-            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-                <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
-
-
-            </Modal>
-
         </section>
-
     )
 }
 
-export default Banner
+export default ServicesBanner
