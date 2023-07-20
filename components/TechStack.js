@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from '@/styles/TechStack.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import { RxArrowRight } from 'react-icons/rx'
 //images
 import icon1 from '../public/images/BlockchainDvelpment/framwork/framework.png'
 import icon2 from '../public/images/BlockchainDvelpment/tools/tools.png'
