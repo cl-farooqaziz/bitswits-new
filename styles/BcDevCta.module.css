@@ -1,3 +1,7 @@
+.cta1 {
+  padding: 0 0 50px 0;
+}
+
 .cta1 .ctaRow {
   background-image: url(../public/images/BlockchainDvelpment/cta/cta1.png);
   background-repeat: no-repeat;
@@ -5,7 +9,6 @@
   background-size: cover;
   padding: 50px 0;
   border-radius: 30px;
-  margin-bottom: 50px;
 }
 
 .bttnsto {
@@ -60,4 +63,114 @@
   transition: background-color 1s;
   background-color: #fff;
   color: #000;
+}
+
+/* ===========cta2============= */
+
+.cta2 {
+  padding: 60px 0;
+}
+
+.cta2 .ctaRow {
+  background-color: #fff8e5;
+  border-radius: 30px;
+  padding: 40px 60px 30px;
+  align-items: center;
+}
+
+.cta2 h5 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #0c1d3d;
+}
+
+.cta2 h5 span {
+  font-weight: 800;
+  display: block;
+}
+
+.cta2 .bttnsto {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cta2 .bttnsto .bttns1 {
+  border-color: #000;
+  color: #000;
+}
+
+.cta2 .bttnsto .bttns1:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* ===========cta3============= */
+
+.cta3 {
+  background-color: #ebf5ff;
+  padding: 60px 0;
+}
+
+.cta3 .ctaRow {
+  background-color: #d3e7fe;
+  padding: 40px 20px;
+  border-radius: 24px;
+  align-items: center;
+}
+
+.cta3 h5 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 800;
+  color: #0c1d3d;
+}
+
+.cta3 .bttnsto {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cta3 .bttnsto .bttns1 {
+  border-color: #000;
+  color: #000;
+}
+
+.cta3 .bttnsto .bttns1:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.cta3 .imgBox {
+  width: 98%;
+  margin: 0 auto;
+}
+
+/* ===========cta4============= */
+
+.cta4 {
+  background-image: url(../public/images/BlockchainDvelpment/cta/cta4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.cta4 .ctaRow {
+  justify-content: space-between;
+}
+
+.cta4 .bttnsto {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cta4 .bttnsto .bttns1 {
+  border-color: #fff;
+  color: #fff;
+}
+
+.cta4 .bttnsto .bttns1:hover {
+  color: #000;
+  background-color: #fff;
 }

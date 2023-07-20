@@ -1,0 +1,16 @@
+.industry {
+  background-color: #f3fcf4;
+  padding: 85px 0;
+}
+
+.indusImgbox {
+  text-align: center;
+}
+
+.indusImgbox img {
+  width: 75%;
+}
+
+.industxt {
+  width: 80%;
+}

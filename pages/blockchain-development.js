@@ -5,6 +5,14 @@ import BlckChainDevBanner from '@/components/BlckChainDevBanner'
 import BcDevSolution from '@/components/BcDevSolution'
 import BcDevCta1 from '@/components/BcDevCta1'
 import TechStack from '@/components/TechStack'
+import Industry from '@/components/Industry'
+import BcDevCta2 from '@/components/BcDevCta2'
+import Expertise from '@/components/Expertise'
+import Altruist from '@/components/Altruist'
+import BcDevCta3 from '@/components/BcDevCta3'
+import Streamlining from '@/components/Streamlining'
+import Yudiz from '@/components/Yudiz'
+import BcDevCta4 from '@/components/BcDevCta4'
 
 export default function blockchaindevelopment() {
     return (
@@ -18,8 +26,16 @@ export default function blockchaindevelopment() {
 
             <BlckChainDevBanner />
             <BcDevSolution />
-            <BcDevCta1 /> 
-            <TechStack /> 
+            <BcDevCta1 />
+            <TechStack />
+            <Industry />
+            <BcDevCta2 />
+            <Expertise />
+            <Altruist />
+            <BcDevCta3 />
+            <Streamlining />
+            <Yudiz />
+            <BcDevCta4 />
 
         </>
     )

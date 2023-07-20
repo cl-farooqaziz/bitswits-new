@@ -97,6 +97,7 @@ body {
 
 .font16 {
   font-size: 16px;
+  line-height: 26px;
 }
 
 .font12 {
@@ -164,6 +165,10 @@ body {
   line-height: 30px;
 }
 
+.line35 {
+  line-height: 34px;
+}
+
 .ling25 {
   line-height: 25px;
 }
@@ -193,6 +198,10 @@ body {
 
 .grey {
   color: #707070;
+}
+
+.lscolor {
+  color: #00000099;
 }
 
 /* text alignments */
@@ -669,23 +678,20 @@ input::-webkit-inner-spin-button {
   font-weight: 300;
 }
 
-
-
 .modal-content {
   outline: 0;
-  border-radius: unset!important;
-  width: 570px!important;
+  border-radius: unset !important;
+  width: 570px !important;
 }
-.proisting .form-check-input[type=radio] {
+.proisting .form-check-input[type="radio"] {
   border-radius: 50%;
   width: 1.25rem;
   height: 1.25rem;
-  
 }
 .proisting h3 {
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .proisting .form-check {
@@ -713,12 +719,60 @@ input::-webkit-inner-spin-button {
   padding: 3%;
 }
 
-.proisting .form-check-input[type=checkbox] {
+.proisting .form-check-input[type="checkbox"] {
   border-radius: 0.25em;
   width: 1.25rem;
   height: 1.25rem;
   border-width: 2px;
   border-color: #9da0b6;
+}
+
+/* ===============BlockChain Development================ */
+
+.industxt .accordion-item {
+  margin: 10px 0;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0px 14px 80px rgba(137, 149, 189, 0.1);
+}
+
+.industxt .accordion-header button {
+  gap: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 15px 10px;
+  border-radius: 8px;
+}
+
+.industxt .accordion-header button img {
+  width: 5%;
+}
+
+.industxt .accordion-header button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.industxt .accordion-header button:not(.collapsed) {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.industxt .accordion-header button::after {
+  background-image: url(../public/images/BlockchainDvelpment/arrow-accordian.svg);
+}
+
+.industxt .accordion-body {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 50px;
+  padding-top: 8px;
 }
 
 /* ===============Media Queries================ */
