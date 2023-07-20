@@ -4,13 +4,52 @@ import { useState } from "react";
 import Form from 'react-bootstrap/Form';
 import Link from 'next/link';
 import axios from "axios";
-
 // import Router from 'next/router';
+
 const Freequote = () => {
 
+
+
+
+  // submitform
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = {
+      Step1: selectedOption,
+      Step0: input1value,
+      Step2: selectedOption1,
+      Step3: selectedOption3,
+      Step4: selectedOption4,
+      Step5: selectedOption5,
+      Step6: selectedOption6,
+      Step7: checkboxes,
+      step8: checkboxes1,
+      Name: e.target.first.value,
+      Email: e.target.email.value,
+      Phone: e.target.phone.value,
+      
+   
+    }
+    const JSONdata = JSON.stringify(data)
+    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+      .then((response) => {
+        console.log(response.data);
+        alert('thankyou for Submitting a from');
+      });
+    // const { pathname } = Router
+    //   if (pathname == pathname) {
+    //       Router.push('/search-engine-optimization')
+    //   }
+  }
+
+
+
+
+  //checkboxes
+
+
   const [checkboxes, setCheckboxes] = useState([]);
-
-
   const handleCheckboxChange = (e) => {
     const { value, checked } = e.target;
 
@@ -25,16 +64,9 @@ const Freequote = () => {
 
 
 
-
-
-
-
-
-
+  //checkboxes1
 
   const [checkboxes1, setCheckboxes1] = useState([]);
-
-
   const handleCheckboxChange1 = (e) => {
     const { value, checked } = e.target;
 
@@ -49,15 +81,40 @@ const Freequote = () => {
 
 
 
+
+
+
+
+
+  // usestates
+
   const [selectedOption, setSelectedOption] = useState('');
   const [selectedOption1, setSelectedOption1] = useState('');
   const [selectedOption3, setSelectedOption3] = useState('');
   const [selectedOption4, setSelectedOption4] = useState('');
   const [selectedOption5, setSelectedOption5] = useState('');
   const [selectedOption6, setSelectedOption6] = useState('');
-
+  const [gameshow, gameapp] = useState(true);
+  const [gameshow1, gameapp1] = useState(false);
+  const [gameshow2, gameapp2] = useState(false);
+  const [gameshow3, gameapp3] = useState(false);
+  const [gameshow4, gameapp4] = useState(false);
+  const [gameshow5, gameapp5] = useState(false);
+  const [gameshow6, gameapp6] = useState(false);
+  const [gameshow7, gameapp7] = useState(false);
+  const [gameshow8, gameapp8] = useState(false);
   const [error, setError] = useState('');
 
+
+  const [input1value, setinput1value] = useState('');
+
+
+  const flow = (e) => {
+    setinput1value(e.target.value);
+  };
+
+
+  // onchangefunction
 
   const handleOptionChange = (e) => {
     setSelectedOption(e.target.value);
@@ -90,85 +147,36 @@ const Freequote = () => {
 
 
 
-  const handleSubmit = (e) => {
-
-    e.preventDefault();
-
-    const data = {
-      Step1: selectedOption,
-      Step2: selectedOption1,
-      Step3: selectedOption3,
-      Step4: selectedOption4,
-      Step5: selectedOption5,
-      Step6: selectedOption6,
-      Step7: checkboxes,
-      step8: checkboxes1,
-      Name: e.target.first.value,
-      Email: e.target.email.value,
-      Phone: e.target.phone.value,
-    }
 
 
-    const JSONdata = JSON.stringify(data)
-
-
-
-    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-      .then((response) => {
-        console.log(response.data);
-        alert('thankyou for Submitting a from');
-      });
-
-    // const { pathname } = Router
-    //   if (pathname == pathname) {
-    //       Router.push('/search-engine-optimization')
-    //   }
-
-
-
-
-
-  }
-
-  const [gameshow, gameapp] = useState(true);
-  const [gameshow1, gameapp1] = useState(false);
-  const [gameshow2, gameapp2] = useState(false);
-  const [gameshow3, gameapp3] = useState(false);
-  const [gameshow4, gameapp4] = useState(false);
-  const [gameshow5, gameapp5] = useState(false);
-  const [gameshow6, gameapp6] = useState(false);
-  const [gameshow7, gameapp7] = useState(false);
+  // game6 function
 
   function game6(e) {
-
     e.preventDefault();
-
     if (selectedOption === '') {
       setError('Please select an option.');
     }
     else if (selectedOption === 'Other') {
       setError('Please enter a value for Other');
     }
-
     else {
       gameapp(false);
       gameapp1(true);
     }
-
-
   }
 
 
 
-  function game7() {
 
+  // game7 function
+
+  function game7() {
     if (selectedOption1 === '') {
       setError('Please select an option.');
     }
     else if (selectedOption1 === 'Other') {
       setError('Please enter a value for Other');
     }
-
     else {
       gameapp(false);
       gameapp1(false);
@@ -179,15 +187,15 @@ const Freequote = () => {
       gameapp6(false);
       gameapp7(false);
     }
-
   }
 
 
 
+
+  // game8 function
+
   function game8(e) {
-
     e.preventDefault();
-
     if (checkboxes.length === 0) {
       setError('Please select an option.');
     } else {
@@ -200,25 +208,19 @@ const Freequote = () => {
       gameapp6(false);
       gameapp7(false);
     }
-
-
-
-
-
   }
 
 
 
 
+  // game9 function
+
   function game9(e) {
-
     e.preventDefault();
-
     if (checkboxes1.length === 0) {
       setError('Please select an option.');
     }
     else {
-
       gameapp(false);
       gameapp1(false);
       gameapp2(false);
@@ -230,18 +232,21 @@ const Freequote = () => {
     }
   }
 
+
+
+
+
+
+  // game10 function
+
   function game10() {
-
-
     if (selectedOption3 === '') {
       setError('Please select an option.');
     }
     else if (selectedOption3 === 'Other') {
       setError('Please enter a value for Other');
     }
-
     else {
-
       gameapp(false);
       gameapp1(false);
       gameapp2(false);
@@ -250,22 +255,26 @@ const Freequote = () => {
       gameapp5(true);
       gameapp6(false);
       gameapp7(false);
-
     }
   }
+
+
+
+
+
+
+  // game11 function
+
   function game11() {
 
     if (selectedOption3 === 'Yes') {
-
       if (selectedOption4 === '') {
         setError('Please select an option.');
       }
       else if (selectedOption4 === 'Other') {
         setError('Please enter a value for Other');
       }
-
       else {
-
         gameapp(false);
         gameapp1(false);
         gameapp2(false);
@@ -276,7 +285,6 @@ const Freequote = () => {
         gameapp7(false);
       }
     }
-
     else {
       if (selectedOption5 === '') {
         setError('Please select an option.');
@@ -284,9 +292,7 @@ const Freequote = () => {
       else if (selectedOption5 === 'Other') {
         setError('Please enter a value for Other');
       }
-
       else {
-
         gameapp(false);
         gameapp1(false);
         gameapp2(false);
@@ -296,15 +302,15 @@ const Freequote = () => {
         gameapp6(true);
         gameapp7(false);
       }
-
     }
-
-
-
   }
 
 
 
+
+
+
+  // game12 function
 
   function game12() {
 
@@ -314,10 +320,7 @@ const Freequote = () => {
     else if (selectedOption6 === 'Other') {
       setError('Please enter a value for Other');
     }
-
     else {
-
-
       gameapp(false);
       gameapp1(false);
       gameapp2(false);
@@ -331,6 +334,13 @@ const Freequote = () => {
   }
 
 
+
+
+
+
+
+
+  // backbuttonfunction
 
   function back() {
     gameapp1(false);
@@ -485,15 +495,10 @@ const Freequote = () => {
                 onChange={handleOptionChange}
               />
 
-              <Form.Check
-                type='radio'
-                label=''
-                name='pro'
-                value='Other'
-                checked={selectedOption === 'Other'}
-                onChange={handleOptionChange}
-              />
-              <input type="text" className={styles.name3} name="newtag" placeholder='Other' />
+              <br></br>
+            
+
+<input type='text' name='name' onChange={flow} value={input1value}  className={styles.name3} placeholder='Other'></input>
 
               <div >
                 <Link className={styles.raop} onClick={game6} href='#'>Continue</Link>
@@ -580,14 +585,7 @@ const Freequote = () => {
               />
 
 
-              <Form.Check
-                type='radio'
-                label=''
-                name="develop"
-                value='Other'
-                checked={selectedOption1 === 'Other'}
-                onChange={handleOptionChange1}
-              />
+              <br></br>
               <input type="text" className={styles.name3} name="name3" placeholder='Other' />
 
               <div className={styles.ther}>
@@ -639,13 +637,8 @@ const Freequote = () => {
                   onChange={handleCheckboxChange}
 
                 />
-                <Form.Check
-                  type='checkbox'
-                  label=''
-                  name="needed"
-                  value='Other'
-                />
 
+                <br></br>
                 <input type="text" className={styles.name3} name="name3" placeholder='Other' />
 
                 <div className={styles.ther}>
@@ -722,6 +715,75 @@ const Freequote = () => {
             :
             ''
           }
+
+
+          {/* {gameshow8 ?
+            <div className="mb-3 proisting">
+
+
+              <div>
+                <h3 className='center mb-4'>How do you plan on monetising <br></br> the app?</h3>
+
+                <Form.Check
+                  type='checkbox'
+                  id='checkbox'
+                  label='Cost to download'
+                  value='Cost to download'
+                />
+
+                <Form.Check
+                  type='checkbox'
+                  id='iOS'
+                  label='In-app advertising'
+                  value='In-app advertising'
+                />
+                <Form.Check
+                  type='checkbox'
+                  id='checkbox'
+                  label='In-app purchases'
+                  value='In-app purchases'
+                />
+                <Form.Check
+                  type='checkbox'
+                  id='checkbox'
+                  label='Sponsorships'
+                  value='Sponsorships'
+                />
+                <Form.Check
+                  type='checkbox'
+                  id='checkbox'
+                  label='Subscription'
+                  value='Subscription'
+                />
+                <Form.Check
+                  type='checkbox'
+                  id='checkbox'
+                  label='I will not be monetising the app'
+                  value='I will not be monetising the app'
+                />
+                <Form.Check
+                  type='checkbox'
+                  id='checkbox'
+                  label='I need guidance from the pro'
+                  value='I need guidance from the pro'
+                />
+
+
+
+                <br></br>
+
+                <input type="text" className={styles.name3} name="name3" placeholder='Other' />
+
+                <div className={styles.ther}>
+                  <Link className={styles.back} onClick={back1} href='#'>Back</Link>
+                  <Link className={styles.raop} onClick={game1} href='#'>Continue</Link>
+                </div>
+
+              </div>
+            </div>
+            :
+            ''
+          } */}
 
 
           {gameshow3 ?
@@ -811,12 +873,7 @@ const Freequote = () => {
                 onChange={handleCheckboxChange1}
               />
 
-
-              <Form.Check
-                type='checkbox'
-                label=''
-                name="consider"
-              />
+              <br></br>
               <input type="text" className={styles.name3} name="name3" placeholder='Other' />
 
               <div className={styles.ther}>
@@ -862,14 +919,8 @@ const Freequote = () => {
                 onChange={handleOptionChange3}
               />
 
-              <Form.Check
-                type='radio'
-                label=''
-                name="mind"
-                value='Other'
-                checked={selectedOption3 === 'Other'}
-                onChange={handleOptionChange3}
-              />
+              
+              <br></br>
               <input type="text" className={styles.name3} name="name3" placeholder='Other' />
 
               <div className={styles.ther}>
@@ -946,16 +997,7 @@ const Freequote = () => {
                     onChange={handleOptionChange4}
                   />
 
-
-                  <Form.Check
-                    type='radio'
-                    label=''
-                    name="nextpro"
-                    value='Other'
-                    checked={selectedOption4 === 'Other'}
-                    onChange={handleOptionChange4}
-
-                  />
+<br></br>
                   <input type="text" className={styles.name3} name="name3" placeholder='Other' />
                 </div>
 
@@ -1084,14 +1126,9 @@ const Freequote = () => {
               />
 
 
-              <Form.Check
-                type='radio'
-                label=''
-                value='Other'
-                name="likely"
-                checked={selectedOption6 === 'Other'}
-                onChange={handleOptionChange6}
-              />
+             
+          <br></br>
+
               <input type="text" className={styles.name3} name="name3" placeholder='Other' />
 
               <div className={styles.ther}>

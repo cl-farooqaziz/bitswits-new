@@ -156,12 +156,9 @@
     letter-spacing: 0;
     line-height: 1.5rem;
     padding: 0.5rem 1rem;
-    width: 72%;
+    width: 100%;
     border: 1px solid #e4e4e4;
     border-radius: unset;
-    position: absolute;
-    margin-top: -49px;
-    right: 66px;
 }
 @media (max-width:1200px)  { 
 
