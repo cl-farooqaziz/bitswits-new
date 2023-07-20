@@ -762,7 +762,7 @@ input::-webkit-inner-spin-button {
 }
 
 .industxt .accordion-header button::after {
-  background-image: url(../public/images/BlockchainDvelpment/arrow-accordian.svg);
+  background-image: url(/images/BlockchainDvelpment/arr.svg);
 }
 
 .industxt .accordion-body {
