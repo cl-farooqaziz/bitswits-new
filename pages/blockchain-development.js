@@ -13,6 +13,7 @@ import BcDevCta3 from '@/components/BcDevCta3'
 import Streamlining from '@/components/Streamlining'
 import Yudiz from '@/components/Yudiz'
 import BcDevCta4 from '@/components/BcDevCta4'
+import Process from '@/components/Process'
 
 export default function blockchaindevelopment() {
     return (
@@ -36,7 +37,7 @@ export default function blockchaindevelopment() {
             <Streamlining />
             <Yudiz />
             <BcDevCta4 />
-
+            <Process />
         </>
     )
 }

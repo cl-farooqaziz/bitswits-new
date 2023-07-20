@@ -1,0 +1,48 @@
+.process {
+  padding: 60px 0;
+}
+
+.procesHead {
+  margin-bottom: 60px;
+}
+
+.procesHead h3 {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 900;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #1c2530;
+}
+
+.procesRow {
+  row-gap: 60px;
+}
+
+.procesBox {
+  padding: 20px;
+  border: 2px solid #cccccc;
+  height: 100%;
+}
+
+.procesBox img {
+  margin: -60px 0 17px;
+  width: 60px;
+}
+
+.procesBox h5 {
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 9px;
+  font-family: "Poppins";
+}
+
+.procesBox p {
+  color: #585e63;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "Poppins";
+}
