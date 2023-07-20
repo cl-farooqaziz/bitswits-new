@@ -125,13 +125,13 @@
 .back {
     display: flex;
     justify-content: center;
-    border: 1px solid #e0e0e0;
+    border: 2px solid #ff004a;
     width: 25%;
     float: right;
     margin-top: 6%;
     padding: 3% 0%;
     border-radius: 5px;
-    color: #717171;
+    color: #ff004a;
     font-weight: 700;
 }
 .ther{

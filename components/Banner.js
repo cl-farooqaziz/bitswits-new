@@ -18,6 +18,7 @@ import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import { RxCross2 } from 'react-icons/rx'
 import Freequote from './Freequote'
 import { useState } from "react";
 const Banner = () => {
@@ -187,7 +188,7 @@ const Banner = () => {
 
 
             <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-                <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
+                <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
 
 
             </Modal>

@@ -25,6 +25,30 @@ const Freequote = () => {
 
 
 
+
+
+
+
+
+
+
+  const [checkboxes1, setCheckboxes1] = useState([]);
+
+
+  const handleCheckboxChange1 = (e) => {
+    const { value, checked } = e.target;
+
+    if (checked) {
+      setCheckboxes1([...checkboxes1, value]);
+    } else {
+      setCheckboxes1(checkboxes1.filter((checkbox1) => checkbox1 !== value));
+    }
+
+    setError('');
+  };
+
+
+
   const [selectedOption, setSelectedOption] = useState('');
   const [selectedOption1, setSelectedOption1] = useState('');
   const [selectedOption3, setSelectedOption3] = useState('');
@@ -77,7 +101,8 @@ const Freequote = () => {
       Step4: selectedOption4,
       Step5: selectedOption5,
       Step6: selectedOption6,
-      Step7:checkboxes,
+      Step7: checkboxes,
+      step8: checkboxes1,
       Name: e.target.first.value,
       Email: e.target.email.value,
       Phone: e.target.phone.value,
@@ -177,7 +202,7 @@ const Freequote = () => {
     }
 
 
-  
+
 
 
   }
@@ -185,15 +210,24 @@ const Freequote = () => {
 
 
 
-  function game9() {
-    gameapp(false);
-    gameapp1(false);
-    gameapp2(false);
-    gameapp3(false);
-    gameapp4(true);
-    gameapp5(false);
-    gameapp6(false);
-    gameapp7(false);
+  function game9(e) {
+
+    e.preventDefault();
+
+    if (checkboxes1.length === 0) {
+      setError('Please select an option.');
+    }
+    else {
+
+      gameapp(false);
+      gameapp1(false);
+      gameapp2(false);
+      gameapp3(false);
+      gameapp4(true);
+      gameapp5(false);
+      gameapp6(false);
+      gameapp7(false);
+    }
   }
 
   function game10() {
@@ -382,10 +416,10 @@ const Freequote = () => {
           {gameshow ?
             <div className="mb-3 proisting">
 
-              <h3 className='center mb-4'>What type of project is this?</h3>
+              <h3 className='center mb-4'>What <span className='grdiant'>type of project</span>  is this?</h3>
 
               {error && <p className={styles.error}>{error}</p>}
-           
+
 
               <Form.Check
                 type='radio'
@@ -471,7 +505,7 @@ const Freequote = () => {
           {gameshow1 ?
             <div className="mb-3 proisting">
 
-              <h3 className='center mb-4'>What sort of development work do you need?</h3>
+              <h3 className='center mb-4'>What sort of <span className='grdiant'> development <br></br> work</span>  do you need?</h3>
 
               {error && <p className={styles.error}>{error}</p>}
 
@@ -568,60 +602,60 @@ const Freequote = () => {
           {gameshow2 ?
             <div className="mb-3 proisting">
 
-              
-                <div>
-                  <h3 className='center mb-4'>Which platform(s) is this needed for?</h3>
 
-                  {error && <p className={styles.error}>{error}</p>}
+              <div>
+                <h3 className='center mb-4'>Which <span className='grdiant'>platform(s) is <br></br> this needed for?</span> </h3>
 
-                  <Form.Check
-                    type='checkbox'
-                    id='Android'
-                    label='Android'
-                    name="needed"
-                    value='Android'
-                    checked={checkboxes.includes('Android')}
-                    onChange={handleCheckboxChange}
-                   
-                  />
+                {error && <p className={styles.error}>{error}</p>}
 
-                  <Form.Check
-                    type='checkbox'
-                    id='iOS'
-                    label='iOS'
-                    name="needed"
-                    value='iOS'
-                    checked={checkboxes.includes('iOS')}
-                    onChange={handleCheckboxChange}
-                   
-                  />
-                  <Form.Check
-                    type='checkbox'
-                    id='Windows store'
-                    label='Windows store'
-                    name="needed"
-                    value='Windows store'
-                    checked={checkboxes.includes('Windows store')}
-                    onChange={handleCheckboxChange}
-                   
-                  />
-                  <Form.Check
-                    type='checkbox'
-                    label=''
-                    name="needed"
-                    value='Other'
-                  />
+                <Form.Check
+                  type='checkbox'
+                  id='Android'
+                  label='Android'
+                  name="needed"
+                  value='Android'
+                  checked={checkboxes.includes('Android')}
+                  onChange={handleCheckboxChange}
 
-                  <input type="text" className={styles.name3} name="name3" placeholder='Other' />
+                />
 
-                  <div className={styles.ther}>
-                    <Link className={styles.back} onClick={back1} href='#'>Back</Link>
-                    <Link className={styles.raop} onClick={game8} href='#'>Continue</Link>
-                  </div>
+                <Form.Check
+                  type='checkbox'
+                  id='iOS'
+                  label='iOS'
+                  name="needed"
+                  value='iOS'
+                  checked={checkboxes.includes('iOS')}
+                  onChange={handleCheckboxChange}
 
+                />
+                <Form.Check
+                  type='checkbox'
+                  id='Windows store'
+                  label='Windows store'
+                  name="needed"
+                  value='Windows store'
+                  checked={checkboxes.includes('Windows store')}
+                  onChange={handleCheckboxChange}
+
+                />
+                <Form.Check
+                  type='checkbox'
+                  label=''
+                  name="needed"
+                  value='Other'
+                />
+
+                <input type="text" className={styles.name3} name="name3" placeholder='Other' />
+
+                <div className={styles.ther}>
+                  <Link className={styles.back} onClick={back1} href='#'>Back</Link>
+                  <Link className={styles.raop} onClick={game8} href='#'>Continue</Link>
                 </div>
 
-                {/* <div>
+              </div>
+
+              {/* <div>
                   <h3 className='center mb-4'>How do you plan on monetising <br></br> the app?</h3>
 
                   <Form.Check
@@ -693,7 +727,9 @@ const Freequote = () => {
           {gameshow3 ?
             <div className="mb-3 proisting">
 
-              <h3 className='center mb-4'>Which programming language(s) <br></br> would you consider using?</h3>
+              <h3 className='center mb-4'>Which <span className='grdiant'> programming language(s) </span> <br></br> would you consider using?</h3>
+
+              {error && <p className={styles.error}>{error}</p>}
 
               <Form.Check
                 type='checkbox'
@@ -701,6 +737,8 @@ const Freequote = () => {
                 label='.NET'
                 name="consider"
                 value='.NET'
+                checked={checkboxes1.includes('.NET')}
+                onChange={handleCheckboxChange1}
               />
               <Form.Check
                 type='checkbox'
@@ -708,6 +746,8 @@ const Freequote = () => {
                 label='Adobe AIR'
                 name="consider"
                 value='Adobe AIR'
+                checked={checkboxes1.includes('Adobe AIR')}
+                onChange={handleCheckboxChange1}
               />
               <Form.Check
                 type='checkbox'
@@ -715,6 +755,8 @@ const Freequote = () => {
                 label='C#'
                 name="consider"
                 value='C#'
+                checked={checkboxes1.includes('C#')}
+                onChange={handleCheckboxChange1}
               />
 
 
@@ -724,6 +766,8 @@ const Freequote = () => {
                 label='Java ME'
                 name="consider"
                 value='Java ME'
+                checked={checkboxes1.includes('Java ME')}
+                onChange={handleCheckboxChange1}
               />
 
               <Form.Check
@@ -732,6 +776,8 @@ const Freequote = () => {
                 label='Objective C'
                 name="consider"
                 value='Objective C'
+                checked={checkboxes1.includes('Objective C')}
+                onChange={handleCheckboxChange1}
               />
 
               <Form.Check
@@ -740,6 +786,8 @@ const Freequote = () => {
                 label='Swift'
                 name="consider"
                 value='Swift'
+                checked={checkboxes1.includes('Swift')}
+                onChange={handleCheckboxChange1}
               />
 
 
@@ -749,6 +797,8 @@ const Freequote = () => {
                 label='I`m not sure'
                 name="consider"
                 value='I`m not sure'
+                checked={checkboxes1.includes('I`m not sure')}
+                onChange={handleCheckboxChange1}
               />
 
               <Form.Check
@@ -757,6 +807,8 @@ const Freequote = () => {
                 label='I`m looking for guidance from the pro'
                 name="consider"
                 value='I`m looking for guidance from the pro'
+                checked={checkboxes1.includes('I`m looking for guidance from the pro')}
+                onChange={handleCheckboxChange1}
               />
 
 
@@ -778,7 +830,7 @@ const Freequote = () => {
 
           {gameshow4 ?
             <div className="mb-3 proisting">
-              <h3 className='center mb-4'>Do you have a budget in mind?</h3>
+              <h3 className='center mb-4'>Do you have a <span className='grdiant'>budget in mind?</span> </h3>
 
               {error && <p className={styles.error}>{error}</p>}
 
@@ -835,7 +887,7 @@ const Freequote = () => {
               {selectedOption3 === 'Yes' ?
 
                 <div>
-                  <h3 className='center mb-4'>What is your budget for the project?</h3>
+                  <h3 className='center mb-4'>What is your <span className='grdiant'>budget for the project?</span> </h3>
 
                   {error && <p className={styles.error}>{error}</p>}
 
@@ -911,7 +963,7 @@ const Freequote = () => {
                 :
 
                 <div>
-                  <h3 className='center mb-4'>How soon would you like the project to begin?</h3>
+                  <h3 className='center mb-4'>How soon would you like the <br></br> <span className='grdiant'>project to begin?</span> </h3>
 
                   {error && <p className={styles.error}>{error}</p>}
 
@@ -1007,7 +1059,7 @@ const Freequote = () => {
           {gameshow6 ?
             <div className="mb-3 proisting">
 
-              <h3 className='center mb-4'>How likely are you to make a hiring <br></br> decision?</h3>
+              <h3 className='center mb-4'>How likely are you to make a <br></br> <span className='grdiant'>hiring  decision?</span> </h3>
 
               {error && <p className={styles.error}>{error}</p>}
 
@@ -1020,7 +1072,7 @@ const Freequote = () => {
                 checked={selectedOption6 === 'I`m ready to start now'}
                 onChange={handleOptionChange6}
               />
-          
+
               <Form.Check
                 type='radio'
                 label='I`m planning and researching'
@@ -1055,7 +1107,7 @@ const Freequote = () => {
           {gameshow7 ?
             <div className="mb-3 proisting">
 
-              <h3 className='center mb-4'>What email address would <br></br> you like quotes sent to?</h3>
+              <h3 className='center mb-4'>What <span className='grdiant'> email address</span> would <br></br> you like quotes sent to?</h3>
 
 
 
