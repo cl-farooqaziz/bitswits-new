@@ -4,8 +4,26 @@ import { useState } from "react";
 import Form from 'react-bootstrap/Form';
 import Link from 'next/link';
 import axios from "axios";
+
 // import Router from 'next/router';
 const Freequote = () => {
+
+  const [checkboxes, setCheckboxes] = useState([]);
+
+
+  const handleCheckboxChange = (e) => {
+    const { value, checked } = e.target;
+
+    if (checked) {
+      setCheckboxes([...checkboxes, value]);
+    } else {
+      setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
+    }
+
+    setError('');
+  };
+
+
 
   const [selectedOption, setSelectedOption] = useState('');
   const [selectedOption1, setSelectedOption1] = useState('');
@@ -48,20 +66,9 @@ const Freequote = () => {
 
 
 
-
-
-
-
-
-
-
-
-
   const handleSubmit = (e) => {
 
     e.preventDefault();
-
-
 
     const data = {
       Step1: selectedOption,
@@ -70,12 +77,13 @@ const Freequote = () => {
       Step4: selectedOption4,
       Step5: selectedOption5,
       Step6: selectedOption6,
+      Step7:checkboxes,
       Name: e.target.first.value,
       Email: e.target.email.value,
       Phone: e.target.phone.value,
-
-
     }
+
+
     const JSONdata = JSON.stringify(data)
 
 
@@ -151,17 +159,25 @@ const Freequote = () => {
 
 
 
-  function game8() {
+  function game8(e) {
+
+    e.preventDefault();
+
+    if (checkboxes.length === 0) {
+      setError('Please select an option.');
+    } else {
+      gameapp(false);
+      gameapp1(false);
+      gameapp2(false);
+      gameapp3(true);
+      gameapp4(false);
+      gameapp5(false);
+      gameapp6(false);
+      gameapp7(false);
+    }
 
 
-    gameapp(false);
-    gameapp1(false);
-    gameapp2(false);
-    gameapp3(true);
-    gameapp4(false);
-    gameapp5(false);
-    gameapp6(false);
-    gameapp7(false);
+  
 
 
   }
@@ -556,12 +572,17 @@ const Freequote = () => {
                 <div>
                   <h3 className='center mb-4'>Which platform(s) is this needed for?</h3>
 
+                  {error && <p className={styles.error}>{error}</p>}
+
                   <Form.Check
                     type='checkbox'
                     id='Android'
                     label='Android'
                     name="needed"
                     value='Android'
+                    checked={checkboxes.includes('Android')}
+                    onChange={handleCheckboxChange}
+                   
                   />
 
                   <Form.Check
@@ -570,6 +591,9 @@ const Freequote = () => {
                     label='iOS'
                     name="needed"
                     value='iOS'
+                    checked={checkboxes.includes('iOS')}
+                    onChange={handleCheckboxChange}
+                   
                   />
                   <Form.Check
                     type='checkbox'
@@ -577,6 +601,9 @@ const Freequote = () => {
                     label='Windows store'
                     name="needed"
                     value='Windows store'
+                    checked={checkboxes.includes('Windows store')}
+                    onChange={handleCheckboxChange}
+                   
                   />
                   <Form.Check
                     type='checkbox'
