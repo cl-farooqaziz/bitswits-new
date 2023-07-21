@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 //images
+import banImg from '../public/images/banner/webBanner.png'
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
@@ -19,7 +20,7 @@ const ServicesBanner = (props) => {
                     <Col lg={7}>
                         <div className={styles.banerTxt}>
                             <h1 className='font60 black fontf font-bold line60 mb-4'>
-                                Blockchain <br /> Development <br /> Company
+                                <span className='grdiant'>Blockchain Development</span> <br /> Company
                             </h1>
 
                             <p className='font18 black fontf font-medium line30'>Yudiz is a leading blockchain development company providing intelligent services with smooth implementation of blockchain technology in business organizations. We believe in facilitating a digitally empowered environment for fast and secure data transactions across the globe with custom-developed blockchain solutions. Hire the best blockchain developers who are skilled in developing disruptive business solutions for revolutionizing the data-enabled era.</p>
@@ -27,6 +28,12 @@ const ServicesBanner = (props) => {
                             <div className={`${styles.bttnsto} mt-3`}>
                                 <Link className={styles.bttns1} href="#">Book A Call</Link>
                                 <Link className={styles.bttns2} href="#">Chat With Us Online! </Link>
+                            </div>
+
+                            <div className={styles.srvcBannerImg}>
+                                <div className={styles.logo14}>
+                                    <Image alt="bitswits" loading="lazy" src={banImg} className={`${styles.bottom3} img-fluid`} />
+                                </div>
                             </div>
                         </div>
                     </Col>

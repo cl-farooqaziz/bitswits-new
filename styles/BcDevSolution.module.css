@@ -1,3 +1,7 @@
+.bcDevSolution{
+  padding: 85px 0;
+}
+
 .soluRow {
   row-gap: 25px;
 }
@@ -113,4 +117,29 @@
 }
 .soluCard.six p {
   color: #4d797d;
+}
+
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 991px) {
+  .bcDevSolution{
+    padding: 50px 0;
+  }
+
+  .soluCard h5{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .bcDevSolution h2{
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .soluRow {
+   margin-top: 20px !important;
+  }
 }

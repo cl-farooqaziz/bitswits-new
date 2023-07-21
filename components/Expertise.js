@@ -15,7 +15,7 @@ const Expertise = () => {
         <>
             <section className={`${styles.expertise}`}>
                 <Container>
-                    <Row>
+                    <Row className={styles.epxRow}>
                         <Col lg={6}>
                             <div className={`${styles.industxt} industxt`}>
                                 <h5 className='font21 black fontf font-bold line30 mb-3'>

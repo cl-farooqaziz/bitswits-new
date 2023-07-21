@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 //images
-
 import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'

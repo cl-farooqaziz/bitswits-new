@@ -10,15 +10,18 @@
 
 .imgBox {
   width: 30%;
+  height: 365px;
+  overflow: hidden;
 }
 
 .cntntBox {
   width: 70%;
-  height: 368px;
+  height: 365px;
   padding: 20px 0 20px 30px;
   background-color: #fff;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .left {
@@ -138,4 +141,86 @@
 
 .arrowBtn a img {
   width: 18px;
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 991px) {
+  .yudiz {
+    padding: 50px 0;
+  }
+
+  .cntntBox .right {
+    display: none;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .imgBox {
+    height: auto;
+  }
+
+  .cntntBox {
+    padding: 12px 0 10px 16px;
+    width: calc(100% - 200px);
+    height: auto;
+  }
+
+  .cntntBox h5 {
+    margin-bottom: 10px !important;
+  }
+
+  .cntntBox p {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .list {
+    margin-top: 10px;
+  }
+
+  .list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 767px) {
+  .indus {
+    flex-direction: column;
+  }
+
+  .imgBox {
+    width: 100%;
+    height: auto;
+  }
+
+  .cntntBox {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .cntntBox p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+  }
+
+  .list {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .list li {
+    width: 100%;
+  }
 }

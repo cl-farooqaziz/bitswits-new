@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image'
 import styles from '@/styles/TechStack.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import { FaAngleDown } from "react-icons/fa";
 //images
 import icon1 from '../public/images/BlockchainDvelpment/framwork/framework.png'
 import icon2 from '../public/images/BlockchainDvelpment/tools/tools.png'
@@ -59,6 +60,19 @@ const TechStack = () => {
         tab2(true);
     }
 
+    const [selectedOption, setSelectedOption] = useState('Frameworks');
+    const [selectedImgBox, setSelectedImgBox] = useState('one'); // Default value for imgBox
+    const [showDropdown, setShowDropdown] = useState(false);
+
+    const handleOptionSelect = (option, imgBox) => {
+        setSelectedOption(option);
+        setSelectedImgBox(imgBox);
+        setShowDropdown(false); // Close the dropdown after selecting an option
+    };
+
+    const toggleDropdown = () => {
+        setShowDropdown((prevState) => !prevState);
+    };
 
 
     return (
@@ -67,7 +81,7 @@ const TechStack = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <div className='text-center mb-5'>
+                            <div className='text-center mb-3 mb-md-5'>
                                 <h2 className='font40 black fontf font-bold line60'>
                                     Our Blockchain App Development Tech-Stack
                                 </h2>
@@ -88,7 +102,8 @@ const TechStack = () => {
                             </div>
                         </Col>
                         <Col lg={8} className='mx-auto mt-5'>
-                            {/*=============== tabs ===============*/}
+                            {/*=============== Desktop tabs ===============*/}
+
                             <div className={styles.tabs}>
                                 <div onClick={framework} className={show ? styles.boxBtn : styles.boxCard} >
                                     <div className={`${styles.techCard} ${styles.card1}`}>
@@ -116,13 +131,60 @@ const TechStack = () => {
                                         <h5 className='font18 black fontf font-medium line30'>Languages</h5>
                                     </div>
                                 </div>
-
                             </div>
+
+                            {/*=============== Mobile tabs ===============*/}
+
+                            <div className={styles.mobileDropdown} onClick={toggleDropdown}>
+                                <div className={`${styles.techCard} ${styles.card1}`}>
+                                    <div className={`${styles.imgBox} ${styles[selectedImgBox]}`}>
+                                        <Image src={icon1} alt='Bitswits' className='img-fluid' />
+                                    </div>
+                                    <h5 className='font18 black fontf font-medium line30'>{selectedOption}</h5>
+                                </div>
+                                <FaAngleDown />
+                            </div>
+
+                            {/*=============== Mobile Dropdown Options ===============*/}
+
+                            {showDropdown && (
+                                <div className={styles.mobileOptions}>
+                                    <div onClick={() => handleOptionSelect('Frameworks', 'one')} className={selectedOption === 'Frameworks' ? styles.boxBtn : styles.boxCard}>
+                                        <div className={`${styles.techCard} ${styles.card1}`}>
+                                            <div className={`${styles.imgBox} ${styles.one}`}>
+                                                <Image src={icon1} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <h5 className='font18 black fontf font-medium line30'>Frameworks</h5>
+                                        </div>
+                                    </div>
+
+                                    <div onClick={() => handleOptionSelect('Tools', 'two')} className={selectedOption === 'Tools' ? styles.boxBtn : styles.boxCard}>
+                                        <div className={`${styles.techCard} ${styles.card2}`}>
+                                            <div className={`${styles.imgBox} ${styles.two}`}>
+                                                <Image src={icon2} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <h5 className='font18 black fontf font-medium line30'>Tools</h5>
+                                        </div>
+                                    </div>
+
+                                    <div onClick={() => handleOptionSelect('Languages', 'three')} className={selectedOption === 'Languages' ? styles.boxBtn : styles.boxCard}>
+                                        <div className={`${styles.techCard} ${styles.card3}`}>
+                                            <div className={`${styles.imgBox} ${styles.three}`}>
+                                                <Image src={icon3} alt='Bitswits' className='img-fluid' />
+                                            </div>
+                                            <h5 className='font18 black fontf font-medium line30'>Languages</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+
                         </Col>
                         {/*=============== tab content ===============*/}
 
                         <Col lg={12}>
-                            <div className={styles.tabContent}>
+                            {/*=============== Desktop tab content ===============*/}
+
+                            <div className={`${styles.tabContent} ${styles.deskTab}`}>
 
                                 {show ?
 
@@ -258,6 +320,133 @@ const TechStack = () => {
                                     ''
                                 }
 
+                            </div>
+
+                            {/*=============== Mobile tab content ===============*/}
+
+                            <div className={`${styles.tabContent} ${styles.mblTab}`}>
+                                {selectedOption === 'Frameworks' && (
+                                    <Row>
+                                        <Col lg={6}>
+                                            <div className={styles.contnt}>
+                                                <h3 className='font24 black fontf font-bold line35 mb-3'>
+                                                    As a leading Blockchain Development company we synergize cutting edge technologies to create the best solutions for you.
+                                                </h3>
+                                                <p className='font18 lscolor fontf font-medium line25'>
+                                                    We eliminate the complexity of the product and simplify every process from development to deployment as well as maintenance by utilizing the best blockchain frameworks.
+                                                </p>
+                                            </div>
+                                        </Col>
+                                        <Col lg={6}>
+                                            <ul className={styles.tabCntntImg}>
+                                                <li>
+                                                    <Image src={fram1} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={fram2} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={fram3} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={fram4} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={fram5} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={fram6} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={fram7} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={fram8} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                            </ul>
+                                        </Col>
+                                    </Row>
+                                )}
+
+                                {selectedOption === 'Tools' && (
+                                    <Row>
+                                        <Col lg={6}>
+                                            <div className={styles.contnt}>
+                                                <h3 className='font24 black fontf font-bold line35 mb-3'>
+                                                    As a leading Blockchain Development company we synergize cutting edge technologies to create the best solutions for you.
+                                                </h3>
+                                                <p className='font18 lscolor fontf font-medium line25'>
+                                                    Implementing a secure and scalable data-centric operation do need the use of top-notch blockchain tools and we are experienced in utilizing the right tools for you.
+                                                </p>
+                                            </div>
+                                        </Col>
+                                        <Col lg={6}>
+                                            <ul className={styles.tabCntntImg}>
+                                                <li>
+                                                    <Image src={tool1} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={tool2} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={tool3} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={tool4} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={tool5} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={tool6} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={tool7} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                            </ul>
+                                        </Col>
+                                    </Row>
+                                )}
+
+                                {selectedOption === 'Languages' && (
+                                    <Row>
+                                        <Col lg={6}>
+                                            <div className={styles.contnt}>
+                                                <h3 className='font24 black fontf font-bold line35 mb-3'>
+                                                    As a leading Blockchain Development company we synergize cutting edge technologies to create the best solutions for you.
+                                                </h3>
+                                                <p className='font18 lscolor fontf font-medium line25'>
+                                                    The uniqueness is in the cruciality of these technically mechanically enhanced parameters that allow us to deliver high end blockchain solutions.
+                                                </p>
+                                            </div>
+                                        </Col>
+                                        <Col lg={6}>
+                                            <ul className={styles.tabCntntImg}>
+                                                <li>
+                                                    <Image src={lang1} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={lang2} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={lang3} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={lang4} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={lang5} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={lang6} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                                <li>
+                                                    <Image src={lang7} alt='Bitswits' className='img-fluid' />
+                                                </li>
+                                            </ul>
+                                        </Col>
+                                    </Row>
+                                )}
                             </div>
                         </Col>
                     </Row>

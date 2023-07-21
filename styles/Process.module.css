@@ -1,5 +1,5 @@
 .process {
-  padding: 60px 0;
+  padding: 85px 0;
 }
 
 .procesHead {
@@ -12,7 +12,7 @@
   font-weight: 900;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  color: #1c2530;
+  color: #000;
 }
 
 .procesRow {
@@ -45,4 +45,38 @@
   font-weight: 500;
   line-height: 30px;
   font-family: "Poppins";
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 991px) {
+  .process {
+    padding: 50px 0;
+  }
+
+  .procesHead h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .procesBox {
+    padding: 15px;
+  }
+
+  .procesBox img {
+    margin: -50px 0 17px;
+    width: 50px;
+  }
+
+  .procesBox h5 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .procesBox p {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

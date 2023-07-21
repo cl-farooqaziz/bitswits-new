@@ -23,56 +23,56 @@ const Process = () => {
                         </h3>
                     </div>
                     <Row className={styles.procesRow}>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon1} alt="Bitswits" className='img-fluid' />
                                 <h5>Research & Plan</h5>
                                 <p>Perform solution specific research and draft a plan accordingly.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon2} alt="Bitswits" className='img-fluid' />
                                 <h5>Code</h5>
                                 <p>Utilize modern and scalable coding practices with our in-house team of experts.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon3} alt="Bitswits" className='img-fluid' />
                                 <h5>Build</h5>
                                 <p>Building the solutions from scratch with the help of expert resources.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon4} alt="Bitswits" className='img-fluid' />
                                 <h5>Monitor</h5>
                                 <p>Carefully monitor each and every aspect of the product for optimum performance.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon5} alt="Bitswits" className='img-fluid' />
                                 <h5>Test</h5>
                                 <p>Achieving the best user experience for users through rigorous testing methods.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon6} alt="Bitswits" className='img-fluid' />
                                 <h5>Release</h5>
                                 <p>Gathering true data to make alterations and finally releasing the solutions.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon7} alt="Bitswits" className='img-fluid' />
                                 <h5>Deploy</h5>
                                 <p>Installing, configuring, and constantly improving to tackle modern upgrades.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.procesBox}>
                                 <Image src={icon8} alt="Bitswits" className='img-fluid' />
                                 <h5>Operate</h5>

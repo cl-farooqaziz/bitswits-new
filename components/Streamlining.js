@@ -13,15 +13,15 @@ const Streamlining = () => {
         <>
             <section className={`${styles.streamlining}`}>
                 <Container className={styles.myContainer}>
-                    <Row>
+                    <Row className={styles.strmRow}>
                         <Col lg={12}>
                             <div className={styles.indus}>
-                                <h2 className='font40 black fontf font-bold line60 mb-5'>
-                                    We are Successfully Serving Every Industry.
+                                <h2 className='font40 black fontf font-bold line60 mb-0 mb-md-5'>
+                                    Streamlining the Development Journey
                                 </h2>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
                                 <Image src={research} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>
@@ -32,7 +32,7 @@ const Streamlining = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
                                 <Image src={design} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>
@@ -43,7 +43,7 @@ const Streamlining = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
                                 <Image src={product} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>
@@ -54,7 +54,7 @@ const Streamlining = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
                                 <Image src={support} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>

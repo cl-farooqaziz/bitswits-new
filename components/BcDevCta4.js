@@ -12,20 +12,20 @@ const BcDevCta4 = () => {
             <section className={styles.cta4}>
                 <Container>
                     <Row className={styles.ctaRow}>
-                        <Col lg={5}>
+                        <Col lg={5} md={6}>
                             <div className={styles.left}>
                                 <h6 className='font20 white fontf font-medium line30 mb-1'>
                                     LOOKING TO INITIATE A PARTNERSHIP?
                                 </h6>
-                                <h6 className='font30 white fontf font-bold line40'>
+                                <h4 className='font30 white fontf font-bold line40'>
                                     Your Big Break is just One Click Away!
-                                </h6>
+                                </h4>
                                 <div className={`${styles.bttnsto} mt-4 pt-2`}>
                                     <Link className={styles.bttns1} href="#">Let’s Talk</Link>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} md={6}>
                             <div className={styles.right}>
                                 <Image src={foldImg} alt='Bitswits' className='img-fluid' />
                             </div>

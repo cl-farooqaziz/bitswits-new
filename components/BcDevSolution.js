@@ -19,7 +19,7 @@ import icon12 from '../public/images/BlockchainDvelpment/solutions/Custom-Blockc
 const BcDevSolution = () => {
     return (
         <>
-            <section className='py-5'>
+            <section className={styles.bcDevSolution}>
                 <Container>
                     <Row>
                         <Col lg={6}>
@@ -31,14 +31,14 @@ const BcDevSolution = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.head}>
-                                <p className='font18 black fontf font-medium line30 mb-5'>
+                                <p className='font18 black fontf font-medium line30'>
                                     A scalable architecture that is secure to serve in every way possible. Creating complete transparency by bringing the best blockchain development practices that allow you to scale with the world. Bringing digital disruption at your fingertips enabling your enterprise to reach new heights. Contributing to developing a sustainable data mobility system we make robust solutions.
                                 </p>
                             </div>
                         </Col>
                     </Row>
                     <Row className={`${styles.soluRow} mt-5`}>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.one}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon1} alt='BitsWits' className='img-fluid' />
@@ -51,7 +51,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.two}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon2} alt='BitsWits' className='img-fluid' />
@@ -64,7 +64,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.three}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon3} alt='BitsWits' className='img-fluid' />
@@ -77,7 +77,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.four}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon4} alt='BitsWits' className='img-fluid' />
@@ -90,7 +90,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.five}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon5} alt='BitsWits' className='img-fluid' />
@@ -103,7 +103,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.six}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon6} alt='BitsWits' className='img-fluid' />
@@ -116,7 +116,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.one}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon7} alt='BitsWits' className='img-fluid' />
@@ -129,7 +129,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.two}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon8} alt='BitsWits' className='img-fluid' />
@@ -142,7 +142,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.three}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon9} alt='BitsWits' className='img-fluid' />
@@ -155,7 +155,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.four}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon10} alt='BitsWits' className='img-fluid' />
@@ -168,7 +168,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.five}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon11} alt='BitsWits' className='img-fluid' />
@@ -181,7 +181,7 @@ const BcDevSolution = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.six}`}>
                                 <div className={`${styles.imgBox}`}>
                                     <Image src={icon12} alt='BitsWits' className='img-fluid' />
