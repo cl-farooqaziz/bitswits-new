@@ -1073,16 +1073,7 @@ const Freequote = () => {
                     onChange={handleOptionChange5}
                   />
 
-                  <Form.Check
-                    type='radio'
-                    label=''
-                    name="begin"
-                    value='Other'
-                    checked={selectedOption5 === 'Other'}
-                    onChange={handleOptionChange5}
-
-
-                  />
+                <br></br>
                   <input type="text" className={styles.name3} name="name3" placeholder='Other' />
                 </div>
 
