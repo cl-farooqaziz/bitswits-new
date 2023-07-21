@@ -22,7 +22,7 @@ const Yudiz = () => {
                                 <div className={styles.cntntBox}>
                                     <div className={styles.left}>
                                         <h5 className='font20 black fontf font-bold line30 mb-3'>
-                                            Why Work With Yudiz ?
+                                            Why Work With Bitswits ?
                                         </h5>
                                         <p className='font16 black fontf font-regular line30'>
                                             We have decades of experience in assisting clients with accelerated digital transformations. Hire skilled blockchain developers who promise a thorough understanding of the client's project journey.

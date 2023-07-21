@@ -23,7 +23,7 @@ const ServicesBanner = (props) => {
                                 <span className='grdiant'>Blockchain Development</span> <br /> Company
                             </h1>
 
-                            <p className='font18 black fontf font-medium line30'>Yudiz is a leading blockchain development company providing intelligent services with smooth implementation of blockchain technology in business organizations. We believe in facilitating a digitally empowered environment for fast and secure data transactions across the globe with custom-developed blockchain solutions. Hire the best blockchain developers who are skilled in developing disruptive business solutions for revolutionizing the data-enabled era.</p>
+                            <p className='font18 black fontf font-medium line30'>Bitswits is a leading blockchain development company providing intelligent services with smooth implementation of blockchain technology in business organizations. We believe in facilitating a digitally empowered environment for fast and secure data transactions across the globe with custom-developed blockchain solutions. Hire the best blockchain developers who are skilled in developing disruptive business solutions for revolutionizing the data-enabled era.</p>
 
                             <div className={`${styles.bttnsto} mt-3`}>
                                 <Link className={styles.bttns1} href="#">Book A Call</Link>

@@ -18,7 +18,7 @@ const BcDevCta3 = () => {
                                     Hire best blockchain developers to achieve global business scalability and security standards.
                                 </h5>
                                 <p className='font16 black fontf font-medium'>
-                                    Yudiz is ready to deliver top-notch solutions tailored to boost your business performance and reduce your operational cost. Our team is adept at working with major blockchain platforms and diverse cryptosystems meeting your needs through blockchain development services.
+                                    Bitswits is ready to deliver top-notch solutions tailored to boost your business performance and reduce your operational cost. Our team is adept at working with major blockchain platforms and diverse cryptosystems meeting your needs through blockchain development services.
                                 </p>
                                 <div className={`${styles.bttnsto} mt-4`}>
                                     <Link className={styles.bttns1} href="#">Request A Proposal</Link>
