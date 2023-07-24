@@ -111,7 +111,7 @@ const Header = () => {
                                 <div className={styles.backArrow}>
                                     <Image  alt="bitswits"     
                                         src={backarrow}
-                                        loading="lazy"
+                                        
                                     />
                                 </div>
                                 <Row className={styles.megaRow}>
@@ -659,7 +659,7 @@ const Header = () => {
                                 <div className={styles.backArrow}>
                                     <Image  alt="bitswits"     
                                         src={backarrow}
-                                        loading="lazy"
+                                        
                                     />
                                 </div>
                                 <Row className={styles.megaRow}>
@@ -762,7 +762,7 @@ const Header = () => {
                                 <div className={styles.backArrow}>
                                     <Image  alt="bitswits"     
                                         src={backarrow}
-                                        loading="lazy"
+                                        
                                     />
                                 </div>
                                 <Row>
@@ -1290,7 +1290,7 @@ const Header = () => {
                                 <div className={styles.backArrow}>
                                     <Image  alt="bitswits"     
                                         src={backarrow}
-                                        loading="lazy"
+                                        
                                     />
                                 </div>
                                 <Row className={styles.megaRow}>
@@ -1299,7 +1299,7 @@ const Header = () => {
                                             <div className={styles.workBox}>
                                                 <Image  alt="bitswits"     
                                                     src={travel}
-                                                    loading="lazy"
+                                                    
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/travel-app-development" onClick={handleMenu}>
@@ -1313,7 +1313,7 @@ const Header = () => {
                                             <div className={`${styles.workBox}`}>
                                                 <Image  alt="bitswits"     
                                                     src={estate}
-                                                    loading="lazy"
+                                                    
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/real-estate-app-development-solutions" onClick={handleMenu}>
@@ -1327,7 +1327,7 @@ const Header = () => {
                                             <div className={styles.workBox}>
                                                 <Image  alt="bitswits"     
                                                     src={bactria}
-                                                    loading="lazy"
+                                                    
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/bacteria-app-development" onClick={handleMenu}>
@@ -1345,7 +1345,7 @@ const Header = () => {
                                             <div className={styles.workBox}>
                                                 <Image  alt="bitswits"     
                                                     src={music}
-                                                    loading="lazy"
+                                                    
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/music-streaming-app-development" onClick={handleMenu}>
@@ -1359,7 +1359,7 @@ const Header = () => {
                                             <div className={`${styles.workBox}`}>
                                                 <Image  alt="bitswits"     
                                                     src={health}
-                                                    loading="lazy"
+                                                    
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/prohealth-application-development" onClick={handleMenu}>
@@ -1373,7 +1373,7 @@ const Header = () => {
                                             <div className={styles.workBox}>
                                                 <Image  alt="bitswits"     
                                                     src={ride}
-                                                    loading="lazy"
+                                                    
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/ez-ride" onClick={handleMenu}>
@@ -1391,7 +1391,7 @@ const Header = () => {
                                             <div className={styles.workBox}>
                                                 <Image  alt="bitswits"     
                                                     src={foods}
-                                                    loading="lazy"
+                                                    
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/food-delivery-app-development" onClick={handleMenu}>

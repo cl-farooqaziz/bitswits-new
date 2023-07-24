@@ -32,7 +32,7 @@ const ServicesBanner = (props) => {
 
                             <div className={styles.srvcBannerImg}>
                                 <div className={styles.logo14}>
-                                    <Image alt="bitswits" loading="lazy" src={banImg} className={`${styles.bottom3} img-fluid`} />
+                                    <Image alt="bitswits"  src={banImg} className={`${styles.bottom3} img-fluid`} />
                                 </div>
                             </div>
                         </div>
