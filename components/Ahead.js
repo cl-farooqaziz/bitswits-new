@@ -18,6 +18,9 @@ const Ahead = (props) => {
                                 <p className='black fontf font-medium line30'>
                                     {props.para}
                                 </p>
+                                <p className='black fontf font-medium line30'>
+                                    {props.para2}
+                                </p>
                                 <div className='mt-4'>
                                     <Row className='justify-content-between'>
                                         <Col lg={6}>

@@ -882,19 +882,19 @@ const Header = () => {
                                                             <Col md={12}>
                                                                 <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='/search-engine-optimization'>
+                                                                        <Link onClick={handleMenu} href='/search-engine-optimization-company'>
                                                                             <FaAngleRight />
                                                                             <span>Search Engine Optimization</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='/keyword-research'>
+                                                                        <Link onClick={handleMenu} href='/keyword-research-company'>
                                                                             <FaAngleRight />
                                                                             <span>Keyword Research</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='/link-building'>
+                                                                        <Link onClick={handleMenu} href='/link-building-company'>
                                                                             <FaAngleRight />
                                                                             <span>Link Building</span>
                                                                         </Link>
