@@ -75,11 +75,11 @@ export default function Home() {
       <About />
       <Yearsofexpertise />
       <Ourservices />
-      {/* <Lookingfor /> */}
-      {/* <Trusted />
+      <Lookingfor />
+      <Trusted />
       <Ourportfolio />
       <Digital />
-      <ClientsThink /> */}
+      <ClientsThink />
       <Nextproject />
       <Ourblogs />
       <OurProject />
