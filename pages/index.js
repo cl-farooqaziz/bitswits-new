@@ -70,20 +70,20 @@ export default function Home() {
 
 
 
-      {/* <Banner />
+      <Banner />
       <Rated />
       <About />
       <Yearsofexpertise />
       <Ourservices />
-      <Lookingfor /> */}
-      {/* <Trusted />
+      <Lookingfor />
+      <Trusted />
       <Ourportfolio />
       <Digital />
       <ClientsThink />
       <Nextproject />
       <Ourblogs />
       <OurProject />
-      <Contact /> */}
+      <Contact />
       {/* {showComponent && (
         <>
 
