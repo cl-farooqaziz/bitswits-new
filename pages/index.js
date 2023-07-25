@@ -70,12 +70,12 @@ export default function Home() {
 
 
 
-      <Banner />
+      {/* <Banner />
       <Rated />
       <About />
       <Yearsofexpertise />
       <Ourservices />
-      <Lookingfor />
+      <Lookingfor /> */}
       {/* <Trusted />
       <Ourportfolio />
       <Digital />
