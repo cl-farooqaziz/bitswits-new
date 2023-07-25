@@ -76,14 +76,14 @@ export default function Home() {
       <Yearsofexpertise />
       <Ourservices />
       <Lookingfor />
-      <Trusted />
+      {/* <Trusted />
       <Ourportfolio />
       <Digital />
       <ClientsThink />
       <Nextproject />
       <Ourblogs />
       <OurProject />
-      <Contact />
+      <Contact /> */}
       {/* {showComponent && (
         <>
 
