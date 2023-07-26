@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function automotivesolutions() {
@@ -24,8 +26,34 @@ export default function automotivesolutions() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> AUTOMOTIVE SOLUTIONS </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <ul className='p-0'>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Connected Vehicles
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Service Business Management
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Automotive Leasing
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Single Interface Support
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Dealer Management System
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Rental and Lease
+        </li>
+    </ul>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>"In <strong>21 years</strong> of business we've completed more than <strong>147 projects</strong> for Automotive industry clients. Get in touch today to start talking about what we can do for your business."</p> </>
 
     // coverage component data
 
@@ -124,6 +152,7 @@ export default function automotivesolutions() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 
