@@ -15,7 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webapp/web-app-development-02.png'
-
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 export default function progressivewebappdevelopment() {
 
@@ -61,11 +62,18 @@ The development process at BitsWits focuses on creating engaging and personalize
 
     const heading = <h1 className='font65 black fontf font-bold line60'>Top <span className='grdiant'> Progressive Web App Development Company!</span> </h1>
 
-    const para = <p className='black fontf font-medium line30'>
-        
-        With years of experience, BitsWits, a <span className='grdiant'>top progressive web app development company</span>, is dedicated to delivering smooth experiences that seamlessly adapt to various devices. Our progressive web app developers focus on providing exceptional <span className='grdiant'>PWA development solutions</span> for improving metrics and maximizing ROI. Rely on us for professional, simplified, and top-quality <span className='grdiant'>progressive web app development services</span>. 
-        
-    </p>
+    const para = <>
+
+    <ul className='p-0'>
+    <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Mobile App-Like Interface </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Connectivity Independence </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Push Notifications </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Self-Updates </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Full Responsiveness and Browser </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Compatibilty </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Secure Since It Is Hosted On Https </li>
+    </ul>
+</>
 
 
     // coverage component data

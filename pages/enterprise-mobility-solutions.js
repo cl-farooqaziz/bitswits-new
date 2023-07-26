@@ -15,7 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/enterprisemobility/enterprise-mobility-solutions-02.png'
-
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 export default function enterprisemobilitysolutions() {
 
@@ -23,8 +24,8 @@ export default function enterprisemobilitysolutions() {
     const toppartop = <span> BitsWits, the top <span className='grdiant'>enterprise mobility solutions company</span> , delivers a consistent user experience across all platforms with our comprehensive compatibility testing. By addressing compatibility issues, we ensure that your solutions function smoothly, increasing engagement and usability.  </span>
 
     const toptitle = <span> Continuous Testing and Optimization of  <span className='grdiant'>Enterprise Mobility Solutions</span> Provide Best User Experience!  </span>
- 
-    const aheadtitle = <span> 
+
+    const aheadtitle = <span>
         Drive Business Success with Our Remarkable  <span className='grdiant'>Enterprise Mobility Management Services!</span>
     </span>
 
@@ -33,23 +34,29 @@ export default function enterprisemobilitysolutions() {
     const aheadpara = <span> BitsWits, the top <span className='grdiant'>enterprise mobility solutions company</span>, assists in maximizing business potential with our <span className='grdiant'>enterprise mobility</span> services. Our team deliver innovative solutions that enable smooth access to business assets remotely.  </span>
 
 
-    const folpos  = <span> We Craft <span className='grdiant'>Enterprise Mobility Solutions</span> That Fit Your Organizational Objectives! </span> 
+    const folpos = <span> We Craft <span className='grdiant'>Enterprise Mobility Solutions</span> That Fit Your Organizational Objectives! </span>
 
     const high = <span> Businesses need <span className='grdiant'>enterprise mobility solutions</span> to stay agile and competitive in the market, and we help organizations by designing and implementing <span className='grdiant'>custom mobility solutions</span> that align with their organizational goals to help them grow in the mobile-first era. </span>
 
 
     const aheadsubpara = <span> It’s time to break down all communication barriers and improve effective communication with our <span className='grdiant'>mobility</span> solutions, from enabling real-time communication and file sharing to using tools that empower teams to work together efficiently and boost innovation.  </span>
 
-    const aheadbutpar2 = <span> BitsWits assists in mobilizing your business processes with our top <span  className='grdiant'>enterprise mobility solutions</span> to optimize operational efficiency. Smooth running workflows, automating tasks, and accessing real-time data on the go help improve productivity and bring down costs. </span>
+    const aheadbutpar2 = <span> BitsWits assists in mobilizing your business processes with our top <span className='grdiant'>enterprise mobility solutions</span> to optimize operational efficiency. Smooth running workflows, automating tasks, and accessing real-time data on the go help improve productivity and bring down costs. </span>
 
 
     const heading = <h1 className='font65 black fontf font-bold line60'>A Well-Known  <br /><span className='grdiant'> Enterprise Mobility Solutions Company! </span></h1>
 
-    const para = <p className='black fontf font-medium line30'>
+    const para = <>
 
-        BitsWits help businesses stay ahead in competition in today's fast-paced world. Our customized <span className='grdiant'>enterprise mobility services</span> connect your team, data, and apps on any device, boosting productivity, collaboration, and growth. By prioritizing user satisfaction, we ensure that your <span className='grdiant'>enterprise mobility solutions</span> deliver exceptional experiences that exceed user expectations.
-
-    </p>
+        <ul className='p-0'>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Importing Employee Productivity </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Collaborating With Role Based Applications </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Enabling a Mobile Workforce </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Enhancing, streamlining Business Process </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Optimizing Business Process </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Providing Insight For Faster & Informed Decision </li>
+        </ul>
+    </>
 
 
 
@@ -167,7 +174,7 @@ export default function enterprisemobilitysolutions() {
             <Swipe
                 foldimg={foldimg}
                 title={folpos}
-                para= {high}
+                para={high}
                 subtitle='Enterprise Mobility Management'
                 subpara='With years of experience in enterprise mobility, applications, and data security management, we help businesses to streamline operations and increase productivity, driving them towards the new heights of success and innovation.'
                 subtitle2='Enterprise Mobility Consultation'
@@ -193,7 +200,7 @@ export default function enterprisemobilitysolutions() {
             <Ensure
                 foldimg={foldensure}
                 title={toptitle}
-                para= {topsubpara}
+                para={topsubpara}
                 subtitle='Safeguarding and Protecting Data'
                 subpara='To reduce risks, we investigate weaknesses, conduct penetration tests, and implement effective safety precautions in effect. By placing a high priority on security, we make sure that your solutions comply with the highest guidelines and satisfy you with our security.'
                 subtitle2='Ensuring Consistency Across All Platforms'
