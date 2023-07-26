@@ -115,7 +115,7 @@ export default function aboutUs() {
             </Link>
         </div>
     </div>
-
+const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
 
 
     // Swipe component data
@@ -139,6 +139,7 @@ export default function aboutUs() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
+                infopara={infopara}
             />
 
             <Coverage

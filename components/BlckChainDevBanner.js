@@ -29,7 +29,8 @@ const ServicesBanner = (props) => {
                                 <Link className={styles.bttns1} href='tel:(833) 500-6007'>(833) 500-6007</Link>
                                 <Link className={styles.bttns2} href="#">Chat With Us Online! </Link>
                             </div>
-
+                            <p className='black fontf font-medium line30 mt-5'>
+                                In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p>
                             {/* <div className={styles.srvcBannerImg}>
                                 <div className={styles.logo14}>
                                     <Image alt="bitswits"  src={banImg} className={`${styles.bottom3} img-fluid`} />
