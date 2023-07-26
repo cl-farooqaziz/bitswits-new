@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function bankingfinance() {
@@ -24,8 +26,22 @@ export default function bankingfinance() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> BANKING & FINANCE </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <ul className='p-0'>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            We work with a variety of financial institutions, including hedge funds, private equity firms, and other financial services companies.
+        </li>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            From Fintech startups to Fortune 500 companies (and everything in-between), we design and build robust, well engineered websites, solutions and apps that deliver real results.
+        </li>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Boost your business with an agile, digital solution that keeps you competitive in the complex financial industry.
+        </li>
+    </ul>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
 
     // coverage component data
 
@@ -124,6 +140,7 @@ export default function bankingfinance() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 
