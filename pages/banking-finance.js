@@ -27,16 +27,13 @@ export default function bankingfinance() {
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> BANKING & FINANCE </span> Company!</h1>
 
     const para = <ul className='p-0'>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
+        <li className="font16 fontf font-medium black">
             We work with a variety of financial institutions, including hedge funds, private equity firms, and other financial services companies.
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
+        <li className="font16 fontf font-medium black">
             From Fintech startups to Fortune 500 companies (and everything in-between), we design and build robust, well engineered websites, solutions and apps that deliver real results.
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
+        <li className="font16 fontf font-medium black">
             Boost your business with an agile, digital solution that keeps you competitive in the complex financial industry.
         </li>
     </ul>

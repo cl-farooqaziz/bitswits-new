@@ -26,16 +26,19 @@
   overflow: hidden;
 }
 
-.banner h1 {
-  padding-top: 22px;
-}
-
 .banner .banerTxt {
   margin-left: 25px;
 }
 
 .banner .banerTxt p {
   font-size: 18px;
+}
+
+.banner ul {
+  margin: 30px 0 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .call {
@@ -131,6 +134,7 @@
 
 .bannnerproject {
   justify-content: space-between;
+  align-items: center;
 }
 
 .discuss a {
@@ -497,7 +501,6 @@
   }
 
   .banner h1 {
-    margin-top: 20px;
     font-size: 70px;
     line-height: 75px;
   }
@@ -662,10 +665,6 @@
     justify-content: center;
   }
 
-  .banner h1 {
-    padding-top: 0px;
-  }
-
   .bannerimg2 {
     display: none;
   }
@@ -677,8 +676,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
-
   .cross {
     top: 10px;
     right: 10px;

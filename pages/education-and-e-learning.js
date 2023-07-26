@@ -27,27 +27,27 @@ export default function educationandelearning() {
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> EDUCATION AND E LEARNING </span> Company!</h1>
 
     const para = <ul className='p-0'>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Identical Content
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Quick & easy solutions
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Cost Efficient
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Tablet Compatible
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Learning Management systems
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Quality Learning
         </li>

@@ -27,27 +27,27 @@ export default function healthcare() {
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> HEALTHCARE </span> Company!</h1>
 
     const para = <ul className='p-0'>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Bespoke practice management software
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'>
             </Image>Appointment management
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Secure patient record keeping
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Recruitment
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Video conferencing
         </li>
-        <li className="font16 fontf font-medium mt-3 black mb-2">
+        <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
             Lab management systems
         </li>
