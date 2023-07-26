@@ -1017,7 +1017,7 @@ const Header = () => {
                                                                             <span>Blockchain Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    <li>
+                                                                    {/* <li>
                                                                         <Link onClick={handleMenu} href="/blockchain-app-development-company">
                                                                             <FaAngleRight />
                                                                             <span>Blockchain App Development</span>
@@ -1064,7 +1064,7 @@ const Header = () => {
                                                                             <FaAngleRight />
                                                                             <span>Tokenization Solutions</span>
                                                                         </Link>
-                                                                    </li>
+                                                                    </li> */}
                                                                 </ul>
                                                             </Col>
                                                         </Row>
@@ -1115,7 +1115,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col md={4}>
+                                            {/* <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -1140,7 +1140,7 @@ const Header = () => {
                                                         </Row>
                                                     </div>
                                                 </div>
-                                            </Col>
+                                            </Col> */}
                                         </Row>
                                     </Col>
                                     <Col md={3} className='p-md-0'>
