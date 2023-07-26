@@ -57,8 +57,6 @@ export default function startupsolutions() {
         </li>
     </ul>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-4'>We have significant experience providing tailored, secure and robust solutions for the healthcare industry - both in the UK and abroad. Start a conversation with us today to get a free quote for your solution.</p> </>
-
 
     // coverage component data
 
@@ -157,7 +155,6 @@ export default function startupsolutions() {
             <Banner
                 title={heading}
                 para={para}
-                infopara={infopara}
                 bannerimg={banImg}
             />
 

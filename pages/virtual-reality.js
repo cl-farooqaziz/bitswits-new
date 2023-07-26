@@ -40,6 +40,8 @@ export default function virtualreality() {
     </>
 
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <strong>250+</strong> Developed Games to <strong>50+</strong> clients <br /> in the last <strong>21 years</strong>.</p> </>
+
     // coverage component data
 
 
@@ -137,6 +139,7 @@ export default function virtualreality() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 

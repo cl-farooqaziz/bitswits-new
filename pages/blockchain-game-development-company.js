@@ -14,8 +14,8 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
-import Image from 'next/image';
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
@@ -25,7 +25,7 @@ export default function aboutUs() {
     // banner component data
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Blockchain Game
-     </span> Development Company!</h1>
+    </span> Development Company!</h1>
 
     const para = <>
 
@@ -40,6 +40,7 @@ export default function aboutUs() {
         </ul>
     </>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <strong>250+</strong> Developed Games to <strong>50+</strong> clients <br /> in the last <strong>21 years</strong>.</p> </>
 
     // coverage component data
 
@@ -138,6 +139,7 @@ export default function aboutUs() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 

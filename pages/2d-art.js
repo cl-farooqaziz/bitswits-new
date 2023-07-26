@@ -38,6 +38,8 @@ export default function art() {
         </ul>
     </>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <strong>100+</strong> 2D Apps to <strong>80+</strong> clients in the last <strong>21 years</strong>. What can we do for you?</p> </>
+
 
     // coverage component data
 
@@ -136,6 +138,7 @@ export default function art() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 

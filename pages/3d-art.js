@@ -39,6 +39,7 @@ export default function dart() {
         </ul>
     </>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <strong>100+</strong> 3D Apps to <strong>80+</strong> clients in the last <strong>21 years</strong>. What can we do for you?</p> </>
 
 
     // coverage component data
@@ -138,6 +139,7 @@ export default function dart() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 
