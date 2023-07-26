@@ -37,7 +37,7 @@ const ServicesBanner = (props) => {
                             {props.para3}
 
                             <div className={`${styles.bttnsto} mt-3`}>
-                                <Link className={styles.bttns1} href="#">Book A Call</Link>
+                                <Link className={styles.bttns1} href='tel:(833) 500-6007'>(833) 500-6007</Link>
                                 <Link className={styles.bttns2} href="#">Chat With Us Online! </Link>
 
 
