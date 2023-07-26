@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function ticketbookingsolutions() {
@@ -24,8 +26,34 @@ export default function ticketbookingsolutions() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> TICKET BOOKING SOLUTIONS </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <ul className='p-0'>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Bulk Ticket Booking
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Server Management
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Widgets Implementation
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Find and Book Tickets
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Single Track System
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Online Printing Tool
+        </li>
+    </ul>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We have developed many solutions in the rail ticket booking niche, including for customers such as Eurostar and SNCF. Contact us today to discover what we can do for you...</p> </>
 
     // coverage component data
 
@@ -124,6 +152,7 @@ export default function ticketbookingsolutions() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 

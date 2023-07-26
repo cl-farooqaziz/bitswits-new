@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function foodorderingsolutions() {
@@ -24,7 +26,34 @@ export default function foodorderingsolutions() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> FOOD ORDERING SOLUTIONS </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <ul className='p-0'>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Integrated reservation systems
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            POS integration
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Business management
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Stock control
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Management reporting
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Single & multi-restaurant solutions
+        </li>
+    </ul>
+
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We've been providing tailored, robust solutions to the food & drink industry since <strong>2002</strong>. Whatever your requirements, we've got you covered get in touch with us today to start talking about your requirements.</p> </>
 
 
     // coverage component data
@@ -124,6 +153,7 @@ export default function foodorderingsolutions() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 

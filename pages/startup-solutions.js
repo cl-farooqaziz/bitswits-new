@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function startupsolutions() {
@@ -24,7 +26,38 @@ export default function startupsolutions() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> STARTUP SOLUTIONS </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <ul className='p-0'>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Test Sample
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Doctor's Office
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Event Management
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Patient
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Lab
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Analysis
+        </li>
+        <li className="font16 fontf font-medium black">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Results
+        </li>
+    </ul>
+
+    const infopara = <> <p className='black fontf font-medium line30 mt-4'>We have significant experience providing tailored, secure and robust solutions for the healthcare industry - both in the UK and abroad. Start a conversation with us today to get a free quote for your solution.</p> </>
 
 
     // coverage component data
@@ -124,6 +157,7 @@ export default function startupsolutions() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 

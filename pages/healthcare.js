@@ -32,8 +32,8 @@ export default function healthcare() {
             Bespoke practice management software
         </li>
         <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'>
-            </Image>Appointment management
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Appointment management
         </li>
         <li className="font16 fontf font-medium black">
             <Image src={mobilearrow} className='img-fluid multi'></Image>
