@@ -6,9 +6,7 @@ import { Row, Col } from 'react-bootstrap'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
-// import Modal from 'react-bootstrap/Modal';
-// import Freequote from '../components/Freequote'
-//images
+// images
 import logo from '../public/images/icons/logo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
 import php from '../public/images/icons/php.png'
@@ -42,16 +40,17 @@ import backarrow from '../public/images/icons/back-arrow.webp'
 import music from '../public/images/icons/music.png'
 import ride from '../public/images/icons/ride.png'
 import bactria from '../public/images/icons/bactria.png'
-
-
+import Modal from 'react-bootstrap/Modal';
+import Freequote from '../components/Freequote'
+import { RxCross2 } from 'react-icons/rx'
 
 const Header = () => {
 
 
-    // const [show, setShow] = useState(false);
+    const [show, setShow] = useState(false);
 
-    // function modal(e) { e.preventDefault(); setShow(true); }
-    // function closemodal() { setShow(false); }
+    function modal(e) { e.preventDefault(); setShow(true); }
+    function closemodal() { setShow(false); }
 
     const opnen = () => {
         window.open('../companyprofile.pdf', '_blank');
@@ -1442,7 +1441,7 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li className={`${styles.navList} ${styles.inqBtn}`} onClick={handleMenu}>
+                        <li className={`${styles.navList} ${styles.inqBtn}`} onClick={modal}>
                             <Link  href='#'>ENQUIRE NOW</Link>
                         </li>
                         <li>
@@ -1489,9 +1488,11 @@ const Header = () => {
                     </div>
                 </nav>
 
-                {/* <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-                <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
-                </Modal> */}
+                <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
+
+
+            </Modal>
 
 
             </header>
