@@ -119,7 +119,8 @@ export default function phpdevelopment() {
     // Swipe component data
 
     
-
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b >10000+</b> websites
+    to <b>450+</b> clients in the last <b>21</b> years. What can we do for you?</p> </>
 
 
 
@@ -137,6 +138,7 @@ export default function phpdevelopment() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
+                infopara={infopara}
             />
 
             <Coverage

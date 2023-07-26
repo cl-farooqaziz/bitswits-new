@@ -119,7 +119,8 @@ export default function crmsolution() {
 
 
     // Swipe component data
-
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b>500+</b> CRM Solutions
+    to <b>450+</b> clients in the last <b>21 years</b>. What can we do for you?</p> </>
     
 
 
@@ -139,6 +140,7 @@ export default function crmsolution() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
+                infopara={infopara}
             />
 
             <Coverage
