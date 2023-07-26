@@ -28,13 +28,13 @@ export default function augmentedreality() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Large Stock of Gaming Technology </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Multiple Devices Support </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Transparent Work Progress </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>NDA Protection </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Custom Software with Unity 3D Home Architect </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Experienced 3D Modelling Experts </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Slam Tracking Experts </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Large Stock of Gaming Technology </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Multiple Devices Support </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Transparent Work Progress </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>NDA Protection </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Custom Software with Unity 3D Home Architect </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Experienced 3D Modelling Experts </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Slam Tracking Experts </li>
         </ul>
     </>
 

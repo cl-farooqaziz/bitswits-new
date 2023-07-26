@@ -28,11 +28,11 @@ export default function keywordresearch() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Improving Conversions </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Engaged Audience </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Eye Trends </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Higher Organic Search Ranking </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Optimize Spend </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Improving Conversions </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Engaged Audience </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Eye Trends </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Higher Organic Search Ranking </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Optimize Spend </li>
         </ul>
     </>
 

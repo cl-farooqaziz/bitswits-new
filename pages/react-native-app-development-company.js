@@ -30,7 +30,7 @@ export default function aboutUs() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Multi Browser Compatabilitiy </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Multi Browser Compatabilitiy </li>
             <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Highly Maintainable Code</li>
             <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Solid Version Control System</li>
             <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> User Friendly Interfaces</li>

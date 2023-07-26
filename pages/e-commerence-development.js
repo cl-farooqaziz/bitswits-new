@@ -28,7 +28,7 @@ export default function ecommerencedevelopment() {
     const para = <>
 
     <ul className='p-0'>
-        <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Advanced E-Commerce For Growing Brands </li>
+        <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Advanced E-Commerce For Growing Brands </li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Multi Vendor Marketplace Solutions</li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Shopping Cart Development</li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>  E-Commerce Application Development</li>

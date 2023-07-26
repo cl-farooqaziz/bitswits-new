@@ -63,12 +63,12 @@ export default function mobileappdevelopment() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Over <b  className='grdiant'>2082+ mobile apps</b> published Worldwide <b className='grdiant'>since 2007</b> . </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>180+</b> In-House Team Of App Designers & Developers </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>20 Years</b> .Experience & Counting </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image><b className='grdiant'>IOS, Android & cross-platform apps</b> for phone, tablet & watch. </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>Transparent</b> Project Progress </li>
-            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>Offices in 5 Countries</b> (UK, USA, Australia, UAE & India) </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Over <b  className='grdiant'>2082+ mobile apps</b> published Worldwide <b className='grdiant'>since 2007</b> . </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>180+</b> In-House Team Of App Designers & Developers </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>20 Years</b> .Experience & Counting </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image><b className='grdiant'>IOS, Android & cross-platform apps</b> for phone, tablet & watch. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>Transparent</b> Project Progress </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> <b className='grdiant'>Offices in 5 Countries</b> (UK, USA, Australia, UAE & India) </li>
         </ul>
     </>
 
