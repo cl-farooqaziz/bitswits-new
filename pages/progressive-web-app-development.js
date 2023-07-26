@@ -65,13 +65,13 @@ The development process at BitsWits focuses on creating engaging and personalize
     const para = <>
 
     <ul className='p-0'>
-    <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Mobile App-Like Interface </li>
- <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Connectivity Independence </li>
- <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Push Notifications </li>
- <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Self-Updates </li>
- <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Full Responsiveness and Browser </li>
- <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Compatibilty </li>
- <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Secure Since It Is Hosted On Https </li>
+    <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Mobile App-Like Interface </li>
+ <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Connectivity Independence </li>
+ <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Push Notifications </li>
+ <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Self-Updates </li>
+ <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Full Responsiveness and Browser </li>
+ <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Compatibilty </li>
+ <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Secure Since It Is Hosted On Https </li>
     </ul>
 </>
 

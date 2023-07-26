@@ -28,7 +28,7 @@ export default function crmsolution() {
     const para = <>
 
     <ul className='p-0'>
-        <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Integration Services </li>
+        <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Integration Services </li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Migration Services</li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Solution Implementation</li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Reporting Services</li>

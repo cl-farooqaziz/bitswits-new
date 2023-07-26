@@ -28,7 +28,7 @@ export default function phpdevelopment() {
     const para = <>
 
     <ul className='p-0'>
-        <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Expertise in different PHP based frameworks (CorePHP, CakePHP, Zend, Laravel). </li>
+        <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Expertise in different PHP based frameworks (CorePHP, CakePHP, Zend, Laravel). </li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Hassle-Free Integration on multiple platforms</li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Leverage PHP’s open-source capabilities for Custom Php Development</li>
         <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CMMI DEV/3 appraised ensuring accurate and on-time delivery.</li>
