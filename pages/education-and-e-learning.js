@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function educationandelearning() {
@@ -24,8 +26,34 @@ export default function educationandelearning() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> EDUCATION AND E LEARNING </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <ul className='p-0'>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Identical Content
+        </li>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Quick & easy solutions
+        </li>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Cost Efficient
+        </li>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Tablet Compatible
+        </li>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Learning Management systems
+        </li>
+        <li className="font16 fontf font-medium mt-3 black mb-2">
+            <Image src={mobilearrow} className='img-fluid multi'></Image>
+            Quality Learning
+        </li>
+    </ul>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>we have provided services to over <strong>1,200+</strong> clients and have developed <strong>1,000+</strong> Websites and Portals, by <strong>200+</strong> developers.</p> </>
 
     // coverage component data
 
@@ -124,6 +152,7 @@ export default function educationandelearning() {
             <Banner
                 title={heading}
                 para={para}
+                infopara={infopara}
                 bannerimg={banImg}
             />
 
