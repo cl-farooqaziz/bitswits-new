@@ -30,11 +30,11 @@ const ServicesBanner = (props) => {
                                 <Link className={styles.bttns2} href="#">Chat With Us Online! </Link>
                             </div>
 
-                            <div className={styles.srvcBannerImg}>
+                            {/* <div className={styles.srvcBannerImg}>
                                 <div className={styles.logo14}>
                                     <Image alt="bitswits"  src={banImg} className={`${styles.bottom3} img-fluid`} />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </Col>
                     <Col lg={4} className='p-0'>
