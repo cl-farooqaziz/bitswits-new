@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function searchengineoptimization() {
@@ -24,7 +26,18 @@ export default function searchengineoptimization() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>Build Your Brand with the Top <span className='grdiant'>Search Engine Optimization</span> Company in US</h1>
 
-    const para = <p className='black fontf font-medium line30'>BitsWits, a leading search engine optimization agency, specializes in driving organic traffic and boosting online visibility for businesses nationwide and in their local areas. We implement strategic search engine optimization techniques to improve website rankings and engage more visitors. Allow our SEO experts to optimize your website and guarantee better conversion rates and extensive brand exposure.</p>
+    const para = <>
+
+        <ul className='p-0'>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Long Term Positioning & Increased Traffic </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Brand Awareness & Online Reputation </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Seo Friendly & User Friendly Website </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Cost Effective & Increased Roi </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Increased Domain Authority & Page Rank </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Increased Visibility Among Target Audiences </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Connect With Motivated Prospects </li>
+        </ul>
+    </>
 
 
     // coverage component data

@@ -15,7 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
-
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 export default function linkbuilding() {
 
@@ -24,9 +25,20 @@ export default function linkbuilding() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>Your Trusted <span className='grdiant'>Link Building</span> Company That Drives Exponential Website Traffic Through Strategic Backlinking</h1>
 
-    const para = <p className='black fontf font-medium line30'>Welcome to BitsWits, the best SEO link building agency, where link building experts acquire high-quality and authoritative backlinks for websites. Our offpage SEO professionals strategically build backlinks that boost your website’s relevancy and organic rankings.</p>
-    
-    const para2 = <p className='black fontf font-medium line30'>Our creative techniques and ethical white hat link building practices assists in securing relevant backlinks that result in a strong online presence, increased targeted traffic, and improved domain authority. So, what’s stopping you from contacting us?</p>
+    const para = <>
+
+        <ul className='p-0'>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Sending referral traffic </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Brand building </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Building relationships </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Improve Domain & Page Authority </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Improve Keyword ranking </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Improve website traffic </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Increase Website’s  visibility & performance </li>
+        </ul>
+    </>
+
+
 
 
     // coverage component data
@@ -148,7 +160,6 @@ export default function linkbuilding() {
             <Banner
                 title={heading}
                 para={para}
-                para2={para2}
                 bannerimg={banImg}
             />
 

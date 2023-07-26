@@ -15,7 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
-
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 export default function keywordresearch() {
 
@@ -24,9 +25,18 @@ export default function keywordresearch() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>Hire The Best <span className='grdiant'>Keyword Research</span> Company in US To Dominate Search Results</h1>
 
-    const para = <p className='black fontf font-medium line30'>BitsWits, a top keyword research company, specializes in finding the relevant keywords that drive targeted traffic to your website, and boost visibility on Google and other search engines.</p>
+    const para = <>
 
-    const para2 = <p className='black fontf font-medium line30'>Our SEO experts provide the best keyword research services by utilizing advanced research tools and industry insights to identify high-value and converting keywords. Our comprehensive keyword analysis and strategic recommendations optimize your website, content, and SEO campaigns for better visibility in search results.</p>
+        <ul className='p-0'>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Improving Conversions </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Engaged Audience </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Eye Trends </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Higher Organic Search Ranking </li>
+            <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>Optimize Spend </li>
+        </ul>
+    </>
+
+
 
 
     // coverage component data
@@ -151,7 +161,6 @@ export default function keywordresearch() {
             <Banner
                 title={heading}
                 para={para}
-                para2={para2}
                 bannerimg={banImg}
             />
 
