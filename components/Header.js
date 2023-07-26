@@ -767,62 +767,7 @@ const Header = () => {
                                 <Row>
                                     <Col md={9}>
                                         <Row className={styles.megaRow}>
-                                            <Col md={4}>
-                                                <div className={styles.listMain}>
-                                                    <div className={styles.listHeading}>
-                                                        <div className={styles.megaIcon}>
-                                                            <Image alt="bitswits" className='img-fluid'
-                                                                src={web}
-                                                            />
-                                                        </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>WEB</h5>
-                                                    </div>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/web-development'>
-                                                                            <FaAngleRight />
-                                                                            <span>Web Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/php-development-service'>
-                                                                            <FaAngleRight />
-                                                                            <span>PHP Development Services</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/crm-solution'>
-                                                                            <FaAngleRight />
-                                                                            <span>CRM Solutions</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/e-commerence-development'>
-                                                                            <FaAngleRight />
-                                                                            <span>e-Commerce Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/enterprise-portal-solution'>
-                                                                            <FaAngleRight />
-                                                                            <span>Enterprise Portal Solution</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/magento-enterprise-solution'>
-                                                                            <FaAngleRight />
-                                                                            <span>Magento Enterprise Solution</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </div>
-                                            </Col>
+
                                             <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
@@ -909,152 +854,7 @@ const Header = () => {
                                                         </Row>
                                                     </div>
                                                 </div>
-                                            </Col>
-                                            <Col md={4}>
-                                                <div className={styles.listMain}>
-                                                    <div className={styles.listHeading}>
-                                                        <div className={styles.megaIcon}>
-                                                            <Image alt="bitswits" className='img-fluid'
-                                                                src={marketing}
-                                                            />
-                                                        </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>SEO</h5>
-                                                    </div>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/search-engine-optimization-company'>
-                                                                            <FaAngleRight />
-                                                                            <span>Search Engine Optimization</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/keyword-research-company'>
-                                                                            <FaAngleRight />
-                                                                            <span>Keyword Research</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/link-building-company'>
-                                                                            <FaAngleRight />
-                                                                            <span>Link Building</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </div>
                                                 <div className={`${styles.listMain} mt-4`}>
-                                                    <div className={styles.listHeading}>
-                                                        <div className={styles.megaIcon}>
-                                                            <Image alt="bitswits" className='img-fluid'
-                                                                src={cms}
-                                                            />
-                                                        </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
-                                                    </div>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/social-media-optimization'>
-                                                                            <FaAngleRight />
-                                                                            <span>Social Media Optimization</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/pay-per-click-services'>
-                                                                            <FaAngleRight />
-                                                                            <span>Pay Per Click Services</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/digital-marketing'>
-                                                                            <FaAngleRight />
-                                                                            <span>Digital Marketing</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/conversion-rate-optimisation'>
-                                                                            <FaAngleRight />
-                                                                            <span>Conversion Rate Optimisation</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                            <Col md={4}>
-                                                <div className={`${styles.listMain} ${styles.resList}`}>
-                                                    <div className={styles.listHeading}>
-                                                        <div className={styles.megaIcon}>
-                                                            <Image alt="bitswits" className='img-fluid'
-                                                                src={games}
-                                                            />
-                                                        </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
-                                                    </div>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>NFT Game Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Blockchain Game Development</span>
-                                                                        </Link>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/game-development'>
-                                                                            <FaAngleRight />
-                                                                            <span>Game Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/2d-art'>
-                                                                            <FaAngleRight />
-                                                                            <span>2D Art</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/3d-art'>
-                                                                            <FaAngleRight />
-                                                                            <span>3D Art</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/augmented-reality'>
-                                                                            <FaAngleRight />
-                                                                            <span>Augmented Reality</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/virtual-reality'>
-                                                                            <FaAngleRight />
-                                                                            <span>Virtual Reality</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                            <Col md={4}>
-                                                <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="bitswits" className='img-fluid'
@@ -1132,6 +932,251 @@ const Header = () => {
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="bitswits" className='img-fluid'
+                                                                src={web}
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>WEB</h5>
+                                                    </div>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/web-development'>
+                                                                            <FaAngleRight />
+                                                                            <span>Web Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/php-development-service'>
+                                                                            <FaAngleRight />
+                                                                            <span>PHP Development Services</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/crm-solution'>
+                                                                            <FaAngleRight />
+                                                                            <span>CRM Solutions</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/e-commerence-development'>
+                                                                            <FaAngleRight />
+                                                                            <span>e-Commerce Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/enterprise-portal-solution'>
+                                                                            <FaAngleRight />
+                                                                            <span>Enterprise Portal Solution</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/magento-enterprise-solution'>
+                                                                            <FaAngleRight />
+                                                                            <span>Magento Enterprise Solution</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
+                                                <Col md={12} className='mt-4'>
+                                                    <div className={styles.listMain}>
+                                                        <div className={styles.listHeading}>
+                                                            <div className={styles.megaIcon}>
+                                                                <Image alt="bitswits" className='img-fluid'
+                                                                    src={cms}
+                                                                />
+                                                            </div>
+                                                            <h5 className='font14 fontf font-semibold mb-0'>Explainer Video</h5>
+                                                        </div>
+                                                        <div className={styles.listBody}>
+                                                            <Row>
+                                                                <Col md={12}>
+                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/2d-cartoon-animation'>
+                                                                                <FaAngleRight />
+                                                                                <span>2D Cartoon Animation</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/whiteboard-animation'>
+                                                                                <FaAngleRight />
+                                                                                <span>Whiteboard Animation</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/motion-graphics'>
+                                                                                <FaAngleRight />
+                                                                                <span>Motion Graphics</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/3d-animation'>
+                                                                                <FaAngleRight />
+                                                                                <span>3D Animation</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                    </ul>
+                                                                </Col>
+                                                            </Row>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            </Col>
+                                            <Col md={4}>
+                                                <div className={styles.listMain}>
+                                                    <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image alt="bitswits" className='img-fluid'
+                                                                src={marketing}
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>SEO</h5>
+                                                    </div>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/search-engine-optimization-company'>
+                                                                            <FaAngleRight />
+                                                                            <span>Search Engine Optimization</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/keyword-research-company'>
+                                                                            <FaAngleRight />
+                                                                            <span>Keyword Research</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/link-building-company'>
+                                                                            <FaAngleRight />
+                                                                            <span>Link Building</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
+                                                <div className={`${styles.listMain} mt-4`}>
+                                                    <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image alt="bitswits" className='img-fluid'
+                                                                src={cms}
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
+                                                    </div>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/social-media-optimization'>
+                                                                            <FaAngleRight />
+                                                                            <span>Social Media Optimization</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/pay-per-click-services'>
+                                                                            <FaAngleRight />
+                                                                            <span>Pay Per Click Services</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/digital-marketing'>
+                                                                            <FaAngleRight />
+                                                                            <span>Digital Marketing</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/conversion-rate-optimisation'>
+                                                                            <FaAngleRight />
+                                                                            <span>Conversion Rate Optimisation</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul>
+                                                                <div className={`${styles.listMain} ${styles.resList} mt-4`}>
+                                                                    <div className={styles.listHeading}>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={games}
+                                                                            />
+                                                                        </div>
+                                                                        <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
+                                                                    </div>
+                                                                    <div className={styles.listBody}>
+                                                                        <Row>
+                                                                            <Col md={12}>
+                                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='#'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>NFT Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='#'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Blockchain Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/game-development'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/2d-art'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>2D Art</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/3d-art'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>3D Art</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/augmented-reality'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Augmented Reality</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/virtual-reality'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Virtual Reality</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </Col>
+                                                                        </Row>
+                                                                    </div>
+                                                                </div>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
+                                            </Col>
+                                          
+                                            <Col md={4}>
+
+                                            </Col>
+                                            {/* <Col md={4}>
+                                                <div className={styles.listMain}>
+                                                    <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image alt="bitswits" className='img-fluid'
                                                                 src={cms}
                                                             />
                                                         </div>
@@ -1170,7 +1215,7 @@ const Header = () => {
                                                         </Row>
                                                     </div>
                                                 </div>
-                                            </Col>
+                                            </Col> */}
                                             {/* <Col md={4}>
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
