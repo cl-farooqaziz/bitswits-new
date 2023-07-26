@@ -120,7 +120,8 @@ export default function ecommerencedevelopment() {
 
     // Swipe component data
 
-    
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>80+</b> Enterprisen Portal
+    solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
 
 
 
@@ -139,6 +140,7 @@ export default function ecommerencedevelopment() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
+                infopara={infopara}
             />
 
             <Coverage
