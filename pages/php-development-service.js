@@ -15,7 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
-
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import Image from 'next/image';
 
 export default function phpdevelopment() {
 
@@ -24,7 +25,18 @@ export default function phpdevelopment() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Php Development </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <>
+
+    <ul className='p-0'>
+        <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Expertise in different PHP based frameworks (CorePHP, CakePHP, Zend, Laravel). </li>
+        <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Hassle-Free Integration on multiple platforms</li>
+        <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Leverage PHP’s open-source capabilities for Custom Php Development</li>
+        <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CMMI DEV/3 appraised ensuring accurate and on-time delivery.</li>
+     
+    </ul>
+
+
+</>
 
 
     // coverage component data

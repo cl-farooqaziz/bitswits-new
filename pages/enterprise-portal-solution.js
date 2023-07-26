@@ -15,6 +15,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
+import Image from 'next/image';
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
 
 export default function ecommerencedevelopment() {
@@ -24,7 +26,19 @@ export default function ecommerencedevelopment() {
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'>ENTERPRISE PORTAL SOLUTION </span> Company!</h1>
 
-    const para = <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    const para = <>
+
+    <ul className='p-0'>
+    <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Strategy Assessment And Consulting </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> User Interface Design And USablity </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> End-To-End Portal Application Programming </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Third Party Web Services </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Legacy Business Applications </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Quality Assurance And Complete Testing </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Portal Setup And Maintenance Support </li>
+ <li className="font16 fontf font-medium mt-3 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Poratl Upgrades And New Features Enhancements </li>
+    </ul>
+</>
 
 
     // coverage component data
