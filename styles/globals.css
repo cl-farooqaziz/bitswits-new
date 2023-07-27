@@ -93,6 +93,7 @@ body {
 
 .font14 {
   font-size: 14px;
+  line-height: 24px;
 }
 
 .font16 {
@@ -778,6 +779,7 @@ input::-webkit-inner-spin-button {
 .multi{
   filter: brightness(0.1);
   margin-right: 1.5%;
+  width: 15px;
 }
 
 /* ===============Media Queries================ */

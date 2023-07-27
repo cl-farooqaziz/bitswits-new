@@ -19,10 +19,10 @@ import MyServices from '@/components/MyServices';
 import MyExpertise from '@/components/MyExpertise';
 import MyReason from '@/components/MyReason';
 //images
+import banImg from '../public/images/banner/webBanner.png'
 import aheadimage from '../public/images/services/webAhead.svg'
 import foldimg from '../public/images/services/webSwipe.svg'
 import foldensure from '../public/images/services/webEnsure.svg'
-import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //
 import icon1 from '../public/images/wbd-icons/wbd-icon1.png'
