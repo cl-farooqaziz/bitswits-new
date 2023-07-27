@@ -78,13 +78,20 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 .soluCard ul li {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.phpdev .imgBox {
+  width: auto;
+  height: auto;
+  justify-content: flex-start;
+  margin-bottom: 10px;
 }
 
 /* ===============Media Queries================ */
@@ -106,7 +113,7 @@
     border-right: 0px;
   }
 
-  .mblBr{
+  .mblBr {
     border-bottom: 1px solid #ccc;
   }
 }
