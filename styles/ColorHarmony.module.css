@@ -68,7 +68,7 @@
 
 /* ============foodHarmony============ */
 
-.food .left{
+.food .left {
   background-color: #ff6600;
   color: #000;
 }
@@ -116,6 +116,19 @@
 .bacteria .right {
   background-color: #000000;
   color: #fff;
+}
+
+/* ============GameHarmony============ */
+
+.game .left {
+  background-color: #2c2cfc;
+  color: #fff;
+}
+
+.game .right {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ccc;
 }
 
 /* ============================================= */

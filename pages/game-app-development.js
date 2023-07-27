@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 import styles from '@/styles/ColorHarmony.module.css'
 //components
-import Banner from '@/components/Foodbanner'
+import Banner from '@/components/GameBanner'
 import OverView from '@/components/OverView'
 import Challenge from '@/components/Challenge';
 import Solutions from '@/components/Solutions';
@@ -16,8 +16,8 @@ import Nextproject from '@/components/Nextproject'
 import Ourblogs from '@/components/Ourblogs'
 import Contact from '@/components/Contact'
 //images
-import foldImg from '../public/images/case-food/beats.png'
-import foldImg00 from '../public/images/case-food/horizons.svg'
+import foldImg from '../public/images/case-game/beats.png'
+import foldImg00 from '../public/images/case-game/horizons.png'
 
 export default function gameappdev() {
 
@@ -37,7 +37,7 @@ export default function gameappdev() {
   const CaseOverView = [
     {
       title: 'Overview',
-      text: 'Nowadays, most, if not all, food outlets collaborate with food delivery app development services to reach a wide range of audiences and expand their business. Given this, Find Food, a small-scale food delivery startup, approached BitsWits to design an attractive food application that enables customers to place meal orders from their favorite food chain.',
+      text2: 'Germ-Guard is a cutting-edge cleaning company with headquarters in the USA. Their network in the USA includes more than 500 plus workforce of cleaning companies. Not only this, but they provide on-demand neighborhood cleaning services as well. The company intended to revolutionize the cleaning sector for commercial, residential, and industrial properties in the USA by connecting homeowners with verified, trained, and insured cleaners.',
       imagefold: foldImg,
       caseOverView: 'foodOverView'
     }
@@ -45,7 +45,7 @@ export default function gameappdev() {
 
   const newspan = <span>The <br /> Problem</span>
 
-  const newtextpont = <span> The client asked BitsWits to design a user-friendly and intuitive mobile application that allows customers to place orders swimmingly. They further requested to incorporate a secure payment method and real-time tracking feature to keep tabs on all orders. <br></br>  And since free items are always customers' favorite, our client asked for this unique feature to be added to the app.</span>
+  const newtextpont = <span> The client's overarching objective was to create a mobile application to help users clean and disinfect their surroundings, such as homes, offices, and public places. The client was in a quandary about the features that must be included in the app. Not only this, but they also talked about the potential benefits of creating a bacteria app. The client also requested to make the mobile application user-friendly and available on various platforms like iOS and Android.</span>
 
   const CaseChallengs = [
     {
@@ -60,34 +60,31 @@ export default function gameappdev() {
   const CaseSolutions = [
     {
       title: newspan2,
-      text: 'We were ecstatic when Find Food presented us with this food delivery apps development project – our highly experienced and knowledgeable team members, who specialize in developing all sorts of applications, embraced the challenge. Eventually, it took three months to make this dream a reality. We deployed a plethora of features, some of which are as follows:',
+      text: 'To begin with, our client and the BitsWits team held a thorough brainstorming session to comprehend their requirements and business strategy. Our highly-skilled team shed light on some potential benefits of bacteria app development. Based on our conversation, we created the Germ-Guard app, which streamlines, trusts, and affordably provides cleaning services for homes and businesses.',
       caseSolution: 'caseSolution'
     }
   ]
 
 
 
-  const demo = <h4 className='font30 fontf font-bold'>Sign In</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>To make food ordering a breeze, the professionals at BitsWits devised sign-in and sign-up options that offer customers expedited access to their contact information. Furthermore, the app is designed with quick navigation features so customers can find what they are looking for effortlessly. With this simple setup, updating customer details whenever desired has never been easier.</p>
+  const demo = <h4 className='font30 fontf font-bold'>One-Tap Booking</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>With this feature, customers can easily book a cleaning service at any time of day or night without having to go through the hassle of calling multiple companies and comparing prices. Customers can also select from services such as deep cleaning, carpet cleaning, and area rug cleaning.</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Coupon</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
+  const profile = <h4 className='font30 fontf font-bold '>Check Cleaner Availability</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With this feature, users can check the availability of different cleaners in their area quickly and easily. It helps to ensure they get the best service at the most convenient time. It helps customers save time by allowing them to identify the best-suited cleaners for their needs quickly.</p>
 
-  const push = <h4 className='font30 fontf font-bold '>Secure Payment Method</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
+  const push = <h4 className='font30 fontf font-bold '>View Bookings</h4>
+  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The view bookings feature is an excellent advantage for those who need to schedule their cleaning services in advance, as it eliminates the need for phone calls or emails. This way, customers can select the date and time of their appointment, view available options for the service, and even make changes if needed.</p>
 
-  const media = <h4 className='font30 fontf font-bold '>Reviews And Ratings</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
+  const media = <h4 className='font30 fontf font-bold '>Secure Payments</h4>
+  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With secure payments, customer data such as credit card numbers and other personal information are encrypted so that unauthorized third parties cannot access them. It helps protect customers from potentially fraudulent activity while also giving businesses the peace of mind that their data is safe and secure.</p>
 
   const uncovered = <h2 className='font65 black fontf font-bold line60'>
-    BitsWits Came <br />
-    Up With A <br />
-    Flavorful <br />
-    Victory!!
+    BitsWits <br /> Swept Away <br /> The Stress Of <br /> Housekeeping!
   </h2>
 
   const data = <p className='font16 black fontf font-medium line30'>
-    By offering customers unparalleled convenience today, the food delivery application of Find Food is functioning exceptionally well. BitsWits made it easy for the app owner to connect customers to their favorite food chains easily. Additionally, customers appreciated the convenience of ordering food...
+    Germ-Guard is a revolutionary new cleaning app developed by BitsWits that makes housekeeping a breeze. With Germ-Guard, users can easily keep track of their cleaning schedule and tasks with a click of a button. The user-friendly interface navigates, making it perfect for busy households.
   </p>
 
   const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
@@ -97,8 +94,8 @@ export default function gameappdev() {
     Horizons!
   </h2>
 
-  const code1 = <div> <span className={styles.left}>#FF6B03</span> </div>
-  const code2 = <div> <span className={styles.right}>#000000</span>  </div>
+  const code1 = <div> <span className={styles.left}>#2C2CFC</span> </div>
+  const code2 = <div> <span className={styles.right}>#ffffff</span>  </div>
   const heading12 = <h3 className='fontf font50 black center font-bold'>Color Harmony</h3>
 
 
@@ -130,7 +127,7 @@ export default function gameappdev() {
       {CaseOverView.map((item, i) =>
         <OverView key={i}
           title={item.title}
-          text={item.text}
+          text2={item.text2}
           imagefold={item.imagefold}
           caseOverView={item.caseOverView}
         />
@@ -172,7 +169,7 @@ export default function gameappdev() {
         colorbx1='true'
         left={code1}
         right={code2}
-        caseHarmony='food'
+        caseHarmony='game'
       />
 
 
@@ -184,7 +181,7 @@ export default function gameappdev() {
 
       <SoulCTA
         headfire={headfire}
-        soulCta='food'
+        soulCta='game'
       />
 
 

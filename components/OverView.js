@@ -53,6 +53,14 @@ const OverView = (props) => {
                                     :
                                     ''
                                 }
+
+                                {props.text2 ?
+                                    <p className='font16 black fontf font-medium line30'>
+                                        {props.text2}
+                                    </p>
+                                    :
+                                    ''
+                                }
                             </div>
                         </Col>
                     </Row>

@@ -21,7 +21,7 @@ const Foodbanner = (props) => {
                             {props.para3}
                         </Col>
                         <Col lg={6}>
-                            <Image  alt="bitswits"     src={foldImg00} className={`${styles.banImg} img-fluid`}></Image>
+                            <Image alt="bitswits" src={foldImg00} className={`${styles.banImg} img-fluid`}></Image>
                         </Col>
                     </Row>
                 </Container>

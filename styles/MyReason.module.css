@@ -51,6 +51,10 @@
   background-color: #000;
 }
 
+.soluCard:hover h6{
+  color: #3d3d3d;
+}
+
 .soluCard:hover h5,
 .soluCard:hover p {
   color: #fff;
