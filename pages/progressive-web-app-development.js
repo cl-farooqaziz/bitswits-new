@@ -25,6 +25,9 @@ import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import MyExpertise from '@/components/MyExpertise';
 import expStyles from '@/styles/MyExpertise.module.css'
 
+import WorkExp from '@/components/WorkExp'
+import workStyles from '@/styles/WorkExp.module.css'
+
 import serStyles from '@/styles/MyServices.module.css'
 // import MyReason from '@/components/MyReason';
 import icon1 from '../public/images/wbd-icons/wbd-icon1.png'
@@ -42,6 +45,7 @@ import icon12 from '../public/images/wbd-icons/wbd-icon12.png'
 import icon13 from '../public/images/wbd-icons/wbd-icon13.png'
 import icon14 from '../public/images/wbd-icons/wbd-icon14.png'
 import icon15 from '../public/images/wbd-icons/wbd-icon15.png'
+
 //
 
 import icon16 from '../public/images/wbd-icons/wbd-t1.png'
@@ -65,6 +69,10 @@ import icon28 from '../public/images/whybuild/pwa-icon6.png'
 import icon29 from '../public/images/whybuild/pwa-icon7.png'
 import icon30 from '../public/images/whybuild/pwa-icon8.png'
 import icon31 from '../public/images/whybuild/pwa-icon9.png'
+import icon32 from '../public/images/whybuild/pwa-1.png'
+import icon33 from '../public/images/whybuild/pwa-2.png'
+import icon34 from '../public/images/whybuild/pwa-3.png'
+
 // import serStyles from '@/styles/MyServices.module.css'
 // import WhyStyles from '@/styles/MyServices.module.css'
 
@@ -712,22 +720,73 @@ const para1 = <span className='font30 black fontf font-400 line60 black'>
     </>
 
 
+const Workspace = <>
+    <Row  className={`${workStyles.soluRow} mt-5 text-center`}> 
+        <Col lg={4} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox} text-center`}>
+                    <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                </div>
+                {/* <h5 className='font20 fontf font-500 line30'>
+                Fast
+                </h5> */}
+                <p>
+                When you open the Website URL on your mobile’s browser, you will have look & feel of mobile app.
+                </p>
+            
+            </div>
+        </Col>
+        <Col lg={4} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                </div>
+                {/* <h5 className='font20 fontf font-500 line30'>
+                Fast
+                </h5> */}
+                <p>
+                When you open the browser’s menu, you will see the opttion Add to Home Screen.
+
+
+                </p>
+            
+            </div>
+        </Col>
+        <Col lg={4} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                </div>
+                {/* <h5 className='font20 fontf font-500 line30'>
+                Fast
+                </h5> */}
+                <p>
+                Just like a Native App, your PWA will also be available in the device’s app drawer.
+
+
+                </p>
+            
+            </div>
+        </Col>
+    </Row>
+</>
+
 // const WorkforUser = <>  
 // <Row className={`${workStyles.soluRow} mt-5`}>
-//     <Col lg={4} md={6} className={workStyles.soluCol}>
-//         <div className={`${workStyles.soluCard}`}>
-//             <div className={`${workStyles.imgBox}`}>
-//                 <Image src={icon232} alt='BitsWits' className='img-fluid' />
-//             </div>
-//             <h5 className='font20 fontf font-500 line30'>
-//             Fast
-//             </h5>
-//             <p>
-//             Being fast has the most significant impact on your business.
-//             </p>
+    // <Col lg={4} md={6} className={workStyles.soluCol}>
+    //     <div className={`${workStyles.soluCard}`}>
+    //         <div className={`${workStyles.imgBox}`}>
+    //             <Image src={icon232} alt='BitsWits' className='img-fluid' />
+    //         </div>
+    //         <h5 className='font20 fontf font-500 line30'>
+    //         Fast
+    //         </h5>
+    //         <p>
+    //         Being fast has the most significant impact on your business.
+    //         </p>
            
-//         </div>
-//     </Col>
+    //     </div>
+    // </Col>
 //     <Col lg={4} md={6} className={workStyles.soluCol}>
 //         <div className={`${workStyles.soluCard}`}>
 //             <div className={`${workStyles.imgBox}`}>
@@ -759,6 +818,15 @@ const para1 = <span className='font30 black fontf font-400 line60 black'>
 //     </Col>
 // </Row>
 // </>
+
+const title23 =
+<span> 
+How PWAs Actually Works for user?
+    {/* When you open the Website URL on your mobile’s browser, you will have look & feel of mobile app. */}
+</span>
+
+const subtitle32 = <span>How PWAs Actually Works for user?
+</span>
 
 
     return (
@@ -816,8 +884,15 @@ const para1 = <span className='font30 black fontf font-400 line60 black'>
             hoke = {hoke}
             ahead  = {aheadimage}
             />
+            {/* <WorkExp /> */}
 
-
+            <WorkExp 
+            title ={title23}
+            subtitle={subtitle32}
+            Workspace={Workspace}
+            
+            />
+{/* Workspace */}
 
             {/* <Ensure
             foldimg  = {foldensure}
