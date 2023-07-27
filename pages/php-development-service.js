@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Row, Col } from 'react-bootstrap'
 import expStyles from '@/styles/MyExpertise.module.css'
+import reStyles from '@/styles/MyReason.module.css'
+import whyStyles from '@/styles/whyServices.module.css'
 import styles from '@/styles/Coverage.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
@@ -18,6 +20,8 @@ import aheadimage from '../public/images/services/webAhead.svg'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import PhpServices from '@/components/PhpServices';
 import MyExpertise from '@/components/MyExpertise';
+import MyReason from '@/components/MyReason';
+import WhyBuild from '@/components/WhyBuild';
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import foldimg from '../public/images/services/webSwipe.svg'
@@ -32,7 +36,16 @@ import icon21 from '../public/images/phpdev/phpdev-tec6.png'
 import icon22 from '../public/images/phpdev/phpdev-tec7.png'
 import icon23 from '../public/images/phpdev/phpdev-tec8.png'
 import grnArrow from '../public/images/wbd-icons/arrow-green.png'
-
+//Why Icon
+import icon24 from '../public/images/phpdev/phpdev-icon1.png'
+import icon25 from '../public/images/phpdev/phpdev-icon2.png'
+import icon26 from '../public/images/phpdev/phpdev-icon3.png'
+import icon27 from '../public/images/phpdev/phpdev-icon4.png'
+import icon28 from '../public/images/phpdev/phpdev-icon5.png'
+import icon29 from '../public/images/phpdev/phpdev-icon6.png'
+import icon30 from '../public/images/phpdev/phpdev-icon7.png'
+import icon31 from '../public/images/phpdev/phpdev-icon8.png'
+import icon32 from '../public/images/phpdev/phpdev-icon9.png'
 
 
 export default function phpdevelopment() {
@@ -421,9 +434,244 @@ export default function phpdevelopment() {
     </>
 
 
+    // Build component data
+
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>How Our
+        <span className='grdiant'> PHP Developers</span> Can Help You?</h2>
+
+    const whytext = <p className='black font16 fontf font-medium text-center'>Our aim is to match one of our PHP experts to suit your requirements, whether you are a start-up business looking for your first website, selling your goods or services online or have a larger bespoke project.</p>
+
+    const WhyBuilds = <>
+        <Row className={`${whyStyles.soluRow} mt-5`}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        CMS <br /> Websites
+                    </h5>
+                    <p>
+                        Content Management Systems allow website owners to update their websites without the need of technical support.
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        e-Commerce <br /> Stories
+                    </h5>
+                    <p>
+                        Digital commerce is still one of the fastest growing areas on the internet with shares of online shopping growing year on year.
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Custom <br /> Appliances
+                    </h5>
+                    <p>
+                        With companies requiring their own bespoke solutions to solve their unique business needs, we understand that not all software comes in a box.
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Travel <br /> Websites
+                    </h5>
+                    <p>
+                        Booking holidays and online hotel reservations has become second nature and our experience in this area is second to none.
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Healthware
+                    </h5>
+                    <p>
+                        We design and develop sites for the healthcare industry, letting the maximum amount of people reach your business.
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Education & e-Learning <br /> Development
+                    </h5>
+                    <p>
+                        Educating the masses through our educational websites is one of the primary things we do.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Food Ordering <br /> Solutions
+                    </h5>
+                    <p>
+                        Our food ordering solutions are second to none and we employ only the best to do it for you.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Real <br /> Estate
+                    </h5>
+                    <p>
+                        We’ve got the experience in creating some amazing real estate portals that make the property search easier – we can do that for you too.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Startup <br /> Solutions
+                    </h5>
+                    <p>
+                        We provide amazing solutions to start up a business, enabling them to have a better ROI later.
+                    </p>
+                </div>
+            </Col>
+        </Row>
+
+    </>
 
 
+    // MyReason component data
 
+    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Why <span className='grdiant'>BitsWits</span> Is A Leading
+    PHP Development Agency</h2>
+
+    const resCards = <>
+        <Row className={`${reStyles.soluRow} mt-5`}>
+            <Col lg={4} md={6} className={reStyles.soluCol}>
+                <div className={`${reStyles.soluCard}`}>
+                    <h6 className={`${reStyles.count}`}>
+                        #1
+                    </h6>
+                    <h5 className='font20 fontf font-bold line30'>
+                        Competitive rates
+                    </h5>
+                    <p>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                    </p>
+                    <p>
+                        Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={reStyles.soluCol}>
+                <div className={`${reStyles.soluCard}`}>
+                    <h6 className={`${reStyles.count}`}>
+                        #2
+                    </h6>
+                    <h5 className='font20 fontf font-bold line30'>
+                        Quality
+                    </h5>
+                    <p>
+                        We are CMMI level 3 appraised and members of the Agile Alliance, which is your assurance that we have processes and safeguards in place to ensure the delivery of a high quality finished product, each and every time.
+                    </p>
+                    <p>
+                        Read more about our <strong>CMMI appraisal</strong>.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={reStyles.soluCol}>
+                <div className={`${reStyles.soluCard}`}>
+                    <h6 className={`${reStyles.count}`}>
+                        #3
+                    </h6>
+                    <h5 className='font20 fontf font-bold line30'>
+                        Flexibility
+                    </h5>
+                    <p>
+                        Our massive permanent workforce is comprised of designers, developers and PMs. You can hire as many or as few of them as you need - on a per project or retained basis.
+                    </p>
+                    <p>
+                        This flexibility means that you’re never paying for skills and time that you’re not using.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={reStyles.soluCol}>
+                <div className={`${reStyles.soluCard}`}>
+                    <h6 className={`${reStyles.count}`}>
+                        #4
+                    </h6>
+                    <h5 className='font20 fontf font-bold line30'>
+                        In-house expertise
+                    </h5>
+                    <p>
+                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, India and Worldwide are directly employed by us, and they work in offices that are owned by us.
+                    </p>
+                    <p>
+                        This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={reStyles.soluCol}>
+                <div className={`${reStyles.soluCard}`}>
+                    <h6 className={`${reStyles.count}`}>
+                        #5
+                    </h6>
+                    <h5 className='font20 fontf font-bold line30'>
+                        Security & confidentiality
+                    </h5>
+                    <p>
+                        Your contract of engagement is with our UK company (DotSquares Ltd), so our liability to you is governed and protected by UK law.
+                    </p>
+                    <p>
+                        This is a very important detail that sets us apart from many offshoring companies. Furthermore, all Intellectual Property Rights & source code are yours, forever.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={reStyles.soluCol}>
+                <div className={`${reStyles.soluCard}`}>
+                    <h6 className={`${reStyles.count}`}>
+                        #6
+                    </h6>
+                    <h5 className='font20 fontf font-bold line30'>
+                        The original, and best
+                    </h5>
+                    <p>
+                        We’ve been servicing UK businesses like yours with offshore teams for <strong>21 years</strong>. In fact, we were one of the first companies to set up this offshore business model, back in 2002. Since then we’ve completed over <strong>20,000 projects</strong> (at last count, and we are still growing!) Our scalability provides you with the best talent backed up by guarantees and consumer protection, whilst our attention to detail, perfectionism and personal service still makes every customer feel very special indeed.
+                    </p>
+                </div>
+            </Col>
+        </Row>
+    </>
 
 
     return (
@@ -469,7 +717,7 @@ export default function phpdevelopment() {
                 cards={expCards}
             />
 
-            <Ahead
+            {/* <Ahead
                 title='Our Mobile App Research Data that puts you ahead of others'
                 para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
                 subtitle='Laser Focused User Research'
@@ -478,11 +726,15 @@ export default function phpdevelopment() {
                 subpara2='Our research process gives you a competitive advantage and up-to-date market insights.'
                 ahead={aheadimage}
 
+            /> */}
+
+            <MyReason
+                title="Reasons"
+                subtitle={reSubtile}
+                cards={resCards}
             />
 
-
-
-            <Ensure
+            {/* <Ensure
                 foldimg={foldensure}
                 title='We Test and Optimize your mobile app to ensure best user experience'
                 para='We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
@@ -490,9 +742,14 @@ export default function phpdevelopment() {
                 subpara='In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
                 subtitle2=' Active On-Going Support'
                 subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
+            /> */}
+
+            <WhyBuild
+                title="Why Build"
+                text={whytext}
+                cards={WhyBuilds}
+                subtitle={whytitle}
             />
-
-
 
             <OurProject />
             <ClientsThink />
