@@ -15,15 +15,18 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/services/webapp/web-app-development-02.png'
+import aheadimage from '../public/images/whybuild/pwa-img2.png'
 import Image from 'next/image';
 import WhyBuild from '@/components/WhyBuild';
 import whyStyles from '@/styles/whyServices.module.css'
-
-
+import Experienced from '@/components/Experienced'
+import exStyle from '@/styles/Experienced.module.css'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import MyExpertise from '@/components/MyExpertise';
 import expStyles from '@/styles/MyExpertise.module.css'
+
+import WorkExp from '@/components/WorkExp'
+import workStyles from '@/styles/WorkExp.module.css'
 
 import serStyles from '@/styles/MyServices.module.css'
 // import MyReason from '@/components/MyReason';
@@ -42,6 +45,7 @@ import icon12 from '../public/images/wbd-icons/wbd-icon12.png'
 import icon13 from '../public/images/wbd-icons/wbd-icon13.png'
 import icon14 from '../public/images/wbd-icons/wbd-icon14.png'
 import icon15 from '../public/images/wbd-icons/wbd-icon15.png'
+
 //
 
 import icon16 from '../public/images/wbd-icons/wbd-t1.png'
@@ -65,6 +69,10 @@ import icon28 from '../public/images/whybuild/pwa-icon6.png'
 import icon29 from '../public/images/whybuild/pwa-icon7.png'
 import icon30 from '../public/images/whybuild/pwa-icon8.png'
 import icon31 from '../public/images/whybuild/pwa-icon9.png'
+import icon32 from '../public/images/whybuild/pwa-1.png'
+import icon33 from '../public/images/whybuild/pwa-2.png'
+import icon34 from '../public/images/whybuild/pwa-3.png'
+
 // import serStyles from '@/styles/MyServices.module.css'
 // import WhyStyles from '@/styles/MyServices.module.css'
 
@@ -84,11 +92,35 @@ const gives = <span>
 const meet = <span> Our team of expert <span className='grdiant'>progressive web app developers</span> believes in fetching data that shapes amazing results. Our experienced researchers and analysts analyze the data we collect, providing you with valuable insights that guide your product strategy. From identifying market trends to understanding user expectations, our data-driven approach helps you gain a competitive edge. </span>    
 
 const based = <span>
-    The most reputable <span className='grdiant'>progressive web app development company</span>, BitsWits, is aware of how crucial it is to remain competitive. To provide you a competitive edge, our <span className='grdiant'>progressive web app developers</span> undertake in-depth research and interview knowledgeable sources. Our staff uses a variety of original and creative techniques to gather information and help you make informed decisions about your products, guaranteeing that they satisfy the needs of your intended market.
+   The World's largest collection of original football shirts. It is the home of classic, rare, retro and vintage football shirts from your soccer team's history.
+<br/>
+Dotsquares has already launched their Progressive web app and see how it effects
 </span>
 
-    const stay = <span>
-        Stay Ahead of the Competition with Our <span className='grdiant'>Progressive Web App Development Solutions!</span>
+const hoke = <>
+ <ul className='p-0'>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Fast in loading
+    </li>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Traffic increases on website
+    </li>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Decrease in bounce rate
+    </li>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Increase in page per session
+    </li>
+    </ul>
+</>
+
+
+    const stay = <span className='font30 fontf font-bold black'>
+        Classic Football Shirts
     </span>
 
     const offline = <span> 
@@ -688,22 +720,73 @@ const para1 = <span className='font30 black fontf font-400 line60 black'>
     </>
 
 
+const Workspace = <>
+    <Row  className={`${workStyles.soluRow} mt-5 text-center`}> 
+        <Col lg={4} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox} text-center`}>
+                    <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                </div>
+                {/* <h5 className='font20 fontf font-500 line30'>
+                Fast
+                </h5> */}
+                <p>
+                When you open the Website URL on your mobile’s browser, you will have look & feel of mobile app.
+                </p>
+            
+            </div>
+        </Col>
+        <Col lg={4} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                </div>
+                {/* <h5 className='font20 fontf font-500 line30'>
+                Fast
+                </h5> */}
+                <p>
+                When you open the browser’s menu, you will see the opttion Add to Home Screen.
+
+
+                </p>
+            
+            </div>
+        </Col>
+        <Col lg={4} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                </div>
+                {/* <h5 className='font20 fontf font-500 line30'>
+                Fast
+                </h5> */}
+                <p>
+                Just like a Native App, your PWA will also be available in the device’s app drawer.
+
+
+                </p>
+            
+            </div>
+        </Col>
+    </Row>
+</>
+
 // const WorkforUser = <>  
 // <Row className={`${workStyles.soluRow} mt-5`}>
-//     <Col lg={4} md={6} className={workStyles.soluCol}>
-//         <div className={`${workStyles.soluCard}`}>
-//             <div className={`${workStyles.imgBox}`}>
-//                 <Image src={icon232} alt='BitsWits' className='img-fluid' />
-//             </div>
-//             <h5 className='font20 fontf font-500 line30'>
-//             Fast
-//             </h5>
-//             <p>
-//             Being fast has the most significant impact on your business.
-//             </p>
+    // <Col lg={4} md={6} className={workStyles.soluCol}>
+    //     <div className={`${workStyles.soluCard}`}>
+    //         <div className={`${workStyles.imgBox}`}>
+    //             <Image src={icon232} alt='BitsWits' className='img-fluid' />
+    //         </div>
+    //         <h5 className='font20 fontf font-500 line30'>
+    //         Fast
+    //         </h5>
+    //         <p>
+    //         Being fast has the most significant impact on your business.
+    //         </p>
            
-//         </div>
-//     </Col>
+    //     </div>
+    // </Col>
 //     <Col lg={4} md={6} className={workStyles.soluCol}>
 //         <div className={`${workStyles.soluCard}`}>
 //             <div className={`${workStyles.imgBox}`}>
@@ -735,6 +818,15 @@ const para1 = <span className='font30 black fontf font-400 line60 black'>
 //     </Col>
 // </Row>
 // </>
+
+const title23 =
+<span> 
+How PWAs Actually Works for user?
+    {/* When you open the Website URL on your mobile’s browser, you will have look & feel of mobile app. */}
+</span>
+
+const subtitle32 = <span>How PWAs Actually Works for user?
+</span>
 
 
     return (
@@ -782,18 +874,25 @@ const para1 = <span className='font30 black fontf font-400 line60 black'>
                 cards={expCards}
             />
 
-            {/* <Ahead
+            <Experienced
             title = {stay}
             para = {based}
-            subtitle = 'Data-Driven Product Decisions'
-            subpara = {meet}
-            subtitle2 = 'Better Research Methods for Positive Outcomes'
-            subpara2 = {gives}
+            subtitle = 'Classic Football Shirts'
+            subpara2 = 'Our research data serves as a foundation for making data-informed product decisions. By understanding your target audience on a deeper level, we customize apps according to their preferences, improving engagement and satisfaction.'
+            subpara = 'Dotsquares has already launched their Progressive web app and see how it effects'
+            // subtitle2 = {}
+            hoke = {hoke}
             ahead  = {aheadimage}
+            />
+            {/* <WorkExp /> */}
+
+            <WorkExp 
+            title ={title23}
+            subtitle={subtitle32}
+            Workspace={Workspace}
             
-            /> */}
-
-
+            />
+{/* Workspace */}
 
             {/* <Ensure
             foldimg  = {foldensure}
