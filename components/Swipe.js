@@ -12,6 +12,12 @@ const Swipe = (props) => {
             <section className={`${styles.serviceBox} ${styles.swipe}`}>
                 <Container>
                     <Row>
+                        <Col lg={12}>
+                        {props.title1}
+                        <p className='text-center'>{props.para1}</p>
+                        </Col>
+                    </Row>
+                    <Row>
                         <Col lg={5}>
                             <div className={styles.swipeImg}>
                                 <Image alt="bitswits" src={props.foldimg} className='img-fluid' />
