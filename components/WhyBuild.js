@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/WhyBuild.module.css'
 
@@ -10,16 +9,9 @@ const WhyBuild = (props) => {
             <section className={styles.myExpertise}>
                 <Container>
                     <Row className='aboutfold'>
-                        <Col md={2}>
-                            <h3 className='font20 fontf font-semibold mt-1 letterspace black'>{props.title}</h3>
-                        </Col>
-                        <Col lg={7}>
+                        <Col lg={12} className='mx-auto'>
                             {props.subtitle}
-                        </Col>
-                        <Col lg={3}>
-                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
-                                CALL NOW!
-                            </Link>
+                            {props.text}
                         </Col>
                     </Row>
                     <div className='mt-5'>{props.cards}</div>

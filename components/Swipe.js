@@ -17,8 +17,8 @@ const Swipe = (props) => {
                         <p className='text-center'>{props.para1}</p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col lg={5}>
+                    <Row className='justify-content-between align-items-center mt-3'>
+                        <Col lg={4}>
                             <div className={styles.swipeImg}>
                                 <Image alt="bitswits" src={props.foldimg} className='img-fluid' />
                             </div>
