@@ -1512,7 +1512,7 @@ const Header = () => {
                                                         Game App
                                                     </Link>
                                                     <span className={styles.realDummy}>
-                                                        Food Delivery Services That...
+                                                        Ios And Android Games...
                                                     </span>
                                                 </div>
                                             </div>

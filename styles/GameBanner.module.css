@@ -25,6 +25,14 @@
   width: 75%;
 }
 
+.bnrImg{
+  text-align: center;
+}
+
+.bnrImg img{
+  width: 100%;
+}
+
 /* ============================================= */
 
 @media screen and (max-width: 1600px) {
