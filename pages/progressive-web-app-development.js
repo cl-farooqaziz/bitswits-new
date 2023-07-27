@@ -15,12 +15,12 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/services/webapp/web-app-development-02.png'
+import aheadimage from '../public/images/whybuild/pwa-img2.png'
 import Image from 'next/image';
 import WhyBuild from '@/components/WhyBuild';
 import whyStyles from '@/styles/whyServices.module.css'
-
-
+import Experienced from '@/components/Experienced'
+import exStyle from '@/styles/Experienced.module.css'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import MyExpertise from '@/components/MyExpertise';
 import expStyles from '@/styles/MyExpertise.module.css'
@@ -84,11 +84,35 @@ const gives = <span>
 const meet = <span> Our team of expert <span className='grdiant'>progressive web app developers</span> believes in fetching data that shapes amazing results. Our experienced researchers and analysts analyze the data we collect, providing you with valuable insights that guide your product strategy. From identifying market trends to understanding user expectations, our data-driven approach helps you gain a competitive edge. </span>    
 
 const based = <span>
-    The most reputable <span className='grdiant'>progressive web app development company</span>, BitsWits, is aware of how crucial it is to remain competitive. To provide you a competitive edge, our <span className='grdiant'>progressive web app developers</span> undertake in-depth research and interview knowledgeable sources. Our staff uses a variety of original and creative techniques to gather information and help you make informed decisions about your products, guaranteeing that they satisfy the needs of your intended market.
+   The World's largest collection of original football shirts. It is the home of classic, rare, retro and vintage football shirts from your soccer team's history.
+<br/>
+Dotsquares has already launched their Progressive web app and see how it effects
 </span>
 
-    const stay = <span>
-        Stay Ahead of the Competition with Our <span className='grdiant'>Progressive Web App Development Solutions!</span>
+const hoke = <>
+ <ul className='p-0'>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Fast in loading
+    </li>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Traffic increases on website
+    </li>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Decrease in bounce rate
+    </li>
+    <li className="font16 fontf font-medium black ">
+         <Image src={mobilearrow} className='img-fluid multi'></Image>
+         Increase in page per session
+    </li>
+    </ul>
+</>
+
+
+    const stay = <span className='font30 fontf font-bold black'>
+        Classic Football Shirts
     </span>
 
     const offline = <span> 
@@ -782,16 +806,16 @@ const para1 = <span className='font30 black fontf font-400 line60 black'>
                 cards={expCards}
             />
 
-            {/* <Ahead
+            <Experienced
             title = {stay}
             para = {based}
-            subtitle = 'Data-Driven Product Decisions'
-            subpara = {meet}
-            subtitle2 = 'Better Research Methods for Positive Outcomes'
-            subpara2 = {gives}
+            subtitle = 'Classic Football Shirts'
+            subpara2 = 'Our research data serves as a foundation for making data-informed product decisions. By understanding your target audience on a deeper level, we customize apps according to their preferences, improving engagement and satisfaction.'
+            subpara = 'Dotsquares has already launched their Progressive web app and see how it effects'
+            // subtitle2 = {}
+            hoke = {hoke}
             ahead  = {aheadimage}
-            
-            /> */}
+            />
 
 
 
