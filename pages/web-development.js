@@ -415,7 +415,7 @@ export default function aboutUs() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard}`}>
+                <div className={`${expStyles.soluCard} ${expStyles.mblR}`}>
                     <div className={`${expStyles.imgBox}`}>
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -450,7 +450,7 @@ export default function aboutUs() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR}`}>
+                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.mblM}`}>
                     <div className={`${expStyles.imgBox}`}>
                         <Image src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -481,7 +481,7 @@ export default function aboutUs() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard}`}>
+                <div className={`${expStyles.soluCard} ${expStyles.mblR}`}>
                     <div className={`${expStyles.imgBox}`}>
                         <Image src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -563,7 +563,7 @@ export default function aboutUs() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR}`}>
+                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.mblR}`}>
                     <div className={`${expStyles.imgBox}`}>
                         <Image src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -598,7 +598,7 @@ export default function aboutUs() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
+                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB} ${expStyles.mblBr}`}>
                     <div className={`${expStyles.imgBox}`}>
                         <Image src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -625,7 +625,7 @@ export default function aboutUs() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB} ${expStyles.soluCardBR}`}>
+                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB} ${expStyles.soluCardBR} ${expStyles.mblR}`}>
                     <div className={`${expStyles.imgBox}`}>
                         <Image src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>

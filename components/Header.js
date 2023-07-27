@@ -1503,7 +1503,19 @@ const Header = () => {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className={`${styles.workBox}`}></div>
+                                            <div className={`${styles.workBox} ${styles.gameApp}`}>
+                                                <Image alt="bitswits"
+                                                    src={games}
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/game-app-development" onClick={handleMenu}>
+                                                        Game App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        Food Delivery Services That...
+                                                    </span>
+                                                </div>
+                                            </div>
                                             <div className={styles.workBox}>
                                                 <div className={`${styles.ourWork} ${styles.cntct}`}>
                                                     <div className={styles.fill}>

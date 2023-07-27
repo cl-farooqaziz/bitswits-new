@@ -97,6 +97,18 @@
   .soluCard h5 {
     font-size: 18px;
   }
+
+  .soluCardBR {
+    border-right: 1px solid #ccc;
+  }
+
+  .mblR {
+    border-right: 0px;
+  }
+
+  .mblBr{
+    border-bottom: 1px solid #ccc;
+  }
 }
 
 @media screen and (max-width: 767px) {

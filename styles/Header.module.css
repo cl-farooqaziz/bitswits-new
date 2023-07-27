@@ -336,6 +336,10 @@
   background-color: #ff004a;
 }
 
+.gameApp img{
+  filter: invert(0);
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (min-width: 1440) {
