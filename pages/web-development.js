@@ -57,7 +57,7 @@ export default function aboutUs() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Web Development </span> Company!</h1>
+const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Web Development </span> Company!</h1>
 
     const para = <>
 
@@ -75,9 +75,7 @@ export default function aboutUs() {
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
 
-
     // MyServices component data
-
 
     const sersubtile = <h2 className='font50 black fontf font-bold line60 black'>Get An Insight Of Our <span className='grdiant'>Web Development</span> Services</h2>
 
@@ -351,7 +349,6 @@ export default function aboutUs() {
             </Col>
         </Row>
     </>
-
 
     // MyExpertise component data
 
