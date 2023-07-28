@@ -9,14 +9,18 @@ import Coverage from '@/components/Coverage';
 import Swipe from '@/components/Swipe';
 import Ahead from '@/components/Ahead';
 import Ensure from '@/components/Ensure';
+import Insight from '@/components/Insight';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
+import Program from '@/components/Program';
 import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
 import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import Blogfaqs from '@/components/Blogfaqs';
+import Choose from '@/components/Choose';
 
 
 export default function searchengineoptimization() {
@@ -163,16 +167,25 @@ export default function searchengineoptimization() {
                 bannerimg={banImg}
             />
 
-            <Coverage
+            <Insight />
+
+
+            <Program/>
+
+            <Blogfaqs/>
+            
+            <Choose/>
+
+            {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
                 mobile={mobile}
                 user={user}
                 ux={ux}
-            />
+            /> */}
 
 
-            <Swipe
+            {/* <Swipe
                 foldimg={foldimg}
                 title={swip}
                 para='Our search engine optimization agency is committed to boosting your website’s organic traffic by implementing proven strategies and tactics. Our SEO experts are skilled in keyword research, on-page optimization and quality content marketing, that attracts valuable visitors who are actively searching for your products and services.'
@@ -180,11 +193,11 @@ export default function searchengineoptimization() {
                 subpara='We focus on optimizing website on-page elements, which include meta tags, headings, and quality content, to make it more SEO friendly. By strategically utilizing the keywords and improving overall site structures, we improve the website’s organic ranking and visibility.'
                 subtitle2={swpTtl2}
                 subpara2='BitsWits, a leading SEO services provider conducts comprehensive keyword research to identify the relevant and high-value keywords for the market niche. By analyzing search trends and competition, we ensure that your website is optimized to captivate targeted organic traffic and reach the target audience.'
-            />
+            /> */}
 
 
 
-            <Ahead
+            {/* <Ahead
                 title={aheadtitle}
                 para='Our technical SEO experts optimize your website’s structure, user-friendliness, and mobile experience. When your website is well-optimized, it sends a strong signal to search engines that it is reliable, relevant, and trustworthy.'
                 para2='As a result, search algorithms boost your website’s ranking on search engine results pages, making it more visible to a broader and more engaged audience. Our team fixes and optimizes your website’s technical aspects and ensures your website dominates the search results!'
@@ -193,11 +206,11 @@ export default function searchengineoptimization() {
                 subtitle2={ahdTtl2}
                 subpara2='We focus on speed optimization, structuring URLs and indexing pages on your website effectively. Our SEO experts ensure that the URL structure is clean, descriptive, and SEO-friendly while keeping in mind that important pages are indexable and unblocked on the website.'
                 ahead={aheadimage}
-            />
+            /> */}
 
 
 
-            <Ensure
+            {/* <Ensure
                 foldimg={foldensure}
                 title={ensine}
                 para='Our SEO managers understand that each business is unique, which is why our SEO team offers personalized search engine optimization services based on thorough analysis and industry insights. Our comprehensive audits and competitor research ensures long-term success and growth.'
@@ -205,7 +218,7 @@ export default function searchengineoptimization() {
                 subpara='At BitsWits, we recognise that each industry and market is distinct and need a customized strategy to obtain the best outcomes. Whether it’s e-commerce, banking, healthcare, or another business industry—our SEO experts dig deep to find appropriate search terms and rivals in your field, and implement their custom SEO strategy to improve conversion rates and brand visibility that ultimately leads to increased ROI.'
                 subtitle2={enshrTtl2}
                 subpara2='At BitsWits, the SEO experts optimize websites created using different Content Management Systems (CMS) to meet the particular needs of your platform. No matter if your website is powered by WordPress Shopify or any other platform, we improve the search engine visibility of your website by on-page and offpage, and technical SEO optimization.'
-            />
+            /> */}
 
 
             <OurProject />

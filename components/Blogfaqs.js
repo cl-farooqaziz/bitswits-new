@@ -7,19 +7,7 @@ const Blogfaqs = () => {
     return (
         <>
             <section className={styles.blogfaqs}>
-                <Container>
-                    <Row className={styles.project}>
-                        <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Blogs</h5>
-                        </Col>
-                        <Col lg={8}>
-                            <h4 className='font65 black fontf font-bold line60 black'>FAQs</h4>
-                        </Col>
-                        <Col lg={2}>
-                            <Link className={styles.bttns1} href="#">ALL Blogs</Link>
-                        </Col>
-                    </Row>
-                </Container>
+                
 
 
 
