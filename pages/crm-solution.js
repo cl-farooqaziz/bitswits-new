@@ -6,7 +6,12 @@ import { Row, Col } from 'react-bootstrap'
 import reStyles from '@/styles/MyReason.module.css'
 import whyStyles from '@/styles/whyServices.module.css'
 import crmstyles from '@/styles/CRMExperts.module.css'
+import exmplstyles from '@/styles/CrmExamples.module.css'
 import styles from '@/styles/Coverage.module.css'
+//
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 //components
 import Banner from '@/components/ServicesBanner'
 import Coverage from '@/components/Coverage';
@@ -20,6 +25,7 @@ import Contact from '@/components/Contact'
 import CRMExperts from '@/components/CRMExperts';
 import MyReason from '@/components/MyReason';
 import WhyBuild from '@/components/WhyBuild';
+import CrmExamples from '@/components/CrmExamples';
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import foldimg from '../public/images/services/webSwipe.svg'
@@ -42,9 +48,26 @@ import icon26 from '../public/images/crmDev/crm-ico3.png'
 import icon27 from '../public/images/crmDev/crm-ico4.png'
 import icon28 from '../public/images/crmDev/crm-ico5.png'
 import icon29 from '../public/images/crmDev/crm-ico6.png'
+//
+import slide1 from '../public/images/crmDev/crmTesti1.png'
+import slide2 from '../public/images/crmDev/crmTesti2.png'
+import slide3 from '../public/images/crmDev/crmTesti3.png'
+import slide4 from '../public/images/crmDev/crmTesti4.png'
+import slide5 from '../public/images/crmDev/crmTesti5.png'
+import slide6 from '../public/images/crmDev/crmTesti6.png'
 
 
 export default function crmsolution() {
+
+    var crmExamples = {
+        dots: false,
+        arrows: true,
+        autoplay: true,
+        speed: 3000,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
 
     // banner component data
 
@@ -54,17 +77,16 @@ export default function crmsolution() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Integration Services </li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Migration Services</li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Solution Implementation</li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Reporting Services</li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Customization</li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Implementation</li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> ERP Systems</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Migration Services</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Solution Implementation</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Reporting Services</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Customization</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Implementation</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> ERP Systems</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b>500+</b> CRM Solutions
-        to <b>450+</b> clients in the last <b>21 years</b>. What can we do for you?</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b>500+</b> CRM Solutions to <b>450+</b> clients in the last <b>21 years</b>. What can we do for you?</p> </>
 
 
 
@@ -252,10 +274,10 @@ export default function crmsolution() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        CMS <br /> Websites
+                        Migration <br /> And Porting
                     </h5>
                     <p>
-                        Content Management Systems allow website owners to update their websites without the need of technical support.
+                        Our team is capable of building highly scalable, secure, dimensional, and service oriented websites and applications.
                     </p>
 
                 </div>
@@ -266,7 +288,7 @@ export default function crmsolution() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        e-Commerce <br /> Stories
+                        Third Party <br /> Customisation
                     </h5>
                     <p>
                         Digital commerce is still one of the fastest growing areas on the internet with shares of online shopping growing year on year.
@@ -280,7 +302,7 @@ export default function crmsolution() {
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom <br /> Appliances
+                        Custom Workflow <br /> Development
                     </h5>
                     <p>
                         With companies requiring their own bespoke solutions to solve their unique business needs, we understand that not all software comes in a box.
@@ -294,10 +316,10 @@ export default function crmsolution() {
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Travel <br /> Websites
+                        Integration With <br /> External System
                     </h5>
                     <p>
-                        Booking holidays and online hotel reservations has become second nature and our experience in this area is second to none.
+                        We provide specialized experts to develop services so that your CRM system seamlessly communicates with any kind of external system like websites, payment gateways, file repositories like DropBox etc.
                     </p>
 
                 </div>
@@ -308,10 +330,10 @@ export default function crmsolution() {
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Healthware
+                        Application <br /> Integration
                     </h5>
                     <p>
-                        We design and develop sites for the healthcare industry, letting the maximum amount of people reach your business.
+                        Our company offers services for integrating enterprise applications, business-to-business systems, business processes, legacy and third party systems with utmost efficiency to provide the best results to our clients.
                     </p>
 
                 </div>
@@ -322,10 +344,10 @@ export default function crmsolution() {
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Education & e-Learning <br /> Development
+                        Data Reporting <br /> Components
                     </h5>
                     <p>
-                        Educating the masses through our educational websites is one of the primary things we do.
+                        Team In India will produce statistics for CRM in a highly visual, engaging perspective using customized reports and dashboards. Using these, our team will produce an effective data reporting component.
                     </p>
                 </div>
             </Col>
@@ -438,6 +460,53 @@ export default function crmsolution() {
     </>
 
 
+    // Exmple component data
+
+    const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>CRM work</span>
+    </h2> </>
+
+    const exmplSlider = <>
+        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Seizethemarket</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide1} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Event Calendar</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide2} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Journey CRM</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide3} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>YouCall-it.com</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide4} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Risk Assessor Lite</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide5} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>ICAEW Members</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide6} className="img-fluid" />
+                </div>
+            </div>
+        </Slider>
+    </>
+
+    const exmplText = <> Let's talk about your CRM requirements </>
 
     return (
         <>
@@ -510,6 +579,14 @@ export default function crmsolution() {
                 subtitle2=' Active On-Going Support'
                 subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
             /> */}
+
+
+            <CrmExamples
+                title={exmplTitle}
+                slider={exmplSlider}
+                text={exmplText}
+            />
+
 
             <OurProject />
             <ClientsThink />

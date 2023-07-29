@@ -705,14 +705,13 @@ input::-webkit-inner-spin-button {
   align-items: center;
   padding: 15px 40px;
   border-bottom: 1px solid #00000030;
-
 }
 .proisting label.form-check-label {
   font-size: 15px;
-    letter-spacing: 0;
-    line-height: 1rem;
-    font-weight: 600;
-    color: #000000;
+  letter-spacing: 0;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #000000;
 }
 .newposrt .form-control {
   border: 2px solid #e6e7ec;
@@ -776,10 +775,40 @@ input::-webkit-inner-spin-button {
   padding-top: 8px;
 }
 
-.multi{
+.multi {
   filter: brightness(0.1);
   margin-right: 1.5%;
   width: 15px;
+}
+
+/* ========================== */
+
+.crmSlider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.crmSlider .slick-prev:before,
+.crmSlider .slick-next:before {
+  font-size: 30px;
+  color: #000;
+}
+
+.crmSlider .slick-prev,
+.crmSlider .slick-next {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crmSlider .slick-prev{
+  left: -100px;
+}
+
+.crmSlider .slick-next {
+  right: -100px;
 }
 
 /* ===============Media Queries================ */
@@ -1019,16 +1048,27 @@ input::-webkit-inner-spin-button {
   br {
     display: none;
   }
+
+  .crmSlider .slick-prev{
+    left: auto;
+    right: 50px;
+    top: 0;
+  }
+  
+  .crmSlider .slick-next {
+    right: 0px;
+    top: 0;
+  }
+  
 }
 
 /* ========================= */
 
 @media screen and (max-width: 767px) {
-
   .modal-content {
-    border-radius: unset!important;
-    width: unset!important;
-}
+    border-radius: unset !important;
+    width: unset !important;
+  }
   .slideImg {
     display: flex;
     align-items: center;
