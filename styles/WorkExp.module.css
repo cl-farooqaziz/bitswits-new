@@ -128,4 +128,12 @@
       margin-top: 20px !important;
     }
   }
-  
+  .mobdev img{
+    padding: 15px;
+    background: #000000;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    width: 25px;
+    height: 25px;
+    margin: 0 15px 0 0;
+}

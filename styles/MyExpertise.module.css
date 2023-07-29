@@ -128,3 +128,35 @@
     margin-top: 20px !important;
   }
 }
+
+
+.mobdev {
+  padding: 15px;
+  border-radius: 50px;
+  transition: 1s ease;
+  width: 25px;
+  height: 25px;
+  margin: 0 15px 0 0;
+  color: white;
+  margin-top: 20px;
+}
+.ev1{
+  background: #000000;
+}
+.ev2{
+  background: #A4C639;
+}
+.ev3{
+  background: #317CD9;
+}
+.mobdev span{
+  display: none;
+  margin-left: 5px;
+}
+.mobdev:hover span{
+  display: inline-block;
+}
+
+.bgColorf{
+  background-color: #fff !important;
+}

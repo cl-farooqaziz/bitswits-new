@@ -7,7 +7,7 @@ import styles from '@/styles/MyExpertise.module.css'
 const MyExpertise = (props) => {
     return (
         <>
-            <section className={styles.myExpertise}>
+            <section className={`${props.className} ${styles.myExpertise}`}>
                 <Container>
                     <Row className='aboutfold'>
                         <Col md={2}>

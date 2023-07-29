@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'; import Link from 'next/link'
 import banImg from '../public/images/banner/enterprisebanner.png'
 import foldimg from '../public/images/services/enterprisemobility/enterprise-mobility-solutions-01.png'
 import foldensure from '../public/images/services/enterprisemobility/enterprise-mobility-solutions-03.png'
+import { Row, Col } from 'react-bootstrap'
 //components
 import Banner from '@/components/ServicesBanner'
 import Coverage from '@/components/Coverage';
@@ -17,6 +18,42 @@ import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/enterprisemobility/enterprise-mobility-solutions-02.png'
 import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
+
+import MyReason from '../components/MyReason';
+import reStyles from '@/styles/MyReason.module.css';
+import WorkExp from '@/components/WorkExp'
+import workStyles from '@/styles/WorkExp.module.css'
+
+import IndustriesInt from '@/components/IndustriesInt'
+import IndusStyle from '@/components/IndustriesInt'
+// Why Icon
+import icon232 from '../public/images/whybuild/pwa-icon1.png'
+import icon24 from '../public/images/whybuild/pwa-icon2.png'
+import icon25 from '../public/images/whybuild/pwa-icon3.png'
+import icon26 from '../public/images/whybuild/pwa-icon4.png'
+import icon27 from '../public/images/whybuild/pwa-icon5.png'
+import icon28 from '../public/images/whybuild/pwa-icon6.png'
+import icon29 from '../public/images/whybuild/pwa-icon7.png'
+import icon30 from '../public/images/whybuild/pwa-icon8.png'
+import icon31 from '../public/images/whybuild/pwa-icon9.png'
+import icon32 from '../public/images/whybuild/pwa-1.png'
+import icon33 from '../public/images/wbd-icons/iot-ico1.png'
+import icon34 from '../public/images/wbd-icons/iot-ico2.png'
+import icon35 from '../public/images/industryInt/idu-1.png'
+import icon36 from '../public/images/industryInt/idu-2.png'
+import icon37 from '../public/images/industryInt/idu-3.png'
+import icon38 from '../public/images/industryInt/idu-4.png'
+import icon39 from '../public/images/industryInt/idu-5.png'
+import icon40 from '../public/images/industryInt/idu-6.png'
+import icon41 from '../public/images/industryInt/idu-7.png'
+import icon42 from '../public/images/industryInt/idu-8.png'
+import icon43 from '../public/images/industryInt/idu-9.png'
+import icon44 from '../public/images/industryInt/idu-10.png'
+import icon45 from '../public/images/industryInt/esicon1.png'
+import icon46 from '../public/images/industryInt/esicon2.png'
+import icon47 from '../public/images/industryInt/esicon3.png'
+import icon48 from '../public/images/industryInt/esicon4.png'
+import icon49 from '../public/images/industryInt/enterprise-solution-1.png'
 
 export default function enterprisemobilitysolutions() {
 
@@ -146,6 +183,150 @@ export default function enterprisemobilitysolutions() {
 
 
 
+    const Workspace = <>
+    <Row className={`${workStyles.soluRow} mt-5 text-center justify-content-center align-items-center`}>
+    <h4 className='text-center font30 font-bold mb-5'> Solutions? Yes, With This Process
+    </h4>
+        <Col lg={12} md={12} className={workStyles.soluCol}>
+             <Image src={icon49} alt='BitsWits' className='img-fluid' />
+        </Col>
+    </Row>
+    </>
+    
+    const Workspace1 = <>
+    <Row className={`${workStyles.soluRow} mt-3 text-center justify-content-center align-items-center`}>
+    <h4 className='text-center font30 font-bold'> How We Help?
+    </h4>
+
+        <Col lg={3} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon45} alt='BitsWits' className='img-fluid' />
+                </div>
+            <h5 className='font20 fontf font-500 line30'>
+            Enhancing, streamlining and
+optimizing business processes.
+            </h5>
+           
+            </div>
+        </Col>
+        <Col lg={3} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon46} alt='BitsWits' className='img-fluid' />
+                </div>
+            <h5 className='font20 fontf font-500 line30'>
+            Improving employee
+productivity and collaborating
+with role-based applications.
+            </h5>
+               
+            </div>
+        </Col>
+        <Col lg={3} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon47} alt='BitsWits' className='img-fluid' />
+                </div>
+            <h5 className='font20 fontf font-500 line30'>
+            Enabling a mobile workforce,
+to access work from anyplace, anytime.
+            </h5>
+               
+            </div>
+        </Col>
+        <Col lg={3} md={6} className={workStyles.soluCol}>
+            <div className={`${workStyles.soluCard}`}>
+                <div className={`${workStyles.imgBox}`}>
+                    <Image src={icon48} alt='BitsWits' className='img-fluid' />
+                </div>
+            <h5 className='font20 fontf font-500 line30'>
+            Enabling a mobile workforce,
+to access work from anyplace, anytime.
+            </h5>
+               
+            </div>
+        </Col>
+    </Row>
+    </>
+    // Industry
+    const Industries = <>
+    <Row className={`${IndusStyle.soluRow} mt-3 text-center justify-content-center align-items-center`}>
+    <h4 className='text-center font30 font-bold'>Industries we're proud to serve
+    </h4>
+    <p>It is an application designed for one of the world's most diverse casino-entertainment providers "Cromwell Caesars Entertainment". The app is used to manage the growing needs of their guests, by incorporating the existing hotel systems into a handheld device, which offers guests an in-house digital access to complimentary and paid services for proactive assistance.
+    </p>
+        <Col lg={12}>
+        <div className={`${IndusStyle.indusblk}`}>
+                    <ul>
+                        <li>
+                            <Link href="#"> 
+                                <Image src={icon35} alt="Real Estate"/> 
+                                <p>Real Estate </p>
+                            </Link>
+                         </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon36} alt="Travel &amp; Hospitality"/>
+                                <p> Travel &amp; Hospitality </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon37} alt="B2B Solutions"/>
+                                <p>  B2B Solutions  </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon38} alt="Travel &amp; Hospitality"/>
+                                <p>  Healthcare  </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon39} alt="Travel &amp; Hospitality"/>
+                                <p>   Education & E-Learning   </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon40} alt="Travel &amp; Hospitality"/>
+                                <p>   Banking & Finance  </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon41} alt="Travel &amp; Hospitality"/>
+                                <p>   Startup Solutions   </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon42} alt="Travel &amp; Hospitality"/>
+                                <p>    Startup Solutions </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon43} alt="Travel &amp; Hospitality"/>
+                                <p>   Media & Publishing    </p>
+                            </Link> 
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon44} alt="Travel &amp; Hospitality"/>
+                                <p>   Food & Drink   </p>
+                            </Link> 
+                        </li>
+                        
+                    </ul>
+                </div>
+        </Col>
+        
+    </Row>
+    </>
+
 
 
     return (
@@ -164,7 +345,23 @@ export default function enterprisemobilitysolutions() {
                 infopara={infopara}
             />
 
-            <Coverage
+
+            
+            <WorkExp
+                Workspace={Workspace}
+
+            />
+
+            <WorkExp
+                Workspace={Workspace1}
+            />
+            
+            <IndustriesInt 
+                IndustriesInt={Industries}
+            />
+
+
+            {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
                 mobile={mobile}
@@ -210,7 +407,7 @@ export default function enterprisemobilitysolutions() {
 
 
 
-            />
+            /> */}
             <OurProject />
             <ClientsThink />
             <Nextproject />

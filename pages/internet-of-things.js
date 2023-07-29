@@ -454,14 +454,7 @@ const Industries = <>
                             <p>   Food & Drink   </p>
                         </Link> 
                     </li>
-                    {/* <li><a href="b2b-solutions.html"><img src="/content/newtheme/images/idu-3.png" alt="B2B Solutions"> <p> B2B Solutions </p></a> </li>
-                    <li><a href="b2c-solutions.html"><img src="/content/newtheme/images/idu-4.png" alt="B2C Solutions"> <p> B2C Solutions</p></a> </li>
-                    <li><a href="healthcare.html"><img src="/content/newtheme/images/idu-5.png" alt="Healthcare"> <p> Healthcare </p></a> </li>
-                    <li><a href="education-and-elearning.html"><img src="/content/newtheme/images/idu-6.png" alt="Education &amp; E-Learning"> <p> Education &amp; E-Learning </p></a> </li>
-                    <li><a href="banking-and-finance.html"><img src="/content/newtheme/images/idu-7.png" alt="Banking &amp; Finance"> <p> Banking &amp; Finance </p></a> </li>
-                    <li><a href="start-up-solutions.html"><img src="/content/newtheme/images/idu-8.png" alt="Startup Solutions"> <p> Startup Solutions </p></a> </li>
-                    <li><a href="media-and-publishing.html"><img src="/content/newtheme/images/idu-9.png" alt="Media &amp; Publishing"> <p> Media &amp; Publishing </p></a> </li>
-                    <li><a href="food-ordering-solutions.html"><img src="/content/newtheme/images/idu-10.png" alt="Food &amp; Drink"><p> Food &amp; Drink  </p></a> </li> */}
+                    
                 </ul>
             </div>
     </Col>
