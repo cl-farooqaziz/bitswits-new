@@ -41,77 +41,77 @@ export default function conversionrateoptimisation() {
     // coverage component data
 
 
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
+    // const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
 
-    const mobile = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            Mobile App Design
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UI UX Design
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research & Discovery
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Wireframing & Prototyping
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                iOS + Android Applications
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Post Launch Support
-            </Link>
-        </div>
-    </div>
+    // const mobile = <div>
+    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
+    //         Mobile App Design
+    //     </h5>
+    //     <div className={styles.servcsList}>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             UI UX Design
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Research & Discovery
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Wireframing & Prototyping
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             iOS + Android Applications
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Post Launch Support
+    //         </Link>
+    //     </div>
+    // </div>
 
-    const user = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            User Research
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Journey & Persona Building
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Participant Recruitments
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research Method & Material Development
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Iterative Research
-            </Link>
-        </div>
-    </div>
+    // const user = <div>
+    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
+    //         User Research
+    //     </h5>
+    //     <div className={styles.servcsList}>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User Journey & Persona Building
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User Testing
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Participant Recruitments
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Research Method & Material Development
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Iterative Research
+    //         </Link>
+    //     </div>
+    // </div>
 
 
-    const ux = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            UX Optimization
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Experience Assessment
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User & KPIs Data Analysis
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                A/B Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Feature Experimentation
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UX Iterations
-            </Link>
-        </div>
-    </div>
+    // const ux = <div>
+    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
+    //         UX Optimization
+    //     </h5>
+    //     <div className={styles.servcsList}>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User Experience Assessment
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User & KPIs Data Analysis
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             A/B Testing
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Feature Experimentation
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             UX Iterations
+    //         </Link>
+    //     </div>
+    // </div>
 
 
 
@@ -138,16 +138,16 @@ export default function conversionrateoptimisation() {
                 bannerimg={banImg}
             />
 
-            <Coverage
+            {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
                 mobile={mobile}
                 user={user}
                 ux={ux}
-            />
+            /> */}
 
 
-            <Swipe
+            {/* <Swipe
                 foldimg={foldimg}
                 title='We Design Engaging Mobile Apps your users will swipe through from start to finish'
                 para='Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
@@ -156,10 +156,10 @@ export default function conversionrateoptimisation() {
                 subtitle2='Swipe that Convert'
                 subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
 
-            />
+            /> */}
 
 
-
+{/* 
             <Ahead
                 title='Our Mobile App Research Data that puts you ahead of others'
                 para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
@@ -169,11 +169,11 @@ export default function conversionrateoptimisation() {
                 subpara2='Our research process gives you a competitive advantage and up-to-date market insights.'
                 ahead={aheadimage}
 
-            />
+            /> */}
 
 
 
-            <Ensure
+            {/* <Ensure
                 foldimg={foldensure}
                 title='We Test and Optimize your mobile app to ensure best user experience'
                 para='We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
@@ -182,7 +182,7 @@ export default function conversionrateoptimisation() {
                 subtitle2=' Active On-Going Support'
                 subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
 
-            />
+            /> */}
 
 
             <OurProject />

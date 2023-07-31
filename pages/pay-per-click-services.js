@@ -531,7 +531,7 @@ export default function payperclickservices() {
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     If you’re incorporating remarketing, be sure to implement the remarketing code in AdWords.
                                 </li>
-                                
+
                             </ul>
                         </Col>
                     </Row>
@@ -594,9 +594,13 @@ export default function payperclickservices() {
 
 
             <MyExpertise
-                notpost= 'btnhide'
+                notpost='btnhide'
                 cards={expCards}
             />
+
+            <div className='center spacingtb'>
+                <Image src={ppcimg} className='im-fluid' alt='bitswits' />
+            </div>
 
             <WhyBuild
                 title="Why Build"
@@ -605,9 +609,7 @@ export default function payperclickservices() {
                 subtitle={whytitle}
             />
 
-            <div className='center spacingtb'>
-                <Image src={ppcimg} className='im-fluid' alt='bitswits' />
-            </div>
+
 
 
             <MyReason
