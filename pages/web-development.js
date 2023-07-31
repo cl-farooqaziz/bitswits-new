@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap'
 import Image from 'next/image';
 import serStyles from '@/styles/MyServices.module.css'
-import expStyles from '@/styles/MyExpertise.module.css'
 import reStyles from '@/styles/MyReason.module.css'
 import styles from '@/styles/Coverage.module.css'
 //components
@@ -17,6 +16,7 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import MyServices from '@/components/MyServices';
 import MyExpertise from '@/components/MyExpertise';
+import expStyles from '@/styles/MyExpertise.module.css'
 import MyReason from '@/components/MyReason';
 //images
 import banImg from '../public/images/banner/webBanner.png'
@@ -57,7 +57,7 @@ export default function aboutUs() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Web Development </span> Company!</h1>
+const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Web Development </span> Company!</h1>
 
     const para = <>
 
@@ -75,9 +75,7 @@ export default function aboutUs() {
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
 
-
     // MyServices component data
-
 
     const sersubtile = <h2 className='font50 black fontf font-bold line60 black'>Get An Insight Of Our <span className='grdiant'>Web Development</span> Services</h2>
 
@@ -351,7 +349,6 @@ export default function aboutUs() {
             </Col>
         </Row>
     </>
-
 
     // MyExpertise component data
 
