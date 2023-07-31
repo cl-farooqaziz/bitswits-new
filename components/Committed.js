@@ -10,7 +10,7 @@ const Committed = () => {
             <Container>
                 <Row>
                     <Col xl={12}>
-                        <h3 className='center font-bold mb-5'>Committed. Delivered. Services Unlocked by Team In India</h3>
+                        <h3 className='center font-bold mb-5'>Committed. Delivered. Services Unlocked by Team In USA</h3>
                     </Col>
                 </Row>
                 <Row>
