@@ -2,7 +2,7 @@
   padding-top: 75px;
   padding-bottom: 75px;
   overflow: hidden;
-  background-color: #f6f7f9;
+  background-color: #fff;
 }
 
 .bttns1 {
@@ -158,5 +158,5 @@
 }
 
 .bgColorf{
-  background-color: #fff !important;
+  background-color: #fff;
 }
