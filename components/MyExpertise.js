@@ -23,7 +23,7 @@ const MyExpertise = (props) => {
                             </Link>
                         </Col>
                     </Row>
-                    <div className='mt-5'>{props.cards}</div>
+                    <div className='mt-0 mt-md-5'>{props.cards}</div>
                 </Container>
             </section>
         </>
