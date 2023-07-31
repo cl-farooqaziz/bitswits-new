@@ -388,61 +388,61 @@ export default function ecommerencedevelopment() {
     const exmplSlider = <>
         <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Seizethemarket</div>
+                <div className={exmplstyles.topTitle}>White Wallzy Website</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide1} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Event Calendar</div>
+                <div className={exmplstyles.topTitle}>Hyjo</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide2} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Journey CRM</div>
+                <div className={exmplstyles.topTitle}>Raamdecoratiesale</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide3} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>YouCall-it.com</div>
+                <div className={exmplstyles.topTitle}>The Man Company</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide4} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Risk Assessor Lite</div>
+                <div className={exmplstyles.topTitle}>Fisher & Paykel</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide5} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>ICAEW Members</div>
+                <div className={exmplstyles.topTitle}>Healthy Peach</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide6} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>ICAEW Members</div>
+                <div className={exmplstyles.topTitle}>Cuddledown</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide7} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>ICAEW Members</div>
+                <div className={exmplstyles.topTitle}>Gentlemen Of Salvage</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide8} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>ICAEW Members</div>
+                <div className={exmplstyles.topTitle}>The Royal Hamam</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide9} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>ICAEW Members</div>
+                <div className={exmplstyles.topTitle}>Manduka</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide10} className="img-fluid" />
                 </div>
