@@ -251,6 +251,17 @@ a {
   display: inline;
 }
 
+
+.spacingtb{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.btnhide {
+  display: none!important;
+}
+.mongo{
+  border-left: 1px solid #cccccc;
+}
 /* ======Btns====== */
 
 .bttns1 {

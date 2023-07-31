@@ -5,6 +5,11 @@
     background-color: #f6f7f9;
   }
   
+
+.mongo{
+  border-left: 1px solid #cccccc;
+}
+
   .bttns1 {
     background-color: transparent;
     width: 100%;
