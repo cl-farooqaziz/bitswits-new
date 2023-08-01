@@ -1184,3 +1184,7 @@ input::-webkit-inner-spin-button {
 .benefitscard .card:hover{
   box-shadow: 0px 0px 20px 0px #ddd;
 }
+
+.greyscale{
+  filter: grayscale(1);
+}

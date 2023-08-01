@@ -449,6 +449,7 @@ const whysubtitle =  <h4 className='text-center font30 font-bold'>We'd Like You 
                 cards={WhyBuilds}
                 title={whyretitle}
                 subtitle={whysubtitle}
+                expo='expo'
             />
             <MyReason
             cards={resCards}

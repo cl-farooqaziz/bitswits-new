@@ -803,10 +803,10 @@ const Benefits1 = <>
             />
 
 
-
             <WhyBuild
                 title="Why Does Your Business Need a"
                 cards={Benefits}
+                expo='expo'
                 // subtitle={whytitle}
                 // text={text}
             />

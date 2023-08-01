@@ -456,9 +456,8 @@ const Industries = <>
                     </li>
                     
                 </ul>
-            </div>
+    </div>
     </Col>
-    
 </Row>
 </>
     return (
@@ -490,6 +489,7 @@ const Industries = <>
 
             <WorkExp
                 Workspace={Workspace1}
+                expclass='expclasse'
             />
             
             <IndustriesInt 

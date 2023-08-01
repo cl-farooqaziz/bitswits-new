@@ -140,7 +140,7 @@ export default function travelhospitality() {
                 bannerimg={banImg}
             />
 
-            <Coverage
+            {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
                 mobile={mobile}
@@ -185,7 +185,7 @@ export default function travelhospitality() {
                 subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
 
             />
-
+ */}
 
             <OurProject />
             <ClientsThink />
