@@ -114,7 +114,7 @@ export default function crossplateformappdev() {
 
 
 // banner component data
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>Web App Development Company </span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>Cross platform App Development Company </span></h1>
 
     const para = <>
 
@@ -410,7 +410,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
   const expCards = <>
         <Row className={`${expStyles.soluRow} mt-5`}>
             <Col lg={5}>
-                <h4 className='font30 font-bold'>Our Approach for Web App Development</h4>
+                <h4 className='font30 font-bold'>Our Approach for Cross platform App Development</h4>
                  <div className='d-flex justify-content-start align-content-start mt-5'>
                     <div className='d-inline'>
                     <div className="mobbtn">
@@ -470,7 +470,6 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
     const WhyBuilds = <>
    
         <Row className={`${whyStyles.soluRow} mt-5`}>
-            
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
@@ -481,10 +480,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     </h5>
                     <p>
                     Create a solid brand identity by emphasising your brand messaging and values, helping to build a stronger connection with customers.
-
-
                     </p>
-
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -519,8 +515,6 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
                     Gather Valuable Customer Data
-
-
                     </h5>
                     <p>
                     With a mobile app, gather valuable data on your customers’ behaviour, preferences, and interactions with your brand to build future strategies.
@@ -536,8 +530,6 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
                     Offer Push Notifications
-
-
                     </h5>
                     <p>
                     With push notifications, you can send messages directly to user’s mobile devices, keeping them informed of new products, promotions, or other relevant updates.
@@ -552,13 +544,9 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Enhance Customer Support
-
-
+                    Enhance Customer support
                     </h5>
-                    <p>  A mobile app can offer a more efficient and effective way for customers to get support and assistance, reducing the need for a call or email support.
-
-</p>
+                    <p>  A mobile app can offer a more efficient and effective way for customers to get support and assistance, reducing the need for a call or email support.</p>
 
                 </div>
             </Col>
@@ -568,16 +556,9 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Add Exclusiveness
-
-
-
-                    </h5>
+                    Add Exclusiveness </h5>
                     <p>
-                    A mobile app can be used to offer exclusive content, such as access to new products or services, discounts, or promotions.
-
-
-                    </p>
+                    A mobile app can be used to offer exclusive content, such as access to new products or services, discounts, or promotions.</p>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -586,10 +567,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Run Loyalty Programs
-
-
-                    </h5>
+                    Run Loyalty Programs </h5>
                     <p>
                     Create and manage loyalty programs, offering customers encouragement to continue using your products and services with the help of an app.
 
@@ -605,30 +583,21 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Extended Reach
-
-
-                    </h5>
+                    Extended Reac</h5>
                     <p>  Reach customers on mobile and offer seamless experiences to access your products and services, place orders, and get support.
-
-
-
                     </p>
 
                 </div>
             </Col>
         </Row>
-
     </>
-
-
 
 const Benefits = <>
     <Row className='justify-content-center align-items-center text-center mb-4'>
         <Col lg={12}>
             <h2>Benefits of Working with a Leading
                 <br/>
-              <span className='font-bold'> Web App Development Company</span> 
+              <span className='font-bold'> Cross platform App Development Company</span> 
             </h2>
             <p>When you choose to work with our team of expert app developers, you can expect-</p>
         </Col>
@@ -697,8 +666,6 @@ const Benefits = <>
                         <Col lg={7}>
                         <span>
                         A focus on your business needs and goals with custom solutions tailored to your unique requirements.
-
-
                         </span>
                         </Col>
                     </Row>
@@ -713,7 +680,7 @@ const Benefits = <>
 const Benefits1 = <>
 <Row className='text-center'>
     <Col lg={12}>
-        <h4>Our <span className='font-bold'> Web App Development</span> Process</h4>
+        <h4 className='font40'>Our <span className='font-bold'> Cross platform App Development</span> Process</h4>
         <p>Our app development process is designed to be efficient, transparent, and collaborative. Here's an overview of what you can expect from our Cross Platform App development services:</p>
     </Col>
 </Row>

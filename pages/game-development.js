@@ -3,8 +3,18 @@ import React, { useState, useEffect } from 'react'; import Link from 'next/link'
 import banImg from '../public/images/banner/webBanner.png'
 import foldimg from '../public/images/services/webSwipe.svg'
 import foldensure from '../public/images/services/webEnsure.svg'
+import { Container, Row, Col } from 'react-bootstrap'
+import whyStyles from '@/styles/whyServices.module.css'
+// Slider
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 //components
+import exmplstyles from '@/styles/CrmExamples.module.css'
+import CrmExamples from '@/components/CrmExamples';
+// 
 import Banner from '@/components/ServicesBanner'
+import WhyBuild from '@/components/WhyBuild';
 import Coverage from '@/components/Coverage';
 import Swipe from '@/components/Swipe';
 import Ahead from '@/components/Ahead';
@@ -17,13 +27,61 @@ import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
 import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import WorkExp from '@/components/WorkExp'
+import workStyles from '@/styles/WorkExp.module.css'
+import expStyles from '@/styles/MyExpertise.module.css'
+import MyExpertise from '@/components/MyExpertise';
+
+import icon10 from '../public/images/gaming/gds1.png'
+import icon11 from '../public/images/gaming/gds2.png'
+import icon12 from '../public/images/gaming/gds3.png'
+import icon13 from '../public/images/gaming/gds4.png'
+import icon14 from '../public/images/gaming/gds5.png'
+import icon15 from '../public/images/gaming/gds6.png'
+import icon16 from '../public/images/gaming/gds7.png'
+import icon17 from '../public/images/gaming/gds8.png'
+
+
+// import icon16 from '../public/images/crmDev/crm-choose-icon1.png'
+// import icon17 from '../public/images/crmDev/crm-choose-icon2.png'
+// import icon18 from '../public/images/crmDev/crm-choose-icon3.png'
+import icon19 from '../public/images/crmDev/crm-choose-icon4.png'
+import icon20 from '../public/images/crmDev/crm-choose-icon5.png'
+import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
+import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
+import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
+//Why Icon
+import icon24 from '../public/images/gaming/gds-icon1.png'
+import icon25 from '../public/images/gaming/gds-icon2.png'
+import icon26 from '../public/images/gaming/gds-icon3.png'
+import icon27 from '../public/images/gaming/gds-icon4.png'
+import icon28 from '../public/images/gaming/gds-icon5.png'
+import icon29 from '../public/images/gaming/gds-icon6.png'
+import icon30 from '../public/images/gaming/gds-icon7.png'
+import icon31 from '../public/images/gaming/gds-icon8.png'
+import icon33 from '../public/images/gaming/gameimg1.png'
+// 
+import slide1 from '../public/images/gaming/game1.jpg'
+import slide2 from '../public/images/gaming/game2.jpg'
+import slide3 from '../public/images/gaming/game3.jpg'
+
+
+
+
 
 export default function gamedevelopment() {
 
-
+    var crmExamples = {
+        dots: false,
+        arrows: true,
+        autoplay: true,
+        speed: 3000,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
     // banner component data
-
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> GAME DEVELOPMENT </span> Company!</h1>
+const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> GAME DEVELOPMENT </span> Company!</h1>
 
     const para = <>
 
@@ -39,15 +97,12 @@ export default function gamedevelopment() {
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <strong>250+</strong> Developed Games to <strong>50+</strong> clients <br /> in the last <strong>21 years</strong>.</p> </>
-
+const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <strong>250+</strong> Developed Games to <strong>50+</strong> clients <br /> in the last <strong>21 years</strong>.</p> </>
 
     // coverage component data
+const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
 
-
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
-
-    const mobile = <div>
+const mobile = <div>
         <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
             Mobile App Design
         </h5>
@@ -68,9 +123,9 @@ export default function gamedevelopment() {
                 Post Launch Support
             </Link>
         </div>
-    </div>
+</div>
 
-    const user = <div>
+const user = <div>
         <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
             User Research
         </h5>
@@ -91,10 +146,10 @@ export default function gamedevelopment() {
                 Iterative Research
             </Link>
         </div>
-    </div>
+</div>
 
 
-    const ux = <div>
+const ux = <div>
         <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
             UX Optimization
         </h5>
@@ -115,17 +170,387 @@ export default function gamedevelopment() {
                 UX Iterations
             </Link>
         </div>
-    </div>
+</div>
+
+// Swipe component data
+// Build component data
+
+const whytitle = 
+<h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+    <span className='grdiant'>Our Game Services</span> 
+</h2>
+
+const WhyBuilds = <>
+        <Row className={`${whyStyles.soluRow} mt-5`}>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    Unity 3D
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30 '>
+                        HTML5 Game
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
+
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    COCOS2DX Game
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
 
 
 
-    // Swipe component data
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500'>
+                    iOS Game
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
+
+
+                    </p>
+                </div>
+            </Col>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    Android Game
+
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
 
 
 
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}  ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    React JS Game
+
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
+
+
+                    </p>
+                </div>
+            </Col>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}  ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    Unreal Game
+
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
 
 
 
+                    </p>
+                </div>
+            </Col>
+            <Col lg={3} md={4} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    Flash Game
+
+                    </h5>
+                    <p>
+                    A game must bring something new to the table. Join hands with us to embrace the best solutions in this booming industry of HTML5 Game development.
+
+
+                    </p>
+                </div>
+            </Col>
+        </Row>
+
+</>
+
+const Workspace = <>
+<Row className={`${workStyles.soluRow} text-center justify-content-center align-items-center position-relative`}>
+  
+{/* <h4 className='text-center font30 font-bold mb-4'> Kickstart Your Journey With World Of Innovation
+</h4> */}
+
+<div className={`${workStyles.gameimg}`}>
+    <Image src={icon33} className='img-fluid'/>
+</div>
+
+    <Col lg={4} md={6} className={workStyles.soluCol}>
+        <div className={`${workStyles.soluCard}`}>
+            {/* <div className={`${workStyles.imgBox}`}>
+                <Image src={icon33} alt='BitsWits' className='img-fluid' />
+            </div> */}
+        <h5 className='font40 fontf font-700 line30'>
+        AR
+        </h5>
+        <h5 className='font20 fontf font-500 line30'>
+        (Game Development)
+        </h5>
+        <p>
+        We are Augmenting reality with sheer creativity to create a truly immersive gaming experience.
+        </p>
+
+        </div>
+    </Col>
+    <Col lg={4} md={6} className={workStyles.soluCol}>
+        <div className={`${workStyles.soluCard} ${workStyles.soluCardBR}`}>
+            {/* <div className={`${workStyles.imgBox}`}>
+                <Image src={icon34} alt='BitsWits' className='img-fluid' />
+            </div> */}
+        <h5 className='font40 fontf font-700 line30'>
+        VR
+        </h5>
+        <h5 className='font20 fontf font-500 line30'>
+        (Game Development)
+        </h5>
+        <p>
+        Virtual Reality is the most advanced technical advancement that is yet to see its complete potential.
+        </p>
+        </div>
+    </Col>
+</Row>
+</>
+
+const Ultimate = <>
+   <section>
+        <Container>
+            <Row className='text-center'>
+                <Col lg={12}>
+    <h3 className='font30 black fontf font-bold line60 black text-center mb-3'>Ultimate Game Development Company to Empower Your Ideas
+    </h3>
+    <p>We are Augmenting reality with sheer creativity to create a truly immersive gaming experience.Team In India supports game design and development by providing high-end gaming solutions using various high-end game development platforms. These platforms are used for building games, apps and other graphics interface interactive applications. We are a leading mobile game development company in the UK. Team In India is a trustworthy name, and we are your to go option to get excellent game development solutions and fulfill a string of complex project needs.
+    </p>
+                </Col>
+            </Row>
+        </Container>
+    </section>
+</>
+
+
+
+    const subtitle = <h4 className='font40 black fontf font-bold line60 black text-center mb-3'>
+    <span className=''>Game Genres We Make</span> 
+    </h4>
+
+
+  // E-Commerce Development Services
+
+  const ecomDevTtl = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>Game Genres 
+  </span>  We Make
+  </h2>
+
+
+  const ecomDevSer = <>
+      <Row className={`${whyStyles.soluRow} mt-5`}>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon10} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Board
+                  </h5>
+              </div>
+          </Col>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon11} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Strategy
+
+                  </h5>
+              </div>
+          </Col>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon12} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Action
+                  </h5>
+              </div>
+          </Col>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon13} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Shooting
+                  </h5>
+              </div>
+          </Col>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon14} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Puzzles
+                  </h5>
+              </div>
+          </Col>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon15} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Roll
+                  </h5>
+              </div>
+          </Col>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Education
+                  </h5>
+              </div>
+          </Col>
+          <Col lg={3} md={6} className={whyStyles.soluCol}>
+              <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                  <div className={`${whyStyles.imgBox}`}>
+                      <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                  </div>
+                  <h5 className='font20 fontf font-500 line30'>
+                  Racing
+                  </h5>
+              </div>
+          </Col>
+      </Row>
+
+  </>
+
+//   Team
+
+const subtitle1 = 
+ <h4 className='font30 black fontf font-bold line60 black text-center mb-3'>
+<span className='grdiant'> As a Dedicated </span> Game Development Company
+</h4> 
+
+const team = 
+<>
+<p className='text-center'></p>
+<Container>
+    <Row  className={`${whyStyles.soluRow} ${whyStyles.borderbottom} justify-content-center align-items-center text-center`}>
+        <Col lg={4} className={`${whyStyles.soluRow}  mt-5`}>
+            <h4 className='font50 font-bold'>21+</h4>
+            <p>Years of <br/>Expertise</p>
+        </Col>
+        <Col lg={4} className={`${whyStyles.soluRow} ${whyStyles.borderright} ${whyStyles.borderleft}  mt-5`}>
+            <h4 className='font50 font-bold'>50+</h4>
+            <p>Game Development<br/> Experts</p>
+        </Col>
+        <Col lg={4} className={`${whyStyles.soluRow} mt-5`}>
+            <h4 className='font50 font-bold'>250+</h4>
+            <p>Developed<br/> Games</p>
+        </Col>
+    </Row>
+</Container>
+</>
+
+
+// Exmple component data
+
+const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Our Work In <span className='grdiant'>The Spotlight!</span>
+</h2> </>
+
+const exmplSlider = <>
+    <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
+        <div className={exmplstyles.strpImg}>
+            <div className={exmplstyles.topTitle}>Lil' Leprechaun</div>
+            <div className={exmplstyles.topImg}>
+                <Image alt="bitswits" src={slide1} className="img-fluid" />
+            </div>
+        </div>
+        <div className={exmplstyles.strpImg}>
+            <div className={exmplstyles.topTitle}>Poop Busters</div>
+            <div className={exmplstyles.topImg}>
+                <Image alt="bitswits" src={slide2} className="img-fluid" />
+            </div>
+        </div>
+        <div className={exmplstyles.strpImg}>
+            <div className={exmplstyles.topTitle}>3D Fidget Spinner</div>
+            <div className={exmplstyles.topImg}>
+                <Image alt="bitswits" src={slide3} className="img-fluid" />
+            </div>
+        </div>
+        {/* <div className={exmplstyles.strpImg}>
+            <div className={exmplstyles.topTitle}>YouCall-it.com</div>
+            <div className={exmplstyles.topImg}>
+                <Image alt="bitswits" src={slide4} className="img-fluid" />
+            </div>
+        </div>
+        <div className={exmplstyles.strpImg}>
+            <div className={exmplstyles.topTitle}>Risk Assessor Lite</div>
+            <div className={exmplstyles.topImg}>
+                <Image alt="bitswits" src={slide5} className="img-fluid" />
+            </div>
+        </div>
+        <div className={exmplstyles.strpImg}>
+            <div className={exmplstyles.topTitle}>ICAEW Members</div>
+            <div className={exmplstyles.topImg}>
+                <Image alt="bitswits" src={slide6} className="img-fluid" />
+            </div>
+        </div> */}
+    </Slider>
+</>
+
+const exmplText = <> Let's talk about your CRM requirements </>
 
     return (
         <>
@@ -142,8 +567,36 @@ export default function gamedevelopment() {
                 infopara={infopara}
                 bannerimg={banImg}
             />
+            <WhyBuild
+                cards={WhyBuilds}
+                subtitle={whytitle}
+            />
+            <MyExpertise
+                cards={Workspace}
+                title='Ultimate'
+                subtitle={subtitle}
+            />
 
-            <Coverage
+            <WhyBuild
+                cards={Ultimate}
+            />
+            <WhyBuild
+                cards={ecomDevSer}
+                subtitle={ecomDevTtl}
+            />
+            <MyExpertise
+                cards={team}
+                title='Our Team'
+                subtitle={subtitle1}
+            />
+          
+
+          <CrmExamples
+                title={exmplTitle}
+                slider={exmplSlider}
+                text={exmplText}
+            />
+            {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
                 mobile={mobile}
@@ -163,8 +616,6 @@ export default function gamedevelopment() {
 
             />
 
-
-
             <Ahead
                 title='Our Mobile App Research Data that puts you ahead of others'
                 para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
@@ -177,7 +628,6 @@ export default function gamedevelopment() {
             />
 
 
-
             <Ensure
                 foldimg={foldensure}
                 title='We Test and Optimize your mobile app to ensure best user experience'
@@ -187,7 +637,7 @@ export default function gamedevelopment() {
                 subtitle2=' Active On-Going Support'
                 subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
 
-            />
+            /> */}
 
 
             <OurProject />

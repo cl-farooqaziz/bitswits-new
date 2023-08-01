@@ -114,7 +114,7 @@ export default function androidappdeveloment() {
 
 
 // banner component data
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>Flutter App Company </span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>Android App Company </span></h1>
 
     const para = <>
 
@@ -410,7 +410,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
   const expCards = <>
         <Row className={`${expStyles.soluRow} mt-5`}>
             <Col lg={5}>
-                <h4 className='font30 font-bold'>Our Approach for Flutter App</h4>
+                <h4 className='font30 font-bold'>Our Approach for Android App</h4>
                  <div className='d-flex justify-content-start align-content-start mt-5'>
                     <div className='d-inline'>
                     <div className="mobbtn">
@@ -628,7 +628,7 @@ const Benefits = <>
         <Col lg={12}>
             <h2>Benefits of Working with a Leading
                 <br/>
-              <span className='font-bold'> Flutter App Company</span> 
+              <span className='font-bold'> Android App Company</span> 
             </h2>
             <p>When you choose to work with our team of expert app developers, you can expect-</p>
         </Col>
@@ -713,7 +713,7 @@ const Benefits = <>
 const Benefits1 = <>
 <Row className='text-center'>
     <Col lg={12}>
-        <h4 cla>Our <span className='font-bold'> Flutter App</span> Process</h4>
+        <h4 className='font40'>Our <span className='font-bold'> Android App</span> Process</h4>
         <p>Our app development process is designed to be efficient, transparent, and collaborative. Here's an overview of what you can expect from our Cross Platform App development services:</p>
     </Col>
 </Row>

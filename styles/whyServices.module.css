@@ -138,4 +138,12 @@
       margin-top: 0px !important;
     }
   }
-  
+  .borderleft{
+    border-left: 1px solid #e5e5e5;
+  }
+  .borderleft{
+    border-right:1px solid #e5e5e5;
+  }
+  .borderbottom{
+    border-bottom: 1px solid #e5e5e5;
+  }
