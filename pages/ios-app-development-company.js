@@ -714,7 +714,7 @@ const Benefits = <>
 const Benefits1 = <>
 <Row className='text-center'>
     <Col lg={12}>
-        <h4>Our <span className='font-bold'> Ios App Development</span> Process</h4>
+        <h4 className='font40'>Our <span className='font-bold'> Ios App Development</span> Process</h4>
         <p>Our app development process is designed to be efficient, transparent, and collaborative. Here's an overview of what you can expect from our mobile app development services:</p>
     </Col>
 </Row>

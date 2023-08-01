@@ -7,7 +7,7 @@ import styles from '@/styles/WorkExp.module.css'
 const WhyBuild = (props) => {
     return (
         <>
-            <section className={styles.myExpertise}>
+            <section className={`${styles.myExpertise} ${props.expclass}`}>
                 <Container>
                     <Row className='aboutfold'>
                         {/* <Col md={2}>

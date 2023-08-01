@@ -44,6 +44,9 @@
     border-right: 1px solid #ccc;
     border-radius: 0;
   }
+  .soluCardBL {
+    border-bottom: 0;
+  }
   
   .soluCardBB {
     border-bottom: 0;
@@ -136,4 +139,15 @@
     width: 25px;
     height: 25px;
     margin: 0 15px 0 0;
+}
+
+.gameimg{
+  position: absolute;
+  right: -5vw;
+  bottom: -20%;
+  z-index: 2;
+  width: 20vw;
+}
+.expclasse{
+  background: #fff !important;
 }

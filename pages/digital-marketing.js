@@ -237,8 +237,7 @@ export default function digitalmarketing() {
 
 
 
-const value = 
-<>
+const value = <>
 <Container>
                 <Row>
                     <Col xl={12}>

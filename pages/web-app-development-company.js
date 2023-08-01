@@ -627,10 +627,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
 const Benefits = <>
     <Row className='justify-content-center align-items-center text-center mb-4'>
         <Col lg={12}>
-            <h2>Benefits of Working with a Leading
-                <br/>
-              <span className='font-bold'> Web App Development Company</span> 
-            </h2>
+        <h2>Benefits of Working with a Leading <span className='font-bold'> Web App Development Company</span> </h2>
             <p>When you choose to work with our team of expert app developers, you can expect-</p>
         </Col>
     </Row>
@@ -662,8 +659,6 @@ const Benefits = <>
                         <Col lg={7}>
                         <span>
                         A team of experienced app developers with a proven track record of delivering high-quality apps that users love.
-
-
                         </span>
                         </Col>
                     </Row>
@@ -680,8 +675,6 @@ const Benefits = <>
                         <Col lg={7}>
                         <span>
                         A commitment to clear and open communication, with regular progress updates and the opportunity to provide feedback throughout the development process.
-
-
                         </span>
                         </Col>
                     </Row>
@@ -698,8 +691,6 @@ const Benefits = <>
                         <Col lg={7}>
                         <span>
                         A focus on your business needs and goals with custom solutions tailored to your unique requirements.
-
-
                         </span>
                         </Col>
                     </Row>
@@ -714,7 +705,7 @@ const Benefits = <>
 const Benefits1 = <>
 <Row className='text-center'>
     <Col lg={12}>
-        <h4>Our <span className='font-bold'> Web App Development</span> Process</h4>
+        <h4 className='font40'>Our <span className='font-bold'> Web App Development</span> Process</h4>
         <p>Our app development process is designed to be efficient, transparent, and collaborative. Here's an overview of what you can expect from our mobile app development services:</p>
     </Col>
 </Row>
@@ -764,7 +755,7 @@ const Benefits1 = <>
                 <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
             </Col>
             <Col lg={12}>
-            <input type='Submit' className={styles.notice} />
+                <input type='Submit' className={styles.notice} />
             </Col>
         </Row>
       </div>
@@ -802,8 +793,6 @@ const Benefits1 = <>
                 subtitle={whytitle}
                 text={text}
             />
-
-
 
             <WhyBuild
                 title="Why Does Your Business Need a"
