@@ -262,6 +262,14 @@ a {
 .mongo{
   border-left: 1px solid #cccccc;
 }
+.borderbottom{
+  border-bottom: 1px solid #cccccc;
+}
+
+.classmiles{
+  background-color: #f6f7f9;
+}
+
 /* ======Btns====== */
 
 .bttns1 {

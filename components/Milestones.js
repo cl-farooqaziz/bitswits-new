@@ -4,7 +4,7 @@ import styles from '@/styles/Milestones.module.css'
 
 const Milestones = (props) => {
     return (
-        <section className={styles.miltone}>
+        <section className={`${styles.miltone} ${props.classmiles}`}>
          
          {props.value}
 

@@ -33,6 +33,11 @@ import icon31 from '../public/images/improvements/8.png'
 
 import reStyles from '@/styles/MyReason.module.css'
 import MarketingExpertise from '@/components/MarketingExpertise';
+import dataStyles from '@/styles/Marketingexpertise.module.css'
+import { Container } from 'react-bootstrap'
+import mobilearrow1 from '../public/images/Include/star.jpg'
+
+
 
 export default function socialmediaoptimization() {
 
@@ -367,6 +372,34 @@ export default function socialmediaoptimization() {
 
 
 
+const data =
+<>
+
+<section className={dataStyles.marketingExpertise}>
+            <Container>
+                <Row>
+                    <Col>
+                        <h3 className='center font-bold mb-5'>Our Social Media Marketing Expertise Also Include</h3>
+
+
+                        <ul className={dataStyles.mservice}>
+                            <li> <Image src={mobilearrow1} alt="bitswits" />  Youtube Video Advertising </li>
+                            <li> <Image src={mobilearrow1} alt="bitswits" /> Facebook Cold Display Advertising  </li>
+                            <li> <Image src={mobilearrow1} alt="bitswits" />  Facebook Dynamic Adverts </li>
+                            <li> <Image src={mobilearrow1} alt="bitswits" />  Facebook Remarketing &amp; Campaigns</li>
+                            <li> <Image src={mobilearrow1} alt="bitswits" />  Instagram Ads </li>
+                            <li> <Image src={mobilearrow1} alt="bitswits" />  LinkedIn Advertising</li>
+                            <li> <Image src={mobilearrow1} alt="bitswits" />  Twitter Ads</li>
+                            <li> <Image src={mobilearrow1} alt="bitswits" />  Content Development &amp; Marketing</li>
+                        </ul>
+                    </Col>
+                </Row>
+            </Container>
+
+        </section>
+
+</>
+
 
 
     return (
@@ -435,7 +468,10 @@ export default function socialmediaoptimization() {
 
             /> */}
 
-            <MarketingExpertise/>
+            <MarketingExpertise
+                data = {data}
+            
+            />
 
             <MyReason
                 title="Reasons"

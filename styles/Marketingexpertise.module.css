@@ -16,3 +16,8 @@
 .mservice li img{
     margin-right: 10px;
 }
+
+.bgcolor{
+    background: #f6fafd;
+    position: relative;
+}

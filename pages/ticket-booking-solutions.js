@@ -17,6 +17,20 @@ import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
 import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import MarketingExpertise from '@/components/MarketingExpertise';
+import dataStyles from '@/styles/Marketingexpertise.module.css'
+import { Container, Row, Col } from 'react-bootstrap'
+import mobilearrow1 from '../public/images/Include/star.jpg'
+
+import Milestones from '@/components/Milestones';
+import milestones1 from '../public/images/methodology/1.jpg'
+import milestones2 from '../public/images/methodology/2.jpg'
+import milestones3 from '../public/images/methodology/3.jpg'
+import milestones4 from '../public/images/methodology/4.jpg'
+import milestones5 from '../public/images/methodology/5.jpg'
+
+
+
 
 
 export default function ticketbookingsolutions() {
@@ -58,84 +72,173 @@ export default function ticketbookingsolutions() {
     // coverage component data
 
 
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
+    // const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
 
-    const mobile = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            Mobile App Design
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UI UX Design
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research & Discovery
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Wireframing & Prototyping
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                iOS + Android Applications
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Post Launch Support
-            </Link>
-        </div>
-    </div>
+    // const mobile = <div>
+    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
+    //         Mobile App Design
+    //     </h5>
+    //     <div className={styles.servcsList}>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             UI UX Design
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Research & Discovery
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Wireframing & Prototyping
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             iOS + Android Applications
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Post Launch Support
+    //         </Link>
+    //     </div>
+    // </div>
 
-    const user = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            User Research
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Journey & Persona Building
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Participant Recruitments
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research Method & Material Development
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Iterative Research
-            </Link>
-        </div>
-    </div>
+    // const user = <div>
+    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
+    //         User Research
+    //     </h5>
+    //     <div className={styles.servcsList}>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User Journey & Persona Building
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User Testing
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Participant Recruitments
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Research Method & Material Development
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Iterative Research
+    //         </Link>
+    //     </div>
+    // </div>
 
 
-    const ux = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            UX Optimization
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Experience Assessment
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User & KPIs Data Analysis
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                A/B Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Feature Experimentation
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UX Iterations
-            </Link>
-        </div>
-    </div>
+    // const ux = <div>
+    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
+    //         UX Optimization
+    //     </h5>
+    //     <div className={styles.servcsList}>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User Experience Assessment
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             User & KPIs Data Analysis
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             A/B Testing
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             Feature Experimentation
+    //         </Link>
+    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
+    //             UX Iterations
+    //         </Link>
+    //     </div>
+    // </div>
 
 
 
     // Swipe component data
 
 
+    const data =
+        <>
 
+            <section className={dataStyles.marketingExpertise}>
+                <Container>
+                    <Row>
+                        <Col>
+                            <h3 className='center font-bold mb-5'>Rail ticket booking system features</h3>
+
+
+                            <ul className={dataStyles.mservice}>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  Website Designing with New graphics </li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" /> Strong Back-end to manage the huge business  </li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  Single Track System for all the divisions </li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  Find and book tickets</li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" /> Management of Multiple Passes </li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />   Widget for Rail ticket Integration</li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  A Single environment for different websites (CMS)</li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  Management of payment gateways by the admin</li>
+
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  Online Printing Tool</li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  Server Management</li>
+                                <li> <Image src={mobilearrow1} alt="bitswits" />  Bulk ticket booking for corporate sector</li>
+
+                            </ul>
+                        </Col>
+                    </Row>
+                </Container>
+
+            </section>
+
+        </>
+
+
+
+    const value =
+        <>
+            <Container>
+                <Row>
+                    <Col xl={12}>
+                        <h3 className='center font-bold mb-5'>Our Development Methodology</h3>
+                       
+                    </Col>
+                </Row>
+                <Row className=''>
+                    <Col xl={4} className='borderbottom '>
+                        <div className=' pt-5 pb-5'>
+                            <Image src={milestones1} className='img-fluid mb-4' />
+                            <h3 className='font20 mb-3 font-semibold'>Evaluation and Monitoring </h3>
+                            <p className=''>These determine KPIs,reports and other metrics, per suer, in order to monitor that the process is working as agreed</p>
+                        </div>
+                    </Col>
+                    <Col xl={4} className='mongo borderbottom'>
+                        <div className=' pt-5 pb-5'>
+                            <Image src={milestones2} className='img-fluid mb-4' />
+                            <h3 className='font20 mb-3 font-semibold'>Application,construction and
+implementation</h3>
+                            <p className=''>Weekly delivery of developments for the end user to operate and request for changes, it isIDEAL that the end user is part ofthe process of development and testing</p>
+                        </div>
+
+                    </Col>
+                    <Col xl={4} className='mongo borderbottom'>
+                        <div className=' pt-5 pb-5'>
+                            <Image src={milestones3} className='img-fluid mb-4' />
+                            <h3 className='font20 mb-3 font-semibold'>Evaluation of processes and current
+structure of the company </h3>
+                            <p className=''>Mapping processes to determine the starting pointand the Actual State</p>
+                        </div>
+                    </Col>
+                    <Col xl={4} >
+                        <div className=' pt-5 pb-5'>
+                            <Image src={milestones4} className='img-fluid mb-4' />
+                            <h3 className='font20 mb-3 font-semibold'>Suggestions for improvement and
+process optimization </h3>
+                            <p className=''>Optimize a process with a right combination of technologies</p>
+                        </div>
+                    </Col>
+                    <Col xl={4} className='mongo'>
+                        <div className=' pt-5 pb-5'>
+                            <Image src={milestones5} className='img-fluid mb-4' />
+                            <h3 className='font20 mb-3 font-semibold'>Application design together with
+the client </h3>
+                            <p className=''>We choose technologies and review options with the client. The client is part of the project from the very beginning and feedback is VITAL</p>
+                        </div>
+                    </Col>
+                    
+                </Row>
+            </Container>
+
+        </>
 
 
 
@@ -156,7 +259,19 @@ export default function ticketbookingsolutions() {
                 bannerimg={banImg}
             />
 
-            <Coverage
+
+
+
+            <Milestones
+                value={value}
+            />
+
+            <MarketingExpertise
+                data={data}
+
+            />
+
+            {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
                 mobile={mobile}
@@ -200,7 +315,7 @@ export default function ticketbookingsolutions() {
                 subtitle2=' Active On-Going Support'
                 subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
 
-            />
+            /> */}
 
 
             <OurProject />
