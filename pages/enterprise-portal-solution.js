@@ -281,7 +281,7 @@ export default function ecommerencedevelopment() {
                     <Image src={sevcImg} alt='BitsWits' className='img-fluid' />
                 </Col>
                 <Col lg={6} className='mx-auto'>
-                    <h3 className='font-bold mb-3'>Our Benefits</h3>
+                    <h3 className='font-bold mb-3'>Enterprise Portal Development Services</h3>
                     <ul>
                         <li>Social Networks and Communities</li>
                         <li>Content Distribution Portals (Digital Docs and Media)</li>
@@ -308,7 +308,7 @@ export default function ecommerencedevelopment() {
     // Benefits component data
 
     const smmExperties = <>
-        <Container>
+        <Container className='mb-5'>
             <Row>
                 <Col>
                     <h3 className='center font-bold mb-5'>Our Benefits</h3>
@@ -389,7 +389,7 @@ export default function ecommerencedevelopment() {
 
 
             <MarketingExpertise
-                expeties={smmExperties}
+                data={smmExperties}
             />
 
 

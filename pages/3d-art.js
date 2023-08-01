@@ -192,7 +192,7 @@ export default function dart() {
                      <h5 className='font20 fontf font-500 line30 '>
                      Character <br/> Designing
                      </h5>
-                     <p>Designing characters and props needs away beyond thinking, and every person in Team in India is creative and think differently from others which make us out of the league and innovators.</p>
+                     <p>Designing characters and props needs away beyond thinking, and every person in Bitswitsis creative and think differently from others which make us out of the league and innovators.</p>
                  </div>
              </Col>
              <Col lg={4} md={4} className={whyStyles.soluCol}>
@@ -309,7 +309,7 @@ export default function dart() {
                      In-house expertise
                  </h5>
                  <p>
-                     Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, India and Worldwide are directly employed by us, and they work in offices that are owned by us.
+                     Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
                  </p>
                  <p>
                      This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.

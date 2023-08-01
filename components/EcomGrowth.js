@@ -61,7 +61,7 @@ const EcomGrowth = () => {
                                                 Get Unparraled Performance
                                             </h5>
                                             <p>
-                                                The e-Commerce systems developed by us at Team In India benefit merchants from industry-leading performance, stability and sites that load fast for maximum conversion.
+                                                The e-Commerce systems developed by us at Bitswitsbenefit merchants from industry-leading performance, stability and sites that load fast for maximum conversion.
                                             </p>
                                         </div>
                                     </div>

@@ -217,7 +217,7 @@ export default function ecommerencedevelopment() {
                             Prestashop
                         </h5>
                         <p>
-                            Team In India provides professional and skilful PrestaShop development services including Prestashop adaptation, template design, responsive theme & module development.
+                            Bitswitsprovides professional and skilful PrestaShop development services including Prestashop adaptation, template design, responsive theme & module development.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -281,7 +281,7 @@ export default function ecommerencedevelopment() {
                             NopCommerce
                         </h5>
                         <p>
-                            Team In India has the experience and expertise for NopCommerce Development, and we provide the ultimate services in this field.
+                            Bitswitshas the experience and expertise for NopCommerce Development, and we provide the ultimate services in this field.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -345,7 +345,7 @@ export default function ecommerencedevelopment() {
                             Zencart
                         </h5>
                         <p>
-                            Team In India offers Zen Cart web development services and you can hire our professional developers for custom Zen Cart e-Commerce website design and development.
+                            Bitswitsoffers Zen Cart web development services and you can hire our professional developers for custom Zen Cart e-Commerce website design and development.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -377,7 +377,7 @@ export default function ecommerencedevelopment() {
                             Magento 2
                         </h5>
                         <p>
-                            Team In India provides top quality Magento 2.0 development and customisation services including Magento 2.0 migration, theme/extension development.
+                            Bitswitsprovides top quality Magento 2.0 development and customisation services including Magento 2.0 migration, theme/extension development.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>

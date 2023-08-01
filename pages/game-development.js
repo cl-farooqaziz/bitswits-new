@@ -366,7 +366,7 @@ const Ultimate = <>
                 <Col lg={12}>
     <h3 className='font30 black fontf font-bold line60 black text-center mb-3'>Ultimate Game Development Company to Empower Your Ideas
     </h3>
-    <p>We are Augmenting reality with sheer creativity to create a truly immersive gaming experience.Team In India supports game design and development by providing high-end gaming solutions using various high-end game development platforms. These platforms are used for building games, apps and other graphics interface interactive applications. We are a leading mobile game development company in the UK. Team In India is a trustworthy name, and we are your to go option to get excellent game development solutions and fulfill a string of complex project needs.
+    <p>We are Augmenting reality with sheer creativity to create a truly immersive gaming experience.Bitswitssupports game design and development by providing high-end gaming solutions using various high-end game development platforms. These platforms are used for building games, apps and other graphics interface interactive applications. We are a leading mobile game development company in the UK. Bitswitsis a trustworthy name, and we are your to go option to get excellent game development solutions and fulfill a string of complex project needs.
     </p>
                 </Col>
             </Row>

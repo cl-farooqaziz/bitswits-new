@@ -86,7 +86,7 @@ const BcDevSolution = () => {
                                     Smart Contract Development
                                 </h5>
                                 <p>
-                                    Hire Blockchain developers in India who are adroit in smart contract development, having crafted a slew of immutable smart contracts guaranteeing conflict-free business operations and transactions.
+                                    Hire Blockchain developers in USA who are adroit in smart contract development, having crafted a slew of immutable smart contracts guaranteeing conflict-free business operations and transactions.
                                 </p>
                             </div>
                         </Col>

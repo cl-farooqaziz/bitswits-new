@@ -38,7 +38,6 @@ import mobilearrow2 from '../public/images/Include/star.jpg'
 import reStyles from '@/styles/MyReason.module.css'
 import MarketingExpertise from '@/components/MarketingExpertise';
 import dataStyles from '@/styles/Marketingexpertise.module.css'
-import { Container } from 'react-bootstrap'
 import mobilearrow1 from '../public/images/Include/star.jpg'
 
 
@@ -335,7 +334,7 @@ export default function socialmediaoptimization() {
                         In-house expertise
                     </h5>
                     <p>
-                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, India and Worldwide are directly employed by us, and they work in offices that are owned by us.
+                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
                     </p>
                     <p>
                         This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
