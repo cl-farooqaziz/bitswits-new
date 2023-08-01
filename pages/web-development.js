@@ -4,6 +4,7 @@ import { Row, Col } from 'react-bootstrap'
 import Image from 'next/image';
 import serStyles from '@/styles/MyServices.module.css'
 import reStyles from '@/styles/MyReason.module.css'
+import expStyles from '@/styles/MyExpertise.module.css'
 import styles from '@/styles/Coverage.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
@@ -16,7 +17,6 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import MyServices from '@/components/MyServices';
 import MyExpertise from '@/components/MyExpertise';
-import expStyles from '@/styles/MyExpertise.module.css'
 import MyReason from '@/components/MyReason';
 //images
 import banImg from '../public/images/banner/webBanner.png'

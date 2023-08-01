@@ -1,5 +1,7 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { Container, Row, Col } from 'react-bootstrap'
 import banImg from '../public/images/banner/webBanner.png'
 import foldimg from '../public/images/services/webSwipe.svg'
 import foldensure from '../public/images/services/webEnsure.svg'
@@ -13,14 +15,14 @@ import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import styles from '@/styles/Coverage.module.css'
+// import styles from '@/styles/Coverage.module.css'
 import aheadimage from '../public/images/services/webAhead.svg'
 import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import MyReason from '@/components/MyReason';
 import WhyBuild from '@/components/WhyBuild';
-import { Row, Col } from 'react-bootstrap'
 import whyStyles from '@/styles/whyServices.module.css'
+import styles from '@/styles/Marketingexpertise.module.css'
 //Why Icon
 import icon24 from '../public/images/improvements/1.png'
 import icon25 from '../public/images/improvements/2.png'
@@ -30,7 +32,9 @@ import icon28 from '../public/images/improvements/5.png'
 import icon29 from '../public/images/improvements/6.png'
 import icon30 from '../public/images/improvements/7.png'
 import icon31 from '../public/images/improvements/8.png'
-
+//
+import mobilearrow2 from '../public/images/Include/star.jpg'
+//
 import reStyles from '@/styles/MyReason.module.css'
 import MarketingExpertise from '@/components/MarketingExpertise';
 import dataStyles from '@/styles/Marketingexpertise.module.css'
@@ -154,10 +158,10 @@ export default function socialmediaoptimization() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Reputation
+                        Reputation
                     </h5>
                     <p>
-                    We target to build your reputation as a reliable qualified source.
+                        We target to build your reputation as a reliable qualified source.
                     </p>
 
                 </div>
@@ -168,10 +172,10 @@ export default function socialmediaoptimization() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Engagement
+                        Engagement
                     </h5>
                     <p>
-                    At Team In India, we encourage more engagement, sharing & reciprocation.
+                        At Team In India, we encourage more engagement, sharing & reciprocation.
                     </p>
 
                 </div>
@@ -182,10 +186,10 @@ export default function socialmediaoptimization() {
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Authority
+                        Authority
                     </h5>
                     <p>
-                    We help you become a notable authority in your field of expertise.
+                        We help you become a notable authority in your field of expertise.
                     </p>
 
                 </div>
@@ -196,10 +200,10 @@ export default function socialmediaoptimization() {
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Leadership
+                        Leadership
                     </h5>
                     <p>
-                    We harness originality & creativity, be a Thought Leader.
+                        We harness originality & creativity, be a Thought Leader.
                     </p>
 
                 </div>
@@ -210,11 +214,11 @@ export default function socialmediaoptimization() {
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Social
+                        Social
 
                     </h5>
                     <p>
-                    The target is to be social, find and engage sociable experts in your field
+                        The target is to be social, find and engage sociable experts in your field
                     </p>
 
                 </div>
@@ -225,10 +229,10 @@ export default function socialmediaoptimization() {
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Media
+                        Media
                     </h5>
                     <p>
-                    We help you associate with your social media platforms to maximize influence.
+                        We help you associate with your social media platforms to maximize influence.
                     </p>
 
                 </div>
@@ -239,10 +243,10 @@ export default function socialmediaoptimization() {
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Optimization
+                        Optimization
                     </h5>
                     <p>
-                    We aim to optimise your social channels to enhance your brand appearance and encourage valuable results.
+                        We aim to optimise your social channels to enhance your brand appearance and encourage valuable results.
                     </p>
 
                 </div>
@@ -253,10 +257,10 @@ export default function socialmediaoptimization() {
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Content
+                        Content
                     </h5>
                     <p>
-                    Sharing engaging content is what it all takes to reach the benchmark and create engagement with audience.
+                        Sharing engaging content is what it all takes to reach the benchmark and create engagement with audience.
                     </p>
 
                 </div>
@@ -371,6 +375,25 @@ export default function socialmediaoptimization() {
     </>
 
 
+    const smmExperties = <>
+        <Container>
+            <Row>
+                <Col>
+                    <h3 className='center font-bold mb-5'>Our Social Media Marketing Expertise Also Include</h3>
+                    <ul className={styles.mservice}>
+                        <li> <Image src={mobilearrow2} alt="bitswits" />  Youtube Video Advertising </li>
+                        <li> <Image src={mobilearrow2} alt="bitswits" /> Facebook Cold Display Advertising  </li>
+                        <li> <Image src={mobilearrow2} alt="bitswits" />  Facebook Dynamic Adverts </li>
+                        <li> <Image src={mobilearrow2} alt="bitswits" />  Facebook Remarketing &amp; Campaigns</li>
+                        <li> <Image src={mobilearrow2} alt="bitswits" />  Instagram Ads </li>
+                        <li> <Image src={mobilearrow2} alt="bitswits" />  LinkedIn Advertising</li>
+                        <li> <Image src={mobilearrow2} alt="bitswits" />  Twitter Ads</li>
+                        <li> <Image src={mobilearrow2} alt="bitswits" />  Content Development &amp; Marketing</li>
+                    </ul>
+                </Col>
+            </Row>
+        </Container>
+    </>
 
 const data =
 <>
@@ -452,10 +475,11 @@ const data =
 
             <WhyBuild
                 title="Why Build"
-
                 cards={WhyBuilds}
                 subtitle={whytitle}
             />
+
+
             {/* 
             <Ensure
                 foldimg={foldensure}
@@ -471,6 +495,7 @@ const data =
             <MarketingExpertise
                 data = {data}
             
+                expeties={smmExperties}
             />
 
             <MyReason

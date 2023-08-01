@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import whyStyles from '@/styles/whyServices.module.css'
 import exmplstyles from '@/styles/CrmExamples.module.css'
 import styles from '@/styles/Coverage.module.css'
@@ -22,6 +22,8 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import WhyBuild from '@/components/WhyBuild';
 import CrmExamples from '@/components/CrmExamples';
+import Milestones from '@/components/Milestones';
+import EcomGrowth from '@/components/EcomGrowth';
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import foldimg from '../public/images/services/webSwipe.svg'
@@ -61,6 +63,13 @@ import slide7 from '../public/images/eComDev/screenshot_7.png'
 import slide8 from '../public/images/eComDev/screenshot_8.png'
 import slide9 from '../public/images/eComDev/screenshot_9.png'
 import slide10 from '../public/images/eComDev/screenshot_10.png'
+//
+import milestones1 from '../public/images/eComDev/fits-icon-1.png'
+import milestones2 from '../public/images/eComDev/fits-icon-2.png'
+import milestones3 from '../public/images/eComDev/fits-icon-3.png'
+import milestones4 from '../public/images/eComDev/fits-icon-4.png'
+import milestones5 from '../public/images/eComDev/fits-icon-5.png'
+import milestones6 from '../public/images/eComDev/fits-icon-6.png'
 
 
 
@@ -177,7 +186,7 @@ export default function ecommerencedevelopment() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>Major Platforms Our <span className='grdiant'>E-commerce</span> Developers Provide Solutions For:
+    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Major Platforms Our <span className='grdiant'>E-commerce</span> Developers Provide Solutions For:
     </h2>
 
     const WhyBuilds = <>
@@ -382,8 +391,7 @@ export default function ecommerencedevelopment() {
 
     // Exmple component data
 
-    const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>CRM work</span>
-    </h2> </>
+    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>E-Commerce</span> solutions </h2> </>
 
     const exmplSlider = <>
         <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
@@ -453,10 +461,67 @@ export default function ecommerencedevelopment() {
     const exmplText = <> Let's talk about your CRM requirements </>
 
 
+
+    // Advantages component data
+
+    const value = <>
+        <Container>
+            <Row>
+                <Col xl={12}>
+                    <h3 className='font40 fontf font-bold line60 black text-center mb-5'>
+                        Advantages of Our <span className='grdiant'>E-commerce App Development</span> Services UK:
+                    </h3>
+                </Col>
+            </Row>
+            <Row>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard}`}>
+                        <Image src={milestones1} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Higher Average Order Values</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard}`}>
+                        <Image src={milestones2} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Increased Customer Loyalty</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                        <Image src={milestones3} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Increased Customer Base</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                        <Image src={milestones4} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Higher Margins and Better Cash Flow</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                        <Image src={milestones5} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Gain New Customers with Search Engine Visibility</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
+                        <Image src={milestones6} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Promote your e-Commerce Website presence</h5>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+
+    </>
+
+
     // E-Commerce Development Services
 
-    const ecomDevTtl = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>E-Commerce Development</span>  Services
+    const ecomDevTtl = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>E-Commerce Development</span>  Services
     </h2>
+
+    const ecomText = <p className='font16 fontf font-medium black text-center'>From Simple to Complex – Our e-Commerce Solutions Are Our Strength</p>
 
     const ecomDevSer = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -501,7 +566,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon14} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -511,7 +576,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon15} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -521,7 +586,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -531,7 +596,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -560,6 +625,7 @@ export default function ecommerencedevelopment() {
                 infopara={infopara}
             />
 
+
             {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
@@ -585,11 +651,13 @@ export default function ecommerencedevelopment() {
 
             /> */}
 
+
             <CrmExamples
                 title={exmplTitle}
                 slider={exmplSlider}
                 text={exmplText}
             />
+
 
             {/* <Ahead
                 title='Our Mobile App Research Data that puts you ahead of others'
@@ -602,10 +670,17 @@ export default function ecommerencedevelopment() {
 
             /> */}
 
+
+
             <WhyBuild
                 cards={ecomDevSer}
                 subtitle={ecomDevTtl}
+                text={ecomText}
             />
+
+
+            <EcomGrowth />
+
 
             {/* <Ensure
                 foldimg={foldensure}
@@ -617,6 +692,10 @@ export default function ecommerencedevelopment() {
                 subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
             /> */}
 
+
+            <Milestones
+                value={value}
+            />
 
 
             <OurProject />

@@ -458,7 +458,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -472,7 +472,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -486,7 +486,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -500,7 +500,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -514,7 +514,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -527,7 +527,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -540,7 +540,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -553,7 +553,7 @@ export default function phpdevelopment() {
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
@@ -573,7 +573,7 @@ export default function phpdevelopment() {
     // MyReason component data
 
     const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Why <span className='grdiant'>BitsWits</span> Is A Leading
-    PHP Development Agency</h2>
+        PHP Development Agency</h2>
 
     const resCards = <>
         <Row className={`${reStyles.soluRow} mt-5`}>
