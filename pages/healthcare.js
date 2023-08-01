@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import whyStyles from '@/styles/whyServices.module.css'
 import exmplstyles from '@/styles/CrmExamples.module.css'
+import growthStyles from '@/styles/EcomGrowth.module.css'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -21,15 +22,6 @@ import EcomGrowth from '@/components/EcomGrowth';
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
-//Why Icon
-import icon10 from '../public/images/eComDev/solution-icon-1.png'
-import icon11 from '../public/images/eComDev/solution-icon-2.png'
-import icon12 from '../public/images/eComDev/solution-icon-3.png'
-import icon13 from '../public/images/eComDev/solution-icon-4.png'
-import icon14 from '../public/images/eComDev/solution-icon-5.png'
-import icon15 from '../public/images/eComDev/solution-icon-6.png'
-import icon16 from '../public/images/eComDev/solution-icon-7.png'
-import icon17 from '../public/images/eComDev/solution-icon-8.png'
 //
 import icon24 from '../public/images/healthcare/health-icon-01.png'
 import icon25 from '../public/images/healthcare/health-icon-02.png'
@@ -38,23 +30,29 @@ import icon27 from '../public/images/healthcare/health-icon-04.png'
 import icon28 from '../public/images/healthcare/health-icon-05.png'
 import icon29 from '../public/images/healthcare/health-icon-06.png'
 //
-import slide1 from '../public/images/eComDev/screenshot_1.png'
-import slide2 from '../public/images/eComDev/screenshot_2.png'
-import slide3 from '../public/images/eComDev/screenshot_3.png'
-import slide4 from '../public/images/eComDev/screenshot_4.png'
-import slide5 from '../public/images/eComDev/screenshot_5.png'
-import slide6 from '../public/images/eComDev/screenshot_6.png'
-import slide7 from '../public/images/eComDev/screenshot_7.png'
-import slide8 from '../public/images/eComDev/screenshot_8.png'
-import slide9 from '../public/images/eComDev/screenshot_9.png'
-import slide10 from '../public/images/eComDev/screenshot_10.png'
+import milestones1 from '../public/images/healthcare/h-icon-1.png'
+import milestones2 from '../public/images/healthcare/h-icon-2.png'
+import milestones3 from '../public/images/healthcare/h-icon-3.png'
+import milestones4 from '../public/images/healthcare/h-icon-4.png'
+import milestones5 from '../public/images/healthcare/h-icon-5.png'
+import milestones6 from '../public/images/healthcare/h-icon-6.png'
 //
-import milestones1 from '../public/images/eComDev/fits-icon-1.png'
-import milestones2 from '../public/images/eComDev/fits-icon-2.png'
-import milestones3 from '../public/images/eComDev/fits-icon-3.png'
-import milestones4 from '../public/images/eComDev/fits-icon-4.png'
-import milestones5 from '../public/images/eComDev/fits-icon-5.png'
-import milestones6 from '../public/images/eComDev/fits-icon-6.png'
+import icon30 from '../public/images/healthcare/he-icon-01.png'
+import icon31 from '../public/images/healthcare/health-icon-02.png'
+import icon32 from '../public/images/healthcare/he-icon-03.png'
+import icon33 from '../public/images/healthcare/he-icon-04.png'
+import icon34 from '../public/images/healthcare/health-icon-05.png'
+import icon35 from '../public/images/healthcare/health-icon-06.png'
+//
+import bluebg from '../public/images/healthcare/imgright.png'
+import bluebg1 from '../public/images/healthcare/blueicons-1.png'
+import bluebg2 from '../public/images/healthcare/bluebgicon-2.png'
+//
+import slide1 from '../public/images/healthcare/folio1.png'
+import slide2 from '../public/images/healthcare/folio2.png'
+import slide3 from '../public/images/healthcare/folio3.png'
+import slide4 from '../public/images/healthcare/folio4.png'
+import slide5 from '../public/images/healthcare/folio5.png'
 
 
 export default function healthcare() {
@@ -88,6 +86,7 @@ export default function healthcare() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b> 1200+</b> e-Commerce solutions to <b>1000+</b> clients in the last <b>21 years</b> .</p> </>
+
 
 
     // Build component data
@@ -191,80 +190,6 @@ export default function healthcare() {
     </>
 
 
-
-    // Exmple component data
-
-    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>E-Commerce</span> solutions </h2> </>
-
-    const exmplSlider = <>
-        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>White Wallzy Website</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide1} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Hyjo</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide2} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Raamdecoratiesale</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide3} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>The Man Company</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide4} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Fisher & Paykel</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide5} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Healthy Peach</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide6} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Cuddledown</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide7} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Gentlemen Of Salvage</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide8} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>The Royal Hamam</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide9} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Manduka</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide10} className="img-fluid" />
-                </div>
-            </div>
-        </Slider>
-    </>
-
-    const exmplText = <> Let's talk about your CRM requirements </>
-
-
-
     // Advantages component data
 
     const value = <>
@@ -272,7 +197,7 @@ export default function healthcare() {
             <Row>
                 <Col xl={12}>
                     <h3 className='font40 fontf font-bold line60 black text-center mb-5'>
-                        Advantages of Our <span className='grdiant'>E-commerce App Development</span> Services UK:
+                        Reap the benefits of online <span className='grdiant'>healthcare</span> solutions
                     </h3>
                 </Col>
             </Row>
@@ -280,137 +205,237 @@ export default function healthcare() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones1} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Higher Average Order Values</h5>
+                        <h5 class="font18 fontf font-semibold me-auto">More Patient Interactions</h5>
+                        <p className='font18 fontf font-regular black'>
+                            Staff will be able to spend more time with their patients and less time chasing clinical information.
+                        </p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones2} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Increased Customer Loyalty</h5>
+                        <h5 class="font18 fontf font-semibold me-auto">Better Means of Sharing Information</h5>
+                        <p className='font18 fontf font-regular black'>
+                            Information gets shared in a more streamlined format between different sources, for example between GPs and Hospitals.
+                        </p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones3} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Increased Customer Base</h5>
+                        <h5 class="font18 fontf font-semibold me-auto">Patient’s information</h5>
+                        <p className='font18 fontf font-regular black'>
+                            Important patient information will be available instantly by means of a digital healthcare system.
+                        </p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones4} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Higher Margins and Better Cash Flow</h5>
+                        <h5 class="font18 fontf font-semibold me-auto">Helping your patients</h5>
+                        <p className='font18 fontf font-regular black'>
+                            Helping your patients including those with chronic and complex conditions, to better manage their health.
+                        </p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones5} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Gain New Customers with Search Engine Visibility</h5>
+                        <h5 class="font18 fontf font-semibold me-auto">Increased efficiencies</h5>
+                        <p className='font18 fontf font-regular black'>
+                            Increased efficiencies may help reduce the number of unnecessary repeat tests, hospitalizations and follow-up specialist visits.
+                        </p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones6} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Promote your e-Commerce Website presence</h5>
+                        <h5 class="font18 fontf font-semibold me-auto">Maintaining Confidentiality</h5>
+                        <p className='font18 fontf font-regular black'>
+                            Important patient information will be available instantly by means of a digital healthcare system.
+                        </p>
                     </div>
                 </Col>
             </Row>
         </Container>
-
     </>
 
 
-    // E-Commerce Development Services
+    // Solutions  component data
 
-    const ecomDevTtl = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>E-Commerce Development</span>  Services
+    const SoluTitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'><span className='grdiant'>Healthcare</span> Solutions From Bitswits
     </h2>
 
-    const ecomText = <p className='font16 fontf font-medium black text-center'>From Simple to Complex – Our e-Commerce Solutions Are Our Strength</p>
-
-    const ecomDevSer = <>
+    const SoluBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon10} alt='BitsWits' className='img-fluid' />
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Patient & Appointment Register
+                        </h5>
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Pre-Order <br /> Management
-                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon11} alt='BitsWits' className='img-fluid' />
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Patient History with last appointments prescription history.
+                        </h5>
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Product <br /> Recommendations
-                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon12} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Offline Product <br /> Management
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon13} alt='BitsWits' className='img-fluid' />
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Calendar to view appointment schedules
+                        </h5>
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Wish-List <br /> Statement
-                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon14} alt='BitsWits' className='img-fluid' />
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Patient and Appointment Reporting features
+                        </h5>
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Social <br /> Promotions
-                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon15} alt='BitsWits' className='img-fluid' />
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            An admin section to control website content and Admin activities.
+                        </h5>
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Customize Product <br /> Using Designing Tool
-                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Quickbooks <br /> Integration
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Expert team for module & features suggestions
+                        </h5>
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Shipping <br /> Methods
-                    </h5>
                 </div>
             </Col>
         </Row>
-
     </>
+
+
+    // Growth component data
+
+    const busGrowth = <>
+        <Container>
+            <div className='mb-5'>
+                <h3 className='font30 fontf font-bold white text-center mb-0'>
+                    Key Features – Providing a better service
+                </h3>
+            </div>
+            <div className={growthStyles.mainBox}>
+                <Row className={growthStyles.boxRow}>
+                    <Col lg={6}>
+                        <div className={growthStyles.cardMain}>
+                            <div className={`${growthStyles.soluCard}`}>
+                                <div className={`${growthStyles.imgBox}`}>
+                                    <Image src={bluebg1} alt='BitsWits' className='img-fluid' />
+                                </div>
+                                <div className={`${growthStyles.txtBox}`}>
+                                    <h5 className='font20 fontf font-500 white line30'>
+                                        Telemedicine & Video Calling
+                                    </h5>
+                                    <p>
+                                        Doctors and patients can now be connected through phone and video-calls taking communication within healthcare to another level.Doctors and patients can now be connected through phone and video-calls taking communication within healthcare to another level.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${growthStyles.soluCard}`}>
+                                <div className={`${growthStyles.imgBox}`}>
+                                    <Image src={bluebg2} alt='BitsWits' className='img-fluid' />
+                                </div>
+                                <div className={`${growthStyles.txtBox}`}>
+                                    <h5 className='font20 fontf font-500 white line30'>
+                                        Telemedicine & Video Calling
+                                    </h5>
+                                    <p>
+                                        Doctors and patients can now be connected through phone and video-calls taking communication within healthcare to another level.Doctors and patients can now be connected through phone and video-calls taking communication within healthcare to another level.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={6} className={growthStyles.right}>
+                        <Image src={bluebg} alt='BitsWits' className='img-fluid' />
+                    </Col>
+                </Row>
+            </div>
+        </Container>
+    </>
+
+
+    // Exmple component data
+
+    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>Healthcare</span> solutions </h2> </>
+
+    const exmplSlider = <>
+        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Incorpore - The Health Club Company</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide1} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Living Centre Clinic</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide2} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Actalens Advantage</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide3} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Rejuvenate Your Body</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide4} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Website for Clinics and Vendors (yourviewdr)</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide5} className="img-fluid" />
+                </div>
+            </div>
+        </Slider>
+    </>
+
+    const exmplText = <> Let's talk about your Healthcare requirements </>
+
+
 
     return (
         <>
@@ -441,12 +466,14 @@ export default function healthcare() {
 
 
             <WhyBuild
-                cards={WhyBuilds}
-                subtitle={whytitle}
+                cards={SoluBuilds}
+                subtitle={SoluTitle}
             />
 
 
-            <EcomGrowth />
+            <EcomGrowth
+                growth={busGrowth}
+            />
 
 
             <CrmExamples
@@ -454,7 +481,7 @@ export default function healthcare() {
                 slider={exmplSlider}
                 text={exmplText}
             />
-            \
+
 
             <OurProject />
             <ClientsThink />

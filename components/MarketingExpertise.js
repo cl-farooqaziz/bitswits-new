@@ -1,12 +1,12 @@
 import React from 'react'
-
+import styles from '@/styles/Marketingexpertise.module.css'
 
 
 const MarketingExpertise = (props) => {
     return (
 
         <>
-            {props.data}
+            <section className={styles.marketingExpertise}>{props.data}</section>
         </>
 
 

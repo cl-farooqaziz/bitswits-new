@@ -1,145 +1,226 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
-import banImg from '../public/images/banner/webBanner.png'
-import foldimg from '../public/images/services/webSwipe.svg'
-import foldensure from '../public/images/services/webEnsure.svg'
+import React from 'react';
+import Image from 'next/image';
+import { Container, Row, Col } from 'react-bootstrap'
+import whyStyles from '@/styles/whyServices.module.css'
+import exmplstyles from '@/styles/CrmExamples.module.css'
+//
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/services/webAhead.svg'
-import Image from 'next/image';
+import WhyBuild from '@/components/WhyBuild';
+import CrmExamples from '@/components/CrmExamples';
+import DosDont from '@/components/DosDont';
+//images
+import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
+//
+import icon24 from '../public/images/startup/b-1.png'
+import icon25 from '../public/images/startup/b-2.png'
+//
+import slide1 from '../public/images/startup/folio1.png'
+import slide2 from '../public/images/startup/folio2.png'
+import slide3 from '../public/images/startup/folio3.png'
 
 
 export default function startupsolutions() {
+
+
+    var crmExamples = {
+        dots: false,
+        arrows: true,
+        autoplay: true,
+        speed: 3000,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
 
 
     // banner component data
 
     const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> STARTUP SOLUTIONS </span> Company!</h1>
 
-    const para = <ul className='p-0'>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Test Sample
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Doctor's Office
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Event Management
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Patient
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Lab
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Analysis
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Results
-        </li>
-    </ul>
+    const para = <>
 
+        <ul className='p-0'>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Advanced E-Commerce For Growing Brands </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Multi Vendor Marketplace Solutions</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Shopping Cart Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  E-Commerce Application Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Web Design & Development Services</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Custom E-Commerce Solutions</li>
+        </ul>
+    </>
 
-    // coverage component data
-
-
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
-
-    const mobile = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            Mobile App Design
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UI UX Design
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research & Discovery
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Wireframing & Prototyping
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                iOS + Android Applications
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Post Launch Support
-            </Link>
-        </div>
-    </div>
-
-    const user = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            User Research
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Journey & Persona Building
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Participant Recruitments
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research Method & Material Development
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Iterative Research
-            </Link>
-        </div>
-    </div>
-
-
-    const ux = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            UX Optimization
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Experience Assessment
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User & KPIs Data Analysis
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                A/B Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Feature Experimentation
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UX Iterations
-            </Link>
-        </div>
-    </div>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b> 1200+</b> e-Commerce solutions to <b>1000+</b> clients in the last <b>21 years</b> .</p> </>
 
 
 
-    // Swipe component data
+    // Build component data
+
+    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Process</h2>
+
+    const WhyBuilds = <>
+        <Row className={`${whyStyles.soluRow} mt-5`}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Business Analysis
+                        </h5>
+                        <p>
+                            We work with you to analyse and understand the business and your objectives, we then help you to plan and develop your software.
+                        </p>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Functional Specifications
+                        </h5>
+                        <p>
+                            Once our business analyst has understood the requirements, we can work closely together and help you create the functional specifications to help your business achieve all development goals, the specifications can also be used by our Developers to understand exactly what needs to be built. You might be surprised by some of the suggestions our analysts will make, with many years’ experience and hundreds of projects under their belts they always know the quickest and easiest way to deliver a project.
+                        </p>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Web Development
+                        </h5>
+                        <p>
+                            From providing a platform for your business on the web to advising or supporting an off the shelf solution, we can help. We are experts not only in customer facing sites but also back office systems to keep your business streamlined and give you the edge on the competition.
+                        </p>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Mobile App Development
+                        </h5>
+                        <p>
+                            As the internet is increasingly accessed through mobile devices we will discuss your requirements for mobile apps to maintain customer engagement. We can also deliver apps using Augmented Reality (AR) and Virtual Reality (VR) technologies (MR/XR).
+                        </p>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Software Development
+                        </h5>
+                        <p>
+                            We can also provide Internet of Things (IoT) software applications utilising automation, apps to take advantage of wearables & watches, and also SBC or any maker board solutions required.
+                        </p>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Security, Server Management and Server & Network Support.
+                        </h5>
+                        <p>
+                            Experts to configure your server, and give you the best environment to easily and securely scale your data.
+                        </p>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Digital Marketing
+                        </h5>
+                        <p>
+                            Ensure that you can be found amongst the masses and stand apart by telling people your benefits.
+                        </p>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
+                    <div>
+                        <div className={`${whyStyles.imgBox}`}>
+                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        </div>
+                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                            Support
+                        </h5>
+                        <p>
+                            Our assistance does not need to end once up and running. We can also help with applying any updates or new modules, patches, enhancements and security features.
+                        </p>
+                    </div>
+                </div>
+            </Col>
+        </Row>
+    </>
 
 
+    // Exmple component data
 
+    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>Startup</span> solutions </h2> </>
 
+    const exmplSlider = <>
+        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Incorpore - The Health Club Company</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide1} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Living Centre Clinic</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide2} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Actalens Advantage</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide3} className="img-fluid" />
+                </div>
+            </div>
+        </Slider>
+    </>
+
+    const exmplText = <> Let's talk about your startup solutions requirements </>
 
 
 
@@ -156,52 +237,23 @@ export default function startupsolutions() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
-            />
-
-            <Coverage
-                title="Coverage"
-                subtitle={subtile}
-                mobile={mobile}
-                user={user}
-                ux={ux}
+                infopara={infopara}
             />
 
 
-            <Swipe
-                foldimg={foldimg}
-                title='We Design Engaging Mobile Apps your users will swipe through from start to finish'
-                para='Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-                subtitle='High Performance User Experience'
-                subpara='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-                subtitle2='Swipe that Convert'
-                subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
+            <DosDont />
 
+
+            <WhyBuild
+                cards={WhyBuilds}
+                subtitle={whytitle}
             />
 
 
-
-            <Ahead
-                title='Our Mobile App Research Data that puts you ahead of others'
-                para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-                subtitle='Laser Focused User Research'
-                subpara='We remain laser focused on your target audience to best meet their needs and requirements.'
-                subtitle2='Competitive Advantage'
-                subpara2='Our research process gives you a competitive advantage and up-to-date market insights.'
-                ahead={aheadimage}
-
-            />
-
-
-
-            <Ensure
-                foldimg={foldensure}
-                title='We Test and Optimize your mobile app to ensure best user experience'
-                para='We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-                subtitle='Constant Innovation'
-                subpara='In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-                subtitle2=' Active On-Going Support'
-                subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
-
+            <CrmExamples
+                title={exmplTitle}
+                slider={exmplSlider}
+                text={exmplText}
             />
 
 
