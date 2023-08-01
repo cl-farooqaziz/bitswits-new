@@ -49,7 +49,39 @@ import icon23 from '../public/images/phpdev/phpdev-tec8.png'
 import grnArrow from '../public/images/wbd-icons/arrow-green.png'
 import expStyles from '@/styles/MyExpertise.module.css'
 import MyExpertise from '@/components/MyExpertise';
+//
+import CrmExamples from '@/components/CrmExamples';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import slide1 from '../public/images/seo/1.jpg'
+import slide2 from '../public/images/seo/2.png'
+import slide3 from '../public/images/seo/3.png'
+import slide4 from '../public/images/seo/4.png'
+import slide5 from '../public/images/seo/5.png'
+import slide6 from '../public/images/seo/6.png'
+import slide7 from '../public/images/seo/7.png'
+import slide8 from '../public/images/seo/8.jpg'
+import slide9 from '../public/images/seo/9.jpg'
+import slide10 from '../public/images/seo/10.jpg'
+import slide11 from '../public/images/seo/11.jpg'
+import slide12 from '../public/images/seo/12.jpg'
+import exmplstyles from '@/styles/CrmExamples.module.css'
+
+
+
+
 export default function payperclickservices() {
+
+    var crmExamples = {
+        dots: false,
+        arrows: true,
+        autoplay: true,
+        speed: 3000,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
 
 
     // banner component data
@@ -544,6 +576,97 @@ export default function payperclickservices() {
 
 
 
+
+
+
+
+
+    // Exmple component data
+
+
+    const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>PPC work</span>
+    </h2> </>
+
+    const exmplSlider = <>
+        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>A1 Clutches</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide1} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Glyfada Beach Villas</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide2} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Bali Brasserie Restaurants</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide3} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Texas Star hvacr</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide4} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>My Duvet and Pillow</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide5} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Diamond Engagement Rings</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide6} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Pass Now Intensive Courses</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide7} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Mind Body Fitness</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide8} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>My Duvet and Pillow</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide9} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>The Flower Stand Chelsea </div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide10} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Shirtworks (Tshirt Printing) </div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide11} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Narpsuk (Dog Walking Business) </div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide12} className="img-fluid" />
+                </div>
+            </div>
+        </Slider>
+    </>
+
+    const exmplText = <> Let's talk about your SEO requirements </>
+
+
     return (
         <>
             <Head>
@@ -630,7 +753,11 @@ export default function payperclickservices() {
 
             /> */}
 
-
+            <CrmExamples
+                title={exmplTitle}
+                slider={exmplSlider}
+                text={exmplText}
+            />
 
 
             <OurProject />

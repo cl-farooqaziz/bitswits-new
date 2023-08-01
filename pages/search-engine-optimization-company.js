@@ -22,8 +22,36 @@ import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import Blogfaqs from '@/components/Blogfaqs';
 import Choose from '@/components/Choose';
 
+//
+import CrmExamples from '@/components/CrmExamples';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import slide1 from '../public/images/seo/1.jpg'
+import slide2 from '../public/images/seo/2.png'
+import slide3 from '../public/images/seo/3.png'
+import slide4 from '../public/images/seo/4.png'
+import slide5 from '../public/images/seo/5.png'
+import slide6 from '../public/images/seo/6.png'
+import slide7 from '../public/images/seo/7.png'
+import slide8 from '../public/images/seo/8.jpg'
+import slide9 from '../public/images/seo/9.jpg'
+import slide10 from '../public/images/seo/10.jpg'
+import slide11 from '../public/images/seo/11.jpg'
+import slide12 from '../public/images/seo/12.jpg'
+import exmplstyles from '@/styles/CrmExamples.module.css'
 
 export default function searchengineoptimization() {
+
+    var crmExamples = {
+        dots: false,
+        arrows: true,
+        autoplay: true,
+        speed: 3000,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
 
 
     // banner component data
@@ -44,111 +72,92 @@ export default function searchengineoptimization() {
     </>
 
 
-    // coverage component data
+    // Exmple component data
 
 
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
+const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>SEO work</span>
+    </h2> </>
 
-    const mobile = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            Mobile App Design
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UI UX Design
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research & Discovery
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Wireframing & Prototyping
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                iOS + Android Applications
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Post Launch Support
-            </Link>
-        </div>
-    </div>
+    const exmplSlider = <>
+        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>A1 Clutches</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide1} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Glyfada Beach Villas</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide2} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Bali Brasserie Restaurants</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide3} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Texas Star hvacr</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide4} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>My Duvet and Pillow</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide5} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Diamond Engagement Rings</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide6} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Pass Now Intensive Courses</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide7} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Mind Body Fitness</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide8} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>My Duvet and Pillow</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide9} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>The Flower Stand Chelsea </div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide10} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Shirtworks (Tshirt Printing) </div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide11} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Narpsuk (Dog Walking Business) </div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide12} className="img-fluid" />
+                </div>
+            </div>
+        </Slider>
+    </>
 
-    const user = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            User Research
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Journey & Persona Building
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Participant Recruitments
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research Method & Material Development
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Iterative Research
-            </Link>
-        </div>
-    </div>
-
-
-    const ux = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            UX Optimization
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Experience Assessment
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User & KPIs Data Analysis
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                A/B Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Feature Experimentation
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UX Iterations
-            </Link>
-        </div>
-    </div>
-
-
-
-    // Swipe component data
-
-    const swip = <h2 className='font30 black fontf font-bold line40 black'>Drive Tons of Organic Traffic and Boost <span className='displayline grdiant'>Search Engine</span> Rankings With Our SEO Agency</h2>
-
-
-    const aheadtitle = <h2 className='font30 black fontf font-bold line40 black'>Boost Your Ranking with Our Technical <span className='displayline grdiant'>SEO</span> Service And Flood Your Website with Visitors</h2>
-
-
-    const ensine = <h2 className='font30 black fontf font-bold line40 black'>BitsWits, The Top <span className='displayline grdiant'>SEO</span> Agency is Your Partner for Comprehensive SEO Solutions!</h2>
+    const exmplText = <> Let's talk about your SEO requirements </>
 
 
-    // =================== //
-
-    const swpTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>On-Page Optimization at BitsWits</h3>
-
-    const swpTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Keyword Research and Analysis</h3>
-
-    // =================== //
-
-    const ahdTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Website Structure and Navigation</h3>
-
-    const ahdTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>Website Audit and Optimization</h3>
-
-    // =================== //
-
-    const enshrTtl = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0'>SEO for Target Market and Niches</h3>
-
-    const enshrTtl2 = <h3 className='font18 fontf font-bold mt-1 letterspace black mb-0 displayline'>SEO for All Sorts of Website CMS</h3>
 
 
 
@@ -175,6 +184,13 @@ export default function searchengineoptimization() {
             <Blogfaqs/>
             
             <Choose/>
+
+
+            <CrmExamples
+                title={exmplTitle}
+                slider={exmplSlider}
+                text={exmplText}
+            />
 
             {/* <Coverage
                 title="Coverage"
