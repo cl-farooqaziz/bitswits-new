@@ -189,8 +189,7 @@ export default function automotivesolutions() {
 
     // Swipe component data
 
-    const data =
-        <>
+    const data =  <>
 
             <section className={`${dataStyles.marketingExpertise} ${dataStyles.bgcolor}`}>
                 <Container>
