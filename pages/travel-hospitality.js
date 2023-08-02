@@ -686,7 +686,7 @@ const WhyBuilds1 = <>
    <p className='text-center'>We are proud to have had the opportunities to integrate the APIs provided us by the following.</p>
         <Row>
             <Col lg={12}>
-                {/* <Image src={siteminder} alt='BitsWits' className='img-fluid' /> */}
+                <Image src={siteminder} alt='BitsWits' className='img-fluid' />
             </Col>
         </Row>
     </Container>
