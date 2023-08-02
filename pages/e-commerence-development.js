@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import whyStyles from '@/styles/whyServices.module.css'
 import exmplstyles from '@/styles/CrmExamples.module.css'
-import styles from '@/styles/Coverage.module.css'
+import growthStyles from '@/styles/EcomGrowth.module.css'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -70,6 +70,12 @@ import milestones3 from '../public/images/eComDev/fits-icon-3.png'
 import milestones4 from '../public/images/eComDev/fits-icon-4.png'
 import milestones5 from '../public/images/eComDev/fits-icon-5.png'
 import milestones6 from '../public/images/eComDev/fits-icon-6.png'
+//
+import bluebg from '../public/images/eComDev/blueimg.png'
+import bluebg1 from '../public/images/eComDev/bluebgicon-1.png'
+import bluebg2 from '../public/images/eComDev/bluebgicon-2.png'
+import bluebg3 from '../public/images/eComDev/bluebgicon-3.png'
+import bluebg4 from '../public/images/eComDev/bluebgicon-4.png'
 
 
 
@@ -179,8 +185,6 @@ export default function ecommerencedevelopment() {
     //         </Link>
     //     </div>
     // </div>
-
-
 
 
 
@@ -609,6 +613,85 @@ export default function ecommerencedevelopment() {
 
     </>
 
+
+    // Growth component data
+
+    const busGrowth = <>
+        <Container>
+            <div className='mb-5'>
+                <h3 className='font30 fontf font-bold white text-center mb-0'>
+                    Business Growth With Our E-commerce Development?
+                </h3>
+                <p className='font30 fontf white text-center'>Here’s Everything You Need To Know:</p>
+            </div>
+            <div className={growthStyles.mainBox}>
+                <Row className={growthStyles.boxRow}>
+                    <Col lg={6}>
+                        <div className={growthStyles.cardMain}>
+                            <div className={`${growthStyles.soluCard}`}>
+                                <div className={`${growthStyles.imgBox}`}>
+                                    <Image src={bluebg1} alt='BitsWits' className='img-fluid' />
+                                </div>
+                                <div className={`${growthStyles.txtBox}`}>
+                                    <h5 className='font20 fontf font-500 white line30'>
+                                        Build An Incredible Shopping Experience
+                                    </h5>
+                                    <p>
+                                        Our revolutionary e-Commerce development lets you create stores that engage with the maximum shoppers to increase sales. Choose from the best responsive e-Commerce templates on the market or build a fully custom site.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${growthStyles.soluCard}`}>
+                                <div className={`${growthStyles.imgBox}`}>
+                                    <Image src={bluebg2} alt='BitsWits' className='img-fluid' />
+                                </div>
+                                <div className={`${growthStyles.txtBox}`}>
+                                    <h5 className='font20 fontf font-500 white line30'>
+                                        Add Promising Features
+                                    </h5>
+                                    <p>
+                                        Best-in-class marketing and conversion tools enable the merchants to grow at double the speed of the industry average. Drive more traffic, convert more visitors and seamlessly sell on multiple channels from a single location by first adding a few promising features.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${growthStyles.soluCard}`}>
+                                <div className={`${growthStyles.imgBox}`}>
+                                    <Image src={bluebg3} alt='BitsWits' className='img-fluid' />
+                                </div>
+                                <div className={`${growthStyles.txtBox}`}>
+                                    <h5 className='font20 fontf font-500 white line30'>
+                                        Get Unparraled Performance
+                                    </h5>
+                                    <p>
+                                        The e-Commerce systems developed by us at Team In India benefit merchants from industry-leading performance, stability and sites that load fast for maximum conversion.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${growthStyles.soluCard}`}>
+                                <div className={`${growthStyles.imgBox}`}>
+                                    <Image src={bluebg4} alt='BitsWits' className='img-fluid' />
+                                </div>
+                                <div className={`${growthStyles.txtBox}`}>
+                                    <h5 className='font20 fontf font-500 white line30'>
+                                        Optimisation of ROI
+                                    </h5>
+                                    <p>
+                                        You’ll spend less time managing technology and get regular updates with new, cutting-edge features once you know the technique to manage and optimize the things that impact your business.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={6} className={growthStyles.right}>
+                        <Image src={bluebg} alt='BitsWits' className='img-fluid' />
+                    </Col>
+                </Row>
+            </div>
+        </Container>
+    </>
+
+
+
     return (
         <>
             <Head>
@@ -679,7 +762,9 @@ export default function ecommerencedevelopment() {
             />
 
 
-            <EcomGrowth />
+            <EcomGrowth
+                growth={busGrowth}
+            />
 
 
             {/* <Ensure

@@ -4,15 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import markstyles from '@/styles/Marketingexpertise.module.css'
 import whyStyles from '@/styles/whyServices.module.css'
-import exmplstyles from '@/styles/CrmExamples.module.css'
-import styles from '@/styles/Coverage.module.css'
 import portstyles from '@/styles/Portal.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
@@ -22,9 +16,6 @@ import WhyBuild from '@/components/WhyBuild';
 import Portal from '@/components/Portal';
 //images
 import banImg from '../public/images/banner/webBanner.png'
-import foldimg from '../public/images/services/webSwipe.svg'
-import foldensure from '../public/images/services/webEnsure.svg'
-import aheadimage from '../public/images/services/webAhead.svg'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import mobilearrow2 from '../public/images/Include/star.jpg'
 //
@@ -62,82 +53,6 @@ export default function ecommerencedevelopment() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>80+</b> Enterprisen Portal solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
-
-
-    // coverage component data
-
-
-    // const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
-
-    // const mobile = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         Mobile App Design
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             UI UX Design
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Research & Discovery
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Wireframing & Prototyping
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             iOS + Android Applications
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Post Launch Support
-    //         </Link>
-    //     </div>
-    // </div>
-
-    // const user = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         User Research
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Journey & Persona Building
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Testing
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Participant Recruitments
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Research Method & Material Development
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Iterative Research
-    //         </Link>
-    //     </div>
-    // </div>
-
-
-    // const ux = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         UX Optimization
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Experience Assessment
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User & KPIs Data Analysis
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             A/B Testing
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Feature Experimentation
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             UX Iterations
-    //         </Link>
-    //     </div>
-    // </div>
 
 
 
@@ -344,31 +259,11 @@ export default function ecommerencedevelopment() {
                 infopara={infopara}
             />
 
-            {/* <Coverage
-                title="Coverage"
-                subtitle={subtile}
-                mobile={mobile}
-                user={user}
-                ux={ux}
-            /> */}
-
-
+           
             <WhyBuild
                 cards={WhyBuilds}
                 subtitle={whytitle}
             />
-
-
-            {/* <Swipe
-                foldimg={foldimg}
-                title='We Design Engaging Mobile Apps your users will swipe through from start to finish'
-                para='Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-                subtitle='High Performance User Experience'
-                subpara='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-                subtitle2='Swipe that Convert'
-                subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-
-            /> */}
 
 
             <Portal
@@ -376,32 +271,9 @@ export default function ecommerencedevelopment() {
             />
 
 
-            {/* <Ahead
-                title='Our Mobile App Research Data that puts you ahead of others'
-                para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-                subtitle='Laser Focused User Research'
-                subpara='We remain laser focused on your target audience to best meet their needs and requirements.'
-                subtitle2='Competitive Advantage'
-                subpara2='Our research process gives you a competitive advantage and up-to-date market insights.'
-                ahead={aheadimage}
-
-            /> */}
-
-
             <MarketingExpertise
                 data={smmExperties}
             />
-
-
-            {/* <Ensure
-                foldimg={foldensure}
-                title='We Test and Optimize your mobile app to ensure best user experience'
-                para='We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-                subtitle='Constant Innovation'
-                subpara='In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-                subtitle2=' Active On-Going Support'
-                subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
-            /> */}
 
 
             <OurProject />
