@@ -48,18 +48,13 @@ import CrmExamples from '@/components/CrmExamples';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import slide1 from '../public/images/seo/1.jpg'
-import slide2 from '../public/images/seo/2.png'
-import slide3 from '../public/images/seo/3.png'
-import slide4 from '../public/images/seo/4.png'
-import slide5 from '../public/images/seo/5.png'
-import slide6 from '../public/images/seo/6.png'
-import slide7 from '../public/images/seo/7.png'
-import slide8 from '../public/images/seo/8.jpg'
-import slide9 from '../public/images/seo/9.jpg'
-import slide10 from '../public/images/seo/10.jpg'
-import slide11 from '../public/images/seo/11.jpg'
-import slide12 from '../public/images/seo/12.jpg'
+import slide1 from '../public/images/ourfood/1.png'
+import slide2 from '../public/images/ourfood/2.png'
+import slide3 from '../public/images/ourfood/3.jpg'
+import slide4 from '../public/images/ourfood/4.jpg'
+import slide5 from '../public/images/ourfood/5.jpg'
+import slide6 from '../public/images/ourfood/6.jpg'
+
 import exmplstyles from '@/styles/CrmExamples.module.css'
 
 
@@ -446,77 +441,48 @@ Management
     const exmplSlider = <>
         <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>A1 Clutches</div>
+                <div className={exmplstyles.topTitle}>Bali Brasserie Restaurants</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide1} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Glyfada Beach Villas</div>
+                <div className={exmplstyles.topTitle}>My Coffee Shop - Admin</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide2} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Bali Brasserie Restaurants</div>
+                <div className={exmplstyles.topTitle}>My Coffee Shop</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide2} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Formisano Bakery</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide3} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Texas Star hvacr</div>
+                <div className={exmplstyles.topTitle}>Emma Boutique Gourmande</div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide4} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>My Duvet and Pillow</div>
+                <div className={exmplstyles.topTitle}>Eat Out Spain </div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide5} className="img-fluid" />
                 </div>
             </div>
             <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Diamond Engagement Rings</div>
+                <div className={exmplstyles.topTitle}>Super Van 247 </div>
                 <div className={exmplstyles.topImg}>
                     <Image alt="bitswits" src={slide6} className="img-fluid" />
                 </div>
             </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Pass Now Intensive Courses</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide7} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Mind Body Fitness</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide8} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>My Duvet and Pillow</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide9} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>The Flower Stand Chelsea </div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide10} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Shirtworks (Tshirt Printing) </div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide11} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Narpsuk (Dog Walking Business) </div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide12} className="img-fluid" />
-                </div>
-            </div>
+            
         </Slider>
     </>
 
