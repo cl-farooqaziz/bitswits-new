@@ -187,7 +187,7 @@ export default function automotivesolutions() {
 
 
 
-    // Swipe component data
+    // Swipe component data  
 
     const data =  <>
 
