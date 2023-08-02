@@ -1,32 +1,39 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react'; import Link from 'next/link';
 import banImg from '../public/images/banner/webBanner.png'
-import foldimg from '../public/images/services/webSwipe.svg'
-import foldensure from '../public/images/services/webEnsure.svg'
+// import foldimg from '../public/images/services/webSwipe.svg'
+// import foldensure from '../public/images/services/webEnsure.svg'
+// import Coverage from '@/components/Coverage';
+// import Swipe from '@/components/Swipe';
+// import Ahead from '@/components/Ahead';
+// import Ensure from '@/components/Ensure';
+// import styles from '@/styles/Coverage.module.css'
+// import aheadimage from '../public/images/services/webAhead.svg'
+// import MyReason from '@/components/MyReason';
+// import Milestones from '@/components/Milestones';
+// import milStyles from '@/styles/Milestones.module.css'
+// import icon28 from '../public/images/crmDev/crm-ico5.png'
+// import icon29 from '../public/images/crmDev/crm-ico6.png'
 import { Row, Col, Container } from 'react-bootstrap'
 //components
 import MarketingExpertise from '@/components/MarketingExpertise';
 import dataStyles from '@/styles/Marketingexpertise.module.css'
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
+
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import styles from '@/styles/Coverage.module.css'
 import whyStyles from '@/styles/whyServices.module.css'
 import reStyles from '@/styles/MyReason.module.css'
-import aheadimage from '../public/images/services/webAhead.svg'
+
 import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //
 import WhyBuild from '@/components/WhyBuild';
 import CrmExamples from '@/components/CrmExamples';
 import exmplstyles from '@/styles/CrmExamples.module.css'
-import MyReason from '@/components/MyReason';
+
 
 import CRMExperts from '@/components/CRMExperts';
 import Slider from "react-slick";
@@ -34,8 +41,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import crmstyles from '@/styles/CRMExperts.module.css'
 //
-import Milestones from '@/components/Milestones';
-import milStyles from '@/styles/Milestones.module.css'
 // 
 import mobilearrow1 from '../public/images/Include/star.jpg'
 import milestones1 from '../public/images/benefits/realestate-icon-1.jpg'
@@ -47,7 +52,7 @@ import milestones6 from '../public/images/benefits/realestate-icon-6.jpg'
 import milestones7 from '../public/images/benefits/realestate-icon-7.jpg'
 import milestones8 from '../public/images/benefits/realestate-icon-8.jpg'
 import milestones9 from '../public/images/benefits/realestate-icon-9.jpg'
-// import siteminder from '../public/images/benefits/siteminder-logo.jpg'
+import siteminder from '../public/images/benefits/siteminder-logo.png'
 
 
 
@@ -69,8 +74,7 @@ import travel5 from '../public/images/benefits/t-5.jpg'
 import travel6 from '../public/images/benefits/t-6.jpg'
 import travel7 from '../public/images/benefits/t-7.jpg'
 import travel8 from '../public/images/benefits/t-8.png'
-import icon28 from '../public/images/crmDev/crm-ico5.png'
-import icon29 from '../public/images/crmDev/crm-ico6.png'
+
 
 import icon30 from '../public/images/benefits/realblk-1.jpg'
 import icon31 from '../public/images/benefits/realblk-2.jpg'
@@ -875,14 +879,15 @@ in the industry
             />
             
 
-            <CRMExperts
+            {/* <CRMExperts
                 cards={WhyBuilds1}
                 subtitle={whytitle1}
             />
             <WhyBuild
                 cards={WhyBuilds2}
                 
-            />
+            /> */}
+            
             {/* <Coverage
                 title="Coverage"
                 subtitle={subtile}
