@@ -1,0 +1,60 @@
+.robust {
+  padding: 75px 0;
+}
+
+.clearfix {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix li {
+  background-color: #262626;
+  border-radius: 15px;
+  margin: 20px 0 0;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 10px;
+  position: relative;
+}
+
+/* .clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+} */
+
+.clearfix li span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  left: 65px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clearfix li img {
+  left: 12px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left, .right {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 30.5%;
+}
+
+.mid {
+  display: inline-block;
+  float: left;
+  padding: 55px 0 0;
+  position: relative;
+  width: 38.5%;
+}
