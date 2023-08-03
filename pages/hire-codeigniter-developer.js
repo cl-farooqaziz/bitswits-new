@@ -17,22 +17,15 @@ import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import CrmExamples from '@/components/CrmExamples';
 import WhyBuild from '@/components/WhyBuild';
+import Milestones from '@/components/Milestones';
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //Why Icon
-import icon24 from '../public/images/zend/zend-icon-1.png'
-import icon25 from '../public/images/zend/zend-icon-2.png'
-import icon26 from '../public/images/zend/zend-icon-3.png'
-import icon27 from '../public/images/zend/zend-icon-4.png'
-import icon28 from '../public/images/zend/zend-icon-5.png'
-import icon29 from '../public/images/zend/zend-icon-6.png'
-import icon30 from '../public/images/zend/zend-icon-7.png'
-import icon31 from '../public/images/zend/zend-icon-8.png'
-import icon32 from '../public/images/zend/zend-icon-9.png'
-import icon33 from '../public/images/zend/zend-icon-10.png'
-import icon34 from '../public/images/zend/zend-icon-11.png'
-import icon35 from '../public/images/zend/zend-icon-12.png'
+import icon24 from '../public/images/codeigniter/code-icon-01.png'
+import icon25 from '../public/images/codeigniter/code-icon-02.png'
+import icon26 from '../public/images/codeigniter/code-icon-03.png'
+import icon27 from '../public/images/codeigniter/code-icon-04.png'
 //
 import slide1 from '../public/images/eComDev/screenshot_1.png'
 import slide2 from '../public/images/eComDev/screenshot_2.png'
@@ -44,10 +37,17 @@ import slide7 from '../public/images/eComDev/screenshot_7.png'
 import slide8 from '../public/images/eComDev/screenshot_8.png'
 import slide9 from '../public/images/eComDev/screenshot_9.png'
 import slide10 from '../public/images/eComDev/screenshot_10.png'
+//
+import milestones1 from '../public/images/codeigniter/code-icon-1.png'
+import milestones2 from '../public/images/codeigniter/code-icon-2.png'
+import milestones3 from '../public/images/codeigniter/code-icon-3.png'
+import milestones4 from '../public/images/codeigniter/code-icon-4.png'
+import milestones5 from '../public/images/codeigniter/code-icon-5.png'
+import milestones6 from '../public/images/codeigniter/code-icon-6.png'
 
 
 
-export default function hireZendDeveloper() {
+export default function hireCodeigniterDeveloper() {
 
 
     var crmExamples = {
@@ -63,172 +63,92 @@ export default function hireZendDeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire our expert, experienced <span className='grdiant'>Zend developers</span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Our Dedicated <span className='grdiant'>CodeIgniter Developers</span> at your Fingertips </h1>
 
     const para = <>
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Portal Development
+                Website Upgrades
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Theme Design & Integration
+                Customisation & Integration
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Custom Business Solutions
+                Website Development
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Customization Services
+                Maintenance & Support
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Installation & Maintenance services
+                Shopping Cart
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Web Applications
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Enterprise Level
             </li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b>450+</b> Zend portals to <b>400+</b> clients in the last <b>21 years</b>. (Scroll down to see examples of our Zend projects)</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b>300+</b> CodeIgniter portals to <b>300+</b> clients in the last <b>21 years</b>.</p> </>
 
 
 
     // Build component data
 
     const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        Our <span className='grdiant'>Zend Services</span> – PHP development by the Pro’s!
+        Benefits of <span className='grdiant'>CodeIgniter</span> Development
     </h2>
 
     const WhyBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Web & Application
-                        Development
-                    </h5>
+                    <p className='mt-3'>
+                        Being fast, reliable and extremely lightweight the framework has gained widespread support from a large number of industry experts.
+                    </p>
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Portal Development
-                    </h5>
+                    <p className='mt-3'>
+                        User-friendly interface that help developers to create a dynamic, flexible and secure web applications with minimal effort.
+                    </p>
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Zend Integration Services
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Zend Customisation
-                        Services
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Build and Deploy
-                        Zend Apps
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Maintenance and
-                        Support Services
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Enterprise Solutions
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        CMS Solutions
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Payment Gateways
-                        Integration
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        3rd Party API's
-                        Integration
-                    </h5>
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        E-Store & E-Commerce
-                        Oriented Web Systems
-                    </h5>
+                    <p className='mt-3'>
+                        Provides hassle-free migration opportunities and is compatible with most widely used servers, operating systems and platforms.
+                    </p>
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Zend Web 2.0
-                        Application Development
-                    </h5>
+                    <p className='mt-3'>
+                        An effective easy to program and simple to debug MVC framework that can be customised as per the requirements of the project.
+                    </p>
                 </div>
             </Col>
         </Row>
@@ -239,7 +159,7 @@ export default function hireZendDeveloper() {
 
     // Exmple component data
 
-    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>Zend</span></h2> </>
+    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>CodeIgniter</span> solutions</h2> </>
 
     const exmplSlider = <>
         <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
@@ -306,7 +226,63 @@ export default function hireZendDeveloper() {
         </Slider>
     </>
 
-    const exmplText = <> Let's talk about your Zend requirements </>
+    const exmplText = <> Let's talk about your CodeIgniter requirements </>
+
+
+
+    // Advantages component data
+
+    const value = <>
+        <Container>
+            <Row>
+                <Col xl={12}>
+                    <h3 className='font40 fontf font-bold line60 black text-center mb-0'>
+                        <span className='grdiant'>CodeIgniter</span> From The Experts
+                    </h3>
+                    <p className='font30 fontf font-regular black text-center mb-5'>Our Expertise Include</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard}`}>
+                        <Image src={milestones1} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Job Portal Development</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard}`}>
+                        <Image src={milestones2} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Event Management</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                        <Image src={milestones3} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">CRM Applications</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                        <Image src={milestones4} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Custom Web Development</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                        <Image src={milestones5} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Payment Gateway Integration</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
+                        <Image src={milestones6} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">3rd Party API Integration</h5>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+
+    </>
 
 
     return (
@@ -326,10 +302,10 @@ export default function hireZendDeveloper() {
             />
 
 
-            <WhyBuild
-                cards={WhyBuilds}
-                subtitle={whytitle}
+            <Milestones
+                value={value}
             />
+
 
 
             <CrmExamples
@@ -337,6 +313,14 @@ export default function hireZendDeveloper() {
                 slider={exmplSlider}
                 text={exmplText}
             />
+
+
+
+            <WhyBuild
+                cards={WhyBuilds}
+                subtitle={whytitle}
+            />
+
 
             <OurProject />
             <ClientsThink />
