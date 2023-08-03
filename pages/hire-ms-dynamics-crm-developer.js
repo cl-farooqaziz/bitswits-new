@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import reStyles from '@/styles/MyReason.module.css'
 import whyStyles from '@/styles/whyServices.module.css'
 import crmstyles from '@/styles/CRMExperts.module.css'
@@ -42,12 +42,18 @@ import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
 import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
 import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
 //Why Icon
-import icon24 from '../public/images/design/1.png'
-import icon25 from '../public/images/design/2.png'
-import icon26 from '../public/images/design/3.png'
-import icon27 from '../public/images/design/4.png'
-import icon28 from '../public/images/design/5.png'
-import icon29 from '../public/images/design/6.png'
+import icon24 from '../public/images/point/1.jpg'
+import icon25 from '../public/images/point/2.jpg'
+import icon26 from '../public/images/point/3.jpg'
+import icon27 from '../public/images/point/4.jpg'
+import icon28 from '../public/images/point/5.jpg'
+import icon29 from '../public/images/point/6.jpg'
+import icon30 from '../public/images/point/7.jpg'
+import icon31 from '../public/images/point/8.jpg'
+import icon32 from '../public/images/point/9.jpg'
+import icon33 from '../public/images/point/10.jpg'
+import icon34 from '../public/images/point/11.jpg'
+import icon35 from '../public/images/point/12.jpg'
 //
 import slide1 from '../public/images/spotlight/1.png'
 import slide2 from '../public/images/spotlight/2.png'
@@ -70,10 +76,8 @@ import slide18 from '../public/images/spotlight/18.png'
 import slide19 from '../public/images/spotlight/19.png'
 import slide20 from '../public/images/spotlight/20.png'
 
-import qaimg from '../public/images/qa/qaimg.png'
 
-
-export default function hirequalityanalyst() {
+export default function hiremsdynamicscrmdeveloper() {
 
     var crmExamples = {
         dots: false,
@@ -87,25 +91,24 @@ export default function hirequalityanalyst() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Our Expert In-House <br /><span className='grdiant'> Quality Analysts </span> From $25/hr </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Dedicated <br></br> <span className='grdiant'>  ASP.NET Developer </span> </h1>
 
     const para = <>
 
-      
+
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Unit Testing </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Functional Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> System Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  UAT Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Performance and Load Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Penetration Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Automation Testing</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> ASP.Net MVC Web API's</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Custom .NET Application Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Enterprise .NET Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  .NET Core Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  .NET MVC 3/MVC 4 Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> .NET Software Development</li>
+
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Did you know? Our dedicated in-house team of 52+ Quality
-    Analysts have been providing QA services for over 21 years!</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>We have been working with Microsoft .Net for over 21 years. Our developers are among the most experienced in the industry and we've completed over 231 .Net projects to date.</p> </>
 
 
 
@@ -282,7 +285,7 @@ export default function hirequalityanalyst() {
     // Build component data
 
     const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        Our Python Developers Have Expertise In Different Frameworks
+        Our <span className='grdiant'>Microsoft Dynamics</span> Services
     </h2>
 
     const WhyBuilds = <>
@@ -293,9 +296,9 @@ export default function hirequalityanalyst() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    Integration with SharePoint
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Team In India is an expert in implementing server-to-server integration of SharePoint. With our experience in customizing the SharePoint website via CAML, and retrieving the SharePoint data into Microsoft Dynamics CRM , We provide clients with seamless integration.</p>
 
 
                 </div>
@@ -306,35 +309,33 @@ export default function hirequalityanalyst() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Use of OData end point
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Web API’s are introduced with Microsoft Dynamics CRM where an online or on-premises JavaScript is used to perform operations on Microsoft Dynamics CRM such as HTML web resources, formation of scripts, or ribbon commands.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-
-                        Android Phone
-                        App development
+                    LINQ Programming API in the SDK
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>LINQ is used to write queries in Microsoft Dynamics CRM Online (and on-premises). Here at Team In India, experts are highly skilled to manage the LINQ programming and process.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    Use of WCF services
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Our experience in building a WCF service that connects to Microsoft Dynamics CRM using developer extensions helps us to provide better services to our clients.</p>
 
 
                 </div>
@@ -342,39 +343,39 @@ export default function hirequalityanalyst() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Global Option-set
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Global option sets can be reused with any entities and “option set” field type. They are very useful for developing MS CRM based practices in system architecture.
+
+                    </p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-
-                        Android Phone
-                        App development
+                    Packaged Customisation as Solutions
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Team In India has a good level of experience in creating custom packages using a visual studio, and also importing these packages as solutions in Microsoft Dynamics CRM. We also have an expertise in exporting the customisation from Microsoft Dynamics CRM.</p>
 
                 </div>
             </Col>
-
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    CRM Online Support Plug-ins
+in Sandboxed/ Isolated mode
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>We have worked on the plug-in and custom workflow in an isolated environment by using customised directories in a sandboxed mode.</p>
 
 
                 </div>
@@ -382,31 +383,71 @@ export default function hirequalityanalyst() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Multiple forms per entity
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Designing and creating multiple forms for a single entity using our creativity and dynamic ideas to deliver our clients best service.
+
+                    </p>
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    Email Templates for Custom Entities
+                    </h5>
+                    <p>Microsoft Dynamics CRM provides email templates for its own built-in entities. We also use email templates for custom entities which are highly proficient in their delivery.</p>
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} `}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    Custom Portal and
+Microsoft Dynamics CRM
+                    </h5>
+                    <p>Our expertise in retrieving and saving the data on Microsoft Dynamics CRM through custom portal is an additional service that Team In India provides.</p>
+
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-
-                        Android Phone
-                        App development
+                    Dashboard Designer
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Dashboard design and customisation helps our clients to track their data via dashboard. Here at Team in India our developers can create a customised dashboard that would be comprehensive and will suit your business needs.
+
+                    </p>
 
                 </div>
             </Col>
-           
-        
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                    24*7 and 365 Days Support
+                    </h5>
+                    <p>We make sure that our clients requirements are not only heard but also met, for that we have a support team working 24*7.</p>
+
+                </div>
+            </Col>
+
+
 
 
 
@@ -416,115 +457,143 @@ export default function hirequalityanalyst() {
     </>
 
 
-    // MyReason component data
 
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Here are <span className='grdiant'>six key reasons</span> why
-        UK agencies choose to partner with us</h2>
-
-    const resCards = <>
-        <Row className={`${reStyles.soluRow} mt-5`}>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #1
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Competitive rates
-                    </h5>
-                    <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
-                    </p>
-                    <p>
-                        Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #2
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Quality
-                    </h5>
-                    <p>
-                        We are CMMI level 3 appraised and members of the Agile Alliance, which is your assurance that we have processes and safeguards in place to ensure the delivery of a high quality finished product, each and every time.
-                    </p>
-                    <p>
-                        Read more about our <strong>CMMI appraisal</strong>.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #3
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Flexibility
-                    </h5>
-                    <p>
-                        Our massive permanent workforce is comprised of designers, developers and PMs. You can hire as many or as few of them as you need - on a per project or retained basis.
-                    </p>
-                    <p>
-                        This flexibility means that you’re never paying for skills and time that you’re not using.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #4
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        In-house expertise
-                    </h5>
-                    <p>
-                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
-                    </p>
-                    <p>
-                        This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #5
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Security & confidentiality
-                    </h5>
-                    <p>
-                        Your contract of engagement is with our UK company (DotSquares Ltd), so our liability to you is governed and protected by UK law.
-                    </p>
-                    <p>
-                        This is a very important detail that sets us apart from many offshoring companies. Furthermore, all Intellectual Property Rights & source code are yours, forever.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #6
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        The original, and best
-                    </h5>
-                    <p>
-                        We’ve been servicing UK businesses like yours with offshore teams for <strong>21 years</strong>. In fact, we were one of the first companies to set up this offshore business model, back in 2002. Since then we’ve completed over <strong>20,000 projects</strong> (at last count, and we are still growing!) Our scalability provides you with the best talent backed up by guarantees and consumer protection, whilst our attention to detail, perfectionism and personal service still makes every customer feel very special indeed.
-                    </p>
-                </div>
-            </Col>
-        </Row>
-    </>
 
 
     // Exmple component data
 
-   
+    const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Some Example of Our <br></br> <span className='grdiant'>MS Dynamics work</span>
+    </h2> </>
 
-    const exmplText = <> Want one like this? </>
+    const exmplSlider = <>
+        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>High Tournaments</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide1} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Roses FM</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide2} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Open Door TBA</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide3} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Camera Click Assistant</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide4} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>My Coffee Shop - Admin</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide5} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>My Coffee Shop</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide6} className="img-fluid" />
+                </div>
+            </div>
+
+
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>My Book Review</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide7} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Wishy Washy Delivery Boy</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide8} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Wishy Washy</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide9} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Shoppy Mall</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide10} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Card Maker Hub</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide11} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>GS1 Barcode Generator</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide12} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>AudioBooster</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide13} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>DailyStep English</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide14} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Radio Tune</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide15} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Third Eye</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide16} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Location Finder</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide17} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Book a Builder</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide18} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Take5</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide19} className="img-fluid" />
+                </div>
+            </div>
+            <div className={exmplstyles.strpImg}>
+                <div className={exmplstyles.topTitle}>Fifit</div>
+                <div className={exmplstyles.topImg}>
+                    <Image alt="bitswits" src={slide20} className="img-fluid" />
+                </div>
+            </div>
+
+        </Slider>
+    </>
+
+    const exmplText = <> Let's talk about your MS Dynamics requirements </>
 
     return (
         <>
@@ -541,16 +610,6 @@ export default function hirequalityanalyst() {
                 bannerimg={banImg}
                 infopara={infopara}
             />
-
-
-            <Container fluid className='pt-5 pb-5'>
-            <Row className='pt-2 pb-2'>
-                <Col xl={12} className='center'>
-                    <h3 className='center pb-3 font50 black fontf font-bold line60 black'>How We Work</h3>
-                    <Image src={qaimg} className='img-fluid'></Image>
-                </Col>
-            </Row>
-            </Container>
 
             {/* <Coverage
                 title="Coverage"
@@ -572,13 +631,12 @@ export default function hirequalityanalyst() {
                 subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
             /> */}
 
-           
-
-            <MyReason
-                title="Reasons"
-                subtitle={reSubtile}
-                cards={resCards}
+            <WhyBuild
+                cards={WhyBuilds}
+                subtitle={whytitle}
             />
+
+
 
             {/* <Ahead
                 title='Our Mobile App Research Data that puts you ahead of others'
@@ -605,7 +663,11 @@ export default function hirequalityanalyst() {
             /> */}
 
 
-          
+            <CrmExamples
+                title={exmplTitle}
+                slider={exmplSlider}
+                text={exmplText}
+            />
 
 
             <OurProject />

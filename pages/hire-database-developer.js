@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import reStyles from '@/styles/MyReason.module.css'
 import whyStyles from '@/styles/whyServices.module.css'
 import crmstyles from '@/styles/CRMExperts.module.css'
@@ -42,38 +42,30 @@ import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
 import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
 import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
 //Why Icon
-import icon24 from '../public/images/design/1.png'
-import icon25 from '../public/images/design/2.png'
-import icon26 from '../public/images/design/3.png'
-import icon27 from '../public/images/design/4.png'
-import icon28 from '../public/images/design/5.png'
-import icon29 from '../public/images/design/6.png'
-//
-import slide1 from '../public/images/spotlight/1.png'
-import slide2 from '../public/images/spotlight/2.png'
-import slide3 from '../public/images/spotlight/3.png'
-import slide4 from '../public/images/spotlight/4.png'
-import slide5 from '../public/images/spotlight/5.png'
-import slide6 from '../public/images/spotlight/6.png'
-import slide7 from '../public/images/spotlight/7.png'
-import slide8 from '../public/images/spotlight/8.png'
-import slide9 from '../public/images/spotlight/9.png'
-import slide10 from '../public/images/spotlight/10.png'
-import slide11 from '../public/images/spotlight/11.png'
-import slide12 from '../public/images/spotlight/12.png'
-import slide13 from '../public/images/spotlight/13.jpg'
-import slide14 from '../public/images/spotlight/14.png'
-import slide15 from '../public/images/spotlight/15.png'
-import slide16 from '../public/images/spotlight/16.png'
-import slide17 from '../public/images/spotlight/17.png'
-import slide18 from '../public/images/spotlight/18.png'
-import slide19 from '../public/images/spotlight/19.png'
-import slide20 from '../public/images/spotlight/20.png'
-
-import qaimg from '../public/images/qa/qaimg.png'
+import icon24 from '../public/images/csharp/1.png'
+import icon25 from '../public/images/csharp/2.png'
+import icon26 from '../public/images/csharp/3.png'
+import icon27 from '../public/images/csharp/4.png'
+import icon28 from '../public/images/csharp/5.png'
+import icon29 from '../public/images/csharp/6.png'
 
 
-export default function hirequalityanalyst() {
+import Milestones from '@/components/Milestones';
+import milStyles from '@/styles/Milestones.module.css'
+import { Container } from 'react-bootstrap'
+import milestones1 from '../public/images/features/1.png'
+import milestones2 from '../public/images/features/2.png'
+import milestones3 from '../public/images/features/3.png'
+import milestones4 from '../public/images/features/4.png'
+import milestones5 from '../public/images/features/5.png'
+import milestones6 from '../public/images/features/6.png'
+import milestones7 from '../public/images/features/7.png'
+import milestones8 from '../public/images/features/8.png'
+import milestones9 from '../public/images/features/9.png'
+import milestones10 from '../public/images/features/10.png'
+
+
+export default function hiredatabasedeveloper() {
 
     var crmExamples = {
         dots: false,
@@ -87,25 +79,28 @@ export default function hirequalityanalyst() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Our Expert In-House <br /><span className='grdiant'> Quality Analysts </span> From $25/hr </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire <span className='grdiant'> Database Developers </span> </h1>
 
     const para = <>
 
-      
+
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Unit Testing </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Functional Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> System Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  UAT Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Performance and Load Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Penetration Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Automation Testing</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Designing</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Programming</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Backup and Recovery</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Mirroring</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Encryption
+            </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Database Migration</li>
+
+
+
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Did you know? Our dedicated in-house team of 52+ Quality
-    Analysts have been providing QA services for over 21 years!</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>We’ve delivered more than 100+ Database
+        Projects to 70+ clients in the last 21 years.</p> </>
 
 
 
@@ -282,7 +277,7 @@ export default function hirequalityanalyst() {
     // Build component data
 
     const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        Our Python Developers Have Expertise In Different Frameworks
+        <span className='grdiant'> Database Services</span> We'd Like You To Know About
     </h2>
 
     const WhyBuilds = <>
@@ -293,9 +288,9 @@ export default function hirequalityanalyst() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                        Database Programming
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Our team has the capability to design, build, highly scalable and secure databases – exactly what the client expects. We’ve got absolute programming skills in hand.</p>
 
 
                 </div>
@@ -306,35 +301,33 @@ export default function hirequalityanalyst() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                        Database Reporting Services
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Team In India deploys experts in implementing reporting services using SQL Server and MySQL for the database reporting services.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-
-                        Android Phone
-                        App development
+                        Database Tuning & Optimization
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>The database tuning and optimization technique can implement remedial engineering methods that will substantially speed up and steady the system, and eliminate data integrity issues that plague most office-grown systems.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                        Database Migration Services
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Our database developers are extremely experienced in the database migration from different type of database systems like SQL Server, MySQL and MongoDB.</p>
 
 
                 </div>
@@ -342,71 +335,31 @@ export default function hirequalityanalyst() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                        Application Integration
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Our company offers services for integrating enterprise applications, business-to-business systems, business processes, legacy and third party systems with utmost efficiency, to provide best results to the clients.
+
+                    </p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-
-                        Android Phone
-                        App development
+                        Database Capacity Planning
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Capacity planning is a great way to know the business well - the goal of which is to make sure that the hardware andsoftware will be able to enable your business to achieve the goal. At Team In India, we do the database capacity planning for you.</p>
 
                 </div>
             </Col>
 
-            <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} `}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
-                    </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
 
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        App  Design
-                    </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-500 line30'>
-
-                        Android Phone
-                        App development
-                    </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
-
-                </div>
-            </Col>
-           
-        
 
 
 
@@ -415,116 +368,85 @@ export default function hirequalityanalyst() {
 
     </>
 
+    const value = <>
+        <Container>
+            <Row>
+                <Col xl={12}>
+                    <h3 className='center font-bold  mb-5'>Features</h3>
+                    
+                </Col>
+            </Row>
+            <Row className='gy-3'>
+                <Col xl={4}>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <p>Developed and Maintained big Travel Booking systems with high number of concurrent visitors</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <p>Developed and Maintained Tracking and Security systems for many UK based clients</p>
+                    </div>
 
-    // MyReason component data
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <p>Developed systems with full database encryption for added security and to meet UK, US and EU data privacy guidelines</p>
+                    </div>
+                </Col>
+                <Col xl={4}>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <p>Implemented huge database with proper design and architecture to meet performance critical standards</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <p>Implemented both code first and database first systems with Microsoft SQL Server</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                        <p>Data migration from MySQL to SQL Server, SQL Server to MySQL</p>
+                    </div>
+                </Col>
+                <Col xl={4}>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones7} className='img-fluid mb-4 greyscale' />
+                        <p >SQL Server Reporting Services</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones8} className='img-fluid mb-4 greyscale' />
+                        <p >Integration with PowerBI and other Big Data tools</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones9} className='img-fluid mb-4 greyscale' />
+                        <p >Database migration and performance tuning</p>
+                    </div>
+                </Col>
 
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Here are <span className='grdiant'>six key reasons</span> why
-        UK agencies choose to partner with us</h2>
+                <Col xl={4} className='mongo2'>
+                    <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones10} className='img-fluid mb-4 greyscale' />
+                        <p >Fail safe systems using SQL Server Mirroring</p>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
 
-    const resCards = <>
-        <Row className={`${reStyles.soluRow} mt-5`}>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #1
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Competitive rates
-                    </h5>
-                    <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
-                    </p>
-                    <p>
-                        Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #2
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Quality
-                    </h5>
-                    <p>
-                        We are CMMI level 3 appraised and members of the Agile Alliance, which is your assurance that we have processes and safeguards in place to ensure the delivery of a high quality finished product, each and every time.
-                    </p>
-                    <p>
-                        Read more about our <strong>CMMI appraisal</strong>.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #3
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Flexibility
-                    </h5>
-                    <p>
-                        Our massive permanent workforce is comprised of designers, developers and PMs. You can hire as many or as few of them as you need - on a per project or retained basis.
-                    </p>
-                    <p>
-                        This flexibility means that you’re never paying for skills and time that you’re not using.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #4
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        In-house expertise
-                    </h5>
-                    <p>
-                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
-                    </p>
-                    <p>
-                        This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #5
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Security & confidentiality
-                    </h5>
-                    <p>
-                        Your contract of engagement is with our UK company (DotSquares Ltd), so our liability to you is governed and protected by UK law.
-                    </p>
-                    <p>
-                        This is a very important detail that sets us apart from many offshoring companies. Furthermore, all Intellectual Property Rights & source code are yours, forever.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #6
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        The original, and best
-                    </h5>
-                    <p>
-                        We’ve been servicing UK businesses like yours with offshore teams for <strong>21 years</strong>. In fact, we were one of the first companies to set up this offshore business model, back in 2002. Since then we’ve completed over <strong>20,000 projects</strong> (at last count, and we are still growing!) Our scalability provides you with the best talent backed up by guarantees and consumer protection, whilst our attention to detail, perfectionism and personal service still makes every customer feel very special indeed.
-                    </p>
-                </div>
-            </Col>
-        </Row>
     </>
 
 
-    // Exmple component data
 
-   
 
-    const exmplText = <> Want one like this? </>
 
     return (
         <>
@@ -541,16 +463,6 @@ export default function hirequalityanalyst() {
                 bannerimg={banImg}
                 infopara={infopara}
             />
-
-
-            <Container fluid className='pt-5 pb-5'>
-            <Row className='pt-2 pb-2'>
-                <Col xl={12} className='center'>
-                    <h3 className='center pb-3 font50 black fontf font-bold line60 black'>How We Work</h3>
-                    <Image src={qaimg} className='img-fluid'></Image>
-                </Col>
-            </Row>
-            </Container>
 
             {/* <Coverage
                 title="Coverage"
@@ -572,13 +484,16 @@ export default function hirequalityanalyst() {
                 subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
             /> */}
 
-           
-
-            <MyReason
-                title="Reasons"
-                subtitle={reSubtile}
-                cards={resCards}
+            <WhyBuild
+                cards={WhyBuilds}
+                subtitle={whytitle}
             />
+
+            <Milestones
+                value={value}
+            />
+
+
 
             {/* <Ahead
                 title='Our Mobile App Research Data that puts you ahead of others'
@@ -605,7 +520,7 @@ export default function hirequalityanalyst() {
             /> */}
 
 
-          
+
 
 
             <OurProject />

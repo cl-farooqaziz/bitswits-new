@@ -285,25 +285,25 @@ const Header = () => {
                                                     <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-asp-dot-net-developer'>
                                                                     <FaAngleRight />
                                                                     <span>ASP.NET</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-c-sharp-developer'>
                                                                     <FaAngleRight />
                                                                     <span>C#</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-xamarin-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Xamarin</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-database-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Database Developer</span>
                                                                 </Link>
@@ -329,7 +329,7 @@ const Header = () => {
                                                     <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-ms-dynamics-crm-developer'>
                                                                     <FaAngleRight />
                                                                     <span>MS Dynamics CRM</span>
                                                                 </Link>
