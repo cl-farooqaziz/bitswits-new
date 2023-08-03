@@ -42,12 +42,16 @@ import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
 import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
 import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
 //Why Icon
-import icon24 from '../public/images/design/1.png'
-import icon25 from '../public/images/design/2.png'
-import icon26 from '../public/images/design/3.png'
-import icon27 from '../public/images/design/4.png'
-import icon28 from '../public/images/design/5.png'
-import icon29 from '../public/images/design/6.png'
+import icon24 from '../public/images/django/1.jpg'
+import icon25 from '../public/images/django/2.jpg'
+import icon26 from '../public/images/django/3.jpg'
+import icon27 from '../public/images/django/4.jpg'
+import icon28 from '../public/images/django/5.jpg'
+import icon29 from '../public/images/django/6.jpg'
+import icon30 from '../public/images/django/7.jpg'
+import icon31 from '../public/images/django/8.jpg'
+import icon32 from '../public/images/django/9.jpg'
+
 //
 import slide1 from '../public/images/spotlight/1.png'
 import slide2 from '../public/images/spotlight/2.png'
@@ -85,24 +89,26 @@ export default function hirepythondeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire <span className='grdiant'> Python Developer </span> UK for Web Development and Web Applications </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
-
+      
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Machine Learning, Artificial Intelligence IOT based projects using Python </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Data Science, discovery of Data Insight</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Python Based Mobile Application Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Data integration and support services</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> API Development Services</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Python Support & Maintenance Services</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMS Development Services</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Quantitative data analysis to help steer strategic business decisions</li>
+         
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Since we started in 2002 we have
+    completed more than 212+ Python projects for our clients.</p> </>
 
 
 
@@ -279,7 +285,7 @@ export default function hirepythondeveloper() {
     // Build component data
 
     const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        Our Python Developers Have Expertise In Different Frameworks
+        Our <span className='grdiant'>Python Developers</span> Have Expertise In Different Frameworks
     </h2>
 
     const WhyBuilds = <>
@@ -290,9 +296,9 @@ export default function hirepythondeveloper() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    Flask
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>When it comes to expertise and experience, our python developers london are the best. They have extensive experience in working with different frameworks of python to deliver the results according to the clients’ requirements.</p>
 
 
                 </div>
@@ -303,9 +309,9 @@ export default function hirepythondeveloper() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Django
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Django is a Python-based free and open-source web framework, which follows the model-view-template architectural pattern. It is maintained by the Django Software Foundation, an independent organization established as a 501 non-profit. Django's primary goal is to ease the creation of complex, database-driven websites.</p>
 
                 </div>
             </Col>
@@ -316,22 +322,21 @@ export default function hirepythondeveloper() {
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone
-                        App development
+                    Scrapy
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>SScrapy is a Python framework for large scale web scraping programmes. It gives you all the tools you need to efficiently extract data from websites. It is fast ,powerful and portable , also easily extensible by design, plug new functionality easily without having to touch the core.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    Pyramid
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Pyramid makes it easy to write web applications. Pyramid offers many features that make writing complex software take less effort. Pyramid has a rich pool of helpfu resources from which to draw. filterable list of add-ons, packages, and applications built to work with Pyramid.</p>
 
 
                 </div>
@@ -339,26 +344,25 @@ export default function hirepythondeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Zope
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Zope Corporation (then known as Digital Creations) went on to release three open-source software packages to support web publishing: Bobo, Document Template, and BoboPOS. Zope is a free and open source web application server written in the object-oriented programming language “Python”. Zope continues to grow into many distinct applications,</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone
-                        App development
+                    Pandas
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license</p>
 
                 </div>
             </Col>
@@ -366,12 +370,12 @@ export default function hirepythondeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    Matplotlib
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Matplotlib is a python library used to create 2D graphs and plots by using python scripts. It supports a very wide variety of graphs and plots namely - histogram, bar charts, power spectra, error charts etc. It is used along with NumPy to provide an environment that is an effective open source alternative for MatLab.</p>
 
 
                 </div>
@@ -379,26 +383,25 @@ export default function hirepythondeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Tkinter
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI. Tkinter is included with standard Linux, Microsoft Windows and Mac OS X installs of Python. The name Tkinter comes from Tk interface.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone
-                        App development
+                    Tensor Flow
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>By Jason Brownlee on May 5, 2016 in Deep Learning. TensorFlow is a Python library for fast numerical computing created and released by Google. It is a foundation library that can be used to create Deep Learning models directly or by using wrapper libraries that simplify the process built on top of TensorFlow.</p>
 
                 </div>
             </Col>
@@ -429,7 +432,7 @@ export default function hirepythondeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.

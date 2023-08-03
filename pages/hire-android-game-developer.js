@@ -95,24 +95,24 @@ export default function hireandroidgamedeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Expert <span className='grdiant'> Native Android Game Developers </span> </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Expert Knowledge of Multiple Devices </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> The Latest Game Technology Stacks</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Confidentially</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Efficient Project Management</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Custom Engagement Models</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Reliable Technical Support</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Dedicated Android Game Developers</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>You can trust us: We've successfully delivered over 250 games to our wonderful clients (including more than 120 Android or multi-platform games).</p> </>
 
 
 
@@ -309,7 +309,7 @@ export default function hireandroidgamedeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -539,30 +539,57 @@ export default function hireandroidgamedeveloper() {
         <Container>
             <Row>
                 <Col xl={12}>
-                    <h3 className='center font-bold mb-5' >Creating Milestones With The Work We Do!</h3>
-                   
+                    <h3 className='center font-bold mb-5' >Benefits of <span className='grdiant'> Android Game Development</span> </h3>
+
                 </Col>
             </Row>
-            <Row className='gy-5'>
+            <Row>
+                <Col xl={4} className='borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>App Monetization with <br></br>
+higher Results</h3>
+                        <p className=''>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'> Multiple Channels for <br></br>
+Submission </h3>
+                        <p className=''>Regularly incorporating new technologies within the company for improved results.</p>
+                    </div>
+
+                </Col>
+                <Col xl={4} className='mongo borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Open-Source <br></br>
+Advantages</h3>
+                        <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
+                    </div>
+                </Col>
                 <Col xl={4}>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4' />
-                        <h3 className='font20 font-semi-bold black mb-2'>Game Narrative</h3>
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Larger Audience <br></br>
+Reach</h3>
                         <p className=''>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Storyboard</h3>
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Multiple Platform</h3>
                         <p className=''>Regularly incorporating new technologies within the company for improved results.</p>
                     </div>
 
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Character</h3>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>World Class <br></br>
+AR Experience</h3>
                         <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
                     </div>
                 </Col>

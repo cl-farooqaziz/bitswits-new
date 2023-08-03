@@ -191,8 +191,8 @@ export default function automotivesolutions() {
 
     const data =  <>
 
-            <section className={`${dataStyles.marketingExpertise} ${dataStyles.bgcolor}`}>
-                <Container>
+            
+                <Container className='pb-5'>
                     <Row>
                         <Col>
                             <h3 className='center font-bold mb-5'>Typical project features</h3>
@@ -215,7 +215,7 @@ export default function automotivesolutions() {
                     </Row>
                 </Container>
 
-            </section>
+            
 
         </>
 
@@ -226,21 +226,21 @@ export default function automotivesolutions() {
             <Container>
                 <Row>
                     <Col xl={12}>
-                        <h3 className='center font-bold mb-5'>Our Development Methodology</h3>
+                        <h3 className='center font-bold mb-5'>Our <span className='grdiant'>Development</span> Methodology</h3>
 
                     </Col>
                 </Row>
                 <Row className=''>
                     <Col xl={4} className='borderbottom '>
                         <div className=' pt-5 pb-5'>
-                            <Image src={milestones1} className='img-fluid mb-4' />
+                            <Image src={milestones1} className='img-fluid mb-4 greyscale' />
                             <h3 className='font20 mb-3 font-semibold'>Evaluation and Monitoring </h3>
                             <p className=''>These determine KPIs,reports and other metrics, per suer, in order to monitor that the process is working as agreed</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo borderbottom'>
                         <div className=' pt-5 pb-5'>
-                            <Image src={milestones2} className='img-fluid mb-4' />
+                            <Image src={milestones2} className='img-fluid mb-4 greyscale' />
                             <h3 className='font20 mb-3 font-semibold'>Application,construction and
                                 implementation</h3>
                             <p className=''>Weekly delivery of developments for the end user to operate and request for changes, it isIDEAL that the end user is part ofthe process of development and testing</p>
@@ -249,7 +249,7 @@ export default function automotivesolutions() {
                     </Col>
                     <Col xl={4} className='mongo borderbottom'>
                         <div className=' pt-5 pb-5'>
-                            <Image src={milestones3} className='img-fluid mb-4' />
+                            <Image src={milestones3} className='img-fluid mb-4 greyscale' />
                             <h3 className='font20 mb-3 font-semibold'>Evaluation of processes and current
                                 structure of the company </h3>
                             <p className=''>Mapping processes to determine the starting pointand the Actual State</p>
@@ -257,7 +257,7 @@ export default function automotivesolutions() {
                     </Col>
                     <Col xl={4} >
                         <div className=' pt-5 pb-5'>
-                            <Image src={milestones4} className='img-fluid mb-4' />
+                            <Image src={milestones4} className='img-fluid mb-4 greyscale' />
                             <h3 className='font20 mb-3 font-semibold'>Suggestions for improvement and
                                 process optimization </h3>
                             <p className=''>Optimize a process with a right combination of technologies</p>
@@ -265,7 +265,7 @@ export default function automotivesolutions() {
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className=' pt-5 pb-5'>
-                            <Image src={milestones5} className='img-fluid mb-4' />
+                            <Image src={milestones5} className='img-fluid mb-4 greyscale' />
                             <h3 className='font20 mb-3 font-semibold'>Application design together with
                                 the client </h3>
                             <p className=''>We choose technologies and review options with the client. The client is part of the project from the very beginning and feedback is VITAL</p>
@@ -480,6 +480,7 @@ const exmplText = <> Let's talk about your Automotive solutions requirements </>
 
             <MarketingExpertise
                 data={data}
+                bgpost = 'bgpost'
 
             />
 

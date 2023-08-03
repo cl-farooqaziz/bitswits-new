@@ -194,14 +194,14 @@ export default function mediapublishing() {
             <Container>
                 <Row>
                     <Col xl={12}>
-                        <h3 className='center font-bold'>Our Media And Publishing Solutions</h3>
+                        <h3 className='center font-bold'>Our <span className='grdiant'>Media And Publishing</span> Solutions</h3>
 
                     </Col>
                 </Row>
                 <Row className='gy-5 mt-2'>
                     <Col xl={4}>
-                        <div className='pt-5 pb-5'>
-                            <Image src={milestones1} className='img-fluid mb-4' />
+                        <div className='pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                            <Image src={milestones1} className='img-fluid mb-4 greyscale' />
                             <h4 className='font20 font-semibold'>Revenue Generation</h4>
                             <ul className='m-0 p-0'>
                                 <li>Revenue/subscriber maximization</li>
@@ -212,8 +212,8 @@ export default function mediapublishing() {
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
-                        <div className='pt-5 pb-5'>
-                            <Image src={milestones2} className='img-fluid mb-4' />
+                        <div className='pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                            <Image src={milestones2} className='img-fluid mb-4 greyscale' />
                             <h4 className='font20 font-semibold'>Customer Experience</h4>
                             <ul className='m-0 p-0'>
                                 <li>Customization to Individual users' needs</li>
@@ -225,8 +225,8 @@ export default function mediapublishing() {
 
                     </Col>
                     <Col xl={4} className='mongo'>
-                        <div className='pt-5 pb-5'>
-                            <Image src={milestones3} className='img-fluid mb-4' />
+                        <div className='pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                            <Image src={milestones3} className='img-fluid mb-4 greyscale' />
                             <h4 className='font20 font-semibold'>Cost Reduction</h4>
                             <ul className='m-0 p-0'>
                                 <li>Reduced time to market</li>

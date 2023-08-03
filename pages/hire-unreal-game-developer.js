@@ -73,12 +73,12 @@ import slide20 from '../public/images/spotlight/20.png'
 import Milestones from '@/components/Milestones';
 import milStyles from '@/styles/Milestones.module.css'
 import { Container } from 'react-bootstrap'
-import milestones1 from '../public/images/milestones/1.png'
-import milestones2 from '../public/images/milestones/2.png'
-import milestones3 from '../public/images/milestones/3.png'
-import milestones4 from '../public/images/milestones/4.png'
-import milestones5 from '../public/images/milestones/5.png'
-import milestones6 from '../public/images/milestones/6.png'
+import milestones1 from '../public/images/device/1.png'
+import milestones2 from '../public/images/device/2.png'
+import milestones3 from '../public/images/device/3.png'
+import milestones4 from '../public/images/device/4.png'
+import milestones5 from '../public/images/device/5.png'
+import milestones6 from '../public/images/device/6.png'
 
 
 export default function hireunrealgamedeveloper() {
@@ -95,24 +95,24 @@ export default function hireunrealgamedeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'> Hire Experienced <span className='grdiant'> Unreal Game Developers </span> From Just $20/hr </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+        
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Experienced Unreal Developers </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Dedicated Game Specialists</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Expert 3D Graphic Designers</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  NDA Protetcion</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Agile Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Creative Game Studio</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Post Deployment Support</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Our developers are all 100% in-house permanent staff, working from our brick & mortar offices in India, Brighton & London.</p> </>
 
 
 
@@ -309,7 +309,7 @@ export default function hireunrealgamedeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -538,34 +538,58 @@ export default function hireunrealgamedeveloper() {
     const value = <>
         <Container>
             <Row>
+                
                 <Col xl={12}>
-                    <h3 className='center font-bold mb-5' >Creating Milestones With The Work We Do!</h3>
+                    <h3 className='center font-bold mb-5' > <span className='grdiant'>Unreal Engine’s</span> Features for Immersive Experience</h3>
                    
                 </Col>
             </Row>
-            <Row className='gy-5'>
+            <Row>
+            <Col xl={4} className='borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Physical Based Rendering</h3>
+                        <p className=''>Unreal Engine 4 has Physically Based Rendering in its rendering pipeline that allows the creation of more vibrant and realistic graphics.</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Multi-Device Support</h3>
+                        <p className=''>The engine can be used for the development of multiple devices ranging from mobile phones, tablets, PCs, and VR devices.</p>
+                    </div>
+
+                </Col>
+                <Col xl={4} className='mongo borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Powerful Physics Engine</h3>
+                        <p className=''>Unreal is a powerful physics engine with multiple tools for the development of realistic visuals, custom shaders, and PBR for complex VR experience.</p>
+                    </div>
+                </Col>
                 <Col xl={4}>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4' />
-                        <h3 className='font20 font-semi-bold black mb-2'>Game Narrative</h3>
-                        <p className=''>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
+                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Royalty Terms</h3>
+                        <p className=''>The gaming engine comes with clear and feasible royalty terms which give us full access to the entire toolkit and features.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Storyboard</h3>
-                        <p className=''>Regularly incorporating new technologies within the company for improved results.</p>
+                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Built-In-Editor</h3>
+                        <p className=''>It has a powerful yet flexible suite of integrated tools with GUI editor as well as a complete development environment for C++.</p>
                     </div>
 
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Character</h3>
-                        <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
+                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Blueprints</h3>
+                        <p className=''>Blueprints is a visual scripting method supported by Unreal that allows rapid prototyping of application without any coding at all.</p>
                     </div>
                 </Col>
+               
 
             </Row>
         </Container>

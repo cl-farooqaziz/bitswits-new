@@ -129,25 +129,25 @@ const Header = () => {
                                                     <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-php-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Core PHP</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-cake-php-developer'>
                                                                     <FaAngleRight />
                                                                     <span>CakePHP</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-laravel-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Laravel</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-yii-developer'>
                                                                     <FaAngleRight />
                                                                     <span>YII</span>
                                                                 </Link>
@@ -157,7 +157,7 @@ const Header = () => {
                                                     <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-zend-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Zend</span>
                                                                 </Link>

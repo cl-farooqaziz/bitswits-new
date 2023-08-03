@@ -73,12 +73,12 @@ import slide20 from '../public/images/spotlight/20.png'
 import Milestones from '@/components/Milestones';
 import milStyles from '@/styles/Milestones.module.css'
 import { Container } from 'react-bootstrap'
-import milestones1 from '../public/images/milestones/1.png'
-import milestones2 from '../public/images/milestones/2.png'
-import milestones3 from '../public/images/milestones/3.png'
-import milestones4 from '../public/images/milestones/4.png'
-import milestones5 from '../public/images/milestones/5.png'
-import milestones6 from '../public/images/milestones/6.png'
+import milestones1 from '../public/images/versatile/1.png'
+import milestones2 from '../public/images/versatile/2.png'
+import milestones3 from '../public/images/versatile/3.png'
+import milestones4 from '../public/images/versatile/4.png'
+import milestones5 from '../public/images/versatile/5.png'
+import milestones6 from '../public/images/versatile/6.png'
 
 
 export default function hirehtml5gamedeveloper() {
@@ -95,24 +95,24 @@ export default function hirehtml5gamedeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Talented<span className='grdiant'> HTML5 Game Developers </span> From $20/hr </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+      
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Experienced Developers </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Updated Stack of Technology</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Understanding of Native Environment</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  NDA Protection</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Transparent Project Management</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Experience with Multiple Genre</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Technical Support</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Did you know? Our developers are all 100% in-house permanent members of our team. Accountable. Reliable. Secure.</p> </>
 
 
 
@@ -309,7 +309,7 @@ export default function hirehtml5gamedeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -539,31 +539,53 @@ export default function hirehtml5gamedeveloper() {
         <Container>
             <Row>
                 <Col xl={12}>
-                    <h3 className='center font-bold mb-5' >Creating Milestones With The Work We Do!</h3>
+                    <h3 className='center font-bold mb-5' >Custom Services with <span className='grdiant'>HTML5 Game Development</span> </h3>
                    
                 </Col>
             </Row>
-            <Row className='gy-5'>
+            <Row>
+                <Col xl={4} className='borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Feature Rich Framework</h3>
+                        <p className=''>The integrated suite of HTML5 game development comes loaded with effective features that accelerate the entire process.</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>API Integration</h3>
+                        <p className=''>The framework simplifies the addition of third-party APIs, optimising the development process for better functionalities with minimal efforts.</p>
+                    </div>
+
+                </Col>
+                <Col xl={4} className='mongo borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Multiple Platform</h3>
+                        <p className=''>The multi-platform deployment in HTML5 makes it extremely cost-effective technology for the creation of complex as well as casual games.</p>
+                    </div>
+                </Col>
                 <Col xl={4}>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4' />
-                        <h3 className='font20 font-semi-bold black mb-2'>Game Narrative</h3>
-                        <p className=''>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
+                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Community Support</h3>
+                        <p className=''>The framework is supported by a large community of promoters who work progressively to keep the language updated with the time and market’s requirements.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Storyboard</h3>
-                        <p className=''>Regularly incorporating new technologies within the company for improved results.</p>
+                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Versatile Development</h3>
+                        <p className=''>In its core, HTML5 is a markup language that makes it truly flexible and versatile for the creation of completely new and complex ideas.</p>
                     </div>
 
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Character</h3>
-                        <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
+                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Support for Ranging Multimedia</h3>
+                        <p className=''>HTML 5’s support for wide range of multimedia files will ensure that your game has appealing visual and auditory effects for better user engagement.</p>
                     </div>
                 </Col>
 

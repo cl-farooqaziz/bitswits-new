@@ -42,12 +42,14 @@ import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
 import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
 import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
 //Why Icon
-import icon24 from '../public/images/design/1.png'
-import icon25 from '../public/images/design/2.png'
-import icon26 from '../public/images/design/3.png'
-import icon27 from '../public/images/design/4.png'
-import icon28 from '../public/images/design/5.png'
-import icon29 from '../public/images/design/6.png'
+import icon24 from '../public/images/jaz/1.png'
+import icon25 from '../public/images/jaz/2.png'
+import icon26 from '../public/images/jaz/3.png'
+import icon27 from '../public/images/jaz/4.png'
+import icon28 from '../public/images/jaz/5.png'
+import icon29 from '../public/images/jaz/6.png'
+import icon30 from '../public/images/jaz/7.png'
+import icon31 from '../public/images/jaz/8.png'
 //
 import slide1 from '../public/images/spotlight/1.png'
 import slide2 from '../public/images/spotlight/2.png'
@@ -85,24 +87,24 @@ export default function hirewebsitedesigner() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire One Of Our Expert <br></br> <span className='grdiant'>  Web Designers </span> Today </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+       
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Wireframe Design </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Website Design</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Mobile Website Design</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Logo, Banner and Graphics Design</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Custom Applications</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  E-Commerce Applications</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Website Redesign and Tuning</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>We have an in-house army of over 80+ permanent web designers.Scroll down this page to see our portfolio of work...</p> </>
 
 
 
@@ -279,7 +281,7 @@ export default function hirewebsitedesigner() {
     // Build component data
 
     const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        Graphically Talented – Our Graphic Design Services
+        Graphically Talented – Our <span className='grdiant'>Graphic Design Services</span>
     </h2>
 
     const WhyBuilds = <>
@@ -290,9 +292,9 @@ export default function hirewebsitedesigner() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    Website Designing
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>We keep the website designing crisp and standardized because we know exactly what a customer expects from us – we believe in maintaining our standards.</p>
 
 
                 </div>
@@ -303,9 +305,9 @@ export default function hirewebsitedesigner() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Logo And Identity Designing
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Keeping your logo and brand identity design unique and beautiful is our job and we make sure your logo looks exactly how you wanted it to look.</p>
 
                 </div>
             </Col>
@@ -316,22 +318,21 @@ export default function hirewebsitedesigner() {
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone
-                        App development
+                    Flyer & Brochure Designing
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>The graphic designers at Team In India carefully design the flyers and brochures for your business – keeping the designs creative and fabulous.</p>
 
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    Corporate Branding
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>We take the responsibility of your corporate branding by designing influential graphics for your business brand.</p>
 
 
                 </div>
@@ -339,38 +340,37 @@ export default function hirewebsitedesigner() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Infographic Design
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Infographics are informative images and their design makes the first impact on the viewers mind – at Team In India the designers have got the experience to make beautiful infographics.</p>
 
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone
-                        App development
+                    Email Template Designing
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>E-mail templates designed by the designers at Team In India have the power to appeal to you as well your customers at one go.</p>
 
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Custom PHP Development
+                    PowerPoint Presentations
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Impressive PowerPoint presentations is what we’re brilliant at, so we do the designing of amazing presentations for you.</p>
 
 
                 </div>
@@ -378,12 +378,12 @@ export default function hirewebsitedesigner() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Wireframes Designing
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Wireframe, or the blueprint of the website is created for the purpose of arranging elements to best accomplish a particular goal, and we at Team In India do the job of wireframe designing for you.</p>
 
                 </div>
             </Col>
@@ -413,7 +413,7 @@ export default function hirewebsitedesigner() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.

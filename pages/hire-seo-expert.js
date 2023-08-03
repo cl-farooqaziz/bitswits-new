@@ -42,12 +42,15 @@ import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
 import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
 import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
 //Why Icon
-import icon24 from '../public/images/design/1.png'
-import icon25 from '../public/images/design/2.png'
-import icon26 from '../public/images/design/3.png'
-import icon27 from '../public/images/design/4.png'
-import icon28 from '../public/images/design/5.png'
-import icon29 from '../public/images/design/6.png'
+import icon24 from '../public/images/short/1.png'
+import icon25 from '../public/images/short/2.png'
+import icon26 from '../public/images/short/3.png'
+import icon27 from '../public/images/short/4.png'
+import icon28 from '../public/images/short/5.png'
+import icon29 from '../public/images/short/6.png'
+import icon30 from '../public/images/short/7.png'
+import icon31 from '../public/images/short/8.png'
+import icon32 from '../public/images/short/9.png'
 //
 import slide1 from '../public/images/spotlight/1.png'
 import slide2 from '../public/images/spotlight/2.png'
@@ -85,24 +88,25 @@ export default function hireseoexpert() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire  <span className='grdiant'> SEO Experts </span> </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
-
+      
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Long Term Positioning & Increased Traffic
+ </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Brand Awareness & Online Reputation</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Seo Friendly & User Friendly Website</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Cost Effective & Increased ROI</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Increased Domain Authority & Page Rank</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Increased Visibility Among Target Audience</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Connect With Motivated Prospects</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>We’ve delivered more than 2000+ Progressive Web Apps
+    to 2500+ clients in the last 21 years.</p> </>
 
 
 
@@ -279,7 +283,7 @@ export default function hireseoexpert() {
     // Build component data
 
     const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        Our Services For A Great Digital Experience
+        Our Services For A <span className='grdiant'>Great Digital Experience</span>
     </h2>
 
     const WhyBuilds = <>
@@ -292,7 +296,7 @@ export default function hireseoexpert() {
                     <h5 className='font20 fontf font-500 line30'>
                     Custom PHP Development
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Our PHP developers have the skills and the expertise to create complex custom applications. We serve small and large industries and provide tailor-made development services.</p>
 
 
                 </div>
@@ -303,9 +307,9 @@ export default function hireseoexpert() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    PHP Based CMS Systems
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>If a custom CMS is what you need for your business, then we have the technical expertise to develop one for you whilst maintaining exceptionally high standards.</p>
 
                 </div>
             </Col>
@@ -316,22 +320,21 @@ export default function hireseoexpert() {
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone 
-                        App development
+                    E-Commerce Solutions
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>We can provide custom e-commerce solutions that are streamlined to suit your exact requirements. We understand what it takes to increase sales and our focus is always on generating the best ROI for our clients.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Custom PHP Development
+                    Corporate Websites
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>We have the experience to provide professional and engaging solutions that help define your brand. We’ll work closely with you to ensure the results exceed your expectations at every stage.</p>
 
 
                 </div>
@@ -339,38 +342,37 @@ export default function hireseoexpert() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Web Applications
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>We’re experts in developing responsive, cross platform compatible, custom tailored web applications. We’ve trained our teams to provide the best so let our solid business experience help your company achieve its potential.</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone 
-                        App development
+                    Conversion Rate Optimisation
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Team In India has a team of experts for Conversion Rate Optimisation – a process to increase the percentage of visitors to a website that convert into customers, or more generally, take any desired action on a webpage</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Custom PHP Development
+                    Link Building
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Link building involves acquiring high quality links from other websites to your own. Search engines use links to crawl the web - they will crawl the links between the individual pages on website, and they will crawl the links between entire websites...more</p>
 
 
                 </div>
@@ -378,26 +380,25 @@ export default function hireseoexpert() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App  Design
+                    Content Development & Marketing
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>We create and curate content that is creative, interesting and attracts the reader with its information. We’ve got trained writers working to deliver a readable and relatable content...more</p>
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
 
-                        Android Phone 
-                        App development
+                    Keyword Research
                     </h5>
-                    <p>You can usually find keywords that get great search volume and have little to no competition. Keywords are analyzed and search volumes are calculated accordingly.</p>
+                    <p>Our experts do the competitor analysis for you and find the most effective keywords for your business. We use the tools and the techniques for keyword research, based on which we manage the rest of the process...more</p>
 
                 </div>
             </Col>
@@ -426,7 +427,7 @@ export default function hireseoexpert() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.

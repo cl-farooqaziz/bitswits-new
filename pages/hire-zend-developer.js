@@ -97,7 +97,7 @@ export default function hireyiiDeveloper() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
         Our <span className='grdiant'>Zend Services</span> – PHP development by the Pro’s!
     </h2>
 

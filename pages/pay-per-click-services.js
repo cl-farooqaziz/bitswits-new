@@ -185,7 +185,7 @@ export default function payperclickservices() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>Ways We Target Improvements</h2>
+    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>Ways We Target Improvements</h2>
 
 
 
@@ -363,7 +363,7 @@ export default function payperclickservices() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -721,9 +721,7 @@ export default function payperclickservices() {
                 cards={expCards}
             />
 
-            <div className='center spacingtb'>
-                <Image src={ppcimg} className='im-fluid' alt='bitswits' />
-            </div>
+           
 
             <WhyBuild
                 title="Why Build"
@@ -732,7 +730,9 @@ export default function payperclickservices() {
                 subtitle={whytitle}
             />
 
-
+<div className='center spacingtb'>
+                <Image src={ppcimg} className='img-fluid' alt='bitswits' />
+            </div>
 
 
             <MyReason

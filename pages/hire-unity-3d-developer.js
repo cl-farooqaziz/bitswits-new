@@ -42,12 +42,12 @@ import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
 import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
 import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
 //Why Icon
-import icon24 from '../public/images/design/1.png'
-import icon25 from '../public/images/design/2.png'
-import icon26 from '../public/images/design/3.png'
-import icon27 from '../public/images/design/4.png'
-import icon28 from '../public/images/design/5.png'
-import icon29 from '../public/images/design/6.png'
+import icon24 from '../public/images/unity/1.jpg'
+import icon25 from '../public/images/unity/2.jpg'
+import icon26 from '../public/images/unity/3.jpg'
+import icon27 from '../public/images/unity/4.jpg'
+import icon28 from '../public/images/unity/5.jpg'
+import icon29 from '../public/images/unity/6.jpg'
 //
 import slide1 from '../public/images/spotlight/1.png'
 import slide2 from '../public/images/spotlight/2.png'
@@ -85,24 +85,24 @@ export default function hireunity3ddeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Unity <br /><span className='grdiant'> 3D Developers </span> </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+       
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Exceptional quality </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Full 3D and VR support</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Agile methodology</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Complete confidentiality</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Dedicated developers</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Friendly, 'can do' approach</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Highly experienced team</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>We have been working with Unity since it launched in 2005. Our developers are among the most experienced in the industry and we've built more than 264 games using this technology.</p> </>
 
 
 
@@ -278,8 +278,9 @@ export default function hireunity3ddeveloper() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
-        What We Do
+    const whytitle = <h2 className='font30 black fontf font-bold  black text-center mb-3'>
+      Features Of Unity –  <br></br>
+Creating A Great <span className='grdiant'>Gaming Experience</span>
     </h2>
 
     const WhyBuilds = <>
@@ -289,9 +290,12 @@ export default function hireunity3ddeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
+                  
+
                     <h5 className='font20 fontf font-500 line30'>
-                        App <br></br> Prototype
+                    Unity Analytics
                     </h5>
+                    <p>Unity Analytics gives fast and easy access to important information that improves your in-game economy and the player experience.</p>
 
 
                 </div>
@@ -301,9 +305,12 @@ export default function hireunity3ddeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
+                  
+
                     <h5 className='font20 fontf font-500 line30'>
-                        App <br /> Design
+                    Unity Cloud Build
                     </h5>
+                    <p>Unity Cloud Build automatically compiles, deploys, and tests the game so you can get your product on the market quickly.</p>
 
 
                 </div>
@@ -313,11 +320,12 @@ export default function hireunity3ddeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                 
 
-                        Android Phone <br />
-                        App development
+                    <h5 className='font20 fontf font-500 line30'>
+                    Unity Collaborate
                     </h5>
+                    <p>Our team is industry experienced and highly capable when working with unity. Our experience in working with international clients has opened doors of exposure and we can work on your idea any time you want.</p>
 
 
                 </div>
@@ -327,10 +335,11 @@ export default function hireunity3ddeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
+                  
                     <h5 className='font20 fontf font-500 line30'>
-                        Tablet App <br />
-                        Development
+                    Unity everyplay
                     </h5>
+                    <p>Everyplay has evolved, and we have now released new player community that has been designed from the ground up to enhance your game. We’ve got the experience that makes us the best when it comes to Unity 3D game development.</p>
 
 
                 </div>
@@ -340,10 +349,12 @@ export default function hireunity3ddeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
+                   
+
                     <h5 className='font20 fontf font-500 line30'>
-                        Wearable App <br />
-                        Development
+                    Unity Multiplayer
                     </h5>
+                    <p>Unity Multiplayer is the easiest way to create real time, networked games for Unity, and at Team In India we have the needed skillset for create these real time networked games.</p>
 
 
                 </div>
@@ -354,9 +365,9 @@ export default function hireunity3ddeveloper() {
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Version <br />
-                        Upgrades
+                    Unity ADS
                     </h5>
+                    <p>You no longer need to rely on the 3% of players that make in-app purchases. Unity Ads is designed to become a natural part of your game. We at Team In India provide the service of creating Unity Ads.</p>
 
                 </div>
             </Col>
@@ -381,7 +392,7 @@ export default function hireunity3ddeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.

@@ -95,24 +95,24 @@ export default function hirecoco2dxgamedeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire <span className='grdiant'> Cocos 2DX Game Developers</span> Why outsource to us? </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+   
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Dedicated Developers </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Experienced Team</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Transparent Project Process</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Protected Project Management</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Custom Management Model</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Swift 2D Game Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Integrate Thrid Party Libraries</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Did you know? Every single one of our developers is a permanent in-house team member.</p> </>
 
 
 
@@ -309,7 +309,7 @@ export default function hirecoco2dxgamedeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -539,21 +539,21 @@ export default function hirecoco2dxgamedeveloper() {
         <Container>
             <Row>
                 <Col xl={12}>
-                    <h3 className='center font-bold mb-5' >Creating Milestones With The Work We Do!</h3>
+                    <h3 className='center font-bold mb-5' >Custom Services in <span className='grdiant'>Cocos 2DX Game Development</span> </h3>
                    
                 </Col>
             </Row>
             <Row className='gy-5'>
                 <Col xl={4}>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4' />
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Game Narrative</h3>
                         <p className=''>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4' />
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Game Storyboard</h3>
                         <p className=''>Regularly incorporating new technologies within the company for improved results.</p>
                     </div>
@@ -561,7 +561,7 @@ export default function hirecoco2dxgamedeveloper() {
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4' />
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Game Character</h3>
                         <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
                     </div>

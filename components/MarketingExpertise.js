@@ -6,7 +6,7 @@ const MarketingExpertise = (props) => {
     return (
 
         <>
-            <section className={styles.marketingExpertise}>{props.data}</section>
+            <section className={`${styles.marketingExpertise} ${props.bgpost}`}>{props.data}</section>
         </>
 
 

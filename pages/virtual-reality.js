@@ -185,7 +185,7 @@ const ux = <div>
 // Build component data
 
 const whytitle = 
-<h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+<h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
     <span className='grdiant'>Our Game Services</span> 
 </h2>
 
@@ -447,7 +447,7 @@ const Ultimate = <>
 
   // E-Commerce Development Services
 
-  const ecomDevTtl = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>Game Genres 
+  const ecomDevTtl = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>Game Genres 
   </span>  We Make
   </h2>
 

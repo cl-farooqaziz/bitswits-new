@@ -337,7 +337,7 @@ export default function travelhospitality() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>We can make any concept a reality with our
+    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>We can make any concept a reality with our
         <span className='grdiant'> B2B Solutions</span>
     </h2>
 
@@ -466,7 +466,7 @@ export default function travelhospitality() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.

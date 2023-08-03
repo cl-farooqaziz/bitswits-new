@@ -73,12 +73,12 @@ import slide20 from '../public/images/spotlight/20.png'
 import Milestones from '@/components/Milestones';
 import milStyles from '@/styles/Milestones.module.css'
 import { Container } from 'react-bootstrap'
-import milestones1 from '../public/images/milestones/1.png'
-import milestones2 from '../public/images/milestones/2.png'
-import milestones3 from '../public/images/milestones/3.png'
-import milestones4 from '../public/images/milestones/4.png'
-import milestones5 from '../public/images/milestones/5.png'
-import milestones6 from '../public/images/milestones/6.png'
+import milestones1 from '../public/images/community/1.png'
+import milestones2 from '../public/images/community/2.png'
+import milestones3 from '../public/images/community/3.png'
+import milestones4 from '../public/images/community/4.png'
+import milestones5 from '../public/images/community/5.png'
+
 
 
 export default function hirereactjsgamedeveloper() {
@@ -95,24 +95,24 @@ export default function hirereactjsgamedeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Our Expert <span className='grdiant'> React JS Game Developers </span> </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+   
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Dedicated Game Developers </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Experienced React JS Professionals</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> NDA Protection</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Effiicient Project Management</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Absolute Attention to Details</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Fluid UI for perfect Hybrid UX</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Easy Update Services</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Did you know? Our developers are all 100% in-house team members. No subcontractors. No risk. 100% reliability and security.</p> </>
 
 
 
@@ -309,7 +309,7 @@ export default function hirereactjsgamedeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -539,33 +539,49 @@ export default function hirereactjsgamedeveloper() {
         <Container>
             <Row>
                 <Col xl={12}>
-                    <h3 className='center font-bold mb-5' >Creating Milestones With The Work We Do!</h3>
+                    <h3 className='center font-bold mb-5' >Benefits of <span className='grdiant'>React JS Game Development</span> </h3>
                    
                 </Col>
             </Row>
-            <Row className='gy-5'>
-                <Col xl={4}>
+            <Row>
+                <Col xl={4} className='borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4' />
-                        <h3 className='font20 font-semi-bold black mb-2'>Game Narrative</h3>
-                        <p className=''>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Large Community</h3>
+                        <p className=''>ReactJS is a quite prominent JavaScript library for building user interface with a huge community support. It opens up ways for better future improvements.</p>
                     </div>
                 </Col>
-                <Col xl={4} className='mongo'>
+                <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Storyboard</h3>
-                        <p className=''>Regularly incorporating new technologies within the company for improved results.</p>
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Live Reload</h3>
+                        <p className=''>Eliminate the time-consuming and inefficient technology that requires reloading of the application with multiple changes with this library that supports live reload.</p>
                     </div>
 
                 </Col>
-                <Col xl={4} className='mongo'>
+                <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Character</h3>
-                        <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Modular Architecture</h3>
+                        <p className=''>ReactJS is a quite prominent JavaScript library for building user interface with a huge community support. It opens up ways for better future improvements.</p>
                     </div>
                 </Col>
+                <Col xl={4}>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Mobile Interface</h3>
+                        <p className=''>ReactJS is all about UI, and with its fluidity, it is the best option for the development of hybrid gaming apps that can run smoothly on multiple devices.</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Code Reuse</h3>
+                        <p className=''>With this extensively useful library, you can easily reuse the code for the creation of both iOS and Android hybrid apps leading to an incredible cost-saving.</p>
+                    </div>
+
+                </Col>
+                
 
             </Row>
         </Container>

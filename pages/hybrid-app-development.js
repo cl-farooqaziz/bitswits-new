@@ -42,12 +42,15 @@ import icon21 from '../public/images/crmDev/crm-choose-icon6.png'
 import icon22 from '../public/images/crmDev/crm-choose-icon7.png'
 import icon23 from '../public/images/crmDev/crm-choose-icon8.png'
 //Why Icon
-import icon24 from '../public/images/design/1.png'
-import icon25 from '../public/images/design/2.png'
-import icon26 from '../public/images/design/3.png'
-import icon27 from '../public/images/design/4.png'
-import icon28 from '../public/images/design/5.png'
-import icon29 from '../public/images/design/6.png'
+import icon24 from '../public/images/ionic/1.png'
+import icon25 from '../public/images/ionic/2.png'
+import icon26 from '../public/images/ionic/3.png'
+import icon27 from '../public/images/ionic/4.png'
+import icon28 from '../public/images/ionic/5.png'
+import icon29 from '../public/images/ionic/6.png'
+import icon30 from '../public/images/ionic/7.png'
+import icon31 from '../public/images/ionic/8.png'
+import icon32 from '../public/images/ionic/9.png'
 //
 import slide1 from '../public/images/spotlight/1.png'
 import slide2 from '../public/images/spotlight/2.png'
@@ -85,24 +88,25 @@ export default function hybridappdevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Experienced, Expert
+        <br /><span className='grdiant'> Hybrid App Developers </span> </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Titanium App Development </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Phonegap App Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Sencha Touch Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Jquery Mobile Application Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  HTML5 App Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Hybrid Application Design & Development</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Hybrid Application Integration</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>We have an in-house army of over 40+ Hybrid
+        dedicated team members</p> </>
 
 
 
@@ -278,8 +282,9 @@ export default function hybridappdevelopment() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
-        What We Do
+    const whytitle = <h2 className='font30 black fontf font-bold black text-center mb-3'>
+        Here are just a handful of the <span className='grdiant'>hybrid app technologies</span> <br></br>
+        that we work with
     </h2>
 
     const WhyBuilds = <>
@@ -290,8 +295,9 @@ export default function hybridappdevelopment() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App <br></br> Prototype
+                        Ionic
                     </h5>
+                    <p>Using Iconic we build apps in one codebase, for any platform, with the web. From open source to pro services, the technology additionally helps in deploying, testing, and ultimately monitoring apps in a very easy manner.</p>
 
 
                 </div>
@@ -302,8 +308,9 @@ export default function hybridappdevelopment() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        App <br /> Design
+                        Titanium App <br></br> Development
                     </h5>
+                    <p>Our team is well-versed with Titanium framework development to build the robust and enterprise-class hybrid application for varied business.</p>
 
 
                 </div>
@@ -314,52 +321,100 @@ export default function hybridappdevelopment() {
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-
-                        Android Phone <br />
-                        App development
+                        Phonegap App <br></br> Development
                     </h5>
+                    <p>We have expertise in PhoneGap coding to deliver the lightweight and powerful application that include seamless features.</p>
 
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Tablet App <br />
+                        Sencha Touch <br></br>
                         Development
                     </h5>
+                    <p>Our company has experience with Sencha Touch developers, who can code the feature-rich business applications for all mobile platforms.</p>
 
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Wearable App <br />
-                        Development
+                        Jquery Mobile <br></br>
+                        Application Development
                     </h5>
+                    <p>In our company, there is team of jQuery Mobile app development specialists who has experience in developing the incredible hybrid app.</p>
 
 
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                        Version <br />
-                        Upgrades
+                        Quick Maintenance <br></br>
+                        Support
                     </h5>
+                    <p>In order to ease the way for the business to administer and deploy the app, our company offers responsive maintenance support 24/7.</p>
+
 
                 </div>
             </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        HTML5 App <br></br>
+                        Development
+                    </h5>
+                    <p>We are very well aware of every aspect of HTML5 & HTML5 coding technology. Hence, we can code better than the best Hybrid app.</p>
+
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Hybrid App Design <br></br>
+                        & Development
+                    </h5>
+                    <p>The designing experts in our team ensure the ergonomic development of hybrid application interface to render a better experience. Deliver the feature-rich and cross-browser compatible hybrid application through Agile based strategy that can save cost and time.</p>
+
+
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 className='font20 fontf font-500 line30'>
+                        Hybrid App <br></br>
+                        Integration
+                    </h5>
+                    <p>Avail the advanced functionality in the Hybrid app by our coding expertise in seamless integration techniques and strategy.</p>
+
+
+                </div>
+            </Col>
+
+
+
         </Row>
 
     </>
@@ -381,7 +436,7 @@ export default function hybridappdevelopment() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.

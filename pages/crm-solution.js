@@ -262,7 +262,7 @@ export default function crmsolution() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
         <span className='grdiant'>CRM Services</span> We'd Like You To Know About
     </h2>
 
@@ -372,7 +372,7 @@ export default function crmsolution() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.

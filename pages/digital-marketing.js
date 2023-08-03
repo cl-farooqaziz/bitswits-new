@@ -147,7 +147,7 @@ export default function digitalmarketing() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -247,39 +247,39 @@ const value = <>
                 </Row>
                 <Row className='gy-5'>
                     <Col xl={4}>
-                        <div className='center pt-5 pb-5'>
-                            <Image src={milestones1} className='img-fluid mb-4' />
+                        <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                            <Image src={milestones1} className='img-fluid mb-4 greyscale' />
                             <p className='center'>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
-                        <div className='center pt-5 pb-5'>
-                            <Image src={milestones2} className='img-fluid mb-4' />
+                        <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                            <Image src={milestones2} className='img-fluid mb-4 greyscale' />
                             <p className='center'>Regularly incorporating new technologies within the company for improved results.</p>
                         </div>
 
                     </Col>
                     <Col xl={4} className='mongo'>
-                        <div className='center pt-5 pb-5'>
-                            <Image src={milestones3} className='img-fluid mb-4' />
+                        <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                            <Image src={milestones3} className='img-fluid mb-4 greyscale' />
                             <p className='center'>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
                         </div>
                     </Col>
                     <Col xl={4}>
-                        <div className='center pt-5 pb-5'>
-                            <Image src={milestones4} className='img-fluid mb-4' />
+                        <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                            <Image src={milestones4} className='img-fluid mb-4 greyscale' />
                             <p className='center'>We’ve got the experience in many digital marketing techniques including SEO, PPC, Apps Store Optimization and Social Media Marketing.</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
-                     <div className='center pt-5 pb-5'>
-                     <Image src={milestones5} className='img-fluid mb-4' />
+                     <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                     <Image src={milestones5} className='img-fluid mb-4 greyscale' />
                      <p className='center'>We offer world class and high quality services including assistance with timely execution and continuous improvement in design of your website</p>
                      </div>
                     </Col>
                     <Col xl={4} className='mongo'>
-                        <div className='center pt-5 pb-5'>
-                        <Image src={milestones6} className='img-fluid mb-4' />
+                        <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
+                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
                         <p className='center'>We do not treat all our clients as equal because we understand that their needs differ and we provide tailor-made solutions according to the business needs.</p>
                         </div>
                     </Col>

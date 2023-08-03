@@ -83,7 +83,7 @@ export default function b2csolutions() {
 
     // Build component data
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
         Our Solutions
     </h2>
 

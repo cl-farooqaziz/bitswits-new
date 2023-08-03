@@ -22,3 +22,19 @@
   background: #f6fafd;
   position: relative;
 }
+
+
+@media screen and (max-width: 480px) { 
+
+  .mservice {
+    padding: 0;
+}
+
+.mservice li img {
+  display: none;
+}
+.mservice li {
+  padding: 15px;
+}
+
+  }

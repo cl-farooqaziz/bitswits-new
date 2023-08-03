@@ -95,24 +95,24 @@ export default function hireiosgamedeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>High Quality, Affordable <br /><span className='grdiant'> App Design & Development </span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Experienced <span className='grdiant'> Native IOS Game Developers </span> From $20/hr (Available Now) </h1>
 
     const para = <>
 
-        <p className='font16 fontf font-medium black mt-4'>From one of the most experienced app teams on the planet
-            (we've been in business for 21 years)</p>
+        
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Over 2082+ mobile apps published Worldwide since 2007. </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> IOS, Android & cross-platform apps for phone, tablet & watch.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> 180+ full-time, permanent mobile designers & developers.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Our own offices in Brighton, London & India.</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  CMMI 3 appraised (your assurance of high quality processes).</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Competitive pricing. Guaranteed every time.</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Experienced Developers </li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Updated Stack of Technology</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Understandign of the Native Environment</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   NDA Protection</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Transparent Protection Management</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Experience with Multiple Genre</li>
+            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Technical Support</li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Get in touch today to discuss your app project and receive a free quote with absolutely no obligation, and no pressure.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Did you know? All of our developers are in-house permanent team members. No sub-contractors here!</p> </>
 
 
 
@@ -309,7 +309,7 @@ export default function hireiosgamedeveloper() {
                         Competitive rates
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>£15/hr</strong>
+                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
                     </p>
                     <p>
                         Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
@@ -539,31 +539,52 @@ export default function hireiosgamedeveloper() {
         <Container>
             <Row>
                 <Col xl={12}>
-                    <h3 className='center font-bold mb-5' >Creating Milestones With The Work We Do!</h3>
+                    <h3 className='center font-bold mb-5' >Custom Services with <span className='grdiant'>iOS Game Development</span> </h3>
                    
                 </Col>
             </Row>
-            <Row className='gy-5'>
-                <Col xl={4}>
+            <Row >
+                <Col xl={4} className='borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4' />
-                        <h3 className='font20 font-semi-bold black mb-2'>Game Narrative</h3>
-                        <p className=''>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
+                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <h3 className='font20 font-semi-bold black mb-2'>Casual iOS Games</h3>
+                        <p className=''>We understand the interface of iOS devices and know how to make even the most casual of all the games look highly engaging.</p>
                     </div>
                 </Col>
-                <Col xl={4} className='mongo'>
+                <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Storyboard</h3>
-                        <p className=''>Regularly incorporating new technologies within the company for improved results.</p>
+                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Educational Games</h3>
+                        <p className=''>Our team will work in complete collaboration with you to build absolutely educative and bespoke educational iOS gaming apps with the perfect learning experience.</p>
                     </div>
 
                 </Col>
+                <Col xl={4} className='mongo borderbottom'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Game Marketing</h3>
+                        <p className=''>We know a game is only good if it is engaging the gamers, and to reach the right gamers we will also devise a matching marketing strategy for you.</p>
+                    </div>
+                </Col>
+                <Col xl={4} className=''>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Game App Submission</h3>
+                        <p className=''>Game deployment and App Store submission can be tricky if not built with proper preparation, this is why our process is kept error-free from the beginning.</p>
+                    </div>
+                </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4' />
-                        <h3  className='font20 font-semi-bold black mb-2'>Game Character</h3>
-                        <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>Gaming QA</h3>
+                        <p className=''>We ensure that the game that gets delivered from our end is without any flaws and has the best quality in terms of graphics and functionality.</p>
+                    </div>
+                </Col>
+                <Col xl={4} className='mongo'>
+                    <div className=' pt-5 pb-5'>
+                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <h3  className='font20 font-semi-bold black mb-2'>AR Games</h3>
+                        <p className=''>We have a brilliant team of AR development experts who have already developed a handful of highly engaging games, giving them the necessary experience to develop yours swiftly.</p>
                     </div>
                 </Col>
 
