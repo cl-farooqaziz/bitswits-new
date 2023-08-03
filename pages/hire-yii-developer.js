@@ -44,7 +44,7 @@ import slide10 from '../public/images/eComDev/screenshot_10.png'
 
 
 
-export default function hireyiiDeveloper() {
+export default function hireYiiDeveloper() {
 
 
     var crmExamples = {
