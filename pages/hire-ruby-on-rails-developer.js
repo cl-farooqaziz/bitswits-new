@@ -196,6 +196,7 @@ export default function hireRubyDeveloper() {
 
     // MyReason component data
 
+   
     const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Ruby on Rails Expertise</h2>
 
     const resCards = <>

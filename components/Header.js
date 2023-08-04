@@ -335,13 +335,13 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-salesforce-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Salesforce</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-sugarcrm-developer'>
                                                                     <FaAngleRight />
                                                                     <span>SugarCRM</span>
                                                                 </Link>
