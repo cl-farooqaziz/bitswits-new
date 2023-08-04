@@ -163,13 +163,13 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-codeigniter-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Codeigniter</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-ruby-on-rails-developer'>
                                                                     <FaAngleRight />
                                                                     <span>ROR</span>
                                                                 </Link>
@@ -195,37 +195,37 @@ const Header = () => {
                                                     <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-magento-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Magento</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-magento-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Magento 2</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-shopify-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Shopify</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-symfony-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Symfony</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-opencart-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Opencart</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-virtuemart-developer'>
                                                                     <FaAngleRight />
                                                                     <span>VirtueMart</span>
                                                                 </Link>
@@ -235,31 +235,31 @@ const Header = () => {
                                                     <Col md={6}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-woocommerce-developer'>
                                                                     <FaAngleRight />
                                                                     <span>WooCommerce</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-prestashop-developer'>
                                                                     <FaAngleRight />
                                                                     <span>PrestaShop</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-bigcommerce-developer'>
                                                                     <FaAngleRight />
                                                                     <span>BigCommerce</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-nopcommerce-developer'>
                                                                     <FaAngleRight />
                                                                     <span>NopCommerce</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-zencart-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Zencart</span>
                                                                 </Link>
@@ -1168,7 +1168,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                          
+
                                             <Col md={4}>
 
                                             </Col>
