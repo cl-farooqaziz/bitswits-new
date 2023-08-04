@@ -81,7 +81,7 @@ export default function bankingfinance() {
 
 
 
-    // Imagine  component data
+    // experts  component data
 
     const experttitle = <h4 className='font40 black fontf font-bold line60 black text-center'>Here are just some of the things we can help you with
     </h4>

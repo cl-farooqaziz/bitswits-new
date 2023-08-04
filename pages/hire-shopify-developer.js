@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
+import whyStyles from '@/styles/whyServices.module.css'
 import exmplstyles from '@/styles/CrmExamples.module.css'
 //
 import Slider from "react-slick";
@@ -14,12 +15,20 @@ import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
+import WhyBuild from '@/components/WhyBuild';
 import CrmExamples from '@/components/CrmExamples';
-import Robust from '@/components/Robust';
+import Store from '@/components/Store';
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //Why Icon
+import icon24 from '../public/images/shopify/shopfy-icon-1.png'
+import icon25 from '../public/images/shopify/shopfy-icon-2.png'
+import icon26 from '../public/images/shopify/shopfy-icon-3.png'
+import icon27 from '../public/images/shopify/shopfy-icon-4.png'
+import icon28 from '../public/images/shopify/shopfy-icon-5.png'
+import icon29 from '../public/images/shopify/shopfy-icon-6.png'
+//
 import slide1 from '../public/images/eComDev/screenshot_1.png'
 import slide2 from '../public/images/eComDev/screenshot_2.png'
 import slide3 from '../public/images/eComDev/screenshot_3.png'
@@ -33,7 +42,7 @@ import slide10 from '../public/images/eComDev/screenshot_10.png'
 
 
 
-export default function hireLaravelDeveloper() {
+export default function hireShopifyDeveloper() {
 
 
     var crmExamples = {
@@ -49,45 +58,131 @@ export default function hireLaravelDeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire our expert <br /><span className='grdiant'>Laravel Developers</span> today</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Shopify Experts From a Leading <span className='grdiant'>Shopify Agency</span> UK</h1>
 
     const para = <>
+
+        <p className='font16 black fontf font-medium line30 mt-4'>Uncover Your Business Potential With The Power Of E-commerce</p>
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Extension Development
+                Official Shopify Partners
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Customization & Integration
+                Theme Development
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Web Development
+                Theme Customisation
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Application Development
+                App Development
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Custom Laravel Programming
+                App Configuration
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Maintenance & Support
+                Product Import & Maintenance
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Social Media Branding
             </li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered over <b>218 Laravel</b> projects in the last <b>9 years</b> - you can trust us with your project</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We've delivered more than <strong>71+ Shopify</strong> stores to over <strong>50 clients.</strong> What can we do for you?</p> </>
+
+
+
+    // Build component data
+
+    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
+        Our <span className='grdiant'>Shopify</span> Development Services
+    </h2>
+
+    const WhyBuilds = <>
+        <Row className={`${whyStyles.soluRow} mt-5`}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 class="font20 fontf font-bold line30">Theme Development</h5>
+                    <p>
+                        We can provide beautifully crafted themes from scratch following Shopify standards, or customise an existing theme. Either ways the results will be unique.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 class="font20 fontf font-bold line30">App Development</h5>
+                    <p>
+                        Existing apps not meeting you requirements, we can help to provide a range of additional functionality to engage you customers.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 class="font20 fontf font-bold line30">Magento to Shopify Migration</h5>
+                    <p>
+                        Need some help moving platforms? Let us take care of migrating everything for you, so you can concentrate on the rest of your business.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 class="font20 fontf font-bold line30">Support & Maintenance</h5>
+                    <p>
+                        We can stay with you at every step. Whether is routing maintenance, changes to you store or simple content management, we’re happy to help.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 class="font20 fontf font-bold line30">Social Media Branding</h5>
+                    <p>
+                        Our team can leverage the rich features that Shopify provides to enhance the visibility of your store and help maximise you ROI.
+                    </p>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                    </div>
+                    <h5 class="font20 fontf font-bold line30">Customised features</h5>
+                    <p>
+                        With the minimum of fuss, our experts can skilfully customise just about everything to help meet the needs of your growing business
+                    </p>
+                </div>
+            </Col>
+        </Row>
+
+    </>
 
 
 
     // Exmple component data
 
-    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>LARAVEL</span> solutions </h2> </>
+    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>Shopify</span> solutions</h2> </>
 
     const exmplSlider = <>
         <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
@@ -154,7 +249,8 @@ export default function hireLaravelDeveloper() {
         </Slider>
     </>
 
-    const exmplText = <> Let's talk about your LARAVEL requirements? </>
+    const exmplText = <> Let's talk about your Shopify Requirements </>
+
 
 
     return (
@@ -174,7 +270,13 @@ export default function hireLaravelDeveloper() {
             />
 
 
-            <Robust />
+            <Store />
+
+
+            <WhyBuild
+                cards={WhyBuilds}
+                subtitle={whytitle}
+            />
 
 
             <CrmExamples
@@ -182,6 +284,7 @@ export default function hireLaravelDeveloper() {
                 slider={exmplSlider}
                 text={exmplText}
             />
+
 
             <OurProject />
             <ClientsThink />

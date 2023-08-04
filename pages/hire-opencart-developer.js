@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import exmplstyles from '@/styles/CrmExamples.module.css'
+import whyStyles from '@/styles/whyServices.module.css'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -15,11 +16,18 @@ import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import CrmExamples from '@/components/CrmExamples';
-import Robust from '@/components/Robust';
+import Milestones from '@/components/Milestones';
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //Why Icon
+import milestones1 from '../public/images/opencart/ocart-icon-1.png'
+import milestones2 from '../public/images/opencart/ocart-icon-2.png'
+import milestones3 from '../public/images/opencart/ocart-icon-3.png'
+import milestones4 from '../public/images/opencart/ocart-icon-4.png'
+import milestones5 from '../public/images/opencart/ocart-icon-5.png'
+import milestones6 from '../public/images/opencart/ocart-icon-6.png'
+//
 import slide1 from '../public/images/eComDev/screenshot_1.png'
 import slide2 from '../public/images/eComDev/screenshot_2.png'
 import slide3 from '../public/images/eComDev/screenshot_3.png'
@@ -33,7 +41,7 @@ import slide10 from '../public/images/eComDev/screenshot_10.png'
 
 
 
-export default function hireLaravelDeveloper() {
+export default function hireOpenCartDeveloper() {
 
 
     var crmExamples = {
@@ -49,30 +57,30 @@ export default function hireLaravelDeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire our expert <br /><span className='grdiant'>Laravel Developers</span> today</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire <span className='grdiant'>Opencart Developers</span></h1>
 
     const para = <>
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Extension Development
+                Theme development & integration
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Customization & Integration
+                E-Commerce Solutions
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Web Development
+                Template Customization
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Laravel Application Development
+                Extensions Development
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Custom Laravel Programming
+                Version Upgrades Services
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
@@ -81,13 +89,68 @@ export default function hireLaravelDeveloper() {
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered over <b>218 Laravel</b> projects in the last <b>9 years</b> - you can trust us with your project</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We've delivered more than <strong>100+</strong> Opencart Solutions to <strong>70+</strong> clients in the last <strong>21 years</strong>. </p> </>
+
+
+
+    // Advantages component data
+
+    const value = <>
+        <Container>
+            <Row>
+                <Col xl={12}>
+                    <h3 className='font40 fontf font-bold line60 black text-center mb-5'>
+                        Unlimited Everything - Our Expertise Says It All!
+                    </h3>
+                </Col>
+            </Row>
+            <Row>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard}`}>
+                        <Image src={milestones1} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Single Vendor Solution</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard}`}>
+                        <Image src={milestones2} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Multi-Vendor Solution</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                        <Image src={milestones3} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Secure Payment Processing</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                        <Image src={milestones4} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Multi-Currency Management</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                        <Image src={milestones5} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">Payment Gateway Integration</h5>
+                    </div>
+                </Col>
+                <Col xl={4} className='p-0'>
+                    <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
+                        <Image src={milestones6} className='img-fluid me-auto mb-3' />
+                        <h5 class="font18 fontf font-semibold me-auto">3rd Party API Integration</h5>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+
+    </>
 
 
 
     // Exmple component data
 
-    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>LARAVEL</span> solutions </h2> </>
+    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Scroll down to see examples of our <span className='grdiant'>Open Cart</span> solutions</h2> </>
 
     const exmplSlider = <>
         <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
@@ -154,7 +217,9 @@ export default function hireLaravelDeveloper() {
         </Slider>
     </>
 
-    const exmplText = <> Let's talk about your LARAVEL requirements? </>
+    const exmplText = <> Let's talk about your Open Cart requirements </>
+
+
 
 
     return (
@@ -174,7 +239,10 @@ export default function hireLaravelDeveloper() {
             />
 
 
-            <Robust />
+
+            <Milestones
+                value={value}
+            />
 
 
             <CrmExamples
@@ -182,6 +250,7 @@ export default function hireLaravelDeveloper() {
                 slider={exmplSlider}
                 text={exmplText}
             />
+
 
             <OurProject />
             <ClientsThink />
