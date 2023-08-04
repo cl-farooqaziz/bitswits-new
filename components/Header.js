@@ -347,7 +347,7 @@ const Header = () => {
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hubspot'>
                                                                     <FaAngleRight />
                                                                     <span>HubSpot</span>
                                                                 </Link>
