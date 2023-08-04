@@ -96,6 +96,12 @@
   margin-bottom: 10px;
 }
 
+.sizImg {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 991px) {

@@ -31,14 +31,15 @@ import slide8 from '../public/images/eComDev/screenshot_8.png'
 import slide9 from '../public/images/eComDev/screenshot_9.png'
 import slide10 from '../public/images/eComDev/screenshot_10.png'
 //Why Icon
-import icon24 from '../public/images/hiremagento/m2-icon-01.png'
-import icon25 from '../public/images/hiremagento/m2-icon-02.png'
-import icon26 from '../public/images/hiremagento/m2-icon-03.png'
-import icon27 from '../public/images/hiremagento/m2-icon-04.png'
-import icon28 from '../public/images/hiremagento/m2-icon-05.png'
-import icon29 from '../public/images/hiremagento/m2-icon-06.png'
-import icon30 from '../public/images/hiremagento/m2-icon-07.png'
-import icon31 from '../public/images/hiremagento/m2-icon-08.png'
+import icon24 from '../public/images/prestashop/pre-icon-1.png'
+import icon25 from '../public/images/prestashop/pre-icon-2.png'
+import icon26 from '../public/images/prestashop/pre-icon-3.png'
+import icon27 from '../public/images/prestashop/pre-icon-4.png'
+import icon28 from '../public/images/prestashop/pre-icon-5.png'
+import icon29 from '../public/images/prestashop/pre-icon-6.png'
+import icon30 from '../public/images/prestashop/pre-icon-7.png'
+import icon31 from '../public/images/prestashop/pre-icon-8.png'
+import icon32 from '../public/images/prestashop/pre-icon-9.png'
 
 
 
@@ -58,7 +59,7 @@ export default function hirePrestashopDeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire our amazing 
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire our amazing
         <span className='grdiant'> PrestaShop Developers</span> (available now)
     </h1>
 
@@ -176,7 +177,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 class="font20 fontf font-medium line30">Module Development</h5>
                     <p>
