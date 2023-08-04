@@ -1,21 +1,23 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react';
-import { Row, Col } from 'react-bootstrap'
 import Image from 'next/image';
-import expStyles from '@/styles/MyExpertise.module.css'
+import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap'
 import whyStyles from '@/styles/whyServices.module.css'
+import reStyles from '@/styles/MyReason.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import MyExpertise from '@/components/MyExpertise';
 import WhyBuild from '@/components/WhyBuild';
+import IndustriesInt from '@/components/IndustriesInt'
+import IndusStyle from '@/components/IndustriesInt'
 //images
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
-//
+//Why Icon
 import icon24 from '../public/images/bigcommerce/bigcom-icon1.png'
 import icon25 from '../public/images/bigcommerce/bigcom-icon2.png'
 import icon26 from '../public/images/bigcommerce/bigcom-icon3.png'
@@ -29,48 +31,70 @@ import icon33 from '../public/images/bigcommerce/bigcom-icon10.png'
 import icon34 from '../public/images/bigcommerce/bigcom-icon11.png'
 import icon35 from '../public/images/bigcommerce/bigcom-icon12.png'
 //
-import icon1 from '../public/images/virtuemart/virtue-icon1.png'
-import icon2 from '../public/images/virtuemart/virtue-icon2.png'
-import icon3 from '../public/images/virtuemart/virtue-icon3.png'
-import icon4 from '../public/images/virtuemart/virtue-icon4.png'
-import icon5 from '../public/images/virtuemart/virtue-icon5.png'
-import icon6 from '../public/images/virtuemart/virtue-icon6.png'
+import icon1 from '../public/images/zencart/cdi-icon1.png'
+import icon2 from '../public/images/zencart/cdi-icon2.png'
+import icon3 from '../public/images/zencart/cdi-icon3.png'
+import icon4 from '../public/images/zencart/cdi-icon4.png'
+import icon5 from '../public/images/zencart/cdi-icon5.png'
+import icon6 from '../public/images/zencart/cdi-icon6.png'
 //
-import icon16 from '../public/images/virtuemart/vd-img1.png'
-import icon17 from '../public/images/virtuemart/vd-img2.png'
-import icon18 from '../public/images/virtuemart/vd-img3.png'
-import grnArrow from '../public/images/wbd-icons/arrow-green.png'
+import icon38 from '../public/images/industryInt/idu-1.png'
+import icon39 from '../public/images/industryInt/idu-2.png'
+import icon40 from '../public/images/industryInt/idu-3.png'
+import icon41 from '../public/images/industryInt/idu-4.png'
+import icon42 from '../public/images/industryInt/idu-5.png'
+import icon43 from '../public/images/industryInt/idu-6.png'
+import icon44 from '../public/images/industryInt/idu-7.png'
+import icon45 from '../public/images/industryInt/idu-8.png'
+import icon46 from '../public/images/industryInt/idu-9.png'
+import icon47 from '../public/images/industryInt/idu-10.png'
 
 
-export default function virtuemartDeveloper() {
+export default function hireZencartDeveloper() {
 
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Expert Senior <br /><span className='grdiant'>VirtueMart Developers</span> From Just $15/hr</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Our Expert <span className='grdiant'>Zen Cart Developers</span>  From Just £15/hr</h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>VirtueMart Customisation </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>E-Commerce Application Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Migration App to VirtueMart</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Payment Gateway Integration</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Custom Extension Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Theme Development & Integration</li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Zen Cart Customisation
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Skin and Design Services
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Custom Extension Development
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Shipping Methods Developments and Integration
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Migration Services
+            </li>
+            <li className="font16 fontf font-medium black">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Shopping Cart Development
+            </li>
         </ul>
-
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <strong>80+</strong> VirtueMart Solutions to <strong>70+</strong> clients in last <strong>10 years</strong>.</p> </>
-
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>Did you know? Our dedicated team have built over <b>114+</b> Zen Cart solutions in the last <b>11 years</b>.</p> </>
 
 
 
     // Build component data
 
     const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        <span className='grdiant'>VirtueMart Solutions</span>  From The Experts - Our Expertise Include
+        <span className='grdiant'>Zen Cart Solutions</span> From The Experts
     </h2>
 
     const WhyBuilds = <>
@@ -80,7 +104,10 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon1} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Custom Design <br /> Integration</h5>
+                    <h5 class="font20 fontf font-regular mt-3 line30">
+                        Custom Design &
+                        Integration
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -88,7 +115,10 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon2} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Shipping Methods <br /> Integration</h5>
+                    <h5 class="font20 fontf font-regular mt-3 line30">
+                        Payment Module
+                        Development
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -96,7 +126,10 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon3} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Web <br /> Services</h5>
+                    <h5 class="font20 fontf font-regular mt-3 line30">
+                        Template Design &
+                        Implementation
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -104,7 +137,10 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon4} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Online Store <br /> Development</h5>
+                    <h5 class="font20 fontf font-regular mt-3 line30">
+                        Online Store
+                        Development
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -112,143 +148,101 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon5} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Third Party <br /> API</h5>
+                    <h5 class="font20 fontf font-regular mt-3 line30">
+                        Google Analytics
+                        Integration
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon6} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Nested Category <br /> Support</h5>
+                    <h5 class="font20 fontf font-regular mt-3 line30">
+                        Upgrades &
+                        Maintenance
+                    </h5>
                 </div>
             </Col>
         </Row>
-
     </>
 
 
 
-    // MyExpertise component data
+    // Industry component data
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>VirtueMart Development And Customisation Services</h2>
+    const Industries = <>
+        <Row className={`${IndusStyle.soluRow} mt-3 text-center justify-content-center align-items-center`}>
+            <h4 className='text-center font30 font-bold'>Industries we're proud to serve
+            </h4>
+            <p>It is an application designed for one of the world's most diverse casino-entertainment providers "Cromwell Caesars Entertainment". The app is used to manage the growing needs of their guests, by incorporating the existing hotel systems into a handheld device, which offers guests an in-house digital access to complimentary and paid services for proactive assistance.
+            </p>
+            <Col lg={12}>
+                <div className={`${IndusStyle.indusblk}`}>
+                    <ul>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon38} alt="Real Estate" />
+                                <p>Real Estate </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon39} alt="Travel &amp; Hospitality" />
+                                <p> Travel &amp; Hospitality </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon40} alt="B2B Solutions" />
+                                <p>  B2B Solutions  </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon41} alt="Travel &amp; Hospitality" />
+                                <p>  Healthcare  </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon42} alt="Travel &amp; Hospitality" />
+                                <p>   Education & E-Learning   </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon43} alt="Travel &amp; Hospitality" />
+                                <p>   Banking & Finance  </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon44} alt="Travel &amp; Hospitality" />
+                                <p>   Startup Solutions   </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon45} alt="Travel &amp; Hospitality" />
+                                <p>    Startup Solutions </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon46} alt="Travel &amp; Hospitality" />
+                                <p>   Media & Publishing    </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon47} alt="Travel &amp; Hospitality" />
+                                <p>   Food & Drink   </p>
+                            </Link>
+                        </li>
 
-    const expCards = <>
-        <Row className={`${expStyles.soluRow} mt-5`}>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
-                    <div className={`${expStyles.imgBox} ${expStyles.sizImg}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Design & Development Services
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Theme Development, Customisation & Modification
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Responsive Templates Creation PSD to VirtueMart
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Logo/Banner Creation
-                                </li>
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
-                    <div className={`${expStyles.imgBox} ${expStyles.sizImg}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Custom Development
-                    </h5>
-                    <Row>
-                        <Col>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    VirtueMart Optimisation
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Online Store Customisation
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Customised Shopping Cart
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Product Addition and Data Import
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    HTML to VirtueMart Development
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Versions Upgrade
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Plugin Development & Customisation
-                                </li>
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.soluCardBB}`}>
-                    <div className={`${expStyles.imgBox} ${expStyles.sizImg}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Integration Services
-                    </h5>
-                    <Row>
-                        <Col>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    3rd Party Systems Integration
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Shipping Method Integration
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    New Theme Integration
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Facebook Store Integration
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Payment Gateway Integration
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Configure Free Shipping or Flat-Rate Shipping
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Valid Schema Markup for Improved SEO Performance
-                                </li>
-                            </ul>
-                        </Col>
-                    </Row>
+                    </ul>
                 </div>
             </Col>
         </Row>
@@ -258,11 +252,11 @@ export default function virtuemartDeveloper() {
 
     // Build component data
 
-    const whyChooseTtl = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        Choose Us Because
+    const whyChosetitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
+        Here are some reasons to choose us for your Zen Cart project
     </h2>
 
-    const WhyChoose = <>
+    const WhyChoseBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
@@ -400,7 +394,6 @@ export default function virtuemartDeveloper() {
     </>
 
 
-
     return (
         <>
             <Head>
@@ -413,8 +406,8 @@ export default function virtuemartDeveloper() {
             <Banner
                 title={heading}
                 para={para}
-                infopara={infopara}
                 bannerimg={banImg}
+                infopara={infopara}
             />
 
 
@@ -424,16 +417,14 @@ export default function virtuemartDeveloper() {
             />
 
 
-            <MyExpertise
-                title="Services"
-                subtitle={expsubtile}
-                cards={expCards}
+            <IndustriesInt
+                IndustriesInt={Industries}
             />
 
 
             <WhyBuild
-                cards={WhyChoose}
-                subtitle={whyChooseTtl}
+                cards={WhyChoseBuilds}
+                subtitle={whyChosetitle}
             />
 
 

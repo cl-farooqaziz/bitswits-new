@@ -31,9 +31,9 @@ import slide8 from '../public/images/eComDev/screenshot_8.png'
 import slide9 from '../public/images/eComDev/screenshot_9.png'
 import slide10 from '../public/images/eComDev/screenshot_10.png'
 //
-import icon16 from '../public/images/wbd-icons/wbd-t1.png'
-import icon17 from '../public/images/wbd-icons/wbd-t2.png'
-import icon18 from '../public/images/wbd-icons/wbd-t3.png'
+import icon16 from '../public/images/woocommerce/ourteam-icon-01.png'
+import icon17 from '../public/images/woocommerce/ourteam-icon-02.png'
+import icon18 from '../public/images/woocommerce/ourteam-icon-3.png'
 import grnArrow from '../public/images/wbd-icons/arrow-green.png'
 
 
@@ -85,29 +85,30 @@ export default function hireWoocommerceDeveloper() {
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        PHP
+                        Design & Development Services
                     </h5>
-                    <p>
-                        Powering nearly 80% of websites, PHP has established itself as the most popular server-side language. Here at BitsWits we cover a wide range of core PHP developments from simple scripts to complex, corporate systems.
-                    </p>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Core PHP
+                                    Brand new WooCommerce store design & build
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Larvel
+                                    Theme development & customization, modification
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Zend
+                                    Responsive templates creation
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    ROR
+                                    PSD to WooCommerce
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Logo/banner creation
                                 </li>
                             </ul>
                         </Col>
@@ -120,29 +121,42 @@ export default function hireWoocommerceDeveloper() {
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        .Net
+                        Custom Development
                     </h5>
-                    <p>
-                        Here at BitsWits our goals are to deliver work that exceeds our client’s satisfaction. With the strength of our core values and our vast array of skills, we promise to deliver the ultimate web applications and services.
-                    </p>
                     <Row>
-                        <Col sm={6}>
+                        <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    ASP.NET
+                                    WooCommerce optimization
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    C#
+                                    WordPress store customization
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Umbraco
+                                    WordPress Storefront theme customization with deep WooCommerce integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    DNN
+                                    Customized WordPress shopping cart
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Product addition and data import
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    HTML to WooCommerce development
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Versions upgrade
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Plugin development & customization
                                 </li>
                             </ul>
                         </Col>
@@ -155,25 +169,40 @@ export default function hireWoocommerceDeveloper() {
                         <Image src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        CRM
+                        Integration Services
                     </h5>
-                    <p>
-                        As far as CRM (Customer Relationship Management) systems go, here at BitsWits our professionals have extensive industry experience when it comes to developing CRM solutions.
-                    </p>
                     <Row>
                         <Col>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    MS Dynamics CRM
+                                    3rd party systems integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Salesforce
+                                    Shipping method integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Sharepoint
+                                    New theme integration
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Facebook Store integration
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Payment gateway integration (bundled
+                                    gateways or specific payment gateways)
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Configure free shipping or flat-rate shipping
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Valid schema markup for improved SEO
+                                    performance
                                 </li>
                             </ul>
                         </Col>
