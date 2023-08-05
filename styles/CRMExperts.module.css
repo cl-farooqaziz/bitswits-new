@@ -48,6 +48,14 @@
   width: 90%;
 }
 
+.sizImg .imgBox {
+  width: 20%;
+}
+
+.sizImg{
+  align-items: center;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 991px) {

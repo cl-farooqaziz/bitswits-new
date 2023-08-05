@@ -4,7 +4,6 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import whyStyles from '@/styles/whyServices.module.css'
-import reStyles from '@/styles/MyReason.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
 import OurProject from '@/components/OurProject';

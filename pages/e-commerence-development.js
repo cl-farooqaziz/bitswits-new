@@ -196,7 +196,7 @@ export default function ecommerencedevelopment() {
     const WhyBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon18} alt='BitsWits' className='img-fluid' />
@@ -212,7 +212,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon19} alt='BitsWits' className='img-fluid' />
@@ -228,7 +228,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon20} alt='BitsWits' className='img-fluid' />
@@ -244,7 +244,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon21} alt='BitsWits' className='img-fluid' />
@@ -260,7 +260,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon22} alt='BitsWits' className='img-fluid' />
@@ -276,7 +276,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon23} alt='BitsWits' className='img-fluid' />
@@ -292,7 +292,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
@@ -308,7 +308,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
@@ -324,7 +324,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon26} alt='BitsWits' className='img-fluid' />
@@ -340,7 +340,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon27} alt='BitsWits' className='img-fluid' />
@@ -356,7 +356,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon28} alt='BitsWits' className='img-fluid' />
@@ -372,7 +372,7 @@ export default function ecommerencedevelopment() {
                 </div>
             </Col>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} justify-content-between ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon29} alt='BitsWits' className='img-fluid' />

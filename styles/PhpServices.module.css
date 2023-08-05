@@ -98,3 +98,76 @@
   justify-content: space-between;
   align-items: stretch;
 }
+
+/* ================================= */
+
+.right {
+  gap: 15px;
+}
+
+.right .servicesBox:nth-child(odd) {
+  top: 0px;
+}
+
+.right .servicesBox {
+  width: 32%;
+  margin-bottom: 0;
+}
+
+.leftArm {
+  background: #000;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px 0 20px;
+  height: 100%;
+}
+
+.leftArm :after {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid #fff;
+  content: "";
+  top: 50%;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .phpServices {
+    padding: 50px 0;
+  }
+
+  .servicesBox,
+  .right .servicesBox {
+    width: 48%;
+  }
+
+  .right {
+    margin-top: 30px;
+  }
+
+  .leftArm :after {
+    display: none;
+  }
+
+  .left {
+    padding: 20px;
+  }
+
+  .servicesBox:nth-child(odd) {
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .servicesBox,
+  .right .servicesBox {
+    width: 100%;
+  }
+}
