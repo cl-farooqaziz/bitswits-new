@@ -54,7 +54,7 @@ export default function hireZencartDeveloper() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Our Expert <span className='grdiant'>Zen Cart Developers</span>  From Just £15/hr</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire Our Expert <span className='grdiant'>Zen Cart Developers</span>  From Just $15/hr</h1>
 
     const para = <>
 

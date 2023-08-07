@@ -373,43 +373,43 @@ const Header = () => {
                                                     <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/drupal-cms-development'>
                                                                     <FaAngleRight />
                                                                     <span>Drupal</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-wordpress-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Wordpress</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-joomla-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Joomla</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-sharepoint-developer'>
                                                                     <FaAngleRight />
                                                                     <span>SharePoint</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-umbraco-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Umbraco</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-dot-net-nuke-developer'>
                                                                     <FaAngleRight />
                                                                     <span>DNN</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-craft-cms-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Craft</span>
                                                                 </Link>
@@ -435,37 +435,37 @@ const Header = () => {
                                                     <Col md={12}>
                                                         <ul className='mb-0 ps-0 mt-2'>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-java-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Java</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-angular-js-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Angular JS</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-node-js-developer'>
                                                                     <FaAngleRight />
                                                                     <span>Node JS</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-mean-stack-developer'>
                                                                     <FaAngleRight />
                                                                     <span>MEAN Stack</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-mongodb-developer'>
                                                                     <FaAngleRight />
                                                                     <span>MongoDB</span>
                                                                 </Link>
                                                             </li>
                                                             <li>
-                                                                <Link onClick={handleMenu} href='#'>
+                                                                <Link onClick={handleMenu} href='/hire-react-native-developer'>
                                                                     <FaAngleRight />
                                                                     <span>React Native</span>
                                                                 </Link>
