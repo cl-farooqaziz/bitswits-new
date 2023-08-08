@@ -62,7 +62,7 @@ const AboutUsSec = () => {
                             <h3 className='font20 fontf font-semibold mt-1 letterspace black'>About Us</h3>
                         </Col>
                         <Col lg={7}>
-                            <h2 className='font65 black fontf font-bold line60 black'>A Performance-Driven Global Remote Team of Expert <span className='grdiant'>App Developers!</span></h2>
+                           
                         </Col>
                         <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">

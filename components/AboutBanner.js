@@ -19,7 +19,7 @@ const AboutBanner = () => {
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
                         <div className={styles.banerTxt}>
-                            <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Mobile App Development </span> Company!</h1>
+                            <h1 className='font65 black fontf font-bold line60'> <span className='grdiant'>About</span> Us</h1>
                             <p className='black fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
 
                             <div className={`${styles.bttnsto} mt-3`}>
