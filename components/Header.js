@@ -662,7 +662,28 @@ const Header = () => {
                                     />
                                 </div>
                                 <Row className={styles.megaRow}>
-                                    <Col lg={3} md={6}>
+                                   
+                                    <Col lg={4} md={6}>
+                                        <div className={styles.listMain}>
+                                            <div className={styles.listHeading}>
+                                                <div className={styles.megaIcon}>
+                                                    <Image alt="bitswits" className='img-fluid'
+                                                        src={about}
+                                                    />
+                                                </div>
+                                                <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
+                                            </div>
+                                            <div className={styles.listBody}>
+                                                <Row>
+                                                    <Col md={12}>
+                                                        <p>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
+                                                        <Link className={styles.download} onClick={opnen} href='#' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
+                                                    </Col>
+                                                </Row>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={2} md={6}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
@@ -679,10 +700,10 @@ const Header = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/about-us'>
                                                                     <FaAngleRight />
-                                                                    <span>Creative Agency</span>
+                                                                    <span>About Us</span>
                                                                 </Link>
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <Link onClick={handleMenu} href='#'>
                                                                     <FaAngleRight />
                                                                     <span>Fulfilment</span>
@@ -713,28 +734,8 @@ const Header = () => {
                                                                     <FaAngleRight />
                                                                     <span>Contact Us</span>
                                                                 </Link>
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
-                                                    </Col>
-                                                </Row>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={3} md={6}>
-                                        <div className={styles.listMain}>
-                                            <div className={styles.listHeading}>
-                                                <div className={styles.megaIcon}>
-                                                    <Image alt="bitswits" className='img-fluid'
-                                                        src={about}
-                                                    />
-                                                </div>
-                                                <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
-                                            </div>
-                                            <div className={styles.listBody}>
-                                                <Row>
-                                                    <Col md={12}>
-                                                        <p>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
-                                                        <Link className={styles.download} onClick={opnen} href='#' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
                                                     </Col>
                                                 </Row>
                                             </div>
