@@ -94,12 +94,12 @@ else{
 
      
 
-    <Banner />
-      <Rated />
-      <About />
+   
       {showComponent && (
         <>
-      
+       <Banner />
+      <Rated />
+      <About />
       <Yearsofexpertise />
       <Ourservices />
       <Lookingfor />
