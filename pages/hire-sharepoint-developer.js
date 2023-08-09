@@ -16,12 +16,12 @@ import Portal from '@/components/Portal';
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //
-import icon22 from '../public/images/etpSolutions/etp-icon1.png'
-import icon23 from '../public/images/etpSolutions/etp-icon2.png'
-import icon24 from '../public/images/etpSolutions/etp-icon3.png'
-import icon27 from '../public/images/etpSolutions/etp-icon6.png'
-import icon28 from '../public/images/etpSolutions/etp-icon7.png'
-import icon29 from '../public/images/etpSolutions/etp-icon8.png'
+import icon22 from '../public/images/sharepoint/share-point-icon-1.png'
+import icon23 from '../public/images/sharepoint/share-point-icon-2.png'
+import icon24 from '../public/images/sharepoint/share-point-icon-3.png'
+import icon27 from '../public/images/sharepoint/share-point-icon-4.png'
+import icon28 from '../public/images/sharepoint/share-point-icon-5.png'
+import icon29 from '../public/images/sharepoint/share-point-icon-6.png'
 //
 import sevcImg from '../public/images/etpSolutions/serviceimg.png'
 
@@ -36,18 +36,34 @@ export default function sharepointdevelopment() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Strategy Assessment And Consulting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> User Interface Design And USablity </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> End-To-End Portal Application Programming </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Third Party Web Services </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Legacy Business Applications </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Quality Assurance And Complete Testing </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Portal Setup And Maintenance Support </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Poratl Upgrades And New Features Enhancements </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Sharepoint websites
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Web part-development
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Workflow development
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Business workflows
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                MS Dynamics CRM
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Enterprise collaboration
+            </li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>80+</b> Sharepoint Portal solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>50+</b> Sharepoint Portal solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
 
 
 
@@ -64,10 +80,11 @@ export default function sharepointdevelopment() {
                             <Image src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Effective Resource Utilization
+                            Online Document
+                            Management System
                         </h5>
                         <p>
-                            Developing effective management skills to deal with certain challenges and problems of every organization is the urgent need of many businesses and organizations in the global competitive environment, which continues the changing of technology and environment.
+                            Our team has the capability to manage the Document management system (DMS) of platform. This DMS includes categories of different documents, creating a custom metadata column in SharePoint, creating custom wcontent types, preparing document library for custom content types and custom metadata etc.
                         </p>
                     </div>
                 </div>
@@ -79,7 +96,8 @@ export default function sharepointdevelopment() {
                             <Image src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Smarter, Simpler, Efficient And Well-Coordinated Processes
+                            Integration with Business Applications
+                            like Microsoft Dynamics CRM
                         </h5>
                         <p>
                             The larger the enterprise, the more challenges there are. Therefore, to implement large scale tools that help enterprises in bringing different processes, people and data on one platform, enterprise solutions are developed.
@@ -94,7 +112,7 @@ export default function sharepointdevelopment() {
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Easy Access To Data, Even From Different Locations
+                            Site Pages Designing
                         </h5>
                         <p>
                             One of the biggest challenges that companies with multiple locations face is sharing data from one part of the company with another. Even when all portions of the company want to share, it’s often hard to figure out the best way to do so. Enterprise portal solutions ease this problem beautifully.
@@ -109,7 +127,8 @@ export default function sharepointdevelopment() {
                             <Image src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Enhanced Customer Relationship
+                            Workflow Creation and Business
+                            Process Management
                         </h5>
                         <p>
                             ECM systems can be successfully integrated into any business, like in the case of financial services, public sector, media and entertainment, manufacturing and utilities, healthcare, education, e-commerce, services and transport- at Team In India, we provide you these enterprise portal solution developments.
@@ -124,7 +143,8 @@ export default function sharepointdevelopment() {
                             <Image src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Reduced Cost
+                            Site Branding and Page
+                            Customization
                         </h5>
                         <p>
                             ERP solutions for manufacturing are being built with speed and productivity as the focus. And that unquestionably means that employing such a system at your company will build the benefits of cost reduction and streamlined operations.
@@ -139,7 +159,7 @@ export default function sharepointdevelopment() {
                             <Image src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Increased Business Revenue
+                            Installation and Site Migration
                         </h5>
                         <p>
                             A business Intelligence system produces detailed analysis that can benefit every company. The tools can track performance, identify hidden trends and strategic information – providing powerful analytics to highlight the right data for business decisions, affecting growth and success.
@@ -161,23 +181,16 @@ export default function sharepointdevelopment() {
                     <Image src={sevcImg} alt='BitsWits' className='img-fluid' />
                 </Col>
                 <Col lg={6} className='mx-auto'>
-                    <h3 className='font-bold mb-3'>Sharepoint Portal Development Services</h3>
+                    <h3 className='font-bold mb-3'>Services we offer</h3>
                     <ul>
-                        <li>Social Networks and Communities</li>
-                        <li>Content Distribution Portals (Digital Docs and Media)</li>
-                        <li>B2C and B2B Ecommerce Portals</li>
-                        <li>Enterprise Information Portals</li>
-                        <li>Business Intelligence Portals</li>
-                        <li>Sales Management Solution</li>
-                        <li>Production Management Solutions</li>
-                        <li>Supply Chain Management</li>
-                        <li>Customer Relation Management</li>
-                        <li>Human Capital Management</li>
-                        <li>Finance Management Solutions</li>
-                        <li>Service Management Solutions</li>
-                        <li>Project Management Solutions</li>
-                        <li>Knowledge Management Portals</li>
-                        <li>Application/Web Services Portals</li>
+                        <li>SharePoint Development</li>
+                        <li>Document Management</li>
+                        <li>Custom made solutions</li>
+                        <li>Language integrated query</li>
+                        <li>Sharepoint Administration</li>
+                        <li>Site migration</li>
+                        <li>Branding & Customization</li>
+                        <li>SharePoint Installation</li>
                     </ul>
                 </Col>
             </Row>

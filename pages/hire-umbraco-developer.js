@@ -22,14 +22,16 @@ import CrmExamples from '@/components/CrmExamples';
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //
-import icon22 from '../public/images/etpSolutions/etp-icon1.png'
-import icon23 from '../public/images/etpSolutions/etp-icon2.png'
-import icon24 from '../public/images/etpSolutions/etp-icon3.png'
-import icon27 from '../public/images/etpSolutions/etp-icon6.png'
-import icon28 from '../public/images/etpSolutions/etp-icon7.png'
-import icon29 from '../public/images/etpSolutions/etp-icon8.png'
+import icon22 from '../public/images/umbraco/umbraco-icon-1.png'
+import icon23 from '../public/images/umbraco/umbraco-icon-2.png'
+import icon24 from '../public/images/umbraco/umbraco-icon-3.png'
+import icon25 from '../public/images/umbraco/umbraco-icon-4.png'
+import icon26 from '../public/images/umbraco/umbraco-icon-5.png'
+import icon27 from '../public/images/umbraco/umbraco-icon-6.png'
+import icon28 from '../public/images/umbraco/umbraco-icon-7.png'
+import icon29 from '../public/images/umbraco/umbraco-icon-8.png'
 //
-import sevcImg from '../public/images/etpSolutions/serviceimg.png'
+import sevcImg from '../public/images/umbraco/serviceimg3.png'
 //
 import slide1 from '../public/images/crmDev/crmTesti1.png'
 import slide2 from '../public/images/crmDev/crmTesti2.png'
@@ -61,24 +63,48 @@ export default function umbracodevelopment() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Strategy Assessment And Consulting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> User Interface Design And USablity </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> End-To-End Portal Application Programming </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Third Party Web Services </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Legacy Business Applications </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Quality Assurance And Complete Testing </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Portal Setup And Maintenance Support </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Poratl Upgrades And New Features Enhancements </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                E-Commerce
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Backoffice
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                User Interaction
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Site Owners
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Multi Language
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Cloud
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Certified
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Add-ONS
+            </li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>80+</b> Umbraco Portal solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>50+ Umbraco Portal</b> since it was launched publicly in <b>2004</b>. </p> </>
 
 
 
     // Build component data
 
-    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>We Let Our Business Values Look After Our Quality Of Work</h2>
+    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Our Specialised Solutions</h2>
 
     const WhyBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -117,7 +143,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Proven Results
@@ -132,7 +158,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Custom CMS Development
@@ -147,7 +173,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             E-Commerce
