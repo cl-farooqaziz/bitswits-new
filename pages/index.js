@@ -57,7 +57,31 @@ export default function Home() {
   //   };
   // }, []);
 
+  const [showComponent, setShowComponent] = useState('');
 
+  useEffect(() => { 
+
+  if(window.innerWidth > 480) { 
+
+  setShowComponent(true);
+ 
+}
+else{
+
+  setShowComponent(false);
+  setTimeout(alertFunc, 5000);
+ 
+  
+  function alertFunc() {
+    setShowComponent(true);
+  }
+
+}
+  
+
+
+
+  }, []);
 
   return (
     <>
@@ -68,11 +92,14 @@ export default function Home() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
+     
 
-
-      <Banner />
+    <Banner />
       <Rated />
       <About />
+      {showComponent && (
+        <>
+      
       <Yearsofexpertise />
       <Ourservices />
       <Lookingfor />
@@ -83,21 +110,13 @@ export default function Home() {
       <Nextproject />
       <Ourblogs />
       <OurProject />
-      <Contact />
-      {/* {showComponent && (
-        <>
+      <Contact /> 
 
-          <Trusted />
-          <Ourportfolio />
-          <Digital />
-          <ClientsThink />
-          <Nextproject />
-          <Ourblogs />
-          <OurProject />
-          <Contact />
-        </>
-      )} */}
+      </>
+      )}
 
+
+      
 
 
 
