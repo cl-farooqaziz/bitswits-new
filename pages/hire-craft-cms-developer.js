@@ -17,12 +17,21 @@ import IndustriesInt from '@/components/IndustriesInt'
 import banImg from '../public/images/banner/webBanner.png'
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 //
-import icon22 from '../public/images/etpSolutions/etp-icon1.png'
-import icon23 from '../public/images/etpSolutions/etp-icon2.png'
-import icon24 from '../public/images/etpSolutions/etp-icon3.png'
-import icon27 from '../public/images/etpSolutions/etp-icon6.png'
-import icon28 from '../public/images/etpSolutions/etp-icon7.png'
-import icon29 from '../public/images/etpSolutions/etp-icon8.png'
+import icon1 from '../public/images/craft/about-craft-cms-icon1.png'
+import icon2 from '../public/images/craft/about-craft-cms-icon2.png'
+import icon3 from '../public/images/craft/about-craft-cms-icon3.png'
+import icon4 from '../public/images/craft/about-craft-cms-icon4.png'
+import icon5 from '../public/images/craft/about-craft-cms-icon5.png'
+import icon6 from '../public/images/craft/about-craft-cms-icon6.png'
+import icon7 from '../public/images/craft/about-craft-cms-icon7.png'
+import icon8 from '../public/images/craft/about-craft-cms-icon8.png'
+//
+import icon22 from '../public/images/craft/craft-cms-icon1.png'
+import icon23 from '../public/images/craft/craft-cms-icon2.png'
+import icon24 from '../public/images/craft/craft-cms-icon3.png'
+import icon25 from '../public/images/craft/craft-cms-icon4.png'
+import icon26 from '../public/images/craft/craft-cms-icon5.png'
+import icon27 from '../public/images/craft/craft-cms-icon6.png'
 //
 import icon35 from '../public/images/industryInt/idu-1.png'
 import icon36 from '../public/images/industryInt/idu-2.png'
@@ -53,29 +62,45 @@ export default function craftDevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Hire our Leading <br /><span className='grdiant'>Craft CMS</span> In Agency UK</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Hire our Leading <br /><span className='grdiant'>Craft CMS</span> Agency UK</h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Strategy Assessment And Consulting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> User Interface Design And USablity </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> End-To-End Portal Application Programming </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Third Party Web Services </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Legacy Business Applications </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Quality Assurance And Complete Testing </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Portal Setup And Maintenance Support </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Poratl Upgrades And New Features Enhancements </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Craft Website Development
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Craft Ecommerce Development
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Craft CMS Customization
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Craft CMS Plugin Development
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Craft CMS Migration
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                Craft Maintenance
+            </li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>80+</b> Craft CMS Portal solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>Get a flexible and user-friendly website with our <b>Craft CMS</b> development solutions.</p> </>
 
 
 
     // Build component data
 
-    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Our Craft CMS Solutions</h2>
+    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>Craft CMS</span> Solutions</h2>
 
     const WhyBuilds = <>
         <Row className={`${whyStyles.soluRow} justify-content-center mt-5`}>
@@ -85,9 +110,9 @@ export default function craftDevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            50+ Umbraco
-                            Developers
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Craft Website
+                            Development
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -101,8 +126,9 @@ export default function craftDevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Planning & Design
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Craft eCommerce
+                            Development
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -114,10 +140,11 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Proven Results
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Craft CMS
+                            Customization
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -129,10 +156,11 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            E-Commerce
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Craft CMS
+                            Migration
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -144,10 +172,11 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Umbraco UI Design
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Craft CMS
+                            Plugin Development
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -159,10 +188,11 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Intranet Applications
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Craft Support
+                            and Maintenance
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -258,7 +288,7 @@ export default function craftDevelopment() {
 
     // Build component data
 
-    const whySpcltitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Things We Like About Craft CMS</h2>
+    const whySpcltitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Things We Like About <span className='grdiant'>Craft CMS</span></h2>
 
     const WhySpclBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -266,11 +296,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon1} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            50+ Umbraco
-                            Developers
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Easy Customisation
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -282,10 +311,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon2} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Planning & Design
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Live Preview
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -297,10 +326,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon3} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Proven Results
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Compatibility
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -312,10 +341,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon4} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Custom CMS Development
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Lightweight
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -327,10 +356,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon5} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            E-Commerce
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Enhanced Security
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -342,10 +371,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon6} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Umbraco UI Design
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Easy-to-Update
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -357,10 +386,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon7} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Intranet Applications
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            Lifetime Licence
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
@@ -372,10 +401,10 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                            <Image src={icon8} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font18 fontf font-regular mt-3'>
-                            Umbraco API
+                        <h5 className='font18 fontf font-bold mt-3'>
+                            SEO-Friendly
                         </h5>
                         <p>
                             We can build e-commerce applications with no hesitation and will implement them on custom platforms.
