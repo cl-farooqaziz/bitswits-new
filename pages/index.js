@@ -59,25 +59,25 @@ export default function Home() {
 
   const [showComponent, setShowComponent] = useState('');
 
-  useEffect(() => { 
+  useEffect(() => {
 
-  if(window.innerWidth > 480) { 
+    if (window.innerWidth > 480) {
 
-  setShowComponent(true);
- 
-}
-else{
+      setShowComponent(true);
 
-  setShowComponent(false);
-  setTimeout(alertFunc, 5000);
- 
-  
-  function alertFunc() {
-    setShowComponent(true);
-  }
+    }
+    else {
 
-}
-  
+      setShowComponent(false);
+      setTimeout(alertFunc, 5000);
+
+
+      function alertFunc() {
+        setShowComponent(true);
+      }
+
+    }
+
 
 
 
@@ -92,31 +92,31 @@ else{
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-     
 
-    <Banner />
+
+      <Banner />
       <Rated />
       <About />
       {showComponent && (
         <>
-      
-      <Yearsofexpertise />
-      <Ourservices />
-      <Lookingfor />
-      <Trusted />
-      <Ourportfolio />
-      <Digital />
-      <ClientsThink />
-      <Nextproject />
-      <Ourblogs />
-      <OurProject />
-      <Contact /> 
 
-      </>
+          <Yearsofexpertise />
+          <Ourservices />
+          <Lookingfor />
+          <Trusted />
+          <Ourportfolio />
+          <Digital />
+          <ClientsThink />
+          <Nextproject />
+          <Ourblogs />
+          <OurProject />
+          <Contact />
+
+        </>
       )}
 
 
-      
+
 
 
 
