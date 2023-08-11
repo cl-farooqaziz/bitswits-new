@@ -1,20 +1,39 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/Banner'
-import Rated from '@/components/Rated'
-import About from '@/components/About'
-import Yearsofexpertise from '@/components/Yearsofexpertise'
-import Nextproject from '@/components/Nextproject'
-import Ourservices from '@/components/Ourservices'
-import Lookingfor from '@/components/Lookingfor'
-import Trusted from '@/components/Trusted'
-import Ourportfolio from '@/components/Ourportfolio'
-import Digital from '@/components/Digital';
-import Ourblogs from '@/components/Ourblogs'
-import ClientsThink from '@/components/ClientsThink'
-import Contact from '@/components/Contact'
-import OurProject from '@/components/OurProject'
+// import Banner from '@/components/Banner'
+// import Rated from '@/components/Rated'
+// import About from '@/components/About'
+// import Yearsofexpertise from '@/components/Yearsofexpertise'
+// import Nextproject from '@/components/Nextproject'
+// import Ourservices from '@/components/Ourservices'
+// import Lookingfor from '@/components/Lookingfor'
+// import Trusted from '@/components/Trusted'
+// import Ourportfolio from '@/components/Ourportfolio'
+// import Digital from '@/components/Digital';
+// import Ourblogs from '@/components/Ourblogs'
+// import ClientsThink from '@/components/ClientsThink'
+// import Contact from '@/components/Contact'
+// import OurProject from '@/components/OurProject'
+import dynamic from 'next/dynamic';
+
+const Banner = dynamic(() => import( '@/components/Banner'));
+const Rated = dynamic(() => import( '@/components/Rated'));
+const About = dynamic(() => import( '@/components/About'));
+const Yearsofexpertise = dynamic(() => import( '@/components/Yearsofexpertise'));
+const Nextproject = dynamic(() => import( '@/components/Nextproject'));
+const Ourservices = dynamic(() => import( '@/components/Ourservices'));
+const Lookingfor = dynamic(() => import( '@/components/Lookingfor'));
+const Trusted = dynamic(() => import( '@/components/Trusted'));
+const Ourportfolio = dynamic(() => import( '@/components/Ourportfolio'));
+const Digital = dynamic(() => import( '@/components/Digital'));
+const Ourblogs = dynamic(() => import( '@/components/Ourblogs'));
+const ClientsThink = dynamic(() => import( '@/components/ClientsThink'));
+const Contact = dynamic(() => import( '@/components/Contact'));
+const OurProject = dynamic(() => import( '@/components/OurProject'));
+
+
+
 
 
 export default function Home() {
