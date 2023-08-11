@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 @font-face {
   font-family: Nofex;
@@ -1205,4 +1206,439 @@ input::-webkit-inner-spin-button {
 
 .greyscale{
   filter: grayscale(1);
+}
+
+
+
+/* bitswits */
+
+
+
+:root {
+  --p-color: #e83468;
+  --b-color: #000000;
+  --w-color: #ffffff;
+  --dg-color: #5e5c5c;
+  --g-color: #434343;
+  --p-fonts: "Playfair+Display", sans-serif;
+  --s-fonts: "Montserrat", sans-serif;
+  --b-fonts: "Poppins", sans-serif;
+  
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+/* fontfamilys */
+.f-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.f-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.f-playfair {
+  font-family: "Montserrat", sans-serif;
+}
+.f-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* fontweight */
+.f-400 {
+  font-weight: 400;
+}
+.f-500 {
+  font-weight: 500;
+}
+.f-600 {
+  font-weight: 600;
+}
+.f-700 {
+  font-weight: 700;
+}
+
+/* fontsizes */
+.f-12 {
+  font-size: 12px;
+  line-height: 22px;
+}
+.f-14 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.f-15 {
+  font-size: 15px;
+  line-height: 25px;
+}
+.f-16 {
+  font-size: 16px;
+  line-height: 26px;
+}
+.f-17 {
+  font-size: 17px;
+  line-height: 27px;
+}
+.f-18 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.f-20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.f-22 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.f-28 {
+  font-size: 28px;
+  line-height: 38px;
+}
+.f-30 {
+  font-size: 30px;
+  line-height: 40px;
+}
+.f-50 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.f-60 {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+/* lineheight */
+.lheight24 {
+  line-height: 24px;
+}
+.lheight70 {
+  line-height: 70px;
+}
+.lheight60 {
+  line-height: 60px;
+}
+.lheight23 {
+  line-height: 23px;
+}
+
+/* textalign */
+.t-center {
+  text-align: center;
+}
+.t-left {
+  text-align: left;
+}
+.t-right {
+  text-align: right;
+}
+.t-justify {
+  text-align: justify;
+}
+
+/* colors */
+.black {
+  color: var(--b-color);
+}
+.orange {
+  color: var(--p-color);
+}
+.white {
+  color: var(--w-color);
+}
+.grey {
+  color: var(--dg-color);
+}
+
+.g-color {
+  color: var(--g-color);
+}
+
+/* =====Btns===== */
+.btns {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+  font-family: var(--s-fonts);
+  text-transform: uppercase;
+}
+
+/* ========== */
+:focus-visible {
+  outline: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.border-r {
+  border-right: 1px solid #ddd;
+}
+
+.border-l {
+  border-left: 1px solid #ddd;
+}
+
+.border-btm {
+  border-bottom: 1px solid var(--dg-color);
+}
+
+.f-uppercase {
+  text-transform: uppercase;
+}
+
+.f-capitalize {
+  text-transform: capitalize;
+}
+
+.ourspacing {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.endor .slick-slide img {
+  display: block;
+  margin: auto;
+}
+
+.bgimageserve {
+  background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.imgspacetop {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.sector {
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================Changes================== */
+
+.testtimonials .slick-slider .slick-prev,
+.bannerslider.slick-slider .slick-prev {
+  display: none !important;
+}
+
+.testtimonials .slick-slider .slick-next {
+  top: 90%;
+  right: 0;
+}
+
+.bannerslider.slick-slider .slick-next {
+  top: 235px;
+  right: 10px;
+}
+
+.testtimonials .slick-slider .slick-next:before,
+.bannerslider.slick-slider .slick-next:before {
+  content: url(/images/icons/arrow.webp);
+  opacity: 1;
+}
+
+.faqsgloble .accordion-header {
+  border: 1px solid #c5c5c5;
+}
+
+.faqsgloble .accordion-item {
+  border: unset;
+  text-align: left;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.faqsgloble .accordion-button:focus {
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+}
+
+.faqsgloble .accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #fff;
+  box-shadow: 0;
+  border: 0;
+}
+
+.faqsgloble .accordion-header button {
+  display: flex;
+  align-items: center;
+  padding: 13px 20px !important;
+  height: auto;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+  border: unset;
+  text-align: left;
+  position: relative;
+}
+
+.headimg .d-block img {
+  transform-origin: top right;
+  animation: 0.5s ease-in-out forwards growLeft;
+  margin: 0 auto;
+  display: block;
+}
+
+@keyframes growLeft {
+  0% {
+    transform: scaleX(0);
+  }
+  80% {
+    transform: scaleX(1.1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.getmodalvideo .modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: unset;
+  background-color: #000000;
+}
+.getmodalvideo {
+  background-color: black;
+  z-index: 9999 !important;
+}
+
+.touch .d-block {
+  padding-top: unset !important;
+  padding: 1.5em;
+  animation: 0.7s ease-in-out forwards growDown;
+  transform-origin: top;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.touch {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.touch div {
+  border: unset;
+}
+
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 1200px) {
+  .border-r {
+    border-right: 0;
+  }
+
+  .border-l {
+    border-left: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .bgimageserve .col-md-4 {
+    width: 100%;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .f-20 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .f-22 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .f-28 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .f-30 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .f-50 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .f-60 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .lheight70 {
+    line-height: 45px;
+  }
+
+  .d-sm-none {
+    display: none !important;
+  }
+
+  .herofold {
+    padding: 18% 0 4%;
+  }
+
+  .btns {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .bannerslider.slick-slider .slick-next {
+    top: 220px;
+    right: 50%;
+  }
+
+  .testtimonials .slick-slider .slick-next {
+    display: none !important;
+  }
 }
