@@ -61,12 +61,12 @@ const Endorsements = () => {
 
                                 <p className="f-montserrat f-700 f-14 mb-0 grey lheight24 t-justify">Endorsements on different Platforms</p>
 
-                                <h1 className="f-50 f-playfair f-700 mb-3 black lheight60">Awards And Recognition</h1>
+                                <h1 className="f-50 f-playfair f-700 mb-3 black lheight60"> <span className='grdiant'>Awards</span> And Recognition</h1>
 
 
                                 <br className="d-block d-md-none d-sm-none" />
 
-                                <p className="f-14 f-montserrat mb-2 lheight23 t-justify">
+                                <p className="f-16 f-montserrat mb-2 lheight23 font-medium">
                                     Thriving on accelerating the path to disruption and value creation in all directions has enabled us to receive acknowledgment and recognition by leading ratings and review platforms.
                                 </p>
 

@@ -226,9 +226,10 @@ export default function androidappdevelopmentcompanylp() {
             </div>
 
 
+          
+            <Enhanced />
             <Ready/>
             <Scalable />
-            <Enhanced />
 
             <Musicapp />
             <Cab />
