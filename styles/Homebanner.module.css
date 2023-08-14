@@ -1,7 +1,6 @@
 .herofold {
   background-color: var(--w-color);
   min-height: inherit;
-  padding: 5% 0 4%;
   background-color: #fff;
   background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0);
   background-position: bottom center;
@@ -55,9 +54,19 @@
 }
 .nreplot{
   margin-left: 25px;
+  padding-top: 10%;
 }
 
 /* =================Media Queries=================== */
+
+@media screen and (max-width: 1200px) {
+
+ 
+.nreplot{
+  margin-bottom: 5%;
+}
+
+ }
 
 @media screen and (max-width: 991px) {
   .herofold {
@@ -70,6 +79,15 @@
   .arrowBtn {
     margin-top: 40px;
   }
+
+
+  .arrowBtn {
+ 
+    width: 80%;
+    
+}
+
+
 }
 
 @media screen and (max-width: 480px) {

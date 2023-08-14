@@ -1018,6 +1018,11 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 991px) {
+
+  .appfind .col-md-2 {
+    width: 100%;
+  }
+  
   .font320 {
     font-size: 80px;
     line-height: 80px;

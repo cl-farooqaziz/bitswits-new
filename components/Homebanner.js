@@ -1,9 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/Homebanner.module.css'
+import styles1 from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import right from '../public/images/displaybanner/hero-img.webp'
+import callIcn from '../public/images/banner/call-icon.png'
+import icon1 from '../public/images/banner/icon1.png'
+import icon2 from '../public/images/banner/icon2.png'
+import icon4 from '../public/images/banner/icon4.png'
 
 
 function Homebanner(props) {
@@ -14,7 +19,7 @@ function Homebanner(props) {
                 <Container fluid>
                     <Row className={styles.rowalign}>
 
-                        <Col xl={6}>
+                        <Col xl={7}>
                             <div className={styles.nreplot}>
 
 
@@ -24,14 +29,22 @@ function Homebanner(props) {
                                     ''
                                 }
 
-                           
 
-                           
-                                    
-                                    {props.title}
-                                 
 
-                             
+
+
+                                {props.title}
+
+
+
+                                {props.title2 ?
+                                    <p className="f-18 f-montserrat mb-2 line30 font-bold">
+                                        {props.title2}
+                                    </p>
+                                    :
+                                    ''
+                                }
+
 
 
 
@@ -42,6 +55,10 @@ function Homebanner(props) {
                                     :
                                     ''
                                 }
+
+                                
+
+
 
 
                                 {props.text ?
@@ -54,18 +71,93 @@ function Homebanner(props) {
 
                                 <Link href='#' className={`${styles.arrowBtn} btns`}>
                                     <span>Get Free  Consultation </span>
-                                    
+
                                 </Link>
 
 
                             </div>
 
                         </Col>
-                        <Col xl={6}>
-                            <div className="d-none d-xl-block">
+                        <Col xl={4} className='p-0'>
+                            <div className={styles1.bannerform}>
 
-                              <Image src={right} className='img-fluid' />
-                            
+                                <div className={`${styles1.discuss} d-flex`}>
+                                    <div className={styles1.call}>
+                                        <Image alt="bitswits" className='img-fluid'
+                                            src={callIcn}
+
+                                        />
+                                        <p className='font13 font-semibold lightgrey fontf m-0'>
+                                            Let's discuss your project:
+                                        </p>
+                                    </div>
+                                    <Link className={`${styles1.formA} font14 font-medium white fontf`} href='tel:(833) 500-6007'>(833) 500-6007</Link>
+                                </div>
+
+                                <div className={styles1.make}>
+                                    <div className={styles1.free}>
+                                        <p className='font16 texttran font-bold fontf grey'>
+                                            Make an obligation-free enquiry
+                                        </p>
+                                    </div>
+                                    <form className={styles1.formsbanner}>
+                                        <input type='text' className={styles1.forminput} placeholder='Your Name' />
+                                        <input type='number' className={styles1.forminput} placeholder='Phone Number' />
+                                        <input type='email' className={styles1.forminput} placeholder='Email Address' />
+                                        <textarea className={styles1.formarea} placeholder='How can we help you?' ></textarea>
+                                        <div className={`${styles1.take} d-flex`}>
+                                            <p className='grey font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong> .</p>
+                                            <input type='Submit' className={styles1.notice} />
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                                <div className={styles1.read}>
+                                    <div className={`${styles1.free} text-center`}>
+                                        <p className='font21 font-bold fontf grey'>OUR OFFICES</p>
+                                    </div>
+
+                                    <div className={styles1.locations}>
+                                        <div className={`${styles1.locInner}`}>
+                                            <div className={styles1.locImg}>
+                                                <Image alt="bitswits" src={icon1} className='img-fluid' />
+                                            </div>
+                                            <div className={styles1.subInner}>
+                                                <p className='font15 font-bold fontf mb-0 white'>USA</p>
+                                                <Link href="#" className='font12 font-regular fontf white texdocration'>
+                                                    +1 833 500 6007
+                                                </Link>
+                                            </div>
+
+                                        </div>
+                                        <div className={`${styles1.locInner}`}>
+                                            <div className={styles1.locImg}>
+                                                <Image alt="bitswits" src={icon2} className='img-fluid' />
+                                            </div>
+                                            <div className={styles1.subInner}>
+                                                <p className='font15 font-bold fontf mb-0 white'>UAE</p>
+                                                <Link href="#" className='font12 font-regular fontf white texdocration'>
+                                                    +1 833 500 6007
+                                                </Link>
+                                            </div>
+                                        </div>
+
+                                        <div className={`${styles1.locInner}`}>
+                                            <div className={styles1.locImg}>
+                                                <Image alt="bitswits" src={icon4} className='img-fluid' />
+                                            </div>
+                                            <div className={styles1.subInner}>
+                                                <p className='font15 font-bold fontf mb-0 white'>MALAYSIA</p>
+                                                <Link href="#" className='font12 font-regular fontf white texdocration'>
+                                                    +1 833 500 6007
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
 
                             </div>
                         </Col>

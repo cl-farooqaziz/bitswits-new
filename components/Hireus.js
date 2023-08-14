@@ -48,11 +48,11 @@ const Hireus = () => {
                     <Row>
                         <Col lg={12}>
                             <h3 className="white f-20 f-700 f-montserrat">WHY HIRE US?</h3>
-                            <h2 className="g-color f-50 f-700  f-playfair mt-3">
-                                What Makes Bitswits The Most <br />
-                                Recommended Mobile App <br /> Development Company?
+                            <h2 className="black f-50 f-700  f-playfair mt-3">
+                                What Makes <span className='grdiant'>Bitswits The Most 
+                                Recommended Mobile App  Development</span> Company?
                             </h2>
-                            <p className="black f-poppins text-center f-14 f-400 t-justify mt-3 mb-5">
+                            <p className="black f-poppins text-center f-16 f-400 t-justify mt-3 mb-5">
                                 As the leading mobile app development agency, we've gathered top-notch resources to create exceptional solutions for mobile applications. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to instantly provide unparalleled solutions to our valued clients.
                             </p>
                             <Link href='#' className={`${styles.btnHire}`}>

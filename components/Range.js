@@ -103,9 +103,9 @@ const Range = () => {
         <Container>
           <Row className="gy-3 sector">
             <Col md={11}>
-              <h3 className='t-center f-18 f-montserrat f-700 orange'>WE SERVE A RANGE OF SECTORS</h3>
-              <h2 className='f-50 t-center white f-playfair'>Mobile Application Development Company
-                <br></br>  For Everyone Out There
+              <h3 className='t-center f-18 f-montserrat f-700 white'>WE SERVE A RANGE OF SECTORS</h3>
+              <h2 className='f-50 f-playfair f-700 white t-center'> <span className='grdiant'>Mobile Application Development</span> Company
+                 For Everyone Out There
               </h2>
               <p className=" f-montserrat f-15 f-500 white t-center mt-3">
                 BitsWits provides mobile app development service in the USA for every industry with innovation and efficiency. We create customized mobile solutions for various industries, from e-commerce to the healthcare or gaming industry. Our skilled app developers are determined to come up with mobile apps that meet the unique needs of every client and their business.

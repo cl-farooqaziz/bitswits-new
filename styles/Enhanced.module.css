@@ -1,0 +1,123 @@
+.bgblack {
+    background-color: #000;
+    padding: 80px 0px 0px 0px;
+}
+.benefits h3 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ios {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.card {
+    border: none;
+}
+.cardhd {
+    line-height: 22px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.cardbody{
+    background: #202020;
+    border-radius: 0px;
+    border: none;
+}
+.cardbody {
+    background-color: #202020;
+    padding: 20px 10px;
+    transition: .2s;
+    box-shadow: 1px 2px 12px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+.cardbody p {
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.cardbody img {
+    filter: brightness(0) invert(1);
+}
+.mobileimg {
+    height: auto;
+    width: 58%;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 50px;
+}
+.cardbody:hover {
+    background: white;
+}
+.benefits .cardbody:hover {
+    background-color: #fff;
+    color: black;
+}
+.cardbody:hover h4 {
+    color: #F69110;
+}
+.cardbody:hover p {
+    color: black;
+}
+.cardbody:hover img {
+    filter: unset;
+}
+.cardbody:hover .mapp {
+    filter: brightness(1) invert(1);
+}
+.cardbody img {
+    padding-bottom: 15px;
+}
+.maincard {
+    width: 175px;
+}
+
+
+@media screen and (max-width: 1200px) {
+.cardbody{
+    background-color: #202020;
+    padding: 20px 10px;
+    transition: .2s;
+    box-shadow: 1px 2px 12px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 85%;
+}
+}
+
+@media screen and (max-width: 991px) {
+    .maincard {
+        width: 100%;
+    }
+    .cardbody{
+        background-color: #202020;
+        padding: 20px 10px;
+        transition: .2s;
+        box-shadow: 1px 2px 12px #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 85%;
+        margin-bottom: 5%!important;
+        margin: 0 auto;
+    }
+
+
+ }

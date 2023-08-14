@@ -23,16 +23,24 @@ import Faqs from '@/components/Faqs'
 import GetInTouch from '@/components/GetInTouch'
 import Locations from '@/components/Locations'
 import Videotestimonial from '@/components/Videotestimonial'
+import Findfood from '@/components/Findfood'
+import Cab from '@/components/Cab'
+import Musicapp from '@/components/Musicapp'
+import Consultancy from '@/components/Consultancy'
+import Ready from '@/components/Ready'
+import Scalable from '@/components/Scalable'
+import Enhanced from '@/components/Enhanced'
 
 export default function iosappdevelopmentcompanylp() {
 
 
-    const android = <> <span className='grdiant'>Android</span> <br></br>Application Development </>
-    const web = <>  <span className='grdiant'>Web</span> <br></br>App Development  </>
-    const Flutter = <> <span className='grdiant'>Flutter</span> <br></br>App Development  </>
-    const React = <> <span className='grdiant'>React Native</span> <br></br>App Development  </>
-    const Cross = <> <span className='grdiant'>Cross Platform</span>  <br></br>App Development  </>
-    const IOS = <> <span className='grdiant'>IOS</span>  <br></br>Application Development  </>
+    const android = <> <span className='grdiant'> Custom iOS </span> <br></br> App Development
+    </>
+    const web = <>  <span className='grdiant'>  iPhone </span> <br></br>App Development  </>
+    const Flutter = <> <span className='grdiant'>Apple</span> <br></br>Watch Development  </>
+    const React = <> <span className='grdiant'>Apple Tv</span> <br></br>App Development  </>
+    const Cross = <> <span className='grdiant'>Apple</span>  <br></br>App Designing  </>
+    const IOS = <> <span className='grdiant'>Hybird Iphone</span>  <br></br>App Development  </>
 
 
     const fine = [
@@ -40,44 +48,64 @@ export default function iosappdevelopmentcompanylp() {
         {
             img: servicesmobile,
             title: android,
-            text: 'We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations.',
+            text: 'Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.',
         },
 
         {
             img: servicesmobile2,
             title: web,
-            text: 'We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!',
+            text: <>
+                We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.
+            </>
         },
 
         {
             img: servicesmobile3,
             title: Flutter,
-            text: 'Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.',
+            text: <>
+
+                Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.
+
+            </>,
         },
 
         {
             img: servicesmobile4,
             title: React,
-            text: 'Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients` business objectives.',
+            text: <>
+
+                Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!
+
+            </>,
         },
 
         {
             img: servicesmobile5,
             title: Cross,
-            text: 'We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.',
+            text: <>
+
+                Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.
+
+            </>,
         },
 
         {
             img: servicesmobile6,
             title: IOS,
-            text: 'We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps!',
+            text: <>
+
+
+                Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.
+
+            </>,
         },
 
 
     ]
 
-    const services = 'SERVICES'
-    const app =  <>  <span className='grdiant'>Mobile App Development</span> Services </> 
+    const services = 'IOS APP DEVELOPMENT SERVICES'
+    const app = <>  <span className='grdiant'>Craft Incredible Apps:</span> Hire iOS
+        App Developer! </>
     const revolutionize = 'Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.'
 
 
@@ -131,25 +159,24 @@ export default function iosappdevelopmentcompanylp() {
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
             <Homebanner
-                subtitle='Elevate Your Mobile App Experience With'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'> Our  <span className='grdiant'> iOS App</span>  Development Company</h1></>}
-                text=' At BitsWits, we are dedicated to revolutionizing the mobile technology industry as the top mobile app development company. We strive to unlock the industry`s full potential by offering innovative and customized solutions for both Android and iOS platforms.'
-                text2=' Let us help you bring your vision to life and take your business to the next level with our industry-leading mobile app development solutions.'
+                subtitle='Reimagine Possibilities With'
+                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'> Our   <span className='grdiant'> iOS App</span>  Development Company</h1></>}
+                text='Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.'
             />
 
 
+            <Consultancy />
 
 
 
-            <Partner />
 
             <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
                         <div>
                             <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                            <p className="f-montserrat f-500 f-18 mb-1 black t-center"> {revolutionize} </p>
+                            <h2 className="f-40 f-playfair f-700 black t-center"> {app} </h2>
+
                         </div>
                     </Row>
 
@@ -197,25 +224,23 @@ export default function iosappdevelopmentcompanylp() {
             </div>
 
 
+            <Ready/>
+            <Scalable />
+            <Enhanced />
+
+            <Musicapp />
+            <Cab />
+
+            <Findfood />
+
+
             <Publication />
 
             <Range />
 
             <Hireus />
 
-            <Integration />
 
-            <Whatourclients />
-
-            <Videotestimonial />
-
-            <Consultation />
-
-            <Faqs />
-
-            <GetInTouch />
-
-            <Locations />
 
         </>
     )

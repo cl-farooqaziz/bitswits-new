@@ -59,7 +59,7 @@
 @media screen and (max-width: 1200px) {
 
   .more {
-    width: fit-content;
+    width: 50%;
   }
 
   .serveimg h4 {
@@ -74,5 +74,6 @@
   .serveimg p {
     min-height: fit-content;
   }
+ 
 
  }

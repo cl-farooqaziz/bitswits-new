@@ -10,7 +10,7 @@
   position: absolute;
   top: 0;
   margin: 0 auto;
-  background-image: url(../public/images/flods/top-shade.webp);
+
   background-repeat: no-repeat;
   background-position: bottom;
   height: 405px;
@@ -20,18 +20,24 @@
 }
 
 .btnHire {
-  padding: 15px 65px;
-  font-size: 15px;
-  background-color: #fff;
-  font-family: Montserrat;
+  background-color: transparent;
+  width: 30%;
+  height: 50px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   color: #000;
-  font-weight: 700;
-  border-radius: 50px;
-  box-shadow: #f69110 2px 2px 29px 0;
-  border: unset;
-  letter-spacing: 1px;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
   text-transform: uppercase;
-  transition: 0.5s ease-in-out;
+  border: 2px solid #000;
+  margin: 0 auto;
+
 }
 
 .btnHire:hover {
