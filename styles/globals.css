@@ -1466,6 +1466,7 @@ button {
 .bannerslider.slick-slider .slick-next:before {
   content: url(/images/icons/arrow.webp);
   opacity: 1;
+  filter: brightness(0.1);
 }
 
 .faqsgloble .accordion-header {

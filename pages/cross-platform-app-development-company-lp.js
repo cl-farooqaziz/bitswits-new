@@ -170,7 +170,7 @@ export default function androidappdevelopmentcompanylp() {
             <Consultancy />
 
 
-
+            <Partner />
 
             <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
@@ -225,10 +225,12 @@ export default function androidappdevelopmentcompanylp() {
                 </Container>
             </div>
 
+            
 
+            
+            <Enhanced />
             <Ready/>
             <Scalable />
-            <Enhanced />
 
             <Musicapp />
             <Cab />
