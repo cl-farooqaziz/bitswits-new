@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Counter from './Counter';
 
-const Yearsofexpertise = () => {
+const Yearsofexpertise = (props) => {
 
 
 
@@ -54,24 +54,24 @@ const Yearsofexpertise = () => {
                 <Container className={` ${styles.allbest} ${styles.desk} `}>
                     <Row>
                         <Col lg={3}>
-                            <h3 className='font75 grdiant font-bold fontf'>  <Counter stopNumber={21} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>YEARS OF <br></br> EXPERTISE</h4>
-                            <p className='font15 fontf white font-medium'>Established in 2002 in the USA </p>
+                            <h3 className='font75 grdiant font-bold fontf'>  {props.loop1} </h3>
+                            <h4 className='font18 fontf white font-extrabold texttran'> {props.looptext1} </h4>
+                            <p className='font15 fontf white font-medium'> {props.looptext11} </p>
                         </Col>
                         <Col lg={3}>
-                            <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={1000} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>DEDICATED <br></br> DEVELOPERS </h4>
-                            <p className='font15 fontf white font-medium'>All directly employed by BitsWits</p>
+                            <h3 className='font75 grdiant font-bold fontf'> {props.loop2} </h3>
+                            <h4 className='font18 fontf white font-extrabold texttran'> {props.looptext2} </h4>
+                            <p className='font15 fontf white font-medium'> {props.looptext22} </p>
                         </Col>
                         <Col lg={3}>
-                            <h3 className='font75 grdiant font-bold fontf'> <Counter stopNumber={12500} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>SATISFIED <br></br> CLIENTS</h4>
-                            <p className='font15 fontf white font-medium'>Check the genuine testimonial videos</p>
+                            <h3 className='font75 grdiant font-bold fontf'> {props.loop3} </h3>
+                            <h4 className='font18 fontf white font-extrabold texttran'> {props.looptext3} </h4>
+                            <p className='font15 fontf white font-medium'>{props.looptext33}</p>
                         </Col>
                         <Col lg={3}>
-                            <h3 className='font75 grdiant font-bold fontf'> <Counter stopNumber={20000} /></h3>
-                            <h4 className='font18 fontf white font-extrabold texttran'>PROJECTS  <br></br> DELIVERED </h4>
-                            <p className='font15 fontf white font-medium'>Check the delivered work now!</p>
+                            <h3 className='font75 grdiant font-bold fontf'> {props.loop4} </h3>
+                            <h4 className='font18 fontf white font-extrabold texttran'> {props.looptext4} </h4>
+                            <p className='font15 fontf white font-medium'> {props.looptext44} </p>
                         </Col>
                     </Row>
                 </Container>

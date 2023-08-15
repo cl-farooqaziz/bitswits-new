@@ -1,0 +1,31 @@
+.integration {
+    background: black;
+    color: white;
+    padding: 100px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.integrtxt {
+    text-align: center;
+}
+.integration h3 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.sbtn {
+    padding: 15px 20px;
+    border: 2px solid white;
+   
+}
+.sbtn {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.integrtxt h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}

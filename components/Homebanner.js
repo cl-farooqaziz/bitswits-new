@@ -69,10 +69,24 @@ function Homebanner(props) {
                                     ''
                                 }
 
-                                <Link href='#' className={`${styles.arrowBtn} btns`}>
-                                    <span>Get Free  Consultation </span>
+                                
+
+                               
+  
+                         {props.btn1 ?
+
+                                <Link href='#' className={`${styles.arrowBtn} btns mt-3`}>
+                                    <span> {props.btn1} </span>
 
                                 </Link>
+
+                                :
+                                <Link href='#' className={`${styles.arrowBtn} btns`}>
+                                <span>Get Free  Consultation </span>
+
+                            </Link>
+
+                         }
 
 
                             </div>

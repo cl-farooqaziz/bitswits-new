@@ -855,6 +855,14 @@ input::-webkit-inner-spin-button {
   right: -100px;
 }
 
+.campny{
+  padding-top: 100px;
+}
+.topbottom{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {

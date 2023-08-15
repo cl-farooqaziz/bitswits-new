@@ -17,21 +17,21 @@ import React, { useState, useEffect } from 'react';
 // import OurProject from '@/components/OurProject'
 import dynamic from 'next/dynamic';
 
-const Banner = dynamic(() => import( '@/components/Banner'));
-const Rated = dynamic(() => import( '@/components/Rated'));
-const About = dynamic(() => import( '@/components/About'));
-const Yearsofexpertise = dynamic(() => import( '@/components/Yearsofexpertise'));
-const Nextproject = dynamic(() => import( '@/components/Nextproject'));
-const Ourservices = dynamic(() => import( '@/components/Ourservices'));
-const Lookingfor = dynamic(() => import( '@/components/Lookingfor'));
-const Trusted = dynamic(() => import( '@/components/Trusted'));
-const Ourportfolio = dynamic(() => import( '@/components/Ourportfolio'));
-const Digital = dynamic(() => import( '@/components/Digital'));
-const Ourblogs = dynamic(() => import( '@/components/Ourblogs'));
-const ClientsThink = dynamic(() => import( '@/components/ClientsThink'));
-const Contact = dynamic(() => import( '@/components/Contact'));
-const OurProject = dynamic(() => import( '@/components/OurProject'));
-
+const Banner = dynamic(() => import('@/components/Banner'));
+const Rated = dynamic(() => import('@/components/Rated'));
+const About = dynamic(() => import('@/components/About'));
+const Yearsofexpertise = dynamic(() => import('@/components/Yearsofexpertise'));
+const Nextproject = dynamic(() => import('@/components/Nextproject'));
+const Ourservices = dynamic(() => import('@/components/Ourservices'));
+const Lookingfor = dynamic(() => import('@/components/Lookingfor'));
+const Trusted = dynamic(() => import('@/components/Trusted'));
+const Ourportfolio = dynamic(() => import('@/components/Ourportfolio'));
+const Digital = dynamic(() => import('@/components/Digital'));
+const Ourblogs = dynamic(() => import('@/components/Ourblogs'));
+const ClientsThink = dynamic(() => import('@/components/ClientsThink'));
+const Contact = dynamic(() => import('@/components/Contact'));
+const OurProject = dynamic(() => import('@/components/OurProject'));
+import Counter from '@/components/Counter';
 
 
 
@@ -119,7 +119,21 @@ export default function Home() {
       {showComponent && (
         <>
 
-          <Yearsofexpertise />
+          <Yearsofexpertise
+            loop1={<> <Counter stopNumber={21} />+ </>}
+            looptext1={<> YEARS OF <br></br> EXPERTISE </>}
+            looptext11={<> Established in 2002 in the USA </>}
+            loop2={<> <Counter stopNumber={1000} />+ </>}
+            looptext2={<> DEDICATED <br></br> DEVELOPERS </>}
+            looptext22={<> All directly employed by BitsWits </>}
+            loop3={<> <Counter stopNumber={12500} />+ </>}
+            looptext3={<> SATISFIED <br></br> CLIENTS </>}
+            looptext33={<> Check the genuine testimonial videos </>}
+            loop4={<> <Counter stopNumber={20000} />+ </>}
+            looptext4={<> PROJECTS  <br></br> DELIVERED </>}
+            looptext44={<> PROJECTS  <br></br> DELIVERED </>}
+
+          />
           <Ourservices />
           <Lookingfor />
           <Trusted />

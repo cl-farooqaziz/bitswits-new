@@ -20,7 +20,8 @@ const Counter = ({ stopNumber }) => {
     };
   }, [stopNumber]);
 
-  return <div className='counter'>{count}+</div>;
+  return  <> {count}
+  </>;
 };
 
 export default Counter;
