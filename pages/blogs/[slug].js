@@ -1,6 +1,8 @@
 import { useParams } from "next/navigation";
 import Head from 'next/head'
 import React from 'react'
+import { useRouter } from 'next/router'
+import { useEffect, useState } from 'react';
 import Link from 'next/link'
 import Image from "next/image";
 import styles from '@/styles/InnerBlog.module.css'
@@ -13,8 +15,33 @@ import blogsing from '../../public/images/blogBanners/blogsing.png'
 
 const InnerBlogs = () => {
 
-    const params = useParams();
-    console.log(params)
+    // const params = useParams();
+    // console.log(params)
+
+    const router = useRouter()
+    const slug1 = router.query.slug
+
+    const [show, setshow] = useState(true);
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+
+            const response = await fetch(`https://bookwritingexperts.com/wp-json/wp/v2/posts?_embed&slug=${slug1}`);
+            const data = await response.json();
+
+            setPosts(data);
+            setshow(false);
+        };
+
+        fetchData();
+    }, []);
+
+    const imageLoader = ({ src, width, quality }) => {
+        return `${src}?w=${width}&q=${quality || 75}`;
+    };
+    console.log(imageLoader);
+
 
     return (
         <>
@@ -25,12 +52,12 @@ const InnerBlogs = () => {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <section className={styles.innerBlog}>
+            {/* <section className={styles.innerBlog}>
                 <Container>
                     <Row className="justify-content-between">
                         <Col lg={8}>
                             <div className={styles.blogContent}>
-                                {/* <div className={styles.contentHead}>
+                                <div className={styles.contentHead}>
                                     <div className={styles.cntntLeft}>
                                         <Image className="img-fluid" src={profile} alt="bitswits" />
                                         <div>
@@ -51,7 +78,7 @@ const InnerBlogs = () => {
                                             <h6>reads</h6>
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>
                                 <div className={`${styles.contentHeading}`}>
                                     <h1 className="mb-3">
                                         Google Search Console API: A Powerful Tool For Data-Driven Optimization
@@ -93,7 +120,7 @@ const InnerBlogs = () => {
                                         <li>Thriving on accelerating the path to disruption and value creation in all directions has enabled us to receive acknowledgment.</li>
                                     </ul>
                                 </div>
-                                {/* <div className={`${styles.contentFooter} mt-5`}>
+                                <div className={`${styles.contentFooter} mt-5`}>
                                     <p className="mb-2">
                                         Featured Image: Screenshot from
                                         <strong>Youtube.com/GoogleSearchCentral, May 2023.</strong>
@@ -128,9 +155,10 @@ const InnerBlogs = () => {
                                             </Col>
                                         </Row>
                                     </div>
-                                </div> */}
+                                </div>
                             </div>
                         </Col>
+
 
                         <Col lg={3}>
                             <div className={`${styles.cta} mt-5 mt-lg-0`}>
@@ -177,7 +205,47 @@ const InnerBlogs = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
+
+            <div className={styles.blogdetails}>
+                <div className={styles.blogbg}>
+                    <Container>
+                        <Row>
+                            <Col className={`${styles.above} col-md-12`}>
+                                <Link className='textdocationnone' href='#'> <h2 className='color-blue fw700 font50 t-center font-f'> {slug1} </h2> </Link>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+
+                <Container className='dataset'>
+                    <Row>
+
+                        {show ?
+                            <h1 className="font50 fw700 color-blue t-center font-f">Loading ...</h1>
+                            :
+                            ''
+                        }
+
+                        {posts.map((item, i) =>
+
+                            <Col md={6} key={i}>
+                                <div className={styles.bloglist}>
+                                    <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="book_writing_cube" />
+                                    <div className={styles.cardbodylist}>
+                                        <h3>{item.title.rendered}</h3>
+                                        <div dangerouslySetInnerHTML={{ __html: item.content.rendered }}>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+
+                        )}
+
+                    </Row>
+                </Container>
+            </div>
 
         </>
     )
