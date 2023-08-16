@@ -14,7 +14,9 @@ const Incredible = ({ fontpont }) => {
                     <div className={styles.serveimg}>
                         <h4> {item.title} </h4>
                         <p> {item.text}</p>
-                        <Link href="#" className={styles.more}> {item.btn1}  </Link>
+                        {item.btn1 &&
+                            <Link href="#" className={styles.more}> {item.btn1}  </Link>
+                        }
                     </div>
                 </Col>
             )}

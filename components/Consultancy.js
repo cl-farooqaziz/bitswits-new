@@ -23,7 +23,7 @@ const Consultancy = () => {
 
                                 <input type="email" name="email" className={styles.name} id="email" placeholder="What's your email address?" required="" />
 
-                                <input type="phone" name="phone" className={styles.name} id="phone" placeholder="Your contact number" required="" minlength="7" maxlength="15" onkeypress="return /[0-9]/i.test(event.key)" />
+                                <input type="phone" name="phone" className={styles.name} id="phone" placeholder="Your contact number" required="" minLength="7" maxLength="15" />
 
 
                                 <button type="submit" className={styles.butsave}>Submit Details</button>

@@ -464,84 +464,84 @@ export default function joomlaDev() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones1} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">CRM Application</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">CRM Application</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones2} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Custom Web Development</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Custom Web Development</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones3} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">MVC Architecture</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">MVC Architecture</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones4} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Web Services</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Web Services</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones5} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Third PartY API</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Third PartY API</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones6} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Enterprise Applications</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Enterprise Applications</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones7} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">CRM Application</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">CRM Application</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones8} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Custom Web Development</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Custom Web Development</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones9} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">MVC Architecture</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">MVC Architecture</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones10} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Web Services</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Web Services</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones11} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Third PartY API</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Third PartY API</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones12} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Enterprise Applications</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Enterprise Applications</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>

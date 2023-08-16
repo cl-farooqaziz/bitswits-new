@@ -76,7 +76,7 @@ export default function Home() {
   //   };
   // }, []);
 
-  const [showComponent, setShowComponent] = useState('');
+  const [showComponent, setShowComponent] = useState();
 
   useEffect(() => {
 

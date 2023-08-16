@@ -8,6 +8,14 @@
     padding-bottom: 100px;
 }
 
+.tabp{
+    background-color: #f1f1f1;
+    color: black;
+    padding: 45px;
+    height: auto;
+ 
+}
+
 .serveimg a{
     color: black;
     border: 2px solid black;

@@ -95,7 +95,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Web Portal Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Web Portal Development</h5>
                     <p>
                         We deliver high performance solutions for different portals like news, entertainment with robust content management and distribution features.
                     </p>
@@ -106,7 +106,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Layout Design</h5>
+                    <h5 className="font20 fontf font-bold line30">Layout Design</h5>
                     <p>
                         Expect highly fluid layout design from our developers as it ensures responsive websites that adapt to the screen size of the device.
                     </p>
@@ -117,7 +117,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Support & Maintenance</h5>
+                    <h5 className="font20 fontf font-bold line30">Support & Maintenance</h5>
                     <p>
                         Apart from development services, we are also adept in providing round the clock support and maintenance to our esteemed clients.
                     </p>
@@ -128,7 +128,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Custom Web Application Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Custom Web Application Development</h5>
                     <p>
                         Get high quality custom ROR web and application development services delivered with utmost timeliness by our team of experts at Team In India.
                     </p>
@@ -139,7 +139,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">E-Commerce Application Development</h5>
+                    <h5 className="font20 fontf font-bold line30">E-Commerce Application Development</h5>
                     <p>
                         We develop online storefronts with great features that offer an unmatched shopping experience to the users. We’ve deployed best professionals to handle it all for you.
                     </p>
@@ -150,7 +150,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Installation & CMS Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Installation & CMS Development</h5>
                     <p>
                         When you choose us for ROR based services, be rest assured of hassle-free installation and CMS development – we make sure you’re always given fully support.
                     </p>
@@ -161,7 +161,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Web 2.0 Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Web 2.0 Development</h5>
                     <p>
                         Our development strategy follows the Web 2.0 philosophy to render designs that are more interactive with simple yet powerful UIs.
                     </p>
@@ -172,7 +172,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Application Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Application Development</h5>
                     <p>
                         Entrust us with application development for robust, secure, flexible and scalable applications. We’ve got the experience of developing consumer, entertainment and business apps.
                     </p>
@@ -183,7 +183,7 @@ export default function hireRubyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Portal Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Portal Development</h5>
                     <p>
                         Whether you require news portals or a portal for internal business processes, our portal development service is the perfect choice for you, tailor-made according to your expectations.
                     </p>

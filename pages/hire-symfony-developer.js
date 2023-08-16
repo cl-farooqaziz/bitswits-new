@@ -119,7 +119,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Speed</h5>
+                    <h5 className="font20 fontf font-bold line30">Speed</h5>
                     <p>
                         The latest release of the software, Symfony2 is fast. As far as websites build on this framework are concerned, you don’t need to worry about slow loading or even incomplete loading.
                     </p>
@@ -130,7 +130,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Performance</h5>
+                    <h5 className="font20 fontf font-bold line30">Performance</h5>
                     <p>
                         This framework can handle heavy, multi-tiered websites without compromising on performance as long as you are smart when you hire a Symfony Developer. Another reason why the performance of the code is great, is easy testing. The framework has a layer that works well with testing, allowing us to gauge the performance of the code at all levels.
                     </p>
@@ -141,7 +141,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Debugging</h5>
+                    <h5 className="font20 fontf font-bold line30">Debugging</h5>
                     <p>
                         We developers love frameworks that make debugging easy and Symfony does just that. In the end, this helps us identify any mistakes in the code, any paths that aren’t working, and correct it. The product you get is efficient because of the powerful debugging toolbar and profiler.
                     </p>
@@ -152,7 +152,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Bundles</h5>
+                    <h5 className="font20 fontf font-bold line30">Bundles</h5>
                     <p>
                         They are one of the best features of Symfony2. They give us a choice. We can use the entire framework and develop a complex website. We have the option of building the website to your specifications, disregarding applications that you don’t need.
                     </p>
@@ -163,7 +163,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">SEO Friendly URL (Routing)</h5>
+                    <h5 className="font20 fontf font-bold line30">SEO Friendly URL (Routing)</h5>
                     <p>
                         The framework is perfect when the concern is finding an appropriate, attractive and an SEO friendly URL. Unlike most platforms, when a site is made on the Symfony framework the concern of an SEO friendly URL is almost finished, and what is left is just meeting other demands of SEO.
                     </p>
@@ -174,7 +174,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Rapid Application Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Rapid Application Development</h5>
                     <p>
                         They are one of the best feature of Symfony 2 RAD (rapid application development), it is a concept that products can be developed faster and of higher quality.
                     </p>
@@ -185,7 +185,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Well Maintained Coding Standards</h5>
+                    <h5 className="font20 fontf font-bold line30">Well Maintained Coding Standards</h5>
                     <p>
                         This framework maintained coding standard in the website development, so we developers follow the same coding standard during the website development.
                     </p>
@@ -196,7 +196,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Ready to use Plugins or Add-ons from Community support</h5>
+                    <h5 className="font20 fontf font-bold line30">Ready to use Plugins or Add-ons from Community support</h5>
                     <p>
                         This framework has a massive range of inbuilt features with respect to any new functionality. Having these already installed plugins helps the Symfony developers with the work of the website development, rather perfectly without any major complications.
                     </p>
@@ -207,7 +207,7 @@ export default function hireSymfonyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Easy To Extend, Allowing for Integration With Other Vendor Libraries</h5>
+                    <h5 className="font20 fontf font-bold line30">Easy To Extend, Allowing for Integration With Other Vendor Libraries</h5>
                     <p>
                         This framework allows to integrate 3rd party API’s or other vendor libraries into the application in easy way.
                     </p>

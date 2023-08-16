@@ -481,37 +481,37 @@ export default function ecommerencedevelopment() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones1} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Higher Average Order Values</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Higher Average Order Values</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones2} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Increased Customer Loyalty</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Increased Customer Loyalty</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones3} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Increased Customer Base</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Increased Customer Base</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones4} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Higher Margins and Better Cash Flow</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Higher Margins and Better Cash Flow</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones5} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Gain New Customers with Search Engine Visibility</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Gain New Customers with Search Engine Visibility</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones6} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Promote your e-Commerce Website presence</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Promote your e-Commerce Website presence</h5>
                     </div>
                 </Col>
             </Row>

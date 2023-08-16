@@ -246,37 +246,37 @@ export default function hireCodeigniterDeveloper() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones1} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Job Portal Development</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Job Portal Development</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones2} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Event Management</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Event Management</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones3} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">CRM Applications</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">CRM Applications</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones4} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Custom Web Development</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Custom Web Development</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones5} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Payment Gateway Integration</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Payment Gateway Integration</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones6} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">3rd Party API Integration</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">3rd Party API Integration</h5>
                     </div>
                 </Col>
             </Row>

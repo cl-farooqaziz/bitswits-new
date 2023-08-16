@@ -473,40 +473,40 @@ enterprise solutions</p>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones1} className='img-fluid me-auto mb-3 greyscale' />
-                        <h5 class="font18 fontf font-semibold me-auto">Enterprise Content
+                        <h5 className="font18 fontf font-semibold me-auto">Enterprise Content
                             Management</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones2} className='img-fluid me-auto mb-3 greyscale' />
-                        <h5 class="font18 fontf font-semibold me-auto">Data Mining and
+                        <h5 className="font18 fontf font-semibold me-auto">Data Mining and
                             Business Interlligence</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones3} className='img-fluid me-auto mb-3 greyscale' />
-                        <h5 class="font18 fontf font-semibold me-auto">Customer Relationship
+                        <h5 className="font18 fontf font-semibold me-auto">Customer Relationship
                             Management</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones4} className='img-fluid me-auto mb-3 greyscale' />
-                        <h5 class="font18 fontf font-semibold me-auto">Middleware</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Middleware</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones5} className='img-fluid me-auto mb-3 greyscale' />
-                        <h5 class="font18 fontf font-semibold me-auto">Corporate Portals</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Corporate Portals</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones6} className='img-fluid me-auto mb-3 greyscale' />
-                        <h5 class="font18 fontf font-semibold me-auto">Inventory Management</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Inventory Management</h5>
                     </div>
                 </Col>
             </Row>

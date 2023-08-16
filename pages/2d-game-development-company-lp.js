@@ -1,44 +1,20 @@
 import Head from 'next/head'
-import Script from 'next/script'
-import Slider from 'react-slick'
 import { Container, Row, Col } from 'react-bootstrap'
 import Homebanner from '@/components/Homebanner'
-import servicesmobile from '/public/images/servicesmobile/1.webp'
-import servicesmobile2 from '/public/images/servicesmobile/2.webp'
-import servicesmobile3 from '/public/images/servicesmobile/3.webp'
-import servicesmobile4 from '/public/images/servicesmobile/4.webp'
-import servicesmobile5 from '/public/images/servicesmobile/5.webp'
-import servicesmobile6 from '/public/images/servicesmobile/6.webp'
-import Endorsements from '@/components/Endorsements'
-import Homevideo from '@/components/Homevideo'
-import Whatourclients from '@/components/Whatourclients'
-import Partner from '@/components/Partner'
-import Servicesmobile from '@/components/Servicesmobile'
 import Publication from '@/components/Publication'
 import Range from '@/components/Range'
-import Integration from '@/components/Integration'
 import Hireus from '@/components/Hireus'
-import Consultation from '@/components/Consultation'
-import Faqs from '@/components/Faqs'
-import GetInTouch from '@/components/GetInTouch'
-import Locations from '@/components/Locations'
-import Videotestimonial from '@/components/Videotestimonial'
-import Findfood from '@/components/Findfood'
-import Cab from '@/components/Cab'
-import Musicapp from '@/components/Musicapp'
 import Consultancy from '@/components/Consultancy'
-import Ready from '@/components/Ready'
-import Scalable from '@/components/Scalable'
-import Enhanced from '@/components/Enhanced'
 import Creativeopportunities from '@/components/Creativeopportunities'
 import Developer from '@/components/Developer'
 import Counter from '@/components/Counter';
 import Yearsofexpertise from '@/components/Yearsofexpertise';
 import Incredible from '@/components/Incredible';
 import Play from '@/components/Play';
+import Tabplays from '@/components/Tabplays';
 import Combination from '@/components/Combination';
+import Tribute from '@/components/Tribute';
 import { useState } from 'react'
-
 import pony from '/public/images/image2d/img2d.jpg'
 import pony1 from '/public/images/image2d/img2d2.jpg'
 import pony2 from '/public/images/image2d/1.jpg'
@@ -49,86 +25,55 @@ import pony6 from '/public/images/image2d/5.jpg'
 import pony7 from '/public/images/image2d/6.jpg'
 import pony8 from '/public/images/image2d/7.jpg'
 
+import pic1 from '/public/images/super/1.png'
+import pic2 from '/public/images/super/2.png'
+import pic3 from '/public/images/super/3.png'
+import pic4 from '/public/images/super/4.png'
+import pic5 from '/public/images/super/5.png'
 
+import engagement from '/public/images/step/1.png'
 
 export default function gamedevelopmentcompany2dlp() {
 
 
-    const android = <> <span className='grdiant'> Custom iOS </span> <br></br> App Development
-    </>
-    const web = <>  <span className='grdiant'>  iPhone </span> <br></br>App Development  </>
-    const Flutter = <> <span className='grdiant'>Apple</span> <br></br>Watch Development  </>
-    const React = <> <span className='grdiant'>Apple Tv</span> <br></br>App Development  </>
-    const Cross = <> <span className='grdiant'>Apple</span>  <br></br>App Designing  </>
-    const IOS = <> <span className='grdiant'>Hybird Iphone</span>  <br></br>App Development  </>
+    const incredible = [
 
-
-
-
-
-
-    const fine = [
 
         {
+            title: 'IOS 2D Game Development',
+            text: 'We offer top-notch iOS 2D game development services that combine top-of-the-line technology and creative designs. BitsWits is a master at creating visually compelling games with captivating storylines, vibrant characters, and intense levels. From conceptualization to design and launch, our team ensures you get a complete gaming experience that stands out from the crowd.',
+            btn1: (
+                <>
+                    Consult A Gaming Expert To Begin
+                </>
+            ),
 
-            title: android,
-            text: 'Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.',
+        },
+        {
+            title: 'Android 2D Game Development',
+            text: 'BitsWits is the go-to destination for all your Android 2D game development needs. From creating solid and user-friendly architecture to stunning visuals and fast loading times, we ensure the outcome is exceptional. With our expertise in Java language and open-source platforms like Unity 2D & Unreal Engine, we provide high-end services for game development, design & testing.',
+            btn1: (
+                <>
+                    Consult A Gaming Expert To Begin
+                </>
+            ),
+
         },
 
         {
+            title: '2D Games For Consoles And PCs',
+            text: 'BitsWits provides the best 2D games for PCs and consoles. With our expansive library of titles, you can get your hands on classic console and arcade games and explore new worlds full of adventure, excitement, and challenge. We create intricate storylines with captivating characters that draw players in from start to finish. We also work closely with our partners to develop world-class titles for platforms such as Xbox, PlayStation, Nintendo Switch, and Windows PC.',
+            btn1: (
+                <>
+                    Consult A Gaming Expert To Begin
+                </>
+            ),
 
-            title: web,
-            text: <>
-                We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.
-            </>
         },
 
-        {
-
-            title: Flutter,
-            text: <>
-
-                Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.
-
-            </>,
-        },
-
-        {
-
-            title: React,
-            text: <>
-
-                Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!
-
-            </>,
-        },
-
-        {
-
-            title: Cross,
-            text: <>
-
-                Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.
-
-            </>,
-        },
-
-        {
-
-            title: IOS,
-            text: <>
-
-
-                Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.
-
-            </>,
-        },
 
 
     ]
-
-    const services = 'OUR SERVICES ARE WHERE INNOVATION MEETS PLAY'
-    const app = <>  What You May Expect When Committing To Us? </>
 
 
     const fontpont = [
@@ -201,6 +146,7 @@ export default function gamedevelopmentcompany2dlp() {
 
     const [activeTab, setActiveTab] = useState('tab1');
     function handleTabChange(tab) {
+        tab.preventDefault();
         setActiveTab(tab);
         console.log(tab);
     }
@@ -274,16 +220,147 @@ export default function gamedevelopmentcompany2dlp() {
     ]
 
 
+    const [activeTab1, setActiveTab1] = useState('tab');
+    function handleTabChange1(tab1) {
+        setActiveTab1(tab1);
+    }
 
-    let rangSlider = {
-        dots: true,
-        arrows: false,
-        autoplay: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    };
+
+    const demandpont = [
+
+        {
+            title1: 'HTML 5',
+            text: 'With its lightning-fast loading speeds, powerful canvas elements, and audio and video formats support, HTML 5 makes coding and developing visually stunning games an absolute breeze.',
+            click2: 'tab',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+
+
+        },
+        {
+            title1: 'Unity 2D',
+            text: 'With Unity 2D, our developers create animated sprites and realistic physics-based interactions. Its range of powerful features allows us to build virtual worlds full of complex characters and environments.',
+            click2: 'tab1',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'Unreal Engine',
+            text: 'With Unreal Engine, we develop pixel-perfect gaming experiences with dynamic lighting, shadows, and textures that look almost as good as real life. Unreal Engine provides an intuitive user interface that lets us quickly create and test gameplay concepts in a matter of minutes.',
+            click2: 'tab2',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'Android SDK',
+            text: 'With advanced features like support for OpenGL and OpenCL, Android SDK makes developing a high-quality 2D game easier than ever before.',
+            click2: 'tab3',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'CryENGINE',
+            text: 'It offers a powerful graphical engine, simple scripting language, and customizable physics — allowing our 2D game developers to create beautiful and immersive worlds without spending hours coding complex systems.',
+            click2: 'tab4',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'Game Maker Studio 2',
+            text: 'With its powerful drag-and-drop workflow, it makes game development a breeze! Its intuitive interface allows us to quickly create characters, levels, and worlds with ease and precision.',
+            click2: 'tab5',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'Corona SDK',
+            text: (<>
+
+                Creating a 2D game with Corona SDK is like baking a cake. With easy-to-use tools, fast builds, and powerful features, it's no wonder why our developers choose Corona SDK for your 2D game development needs.
+
+            </>),
+            click2: 'tab6',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'AppGameKit',
+            text: (<>
+
+                With its comprehensive functionality, AppGameKit allows our developers to create a wide range of gaming experiences, from classic platformers to challenging puzzlers. Its intuitive design makes it easier than ever to let us create beautiful visuals with lighting, shadows, and special effects.
+
+            </>),
+            click2: 'tab7',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'SpriteKit',
+            text: (<>
+                With SpriteKit, we quickly create stunning 2D graphics and animations, add sound effects and music, control physics and gravity settings, and manage game objects and characters with ease.
+            </>),
+            click2: 'tab8',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'GoDot Engine',
+            text: (<>
+                From pixel-perfect platformers to story-driven RPGs, GoDot is the perfect Engine to unlock the gaming experience. And with built-in support for shaders and nodes, we get to craft even more depth into your projects.
+            </>),
+            click2: 'tab9',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'Cocos2D',
+            text: (<>
+                With Cocos2D, our developers can easily build everything from platformers to arcade shooters with a few lines of code. After all, from map editors to particle systems, Cocos2D has it all.
+            </>),
+            click2: 'tab10',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+        {
+            title1: 'Amazon Lumberyard',
+            text: (<>
+                With powerful tools such as the drag-and-drop UI designer, visual scripting system, and particle effects editor, building amazing 2D titles becomes a breeze with Amazon Lumberyard.
+            </>),
+            click2: 'tab11',
+            fun1: handleTabChange1,
+            data1: activeTab1,
+
+
+        },
+
+
+
+    ]
+
+
+
 
     return (
         <>
@@ -320,10 +397,6 @@ export default function gamedevelopmentcompany2dlp() {
             </Head>
 
 
-            <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
-            <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
-
             <Homebanner
                 subtitle='Best In Animation, Graphics, & Design - Your Own'
                 title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> 2D Game </span>  Development Company!</h1></>}
@@ -350,6 +423,54 @@ export default function gamedevelopmentcompany2dlp() {
                 looptext44={<> Client Retention </>}
 
             />
+
+
+            <Creativeopportunities
+
+                subtitle='BOUNTIES'
+                title={<>Attractive/Creative Opportunities <br></br> <span className='grdiant'> 2D Games Development</span> Offers</>}
+
+                eng = {engagement}
+
+
+                tit1='Improved Engagement'
+                text1={<> Since 2D games typically feature minimal graphics and fewer special
+                    effects, players with slow internet connections or limited hardware
+                    capabilities can easily enjoy them. </>}
+                btn1='Lets Start'
+
+                tit2='Quicker To Develop'
+                text2={<>  Due to the simpler coding process and fewer assets needed, 2D games can
+                    be developed in a shorter amount of time than 3D games. </>}
+                btn2='Lets Start'
+
+                tit3='Accessible For All Players'
+                text3={<>  2D games have simpler graphics and coding, which makes them playable on
+                    multiple devices and expands the potential audience for your game. </>}
+                btn3='Lets Start'
+
+                tit4='Enhanced Engagement'
+                text4={<>  With 2D games, businesses can amuse their customers with fun and
+                    interactive activities that keep them inquisitive about the products or
+                    services offered. </>}
+                btn4='Lets Start'
+
+                tit5='Cost-Effective'
+                text5={<>  Developing games in 2D is a cost-effective way to produce top-notch
+                    quality games with minimal overhead costs. </>}
+                btn5='Lets Start'
+
+                tit6='Easier Maintenance'
+                text6={<>   Since 2D games can be updated without major overhauls, businesses don't
+                    have to worry about the constant maintenance and bug fixes of 3D game
+                    development. This allows for faster iteration cycles and easier
+                    deployment of new content. </>}
+                btn6='Lets Start'
+
+
+
+            />
+
             <section className='campny'>
                 <Container>
                     <Row>
@@ -366,12 +487,43 @@ export default function gamedevelopmentcompany2dlp() {
                 </Container>
             </section>
 
+
+            <Container className='campny'>
+                <Row>
+                    <Col xl={12} className='mb-3'>
+                        <h3 className='f-20 f-700 black t-center'>SUITE OF TOOLS IN OUR ARSENAL</h3>
+                        <h2 className='f-40 f-700 black t-center'>Our <span className='grdiant'>Technology Stack to Help Businesses Rise</span> Above and Conquer Their Competitors</h2>
+
+                    </Col>
+                    <Col xl={12}>
+                        <Tabplays
+                            demand1={demandpont}
+                        />
+                    </Col>
+                </Row>
+            </Container>
+
+
+            <Container className='campny'>
+                <Row>
+
+                    <Incredible
+                        fontpont={incredible}
+                    />
+
+                </Row>
+            </Container>
+
+
+
+
+
             <Container className='topbottom'>
                 <Row>
                     <Col>
-                    <h3 className='f-20 f-700 black t-center'>ON-DEMAND</h3>
-                    <h2 className='f-40 f-700 black t-center'>Join the Revolution - Play on Any Platform with <span className='grdiant'>BitsWits' 2D Game Development</span> Company</h2>
-                    <p className='f-16 f-500 black t-center mb-5'>We provide an optimal gaming experience across multiple platforms by developing games for iOS, Android, Windows, and Mac OS. Our cross-platform approach ensures that your game reaches the broadest possible audience of gamers. We also provide extensive testing and optimization services to ensure seamless performance and compatibility on the target platforms. BitsWits uses high-quality tools such as Unity 2D and HTML5 to develop custom games to ensure maximum device performance. So, get in touch with us today, and let us help you take your gaming venture to the next level!</p>
+                        <h3 className='f-20 f-700 black t-center'>ON-DEMAND</h3>
+                        <h2 className='f-40 f-700 black t-center'>Join the Revolution - Play on Any Platform with <span className='grdiant'>BitsWits' 2D Game Development</span> Company</h2>
+                        <p className='f-16 f-500 black t-center mb-5'>We provide an optimal gaming experience across multiple platforms by developing games for iOS, Android, Windows, and Mac OS. Our cross-platform approach ensures that your game reaches the broadest possible audience of gamers. We also provide extensive testing and optimization services to ensure seamless performance and compatibility on the target platforms. BitsWits uses high-quality tools such as Unity 2D and HTML5 to develop custom games to ensure maximum device performance. So, get in touch with us today, and let us help you take your gaming venture to the next level!</p>
 
                     </Col>
                 </Row>
@@ -383,21 +535,62 @@ export default function gamedevelopmentcompany2dlp() {
             </Container>
 
 
-            <Combination />
+
+
+            <Combination
+                subtitle={<> THE  <span className='grdiant'>BEST GAME DEVELOPER</span> IN THE TOWN </>}
+                title={<>   The Future Of <span className='grdiant'>2D Games</span> Is Here <br></br> We're Leading The Charge! </>}
+                text='  Our 2D game developers use a combination of vibrant colors, intuitive controls, and engaging storylines to create something truly unique and always captivating. Our 2D game development services include concept creation, level design, character design, animation, asset integration, dynamic UI/UX design, programming, and debugging. Our custom 2D game engine provides hours of high-quality entertainment for those who take their gaming business seriously. With us, your gaming experience is guaranteed to be the best!'
+                btn='Consult A Gaming Expert To Begin'
+
+            />
+
+
+
+
+            <Developer
+                subtitle={<>  Compelling Reasons To Enlist Our <br></br> <span className='grdiant'>2D  Game Development</span> Company </>}
+                title={<>   BitsWits shares a wealth of experience developing cutting-edge, engaging 2D games to help you
+                    knock out your competitors, capture customers' attention and increase your revenues. From
+                    concept design to programming, testing, and deployment of your custom-made 2D game, we offer
+                    comprehensive services that guarantee success in the world of 2D gaming. With our expertise, you
+                    can ensure your 2D game will be one of the best in the market. </>}
+                pic1={pic1}
+                tit1= 'Customized Solutions'
+                text1= { <> BitsWits provides tailor-made 2D games development services tailored to each client's needs and requirements. This helps create an engaging gaming experience for the user, which can be further modified according to their preferences. </> }
+
+
+                pic2={pic2}
+                tit2= 'Innovative Solutions'
+                text2= { <> BitsWits is always looking for new and innovative ways to develop 2D games that provide a unique and immersive gaming experience. We use the latest technologies and techniques to ensure that the users enjoy the best gaming experience. </> }
+
+                pic3={pic3}
+                tit3= 'Experienced Professionals'
+                text3= { <> The team at BitsWits consists of experienced professionals with years of experience in 2D game development. This ensures that the games developed are efficient and bug-free, providing a fantastic gaming experience to the users. </> }
+
+
+                pic4={pic4}
+                tit4= 'Exclusive Client Services'
+                text4= { <> We are also proud to offer exclusive client services, including game beta testing and post-release support. We guarantee a smooth launch for your game and ensure your players have the best experience possible. </> }
+
+
+                pic5={pic5}
+              
+
+
+            />
 
 
 
 
 
 
-
-
-
-            <Creativeopportunities />
-
-            <Developer />
-
-
+            <Tribute
+                subtitle='GAME DEVELOPMENT'
+                title='Past Projects Are A Glorious Tribute To Our Unwavering Devotion to Quality and Innovation!'
+                text={<> Whether you're a fan of classic arcade games, modern blockbusters, or quirky indie titles, our portfolio has something for everyone. Dive into our past projects and discover why we're one of the industry's most sought-after 2D game developers. </>}
+                video='/images/game2dvideo/video1.mp4'
+            />
 
             <Publication />
 

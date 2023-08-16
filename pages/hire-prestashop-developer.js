@@ -91,7 +91,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Websites Design And Development</h5>
+                    <h5 className="font20 fontf font-medium line30">Websites Design And Development</h5>
                     <p>
                         Website design and development including, themes and extension development, API development, custom eCommerce websites, and responsive website design.
                     </p>
@@ -102,7 +102,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Integration With 3rd Party Applications</h5>
+                    <h5 className="font20 fontf font-medium line30">Integration With 3rd Party Applications</h5>
                     <p>
                         We integrate websites with third party applications namely POS applications, CRM, ERP, accounting, bookkeeping applications and many more.
                     </p>
@@ -113,7 +113,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Performance Optimization</h5>
+                    <h5 className="font20 fontf font-medium line30">Performance Optimization</h5>
                     <p>
                         We do Performance Optimization to improve loading time, increase your site's ranking, improve user experience and increase your sales.
                     </p>
@@ -124,7 +124,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Search Engine Optimization For Online Stores</h5>
+                    <h5 className="font20 fontf font-medium line30">Search Engine Optimization For Online Stores</h5>
                     <p>
                         We provide Search Engine Optimization (SEO) for Google, Yahoo, Bing and other search engines.
                     </p>
@@ -135,7 +135,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Marketplace</h5>
+                    <h5 className="font20 fontf font-medium line30">Marketplace</h5>
                     <p>
                         Our experts develop Marketplace in the framework where sellers can sell their own products and we also provide integration of secure payment gateways in your e-Commerce website.
                     </p>
@@ -146,7 +146,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Data Migration</h5>
+                    <h5 className="font20 fontf font-medium line30">Data Migration</h5>
                     <p>
                         We do Data Migration if you are not satisfied with your online business and wish to improve its performance by adding new features.
                     </p>
@@ -157,7 +157,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Theming</h5>
+                    <h5 className="font20 fontf font-medium line30">Theming</h5>
                     <p>
                         There is quite a buzz lately around Responsive Web Design (RWD) which means using the latest standards to design a site that adapts/optimizes to many different visiting devices (e.g. computers, tablets, smartphones)...
                     </p>
@@ -168,7 +168,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Module Development</h5>
+                    <h5 className="font20 fontf font-medium line30">Module Development</h5>
                     <p>
                         Magento is considered as an important platform for creating e-commerce websites bestowed with reliability, flexibility and unmatched regulation over the all platforms of use.
                     </p>
@@ -179,7 +179,7 @@ export default function hirePrestashopDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-medium line30">Module Development</h5>
+                    <h5 className="font20 fontf font-medium line30">Module Development</h5>
                     <p>
                         Magento is considered as an important platform for creating e-commerce websites bestowed with reliability, flexibility and unmatched regulation over the all platforms of use.
                     </p>

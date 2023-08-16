@@ -113,7 +113,7 @@ export default function hireShopifyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Theme Development</h5>
+                    <h5 className="font20 fontf font-bold line30">Theme Development</h5>
                     <p>
                         We can provide beautifully crafted themes from scratch following Shopify standards, or customise an existing theme. Either ways the results will be unique.
                     </p>
@@ -124,7 +124,7 @@ export default function hireShopifyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">App Development</h5>
+                    <h5 className="font20 fontf font-bold line30">App Development</h5>
                     <p>
                         Existing apps not meeting you requirements, we can help to provide a range of additional functionality to engage you customers.
                     </p>
@@ -135,7 +135,7 @@ export default function hireShopifyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Magento to Shopify Migration</h5>
+                    <h5 className="font20 fontf font-bold line30">Magento to Shopify Migration</h5>
                     <p>
                         Need some help moving platforms? Let us take care of migrating everything for you, so you can concentrate on the rest of your business.
                     </p>
@@ -146,7 +146,7 @@ export default function hireShopifyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Support & Maintenance</h5>
+                    <h5 className="font20 fontf font-bold line30">Support & Maintenance</h5>
                     <p>
                         We can stay with you at every step. Whether is routing maintenance, changes to you store or simple content management, we’re happy to help.
                     </p>
@@ -157,7 +157,7 @@ export default function hireShopifyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Social Media Branding</h5>
+                    <h5 className="font20 fontf font-bold line30">Social Media Branding</h5>
                     <p>
                         Our team can leverage the rich features that Shopify provides to enhance the visibility of your store and help maximise you ROI.
                     </p>
@@ -168,7 +168,7 @@ export default function hireShopifyDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-bold line30">Customised features</h5>
+                    <h5 className="font20 fontf font-bold line30">Customised features</h5>
                     <p>
                         With the minimum of fuss, our experts can skilfully customise just about everything to help meet the needs of your growing business
                     </p>

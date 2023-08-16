@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from '@/styles/Creativeopportunities.module.css'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Creativeopportunities = () => {
+
+const Creativeopportunities = (props) => {
     return (
         <>
 
@@ -12,8 +13,12 @@ const Creativeopportunities = () => {
                 <Container>
                     <Row className={`${styles.bount} pb-5`} >
                         <Col md={12}>
-                            <h3 className='t-center f-18 f-montserrat f-700 black'>BOUNTIES</h3>
-                            <h2 className='f-40 f-700 black t-center'>Attractive/Creative Opportunities <br></br> <span className='grdiant'> 2D Games Development</span> Offers </h2>
+                            <h3 className='t-center f-18 f-montserrat f-700 black'> {props.subtitle}</h3>
+                            <h2 className='f-40 f-700 black t-center'> {props.title} </h2>
+{props.text &&
+                            <p className='f-16 f-500 black t-center'>{props.text}  </p>
+
+}
                         </Col>
                     </Row>
 
@@ -24,15 +29,13 @@ const Creativeopportunities = () => {
                                     <div className={styles.appcardleft}>
                                         <div className={styles.appCard}>
                                             <div className={styles.apptxt}>
-                                                <h3>Improved Engagement</h3>
+                                                <h3> {props.tit1} </h3>
                                                 <p>
-                                                    Since 2D games typically feature minimal graphics and fewer special
-                                                    effects, players with slow internet connections or limited hardware
-                                                    capabilities can easily enjoy them.
+                                                    {props.text1}
                                                 </p>
 
                                                 <Link href="#" className={styles.yellowBtn}>
-                                                    <span>Lets Start</span>
+                                                    <span> {props.btn1} </span>
                                                 </Link>
 
                                             </div>
@@ -40,14 +43,13 @@ const Creativeopportunities = () => {
                                         <div className={styles.appCard}>
                                             <div className={styles.apptxt}>
                                                 <h3>
-                                                    Quicker To Develop
+                                                    {props.tit2}
                                                 </h3>
                                                 <p>
-                                                    Due to the simpler coding process and fewer assets needed, 2D games can
-                                                    be developed in a shorter amount of time than 3D games.
+                                                    {props.text2}
                                                 </p>
                                                 <Link href="#" className={styles.yellowBtn}>
-                                                    <span>Lets Start</span>
+                                                    <span> {props.btn2}</span>
                                                 </Link>
 
 
@@ -56,15 +58,14 @@ const Creativeopportunities = () => {
                                         <div className={styles.appCard}>
                                             <div className={styles.apptxt}>
                                                 <h3>
-                                                    Accessible For All Players
+                                                    {props.tit3}
                                                 </h3>
                                                 <p>
-                                                    2D games have simpler graphics and coding, which makes them playable on
-                                                    multiple devices and expands the potential audience for your game.
+                                                    {props.text3}
                                                 </p>
 
                                                 <Link href="#" className={styles.yellowBtn}>
-                                                    <span>Lets Start</span>
+                                                    <span> {props.btn3} </span>
                                                 </Link>
 
                                             </div>
@@ -72,23 +73,21 @@ const Creativeopportunities = () => {
                                     </div>
                                     <div className={styles.appcardcenter}>
                                         <div className={styles.mobielscreen}>
-                                            <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/a3d0ba12-81ec-492f-dda3-a4acc504d700/public"
-                                                class="img-fluid mx-auto" alt="bitswits" />
+                                            <Image src={props.eng}
+                                                className="img-fluid mx-auto" alt="bitswits" />
                                         </div>
                                     </div>
                                     <div className={styles.appcardright}>
                                         <div className={styles.appcard}>
                                             <div className={styles.apptxt}>
                                                 <h3>
-                                                    Enhanced Engagement
+                                                    {props.tit4}
                                                 </h3>
                                                 <p>
-                                                    With 2D games, businesses can amuse their customers with fun and
-                                                    interactive activities that keep them inquisitive about the products or
-                                                    services offered.
+                                                    {props.text4}
                                                 </p>
                                                 <Link href="#" className={styles.yellowBtn}>
-                                                    <span>Lets Start</span>
+                                                    <span>{props.btn4}</span>
                                                 </Link>
 
 
@@ -97,14 +96,13 @@ const Creativeopportunities = () => {
                                         <div className={styles.appCard}>
                                             <div className={styles.apptxt}>
                                                 <h3>
-                                                    Cost-Effective
+                                                    {props.tit5}
                                                 </h3>
                                                 <p>
-                                                    Developing games in 2D is a cost-effective way to produce top-notch
-                                                    quality games with minimal overhead costs.
+                                                    {props.text5}
                                                 </p>
                                                 <Link href="#" className={styles.yellowBtn}>
-                                                    <span>Lets Start</span>
+                                                    <span>{props.btn5}</span>
                                                 </Link>
 
 
@@ -112,15 +110,12 @@ const Creativeopportunities = () => {
                                         </div>
                                         <div className={styles.appCard}>
                                             <div className={styles.apptxt}>
-                                                <h3>Easier Maintenance</h3>
+                                                <h3> {props.tit6} </h3>
                                                 <p>
-                                                    Since 2D games can be updated without major overhauls, businesses don't
-                                                    have to worry about the constant maintenance and bug fixes of 3D game
-                                                    development. This allows for faster iteration cycles and easier
-                                                    deployment of new content.
+                                                    {props.text6}
                                                 </p>
                                                 <Link href="#" className={styles.yellowBtn}>
-                                                    <span>Lets Start</span>
+                                                    <span>{props.btn6}</span>
                                                 </Link>
 
 

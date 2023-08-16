@@ -80,7 +80,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon1} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Custom Design <br /> Integration</h5>
+                    <h5 className="font20 fontf font-regular line30">Custom Design <br /> Integration</h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -88,7 +88,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon2} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Shipping Methods <br /> Integration</h5>
+                    <h5 className="font20 fontf font-regular line30">Shipping Methods <br /> Integration</h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -96,7 +96,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon3} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Web <br /> Services</h5>
+                    <h5 className="font20 fontf font-regular line30">Web <br /> Services</h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -104,7 +104,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon4} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Online Store <br /> Development</h5>
+                    <h5 className="font20 fontf font-regular line30">Online Store <br /> Development</h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -112,7 +112,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon5} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Third Party <br /> API</h5>
+                    <h5 className="font20 fontf font-regular line30">Third Party <br /> API</h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -120,7 +120,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon6} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular line30">Nested Category <br /> Support</h5>
+                    <h5 className="font20 fontf font-regular line30">Nested Category <br /> Support</h5>
                 </div>
             </Col>
         </Row>
@@ -269,7 +269,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         21+ years experience
                         in the industry
                     </h5>
@@ -280,7 +280,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Streamlined
                         Communication System
                     </h5>
@@ -291,7 +291,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Proven
                         Methodologies
                     </h5>
@@ -302,7 +302,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Competitive
                         Pricing
                     </h5>
@@ -313,7 +313,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Source Code
                         Authorization
                     </h5>
@@ -324,7 +324,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Comprehensive
                         Reporting
                     </h5>
@@ -335,7 +335,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Security and
                         IP Protection
                     </h5>
@@ -346,7 +346,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Well versed with
                         MVC Structure
                     </h5>
@@ -357,7 +357,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Quality Network &
                         Zero Downtime
                     </h5>
@@ -368,7 +368,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Flexible Engagement
                         Models
                     </h5>
@@ -379,7 +379,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Best-in-industry
                         quotations
                     </h5>
@@ -390,7 +390,7 @@ export default function virtuemartDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 class="font20 fontf font-regular mt-3 line30">
+                    <h5 className="font20 fontf font-regular mt-3 line30">
                         Hire from a pool of highly
                         Proficient Developers
                     </h5>

@@ -205,7 +205,7 @@ export default function healthcare() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones1} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">More Patient Interactions</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">More Patient Interactions</h5>
                         <p className='font18 fontf font-regular black'>
                             Staff will be able to spend more time with their patients and less time chasing clinical information.
                         </p>
@@ -214,7 +214,7 @@ export default function healthcare() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones2} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Better Means of Sharing Information</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Better Means of Sharing Information</h5>
                         <p className='font18 fontf font-regular black'>
                             Information gets shared in a more streamlined format between different sources, for example between GPs and Hospitals.
                         </p>
@@ -223,7 +223,7 @@ export default function healthcare() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones3} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Patient’s information</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Patient’s information</h5>
                         <p className='font18 fontf font-regular black'>
                             Important patient information will be available instantly by means of a digital healthcare system.
                         </p>
@@ -232,7 +232,7 @@ export default function healthcare() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones4} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Helping your patients</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Helping your patients</h5>
                         <p className='font18 fontf font-regular black'>
                             Helping your patients including those with chronic and complex conditions, to better manage their health.
                         </p>
@@ -241,7 +241,7 @@ export default function healthcare() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones5} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Increased efficiencies</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Increased efficiencies</h5>
                         <p className='font18 fontf font-regular black'>
                             Increased efficiencies may help reduce the number of unnecessary repeat tests, hospitalizations and follow-up specialist visits.
                         </p>
@@ -250,7 +250,7 @@ export default function healthcare() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones6} className='img-fluid me-auto mb-3' />
-                        <h5 class="font18 fontf font-semibold me-auto">Maintaining Confidentiality</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Maintaining Confidentiality</h5>
                         <p className='font18 fontf font-regular black'>
                             Important patient information will be available instantly by means of a digital healthcare system.
                         </p>
