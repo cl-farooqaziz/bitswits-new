@@ -20,7 +20,7 @@ const Invigorate = () => {
                             <p className='f-16  f-500 black t-center'>It's time to develop compelling storylines and rich characters with BitsWits; after all, don't you want to create an immersive experience? We use the latest technologies and cutting-edge visuals to enable players to interact intuitively, whether playing on a PC, console, or mobile device.</p>
                         </Col>
                     </Row>
-                    <Row className='mt-4'>
+                    <Row className='mt-4 gy-4'>
                         <Col lg={6}>
                             <Image src={rating1} className='img-fluid' />
                         </Col>
@@ -32,7 +32,7 @@ const Invigorate = () => {
                         </Col>
                     </Row>
 
-                    <Row className='mt-4'>
+                    <Row className='mt-4 gy-4 alignpost'>
                         <Col lg={6}>
                             <h2 className='f-30 f-700 black'>We Design Flawless, Captivating User Interfaces And Experiences!!!</h2>
                             <p className='f-16 f-500 black'>BitsWits shares a renowned name in developing top-class UI/UX processes that glued gamers to the screen for stretched hours. Our in-depth analysis of user behavior helps us create the perfect interface for each game, ensuring that no two experiences are the same. Our industry-trained game developers develop UI/UX optimized for maximum engagement and satiation.</p>
@@ -45,7 +45,7 @@ const Invigorate = () => {
                         </Col>
                     </Row>
 
-                    <Row className='mt-4'>
+                    <Row className='mt-4 gy-4'>
                         <Col lg={6}>
                             <Image src={rating3} className='img-fluid' />
                         </Col>
@@ -56,7 +56,7 @@ const Invigorate = () => {
 
                         </Col>
                     </Row>
-                    <Row className='mt-4'>
+                    <Row className='mt-4 gy-4 alignpost'>
                         <Col lg={6}>
                             <h2 className='f-30 f-700 black'>Test, Launch, And Support!!!</h2>
                             <p className='f-16 f-500 black'>BitsWits provides end-to-end game development services to ensure your project is on track. From the initial idea stage to post-launch support, we'll be there every step of the way. We conduct rigorous tests to ensure your game is bug-free and plays well on all platforms. When your game is ready for launch, we ensure that your game is deployed without any hiccups. We also monitor performance and provide post-launch support when needed.</p>

@@ -1074,6 +1074,10 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width: 991px) {
 
+  .alignpost{
+    flex-direction: column-reverse;
+  }
+
   .appfind .col-md-2 {
     width: 100%;
   }

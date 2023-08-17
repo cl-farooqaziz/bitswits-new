@@ -1,22 +1,23 @@
-.serveimg{
+.serveimg {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.plays{
+
+.plays {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.tabp{
+.tabp {
     background-color: #f1f1f1;
     color: black;
     padding: 45px;
     height: auto;
- 
+
 }
 
-.serveimg a{
+.serveimg a {
     color: black;
     border: 2px solid black;
     display: flex;
@@ -28,7 +29,32 @@
     font-weight: 500;
 
 }
-.active{
+
+.active {
     background-color: black;
-    color: white!important;
+    color: white !important;
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+   
+
+    .serveimg a {
+        text-align: center;
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+        padding: 10px 19px;
+        font-size: 12px;
+    }
+    .serveimg {
+        display: flex;
+        flex-wrap: unset;
+        overflow-y: auto;
+        justify-content: unset;
+  
+    }
+
 }

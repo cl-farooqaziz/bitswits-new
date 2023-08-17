@@ -528,9 +528,11 @@ export default function gamedevelopmentcompany2dlp() {
                     </Col>
                 </Row>
                 <Row>
+                <Col xl={12}>
                     <Play
                         demand={demand}
                     />
+                    </Col>
                 </Row>
             </Container>
 
