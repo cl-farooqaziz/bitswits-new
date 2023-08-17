@@ -10,6 +10,7 @@ import Developer from '@/components/Developer'
 import Counter from '@/components/Counter';
 import Yearsofexpertise from '@/components/Yearsofexpertise';
 import Incredible from '@/components/Incredible';
+import Stack from '@/components/Stack';
 import Play from '@/components/Play';
 import Tabplays from '@/components/Tabplays';
 import Combination from '@/components/Combination';
@@ -400,6 +401,7 @@ export default function blockchaingamedevelopmentcompanylp() {
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
+                <link rel="icon" href="images/icons/favicon.png" />
 
             </Head>
 
@@ -484,6 +486,8 @@ export default function blockchaingamedevelopmentcompanylp() {
                     </Row>
                 </Container>
             </section>
+
+            <Stack />
 
 
          

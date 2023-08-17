@@ -3,12 +3,12 @@ import Script from 'next/script'
 import Slider from 'react-slick'
 import { Container, Row } from 'react-bootstrap'
 import Homebanner from '@/components/Homebanner'
-import servicesmobile from '/public/images/servicesmobile/1.webp'
-import servicesmobile2 from '/public/images/servicesmobile/2.webp'
-import servicesmobile3 from '/public/images/servicesmobile/3.webp'
-import servicesmobile4 from '/public/images/servicesmobile/4.webp'
-import servicesmobile5 from '/public/images/servicesmobile/5.webp'
-import servicesmobile6 from '/public/images/servicesmobile/6.webp'
+import servicesmobile from '/public/images/servicesmobileandriod/1.webp'
+import servicesmobile2 from '/public/images/servicesmobileandriod/2.webp'
+import servicesmobile3 from '/public/images/servicesmobileandriod/3.webp'
+import servicesmobile4 from '/public/images/servicesmobileandriod/4.webp'
+import servicesmobile5 from '/public/images/servicesmobileandriod/5.webp'
+import servicesmobile6 from '/public/images/servicesmobileandriod/6.webp'
 import Endorsements from '@/components/Endorsements'
 import Homevideo from '@/components/Homevideo'
 import Whatourclients from '@/components/Whatourclients'
@@ -31,82 +31,85 @@ import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
 
+import lop1 from '/public/images/bonusandriod/1.webp'
+import lop2 from '/public/images/bonusandriod/2.webp'
+import lop3 from '/public/images/bonusandriod/3.webp'
+import lop4 from '/public/images/bonusandriod/4.webp'
+import lop5 from '/public/images/bonusandriod/5.webp'
+import lop6 from '/public/images/bonusandriod/6.webp'
+import lop7 from '/public/images/bonusandriod/mobile.webp'
+
 export default function androidappdevelopmentcompanylp() {
 
 
     const android = <> <span className='grdiant'> Custom iOS </span> <br></br> App Development
     </>
-    const web = <>  <span className='grdiant'>  iPhone </span> <br></br>App Development  </>
-    const Flutter = <> <span className='grdiant'>Apple</span> <br></br>Watch Development  </>
-    const React = <> <span className='grdiant'>Apple Tv</span> <br></br>App Development  </>
-    const Cross = <> <span className='grdiant'>Apple</span>  <br></br>App Designing  </>
-    const IOS = <> <span className='grdiant'>Hybird Iphone</span>  <br></br>App Development  </>
+
 
 
     const fine = [
 
         {
             img: servicesmobile,
-            title: android,
-            text: 'Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.',
+            title: (<> Custom Android <br></br>
+                App Development </>),
+            text: <>
+                Our expert Android developers team can help take your business to the next level with custom Android mobile app development services. Let us create stunning visuals, intuitive interfaces, and robust security features to keep you ahead of the competition. Contact us today to get started.
+            </>
         },
 
         {
             img: servicesmobile2,
-            title: web,
+            title: (<> Android <br></br>
+                App Integration </>),
             text: <>
-                We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.
+                Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android developers’ team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.
             </>
         },
 
         {
             img: servicesmobile3,
-            title: Flutter,
+            title: (<> Android <br></br>
+                Game Development</>),
             text: <>
-
-                Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.
-
-            </>,
+                Do you plan to produce an exceptional Android mobile game that will captivate your audience? Worry no more, as our team of Android game developers can provide you with the best assistance in developing exciting and irresistible games that will keep your users hooked and always craving more.
+            </>
         },
 
         {
             img: servicesmobile4,
-            title: React,
+            title: (<> Android <br></br>
+                Wear Development </>),
             text: <>
-
-                Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!
-
-            </>,
+                Expand your reach in the wearable market with our expert Android developers. Our advanced Android Wear solutions will give you a competitive edge and elevate your brand visibility. Allow us to help you take your enterprise to new heights.
+            </>
         },
 
         {
             img: servicesmobile5,
-            title: Cross,
+            title: (<> Enterprise <br></br>
+                Android Apps </>),
             text: <>
-
-                Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.
-
-            </>,
+                We can help streamline your business operations with our enterprise Android app development services. Our solutions cover all aspects, from employee communication and data management to workflow optimization. Contact us to learn more.
+            </>
         },
 
         {
             img: servicesmobile6,
-            title: IOS,
+            title: (<> Android <br></br>
+                UI/UX Design </>),
             text: <>
+                Our team of experienced Android designers can assist you in crafting visually appealing and user-friendly interfaces for your Android app. With our expertise, we can enhance user engagement and ensure a seamless user experience.
 
 
-                Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.
-
-            </>,
+            </>
         },
 
 
     ]
 
-    const services = 'IOS APP DEVELOPMENT SERVICES'
-    const app = <>  <span className='grdiant'>Craft Incredible Apps:</span> Hire iOS
-        App Developer! </>
-    const revolutionize = 'Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.'
+    const services = 'WHAT WE DO'
+    const app = <>  Leveling Up Your App Game With Our Slew of <br></br> <span className='grdiant'> Android App Development</span> Service! </>
 
 
     let rangSlider = {
@@ -126,31 +129,31 @@ export default function androidappdevelopmentcompanylp() {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta charset="UTF-8" />
-                <title>Quality-Focused iOS App Development Company - Bitswits!</title>
-                <meta name="description" content="Get the most out of your iOS app by working with our top-notch iOS app developers! We have the best team of developers who specialize in feature-rich iOS apps." />
+                <title>Get In Touch With Trusted Mobile App Development Company - Bitswits</title>
+                <meta name="description" content="Through innovative techniques, our Android mobile app developers help bring your ideas to life by creating robust applications that are tailor-made." />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Quality-Focused iOS App Development Company - Bitswits!" />
-                <meta property="og:description" content="Get the most out of your iOS app by working with our top-notch iOS app developers! We have the best team of developers who specialize in feature-rich iOS apps." />
-                <meta property="og:url" content="https://bitswits.co/ios-app-development-company/" />
-                <meta property="og:site_name" content="Quality-Focused iOS App Development Company - Bitswits!" />
-                <link rel="canonical" href="https://bitswits.co/ios-app-development-company/" />
+                <meta property="og:title" content="Get In Touch With Trusted Mobile App Development Company - Bitswits" />
+                <meta property="og:description" content="Through innovative techniques, our Android mobile app developers help bring your ideas to life by creating robust applications that are tailor-made." />
+                <meta property="og:url" content="https://bitswits.co/android-app-development-company/" />
+                <meta property="og:site_name" content="Get In Touch With Trusted Mobile App Development Company - Bitswits" />
+                <link rel="canonical" href="https://bitswits.co/android-app-development-company/" />
                 <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-                <meta name="DC.title" content="ios app development company, hire ios app developers, hire iphone app developers" />
+                <meta name="DC.title" content="android app developers, android app development company, android application development services" />
                 <meta name="geo.region" content="US-CA" />
                 <meta name="geo.placename" content="Los Angeles" />
                 <meta name="geo.position" content="36.701463;-118.755997" />
                 <meta name="ICBM" content="36.701463, -118.755997" />
-                <meta name="DC.title" content="ios app development company, hire ios app developers, hire iphone app developers" />
+                <meta name="DC.title" content="android app developers, android app development company, android application development services" />
                 <meta name="geo.region" content="US-DE" />
                 <meta name="geo.placename" content="Dover" />
                 <meta name="geo.position" content="38.692045;-75.401331" />
                 <meta name="ICBM" content="38.692045, -75.401331" />
-                <meta name="DC.title" content="ios app development company, hire ios app developers, hire iphone app developers" />
+                <meta name="DC.title" content="android app developers, android app development company, android application development services" />
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
-
+                <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
 
@@ -161,9 +164,9 @@ export default function androidappdevelopmentcompanylp() {
             <Homebanner
                 subtitle='Revolutionizing & Creating Smarter Future'
                 title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Android App</span>  Development Company</h1></>}
-                title2 = 'Android App Development Isn’t Just Our Job – It’s Our Passion.'
-                text= { <> BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development company firmly believes that no two businesses are the same, and neither should their apps be. </> }
-                text2= { <> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </> }
+                title2='Android App Development Isn’t Just Our Job – It’s Our Passion.'
+                text={<> BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development company firmly believes that no two businesses are the same, and neither should their apps be. </>}
+                text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
             />
 
 
@@ -204,7 +207,6 @@ export default function androidappdevelopmentcompanylp() {
                         <div>
                             <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
                             <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                            <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center"> {revolutionize} </p>
                         </div>
                     </Row>
 
@@ -226,9 +228,39 @@ export default function androidappdevelopmentcompanylp() {
             </div>
 
 
-            <Ready/>
+            <Ready />
             <Scalable />
-            <Enhanced />
+
+            <Enhanced
+                subtitle='BONUSES'
+                title={<> Benefits Of <span className='grdiant'>Android App Development</span> Services </>}
+                lop7={lop7}
+
+                lop1={lop1}
+                titl1={<> LOWER <br></br> COSTS </>}
+                text1='Developers can easily build apps with the help of its powerful SDK and help minimize the cost of development and licensing.'
+
+                lop2={lop2}
+                titl2={<> CUSTOMIZABLE <br></br> UI </>}
+                text2='Google emphasizes making its user interface configurable, allowing companies and developers more opportunities to make their apps more engaging.'
+
+                lop3={lop3}
+                titl3={<> EASY <br></br> APPROVALS </>}
+                text3='Before entering the market, Android applications do not have to go through a rigorous vetting procedure. Therefore from concept to product is quite fast.'
+
+                lop4={lop4}
+                titl4={<> MULTI-NETWORK <br></br>DISTRIBUTION </>}
+                text4='Android apps are also distributed through several third-party app marketplaces. This enables you to reach out to a bigger audience and expand your market penetration'
+
+                lop5={lop5}
+                titl5={<> SECURITY </>}
+                text5='Android app development is based on Linux, a guarantee of security and trouble-free operation of any mobile app on Google MarketPlace'
+
+                lop6={lop6}
+                titl6={<> OPEN SOURCE </>}
+                text6='Android being open source, an android app developer will have direct access to licensing, royalty-free, and the latest and greatest technology framework available.'
+            />
+
 
             <Musicapp />
             <Cab />

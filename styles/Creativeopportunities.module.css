@@ -87,3 +87,23 @@
     border: 2px solid #000;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+    .appcardmain {
+        flex-direction: column;
+    }
+    .appcardmain img {
+       display: none;
+    }
+
+    .appcardleft {
+        width: 100%;
+        text-align: left;
+       
+    }
+    .appcardright {
+        width: 100%;
+       
+    }
+
+ }

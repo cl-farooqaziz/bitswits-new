@@ -146,7 +146,6 @@ export default function gamedevelopmentcompany2dlp() {
 
     const [activeTab, setActiveTab] = useState('tab1');
     function handleTabChange(tab) {
-        tab.preventDefault();
         setActiveTab(tab);
         console.log(tab);
     }
@@ -393,6 +392,7 @@ export default function gamedevelopmentcompany2dlp() {
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
+                <link rel="icon" href="images/icons/favicon.png" />
 
             </Head>
 
@@ -505,7 +505,7 @@ export default function gamedevelopmentcompany2dlp() {
 
 
             <Container className='campny'>
-                <Row>
+                <Row className='gy-4'>
 
                     <Incredible
                         fontpont={incredible}

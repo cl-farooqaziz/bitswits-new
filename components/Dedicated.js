@@ -25,7 +25,7 @@ const Dedicated = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col lg={6}>
                             <div className={styles.dev}>
                                 <h2 className='f-20  f-700 black t-center'> <span className='grdiant'>Front-End</span> Web Development</h2>
                                 <p className='f-16 t-center f-500'>We specialize in building innovative, complex, user-centric, responsive front-end web solutions that look incredible on mobile devices and desktop screens.</p>
@@ -37,7 +37,7 @@ const Dedicated = () => {
                                 <Link className={styles.get} href='#'>CLICK TO GET STARTED</Link>
                             </div>
                         </Col>
-                        <Col>
+                        <Col lg={6}>
                             <div className={styles.dev}>
                                 <h2 className='f-20  f-700 black t-center'> <span className='grdiant'>Back End</span> Web Development</h2>
                                 <p className='f-16 t-center f-500'>BitsWits render customized back-end solutions that process a large amount of data, operate seamlessly under heavy loads, and show absolutely no latency issues.</p>

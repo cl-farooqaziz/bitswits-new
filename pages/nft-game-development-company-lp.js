@@ -300,6 +300,7 @@ export default function nftgamedevelopmentcompanylp() {
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
+                <link rel="icon" href="images/icons/favicon.png" />
 
             </Head>
 

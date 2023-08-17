@@ -34,3 +34,34 @@
 .devminiimg {
     margin-bottom: 10px;
 }
+
+
+@media screen and (max-width: 991px) {
+    .devcard{
+        text-align: center;
+    }
+    .leftside{
+        margin-bottom: 5%;
+    }
+ }
+
+
+ @media screen and (max-width: 767px) {
+
+    .devtop p {
+       
+        padding:unset; 
+     
+    }
+
+  }
+ @media screen and (max-width: 480px) {
+
+    .devtop h2 {
+        font-size: 25px;
+        line-height: 35px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+    }
+
+  }

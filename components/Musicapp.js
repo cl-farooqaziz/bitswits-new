@@ -22,7 +22,7 @@ const Musicapp = () => {
                             <h2 className='font40 black fontf font-bold center pb-5 textCaps'>We love <span className='grdiant'>transforming product ideas</span> <br></br> into  digital realities</h2>
                         </Col>
                     </Row>
-                    <Row className={styles.almost}>
+                    <Row className={` ${styles.almost} gy-4`}>
                         <Col md={5}>
 
                             <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid" loading="lazy" />

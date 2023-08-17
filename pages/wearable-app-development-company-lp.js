@@ -3,12 +3,14 @@ import Script from 'next/script'
 import Slider from 'react-slick'
 import { Container, Row } from 'react-bootstrap'
 import Homebanner from '@/components/Homebanner'
-import servicesmobile from '/public/images/servicesmobile/1.webp'
-import servicesmobile2 from '/public/images/servicesmobile/2.webp'
-import servicesmobile3 from '/public/images/servicesmobile/3.webp'
-import servicesmobile4 from '/public/images/servicesmobile/4.webp'
-import servicesmobile5 from '/public/images/servicesmobile/5.webp'
-import servicesmobile6 from '/public/images/servicesmobile/6.webp'
+
+import servicesmobile from '/public/images/servicesmobilewear/1.webp'
+import servicesmobile2 from '/public/images/servicesmobilewear/2.webp'
+import servicesmobile3 from '/public/images/servicesmobilewear/3.webp'
+import servicesmobile4 from '/public/images/servicesmobilewear/4.webp'
+import servicesmobile5 from '/public/images/servicesmobilewear/5.webp'
+import servicesmobile6 from '/public/images/servicesmobilewear/6.webp'
+
 import Endorsements from '@/components/Endorsements'
 import Homevideo from '@/components/Homevideo'
 import Whatourclients from '@/components/Whatourclients'
@@ -30,6 +32,15 @@ import Consultancy from '@/components/Consultancy'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
+import lop1 from '/public/images/bonuswear/1.png'
+import lop2 from '/public/images/bonuswear/2.png'
+import lop3 from '/public/images/bonuswear/3.png'
+import lop4 from '/public/images/bonuswear/4.png'
+import lop5 from '/public/images/bonuswear/5.png'
+import lop6 from '/public/images/bonuswear/6.png'
+import lop7 from '/public/images/bonuswear/android.png'
+
+
 
 export default function androidappdevelopmentcompanylp() {
 
@@ -47,66 +58,65 @@ export default function androidappdevelopmentcompanylp() {
 
         {
             img: servicesmobile,
-            title: android,
-            text: 'Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.',
+            title: (<>Android Wear <br></br>
+                Apps Development </>),
+            text: <>
+                With our expert Android Wear apps developers, you can create innovative and reliable solutions that help your business stay ahead in the ever-evolving mobile technology arena. We have a deep understanding of wearable android app development, allowing us to create device-agnostic Wear solutions that work across multiple devices.
+            </>
         },
 
         {
             img: servicesmobile2,
-            title: web,
+            title: (<>Apple Smart Watch <br></br>
+                App Development </>),
             text: <>
-                We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.
+                Our team of experienced developers cash in on wearable technology for iOS apps to create efficient and innovative experiences that will give you the freedom to stay connected on the go. With Apple's superior engineering and creative design, your smart watch app experience will be unrivaled in quality and productivity.
             </>
         },
 
         {
             img: servicesmobile3,
-            title: Flutter,
+            title: (<>Google Glass <br></br>
+                App Development </>),
             text: <>
-
-                Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.
-
-            </>,
+                Google Glass app development services offer groundbreaking technology for advancing businesses and organizations. Our app development team is experienced in creating Google Glass apps to fit any need - from organizing data to entertaining customers to enhancing communication between staff members.
+            </>
         },
 
         {
             img: servicesmobile4,
-            title: React,
+            title: (<>Wearable UI/UX <br></br>
+                Design </>),
             text: <>
-
-                Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!
-
-            </>,
+                We understand that creating a great user experience on a watch or other small device requires a different touch. Our wearable app development company is here to ensure that you get the right design and that your customers have an enjoyable experience with your product.
+            </>
         },
 
         {
             img: servicesmobile5,
-            title: Cross,
+            title: (<>API & Back-End <br></br>
+                System Development </>),
             text: <>
-
-                Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.
-
-            </>,
+                With the right expertise, our developers create powerful applications that work seamlessly with various devices. Our team is experienced in crafting custom APIs and developing a secure, reliable backend system to ensure your wearable app runs smoothly and efficiently at all times.
+            </>
         },
 
         {
             img: servicesmobile6,
-            title: IOS,
+            title: (<>Custom Wearable <br></br>
+                App Development </>),
             text: <>
-
-
-                Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.
-
-            </>,
+                Custom wearable app development is the next big thing for businesses looking to stay ahead of the technological curve. Whether you're a retailer, healthcare provider, or any other business that needs to keep up with modern technology, our custom wearable app development services can help keep your business running smoothly and efficiently.
+            </>
         },
 
 
     ]
 
-    const services = 'IOS APP DEVELOPMENT SERVICES'
-    const app = <>  <span className='grdiant'>Craft Incredible Apps:</span> Hire iOS
-        App Developer! </>
-    const revolutionize = 'Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.'
+    const services = 'WHAT WE DO'
+    const app = <>  <span className='grdiant'>Make Wearable Technology</span> Work for You
+        Hire Wearable App Developer Now! </>
+
 
 
     let rangSlider = {
@@ -126,30 +136,31 @@ export default function androidappdevelopmentcompanylp() {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta charset="UTF-8" />
-                <title>Quality-Focused iOS App Development Company - Bitswits!</title>
-                <meta name="description" content="Get the most out of your iOS app by working with our top-notch iOS app developers! We have the best team of developers who specialize in feature-rich iOS apps." />
+                <title>Award-Winning Wearable App Development Company - Bitswits!</title>
+                <meta name="description" content="Discover Premier wearable app developers at BitsWits, specializing in innovative solutions and technology for all devices. Elevate your business today!" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Quality-Focused iOS App Development Company - Bitswits!" />
-                <meta property="og:description" content="Get the most out of your iOS app by working with our top-notch iOS app developers! We have the best team of developers who specialize in feature-rich iOS apps." />
-                <meta property="og:url" content="https://bitswits.co/ios-app-development-company/" />
-                <meta property="og:site_name" content="Quality-Focused iOS App Development Company - Bitswits!" />
-                <link rel="canonical" href="https://bitswits.co/ios-app-development-company/" />
+                <meta property="og:title" content="Award-Winning Wearable App Development Company - Bitswits!" />
+                <meta property="og:description" content="Discover Premier wearable app developers at BitsWits, specializing in innovative solutions and technology for all devices. Elevate your business today!" />
+                <meta property="og:url" content="https://bitswits.co/wearable-app-development-company/" />
+                <meta property="og:site_name" content="Award-Winning Wearable App Development Company - Bitswits!" />
+                <link rel="canonical" href="https://bitswits.co/wearable-app-development-company/" />
                 <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-                <meta name="DC.title" content="ios app development company, hire ios app developers, hire iphone app developers" />
+                <meta name="DC.title" content="wearable app development company, hire top wearable app developers" />
                 <meta name="geo.region" content="US-CA" />
                 <meta name="geo.placename" content="Los Angeles" />
                 <meta name="geo.position" content="36.701463;-118.755997" />
                 <meta name="ICBM" content="36.701463, -118.755997" />
-                <meta name="DC.title" content="ios app development company, hire ios app developers, hire iphone app developers" />
+                <meta name="DC.title" content="wearable app development company, hire top wearable app developers" />
                 <meta name="geo.region" content="US-DE" />
                 <meta name="geo.placename" content="Dover" />
                 <meta name="geo.position" content="38.692045;-75.401331" />
                 <meta name="ICBM" content="38.692045, -75.401331" />
-                <meta name="DC.title" content="ios app development company, hire ios app developers, hire iphone app developers" />
+                <meta name="DC.title" content="wearable app development company, hire top wearable app developers" />
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
+                <link rel="icon" href="images/icons/favicon.png" />
 
             </Head>
 
@@ -161,9 +172,9 @@ export default function androidappdevelopmentcompanylp() {
             <Homebanner
                 subtitle='Put Your App on the Go with Our'
                 title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Wearable App </span> Development Company!</h1></>}
-              
-                text= { <> We understand the importance of connecting people with their devices and data. Our wearable application development company allow us to help you create the perfect app for your needs. From fitness tracking and health monitoring to access information at a glance, our developers are ready to assist in creating applications that will make life easier and more efficient. With our expertise and experience in the field of wearable technology, you can trust us to deliver the best service possible. </> }
-                text2= { <> Choose us for all your wearable application development needs, and let us help you create an app that will make life easier, faster, and more connected. </> }
+
+                text={<> We understand the importance of connecting people with their devices and data. Our wearable application development company allow us to help you create the perfect app for your needs. From fitness tracking and health monitoring to access information at a glance, our developers are ready to assist in creating applications that will make life easier and more efficient. With our expertise and experience in the field of wearable technology, you can trust us to deliver the best service possible. </>}
+                text2={<> Choose us for all your wearable application development needs, and let us help you create an app that will make life easier, faster, and more connected. </>}
             />
 
 
@@ -204,7 +215,7 @@ export default function androidappdevelopmentcompanylp() {
                         <div>
                             <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
                             <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                            <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center"> {revolutionize} </p>
+
                         </div>
                     </Row>
 
@@ -226,9 +237,39 @@ export default function androidappdevelopmentcompanylp() {
             </div>
 
 
-           
-            <Enhanced />
-            <Ready/>
+
+            <Enhanced
+                subtitle='WHY SETTLE FOR LESS WHEN YOU CAN HAVE THE BEST?'
+                title={<> Enjoy The Convenience of a <span className='grdiant'>One-Stop Shop for All Your Mobile App</span> Needs With Our Top <span className='grdiant'>Mobile Application</span> Company! </>}
+                textnew = 'BitsWits takes pride in prioritizing cutting-edge technology to create seamless user experiences across multiple platforms, including iOS, Android, and web apps. Needless to say, we strive to ensure that the products we deliver are tailored to meet the specific needs of our clients. At our web and mobile app development company, we give you countless reasons to confide in us!'
+                lop7={lop7}
+
+                lop1={lop1}
+                titl1={<> CUSTOMER <br></br> SATISFACTION </>}
+                text1='BitsWits is the only top mobile development company that offers a 100% satisfaction guarantee - meaning you can be sure that your project will be completed to your exact specifications!'
+
+                lop2={lop2}
+                titl2={<> AMBITIOUS <br></br> INDIVIDUALS </>}
+                text2='Our experienced developers are well-versed in the latest technologies, so you can trust us to create quality applications for any platform.'
+
+                lop3={lop3}
+                titl3={<> TECHNICAL <br></br> KNOW-HOW </>}
+                text3='Our developers have built applications for companies of all sizes and industries, so you can trust that your app is in capable hands.'
+
+                lop4={lop4}
+                titl4={<> AGILE <br></br>APPROACH </>}
+                text4='We take an agile approach to development, quickly responding to changes in requirements and ensuring a smooth rollout.'
+
+                lop5={lop5}
+                titl5={<> INTEGRITY & <br></br> TRANSPARENCY </>}
+                text5='We also maintain integrity and transparency with our customers throughout the entire process, providing honest and straightforward feedback to ensure maximum satisfaction.'
+
+                lop6={lop6}
+                titl6={<> COMPETITIVE PRICE <br></br> STRUCTURE </>}
+                text6= { <> We provide competitive pricing that can't be beaten. Our prices are fair and transparent, allowing customers to get the highest quality product without breaking their budget. </> }
+            />
+
+            <Ready />
             <Scalable />
 
             <Musicapp />

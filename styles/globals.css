@@ -314,7 +314,7 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
 }
 
 /* Track */
@@ -1431,6 +1431,9 @@ li {
 .lheight23 {
   line-height: 23px;
 }
+.lheight1 {
+  line-height: 1.3;
+}
 
 /* textalign */
 .t-center {
@@ -1668,6 +1671,14 @@ button {
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 1200px) {
+
+  .bannerslider.slick-slider .slick-next:before {
+    content: url(/images/icons/arrow.webp);
+    opacity: 1;
+    filter: brightness(0.1);
+    display: none;
+  }
+
   .border-r {
     border-right: 0;
   }
@@ -1688,6 +1699,11 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+
+  .line60 {
+    line-height: 55px;
+}
+
   .desktop {
     display: none;
   }
@@ -1751,4 +1767,24 @@ button {
   .testtimonials .slick-slider .slick-next {
     display: none !important;
   }
+}
+
+
+@media screen and (max-width: 480px) { 
+  .btnclas{
+    text-align: center;
+    height: 80px;
+  }
+
+  .font40 {
+    font-size: 30px;
+}
+
+  .font60 {
+    font-size: 35px;
+}
+
+.line60 {
+  line-height: 45px;
+}
 }

@@ -12,6 +12,7 @@ import Yearsofexpertise from '@/components/Yearsofexpertise';
 import Incredible from '@/components/Incredible';
 import Play from '@/components/Play';
 import Tabplays from '@/components/Tabplays';
+import Invigorate from '@/components/Invigorate';
 import Combination from '@/components/Combination';
 import Tribute from '@/components/Tribute';
 import { useState } from 'react'
@@ -24,12 +25,12 @@ import pony5 from '/public/images/image2d/4.jpg'
 import pony6 from '/public/images/image2d/5.jpg'
 import pony7 from '/public/images/image2d/6.jpg'
 import pony8 from '/public/images/image2d/7.jpg'
-
-import pic1 from '/public/images/super/1.png'
-import pic2 from '/public/images/super/2.png'
-import pic3 from '/public/images/super/3.png'
-import pic4 from '/public/images/super/4.png'
-import pic5 from '/public/images/super/5.png'
+import Link from 'next/link'
+import pic1 from '/public/images/supergameapp/1.png'
+import pic2 from '/public/images/supergameapp/2.png'
+import pic3 from '/public/images/supergameapp/3.png'
+import pic4 from '/public/images/supergameapp/4.png'
+import pic5 from '/public/images/supergameapp/5.png'
 import engagement from '/public/images/step/4.png'
 
 
@@ -40,32 +41,32 @@ export default function gameappdevelopmentcompanylp() {
 
 
         {
-            title: 'IOS 2D Game Development',
-            text: 'We offer top-notch iOS 2D game development services that combine top-of-the-line technology and creative designs. BitsWits is a master at creating visually compelling games with captivating storylines, vibrant characters, and intense levels. From conceptualization to design and launch, our team ensures you get a complete gaming experience that stands out from the crowd.',
+            title: '2D Game Development',
+            text: 'BitsWits ensure your vision is realized in an exciting, compelling 2D form from concept to completion. We specialize in pixel art and animations, level designs, scripting and effects, UI/UX design, audio production, and integration. Whether a simple arcade game, a complex platformer, puzzle-solving adventures, or an adventure-filled RPG, our team can design and develop the perfect game for you. Contact us today to bring your ideas to tangible reality!!!',
             btn1: (
                 <>
-                    Consult A Gaming Expert To Begin
+                    Click to Get Started
                 </>
             ),
 
         },
         {
-            title: 'Android 2D Game Development',
-            text: 'BitsWits is the go-to destination for all your Android 2D game development needs. From creating solid and user-friendly architecture to stunning visuals and fast loading times, we ensure the outcome is exceptional. With our expertise in Java language and open-source platforms like Unity 2D & Unreal Engine, we provide high-end services for game development, design & testing.',
+            title: '3D Game Development',
+            text: 'At BitsWits, we help you build 3D games that captivate your audience. Our experienced developers share an in-depth understanding of the latest technologies and techniques, i.e., Maya, 3ds Max, and whatnot, to ensure games that look and play like no other. By incorporating rendering techniques and advanced physics into each game, we simply help your project succeed in the fierce gaming competition! Connect with us to roll out a game never played before!',
             btn1: (
                 <>
-                    Consult A Gaming Expert To Begin
+                    Click to Get Started
                 </>
             ),
 
         },
 
         {
-            title: '2D Games For Consoles And PCs',
-            text: 'BitsWits provides the best 2D games for PCs and consoles. With our expansive library of titles, you can get your hands on classic console and arcade games and explore new worlds full of adventure, excitement, and challenge. We create intricate storylines with captivating characters that draw players in from start to finish. We also work closely with our partners to develop world-class titles for platforms such as Xbox, PlayStation, Nintendo Switch, and Windows PC.',
+            title: 'NFT Game Development',
+            text: 'BitsWits proudly shares its ability to create innovative and secure NFT games that give players control over their gaming assets, allowing them to be creative and have more ownership of the content they create in-game. By leveraging the power of DLT, we commit to high-quality, secure code that offers seamless UI with minimal latency. We disrupt every genre with our creative potential, from action, adventure, and strategy to simulations. Give us a try, and let us help you enter the crypto sphere with confidence!!!',
             btn1: (
                 <>
-                    Consult A Gaming Expert To Begin
+                    Click to Get Started
                 </>
             ),
 
@@ -309,7 +310,7 @@ export default function gameappdevelopmentcompanylp() {
 
 
         },
-       
+
 
 
 
@@ -349,6 +350,7 @@ export default function gameappdevelopmentcompanylp() {
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
+                <link rel="icon" href="images/icons/favicon.png" />
 
             </Head>
 
@@ -413,21 +415,9 @@ export default function gameappdevelopmentcompanylp() {
 
             />
 
-            <section className='campny'>
-                <Container>
-                    <Row>
-                        <Col>
-                            <h3 className='f-20 f-700 black t-center'>OUR <span className='grdiant'>SERVICES</span> ARE WHERE INNOVATION MEETS PLAY</h3>
-                            <h2 className='f-40 f-700 black t-center mb-5'>What You May Expect <span className='grdiant'>When Committing</span> To Us?</h2>
-                        </Col>
-                    </Row>
-                    <Row className='gy-4'>
-                        <Incredible
-                            fontpont={fontpont}
-                        />
-                    </Row>
-                </Container>
-            </section>
+            <Invigorate/>
+
+
 
 
             <Container className='campny'>
@@ -444,12 +434,21 @@ export default function gameappdevelopmentcompanylp() {
                             demand1={demandpont}
                         />
                     </Col>
+                    <Col xl={12}>
+                        <Link className='btnclas' href='#'>Revolutionize Your Mobile Experience with Flutter Apps</Link>
+                    </Col>
                 </Row>
             </Container>
 
 
-            <Container className='campny'>
+            <Container className='topbottom'>
                 <Row>
+                    <Col>
+                        <h3 className='f-20 f-700 black t-center'>OUR <span className='grdiant'>SERVICES</span> ARE WHERE INNOVATION MEETS PLAY</h3>
+                        <h2 className='f-40 f-700 black t-center mb-5'>Which <span className='grdiant'>Genre Of Games</span> Do We Create?</h2>
+                    </Col>
+                </Row>
+                <Row className='gy-4'>
 
                     <Incredible
                         fontpont={incredible}
@@ -462,29 +461,13 @@ export default function gameappdevelopmentcompanylp() {
 
 
 
-            <Container className='topbottom'>
-                <Row>
-                    <Col>
-                        <h3 className='f-20 f-700 black t-center'>ON-DEMAND</h3>
-                        <h2 className='f-40 f-700 black t-center'>Join the Revolution - Play on Any Platform with <span className='grdiant'>BitsWits' 2D Game Development</span> Company</h2>
-                        <p className='f-16 f-500 black t-center mb-5'>We provide an optimal gaming experience across multiple platforms by developing games for iOS, Android, Windows, and Mac OS. Our cross-platform approach ensures that your game reaches the broadest possible audience of gamers. We also provide extensive testing and optimization services to ensure seamless performance and compatibility on the target platforms. BitsWits uses high-quality tools such as Unity 2D and HTML5 to develop custom games to ensure maximum device performance. So, get in touch with us today, and let us help you take your gaming venture to the next level!</p>
-
-                    </Col>
-                </Row>
-                <Row>
-                    <Play
-                        demand={demand}
-                    />
-                </Row>
-            </Container>
+           
 
 
 
 
             <Combination
-                subtitle={<> THE  <span className='grdiant'>BEST GAME DEVELOPER</span> IN THE TOWN </>}
-                title={<>   The Future Of <span className='grdiant'>2D Games</span> Is Here <br></br> We're Leading The Charge! </>}
-                text='  Our 2D game developers use a combination of vibrant colors, intuitive controls, and engaging storylines to create something truly unique and always captivating. Our 2D game development services include concept creation, level design, character design, animation, asset integration, dynamic UI/UX design, programming, and debugging. Our custom 2D game engine provides hours of high-quality entertainment for those who take their gaming business seriously. With us, your gaming experience is guaranteed to be the best!'
+                title={<>   Leverage Our Proficiency in <br></br> <span className='grdiant'>Mobile Game Development</span> Today </>}
                 btn='Consult A Gaming Expert To Begin'
 
             />
@@ -493,29 +476,26 @@ export default function gameappdevelopmentcompanylp() {
 
 
             <Developer
-                subtitle={<>  Compelling Reasons To Enlist Our <br></br> <span className='grdiant'>2D  Game Development</span> Company </>}
-                title={<>   BitsWits shares a wealth of experience developing cutting-edge, engaging 2D games to help you
-                    knock out your competitors, capture customers' attention and increase your revenues. From
-                    concept design to programming, testing, and deployment of your custom-made 2D game, we offer
-                    comprehensive services that guarantee success in the world of 2D gaming. With our expertise, you
-                    can ensure your 2D game will be one of the best in the market. </>}
+                subtitle2={<>  HIRE THE BEST; FORGET THE REST! </>}
+                subtitle={<>  Why Engage BitsWits As Your <br></br> <span className='grdiant'>Game Development </span> Studio? </>}
+               
                 pic1={pic1}
-                tit1='Customized Solutions'
-                text1={<> BitsWits provides tailor-made 2D games development services tailored to each client's needs and requirements. This helps create an engaging gaming experience for the user, which can be further modified according to their preferences. </>}
+                tit1='Unpaired Expertise'
+                text1={<> Our team brings a wealth of expertise to the table. We celebrate a team of experts in game design, programming, and art direction, ensuring your vision for a video game comes to life with precision and accuracy. </>}
 
 
                 pic2={pic2}
-                tit2='Innovative Solutions'
-                text2={<> BitsWits is always looking for new and innovative ways to develop 2D games that provide a unique and immersive gaming experience. We use the latest technologies and techniques to ensure that the users enjoy the best gaming experience. </>}
+                tit2='Creative Solutions'
+                text2={<> BitsWits offers innovative solutions tailored to your specific needs and marketing objectives. Whether you're looking to create a game that educates, entertains, or helps you earn a steady stream of revenue, our team can craft the perfect experience to meet your needs. </>}
 
                 pic3={pic3}
-                tit3='Experienced Professionals'
-                text3={<> The team at BitsWits consists of experienced professionals with years of experience in 2D game development. This ensures that the games developed are efficient and bug-free, providing a fantastic gaming experience to the users. </>}
+                tit3='Tabs On Latest Trends'
+                text3={<> We are passionate about gaming and strive to stay up-to-date on the latest trends in the industry. We are equipped with the necessary tools, knowledge, and skills to create an engaging video game experience. </>}
 
 
                 pic4={pic4}
-                tit4='Exclusive Client Services'
-                text4={<> We are also proud to offer exclusive client services, including game beta testing and post-release support. We guarantee a smooth launch for your game and ensure your players have the best experience possible. </>}
+                tit4='Prices That Make Sense'
+                text4={<> We offer competitive prices for our services, meaning you get a great game at an even better price. Plus, if you're not 100% satisfied with the final product, we offer a full refund so you can be sure that your money is being well spent. There is one thing for sure BitsWits, your hard-earned money won't go down the drain. </>}
 
 
                 pic5={pic5}
@@ -533,7 +513,7 @@ export default function gameappdevelopmentcompanylp() {
                 subtitle='GAME DEVELOPMENT'
                 title='Past Projects Are A Glorious Tribute To Our Unwavering Devotion to Quality and Innovation!'
                 text={<> Whether you're a fan of classic arcade games, modern blockbusters, or quirky indie titles, our portfolio has something for everyone. Dive into our past projects and discover why we're one of the industry's most sought-after 2D game developers. </>}
-                video='/images/game2dvideo/video1.mp4'
+                video='/images/game2dvideo/video2.mp4'
             />
 
             <Publication />

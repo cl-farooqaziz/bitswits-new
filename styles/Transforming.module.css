@@ -31,3 +31,14 @@
     color: #000;
 
 }
+
+@media screen and (max-width: 991px) { 
+
+    .sty {
+        background-color: transparent;
+        width: 75%;
+        height: 45px;
+    }
+
+
+}

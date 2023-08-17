@@ -31,6 +31,15 @@ import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
 
+import lop1 from '/public/images/bonus/1.webp'
+import lop2 from '/public/images/bonus/2.webp'
+import lop3 from '/public/images/bonus/3.webp'
+import lop4 from '/public/images/bonus/4.webp'
+import lop5 from '/public/images/bonus/5.webp'
+import lop6 from '/public/images/bonus/6.webp'
+import lop7 from '/public/images/bonus/mobile.webp'
+
+
 export default function iosappdevelopmentcompanylp() {
 
 
@@ -150,6 +159,7 @@ export default function iosappdevelopmentcompanylp() {
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
+                <link rel="icon" href="images/icons/favicon.png" />
 
             </Head>
 
@@ -224,9 +234,51 @@ export default function iosappdevelopmentcompanylp() {
             </div>
 
 
-            <Ready/>
+            <Ready />
             <Scalable />
-            <Enhanced />
+
+
+            <Enhanced
+                subtitle='BONUSES'
+                title={<> Benefits Of <span className='grdiant'>iOS App Development</span> Services </>}
+                lop7={lop7}
+
+                lop1={lop1}
+                titl1={<> Adaptable <br></br> Mobile App </>}
+                text1='Transform your idea into a reality with our iPhone app development company. We create versatile, user-friendly mobile apps for maximum success.'
+
+                lop2={lop2}
+                titl2={<> Enhanced <br></br> Security </>}
+                text2='With iOS, you get peace
+                of mind knowing your information security are in good hands.'
+
+                lop3={lop3}
+                titl3={<> Best User <br></br> Experience </>}
+                text3='iOS developers make magic
+                happen with top-notch tools and tech stacks to craft
+                iOS apps which boast an unparalleled user experience. Treat yourself – download
+                one today!'
+
+                lop4={lop4}
+                titl4={<> Greater <br></br>Scalability </>}
+                text4='iPhone app development
+                company provide an opportunity to keep up with the trends while taking
+                your business where it needs to
+                go. Unleash the potential of scalability today!'
+
+                lop5={lop5}
+                titl5={<> Alluring <br></br> Design </>}
+                text5='Nothing is more pleasing
+                than the captivating iOS graphics and designs - an
+                accurate statement of art. With a level of UX finesse guaranteed to delight any
+                user.'
+
+                lop6={lop6}
+                titl6={<> Cutting Edge <br></br> App Dev </>}
+                text6='Cutting-edge iOS apps are
+                crafted with finesse by our skilled coders, deploying the
+                most advanced tools and tech stack to ensure a seamless user experience.'
+            />
 
             <Musicapp />
             <Cab />

@@ -38,7 +38,6 @@ const Scalable = () => {
 
     const [activeTab, setActiveTab] = useState('tab1');
     function handleTabChange(tab) {
-        tab.preventDefault();
         setActiveTab(tab);
     }
 

@@ -35,7 +35,7 @@ const Developer = (props) => {
                             </Col>
                             <Col lg={7}>
                                 <div className={styles.devcard}>
-                                    <Row className='g-5'>
+                                    <Row>
                                         <Col lg={6} className={styles.devcardslide}>
                                             <div>
                                                 <div className={styles.devminicard}>
