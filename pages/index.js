@@ -131,7 +131,7 @@ export default function Home() {
             looptext33={<> Check the genuine testimonial videos </>}
             loop4={<> <Counter stopNumber={20000} />+ </>}
             looptext4={<> PROJECTS  <br></br> DELIVERED </>}
-            looptext44={<> PROJECTS  <br></br> DELIVERED </>}
+            looptext44={<> See examples our work </>}
 
           />
           <Ourservices />
