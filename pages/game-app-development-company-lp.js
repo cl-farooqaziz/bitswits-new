@@ -425,7 +425,7 @@ export default function gameappdevelopmentcompanylp() {
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>THE WORK WE UNDERTAKE</h3>
                         <h2 className='f-40 f-700 black t-center'>The Genres Of Games We Develop</h2>
-                        <p className='f-16 f-700 black t-center'>We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.
+                        <p className='f-16 f-500 black t-center'>We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.
                             Here's an exciting rundown of what we bring to the table…</p>
 
                     </Col>
