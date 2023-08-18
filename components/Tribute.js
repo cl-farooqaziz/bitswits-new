@@ -11,7 +11,7 @@ const Tribute = (props) => {
             <Row>
                 <Col>
                 <h3 className='f-20  f-700 black t-center '> {props.subtitle} </h3>
-                <h2 className='f-40  f-700 black t-center'> {props.title} </h2>
+                <h2 className='f-50  f-700 black t-center'> {props.title} </h2>
                 <p className='f-16 f-500 black t-center'> {props.text} </p>
 
                 <video controls className={`${styles.bgVideo}`} muted

@@ -24,7 +24,7 @@ function Homebanner(props) {
 
 
                                 {props.subtitle ?
-                                    <p className="f-montserrat f-700 f-16 mb-1 black lheight24"> {props.subtitle}</p>
+                                    <p className="f-montserrat f-700 f-20 mb-1 black lheight24"> {props.subtitle}</p>
                                     :
                                     ''
                                 }

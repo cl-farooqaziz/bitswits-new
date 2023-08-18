@@ -476,7 +476,7 @@ export default function gamedevelopmentcompany2dlp() {
                     <Row>
                         <Col>
                             <h3 className='f-20 f-700 black t-center'>OUR <span className='grdiant'>SERVICES</span> ARE WHERE INNOVATION MEETS PLAY</h3>
-                            <h2 className='f-40 f-700 black t-center mb-5'>What You May Expect <span className='grdiant'>When Committing</span> To Us?</h2>
+                            <h2 className='f-50 f-700 black t-center mb-5'>What You May Expect <span className='grdiant'>When Committing</span> To Us?</h2>
                         </Col>
                     </Row>
                     <Row className='gy-4'>
@@ -492,7 +492,7 @@ export default function gamedevelopmentcompany2dlp() {
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>SUITE OF TOOLS IN OUR ARSENAL</h3>
-                        <h2 className='f-40 f-700 black t-center'>Our <span className='grdiant'>Technology Stack to Help Businesses Rise</span> Above and Conquer Their Competitors</h2>
+                        <h2 className='f-50 f-700 black t-center'>Our <span className='grdiant'>Technology Stack to Help Businesses Rise</span> Above and Conquer Their Competitors</h2>
 
                     </Col>
                     <Col xl={12}>
@@ -522,7 +522,7 @@ export default function gamedevelopmentcompany2dlp() {
                 <Row>
                     <Col>
                         <h3 className='f-20 f-700 black t-center'>ON-DEMAND</h3>
-                        <h2 className='f-40 f-700 black t-center'>Join the Revolution - Play on Any Platform with <span className='grdiant'>BitsWits' 2D Game Development</span> Company</h2>
+                        <h2 className='f-50 f-700 black t-center'>Join the Revolution - Play on Any Platform with <span className='grdiant'>BitsWits' 2D Game Development</span> Company</h2>
                         <p className='f-16 f-500 black t-center mb-5'>We provide an optimal gaming experience across multiple platforms by developing games for iOS, Android, Windows, and Mac OS. Our cross-platform approach ensures that your game reaches the broadest possible audience of gamers. We also provide extensive testing and optimization services to ensure seamless performance and compatibility on the target platforms. BitsWits uses high-quality tools such as Unity 2D and HTML5 to develop custom games to ensure maximum device performance. So, get in touch with us today, and let us help you take your gaming venture to the next level!</p>
 
                     </Col>
@@ -541,7 +541,7 @@ export default function gamedevelopmentcompany2dlp() {
 
             <Combination
                 subtitle={<> THE  <span className='grdiant'>BEST GAME DEVELOPER</span> IN THE TOWN </>}
-                title={<>   The Future Of <span className='grdiant'>2D Games</span> Is Here <br></br> We're Leading The Charge! </>}
+                title={<>   The Future Of <span className='grdiant'>2D Games</span> Is Here  We're Leading The Charge! </>}
                 text='  Our 2D game developers use a combination of vibrant colors, intuitive controls, and engaging storylines to create something truly unique and always captivating. Our 2D game development services include concept creation, level design, character design, animation, asset integration, dynamic UI/UX design, programming, and debugging. Our custom 2D game engine provides hours of high-quality entertainment for those who take their gaming business seriously. With us, your gaming experience is guaranteed to be the best!'
                 btn='Consult A Gaming Expert To Begin'
 

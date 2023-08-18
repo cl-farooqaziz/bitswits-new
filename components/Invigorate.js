@@ -16,7 +16,7 @@ const Invigorate = () => {
                     <Row>
                         <Col>
                             <h3 className='f-20  f-700 black t-center'>FEATURES OF <span className='grdiant'>OUR DEVELOPMENT</span> ENDEAVORS</h3>
-                            <h2 className='f-40  f-700 black t-center'>Invigorate Your <span className='grdiant'>Target Audience With Dynamic Gameplay</span> </h2>
+                            <h2 className='f-50  f-700 black t-center'>Invigorate Your <span className='grdiant'>Target Audience With Dynamic Gameplay</span> </h2>
                             <p className='f-16  f-500 black t-center'>It's time to develop compelling storylines and rich characters with BitsWits; after all, don't you want to create an immersive experience? We use the latest technologies and cutting-edge visuals to enable players to interact intuitively, whether playing on a PC, console, or mobile device.</p>
                         </Col>
                     </Row>

@@ -17,7 +17,7 @@ const Developer = (props) => {
                             {props.subtitle2 &&
                                 <h3 className='f-20 f-700 black t-center'>{props.subtitle2}</h3>
                             }
-                            <h2 className='f-40 f-700 black t-center'>
+                            <h2 className='f-50 f-700 black t-center'>
                                 {props.subtitle}
                             </h2>
                             <p className='f-16 f-500 black t-center'>

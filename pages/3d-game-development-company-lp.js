@@ -471,7 +471,7 @@ export default function gamedevelopmentcompany3dlp() {
                     <Row>
                         <Col>
                             <h3 className='f-20 f-700 black t-center'>OUR <span className='grdiant'>SERVICES</span> ARE WHERE INNOVATION MEETS PLAY</h3>
-                            <h2 className='f-40 f-700 black t-center mb-5'>Our <span className='grdiant'>3D Game Development</span> Services</h2>
+                            <h2 className='f-50 f-700 black t-center mb-5'>Our <span className='grdiant'>3D Game Development</span> Services</h2>
                         </Col>
                     </Row>
                     <Row className='gy-4'>
@@ -487,7 +487,7 @@ export default function gamedevelopmentcompany3dlp() {
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>3D GAMES VARIATIONS</h3>
-                        <h2 className='f-40 f-700 black t-center'>Types Of Thrilling <span className='grdiant'>3D Experiences</span> That We
+                        <h2 className='f-50 f-700 black t-center'>Types Of Thrilling <span className='grdiant'>3D Experiences</span> That We
                             Bring To The Table</h2>
                         <p className='f-16 f-500 black t-center'>At BitsWits, we develop myriad 3D games to suit every taste. From thrilling action-adventure titles to interactive puzzle games, there's something for everyone!</p>
 
@@ -519,7 +519,7 @@ export default function gamedevelopmentcompany3dlp() {
                 <Row>
                     <Col>
                         <h3 className='f-20 f-700 black t-center'>ON-DEMAND</h3>
-                        <h2 className='f-40 f-700 black t-center'> Experience Immersive, Realistic <span className='grdiant'>3D Gaming</span> with Us </h2>
+                        <h2 className='f-50 f-700 black t-center'> Experience Immersive, Realistic <span className='grdiant'>3D Gaming</span> with Us </h2>
                         <p className='f-16 f-500 black t-center mb-5'>We focus on creating on-demand 3D gameplay environments, utilizing cutting-edge technologies to bring a range of virtual worlds to life. We make it happen, whether it be an action-packed first-person shooter, a thrilling online multiplayer game, or a captivating puzzle game. The cornerstone of our services caters to realistic 3D character models, dynamic lighting and shadow effects, physics-based animations, realistic particle systems, and dynamic weather effects.</p>
 
                     </Col>
@@ -536,7 +536,7 @@ export default function gamedevelopmentcompany3dlp() {
 
             <Combination
                 subtitle={<> THE  <span className='grdiant'>ENJOY AN UNINTERRUPTED</span> GAMING SESSION NOW! </>}
-                title={<>   The Future Of <span className='grdiant'>Create Engaging Worlds with Our</span> <br></br> 3D Game Development Studio! </>}
+                title={<>   The Future Of <span className='grdiant'>Create Engaging Worlds with Our</span>  3D Game Development Studio! </>}
                 text='  BitsWits creates highly interactive and immersive 3D games that take players on an unforgettable journey into a thrilling world of realism. Our services feature designing complex characters, environments, objects, and textures, animating scenes, creating realistic physics for game objects to interact with each other, and integrating user controls and interfaces. From designing and developing 3D models to producing and integrating game logic, we provide end-to-end solutions for creating cutting-edge gaming experiences.'
                 text2='Get ready for your next adventure with our 3D Game Development Company!'
                 btn='Consult A Gaming Expert To Begin'

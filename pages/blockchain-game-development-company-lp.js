@@ -475,7 +475,7 @@ export default function blockchaingamedevelopmentcompanylp() {
                     <Row>
                         <Col>
                             <h3 className='f-20 f-700 black t-center'> OUR <span className='grdiant'>SERVICES ARE WHERE INNOVATION</span> MEETS PLAY </h3>
-                            <h2 className='f-40 f-700 black t-center'> <span className='grdiant'>Blockchain Gaming</span> Engineering Services</h2>
+                            <h2 className='f-50 f-700 black t-center'> <span className='grdiant'>Blockchain Gaming</span> Engineering Services</h2>
                             <p className='f-16 f-500 black t-center mb-5'>From creating multiplayer games to providing secure in-game asset exchange options, BitsWits leverages blockchain technology for game development. Our services include creating next-generation games using the latest technology and tools, such as Unity 3D engine for VR/AR gaming experiences, Augmented Reality (AR) support for games, low-latency gameplay features, HoloLens integration, and blockchain-backed matchmaking.</p>
                         </Col>
                     </Row>
@@ -502,7 +502,7 @@ export default function blockchaingamedevelopmentcompanylp() {
                 <Row>
                     <Col>
                         <h3 className='f-20 f-700 black t-center'>ON-DEMAND</h3>
-                        <h2 className='f-40 f-700 black t-center'> Explore a New Dimension of Fun with Our <span className='grdiant'>Blockchain Game Development</span> Company </h2>
+                        <h2 className='f-50 f-700 black t-center'> Explore a New Dimension of Fun with Our <span className='grdiant'>Blockchain Game Development</span> Company </h2>
                         <p className='f-16 f-500 black t-center mb-5'>Our blockchain-based solutions provide gamers with the highest level of security, ensuring that their digital assets remain safely in their hands. BitsWits is experienced in crafting games for both mobile and PC platforms and boasts a wealth of experience in creating games for both the public and private sectors. We also ensure that all of our games comply with the latest industry standards, so you can be sure that your investment in our technology is secure. From world-class art direction to feature-rich gameplay mechanics, BitsWits is your partner in creating the perfect gaming experience. Contact us today to learn how we can help make your upcoming game a success!</p>
 
                     </Col>

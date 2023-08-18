@@ -14,7 +14,7 @@ const Enhanced = (props) => {
                     <Row>
                         <Col md={12} className='pb-5'>
                             <h3 className='white'> {props.subtitle} </h3>
-                            <h2 className={`${styles.ios} f-50 f-playfair f-700 white t-center lheight1` } > {props.title} </h2>
+                            <h2 className={`${styles.ios} font50 f-playfair f-700 white t-center lheight1` } > {props.title} </h2>
 
                             {props.textnew && 
                             

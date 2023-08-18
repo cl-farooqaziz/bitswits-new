@@ -24,11 +24,34 @@
     color: white;
     font-family: "Montserrat", sans-serif;
 }
-.integrtxt h2 {
-    font-size: 35px;
-    line-height: 45px;
-    font-weight: 700;
-}
+
+
+@media screen and (max-width: 1920px) {
+
+    .integrtxt h2 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+
+ }
+
+
+ 
+
+
+  @media screen and (max-width: 991px) {
+
+    .integrtxt h2 {
+        font-size: 65px;
+        line-height: 75px;
+      }
+
+   }
+
+
+
+
 @media screen and (max-width: 480px) { 
 
     .sbtn {
@@ -37,7 +60,7 @@
        
     }
     .integrtxt h2 {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 35px;
         font-weight: 700;
     }

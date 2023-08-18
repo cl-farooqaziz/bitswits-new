@@ -424,7 +424,7 @@ export default function gameappdevelopmentcompanylp() {
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>THE WORK WE UNDERTAKE</h3>
-                        <h2 className='f-40 f-700 black t-center'>The Genres Of Games We Develop</h2>
+                        <h2 className='f-50 f-700 black t-center'>The Genres Of Games We Develop</h2>
                         <p className='f-16 f-500 black t-center'>We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.
                             Here's an exciting rundown of what we bring to the table…</p>
 
@@ -445,7 +445,7 @@ export default function gameappdevelopmentcompanylp() {
                 <Row>
                     <Col>
                         <h3 className='f-20 f-700 black t-center'>OUR <span className='grdiant'>SERVICES</span> ARE WHERE INNOVATION MEETS PLAY</h3>
-                        <h2 className='f-40 f-700 black t-center mb-5'>Which <span className='grdiant'>Genre Of Games</span> Do We Create?</h2>
+                        <h2 className='f-50 f-700 black t-center mb-5'>Which <span className='grdiant'>Genre Of Games</span> Do We Create?</h2>
                     </Col>
                 </Row>
                 <Row className='gy-4'>

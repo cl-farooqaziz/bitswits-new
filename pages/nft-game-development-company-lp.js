@@ -335,7 +335,7 @@ export default function nftgamedevelopmentcompanylp() {
             <Creativeopportunities
 
                 subtitle='BOUNTIES'
-                title={<> Secure Your Imagination With The <span className='grdiant'>NFT Gaming</span> <br></br> Platform: Discover A World Of Possibilities! </>}
+                title={<> Secure Your Imagination With The <span className='grdiant'>NFT Gaming</span> Platform: Discover A World Of Possibilities! </>}
 
                 eng={engagement}
 
@@ -372,7 +372,7 @@ export default function nftgamedevelopmentcompanylp() {
                     <Row>
                         <Col>
                             <h3 className='f-20 f-700 black t-center'>FEATURES</h3>
-                            <h2 className='f-40 f-700 black t-center'> Unlock Treasure Troves of Fun <br></br> with Play-to-Earn <span className='grdiant'>NFT Games</span> ! </h2>
+                            <h2 className='f-50 f-700 black t-center'> Unlock Treasure Troves of Fun <br></br> with Play-to-Earn <span className='grdiant'>NFT Games</span> ! </h2>
                             <p className='f-16 f-500 black t-center mb-5'>Are you ready to take your gaming experience to the next level? With play-to-earn NFT games, the possibilities are endless! Whether you're a hardcore collector or just looking for some extra cash, these interactive experiences can offer you something special. Explore the features of play-to-earn games, and get the ball rolled today!</p>
                         </Col>
                     </Row>
@@ -389,7 +389,7 @@ export default function nftgamedevelopmentcompanylp() {
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>SERVICES</h3>
-                        <h2 className='f-40 f-700 black t-center'> Unstoppable Fun: <span className='grdiant'>NFT Game Development</span> Services </h2>
+                        <h2 className='f-50 f-700 black t-center'> Unstoppable Fun: <span className='grdiant'>NFT Game Development</span> Services </h2>
                         <p className='f-16 f-500 black t-center'>Do you want to bring unstoppable fun to your gaming experience? We guarantee a world of gaming possibilities through our cutting-edge technology and innovative approach to NFTs.</p>
 
                     </Col>
@@ -415,7 +415,7 @@ export default function nftgamedevelopmentcompanylp() {
                 <Row>
                     <Col>
                         <h3 className='f-20 f-700 black t-center'>ON-DEMAND</h3>
-                        <h2 className='f-40 f-700 black t-center'> Creating Digital Magic: Tap Into the Power of On-Demand <span className='grdiant'>NFT Game Development</span> </h2>
+                        <h2 className='f-50 f-700 black t-center'> Creating Digital Magic: Tap Into the Power of On-Demand <span className='grdiant'>NFT Game Development</span> </h2>
                         <p className='f-16 f-500 black t-center mb-5'>BitsWits combine the power of blockchain technology with digital gaming to create innovative and captivating experiences. We uphold the mission of bringing a new kind of entertainment to the world—one that is safe, secure, and exciting! Whether NFT games for mobile, PC, and console platforms, our games feature dynamic gameplay, stunning graphics, and immersive storylines that captivate players. With cutting-edge technology and unbeatable artistry, we are transforming gaming into an entirely new experience.</p>
 
                     </Col>
@@ -432,7 +432,7 @@ export default function nftgamedevelopmentcompanylp() {
 
             <Combination
                 subtitle={<> WE'LL MAKE YOUR <span className='grdiant'>NFT GAME</span> DREAMS A REALITY! </>}
-                title={<>   Be at the Forefront of Blockchain Technology <br></br> and Utilize <span className='grdiant'>NFT Games</span> for Big Wins </>}
+                title={<>   Be at the Forefront of Blockchain Technology  and Utilize <span className='grdiant'>NFT Games</span> for Big Wins </>}
                 text='  With our games, users have the power to create their own custom story and journey through the world of NFTs. To cut a long story short, we strive to marry our artistic vision with the latest technologies, allowing us to create stunning visuals and immersive experiences while maintaining excellent performance on all platforms.'
                 text2='Rest assured, when signing with us, you receive many benefits from integrating NFTs into games, from creating virtual assets to opening up new gaming economies!!!'
                 btn='Consult A Gaming Expert To Begin'

@@ -20,7 +20,7 @@ const Transforming  = () => {
                         </Col>
                         <Col md={6}>
                             <h3 className='font20 black fontf font-bold'>A <span className='grdiant'>Walkthrough</span> Of Our Expertise</h3>
-                            <h2 className='font25 black fontf font-bold'> Transforming Ideas Into User-friendly Apps: Partner With The Trusted <span className='grdiant'>Mobile App Development</span> Agency! </h2>
+                            <h2 className='font30 black fontf font-bold'> Transforming Ideas Into User-friendly Apps: Partner With The Trusted <span className='grdiant'>Mobile App Development</span> Agency! </h2>
                             <p className='font16 black fontf font-medium mt-3'>Step into the dynamic world of mobile apps, where we bring innovation and creativity to every project. Our mobile app developers are masters at making visually appealing and easy-to-use apps. We work with you from ideation to launch to ensure that your app exceeds your expectations and aligns perfectly with your business goals.</p>
                             <div className="mt-4">
                                 <Link href="#" className={styles.sty} tabindex="0">Talk To Our Experts</Link>

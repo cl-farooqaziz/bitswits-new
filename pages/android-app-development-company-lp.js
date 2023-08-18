@@ -109,7 +109,7 @@ export default function androidappdevelopmentcompanylp() {
     ]
 
     const services = 'WHAT WE DO'
-    const app = <>  Leveling Up Your App Game With Our Slew of <br></br> <span className='grdiant'> Android App Development</span> Service! </>
+    const app = <>  Leveling Up Your App Game With Our Slew of <span className='grdiant'> Android App Development</span> Service! </>
 
 
     let rangSlider = {

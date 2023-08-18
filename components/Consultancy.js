@@ -11,7 +11,7 @@ const Consultancy = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className='font40 black fontf font-bold center pb-3'>Get A <span className='grdiant'>Free Consultancy</span> </h3>
+                            <h3 className='font50 black fontf font-bold center pb-3'>Get A <span className='grdiant'>Free Consultancy</span> </h3>
                         </Col>
                     </Row>
                     <Row>

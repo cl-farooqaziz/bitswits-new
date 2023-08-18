@@ -411,10 +411,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .banner,
-  .bannerform {
-    height: 100vh;
-  }
+
 }
 
 @media screen and (max-width: 1920px) {

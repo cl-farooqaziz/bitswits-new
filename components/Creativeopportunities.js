@@ -14,7 +14,7 @@ const Creativeopportunities = (props) => {
                     <Row className={`${styles.bount} pb-5`} >
                         <Col md={12}>
                             <h3 className='t-center f-18 f-montserrat f-700 black'> {props.subtitle}</h3>
-                            <h2 className='f-40 f-700 black t-center'> {props.title} </h2>
+                            <h2 className='f-50 f-700 black t-center'> {props.title} </h2>
 {props.text &&
                             <p className='f-16 f-500 black t-center'>{props.text}  </p>
 

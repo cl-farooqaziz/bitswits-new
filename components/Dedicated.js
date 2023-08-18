@@ -19,7 +19,7 @@ const Dedicated = () => {
                     <Row>
                         <Col>
                             <h3 className='f-30  f-700 black t-center'>WHAT WE DO</h3>
-                            <h2 className='f-40  f-700 black t-center'>Full-service <span className='grdiant'>Web Development Company</span> Dedicated <br></br>
+                            <h2 className='f-50  f-700 black t-center'>Full-service <span className='grdiant'>Web Development Company</span> Dedicated 
                                 To Unlocking Your Business Potential</h2>
                             <p className='f-16 t-center f-500'>BitsWits leave no stone unturned when it comes to developing websites that celebrate marketing features, customization, and robustness that add value to your business. When partnering with us, you knock the opportunity to outweigh the marketing investment you made initially. From developing B2B and B2C to B2E websites, there is nothing our industry-trained developers can't build.</p>
                         </Col>

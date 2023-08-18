@@ -19,7 +19,7 @@ const Stack = () => {
                     <Row>
                         <Col>
                             <h3 className='f-20  f-700 black t-center'>TECHNOLOGY STACK</h3>
-                            <h2 className='f-40  f-700 black t-center'>Unleash Your <span className='grdiant'>Gaming Creativity <br></br> With Our Myriad</span> Of Technology In Use</h2>
+                            <h2 className='f-50  f-700 black t-center'>Unleash Your <span className='grdiant'>Gaming Creativity <br></br> With Our Myriad</span> Of Technology In Use</h2>
                             <p className='f-16  f-500 black t-center'>BitsWits uses various blockchain technologies, such as multi-signature authentication, to further enhance the security of our products. More so, we offer multiple services, including custom game design and development, cryptocurrency wallet integration, smart contract development, and more. Here are a few technologies we embed in our services:</p>
                         </Col>
                     </Row>
