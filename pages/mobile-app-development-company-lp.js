@@ -176,7 +176,7 @@ export default function androidappdevelopmentcompanylp() {
                     <Row className='mb-5'>
                         <div>
                             <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-40 f-playfair f-700 black t-center"> {app} </h2>
+                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
                             <p className="f-montserrat f-500 f-16 mb-1 black lheight24 t-center"> {revolutionize} </p>
 
                         </div>

@@ -10,7 +10,7 @@ const Ready = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h2 className='pb-5 f-40 fontf f-700 black t-center'> <span className='grdiant'>Ready For Success?</span>  <br></br> Brace Yourself for What Happens Next</h2>
+                            <h2 className='pb-5 f-50 fontf f-700 black t-center'> <span className='grdiant'>Ready For Success?</span>  <br></br> Brace Yourself for What Happens Next</h2>
                         </Col>
                     </Row>
                     <Row className={styles.phone}>

@@ -185,7 +185,7 @@ export default function iosappdevelopmentcompanylp() {
                     <Row className='mb-5'>
                         <div>
                             <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-40 f-playfair f-700 black t-center"> {app} </h2>
+                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
 
                         </div>
                     </Row>

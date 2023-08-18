@@ -49,8 +49,8 @@ const Scalable = () => {
                         <Col>
                             <div className='center'>
                                 <h3 className='f-30 f-700 black t-center'>TECHNOLOGY</h3>
-                                <h2 className='f-40 f-700 black t-center ling34 pt-2 pb-2'>
-                                    Bring Out The Best Of Your <span className='grdiant'>Mobile Application</span> <br></br> With Our Scalable Technology Stack</h2>
+                                <h2 className='f-50 f-700 black t-center ling34 pt-2 pb-2'>
+                                    Bring Out The Best Of Your <span className='grdiant'>Mobile Application</span>  With Our Scalable Technology Stack</h2>
                                 <p className='f-16 f-600 black t-center ling34'>
                                     Experience the Success of Your Mobile Apps with Our Powerful Tech Stack
                                 </p>

@@ -14,7 +14,7 @@ const Cab = () => {
                 <Container>
                     <Row className={` ${styles.almost} gy-4`}>
                         <Col md={7}>
-                        <h2 className='font25 black fontf font-bold'>EZ Ride - <span className='grdiant'>Cab Service App</span> </h2>
+                        <h2 className='font40 black fontf font-bold'>EZ Ride - <span className='grdiant'>Cab Service App</span> </h2>
                             <p className='font14 black fontf font-medium'>EZ Ride is a two-sided marketplace, a platform that connects drivers and riders, with a gamified interface that makes it simple for two sides to connect and transact. EZ Ride earns money by collecting fees from gross bookings on the platform—the EZ Ride platform benefits from two-sided network effects. As more drivers join the platform, it becomes (to a certain extent) more.</p>
                             <div className="mt-4">
                                 <Link href="#" className={styles.sty} tabindex="0">View Case Study</Link>

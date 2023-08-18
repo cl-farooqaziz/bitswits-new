@@ -1779,6 +1779,9 @@ button {
     text-align: center;
     height: 80px;
   }
+  .font50{
+    font-size: 30px;
+  }
 
   .font40 {
     font-size: 30px;
