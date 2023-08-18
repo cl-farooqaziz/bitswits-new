@@ -116,7 +116,7 @@ export default function Home() {
       <Banner />
       <Rated />
       <About />
-      {showComponent && (
+     
         <>
 
           <Yearsofexpertise
@@ -146,7 +146,7 @@ export default function Home() {
           <Contact />
 
         </>
-      )}
+     
 
 
 
