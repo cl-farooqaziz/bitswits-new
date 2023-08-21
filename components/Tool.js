@@ -36,12 +36,7 @@ const Tool = () => {
         else {
 
             setShowComponent(false);
-            setTimeout(alertFunc, 5000);
-
-
-            function alertFunc() {
-                setShowComponent(true);
-            }
+          
 
         }
 
