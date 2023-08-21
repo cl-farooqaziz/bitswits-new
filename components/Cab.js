@@ -17,7 +17,7 @@ const Cab = () => {
                         <h2 className='font40 black fontf font-bold'>EZ Ride - <span className='grdiant'>Cab Service App</span> </h2>
                             <p className='font14 black fontf font-medium'>EZ Ride is a two-sided marketplace, a platform that connects drivers and riders, with a gamified interface that makes it simple for two sides to connect and transact. EZ Ride earns money by collecting fees from gross bookings on the platform—the EZ Ride platform benefits from two-sided network effects. As more drivers join the platform, it becomes (to a certain extent) more.</p>
                             <div className="mt-4">
-                                <Link href="#" className={styles.sty} tabindex="0">View Case Study</Link>
+                                <Link href="#" className={styles.sty} tabIndex="0">View Case Study</Link>
                                 <div className="mt-4">
                                     <Link href="#" className={styles.projects}> View All Projects</Link>
                                 </div>
@@ -29,7 +29,7 @@ const Cab = () => {
                            
 
 
-                            <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid" loading="lazy" />
+                            <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid"  />
                         </Col>
                     </Row>
                 </Container>

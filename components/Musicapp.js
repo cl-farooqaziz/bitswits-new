@@ -25,14 +25,14 @@ const Musicapp = () => {
                     <Row className={` ${styles.almost} gy-4`}>
                         <Col md={5}>
 
-                            <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid" loading="lazy" />
+                            <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid"  />
 
                         </Col>
                         <Col md={6}>
                             <h2 className='font40 black fontf font-bold'>Soul Sound - <span className='grdiant'>Music App</span> </h2>
                             <p className='font14 black fontf font-medium'>Soul Sound, the world's most distinguished music and audio platform, allows people to explore an incredibly varied creator community. Since its launch, the platform has become renowned for its unique content and features, including connecting with artists immediately and unearthing unheard-of tracks, podcasts, and more, all in one spot!</p>
                             <div className="mt-4">
-                                <Link href="#" className={styles.sty} tabindex="0">View Case Study</Link>
+                                <Link href="#" className={styles.sty} tabIndex="0">View Case Study</Link>
                                 <div className="mt-4">
                                     <Link href="#" className={styles.projects}> View All Projects</Link>
                                 </div>

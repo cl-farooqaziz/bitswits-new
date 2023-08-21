@@ -12,7 +12,7 @@ const Servicesmobile = (props) => {
             <Col md={4}>
                 <div className={styles.serveimg}>
                     {props.img1 &&
-                        <Image alt="bitswits" loading="lazy" src={props.img1} className='img-fluid' />
+                        <Image alt="bitswits"  src={props.img1} className='img-fluid' />
                     }
                     <h4>{props.title}</h4>
                     {props.text ?

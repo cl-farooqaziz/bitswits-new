@@ -87,7 +87,7 @@ const Enhanced = (props) => {
                     </Row>
                 </Container>
                 <div className={styles.mobileimg} >
-                    <Image src={props.lop7} alt="bitswits" className="img-fluid" loading="lazy" />
+                    <Image src={props.lop7} alt="bitswits" className="img-fluid"  />
                 </div>
             </section>
 

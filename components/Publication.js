@@ -96,7 +96,7 @@ const Publication = () => {
             {bloglisting.map((item, i) =>
               <Col md={2} key={i} className='imgspacetop'>
                 <div className={styles.publicationimg}>
-                  <Image alt="bitswits" loading="lazy" src={item.image} className='img-fluid' />
+                  <Image alt="bitswits"  src={item.image} className='img-fluid' />
                 </div>
               </Col>
             )}
@@ -117,7 +117,7 @@ const Publication = () => {
             {bloglisting.map((item, i) =>
               <Col md={2} key={i} className='imgspacetop'>
                 <div className={styles.publicationimg}>
-                  <Image alt="bitswits" loading="lazy" src={item.image} className='img-fluid' />
+                  <Image alt="bitswits"  src={item.image} className='img-fluid' />
                 </div>
               </Col>
             )}

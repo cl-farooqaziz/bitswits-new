@@ -1,0 +1,39 @@
+.tool{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #f3f3f3;
+}
+.usefont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px 80px;
+    align-items: center;
+}
+.inclu{
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    .usefont {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+     
+    }
+
+ }
+/* @media screen and (max-width: 480px) {
+
+    .usefont {
+        display: flex;
+        justify-content: flex-start; 
+        gap: unset;
+        flex-direction: column;
+     
+    }
+
+ } */

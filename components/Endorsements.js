@@ -85,43 +85,43 @@ const Endorsements = () => {
                             <div className={styles.homebannerlogo}>
                                 <Slider {...bannerslider} className='bannerslider'>
                                     <div>
-                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits"  className='img-fluid'
                                             src={banslider1}
 
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits"  className='img-fluid'
                                             src={banslider2}
 
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits"  className='img-fluid'
                                             src={banslider3}
 
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits"  className='img-fluid'
                                             src={banslider4}
 
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits"  className='img-fluid'
                                             src={banslider5}
 
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits"  className='img-fluid'
                                             src={banslider6}
 
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits"  className='img-fluid'
                                             src={banslider7}
 
                                         />

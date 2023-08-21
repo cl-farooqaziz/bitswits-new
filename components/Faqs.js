@@ -96,7 +96,7 @@ const Faqs = () => {
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={arrow}
 
-                                                loading="lazy"
+                                                
                                             />
                                         </Link>
                                     </div>
@@ -122,7 +122,7 @@ const Faqs = () => {
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={arrow}
 
-                                                loading="lazy"
+                                                
                                             />
                                         </Link>
                                     </div>
@@ -151,7 +151,7 @@ const Faqs = () => {
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={arrow}
 
-                                                loading="lazy"
+                                                
                                             />
                                         </Link>
                                     </div>
@@ -176,7 +176,7 @@ const Faqs = () => {
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={arrow}
 
-                                                loading="lazy"
+                                                
                                             />
                                         </Link>
                                     </div>
@@ -203,7 +203,7 @@ const Faqs = () => {
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={arrow}
 
-                                                loading="lazy"
+                                                
                                             />
                                         </Link>
                                     </div>
@@ -231,7 +231,7 @@ const Faqs = () => {
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={arrow}
 
-                                                loading="lazy"
+                                                
                                             />
                                         </Link>
                                     </div>

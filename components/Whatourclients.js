@@ -79,7 +79,7 @@ const Whatourclients = () => {
               </p>
               <div className={styles.clientData}>
                 <div>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={avtar1}
                   />
                 </div>
@@ -88,7 +88,7 @@ const Whatourclients = () => {
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">CEO / Founder <strong className="f-uppercase">Soul Sound</strong> </span>
                   </h4>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={rating}
                   />
                 </div>
@@ -107,7 +107,7 @@ const Whatourclients = () => {
               </p>
               <div className={styles.clientData}>
                 <div>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={avtar2}
 
                   />
@@ -117,7 +117,7 @@ const Whatourclients = () => {
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Co-Founder <strong className="f-uppercase">ProHealth</strong> </span>
                   </h4>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={rating}
                   />
                 </div>
@@ -136,7 +136,7 @@ const Whatourclients = () => {
               </p>
               <div className={styles.clientData}>
                 <div>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={avtar3}
 
                   />
@@ -146,7 +146,7 @@ const Whatourclients = () => {
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">CEO <strong className="f-uppercase">Find Food</strong> </span>
                   </h4>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={rating}
                   />
                 </div>
@@ -164,7 +164,7 @@ const Whatourclients = () => {
               </p>
               <div className={styles.clientData}>
                 <div>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={avtar4}
 
                   />
@@ -174,7 +174,7 @@ const Whatourclients = () => {
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Co-Founder <strong className="f-uppercase">EZ Ride</strong> </span>
                   </h4>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={rating}
                   />
                 </div>
@@ -194,7 +194,7 @@ const Whatourclients = () => {
               </p>
               <div className={styles.clientData}>
                 <div>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={avtar5}
 
                   />
@@ -204,7 +204,7 @@ const Whatourclients = () => {
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Co-Founder <strong className="f-uppercase">Bliss Travel</strong> </span>
                   </h4>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={rating}
                   />
                 </div>
@@ -222,7 +222,7 @@ const Whatourclients = () => {
               </p>
               <div className={styles.clientData}>
                 <div>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={avtar6}
 
                   />
@@ -232,7 +232,7 @@ const Whatourclients = () => {
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Founder and CEO <strong className="f-uppercase">Mark Place</strong> </span>
                   </h4>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={rating}
                   />
                 </div>
@@ -251,7 +251,7 @@ const Whatourclients = () => {
               </p>
               <div className={styles.clientData}>
                 <div>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={avtar7}
 
                   />
@@ -261,7 +261,7 @@ const Whatourclients = () => {
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Founder and CEO <strong className="f-uppercase">Glow Spa</strong> </span>
                   </h4>
-                  <Image alt="bitswits" loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"  className='img-fluid'
                     src={rating}
                   />
                 </div>

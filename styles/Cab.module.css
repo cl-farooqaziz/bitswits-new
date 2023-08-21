@@ -32,3 +32,49 @@
     color: #000;
 
 }
+.analpost{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.analpost div {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    display: flex;
+    font-size: 150px;
+    justify-content: center;
+    font-weight: 700;
+    color: black;
+    gap: 20px;
+    cursor: pointer;
+}
+.seen{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.analpost .active{
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+
+    .analpost div {
+        border: 1px solid black;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        display: flex;
+        font-size: 50px;
+        justify-content: center;
+        font-weight: 700;
+        color: black;
+        gap: 20px;
+        cursor: pointer;
+    }
+
+ }

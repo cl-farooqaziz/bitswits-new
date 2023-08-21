@@ -19,7 +19,7 @@ const Integration = () => {
                         <Image alt="bitswits" src={rating} className='img-fluid' />
                         <Link href='#' className={styles.arrowBtn1}>
                             <span>Get Free <br /> Consultation </span>
-                            <Image alt="bitswits" src={right} width="50" height="21" loading="lazy" />
+                            <Image alt="bitswits" src={right} width="50" height="21"  />
                         </Link>
                     </Col>
                 </Row>
