@@ -172,12 +172,14 @@
 .arrowBtn {
   font-size: 20px;
   font-weight: 800;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   text-transform: uppercase;
-  color: #f69110;
   display: flex;
   align-items: center;
   text-align: left;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .newsLetter .arrowBtn {
@@ -203,4 +205,25 @@
 .blogCategory a,
 .blogTitle a {
   color: #000;
+}
+
+.loadMore {
+  width: 250px;
+  height: 45px;
+  font-family: "Montserrat";
+  border-radius: unset;
+  margin: 4% 0;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+}
+
+.loadMore:hover {
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
 }

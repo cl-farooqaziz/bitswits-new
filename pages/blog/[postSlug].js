@@ -13,10 +13,14 @@ export async function getStaticProps({ params }) {
 
     let featuredImageUrl = "https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
+    if (postData.featuredImage) {
+        featuredImageUrl = `https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`;
+    }
 
     return {
         props: {
             postData,
+            featuredImageUrl,
         }
     };
 }
@@ -36,7 +40,7 @@ export async function getStaticPaths() {
     }
 }
 
-export default function Post({ postData }) {
+export default function Post({ postData, featuredImageUrl }) {
 
     return (
         <>
@@ -49,7 +53,7 @@ export default function Post({ postData }) {
                 <meta property="og:type" content={postData.opengraphType} />
                 <meta property="og:locale" content="en_IN" />
                 <meta property="og:site_name" content={postData.opengraphSiteName} />
-                <link rel="icon" href="images/icons/favicon.png" />
+                <link rel="icon" href="/images/icons/favicon.png" />
             </Head>
 
             <section className={styles.innerBlog}>
@@ -58,10 +62,10 @@ export default function Post({ postData }) {
                         <Col lg={8}>
                             <div className={styles.blogContent}>
                                 <div className={`${styles.contentHeading}`}>
-                                    <h1 className="mb-3">{postData.title} </h1>
+                                    <h1>{postData.title} </h1>
                                 </div>
-                                <div>
-
+                                <div className="mt-4">
+                                    <Image src={featuredImageUrl} width={736} height={450} />
                                 </div>
                                 <div className={`${styles.contentBody} mt-4`}
                                     dangerouslySetInnerHTML={{ __html: postData.content }}>

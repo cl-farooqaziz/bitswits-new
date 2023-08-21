@@ -4,33 +4,15 @@ import Link from "next/link";
 
 export default function FeaturedImage({ post }) {
 
-    let img = '';
-
-    const defaultFeaturedImage = "https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/images/travel_icy-polar_022K.jpg";
-    const defaultWidth = "300";
-    const defaultHeight = "200";
-
+    let defaultFeaturedImage = "https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/2023/08/moz-brand-authority-768x439-1.png";
+    
     if (post.featuredImage) {
-        let size = post.featuredImage.node.mediaDetails.sizes[0];
-        img = {
-            src: size.sourceUrl,
-            width: size.width,
-            height: size.height
-        }
-    }
-    else {
-        img = {
-            src: defaultFeaturedImage,
-            width: defaultWidth,
-            height: defaultHeight
-        }
+        defaultFeaturedImage = `https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/${post.featuredImage.node.mediaDetails.file}`;
     }
 
     return (
-        <div className="d-flex align-items-center justify-content-center ms-auto">
-            <Link href={`/blog/${post.slug}`} >
-                <Image src={img.src} width={img.width} height={img.height} alt={post.title} className="img-fluid" />
-            </Link>
-        </div>
+        <Link href={`/blog/${post.slug}`} >
+            <Image src={defaultFeaturedImage} width="350" height="300" alt={post.title} className="img-fluid" />
+        </Link>
     )
 }

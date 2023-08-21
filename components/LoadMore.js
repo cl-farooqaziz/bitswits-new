@@ -1,5 +1,7 @@
 import { getPostList } from "@/lib/posts";
 import { useState } from "react";
+import styles from '@/styles/BlogListBody.module.css'
+
 
 export default function LoadMore({ posts, setPosts, taxonomy = null }) {
 
@@ -46,7 +48,7 @@ export default function LoadMore({ posts, setPosts, taxonomy = null }) {
     }
     return (
         <button
-            className="load-more font-bold bg-blue-400 text-slate-900 px-4 py-2 hover:bg-blue-500"
+            className={styles.loadMore}
             onClick={handleOnclick}
             disabled={buttonDisabled}>
             {buttonText}

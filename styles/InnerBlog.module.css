@@ -166,12 +166,14 @@
 .arrowBtn {
   font-size: 20px;
   font-weight: 800;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   text-transform: uppercase;
-  color: #f69110;
   display: flex;
   align-items: center;
   text-align: left;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .newsLetter .arrowBtn {
