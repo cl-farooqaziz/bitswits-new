@@ -13,14 +13,15 @@ const Products = () => {
             <section className={styles.py120}>
                 <Container>
 
-                    <Row className={` ${styles.almost} gy-4`}>
+                    <Row className={` ${styles.almost} ${styles.dono} gy-4`}>
 
-                        <Col md={12} className='mb-4'>
+                        <Col md={12} className='mb-5'>
                             <h4 className='font16 black fontf font-bold center'> OUR UNDERTAKINGS </h4>
                             <h2 className='font50 black fontf font-bold center'> Bringing Creativity and <span className='grdiant'>Innovation Together</span> to <span className='grdiant'> Create Digital Products </span> That Hold True Value </h2>
 
                         </Col>
-
+                        </Row>
+                        <Row className={` ${styles.almost} ${styles.dono} gy-4`}>
                         <Col md={6}>
                             <h4 className='font16 black fontf font-bold'> BRANDING </h4>
                             <h2 className='font40 black fontf font-bold'> Dazzling <span className='grdiant'>User Experiences</span> That Are Positioned For your Success </h2>

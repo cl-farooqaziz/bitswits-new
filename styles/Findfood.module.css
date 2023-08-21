@@ -30,3 +30,12 @@
     color: #000;
 
 }
+
+
+@media screen and (max-width: 991px) { 
+
+    .dono{
+        flex-direction: column-reverse;
+    }
+
+}
