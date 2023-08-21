@@ -74,6 +74,9 @@
   .serveimg p {
     min-height: fit-content;
   }
+  .serveimg {
+    height: auto;
+  }
  
 
  }

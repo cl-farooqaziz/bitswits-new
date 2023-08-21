@@ -14,7 +14,7 @@ const Ready = () => {
                         </Col>
                     </Row>
                     <Row className={styles.phone}>
-                        <Col md={4}>
+                        <Col lg={4}>
                             <h4 className='black font70 fontf f-700  t-center'>01</h4>
                             <h3 className='f-40 fontf f-700 black t-center'>Talk To Our <span className='grdiant'>Experts</span> </h3>
                             <p className='font16 font-medium pt-2 pb-2'>Contact us without obligation by email or phone
@@ -25,7 +25,7 @@ const Ready = () => {
                             </Link>
 
                         </Col>
-                        <Col md={4}>
+                        <Col lg={4}>
                             <h4 className='black font70 fontf f-700  t-center'>02</h4>
                             <h3 className='f-40 fontf f-700 black t-center'>Get A <span className='grdiant'>Quote</span> </h3>
                             <p className='font16 font-medium pt-2 pb-2'>Get an exact cost breakdown structure of your
@@ -36,7 +36,7 @@ const Ready = () => {
                             </Link>
 
                         </Col>
-                        <Col md={4}>
+                        <Col lg={4}>
                             <h4  className='black font70 fontf f-700  t-center'>03</h4>
                             <h3 className='f-40 fontf f-700 black t-center'>Build An <span className='grdiant'>MVP</span> </h3>
                             <p className='font16 font-medium pt-2 pb-2'>We develop MVPs that are ready to tap the

@@ -26,6 +26,8 @@
 
 @media screen and (max-width: 991px) { 
 
+    
+
     .phone{
         flex-direction: column;
         display: flex;
@@ -35,7 +37,7 @@
 
     .btno {
        
-        width: 120%;
+        width: 100%;
         margin-bottom: 15%;
     }
 }
