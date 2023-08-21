@@ -905,6 +905,10 @@ input::-webkit-inner-spin-button {
 
 }
 
+.donepoint .slick-slide img {
+  display: unset;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {
