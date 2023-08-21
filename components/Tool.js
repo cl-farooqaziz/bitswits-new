@@ -30,7 +30,7 @@ const Tool = () => {
                     <Row>
                         <Col lg={12}>
 
-                            <div className={styles.usefont}>
+                            <div className={styles.usefont}> 
                                 <div className={styles.inclu}>
                                     <Image src={figma1} className='img-fluid pt-4 pb-4' />
                                     <h3 className='font16 black fontf font-bold center'>Balsamiq</h3>
