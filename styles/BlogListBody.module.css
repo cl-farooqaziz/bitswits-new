@@ -1,25 +1,11 @@
 .blogListBody {
   padding: 75px 0;
   overflow: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
-.bttns1 {
-  background-color: transparent;
-  width: 100%;
-  height: 45px;
-  display: block;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-  font-family: "Montserrat";
-  list-style: none;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 1px solid #000;
+.postList {
+  font-family: "Montserrat", sans-serif;
 }
 
 .bttns1:hover {
@@ -29,47 +15,31 @@
   border: 1px solid #000;
 }
 
-.blogCard {
-  margin-bottom: 50px;
-}
-
-.cardImg img {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 .blogCategory {
-  font-size: 20px;
-  font-weight: 400;
-  color: #a8a8a8;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
   line-height: 30px;
-  font-family: "Montserrat", sans-serif;
 }
 
-.blogTitle {
-  color: #000;
-  font-size: 28px;
-  line-height: 38px;
-  font-weight: 500;
-  margin-bottom: 8px;
-  font-family: "Montserrat", sans-serif;
+.blogTitle a {
+  color: #222;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
 }
 
-.blogDesciption {
+.blogDesciption p {
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .detailDate {
-  color: #000;
+  color: #222;
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 5px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .ctaBtn {
@@ -87,8 +57,7 @@
   background-color: #fff;
   text-transform: uppercase;
   transition: 0.5s ease-in-out;
-  box-shadow: #f69110 2px 2px 29px 0;
-  font-family: "Montserrat", sans-serif;
+  box-shadow: #e83468 2px 2px 29px 0;
 }
 
 .ctaImg {
@@ -110,25 +79,22 @@
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 8px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .platForm .title {
   color: #000;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 35px;
   margin-bottom: 10px;
   text-transform: capitalize;
-  font-family: "Playfair Display", serif;
 }
 
 .platForm .para {
   color: #000;
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 8px;
-  font-family: "Montserrat", serif;
+  margin-bottom: 0;
 }
 
 .newsLetter {
@@ -141,14 +107,13 @@
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 0px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .newsLetter h5 {
   color: #000;
-  font-size: 40px;
+  margin-top: 10px;
+  font-size: 30px;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
 }
 
 .newsLetter form input {
@@ -161,7 +126,6 @@
   border-radius: 0;
   letter-spacing: 1px;
   border-bottom: 1px solid;
-  font-family: "Montserrat", sans-serif;
 }
 
 .newsLetter form ::placeholder {
@@ -170,9 +134,8 @@
 }
 
 .arrowBtn {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
-  font-family: "Montserrat";
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -202,15 +165,9 @@
   margin: unset;
 }
 
-.blogCategory a,
-.blogTitle a {
-  color: #000;
-}
-
 .loadMore {
   width: 250px;
   height: 45px;
-  font-family: "Montserrat";
   border-radius: unset;
   margin: 4% 0;
   font-size: 15px;
@@ -226,4 +183,45 @@
   background-color: #000;
   color: #fff;
   border-color: #000;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 991px) {
+  .blogListBody {
+    padding: 50px 0 25px;
+    border-bottom: 1px solid #b8b8b8;
+  }
+
+  .blogRow {
+    border-bottom: 1px solid #b8b8b8;
+    padding: 20px 0;
+  }
+
+  .blogTitle a {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .blogDesciption p {
+    font-size: 15px;
+  }
+
+  .platForm .subTitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardCntnt {
+    margin-top: 25px;
+  }
+
+  .platForm .para {
+    font-size: 16px;
+  }
+
+  .arrowBtn {
+    font-size: 16px;
+  }
 }

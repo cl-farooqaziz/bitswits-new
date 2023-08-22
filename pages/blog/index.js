@@ -9,8 +9,8 @@ import { getPostList } from "@/lib/posts";
 import FeaturedImage from "@/components/FeaturedImage";
 import Date from "@/components/Date";
 import LoadMore from "@/components/LoadMore";
-//
 import BlogListing from '@/components/BlogListing'
+//
 import arrow from '../../public/images/blogBanners/right-arrow.webp'
 
 
@@ -43,49 +43,53 @@ export default function BlogHome({ allPosts }) {
             <BlogListing />
 
             <main>
-                <section className="post-list mt-4">
+                <section className={`${styles.postList} mt-0 mt-lg-4`}>
                     <Container>
                         <Row>
                             <Col lg={9}>
                                 <div className={`${styles.blogCard}`}>
                                     {
                                         posts.nodes.map((post) => (
-                                            <Row key={post.slug} className="align-items-center mb-5">
-                                                <Col lg={5}>
+                                            <Row key={post.slug} className={`${styles.blogRow} align-items-center mb-0 mb-lg-5`}>
+                                                <Col md={5}>
                                                     <FeaturedImage post={post} />
                                                 </Col>
-                                                <Col lg={7}>
+                                                <Col md={7}>
                                                     <div className={styles.cardCntnt}>
-                                                        <h5 className={`${styles.blogCategory} mt-3 mt-lg-0`}>
-                                                            {
-                                                                post.categories.nodes.map((category) => (
-                                                                    <Link className="text-blue-400 hover:text-blue-500" href={`/category/${category.slug}`} key={category.slug}>
-                                                                        {category.name}
-                                                                    </Link>
-                                                                ))
-                                                            }
-                                                        </h5>
-                                                        <h5 className={styles.blogTitle}>
+                                                        <h4 className={`${styles.blogTitle} mb-0`}>
                                                             <Link href={`/blog/${post.slug}`}>
                                                                 {post.title}
                                                             </Link>
-                                                        </h5>
+                                                        </h4>
+
+                                                        {
+                                                            post.categories.nodes.map((category) => (
+                                                                <h5 className={`${styles.blogCategory} mt-2`} key={category.slug}>
+                                                                    {category.name} - Blog
+                                                                </h5>
+                                                            ))
+                                                        }
+
                                                         <div dangerouslySetInnerHTML={{ __html: post.excerpt }} className={styles.blogDesciption}>
                                                         </div>
-                                                        <h4 className={styles.detailDate}>
+
+                                                        <h6 className={styles.detailDate}>
                                                             Published on <Date dateString={post.date} />
-                                                        </h4>
+                                                        </h6>
                                                     </div>
                                                 </Col>
                                             </Row>
                                         ))
                                     }
                                 </div>
+                                <div className="pt-lg-0 pt-4 pb-4 text-center">
+                                    <LoadMore posts={posts} setPosts={setPosts} />
+                                </div>
                             </Col>
-                            <Col lg={3}>
-                                <div className={`${styles.cta} mt-5 mt-lg-0`}>
+                            <Col lg={3} className='mb-5 mb-lg-0'>
+                                <div className={`${styles.cta}`}>
                                     <div className={styles.ctaImg}>
-                                        <Link href="/blog-page" className={`${styles.ctaBtn} mt-5`}>
+                                        <Link href="/blog" className={`${styles.ctaBtn} mt-5`}>
                                             get custom web designs
                                         </Link>
                                     </div>
@@ -102,7 +106,7 @@ export default function BlogHome({ allPosts }) {
                                         Thriving on accelerating the path to disruption and value creation in all directions has enabled
                                         us to receive acknowledgment and recognition by leading ratings and review platforms.
                                     </p>
-                                    <Link href="/blog-page" className={`${styles.arrowBtn} mt-3`}>
+                                    <Link href="/blog" className={`${styles.arrowBtn} mt-3`}>
                                         <span>View Reviews</span>
                                         <Image className='img-fluid' src={arrow} alt="bitswits" />
                                     </Link>
@@ -126,10 +130,6 @@ export default function BlogHome({ allPosts }) {
                                 </div>
                             </Col>
                         </Row>
-
-                        <div className="py-4 text-center">
-                            <LoadMore posts={posts} setPosts={setPosts} />
-                        </div>
                     </Container>
                 </section>
             </main>

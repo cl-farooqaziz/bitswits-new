@@ -3,9 +3,11 @@ import Link from 'next/link'
 import Image from "next/image";
 import styles from '@/styles/InnerBlog.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+//
 import { getPostSlugs, getSinglePost } from "@/lib/posts";
 //
 import arrow from '../../public/images/blogBanners/right-arrow.webp'
+import logo from '../../public/images/icons/favicon.png'
 
 
 export async function getStaticProps({ params }) {
@@ -62,10 +64,14 @@ export default function Post({ postData, featuredImageUrl }) {
                         <Col lg={8}>
                             <div className={styles.blogContent}>
                                 <div className={`${styles.contentHeading}`}>
-                                    <h1>{postData.title} </h1>
+                                    <h1>{postData.title}</h1>
+                                    <h6 className={`${styles.detailDate} mt-5`}>
+                                        <Image src={logo} alt="BitsWits" width={25} height={25} />
+                                        <span>By BitsWits Team in 2023</span>
+                                    </h6>
                                 </div>
                                 <div className="mt-4">
-                                    <Image src={featuredImageUrl} width={736} height={450} />
+                                    <Image src={featuredImageUrl} alt="BitsWits" width={736} height={450} />
                                 </div>
                                 <div className={`${styles.contentBody} mt-4`}
                                     dangerouslySetInnerHTML={{ __html: postData.content }}>
@@ -76,7 +82,7 @@ export default function Post({ postData, featuredImageUrl }) {
                         <Col lg={3}>
                             <div className={`${styles.cta} mt-5 mt-lg-0`}>
                                 <div className={styles.ctaImg}>
-                                    <Link href="/blog-page" className={`${styles.ctaBtn} mt-5`}>
+                                    <Link href="/blog" className={`${styles.ctaBtn} mt-5`}>
                                         get custom web designs
                                     </Link>
                                 </div>
@@ -93,7 +99,7 @@ export default function Post({ postData, featuredImageUrl }) {
                                     Thriving on accelerating the path to disruption and value creation in all directions has enabled
                                     us to receive acknowledgment and recognition by leading ratings and review platforms.
                                 </p>
-                                <Link href="/blog-page" className={`${styles.arrowBtn} mt-3`}>
+                                <Link href="/blog" className={`${styles.arrowBtn} mt-3`}>
                                     <span>View Reviews</span>
                                     <Image className='img-fluid' src={arrow} alt="bitswits" />
                                 </Link>

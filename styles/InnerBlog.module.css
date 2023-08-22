@@ -1,6 +1,7 @@
 .innerBlog {
   padding: 75px 0;
   overflow: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contentHeading {
@@ -8,12 +9,24 @@
   border-bottom: 1px solid #b8b8b8;
 }
 
+.detailDate {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.detailDate span {
+  color: #222;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .contentHeading h1 {
   color: #000;
-  font-size: 30px;
+  font-size: 35px;
+  line-height: 45px;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .contentBody a {
@@ -21,7 +34,9 @@
 }
 
 .contentBody a:hover {
-  color: #e83468;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contentBody p,
@@ -30,40 +45,52 @@
 }
 
 .contentBody h2,
-.contentBody h3 {
+.contentBody h3,
+.contentBody h4,
+.contentBody h5 {
   color: #000;
-  font-size: 26px;
-  line-height: 34px;
   font-weight: 700;
-  margin: 30px 0 20px;
-  font-family: "Montserrat", sans-serif;
+  margin: 30px 0 15px;
+}
+
+.contentBody h2 {
+  font-size: 26px;
+  line-height: 36px;
+}
+.contentBody h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.contentBody h4,
+.contentBody h5 {
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .contentBody ul li,
 .contentBody ol li,
 .contentBody p {
   color: #000;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
 }
 
-.ulList li {
+.contentBody ul li {
   position: relative;
   padding-left: 25px;
 }
 
-.ulList li::before {
+.contentBody ul li::before {
   content: "";
-  top: 6px;
+  top: 10px;
   left: 0;
   width: 7px;
   height: 7px;
   display: block;
   position: absolute;
   border-radius: 100%;
-  background-color: #f69110;
+  background: linear-gradient(to right, #f32f5e, #4a78ef);
 }
 
 .ctaBtn {
@@ -81,8 +108,7 @@
   background-color: #fff;
   text-transform: uppercase;
   transition: 0.5s ease-in-out;
-  box-shadow: #f69110 2px 2px 29px 0;
-  font-family: "Montserrat", sans-serif;
+  box-shadow: #e83468 2px 2px 29px 0;
 }
 
 .ctaImg {
@@ -104,25 +130,22 @@
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 8px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .platForm .title {
   color: #000;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 35px;
   margin-bottom: 10px;
   text-transform: capitalize;
-  font-family: "Playfair Display", serif;
 }
 
 .platForm .para {
   color: #000;
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 8px;
-  font-family: "Montserrat", serif;
+  margin-bottom: 0;
 }
 
 .newsLetter {
@@ -135,14 +158,13 @@
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 0px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .newsLetter h5 {
   color: #000;
-  font-size: 40px;
+  margin-top: 10px;
+  font-size: 30px;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
 }
 
 .newsLetter form input {
@@ -155,7 +177,6 @@
   border-radius: 0;
   letter-spacing: 1px;
   border-bottom: 1px solid;
-  font-family: "Montserrat", sans-serif;
 }
 
 .newsLetter form ::placeholder {
@@ -164,9 +185,8 @@
 }
 
 .arrowBtn {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
-  font-family: "Montserrat";
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -194,4 +214,22 @@
 .arrowBtn > img {
   display: inline-block;
   margin: unset;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 991px) {
+  .platForm .subTitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .platForm .para {
+    font-size: 16px;
+  }
+
+  .arrowBtn {
+    font-size: 16px;
+  }
 }
