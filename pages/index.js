@@ -116,37 +116,37 @@ export default function Home() {
       <Banner />
       <Rated />
       <About />
-     
-        <>
 
-          <Yearsofexpertise
-            loop1={<> <Counter stopNumber={21} />+ </>}
-            looptext1={<> YEARS OF <br></br> EXPERTISE </>}
-            looptext11={<> Established in 2002 in the USA </>}
-            loop2={<> <Counter stopNumber={1000} />+ </>}
-            looptext2={<> DEDICATED <br></br> DEVELOPERS </>}
-            looptext22={<> All directly employed by BitsWits </>}
-            loop3={<> <Counter stopNumber={12500} />+ </>}
-            looptext3={<> SATISFIED <br></br> CLIENTS </>}
-            looptext33={<> Check the genuine testimonial videos </>}
-            loop4={<> <Counter stopNumber={20000} />+ </>}
-            looptext4={<> PROJECTS  <br></br> DELIVERED </>}
-            looptext44={<> See examples our work </>}
 
-          />
-          <Ourservices />
-          <Lookingfor />
-          <Trusted />
-          <Ourportfolio />
-          <Digital />
-          <ClientsThink />
-          <Nextproject />
-          <Ourblogs />
-          <OurProject />
-          <Contact />
 
-        </>
-     
+      <Yearsofexpertise
+        loop1={<> <Counter stopNumber={21} />+ </>}
+        looptext1={<> YEARS OF <br></br> EXPERTISE </>}
+        looptext11={<> Established in 2002 in the USA </>}
+        loop2={<> <Counter stopNumber={1000} />+ </>}
+        looptext2={<> DEDICATED <br></br> DEVELOPERS </>}
+        looptext22={<> All directly employed by BitsWits </>}
+        loop3={<> <Counter stopNumber={12500} />+ </>}
+        looptext3={<> SATISFIED <br></br> CLIENTS </>}
+        looptext33={<> Check the genuine testimonial videos </>}
+        loop4={<> <Counter stopNumber={20000} />+ </>}
+        looptext4={<> PROJECTS  <br></br> DELIVERED </>}
+        looptext44={<> See examples our work </>}
+
+      />
+      <Ourservices />
+      <Lookingfor />
+      <Trusted />
+      <Ourportfolio />
+      <Digital />
+      <ClientsThink />
+      <Nextproject />
+      <Ourblogs />
+      <OurProject />
+      <Contact />
+
+
+
 
 
 
