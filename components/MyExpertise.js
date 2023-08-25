@@ -7,8 +7,8 @@ import styles from '@/styles/MyExpertise.module.css'
 const MyExpertise = (props) => {
     return (
         <>
-            <section className={`${props.className} ${styles.myExpertise}`}>  
-            
+            <section className={`${props.className} ${styles.myExpertise}`}>
+
                 <Container>
                     <Row className='aboutfold'>
                         <Col md={2}>
@@ -19,7 +19,7 @@ const MyExpertise = (props) => {
                         </Col>
                         <Col lg={3}>
                             <Link className={`${styles.bttns1} ${props.notpost} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
-                            Book a Call Today!
+                                Book a Call Today!
                             </Link>
                         </Col>
                     </Row>
