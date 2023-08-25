@@ -17,7 +17,7 @@ import React, { useState, useEffect } from 'react';
 // import OurProject from '@/components/OurProject'
 import dynamic from 'next/dynamic';
 
-const Banner = dynamic(() => import('@/components/Banner'));
+const Banner = dynamic(() => import('@/components/NewHomeBanner'));
 const Rated = dynamic(() => import('@/components/Rated'));
 const About = dynamic(() => import('@/components/About'));
 const Yearsofexpertise = dynamic(() => import('@/components/Yearsofexpertise'));

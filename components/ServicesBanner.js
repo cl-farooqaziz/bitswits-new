@@ -46,9 +46,9 @@ const ServicesBanner = (props) => {
                             {props.infopara}
 
                             <div className={styles.srvcBannerImg}>
-                                {/* <div className={styles.logo14}>
+                                <div className={styles.logo14}>
                                     <Image alt="bitswits"  src={props.bannerimg} className={`${styles.bottom3} img-fluid`} />
-                                </div> */}
+                                </div>
                             </div>
                         </div>
                     </Col>

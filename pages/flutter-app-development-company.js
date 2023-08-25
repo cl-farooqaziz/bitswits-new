@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react'; import Link from 'next/link';
-import banImg from '../public/images/banner/mobileappbanner.png'
+import banImg from '../public/images/banner/flutter.png'
 import foldimg from '../public/images/services/mobileapp/mobile-app-development-01.png'
 import foldensure from '../public/images/services/mobileapp/mobile-app-development-03.png'
 import { Row, Col } from 'react-bootstrap'

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react'; import Link from 'next/link';
-import banImg from '../public/images/banner/webBanner.png'
+import banImg from '../public/images/banner/game.svg'
 import foldimg from '../public/images/services/webSwipe.svg'
 import foldensure from '../public/images/services/webEnsure.svg'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -81,7 +81,7 @@ export default function gamedevelopment() {
         slidesToScroll: 1,
     };
     // banner component data
-const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> GAME DEVELOPMENT </span> Company!</h1>
+const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br className="d-none d-xl-block" /><span className='grdiant'> GAME DEVELOPMENT </span> Company!</h1>
 
     const para = <>
 

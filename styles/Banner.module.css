@@ -411,13 +411,15 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .banner,
-  .bannerform {
-    height: 100vh;
-  }
+
+
 }
 
 @media screen and (max-width: 1920px) {
+
+  .bannerform {
+    height: 100%;
+  }
   .alignment {
     gap: 30px;
   }
@@ -582,7 +584,7 @@
   }
 
   .bannerform {
-    height: auto;
+
     width: 400px;
   }
 
@@ -598,6 +600,12 @@
 }
 
 @media screen and (max-width: 1199px) {
+
+
+  .call p {
+    font-size: 11px;
+}
+
   .alignment p {
     font-size: 10px;
     line-height: 1;
