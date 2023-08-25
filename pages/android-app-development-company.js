@@ -114,17 +114,23 @@ export default function androidappdeveloment() {
 
 
 // banner component data
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>Android App Company </span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>Android App Development Company in US! </span></h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Over <b  className='grdiant'>2082+ mobile apps</b> published Worldwide <b className='grdiant'>since 2007</b> . </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>180+</b> In-House Team Of App Designers & Developers </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>20 Years</b> .Experience & Counting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image><b className='grdiant'>IOS, Android & cross-platform apps</b> for phone, tablet & watch. </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Transparent</b> Project Progress </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Offices in 5 Countries</b> (UK, USA, Australia, UAE & India) </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>  	The go-to <span className='grdiant'>Android app developers</span> for popular brands </li>
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> 	2000+ apps launched and counting  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> 	A highly skilled in-house team of 250+ experts </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>	Global presence  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> 	Timely Delivery </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> 	99% customer satisfaction rate </li>
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> 	Spectacular Android app designs </li>
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> 		Competitive Pricing </li>
+
         </ul>
     </>
 
@@ -201,7 +207,7 @@ export default function androidappdeveloment() {
     </div>
 
 
-const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
+const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success with android apps starts here. Get in touch with an android app consultant at BitsWits – Contact Us!</p> </>
 
     // Swipe component data
     const serCards = <>
