@@ -290,7 +290,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon10} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Car Entertainment
                     </h5>
                 </div>
@@ -300,7 +300,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon11} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Coachwork
                     </h5>
                 </div>
@@ -310,7 +310,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon12} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Wheels and Trims
                     </h5>
                 </div>
@@ -320,7 +320,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon13} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Automotive Parts
                     </h5>
                 </div>
@@ -330,7 +330,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon14} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Specialist Tuning
                     </h5>
                 </div>
@@ -340,7 +340,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon15} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Sales
                     </h5>
                 </div>
@@ -350,7 +350,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Limousines
                     </h5>
                 </div>
@@ -360,7 +360,7 @@ export default function automotivesolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 mt-3'>
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
                         Executive Cars
                     </h5>
                 </div>

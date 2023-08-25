@@ -448,7 +448,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         CMS <br /> Websites
                     </h5>
                     <p>
@@ -462,7 +462,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         e-Commerce <br /> Stories
                     </h5>
                     <p>
@@ -476,7 +476,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Custom <br /> Appliances
                     </h5>
                     <p>
@@ -490,7 +490,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Travel <br /> Websites
                     </h5>
                     <p>
@@ -504,7 +504,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Healthware
                     </h5>
                     <p>
@@ -518,7 +518,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Education & e-Learning <br /> Development
                     </h5>
                     <p>
@@ -531,7 +531,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Food Ordering <br /> Solutions
                     </h5>
                     <p>
@@ -544,7 +544,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Real <br /> Estate
                     </h5>
                     <p>
@@ -557,7 +557,7 @@ export default function phpdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Startup <br /> Solutions
                     </h5>
                     <p>

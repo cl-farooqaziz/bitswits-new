@@ -292,7 +292,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                     </div>
                   
 
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unity Analytics
                     </h5>
                     <p>Unity Analytics gives fast and easy access to important information that improves your in-game economy and the player experience.</p>
@@ -307,7 +307,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                     </div>
                   
 
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unity Cloud Build
                     </h5>
                     <p>Unity Cloud Build automatically compiles, deploys, and tests the game so you can get your product on the market quickly.</p>
@@ -322,7 +322,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                     </div>
                  
 
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unity Collaborate
                     </h5>
                     <p>Our team is industry experienced and highly capable when working with unity. Our experience in working with international clients has opened doors of exposure and we can work on your idea any time you want.</p>
@@ -336,7 +336,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                   
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unity everyplay
                     </h5>
                     <p>Everyplay has evolved, and we have now released new player community that has been designed from the ground up to enhance your game. We’ve got the experience that makes us the best when it comes to Unity 3D game development.</p>
@@ -351,7 +351,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                     </div>
                    
 
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unity Multiplayer
                     </h5>
                     <p>Unity Multiplayer is the easiest way to create real time, networked games for Unity, and at Team In India we have the needed skillset for create these real time networked games.</p>
@@ -364,7 +364,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unity ADS
                     </h5>
                     <p>You no longer need to rely on the 3% of players that make in-app purchases. Unity Ads is designed to become a natural part of your game. We at Team In India provide the service of creating Unity Ads.</p>

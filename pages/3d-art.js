@@ -178,7 +178,7 @@ export default function dart() {
                      <div className={`${whyStyles.imgBox}`}>
                          <Image src={icon27} alt='BitsWits' height={50} className='img-fluid' />
                      </div>
-                     <h5 className='font20 fontf font-500 line30'>
+                     <h5 className='font20 fontf font-medium line30'>
                      Environment <br/>Designing
                      </h5>
                      <p>Our various technique’s allows us to innovate a creative and attractive environment to give your idea a perfect mixture of art style.</p>
@@ -189,7 +189,7 @@ export default function dart() {
                      <div className={`${whyStyles.imgBox}`}>
                          <Image src={icon25} alt='BitsWits'  height={50} className='img-fluid' />
                      </div>
-                     <h5 className='font20 fontf font-500 line30 '>
+                     <h5 className='font20 fontf font-medium line30 '>
                      Character <br/> Designing
                      </h5>
                      <p>Designing characters and props needs away beyond thinking, and every person in Bitswitsis creative and think differently from others which make us out of the league and innovators.</p>
@@ -200,7 +200,7 @@ export default function dart() {
                      <div className={`${whyStyles.imgBox}`}>
                          <Image src={icon29} alt='BitsWits' height={50} className='img-fluid' />
                      </div>
-                     <h5 className='font20 fontf font-500 line30'>
+                     <h5 className='font20 fontf font-medium line30'>
                      3D <br/> Architect
                      </h5>
                      <p>For the construction business client, we can create exact property models with complete infrastructure around it like buildings, colony, mall, hospitals, and many more with our 3D skills and creativeness.</p>
@@ -211,7 +211,7 @@ export default function dart() {
                      <div className={`${whyStyles.imgBox}`}>
                          <Image src={icon30} alt='BitsWits' height={50} className='img-fluid' />
                      </div>
-                     <h5 className='font20 fontf font-500'>
+                     <h5 className='font20 fontf font-medium'>
                      Level <br/> Designing
                      </h5>
                      <p>Every game needs different levels to make it interesting and attractive, with our professional artists we are able to create different levels with different features.</p>
@@ -222,7 +222,7 @@ export default function dart() {
                      <div className={`${whyStyles.imgBox}`}>
                          <Image src={icon28} alt='BitsWits' height={50} className='img-fluid' />
                      </div>
-                     <h5 className='font20 fontf font-500'>
+                     <h5 className='font20 fontf font-medium'>
                      Videos <br/> Designing
                      </h5>
                      <p>You can use our 3D skills to describe your products with the help of videos. We can create eye-catching video to demonstrate your product and catch the attention of clients for you.</p>
@@ -234,7 +234,7 @@ export default function dart() {
                      <div className={`${whyStyles.imgBox}`}>
                          <Image src={icon29} alt='BitsWits' height={50} className='img-fluid' />
                      </div>
-                     <h5 className='font20 fontf font-500'>
+                     <h5 className='font20 fontf font-medium'>
                      Digital <br/> Printing
                      </h5>
                  

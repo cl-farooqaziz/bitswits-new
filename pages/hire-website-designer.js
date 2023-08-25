@@ -291,7 +291,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Website Designing
                     </h5>
                     <p>We keep the website designing crisp and standardized because we know exactly what a customer expects from us – we believe in maintaining our standards.</p>
@@ -304,7 +304,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Logo And Identity Designing
                     </h5>
                     <p>Keeping your logo and brand identity design unique and beautiful is our job and we make sure your logo looks exactly how you wanted it to look.</p>
@@ -316,7 +316,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     Flyer & Brochure Designing
                     </h5>
@@ -329,7 +329,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Corporate Branding
                     </h5>
                     <p>We take the responsibility of your corporate branding by designing influential graphics for your business brand.</p>
@@ -342,7 +342,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Infographic Design
                     </h5>
                     <p>Infographics are informative images and their design makes the first impact on the viewers mind – at Team In India the designers have got the experience to make beautiful infographics.</p>
@@ -354,7 +354,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     Email Template Designing
                     </h5>
@@ -367,7 +367,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     PowerPoint Presentations
                     </h5>
                     <p>Impressive PowerPoint presentations is what we’re brilliant at, so we do the designing of amazing presentations for you.</p>
@@ -380,7 +380,7 @@ export default function hirewebsitedesigner() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Wireframes Designing
                     </h5>
                     <p>Wireframe, or the blueprint of the website is created for the purpose of arranging elements to best accomplish a particular goal, and we at Team In India do the job of wireframe designing for you.</p>

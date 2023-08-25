@@ -289,7 +289,7 @@ export default function hireiosdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         App <br></br> Prototype
                     </h5>
 
@@ -301,7 +301,7 @@ export default function hireiosdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         App <br /> Design
                     </h5>
 
@@ -313,7 +313,7 @@ export default function hireiosdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                         Android Phone <br />
                         App development
@@ -327,7 +327,7 @@ export default function hireiosdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Tablet App <br />
                         Development
                     </h5>
@@ -340,7 +340,7 @@ export default function hireiosdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Wearable App <br />
                         Development
                     </h5>
@@ -353,7 +353,7 @@ export default function hireiosdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Version <br />
                         Upgrades
                     </h5>

@@ -291,7 +291,7 @@ export default function hireaspdotnetdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Cross Platform <br></br>
 Application Developement
                     </h5>
@@ -305,7 +305,7 @@ Application Developement
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Third Party <br></br>
 Customisationt
                     </h5>
@@ -318,7 +318,7 @@ Customisationt
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Customized Application <br></br>
 Development
                     </h5>
@@ -331,7 +331,7 @@ Development
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Mobile <br></br>
 Apps
                     </h5>
@@ -345,7 +345,7 @@ Apps
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Application <br></br>
 Integration
                     </h5>
@@ -360,7 +360,7 @@ Integration
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Cloud Based <br></br>
 Apps
                     </h5>

@@ -196,7 +196,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         CRO-Conversion
                         Rate Optimization
                     </h5>
@@ -209,7 +209,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Google Paid Search
                     </h5>
 
@@ -221,7 +221,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Bing Paid Search
                     </h5>
 
@@ -232,7 +232,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Google Remarketing
                     </h5>
 
@@ -244,7 +244,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Google Display
                         Advertising
 
@@ -258,7 +258,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Google Shopping
                     </h5>
 
@@ -270,7 +270,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Google Dynamic
                         Product Remarketing
                     </h5>
@@ -282,7 +282,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Google Video
                         Advertising
                     </h5>
@@ -295,7 +295,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Google Search
                         Remarketing
 
@@ -309,7 +309,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Amazon/Ebay 3rd
                         Party Seller Central
                     </h5>
@@ -322,7 +322,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Gmail Ads
                     </h5>
 
@@ -333,7 +333,7 @@ export default function payperclickservices() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Analytics And
                         Attribution Support
                     </h5>

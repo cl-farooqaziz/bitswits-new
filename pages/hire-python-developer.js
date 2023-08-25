@@ -295,7 +295,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Flask
                     </h5>
                     <p>When it comes to expertise and experience, our python developers london are the best. They have extensive experience in working with different frameworks of python to deliver the results according to the clients’ requirements.</p>
@@ -308,7 +308,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Django
                     </h5>
                     <p>Django is a Python-based free and open-source web framework, which follows the model-view-template architectural pattern. It is maintained by the Django Software Foundation, an independent organization established as a 501 non-profit. Django's primary goal is to ease the creation of complex, database-driven websites.</p>
@@ -320,7 +320,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     Scrapy
                     </h5>
@@ -333,7 +333,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Pyramid
                     </h5>
                     <p>Pyramid makes it easy to write web applications. Pyramid offers many features that make writing complex software take less effort. Pyramid has a rich pool of helpfu resources from which to draw. filterable list of add-ons, packages, and applications built to work with Pyramid.</p>
@@ -346,7 +346,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Zope
                     </h5>
                     <p>Zope Corporation (then known as Digital Creations) went on to release three open-source software packages to support web publishing: Bobo, Document Template, and BoboPOS. Zope is a free and open source web application server written in the object-oriented programming language “Python”. Zope continues to grow into many distinct applications,</p>
@@ -358,7 +358,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     Pandas
                     </h5>
@@ -372,7 +372,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Matplotlib
                     </h5>
                     <p>Matplotlib is a python library used to create 2D graphs and plots by using python scripts. It supports a very wide variety of graphs and plots namely - histogram, bar charts, power spectra, error charts etc. It is used along with NumPy to provide an environment that is an effective open source alternative for MatLab.</p>
@@ -385,7 +385,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Tkinter
                     </h5>
                     <p>Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI. Tkinter is included with standard Linux, Microsoft Windows and Mac OS X installs of Python. The name Tkinter comes from Tk interface.</p>
@@ -397,7 +397,7 @@ export default function hirepythondeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     Tensor Flow
                     </h5>

@@ -458,7 +458,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
     const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>What are Progressive Web Apps (PWA’s)?
     </h2>
 
-    const para1 = <span className='font30 black fontf font-400 line60 black'>
+    const para1 = <span className='font30 black fontf font-regular line60 black'>
         Usage of internet over mobile is continuously increasing than desktop.
         53% of traffic to online stores comes via mobile devices
     </span>
@@ -476,7 +476,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon232} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Strengthen Brand Identity
                     </h5>
                     <p>
@@ -492,7 +492,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Increase Engagement
                     </h5>
                     <p>
@@ -505,7 +505,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Stand Out From Competitors
                     </h5>
                     <p>
@@ -517,7 +517,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Gather Valuable Customer Data
 
 
@@ -534,7 +534,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Offer Push Notifications
 
 
@@ -551,7 +551,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Enhance Customer Support
 
 
@@ -567,7 +567,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Add Exclusiveness
 
 
@@ -585,7 +585,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Run Loyalty Programs
 
 
@@ -604,7 +604,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Extended Reach
 
 

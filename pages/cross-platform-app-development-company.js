@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Row, Col } from 'react-bootstrap'
 //css
 import styles from '@/styles/Coverage.module.css'
@@ -12,11 +13,10 @@ import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import Image from 'next/image';
-import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import WhyBuild from '@/components/WhyBuild';
 import MyExpertise from '@/components/MyExpertise';
 // images
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import banImg from '../public/images/banner/cross.svg'
 import benefitimg1 from '../public/images/industryInt/benefit-img1.svg'
 import benefitimg2 from '../public/images/industryInt/benefit-img2.svg'
@@ -38,7 +38,9 @@ import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
 export default function crossplateformappdev() {
 
     // banner component data
-    const heading = <h1 className='font65 black fontf font-bold line60'><span className='grdiant'>Cross-Platform App Development Company</span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>
+        <span className='grdiant'>Cross-Platform App Development Company</span>
+    </h1>
 
     const para = <>
 
@@ -66,9 +68,15 @@ export default function crossplateformappdev() {
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>Don't Wait, Innovate! Contact us now and hire the best <strong>cross-platform app developers</strong> in the US.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
+        Don't Wait, Innovate! Contact us now and hire the best <strong>cross-platform app developers</strong> in the US.
+    </p> </>
 
     // coverage component data
+
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
+        Our Approach for Mobile App Development
+    </h2>
 
     const expCards = <>
         <Row className={`${expStyles.soluRow} mt-5`}>
@@ -108,18 +116,18 @@ export default function crossplateformappdev() {
         </Row>
     </>
 
+
     // Why Build
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our Approach for Mobile
-        App Development
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>
+        Why Hire <span className='grdiant'>Cross-Platform App Developers</span> at BitsWits for Top-Quality Apps?
     </h2>
-
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why Hire <span className='grdiant'>Cross-Platform App Developers</span> at BitsWits for Top-Quality Apps?</h2>
 
     const text =
         <p className='text-center'>
             <span className='grdiant'>Cross-platform app development services</span> at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience.
         </p>
+
 
     const WhyBuilds = <>
 
@@ -129,7 +137,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon232} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Reaching More Users
                     </h5>
                     <p>
@@ -142,7 +150,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Sleek and Smooth Development
                     </h5>
                     <p>
@@ -155,7 +163,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Consistent Experience
                     </h5>
                     <p>
@@ -168,7 +176,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Simplified and Easy Maintenance
                     </h5>
                     <p>
@@ -181,7 +189,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Investments Built to Last
                     </h5>
                     <p>
@@ -195,7 +203,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Improved Engagement
                     </h5>
                     <p>
@@ -208,7 +216,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Faster Time to Market
                     </h5>
                     <p>
@@ -221,7 +229,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Flexibility in Internal Skill Sets
                     </h5>
                     <p>
@@ -234,7 +242,7 @@ export default function crossplateformappdev() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Native Device Capabilities
                     </h5>
                     <p>
@@ -245,6 +253,8 @@ export default function crossplateformappdev() {
             </Col>
         </Row>
     </>
+
+    // Why Build
 
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
@@ -328,6 +338,8 @@ export default function crossplateformappdev() {
             Our qualified <span className='grdiant'>cross-platform app developers</span> can help you achieve your app ideas by offering the best <span className='grdiant'>cross-platform app development services</span>.
         </p>
     </>
+
+    // Why Build
 
     const Benefits1 = <>
         <Row className='text-center'>

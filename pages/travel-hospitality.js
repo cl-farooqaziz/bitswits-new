@@ -352,7 +352,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel1} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Hotel Booking Engine
 
               </h5>
@@ -365,7 +365,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel2} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Flight Booking Engine
 
               </h5>
@@ -377,7 +377,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel3} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Cruise Booking Engine
 
               </h5>
@@ -389,7 +389,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel4} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Car Rental / Hire
 
               </h5>
@@ -401,7 +401,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel5} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Travel Insurance
 
               </h5>
@@ -413,7 +413,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel6} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Transfers
               </h5>
             
@@ -424,7 +424,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel7} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Successful Agents
 
               </h5>
@@ -436,7 +436,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel8} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Travel Extras
 
               </h5>
@@ -706,7 +706,7 @@ const WhyBuilds2 = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel1} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               21+ years experience
 in the industry
               </h5>
@@ -717,7 +717,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel2} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               1,000+ full-time in-house employees
               </h5>
              
@@ -728,7 +728,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel3} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               CMMi Level 3 Standards
 
               </h5>
@@ -740,7 +740,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel4} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Microsoft Gold Partner
 
               </h5>
@@ -752,7 +752,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel5} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Certified Developers
 
               </h5>
@@ -764,7 +764,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel6} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Dedicated Project Managers
               </h5>
             
@@ -775,7 +775,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel7} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Over 20,000 successful projects in 21 years
               </h5>
              
@@ -786,7 +786,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel8} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Remarkable customer satisfaction
               </h5>
              
@@ -797,7 +797,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel8} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Strong working experience with various suppliers and GDS
 
               </h5>
@@ -809,7 +809,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel8} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Working with multiple sales channels, such as B2C, B2B, and much more
 
               </h5>
@@ -821,7 +821,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel8} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Excellent value for money
 
               </h5>
@@ -833,7 +833,7 @@ in the industry
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={travel8} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               We maintain transparency in charges
               </h5>
           </div>

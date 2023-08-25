@@ -287,7 +287,7 @@ export default function hiredatabasedeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Database Programming
                     </h5>
                     <p>Our team has the capability to design, build, highly scalable and secure databases – exactly what the client expects. We’ve got absolute programming skills in hand.</p>
@@ -300,7 +300,7 @@ export default function hiredatabasedeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Database Reporting Services
                     </h5>
                     <p>Team In India deploys experts in implementing reporting services using SQL Server and MySQL for the database reporting services.</p>
@@ -312,7 +312,7 @@ export default function hiredatabasedeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Database Tuning & Optimization
                     </h5>
                     <p>The database tuning and optimization technique can implement remedial engineering methods that will substantially speed up and steady the system, and eliminate data integrity issues that plague most office-grown systems.</p>
@@ -324,7 +324,7 @@ export default function hiredatabasedeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Database Migration Services
                     </h5>
                     <p>Our database developers are extremely experienced in the database migration from different type of database systems like SQL Server, MySQL and MongoDB.</p>
@@ -337,7 +337,7 @@ export default function hiredatabasedeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Application Integration
                     </h5>
                     <p>Our company offers services for integrating enterprise applications, business-to-business systems, business processes, legacy and third party systems with utmost efficiency, to provide best results to the clients.
@@ -351,7 +351,7 @@ export default function hiredatabasedeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Database Capacity Planning
                     </h5>
                     <p>Capacity planning is a great way to know the business well - the goal of which is to make sure that the hardware andsoftware will be able to enable your business to achieve the goal. At Team In India, we do the database capacity planning for you.</p>

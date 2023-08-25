@@ -348,7 +348,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b1} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>API Development</h5>
+                    <h5 className='font20 fontf font-medium line30'>API Development</h5>
                     <p>Solutions regarding the API development for various travel products like flight, hotel and transfers.</p>
                 </div>
             </Col>
@@ -357,7 +357,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b2} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>Booking Management Systems
+                    <h5 className='font20 fontf font-medium line30'>Booking Management Systems
                     </h5>
                     <p>We provide you with white label solutions like Leads and Booking Management Systems.
 
@@ -370,7 +370,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b3} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>Booking Engines
+                    <h5 className='font20 fontf font-medium line30'>Booking Engines
 
                     </h5>
                     <p>Booking engines for flights, hotels, transfers, cruise and other travel expenses.
@@ -384,7 +384,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b4} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>Tracking and Security
+                    <h5 className='font20 fontf font-medium line30'>Tracking and Security
 
                     </h5>
                     <p>We provide easy solutions for tracking and security at an enterprise level, promising the best results.
@@ -398,7 +398,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b5} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>Negligence Case
+                    <h5 className='font20 fontf font-medium line30'>Negligence Case
 
                     </h5>
                     <p>Resolving the problem of clinical negligence by means of our tailored B2B solutions.
@@ -413,7 +413,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b6} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>Lead and Order
+                    <h5 className='font20 fontf font-medium line30'>Lead and Order
 
                     </h5>
                     <p>We can deliver solutions for leads and orders in a tracking system.
@@ -427,7 +427,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b7} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>Automotive  Solution</h5>
+                    <h5 className='font20 fontf font-medium line30'>Automotive  Solution</h5>
                     <p>We offer promising Automotive  solutions for property brokers and surveyors, making things easier.</p>
 
                 </div>
@@ -437,7 +437,7 @@ export default function travelhospitality() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={b2b8} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>Medical Industry
+                    <h5 className='font20 fontf font-medium line30'>Medical Industry
                     </h5>
                     <p>We can create a Human Resource Management System for the medical industry with utmost efficiency.
 

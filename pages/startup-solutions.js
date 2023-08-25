@@ -75,7 +75,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Business Analysis
                         </h5>
                         <p>
@@ -90,7 +90,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Functional Specifications
                         </h5>
                         <p>
@@ -105,7 +105,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Web Development
                         </h5>
                         <p>
@@ -120,7 +120,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Mobile App Development
                         </h5>
                         <p>
@@ -135,7 +135,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Software Development
                         </h5>
                         <p>
@@ -150,7 +150,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Security, Server Management and Server & Network Support.
                         </h5>
                         <p>
@@ -165,7 +165,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Digital Marketing
                         </h5>
                         <p>
@@ -180,7 +180,7 @@ export default function startupsolutions() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Support
                         </h5>
                         <p>

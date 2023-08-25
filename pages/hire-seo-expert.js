@@ -293,7 +293,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Custom PHP Development
                     </h5>
                     <p>Our PHP developers have the skills and the expertise to create complex custom applications. We serve small and large industries and provide tailor-made development services.</p>
@@ -306,7 +306,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     PHP Based CMS Systems
                     </h5>
                     <p>If a custom CMS is what you need for your business, then we have the technical expertise to develop one for you whilst maintaining exceptionally high standards.</p>
@@ -318,7 +318,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     E-Commerce Solutions
                     </h5>
@@ -331,7 +331,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Corporate Websites
                     </h5>
                     <p>We have the experience to provide professional and engaging solutions that help define your brand. We’ll work closely with you to ensure the results exceed your expectations at every stage.</p>
@@ -344,7 +344,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Web Applications
                     </h5>
                     <p>We’re experts in developing responsive, cross platform compatible, custom tailored web applications. We’ve trained our teams to provide the best so let our solid business experience help your company achieve its potential.</p>
@@ -356,7 +356,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     Conversion Rate Optimisation
                     </h5>
@@ -369,7 +369,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Link Building
                     </h5>
                     <p>Link building involves acquiring high quality links from other websites to your own. Search engines use links to crawl the web - they will crawl the links between the individual pages on website, and they will crawl the links between entire websites...more</p>
@@ -382,7 +382,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Content Development & Marketing
                     </h5>
                     <p>We create and curate content that is creative, interesting and attracts the reader with its information. We’ve got trained writers working to deliver a readable and relatable content...more</p>
@@ -394,7 +394,7 @@ export default function hireseoexpert() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
 
                     Keyword Research
                     </h5>

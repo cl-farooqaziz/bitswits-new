@@ -152,7 +152,7 @@ export default function hiresugarcrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Websites <br></br>
                         Development
                     </h5>
@@ -167,7 +167,7 @@ export default function hiresugarcrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Integration With 3rd <br></br>
                         Party Applications
                     </h5>
@@ -183,7 +183,7 @@ export default function hiresugarcrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Performance <br></br>
                         Optimization
                     </h5>
@@ -198,7 +198,7 @@ export default function hiresugarcrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Data <br></br>
                         Migration
 
@@ -214,7 +214,7 @@ export default function hiresugarcrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Module <br></br>
                         Development
                     </h5>
@@ -230,7 +230,7 @@ export default function hiresugarcrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Customize and <br></br>
                         Extend SugarCRM
                     </h5>

@@ -168,7 +168,7 @@ export default function hirejavadeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Java Web
                         Development
                     </h5>
@@ -183,7 +183,7 @@ export default function hirejavadeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Java mobile &
                         IOT development
                     </h5>
@@ -198,7 +198,7 @@ export default function hirejavadeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Custom Java
                         Development
                     </h5>
@@ -213,7 +213,7 @@ export default function hirejavadeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Apps modernization
                         & migration
                     </h5>
@@ -243,7 +243,7 @@ Team in BitsWits </span></h2>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     JAVA API Development
                     </h5>
 
@@ -257,7 +257,7 @@ Team in BitsWits </span></h2>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Web Services integartion
                     </h5>
 
@@ -271,7 +271,7 @@ Team in BitsWits </span></h2>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Manageable Data Connector
                     </h5>
 
@@ -286,7 +286,7 @@ Oracle, Microsoft and ERP Solutions</p>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Enterprise Service
 
                     </h5>

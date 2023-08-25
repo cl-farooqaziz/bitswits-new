@@ -1,26 +1,24 @@
-
 .indusblk {
-    clear: both;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 21px;
+  clear: both;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 21px;
 }
-.indusblk{
-    background-color: #fff;
+.indusblk {
+  background-color: #fff;
 }
 .indusblk li {
-    display: inline-block;
-    width: 100%;
-    padding-top: 40px;
-    max-width: 200px;
-    font-size: 16px;
-    font-size: 16px;
+  display: inline-block;
+  width: 100%;
+  padding-top: 40px;
+  max-width: 220px;
+  font-size: 16px;
+  font-size: 16px;
 }
-.indusblk li p{
-    color: #000;
+.indusblk li p {
+  color: #000;
 }
 .indusblk li img {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
-

@@ -294,7 +294,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Ionic
                     </h5>
                     <p>Using Iconic we build apps in one codebase, for any platform, with the web. From open source to pro services, the technology additionally helps in deploying, testing, and ultimately monitoring apps in a very easy manner.</p>
@@ -307,7 +307,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Titanium App <br></br> Development
                     </h5>
                     <p>Our team is well-versed with Titanium framework development to build the robust and enterprise-class hybrid application for varied business.</p>
@@ -320,7 +320,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Phonegap App <br></br> Development
                     </h5>
                     <p>We have expertise in PhoneGap coding to deliver the lightweight and powerful application that include seamless features.</p>
@@ -333,7 +333,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Sencha Touch <br></br>
                         Development
                     </h5>
@@ -347,7 +347,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Jquery Mobile <br></br>
                         Application Development
                     </h5>
@@ -361,7 +361,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Quick Maintenance <br></br>
                         Support
                     </h5>
@@ -375,7 +375,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         HTML5 App <br></br>
                         Development
                     </h5>
@@ -389,7 +389,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Hybrid App Design <br></br>
                         & Development
                     </h5>
@@ -403,7 +403,7 @@ export default function hybridappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Hybrid App <br></br>
                         Integration
                     </h5>

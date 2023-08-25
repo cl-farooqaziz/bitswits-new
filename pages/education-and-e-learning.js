@@ -87,7 +87,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             ACCESSIBILITY
                         </h5>
                         <p>
@@ -102,7 +102,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             CAPACITY & CONSISTENCY
                         </h5>
                         <p>
@@ -117,7 +117,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             REFRESHABLE CONTENT
                         </h5>
                         <p>
@@ -165,7 +165,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon30} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Negotiations
                         </h5>
                         <p>
@@ -180,7 +180,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon31} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             LMS Selections
                         </h5>
                         <p>
@@ -195,7 +195,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon32} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Consultation
                         </h5>
                         <p>
@@ -210,7 +210,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon33} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             RFP
                         </h5>
                         <p>
@@ -225,7 +225,7 @@ export default function educationandelearning() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon34} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Vendor List
                         </h5>
                         <p>

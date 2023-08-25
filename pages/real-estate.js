@@ -345,7 +345,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon24} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Outstanding <br/>Designs
               </h5>
               <p>
@@ -361,7 +361,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon25} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               CRM Lead<br /> Management
               </h5>
               <p>
@@ -375,7 +375,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon26} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Excellent <br /> Support
               </h5>
               <p>
@@ -391,7 +391,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon27} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Responsive <br /> Websites
               </h5>
               <p>
@@ -407,7 +407,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon16} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Content <br /> Management
               </h5>
               <p>
@@ -423,7 +423,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon17} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Powerful <br /> Blog
               </h5>
               <p>
@@ -438,7 +438,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon18} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               SEO <br /> Friendly
               </h5>
               <p>
@@ -453,7 +453,7 @@ const WhyBuilds = <>
               <div className={`${whyStyles.imgBox}`}>
                   <Image src={icon19} alt='BitsWits' className='img-fluid' />
               </div>
-              <h5 className='font20 fontf font-500 line30'>
+              <h5 className='font20 fontf font-medium line30'>
               Powerful <br /> IDX
               </h5>
               <p>

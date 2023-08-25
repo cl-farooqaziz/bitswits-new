@@ -311,7 +311,7 @@ export default function internetofthings() {
                     <div className={`${workStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Saves Time
                     </h5>
                     <p>
@@ -325,7 +325,7 @@ export default function internetofthings() {
                     <div className={`${workStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Easy Control
                     </h5>
                     <p>
@@ -344,7 +344,7 @@ export default function internetofthings() {
             </p>
             <Col lg={4} md={6} className={workStyles.soluCol}>
                 <div className={`${workStyles.soluCard}`}>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Cromwell Room
                         Automation App
                     </h5>
@@ -355,7 +355,7 @@ export default function internetofthings() {
             </Col>
             <Col lg={4} md={6} className={workStyles.soluCol}>
                 <div className={`${workStyles.soluCard}`}>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         My Medical
                         Connections
                     </h5>
@@ -371,7 +371,7 @@ export default function internetofthings() {
                     {/* <div className={`${workStyles.imgBox}`}>
                 <Image src={icon34} alt='BitsWits' className='img-fluid' />
             </div> */}
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         GPG (Global Payroll
                         Gateway Inc.)
                     </h5>

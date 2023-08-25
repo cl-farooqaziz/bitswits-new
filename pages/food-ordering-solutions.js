@@ -202,7 +202,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Front Website
                     </h5>
                     <p>
@@ -216,7 +216,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Customer App
                     </h5>
                     <p>
@@ -230,7 +230,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Merchant App
                     </h5>
                     <p>
@@ -244,7 +244,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     POS Integration
                     </h5>
                     <p>
@@ -258,7 +258,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Social Media Integration
 
                     </h5>
@@ -273,7 +273,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Branch Management
                     </h5>
                     <p>
@@ -287,7 +287,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Category Management
                     </h5>
                     <p>
@@ -301,7 +301,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Product Management
                     </h5>
                     <p>
@@ -315,7 +315,7 @@ export default function foodorderingsolutions() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Discount & Coupon
 Management
 
@@ -331,7 +331,7 @@ Management
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Order Management
                     </h5>
                     <p>
@@ -345,7 +345,7 @@ Management
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Payment Gateway Integration
                     </h5>
                     <p>
@@ -359,7 +359,7 @@ Management
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Content Management
                     </h5>
                     <p>
@@ -373,7 +373,7 @@ Management
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon36} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Database Management
 
                     </h5>
@@ -388,7 +388,7 @@ Management
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon37} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Customer Management
                     </h5>
                     <p>
@@ -402,7 +402,7 @@ Management
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon38} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Sales Report
                     </h5>
                     <p>
@@ -416,7 +416,7 @@ Management
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon39} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Customisation
                     </h5>
                     <p>

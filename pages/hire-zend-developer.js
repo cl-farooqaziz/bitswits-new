@@ -108,7 +108,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Web & Application
                         Development
                     </h5>
@@ -119,7 +119,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Portal Development
                     </h5>
                 </div>
@@ -129,7 +129,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Zend Integration Services
                     </h5>
                 </div>
@@ -139,7 +139,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Zend Customisation
                         Services
                     </h5>
@@ -150,7 +150,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Build and Deploy
                         Zend Apps
                     </h5>
@@ -161,7 +161,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Maintenance and
                         Support Services
                     </h5>
@@ -172,7 +172,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Enterprise Solutions
                     </h5>
                 </div>
@@ -182,7 +182,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         CMS Solutions
                     </h5>
                 </div>
@@ -192,7 +192,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Payment Gateways
                         Integration
                     </h5>
@@ -203,7 +203,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         3rd Party API's
                         Integration
                     </h5>
@@ -214,7 +214,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         E-Store & E-Commerce
                         Oriented Web Systems
                     </h5>
@@ -225,7 +225,7 @@ export default function hireZendDeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Zend Web 2.0
                         Application Development
                     </h5>

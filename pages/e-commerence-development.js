@@ -201,7 +201,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon18} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             Magento
                         </h5>
                         <p>
@@ -217,7 +217,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon19} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             Prestashop
                         </h5>
                         <p>
@@ -233,7 +233,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon20} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             BigCommerce
                         </h5>
                         <p>
@@ -249,7 +249,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon21} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             WooCommerce
                         </h5>
                         <p>
@@ -265,7 +265,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             Shopify
                         </h5>
                         <p>
@@ -281,7 +281,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             NopCommerce
                         </h5>
                         <p>
@@ -297,7 +297,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             XCart
                         </h5>
                         <p>
@@ -313,7 +313,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             OpenCart
                         </h5>
                         <p>
@@ -329,7 +329,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             VirtueMart
                         </h5>
                         <p>
@@ -345,7 +345,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             Zencart
                         </h5>
                         <p>
@@ -361,7 +361,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             OSCommerce
                         </h5>
                         <p>
@@ -377,7 +377,7 @@ export default function ecommerencedevelopment() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                             Magento 2
                         </h5>
                         <p>
@@ -534,7 +534,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon10} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Pre-Order <br /> Management
                     </h5>
                 </div>
@@ -544,7 +544,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon11} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Product <br /> Recommendations
                     </h5>
                 </div>
@@ -554,7 +554,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon12} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Offline Product <br /> Management
                     </h5>
                 </div>
@@ -564,7 +564,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon13} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Wish-List <br /> Statement
                     </h5>
                 </div>
@@ -574,7 +574,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon14} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Social <br /> Promotions
                     </h5>
                 </div>
@@ -584,7 +584,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon15} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Customize Product <br /> Using Designing Tool
                     </h5>
                 </div>
@@ -594,7 +594,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Quickbooks <br /> Integration
                     </h5>
                 </div>
@@ -604,7 +604,7 @@ export default function ecommerencedevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Shipping <br /> Methods
                     </h5>
                 </div>
@@ -633,7 +633,7 @@ export default function ecommerencedevelopment() {
                                     <Image src={bluebg1} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
-                                    <h5 className='font20 fontf font-500 white line30'>
+                                    <h5 className='font20 fontf font-medium white line30'>
                                         Build An Incredible Shopping Experience
                                     </h5>
                                     <p>
@@ -646,7 +646,7 @@ export default function ecommerencedevelopment() {
                                     <Image src={bluebg2} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
-                                    <h5 className='font20 fontf font-500 white line30'>
+                                    <h5 className='font20 fontf font-medium white line30'>
                                         Add Promising Features
                                     </h5>
                                     <p>
@@ -659,7 +659,7 @@ export default function ecommerencedevelopment() {
                                     <Image src={bluebg3} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
-                                    <h5 className='font20 fontf font-500 white line30'>
+                                    <h5 className='font20 fontf font-medium white line30'>
                                         Get Unparraled Performance
                                     </h5>
                                     <p>
@@ -672,7 +672,7 @@ export default function ecommerencedevelopment() {
                                     <Image src={bluebg4} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
-                                    <h5 className='font20 fontf font-500 white line30'>
+                                    <h5 className='font20 fontf font-medium white line30'>
                                         Optimisation of ROI
                                     </h5>
                                     <p>

@@ -162,7 +162,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Aggregation
                     </h5>
 
@@ -174,7 +174,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Load Balancing
                     </h5>
 
@@ -186,7 +186,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Faster App
                         Development Cycle
                     </h5>
@@ -199,7 +199,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         File Storage
                     </h5>
 
@@ -211,7 +211,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Server Support
 
                     </h5>
@@ -224,7 +224,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Language Support
                     </h5>
 
@@ -236,7 +236,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Ad hoc Queries
                     </h5>
 
@@ -248,7 +248,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Indexing
                     </h5>
 
@@ -260,7 +260,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Replication
 
                     </h5>
@@ -273,7 +273,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Server Side
                         JavaScript Execution
                     </h5>
@@ -286,7 +286,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Real Time
                         Addition of Content
                     </h5>
@@ -299,7 +299,7 @@ solutions since MongoDB launched in 2009.</p> </>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Enterprise Management
                         & Integration
                     </h5>

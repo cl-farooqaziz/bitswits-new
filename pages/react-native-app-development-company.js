@@ -1,63 +1,28 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
-import banImg from '../public/images/banner/reactnative.svg'
-import foldimg from '../public/images/services/mobileapp/mobile-app-development-01.png'
-import foldensure from '../public/images/services/mobileapp/mobile-app-development-03.png'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import { Row, Col } from 'react-bootstrap'
+//css
+import styles from '@/styles/Coverage.module.css'
+import expStyles from '@/styles/MyExpertise.module.css'
+import whyStyles from '@/styles/whyServices.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/services/mobileapp/mobile-app-development-02.png'
-import Image from 'next/image';
-import mobilearrow from '../public/images/icons/mobile-arrow.png'
-
-import serStyles from '@/styles/MyServices.module.css'
-import MyServices from '@/components/MyServices';
-import expStyles from '@/styles/MyExpertise.module.css'
 import MyExpertise from '@/components/MyExpertise';
-import reStyles from '@/styles/MyReason.module.css'
 import WhyBuild from '@/components/WhyBuild';
-import whyStyles from '@/styles/whyServices.module.css'
-
-// import MyReason from '@/components/MyReason';
-import icon1 from '../public/images/wbd-icons/wbd-icon1.png'
-import icon2 from '../public/images/wbd-icons/wbd-icon2.png'
-import icon3 from '../public/images/wbd-icons/wbd-icon3.png'
-import icon4 from '../public/images/wbd-icons/wbd-icon4.png'
-import icon5 from '../public/images/wbd-icons/wbd-icon5.png'
-import icon6 from '../public/images/wbd-icons/wbd-icon6.png'
-import icon7 from '../public/images/wbd-icons/wbd-icon7.png'
-import icon8 from '../public/images/wbd-icons/wbd-icon8.png'
-import icon9 from '../public/images/wbd-icons/wbd-icon9.png'
-import icon10 from '../public/images/wbd-icons/wbd-icon10.png'
-import icon11 from '../public/images/wbd-icons/wbd-icon11.png'
-import icon12 from '../public/images/wbd-icons/wbd-icon12.png'
-import icon13 from '../public/images/wbd-icons/wbd-icon13.png'
-import icon14 from '../public/images/wbd-icons/wbd-icon14.png'
-import icon15 from '../public/images/wbd-icons/wbd-icon15.png'
+//image
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import banImg from '../public/images/banner/reactnative.svg'
+//
 import benefitimg1 from '../public/images/industryInt/benefit-img1.svg'
 import benefitimg2 from '../public/images/industryInt/benefit-img2.svg'
 import benefitimg3 from '../public/images/industryInt/benefit-img3.svg'
 import benefitimg4 from '../public/images/industryInt/benefit-img4.svg'
-//
-
-import icon16 from '../public/images/wbd-icons/wbd-t1.png'
-import icon17 from '../public/images/wbd-icons/wbd-t2.png'
-import icon18 from '../public/images/wbd-icons/wbd-t3.png'
-import icon19 from '../public/images/wbd-icons/wbd-t4.png'
-import icon20 from '../public/images/wbd-icons/wbd-t5.png'
-import icon21 from '../public/images/wbd-icons/wbd-t6.png'
-import icon22 from '../public/images/wbd-icons/wbd-t7.png'
-import icon23 from '../public/images/wbd-icons/wbd-t8.png'
-
 // Why Icon
 import icon232 from '../public/images/industryInt/why-us1.svg'
 import icon24 from '../public/images/industryInt/why-us2.svg'
@@ -70,350 +35,78 @@ import icon30 from '../public/images/industryInt/why-us8.svg'
 import icon31 from '../public/images/industryInt/why-us9.svg'
 import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
 
-// import icon32 from '../public/images/industryInt/pwa-1.png'
-// import icon33 from '../public/images/industryInt/pwa-2.png'
-// import icon34 from '../public/images/industryInt/pwa-3.png'
-// import grnArrow from '../public/images/wbd-icons/arrow-green.png'
 
 export default function reactappdeveloment() {
 
-
-    const drives = <span>
-        For the purpose of generating data-informed product decisions, our research data serves as the basis. Our <span className='grdiant'>mobile application developers</span> create apps that are tailored to users' interests by better understanding their target demographic, which results in increasing engagement.
-    </span>
-
-    const increasing = <span>Our skilled <span className='grdiant'>mobile app developers</span> are dedicated to maximizing the performance of your mobile applications. Through careful testing and analysis, we pinpoint problem areas and carry out calculated optimizations that produce a smooth and positive user experience. </span>
-
-
-    const optimization = <span>
-        Our leading <span className='grdiant'>Cross Platform App development  agency</span> Bitswits has a team of experts who are dedicated to ensuring that your mobile app delivers the best user experience every time. We ensure that our <span className='grdiant'>mobile app developers</span> build apps by going above and beyond to test and optimize your applications while effortlessly implementing A/B testing to  boost your app’s performance.
-    </span>
-
-
-    const exceptional = <span>Experience Exceptional <span className='grdiant'>Cross Platform App development  Services!</span> </span>
-
-    const remain = <span>
-        We conduct thorough market research and analyze user behavior data to understand customer preferences, and pain points. <span className='grdiant'>Our mobile application developers</span> later use this information while building the apps.
-    </span>
-
-    const data = <span>Gain a Competitive Edge with Our Top <span className='grdiant'>Cross Platform App development  Services!</span> </span>
-
-    const convert = <span> We <span className='grdiant'>Build a Mobile App</span> That Provides Smooth Experiences</span>
-
-    const focuses = <span>
-        The Cross Platform App development  process at BitsWits focuses on creating engaging and personalized mobile app experiences that keep users coming back for more. Whether it’s through responsive designs, real-time updates, or offline capabilities, our <span className='grdiant'>Cross Platform App development  services</span> improve engagement and drive conversions.
-    </span>
-
-    const engaging = <span> At BitsWits, our team of skilled <span className='grdiant'> mobile app developers</span> while utilizing their technical expertise <span className='grdiant'>builds a mobile app</span> that has a deeper understanding of the behavior of the user to create applications that load quickly and work smoothly for a smooth experience across all devices and platforms.</span>
-
-    const lab = <span>Improved Performance of  <span className='grdiant'>Cross Platform App development  Services</span> </span>
-
-    const swipetitle = <span> BitsWits Makes Mobile Experiences Better with Engaging <span className='grdiant'>Cross Platform App development  Services!</span> </span>
-
-    const each = <span> At BitsWits, we are the most reliable and leading <span className='grdiant'>Cross Platform App development  agency</span> that has a team of dedicated experts and professionals who transform mobile experiences and create captivating mobile applications from start to finish. By utilizing a data-driven approach and detailed research, our <span className='grdiant'>mobile app developers</span> design attractive interfaces and build a mobile app that drives actions while keeping the latest design trends in mind. We ensure that our app developers not only function smoothly but also attract users with visually appealing applications. </span>
-
-
     // banner component data
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>React Native App Company </span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>
+        Innovate On Any Device with Top <span className='grdiant'>React Native App Development Company</span> In USA
+    </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Over <b className='grdiant'>2082+ mobile apps</b> published Worldwide <b className='grdiant'>since 2007</b> . </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>180+</b> In-House Team Of App Designers & Developers </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>20 Years</b> .Experience & Counting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image><b className='grdiant'>IOS, Android & cross-platform apps</b> for phone, tablet & watch. </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Transparent</b> Project Progress </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Offices in 5 Countries</b> (UK, USA, Australia, UAE & India) </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                2000+ apps launched and counting
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                99% customer satisfaction rate
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                250+ in-house React Native developers
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Transparent and competitive pricing
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Building apps for iOS, Android, and Cross-Platform
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Proven ability to scale apps for high user loads
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Strong commitment to app data security and privacy
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Worldwide presence, serving clients across the globe
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Extensive experience across various industries and niches
+            </li>
+            <li className="font16 fontf font-medium black ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Rigorous testing protocols ensuring optimal functionality
+            </li>
         </ul>
     </>
 
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
+        Our professional <span className='grdiant'> React Native app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
+    </p> </>
+
+
     // coverage component data
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
 
-    const mobile = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            Mobile App Design
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UI UX Design
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research & Discovery
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Wireframing & Prototyping
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                iOS + Android Applications
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Post Launch Support
-            </Link>
-        </div>
-    </div>
-
-    const user = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            User Research
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Journey & Persona Building
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Participant Recruitments
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research Method & Material Development
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Iterative Research
-            </Link>
-        </div>
-    </div>
-
-    const ux = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            UX Optimization
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Experience Assessment
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User & KPIs Data Analysis
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                A/B Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Feature Experimentation
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UX Iterations
-            </Link>
-        </div>
-    </div>
-
-
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
-
-    // Swipe component data
-    const serCards = <>
-        <Row className={`${serStyles.soluRow} mt-5`}>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.one}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Custom Web Development
-                    </h5>
-                    <p>
-                        BitsWits can design and develop a solution targeted to your organization’s specific needs – custom web development. We make sure your needs are not only heard but met, effectively.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.two}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Portal Development
-                    </h5>
-                    <p>
-                        We offer full-cycle development services to create a web portal that supports your business strategy. We’ve deployed amazing and experienced web developers, each of whom have an affinity towards coding and developing.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.three}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon3} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Online Reservation & Ticketing
-                    </h5>
-                    <p>
-                        BitsWits provides design and software development for event management companies and companies who sell tickets online.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.four}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon4} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        E-Commerce Development
-                    </h5>
-                    <p>
-                        With rich, dynamic and customer oriented B2C solutions, BitsWits is in a strong position to assist business efficiently. Helping our clients achieve business growth through the medium of our services is what keeps us motivated.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.five}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon5} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Game Development
-                    </h5>
-                    <p>
-                        We understand what can turn a good gaming idea into a fantabulously great game. We’ve got expert game developers who do it all wonderfully and at an amazing speed.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.six}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon6} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Education & e-Learning Development
-                    </h5>
-                    <p>
-                        e-Learning can revolutionize the way developing and 3rd world countries educate their people. At BitsWits we develop education and e-learning websites, ones that surpass quality and standards of the ones already made.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.one}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon7} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        CRM Solutions
-                    </h5>
-                    <p>
-                        With rich, dynamic and customer oriented B2C solutions, BitsWits is in a strong position to assist business efficiently. Helping our clients achieve business growth through the medium of our services is what keeps us motivated.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.two}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon8} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        CMS Solutions
-                    </h5>
-                    <p>
-                        At BitsWits, we provide you undisputed and standard CMS Solutions – we’ve got the kind of experience in doing this and we’ve served a lot of clients for many years.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.three}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon9} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Enterprise Web Development
-                    </h5>
-                    <p>
-                        In today’s fast paced world, business can make their mark only if they are able to cope with the challenges like improved quality services, speedy claims management, reduced time-to-market, improved functionality, etc.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.four}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon10} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Mobile App & Mobile Web Development
-                    </h5>
-                    <p>
-                        Mobile apps are reigning supreme and for a business to make the right impression on the clients it is most important to get it made by experienced mobile app developers. Our developers have the experience to do mobile apps and mobile web development.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.five}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon11} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Social Network Websites
-                    </h5>
-                    <p>
-                        We deliver Custom Social Networking and Collaboration platforms and build Online Communities and Knowledge Networks, with great user experience and responsive web design providing you full ownership rights to a custom solution.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.six}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon12} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Responsive Web Development
-                    </h5>
-                    <p>
-                        Web designing is essential to keep up with the newest trends. In recent times, a business can be displayed in any given mobile device and to have a responsive web design. Our web designers are affluent with the technology and your requirements, thus making the best designs.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.one}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon13} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Search Engine Optimization Services
-                    </h5>
-                    <p>
-                        Our search engine optimisation (SEO) services are designed to increase visibility within the algorithmic search results to deliver high quality, targeted traffic to your website.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.two}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon14} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Quality Analyst Services
-                    </h5>
-                    <p>
-                        Our company is an ISO 9001:2008 Certified for a quality standards IT Company. This means that we will ensure to focus on four major components: quality planning, quality control, quality assurance and quality improvement.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6}>
-                <div className={`${serStyles.soluCard} ${serStyles.three}`}>
-                    <div className={`${serStyles.imgBox}`}>
-                        <Image src={icon15} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Server Management And Domain Services Support Services
-                    </h5>
-                    <p>
-                        Server infrastructure is the centerpiece of any technology planning. Servers enable process integration and facilitate collaboration among internal and external stakeholders. BitsWits provides you this amazing service.
-                    </p>
-                </div>
-            </Col>
-        </Row>
-    </>
-    const sersubtile = <h2 className='font50 black fontf font-bold line60 black'>Get An Insight Of Our <span className='grdiant'>Web Development</span> Services</h2>
-
-    //   const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our Technical Expertise</h2>
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
+        The Approach We Utilize at BitsWits for <span className='grdiant'>React Native App Development</span>
+    </h2>
 
     const expCards = <>
         <Row className={`${expStyles.soluRow} mt-5`}>
             <Col lg={5}>
-                <h4 className='font30 font-bold'>Our Approach for React Native App</h4>
-                <div className='d-flex justify-content-start align-content-start mt-lg-5 mt-md-3'>
+                <h4 className='font30 font-bold'>Our Approach for Flutter App</h4>
+                <div className='d-flex justify-content-start align-content-start mt-5'>
                     <div className='d-inline'>
-                        <div className="mobbtn nonefor">
+                        <div className="mobbtn">
                             <Link href="#" target="_blank" aria-label="img" className={`${expStyles.mobdev} ${expStyles.ev1}`}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21.849" height="26" viewBox="0 0 21.849 26">
                                     <path id="Icon_awesome-apple" data-name="Icon awesome-apple" d="M18.548,15.99a5.419,5.419,0,0,1,2.9-4.922,6.237,6.237,0,0,0-4.917-2.589c-2.061-.163-4.313,1.2-5.137,1.2-.871,0-2.867-1.144-4.435-1.144C3.723,8.589.281,11.119.281,16.268a14.468,14.468,0,0,0,.836,4.713c.743,2.13,3.425,7.354,6.223,7.267,1.463-.035,2.5-1.039,4.4-1.039,1.846,0,2.8,1.039,4.435,1.039,2.821-.041,5.247-4.789,5.956-6.925a5.754,5.754,0,0,1-3.581-5.334ZM15.263,6.458A5.467,5.467,0,0,0,16.656,2.25a6.155,6.155,0,0,0-3.941,2.026,5.553,5.553,0,0,0-1.486,4.174,4.875,4.875,0,0,0,4.034-1.991Z" transform="translate(-0.281 -2.25)" fill="#fff"></path>
@@ -435,56 +128,45 @@ export default function reactappdeveloment() {
                         </div>
                     </div>
                 </div>
-
             </Col>
             <Col lg={7}>
-                <p>At Team In India, we believe the key to creating a successful and intuitive mobile app is to focus on the user experience. That's why we take a user-centric approach to app development, carefully considering the needs and goals of our users at every stage of the development process.
+                <p>
+                    Our approach to React Native app development is defined by expertise and innovation. We stay at the forefront of technology trends to develop robust mobile applications. We prioritize open communication with our clients, making sure their ideas and feedback guide our development process.
                 </p>
-                <p>As a reputable app development agency in UK, we also understand the importance of staying up-to-date with the latest technologies and development practices. Our team is constantly learning and evolving to ensure we are always at the forefront of the industry.</p>
+                <p>
+                    With an emphasis on quality, flexibility, and user-centric design, our approach at BitsWits distinguishes us in the realm of React Native app development.
+                </p>
             </Col>
-
         </Row>
     </>
 
+
     // Why Build
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our Approach for Mobile
-        App Development
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>
+        Why is There a Need for <span className='grdiant'>React Native Apps</span>?
     </h2>
-
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why Does Your Business Need a
-        <span className='grdiant'> Web App?</span></h2>
-
-    const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>What are Progressive Web Apps (PWA’s)?
-    </h2>
-
-    const para1 = <span className='font30 black fontf font-400 line60 black'>
-        Usage of internet over mobile is continuously increasing than desktop.
-        53% of traffic to online stores comes via mobile devices
-    </span>
 
     const text =
         <p className='text-center'>
-            The mobile app makes it possible to add value to your business and attract more customers. A quality app helps you make data-driven decisions that can shape your business for the future and give you a significant edge over your competitors.
+            <span className='grdiant'>React Native app development services</span> provide substantial savings in terms of development time, effort, and cost and enable the building of high-quality Android and iOS apps.
         </p>
+
+
     const WhyBuilds = <>
 
         <Row className={`${whyStyles.soluRow} mt-5`}>
-
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon232} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Strengthen Brand Identity
+                    <h5 className='font20 fontf font-medium line30'>
+                        Cross-Platform Saves Cost and Time
                     </h5>
                     <p>
-                        Create a solid brand identity by emphasising your brand messaging and values, helping to build a stronger connection with customers.
-
-
+                        React native apps allow building one application that runs on both iOS and Android from a single JavaScript codebase.
                     </p>
-
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -492,11 +174,11 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Increase Engagement
+                    <h5 className='font20 fontf font-medium line30'>
+                        Better and Native Performance
                     </h5>
                     <p>
-                        Enhance customer engagement with your brand using streamlined communication and deliver more personalised experiences.
+                        For near-native performance, React Native compiles native code. It doesn’t have hybrid lag like other cross-platform options.
                     </p>
                 </div>
             </Col>
@@ -505,11 +187,12 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Stand Out From Competitors
+                    <h5 className='font20 fontf font-medium line30'>
+                        Reusability
                     </h5>
                     <p>
-                        Position your brand in the market as innovative and forward-thinking with a mobile app and convert more leads more conveniently.</p>
+                        Development is accelerated by the ability to reuse a significant amount of code, such as business logic and APIs, between iOS and Android.
+                    </p>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -517,16 +200,12 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Gather Valuable Customer Data
-
-
+                    <h5 className='font20 fontf font-medium line30'>
+                        Live Reloading
                     </h5>
                     <p>
-                        With a mobile app, gather valuable data on your customers’ behaviour, preferences, and interactions with your brand to build future strategies.
-
+                        Live reloading speeds the development process by allowing code updates to be made instantly.
                     </p>
-
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -534,14 +213,11 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Offer Push Notifications
-
-
+                    <h5 className='font20 fontf font-medium line30'>
+                        Open-Source Framework
                     </h5>
                     <p>
-                        With push notifications, you can send messages directly to user’s mobile devices, keeping them informed of new products, promotions, or other relevant updates.
-
+                        At BitsWits, our team utilizes the active open source React Native framework to build applications without bugs.
                     </p>
 
                 </div>
@@ -551,15 +227,12 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Enhance Customer Support
-
-
+                    <h5 className='font20 fontf font-medium line30'>
+                        Corporate Backed
                     </h5>
-                    <p>  A mobile app can offer a more efficient and effective way for customers to get support and assistance, reducing the need for a call or email support.
-
+                    <p>
+                        Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others.
                     </p>
-
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -567,16 +240,11 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Add Exclusiveness
-
-
-
+                    <h5 className='font20 fontf font-medium line30'>
+                        Familiar Tools
                     </h5>
                     <p>
-                        A mobile app can be used to offer exclusive content, such as access to new products or services, discounts, or promotions.
-
-
+                        <span className='grdiant'>React native app developers</span> build apps utilizing well-known React pattern libraries and common native technologies like Xcode, Android Studio, etc.
                     </p>
                 </div>
             </Col>
@@ -585,17 +253,11 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Run Loyalty Programs
-
-
+                    <h5 className='font20 fontf font-medium line30'>
+                        Future-Proof Your Business
                     </h5>
                     <p>
-                        Create and manage loyalty programs, offering customers encouragement to continue using your products and services with the help of an app.
-
-
-
-
+                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
                     </p>
                 </div>
             </Col>
@@ -604,47 +266,45 @@ export default function reactappdeveloment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
-                        Extended Reach
-
-
+                    <h5 className='font20 fontf font-medium line30'>
+                        Built-In Platform Accessibility
                     </h5>
-                    <p>  Reach customers on mobile and offer seamless experiences to access your products and services, place orders, and get support.
-
-
-
+                    <p>
+                        The built-in mobile platform APIs allow for the straightforward incorporation of features like camera, location, and storage.
                     </p>
-
                 </div>
             </Col>
         </Row>
-
     </>
 
 
+    // Why Build
 
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2>Benefits of Working with a Leading
-                    <br />
-                    <span className='font-bold'> React Native App Company</span>
+                <h2>
+                    The Benefits to Jumpstart Your Journey with <span className='grdiant'>React Native App Development Company</span>
                 </h2>
-                <p>When you choose to work with our team of expert app developers, you can expect-</p>
+                <p>
+                    The professional <span className='grdiant'>Reactive Native app developers</span> at BitsWits will fulfill all your goals and demands on schedule.
+                </p>
             </Col>
         </Row>
         <Row className='benefitscard'>
             <Col lg={6}>
                 <div className='card mb-4'>
-                    <div className='card-body p-4'>
-                        <Row className='gy-4'>
+                    <div className='card-body'>
+                        <Row>
                             <Col lg={5}>
                                 <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A dedicated project manager who will guide you through the app development process and ensure that your project stays on the track that too within budget.
-
+                                <h4 className='font20 font-bold'>
+                                    Experience and Expertise
+                                </h4>
+                                <span className='font14'>
+                                    Our <span className='grdiant'>React native app developers</span> provide the best-quality services as per their expertise and experience, which ensures excellence in all aspects of your application.
                                 </span>
                             </Col>
                         </Row>
@@ -653,16 +313,17 @@ export default function reactappdeveloment() {
             </Col>
             <Col lg={6}>
                 <div className='card mb-4'>
-                    <div className='card-body p-4'>
-                        <Row className='gy-4'>
+                    <div className='card-body'>
+                        <Row>
                             <Col lg={5}>
                                 <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A team of experienced app developers with a proven track record of delivering high-quality apps that users love.
-
-
+                                <h4 className='font20 font-bold'>
+                                    Proven Track Record
+                                </h4>
+                                <span className='font14'>
+                                    <span className='grdiant'>React Native app developers</span> at BitsWits have successfully delivered complicated projects for satisfied clients across multiple industries, which portrays their capabilities and abilities.
                                 </span>
                             </Col>
                         </Row>
@@ -671,16 +332,17 @@ export default function reactappdeveloment() {
             </Col>
             <Col lg={6}>
                 <div className='card mb-4'>
-                    <div className='card-body p-4'>
-                        <Row className='gy-4'>
+                    <div className='card-body'>
+                        <Row>
                             <Col lg={5}>
                                 <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A commitment to clear and open communication, with regular progress updates and the opportunity to provide feedback throughout the development process.
-
-
+                                <h4 className='font20 font-bold'>
+                                    Swift Speed
+                                </h4>
+                                <span className='font14'>
+                                    For quick prototypes and prompt delivery, our <span className='grdiant'>React native app developers</span> efficiently utilize React Native development features. Now is the time to say <strong><i>NO</i></strong> to all the slower and older applications.
                                 </span>
                             </Col>
                         </Row>
@@ -689,16 +351,17 @@ export default function reactappdeveloment() {
             </Col>
             <Col lg={6}>
                 <div className='card mb-4'>
-                    <div className='card-body p-4'>
-                        <Row className='gy-4'>
+                    <div className='card-body'>
+                        <Row>
                             <Col lg={5}>
                                 <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A focus on your business needs and goals with custom solutions tailored to your unique requirements.
-
-
+                                <h4 className='font20 font-bold'>
+                                    On-Going Support
+                                </h4>
+                                <span className='font14'>
+                                    The team at BitsWits not only delivers the app but provides maintenance, improvements, and lifetime support. Isn’t that all you need?
                                 </span>
                             </Col>
                         </Row>
@@ -706,42 +369,80 @@ export default function reactappdeveloment() {
                 </div>
             </Col>
         </Row>
-        <p className='text-center'>As skilled app developers in London, we have the knowledge and experience to bring your app ideas to life. Our team is dedicated to providing top-quality service and delivering results that exceed your expectations.
-
+        <p className='text-center'>
+            Our professional <span className='grdiant'>native app developers</span> have the expertise to put a spark in your app ideas by providing the best <span className='grdiant'>react native app development services</span>.
         </p>
     </>
+
+
+    // Why Build
+
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font40'> Our <span className='font-bold'> React Native App</span> Process</h4>
-                <p>Our app development process is designed to be efficient, transparent, and collaborative. Here's an overview of what you can expect from our Cross Platform App development services:</p>
+                <h4 className='font40'>
+                    The Mobile App Development Process at BitsWits!
+                </h4>
+                <p>
+                    The <span className='grdiant'>React native app development</span> process at BitsWits is designed to be innovative, efficient, and transparent. <span className='grdiant'>React native app development services</span> offer you the following:
+                </p>
             </Col>
         </Row>
         <Row>
             <Col lg={7}>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Initial Consultation</h4>
-                    <p>We'll start by discussing your app ideas, goals, and any challenges or constraints you face.</p>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Initial Consultation
+                    </h4>
+                    <p>
+                        Our <span className='grdiant'>React native app developers</span> begin with understanding your project goals, technical needs, and limitations you have in mind for your app. Feasibility is assessed here.
+                    </p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Requirements Gathering</h4>
-                    <p>We'll work with you to define the specific features and functionality  that your app will need.</p>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Gathering Requirements
+                    </h4>
+                    <p>
+                        The process of gathering requirements involves defining requirements for app functionality, UI/UX, target devices, and platforms.
+                    </p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Design and prototyping</h4>
-                    <p>We'll create wireframes and prototypes to give you an idea of how your app will look and function.</p>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Design and Prototyping
+                    </h4>
+                    <p>
+                        In order to give you a sense of how your app will look and work, we design wireframes and prototypes.
+                    </p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Development</h4>
-                    <p>Our team will build your app using agile development methodologies to ensure we can quickly  adapt to any changes or challenges.</p>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Development
+                    </h4>
+                    <p>
+                        The app is created utilizing reusable components and cross-platform code with a minimum amount of platform-specific code, utilizing the React Native framework.
+                    </p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Testing And Quality Assurance</h4>
-                    <p>We'll thoroughly test your app to ensure it is stable, reliable, and easy to use.</p>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Testing & Quality Control
+                    </h4>
+                    <p>
+                        We thoroughly test your app to ensure it is reliable, stable, and easy to use. Our QA process checks functionality, UI, cross-platform compatibility, security, and compliance.
+                    </p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Launch</h4>
-                    <p>We'll help you with the submission process and provide ongoing support to ensure  your app's success.</p>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Launch and Deployment
+                    </h4>
+                    <p>
+                        <span className='grdiant'>React native app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience.
+                    </p>
                 </div>
             </Col>
             <Col lg={5}>
@@ -775,8 +476,8 @@ export default function reactappdeveloment() {
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Top React Native App Development Company - Bitswits</title>
+                <meta name="description" content="Want a team of experienced React Native App Developers? We've got them! Whether you're a start-up or an established business, our developers are equipped." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -796,7 +497,6 @@ export default function reactappdeveloment() {
             />
 
             <WhyBuild
-                title="Why Does Your Business Need a"
                 cards={WhyBuilds}
                 subtitle={whytitle}
                 text={text}
@@ -804,57 +504,15 @@ export default function reactappdeveloment() {
 
 
             <WhyBuild
-                title="Why Does Your Business Need a"
                 cards={Benefits}
                 expo='expo'
-            // subtitle={whytitle}
-            // text={text}
             />
+
+
             <WhyBuild
-                title="Why Does Your Business Need a"
                 cards={Benefits1}
-            // subtitle={whytitle}
-            // text={text}
             />
 
-            {/* <Swipe
-                foldimg={foldimg}
-                title={swipetitle}
-                para={each}
-                subtitle={lab}
-                subpara={engaging}
-                subtitle2={convert}
-                subpara2={focuses}
-
-            />
-
-
-
-            <Ahead
-                title={data}
-                para='Our mobile app developers use the latest technologies and trends to create apps with special features, improved functions, and exceptional user experiences. Our use of the latest tech stack ensures your app is up-to-date and sets you apart from competitors.'
-                subtitle='Utilizing Data for Informed Product Decisions'
-                subpara={remain}
-                subtitle2='Uniting Cross-Functional Teams For Product Success'
-                subpara2='We work with a collaborative approach among cross-functional teams, including mobile app designers, developers, and product managers, to ensure a holistic approach to data utilization and project success.'
-                ahead={aheadimage}
-
-            />
-
-
-
-            <Ensure
-                foldimg={foldensure}
-                title={exceptional}
-                para={optimization}
-                subtitle='Improvements and Quality Results!'
-                subpara={increasing}
-                subtitle2='Data-Informed Product Decisions!'
-                subpara2={drives}
-
-
-
-            />  */}
             <OurProject />
             <ClientsThink />
             <Nextproject />

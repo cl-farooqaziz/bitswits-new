@@ -189,7 +189,7 @@ UPLOAD</h4>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Web Services and
 API Development
                     </h5>
@@ -204,7 +204,7 @@ API Development
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Android Application
 Development for Enterprise
                     </h5>
@@ -219,7 +219,7 @@ Development for Enterprise
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Personalized Business
 Intelligence and Reporting
                     </h5>
@@ -234,7 +234,7 @@ Intelligence and Reporting
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     CMS Development
 
                     </h5>
@@ -247,7 +247,7 @@ Intelligence and Reporting
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     ERP Development
                     </h5>
 
@@ -261,7 +261,7 @@ Intelligence and Reporting
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Migration and Porting
                     </h5>
 
@@ -274,7 +274,7 @@ Intelligence and Reporting
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Maintenance & Support
                     </h5>
 
@@ -288,7 +288,7 @@ Intelligence and Reporting
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Web Development
 
                     </h5>
@@ -304,7 +304,7 @@ Intelligence and Reporting
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Responsive Web
 App Development
                     </h5>
@@ -319,7 +319,7 @@ App Development
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon333} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Real Time Chat
                     </h5>
 
@@ -332,7 +332,7 @@ App Development
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon343} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     3rd Party API's
                     </h5>
 
@@ -346,7 +346,7 @@ App Development
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon353} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Payment Gateway
 Integration
 

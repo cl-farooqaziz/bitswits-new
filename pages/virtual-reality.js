@@ -196,7 +196,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unity 3D
                     </h5>
                     <p>
@@ -209,7 +209,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30 '>
+                    <h5 className='font20 fontf font-medium line30 '>
                         HTML5 Game
                     </h5>
                     <p>
@@ -224,7 +224,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     COCOS2DX Game
                     </h5>
                     <p>
@@ -241,7 +241,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500'>
+                    <h5 className='font20 fontf font-medium'>
                     Web-GL
                     </h5>
                     <p>
@@ -256,7 +256,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Photon Multiplayer Engine
                     </h5>
                     <p>
@@ -273,7 +273,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Creature
                     </h5>
                     <p>
@@ -288,7 +288,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Unreal Game
 
                     </h5>
@@ -305,7 +305,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Maya
                     </h5>
                     <p>
@@ -320,7 +320,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Substance Painter
                     </h5>
                     <p>
@@ -335,7 +335,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     3D Coat
                     </h5>
                     <p>
@@ -350,7 +350,7 @@ const WhyBuilds = <>
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Keyshot
                     </h5>
                     <p>
@@ -379,7 +379,7 @@ const Workspace = <>
             <div className={`${workStyles.imgBox}`}>
                 <Image src={icon35} alt='BitsWits' className='img-fluid' />
             </div>
-        <h5 className='font20 fontf font-500 line30'>
+        <h5 className='font20 fontf font-medium line30'>
         Mobile Phones
         </h5>
        
@@ -390,7 +390,7 @@ const Workspace = <>
             <div className={`${workStyles.imgBox}`}>
                 <Image src={icon36} alt='BitsWits' className='img-fluid' />
             </div>
-        <h5 className='font20 fontf font-500 line30'>
+        <h5 className='font20 fontf font-medium line30'>
         Head Mounted Displays
         </h5>
       
@@ -401,7 +401,7 @@ const Workspace = <>
             <div className={`${workStyles.imgBox}`}>
                 <Image src={icon37} alt='BitsWits' className='img-fluid' />
             </div>
-        <h5 className='font20 fontf font-500 line30'>
+        <h5 className='font20 fontf font-medium line30'>
         Smart Glasses
 
         </h5>
@@ -413,7 +413,7 @@ const Workspace = <>
             <div className={`${workStyles.imgBox}`}>
                 <Image src={icon38} alt='BitsWits' className='img-fluid' />
             </div>
-        <h5 className='font20 fontf font-500 line30'>
+        <h5 className='font20 fontf font-medium line30'>
         Tablets
         </h5>
       
@@ -459,7 +459,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon10} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Board
                   </h5>
               </div>
@@ -469,7 +469,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon11} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Strategy
 
                   </h5>
@@ -480,7 +480,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon12} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Action
                   </h5>
               </div>
@@ -490,7 +490,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon13} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Shooting
                   </h5>
               </div>
@@ -500,7 +500,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon14} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Puzzles
                   </h5>
               </div>
@@ -510,7 +510,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon15} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Roll
                   </h5>
               </div>
@@ -520,7 +520,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon16} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Education
                   </h5>
               </div>
@@ -530,7 +530,7 @@ const Ultimate = <>
                   <div className={`${whyStyles.imgBox}`}>
                       <Image src={icon17} alt='BitsWits' className='img-fluid' />
                   </div>
-                  <h5 className='font20 fontf font-500 line30'>
+                  <h5 className='font20 fontf font-medium line30'>
                   Racing
                   </h5>
               </div>

@@ -236,7 +236,7 @@ export default function progressivewebappdevelopment() {
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
 
     const titleswip = <>
-        <h3 className='black fontf font-700 font-bold line30 mt-5'>Mobile Searches Statistics</h3>
+        <h3 className='black fontf font-bold font-bold line30 mt-5'>Mobile Searches Statistics</h3>
     </>
 
     // MyExpertise component data
@@ -382,7 +382,7 @@ export default function progressivewebappdevelopment() {
     const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>What are Progressive Web Apps (PWA’s)?
     </h2>
 
-    const para1 = <span className='font30 black fontf font-400 line60 black'>
+    const para1 = <span className='font30 black fontf font-regular line60 black'>
         Usage of internet over mobile is continuously increasing than desktop.
         53% of traffic to online stores comes via mobile devices
     </span>
@@ -393,7 +393,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon232} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Fast
                     </h5>
                     <p>
@@ -407,7 +407,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Offline – first
 
                     </h5>
@@ -422,7 +422,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Installable & Add icon to home screen
 
                     </h5>
@@ -436,7 +436,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Fresh
                     </h5>
                     <p>
@@ -449,7 +449,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Secure
                     </h5>
                     <p>
@@ -462,7 +462,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         App Like
                     </h5>
                     <p>  Same functionalities similar to native app but are on the web</p>
@@ -474,7 +474,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Responsive
 
                     </h5>
@@ -488,7 +488,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Engaging
                     </h5>
                     <p>
@@ -503,7 +503,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                         Engaging
                     </h5>
                     <p>  Built in features like food ordering and loyalty rewards points to engage users
@@ -524,7 +524,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${workStyles.imgBox} text-center`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    {/* <h5 className='font20 fontf font-500 line30'>
+                    {/* <h5 className='font20 fontf font-medium line30'>
                 Fast
                 </h5> */}
                     <p>
@@ -538,7 +538,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${workStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    {/* <h5 className='font20 fontf font-500 line30'>
+                    {/* <h5 className='font20 fontf font-medium line30'>
                 Fast
                 </h5> */}
                     <p>
@@ -554,7 +554,7 @@ export default function progressivewebappdevelopment() {
                     <div className={`${workStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    {/* <h5 className='font20 fontf font-500 line30'>
+                    {/* <h5 className='font20 fontf font-medium line30'>
                 Fast
                 </h5> */}
                     <p>
@@ -575,7 +575,7 @@ export default function progressivewebappdevelopment() {
     //         <div className={`${workStyles.imgBox}`}>
     //             <Image src={icon232} alt='BitsWits' className='img-fluid' />
     //         </div>
-    //         <h5 className='font20 fontf font-500 line30'>
+    //         <h5 className='font20 fontf font-medium line30'>
     //         Fast
     //         </h5>
     //         <p>
@@ -589,7 +589,7 @@ export default function progressivewebappdevelopment() {
     //             <div className={`${workStyles.imgBox}`}>
     //                 <Image src={icon24} alt='BitsWits' className='img-fluid' />
     //             </div>
-    //             <h5 className='font20 fontf font-500 line30'>
+    //             <h5 className='font20 fontf font-medium line30'>
     //             Offline – first
 
     //             </h5>
@@ -604,7 +604,7 @@ export default function progressivewebappdevelopment() {
     //             <div className={`${workStyles.imgBox}`}>
     //                 <Image src={icon25} alt='BitsWits' className='img-fluid' />
     //             </div>
-    //             <h5 className='font20 fontf font-500 line30'>
+    //             <h5 className='font20 fontf font-medium line30'>
     //             Installable & Add icon to home screen
 
     //             </h5>

@@ -295,7 +295,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Integration with SharePoint
                     </h5>
                     <p>Team In India is an expert in implementing server-to-server integration of SharePoint. With our experience in customizing the SharePoint website via CAML, and retrieving the SharePoint data into Microsoft Dynamics CRM , We provide clients with seamless integration.</p>
@@ -308,7 +308,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Use of OData end point
                     </h5>
                     <p>Web API’s are introduced with Microsoft Dynamics CRM where an online or on-premises JavaScript is used to perform operations on Microsoft Dynamics CRM such as HTML web resources, formation of scripts, or ribbon commands.</p>
@@ -320,7 +320,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     LINQ Programming API in the SDK
                     </h5>
                     <p>LINQ is used to write queries in Microsoft Dynamics CRM Online (and on-premises). Here at Team In India, experts are highly skilled to manage the LINQ programming and process.</p>
@@ -332,7 +332,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Use of WCF services
                     </h5>
                     <p>Our experience in building a WCF service that connects to Microsoft Dynamics CRM using developer extensions helps us to provide better services to our clients.</p>
@@ -345,7 +345,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Global Option-set
                     </h5>
                     <p>Global option sets can be reused with any entities and “option set” field type. They are very useful for developing MS CRM based practices in system architecture.
@@ -359,7 +359,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Packaged Customisation as Solutions
                     </h5>
                     <p>Team In India has a good level of experience in creating custom packages using a visual studio, and also importing these packages as solutions in Microsoft Dynamics CRM. We also have an expertise in exporting the customisation from Microsoft Dynamics CRM.</p>
@@ -371,7 +371,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     CRM Online Support Plug-ins
 in Sandboxed/ Isolated mode
                     </h5>
@@ -385,7 +385,7 @@ in Sandboxed/ Isolated mode
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Multiple forms per entity
                     </h5>
                     <p>Designing and creating multiple forms for a single entity using our creativity and dynamic ideas to deliver our clients best service.
@@ -399,7 +399,7 @@ in Sandboxed/ Isolated mode
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Email Templates for Custom Entities
                     </h5>
                     <p>Microsoft Dynamics CRM provides email templates for its own built-in entities. We also use email templates for custom entities which are highly proficient in their delivery.</p>
@@ -411,7 +411,7 @@ in Sandboxed/ Isolated mode
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Custom Portal and
 Microsoft Dynamics CRM
                     </h5>
@@ -425,7 +425,7 @@ Microsoft Dynamics CRM
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Dashboard Designer
                     </h5>
                     <p>Dashboard design and customisation helps our clients to track their data via dashboard. Here at Team in India our developers can create a customised dashboard that would be comprehensive and will suit your business needs.
@@ -439,7 +439,7 @@ Microsoft Dynamics CRM
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     24*7 and 365 Days Support
                     </h5>
                     <p>We make sure that our clients requirements are not only heard but also met, for that we have a support team working 24*7.</p>

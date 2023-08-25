@@ -102,7 +102,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Patient Outcome Will Improve
                         </h5>
                         <p>
@@ -117,7 +117,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Clinical Proficiency Will Improve
                         </h5>
                         <p>
@@ -132,7 +132,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Increased Productivity
                         </h5>
                         <p>
@@ -147,7 +147,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             New Competencies Will Be Added
                         </h5>
                         <p>
@@ -162,7 +162,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             New Coaching Skills Will Be Implemented
                         </h5>
                         <p>
@@ -177,7 +177,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Organizational and Professional Boundaries Will Deplete
                         </h5>
                         <p>
@@ -274,7 +274,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon30} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Patient & Appointment Register
                         </h5>
                     </div>
@@ -286,7 +286,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon31} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Patient History with last appointments prescription history.
                         </h5>
                     </div>
@@ -298,7 +298,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon32} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Calendar to view appointment schedules
                         </h5>
                     </div>
@@ -310,7 +310,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon33} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Patient and Appointment Reporting features
                         </h5>
                     </div>
@@ -322,7 +322,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon34} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             An admin section to control website content and Admin activities.
                         </h5>
                     </div>
@@ -334,7 +334,7 @@ export default function healthcare() {
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon35} alt='BitsWits' className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 mt-3'>
+                        <h5 className='font20 fontf font-medium line30 mt-3'>
                             Expert team for module & features suggestions
                         </h5>
                     </div>
@@ -362,7 +362,7 @@ export default function healthcare() {
                                     <Image src={bluebg1} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
-                                    <h5 className='font20 fontf font-500 white line30'>
+                                    <h5 className='font20 fontf font-medium white line30'>
                                         Telemedicine & Video Calling
                                     </h5>
                                     <p>
@@ -375,7 +375,7 @@ export default function healthcare() {
                                     <Image src={bluebg2} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
-                                    <h5 className='font20 fontf font-500 white line30'>
+                                    <h5 className='font20 fontf font-medium white line30'>
                                         Telemedicine & Video Calling
                                     </h5>
                                     <p>

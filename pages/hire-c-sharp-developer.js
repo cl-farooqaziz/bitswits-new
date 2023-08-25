@@ -292,7 +292,7 @@ export default function hirecsharpdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Migration and Porting
                     </h5>
                     <p>Team In India has the capability to assist and advise on any type of migration that you might be about to undertaken. We also provide the facility to port legacy systems to .Net technology so you can take advantage of the improvements.</p>
@@ -305,7 +305,7 @@ export default function hirecsharpdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Third Party Compone
                     </h5>
                     <p>The C# developers of Team In India can build reliable third-party software components for a wide range of systems. These can be created so that they are marketable independently and reusable in relevant situations.</p>
@@ -317,7 +317,7 @@ export default function hirecsharpdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Testing & QA
                     </h5>
                     <p>Our company is ISO 9001:2008 Certified and we strive hard to maintain the high standards that is required when delivering IT projects. We put a heavy focus on planning, control, quality assurance to achieve this.</p>
@@ -329,7 +329,7 @@ export default function hirecsharpdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Customised Applications
                     </h5>
                     <p>Our teams can work from the ground up to create a wide range of bespoke systems, from the simple to the most complex. So whether it’s SaaS, PaaS, Mobile, Desktop, we’re confident that we’ve got all bases covered.</p>
@@ -342,7 +342,7 @@ export default function hirecsharpdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Application Integration
                     </h5>
                     <p>Hire C# developers from us to avail the services of integrating enterprise applications, business-to-business systems, business processes, legacy and third party systems. No job is too big or small, it’s just important to us that they are successful.
@@ -356,7 +356,7 @@ export default function hirecsharpdeveloper() {
                     <div className={`${whyStyles.imgBox}`}>
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <h5 className='font20 fontf font-500 line30'>
+                    <h5 className='font20 fontf font-medium line30'>
                     Support & Maintenance
                     </h5>
                     <p>We’ve got a team of C# developers who can provide maintenance and support plans on a fixed or ad-hoc basis that include technical support as required. We’re in it for the long run and will help to keep things looking and performing their best.</p>

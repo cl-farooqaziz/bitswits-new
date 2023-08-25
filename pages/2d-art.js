@@ -174,13 +174,13 @@ export default function art() {
         <Row className={`${whyStyles.soluRow} bg-white mt-5 p-4`}>
             <Col lg={3} className={`${whyStyles.soluRow} p-3`}>
                 <Image src={icon18} alt='BitsWits' className='img-fluid' height={60} />
-                <h5 className='font16 fontf font-500 line30 mt-3'>
+                <h5 className='font16 fontf font-medium line30 mt-3'>
                   Focus on our <br/>customer  <br/> requirement.
                 </h5>
             </Col>
             <Col lg={3} className={`${whyStyles.borderleft} p-3`}>
                 <Image src={icon19} alt='BitsWits' className='img-fluid' height={60} />
-                <h5 className='font16 fontf font-500 line30 mt-3'>
+                <h5 className='font16 fontf font-medium line30 mt-3'>
                 We have a team
 of strong
 and creative
@@ -189,7 +189,7 @@ and creative
             </Col>
             <Col lg={3} className={`${whyStyles.borderleft} p-3`}>
                 <Image src={icon20} alt='BitsWits' className='img-fluid' height={60} />
-                <h5 className='font16 fontf font-500 line30 mt-3'>
+                <h5 className='font16 fontf font-medium line30 mt-3'>
                 Work for all major
 platforms like desktop,
 consoles, tablets,
@@ -198,7 +198,7 @@ mobile and online.
             </Col>
             <Col lg={3} className={`p-3`}>
                 <Image src={icon21} alt='BitsWits' className='img-fluid' height={50}/>
-                <h5 className='font16 fontf font-500 line30 mt-3'>
+                <h5 className='font16 fontf font-medium line30 mt-3'>
                 With years of experience
 backing our achievements,
 we have made a name for
@@ -225,7 +225,7 @@ creative work.
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon24} alt='BitsWits' height={50} className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                         Game <br/> Designing
                         </h5>
                     </div>
@@ -235,7 +235,7 @@ creative work.
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon25} alt='BitsWits'  height={50} className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30 '>
+                        <h5 className='font20 fontf font-medium line30 '>
                         Graphics <br/> Designing
                         </h5>
                     </div>
@@ -245,7 +245,7 @@ creative work.
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon26} alt='BitsWits'  height={50} className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500 line30'>
+                        <h5 className='font20 fontf font-medium line30'>
                         Character <br/> Designing
                         </h5>
                         
@@ -256,7 +256,7 @@ creative work.
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon27} alt='BitsWits'  height={50} className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500'>
+                        <h5 className='font20 fontf font-medium'>
                         Character <br/>
     Designing
                         </h5>
@@ -268,7 +268,7 @@ creative work.
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon28} alt='BitsWits'  height={50} className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500'>
+                        <h5 className='font20 fontf font-medium'>
                         Environment <br/>
     Designing
                         </h5>
@@ -280,7 +280,7 @@ creative work.
                         <div className={`${whyStyles.imgBox}`}>
                             <Image src={icon29} alt='BitsWits'  height={50} className='img-fluid' />
                         </div>
-                        <h5 className='font20 fontf font-500'>
+                        <h5 className='font20 fontf font-medium'>
                         Digital <br/>
     Printing
                         </h5>
