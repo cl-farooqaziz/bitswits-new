@@ -16,7 +16,7 @@ const Contact = () => {
                         <Col lg={4}>
                             <div className={styles.cntcTxt}>
                                 <h2 className='font60 black fontf font-bold line60 mb-4'>
-                                    LET’S TALK ABOUT YOUR PROJECTS
+                                    LET’S <span className='grdiant'>TALK ABOUT YOUR</span> PROJECTS
                                 </h2>
                                 <p className='font18 fontf mb-4'>Have a project idea? Tell us more about the details and we'll get back to you within 24 hours</p>
                                 <div className={styles.getInTch}>

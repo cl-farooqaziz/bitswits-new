@@ -1,21 +1,14 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react'; import Link from 'next/link';
 import banImg from '../public/images/banner/mobileappbanner.png'
-import foldimg from '../public/images/services/mobileapp/mobile-app-development-01.png'
-import foldensure from '../public/images/services/mobileapp/mobile-app-development-03.png'
 import { Row, Col } from 'react-bootstrap'
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
 import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/services/mobileapp/mobile-app-development-02.png'
 import Image from 'next/image';
 import mobilearrow from '../public/images/icons/mobile-arrow.png'
 
@@ -47,16 +40,7 @@ import benefitimg1 from '../public/images/industryInt/benefit-img1.svg'
 import benefitimg2 from '../public/images/industryInt/benefit-img2.svg'
 import benefitimg3 from '../public/images/industryInt/benefit-img3.svg'
 import benefitimg4 from '../public/images/industryInt/benefit-img4.svg'
-//
 
-import icon16 from '../public/images/wbd-icons/wbd-t1.png'
-import icon17 from '../public/images/wbd-icons/wbd-t2.png'
-import icon18 from '../public/images/wbd-icons/wbd-t3.png'
-import icon19 from '../public/images/wbd-icons/wbd-t4.png'
-import icon20 from '../public/images/wbd-icons/wbd-t5.png'
-import icon21 from '../public/images/wbd-icons/wbd-t6.png'
-import icon22 from '../public/images/wbd-icons/wbd-t7.png'
-import icon23 from '../public/images/wbd-icons/wbd-t8.png'
 
 // Why Icon
 import icon232 from '../public/images/industryInt/why-us1.svg'
@@ -70,10 +54,7 @@ import icon30 from '../public/images/industryInt/why-us8.svg'
 import icon31 from '../public/images/industryInt/why-us9.svg'
 import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
 
-// import icon32 from '../public/images/industryInt/pwa-1.png'
-// import icon33 from '../public/images/industryInt/pwa-2.png'
-// import icon34 from '../public/images/industryInt/pwa-3.png'
-// import grnArrow from '../public/images/wbd-icons/arrow-green.png'
+
 
 export default function androidappdeveloment() {
 
@@ -207,7 +188,7 @@ export default function androidappdeveloment() {
     </div>
 
 
-const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success with android apps starts here. Get in touch with an android app consultant at BitsWits – Contact Us!</p> </>
+const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success with android apps starts here. Get in touch with an <span className='grdiant'>android app consultant at BitsWits</span> – Contact Us!</p> </>
 
     // Swipe component data
     const serCards = <>
@@ -417,9 +398,9 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
         <Row className={`${expStyles.soluRow} mt-5`}>
             <Col lg={5}>
                 <h4 className='font30 font-bold'>Our Approach for Android App</h4>
-                 <div className='d-flex justify-content-start align-content-start mt-5'>
+                 <div className='d-flex justify-content-start align-content-start mt-lg-5 mt-md-3'>
                     <div className='d-inline'>
-                    <div className="mobbtn">
+                    <div className="mobbtn nonefor">
                     <Link href="#" target="_blank" aria-label="img" className={`${expStyles.mobdev} ${expStyles.ev1}`}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="21.849" height="26" viewBox="0 0 21.849 26">
                             <path id="Icon_awesome-apple" data-name="Icon awesome-apple" d="M18.548,15.99a5.419,5.419,0,0,1,2.9-4.922,6.237,6.237,0,0,0-4.917-2.589c-2.061-.163-4.313,1.2-5.137,1.2-.871,0-2.867-1.144-4.435-1.144C3.723,8.589.281,11.119.281,16.268a14.468,14.468,0,0,0,.836,4.713c.743,2.13,3.425,7.354,6.223,7.267,1.463-.035,2.5-1.039,4.4-1.039,1.846,0,2.8,1.039,4.435,1.039,2.821-.041,5.247-4.789,5.956-6.925a5.754,5.754,0,0,1-3.581-5.334ZM15.263,6.458A5.467,5.467,0,0,0,16.656,2.25a6.155,6.155,0,0,0-3.941,2.026,5.553,5.553,0,0,0-1.486,4.174,4.875,4.875,0,0,0,4.034-1.991Z" transform="translate(-0.281 -2.25)" fill="#fff"></path>
@@ -444,9 +425,9 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
 
             </Col>
             <Col lg={7}>
-                <p>At Team In India, we believe the key to creating a successful and intuitive mobile app is to focus on the user experience. That's why we take a user-centric approach to app development, carefully considering the needs and goals of our users at every stage of the development process.
+                <p>As a <span className='grdiant'>top Android app development company</span>, our top Android app developers build smooth and high-functioning applications.  To create unique mobile apps that are well-suited for Android smartphones, our top Android app developers make use of the most recent Android features. 
 </p>
-<p>As a reputable app development agency in UK, we also understand the importance of staying up-to-date with the latest technologies and development practices. Our team is constantly learning and evolving to ensure we are always at the forefront of the industry.</p>
+<p>We prioritize amazing user experience, rigorous testing, efficient performance, and intuitive design. By using a simplified development approach, we can work directly with our clients to develop high-quality Android apps that are successful for them.</p>
             </Col>
           
         </Row>
@@ -454,12 +435,10 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
 
     // Why Build
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our Approach for Mobile
-    App Development
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Building Intuitive Android Apps at the Leading <span className='grdiant'>Android App Development</span> Agency
     </h2>
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why Does Your Business Need a
-        <span className='grdiant'> Web App?</span></h2>
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why is There a Need for <span className='grdiant'>Android Applications</span>? </h2>
 
     const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>What are Progressive Web Apps (PWA’s)?
     </h2>
@@ -471,7 +450,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
 
     const text =
      <p className='text-center'>
-        The mobile app makes it possible to add value to your business and attract more customers. A quality app helps you make data-driven decisions that can shape your business for the future and give you a significant edge over your competitors.
+        Achieve a competitive edge, boost revenue, and engage customers effectively with an <span className='grdiant'>Android app</span>. BitsWits excels in creating personalized, future-ready apps to expand your market reach.
     </p>
     const WhyBuilds = <>
    
@@ -483,10 +462,10 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon232} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Strengthen Brand Identity
+                    Extensive Audience Reach
                     </h5>
                     <p>
-                    Create a solid brand identity by emphasising your brand messaging and values, helping to build a stronger connection with customers.
+                    Android is the most widely used mobile operating system globally which means it can aid your business to reach potential customers globally. 
 
 
                     </p>
@@ -499,10 +478,10 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Increase Engagement
+                    Higher Discoverability in the App Store
                     </h5>
                     <p>
-                    Enhance customer engagement with your brand using streamlined communication and deliver more personalised experiences.
+                    Android apps have high discoverability in the Play Store due to its extensive user base, robust search algorithm, and easy downloading.
                     </p>
                 </div>
             </Col>
@@ -512,10 +491,10 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Stand Out From Competitors
+                    Flexible UI Design Features 
                     </h5>
                     <p>
-                    Position your brand in the market as innovative and forward-thinking with a mobile app and convert more leads more conveniently.</p>
+                    Apps run smoothly on smartphones, tablets, mobile devices, and other devices due to Android's support for flexible UI design.</p>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -524,12 +503,12 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Gather Valuable Customer Data
+                    Combining Advanced Features 
 
 
                     </h5>
                     <p>
-                    With a mobile app, gather valuable data on your customers’ behaviour, preferences, and interactions with your brand to build future strategies.
+                    Apps leverage Android's unique features like widgets, AI, and alerts. We ensure seamless integration, delivering the best user experience
 
 </p>
 
@@ -541,12 +520,12 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Offer Push Notifications
+                    Brand Visibility and Recognition
 
 
                     </h5>
                     <p>
-                    With push notifications, you can send messages directly to user’s mobile devices, keeping them informed of new products, promotions, or other relevant updates.
+                    Android app offers a direct and interactive channel for users to engage with your brand on their mobile devices. 
 
 </p>
 
@@ -558,11 +537,11 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Enhance Customer Support
+                    Economical and Cost-Effective
 
 
                     </h5>
-                    <p>  A mobile app can offer a more efficient and effective way for customers to get support and assistance, reducing the need for a call or email support.
+                    <p>  Android apps can reach a wide audience without the need for expensive hardware or software, reducing development and distribution costs.
 
 </p>
 
@@ -574,14 +553,13 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Add Exclusiveness
+                    Extensive Developer Support 
 
 
 
                     </h5>
                     <p>
-                    A mobile app can be used to offer exclusive content, such as access to new products or services, discounts, or promotions.
-
+                    To promote the development of Android apps, Google offers a wealth of developer resources, tools, and documentation.
 
                     </p>
                 </div>
@@ -592,12 +570,12 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Run Loyalty Programs
+                    Options for Flexible Monetization 
 
 
                     </h5>
                     <p>
-                    Create and manage loyalty programs, offering customers encouragement to continue using your products and services with the help of an app.
+                    Android apps offer various options for monetization, from ads, in-app purchases, subscriptions and other methods to customize the revenue approach. 
 
 
 
@@ -611,11 +589,11 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-500 line30'>
-                    Extended Reach
+                    Utilizing Open Platforms for Innovation 
 
 
                     </h5>
-                    <p>  Reach customers on mobile and offer seamless experiences to access your products and services, place orders, and get support.
+                    <p> Android apps use open platforms for development, incorporating third-party services, and continuously adapting to evolving user demands.
 
 
 
@@ -632,26 +610,25 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>Success w
 const Benefits = <>
     <Row className='justify-content-center align-items-center text-center mb-4'>
         <Col lg={12}>
-            <h2>Benefits of Working with a Leading
-                <br/>
-              <span className='font-bold'> Android App Company</span> 
+            <h2 className='font-bold font50 '> The Benefits of Hiring the Best <span className='grdiant'>Android App Development Company</span>!
             </h2>
-            <p>When you choose to work with our team of expert app developers, you can expect-</p>
+            <p> BitsWits has a <span className='grdiant'>team of talented top Android app developers</span> who help surpass all your expectations.</p>
         </Col>
     </Row>
     <Row className='benefitscard'>
         <Col lg={6}>
             <div className='card mb-4'>
                     <div className='card-body p-4'>
-                    <Row>
+                    <Row className='gy-4'>
                         <Col lg={5}>
                             <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
                         </Col>
                         <Col lg={7}>
-                        <span>
-                        A dedicated project manager who will guide you through the app development process and ensure that your project stays on the track that too within budget.
+                            <h4 className='font-bold font20'>Experience and Expertise </h4>
+                        <p className='font14'>
+                        Our <span className='grdiant'>top Android app developers</span> have 10+ years of experience building and launching successful applications on Google Play. We also stay up-to-date on the latest Android features.
 
-                        </span>
+                        </p>
                         </Col>
                     </Row>
                 </div>
@@ -660,16 +637,15 @@ const Benefits = <>
         <Col lg={6}>
             <div className='card mb-4'>
                     <div className='card-body p-4'>
-                    <Row>
+                    <Row className='gy-4'>
                         <Col lg={5}>
                             <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
                         </Col>
                         <Col lg={7}>
-                        <span>
-                        A team of experienced app developers with a proven track record of delivering high-quality apps that users love.
-
-
-                        </span>
+                        <h4 className='font-bold font20'>Multi-Device Testing </h4>
+                        <p className='font14'>
+                        BitsWits, a leading Android <span className='grdiant'>app development agency</span>, conducts thorough app testing across various Android phones, tablets, and other gadgets and software.  
+                        </p>
                         </Col>
                     </Row>
                 </div>
@@ -678,16 +654,17 @@ const Benefits = <>
         <Col lg={6}>
             <div className='card mb-4'>
                     <div className='card-body p-4'>
-                    <Row>
+                    <Row className='gy-4'>
                         <Col lg={5}>
                             <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
                         </Col>
                         <Col lg={7}>
-                        <span>
-                        A commitment to clear and open communication, with regular progress updates and the opportunity to provide feedback throughout the development process.
+                       
+                        <h4 className='font-bold font20'>Quick Turnaround  </h4>
+                        <p className='font14'>
+                        Our <span className='grdiant'>Android app development services</span> include quicker app delivery without sacrificing quality due to our simple processes and agile framework.
+                        </p>
 
-
-                        </span>
                         </Col>
                     </Row>
                 </div>
@@ -696,58 +673,59 @@ const Benefits = <>
         <Col lg={6}>
             <div className='card mb-4'>
                     <div className='card-body p-4'>
-                    <Row>
+                    <Row className='gy-4'>
                         <Col lg={5}>
                             <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
                         </Col>
                         <Col lg={7}>
-                        <span>
-                        A focus on your business needs and goals with custom solutions tailored to your unique requirements.
+                       
+                        <h4 className='font-bold font20'>Enhanced Visibility   </h4>
+                        <p className='font14'>
+                        In order to increase your app's exposure and discovery in the Google Play store, our <span className='grdiant'>top Android app developers</span> employ proven Store Optimization techniques.
+                        </p>
 
-
-                        </span>
                         </Col>
                     </Row>
                 </div>
             </div>
         </Col>
     </Row>
-    <p className='text-center'>As skilled app developers in London, we have the knowledge and experience to bring your app ideas to life. Our team is dedicated to providing top-quality service and delivering results that exceed your expectations.
+    <p className='text-center'>Our high-quality <span className='grdiant'>Android app development services</span> will help your business grow and create a global brand name.
 
 </p>
 </>
 const Benefits1 = <>
 <Row className='text-center'>
     <Col lg={12}>
-        <h4 className='font40'>Our <span className='font-bold'> Android App</span> Process</h4>
-        <p>Our app development process is designed to be efficient, transparent, and collaborative. Here's an overview of what you can expect from our Cross Platform App development services:</p>
+        <h4 className='font-bold font50 '>Our <span className='grdiant'> Android App</span> Process</h4>
+        <p> The process at this top Android app development company is designed to be innovative, efficient, and transparent. What to anticipate from our <span className='grdiant'>Android app development services</span> is outlined below: </p>
     </Col>
 </Row>
 <Row>
     <Col lg={7}>
         <div className='pb-3'>
-            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Initial Consultation</h4>
-            <p>We'll start by discussing your app ideas, goals, and any challenges or constraints you face.</p>
+            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Initial Consultation </h4>
+            <p>Our top Android <span className='grdiant'>app developers</span> start by talking about the objectives, obstacles, and limitations you have for your app.</p>
         </div>
         <div className='pb-3'>
-            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Requirements Gathering</h4>
-            <p>We'll work with you to define the specific features and functionality  that your app will need.</p>
+            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Gathering Requirements</h4>
+            <p>We'll work with you to define the specific requirements and functionality for your business app.</p>
         </div>
         <div className='pb-3'>
-            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Design and prototyping</h4>
-            <p>We'll create wireframes and prototypes to give you an idea of how your app will look and function.</p>
+            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Design and Prototype </h4>
+            <p>In order to give you a sense of how your app will look and work, we design wireframes and prototypes.</p>
         </div>
         <div className='pb-3'>
             <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Development</h4>
-            <p>Our team will build your app using agile development methodologies to ensure we can quickly  adapt to any changes or challenges.</p>
+            <p> Utilizing development approaches, our team will create your app in a way that swiftly responds to any issues or modifications. </p>
         </div>
         <div className='pb-3'>
-            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Testing And Quality Assurance</h4>
-            <p>We'll thoroughly test your app to ensure it is stable, reliable, and easy to use.</p>
+            <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Tests and Quality Control </h4>
+            <p> Your app will be thoroughly evaluated by us to make sure it is dependable, stable, and simple to use. </p>
         </div>
         <div className='pb-3'>
             <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid'/> Launch</h4>
-            <p>We'll help you with the submission process and provide ongoing support to ensure  your app's success.</p>
+            <p> To guarantee the success of your app, our <span className='grdiant'> top Android app developers </span> assist you with the submission procedure and offer continuous assistance. </p>
         </div>
     </Col>
     <Col lg={5}>
@@ -781,8 +759,8 @@ const Benefits1 = <>
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Get In Touch With Trusted Mobile App Development Company - Bitswits</title>
+                <meta name="description" content="Through innovative techniques, our Android mobile app developers help bring your ideas to life by creating robust applications that are tailor-made" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>

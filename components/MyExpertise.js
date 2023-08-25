@@ -19,7 +19,7 @@ const MyExpertise = (props) => {
                         </Col>
                         <Col lg={3}>
                             <Link className={`${styles.bttns1} ${props.notpost} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
-                                CALL NOW!
+                            Book a Call Today!
                             </Link>
                         </Col>
                     </Row>
