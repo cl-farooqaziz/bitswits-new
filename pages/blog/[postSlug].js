@@ -5,6 +5,7 @@ import styles from '@/styles/InnerBlog.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //
 import { getPostSlugs, getSinglePost } from "@/lib/posts";
+import Date from "@/components/Date";
 //
 import arrow from '../../public/images/blogBanners/right-arrow.webp'
 import logo from '../../public/images/icons/favicon.png'
@@ -68,6 +69,9 @@ export default function Post({ postData, featuredImageUrl }) {
                                     <h6 className={`${styles.detailDate} mt-5`}>
                                         <Image src={logo} alt="BitsWits" width={25} height={25} />
                                         <span>By BitsWits Team in 2023</span>
+                                    </h6>
+                                    <h6 className="mt-3 mb-0 fw-bold font14">
+                                        Published on  <Date dateString={postData.date} />
                                     </h6>
                                 </div>
                                 <div className="mt-4">
