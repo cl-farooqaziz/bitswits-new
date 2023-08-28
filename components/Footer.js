@@ -204,16 +204,15 @@ const Footer = () => {
                 <Link href="/hire-virtuemart-developer" title="TII Hire VirtueMart Developer">VirtueMart</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/hire-zencart-developer" title="TII Hire Zencart Developer">Zencart</Link> 
 
-                {/* <div className={styles.ftrhd}>Quick Links</div>
-                <Link href="/" title="Home">Home</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Portfolio">Portfolio</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Enquire">Enquire Now</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Contact Us">Contact Us</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="TII Sitemap">Sitemap</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="News Events">News Events</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="Make Payment">Make Payment</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="Blog">Blog</Link> <span className={styles.cornaer}> | </span>
-                <Link href="#" title="Fulfilment">Fulfilment</Link>  */}
+                <div className={styles.ftrhd}>Other Links</div>
+                <Link href="about-us" >About Us</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" >Contact Us</Link> <span className={styles.cornaer}> | </span>
+                <Link href="/blog" >Blogs </Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" >Pricing</Link> <span className={styles.cornaer}>  </span>
+                <Link href="#" >Terms of Use</Link> <span className={styles.cornaer}> | </span>
+                <Link href="#" >Privacy Policy</Link>
+                
+          
            
             </div>
 
@@ -351,7 +350,7 @@ const Footer = () => {
               <p className='font15 font-medium white fontf'>Copyright © 2023 BitsWits. | Brand Of Bhaoo Incorporation Company</p>
             </Col>
             <Col lg={6}>
-              <p className='font15 font-medium white fontf right'> <Link className='white' href="#">Terms of Use</Link>  | <Link className='white' href="#">Privacy Policy</Link></p>
+              {/* <p className='font15 font-medium white fontf right'> <Link className='white' href="#">Terms of Use</Link>  | <Link className='white' href="#">Privacy Policy</Link></p> */}
             </Col>
           </Row>
 
