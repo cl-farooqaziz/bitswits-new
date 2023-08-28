@@ -49,7 +49,7 @@ export default function androidappdeveloment() {
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                The go-to <span className='grdiant'>Android app developers</span> for popular brands
+                The go-to <span className='grdiant font-bold'>Android app developers</span> for popular brands
             </li>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
@@ -83,7 +83,7 @@ export default function androidappdeveloment() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-        Success with android apps starts here. Get in touch with an <span className='grdiant'>android app consultant at BitsWits</span> – Contact Us!
+        Success with android apps starts here. Get in touch with an <span className='grdiant font-bold'>android app consultant at BitsWits</span> – Contact Us!
     </p> </>
 
 
@@ -125,7 +125,7 @@ export default function androidappdeveloment() {
             </Col>
             <Col lg={7}>
                 <p>
-                    As a <span className='grdiant'>top Android app development company</span>, our top Android app developers build smooth and high-functioning applications.  To create unique mobile apps that are well-suited for Android smartphones, our top Android app developers make use of the most recent Android features.
+                    As a <span className='grdiant font-bold'>top Android app development company</span>, our top Android app developers build smooth and high-functioning applications.  To create unique mobile apps that are well-suited for Android smartphones, our top Android app developers make use of the most recent Android features.
                 </p>
                 <p>
                     We prioritize amazing user experience, rigorous testing, efficient performance, and intuitive design. By using a simplified development approach, we can work directly with our clients to develop high-quality Android apps that are successful for them.
@@ -144,7 +144,7 @@ export default function androidappdeveloment() {
 
     const text =
         <p className='text-center'>
-            Achieve a competitive edge, boost revenue, and engage customers effectively with an <span className='grdiant'>Android app</span>. BitsWits excels in creating personalized, future-ready apps to expand your market reach.
+            Achieve a competitive edge, boost revenue, and engage customers effectively with an <span className='grdiant font-bold'>Android app</span>. BitsWits excels in creating personalized, future-ready apps to expand your market reach.
         </p>
 
     const WhyBuilds = <>
@@ -276,11 +276,11 @@ export default function androidappdeveloment() {
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2 className='font-bold font50 '>
+                <h2 className='font50 black fontf font-bold line60 black text-center'>
                     The Benefits of Hiring the Best <span className='grdiant'>Android App Development Company</span>!
                 </h2>
                 <p>
-                    BitsWits has a <span className='grdiant'>team of talented top Android app developers</span> who help surpass all your expectations.
+                    BitsWits has a <span className='grdiant font-bold'>team of talented top Android app developers</span> who help surpass all your expectations.
                 </p>
             </Col>
         </Row>
@@ -295,7 +295,7 @@ export default function androidappdeveloment() {
                             <Col lg={7}>
                                 <h4 className='font-bold font20'>Experience and Expertise </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant'>top Android app developers</span> have 10+ years of experience building and launching successful applications on Google Play. We also stay up-to-date on the latest Android features.
+                                    Our <span className='grdiant font-bold'>top Android app developers</span> have 10+ years of experience building and launching successful applications on Google Play. We also stay up-to-date on the latest Android features.
                                 </p>
                             </Col>
                         </Row>
@@ -312,7 +312,7 @@ export default function androidappdeveloment() {
                             <Col lg={7}>
                                 <h4 className='font-bold font20'>Multi-Device Testing </h4>
                                 <p className='font14'>
-                                    BitsWits, a leading Android <span className='grdiant'>app development agency</span>, conducts thorough app testing across various Android phones, tablets, and other gadgets and software.
+                                    BitsWits, a leading Android <span className='grdiant font-bold'>app development agency</span>, conducts thorough app testing across various Android phones, tablets, and other gadgets and software.
                                 </p>
                             </Col>
                         </Row>
@@ -330,7 +330,7 @@ export default function androidappdeveloment() {
 
                                 <h4 className='font-bold font20'>Quick Turnaround  </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant'>Android app development services</span> include quicker app delivery without sacrificing quality due to our simple processes and agile framework.
+                                    Our <span className='grdiant font-bold'>Android app development services</span> include quicker app delivery without sacrificing quality due to our simple processes and agile framework.
                                 </p>
 
                             </Col>
@@ -349,7 +349,7 @@ export default function androidappdeveloment() {
 
                                 <h4 className='font-bold font20'>Enhanced Visibility   </h4>
                                 <p className='font14'>
-                                    In order to increase your app's exposure and discovery in the Google Play store, our <span className='grdiant'>top Android app developers</span> employ proven Store Optimization techniques.
+                                    In order to increase your app's exposure and discovery in the Google Play store, our <span className='grdiant font-bold'>top Android app developers</span> employ proven Store Optimization techniques.
                                 </p>
 
                             </Col>
@@ -358,7 +358,7 @@ export default function androidappdeveloment() {
                 </div>
             </Col>
         </Row>
-        <p className='text-center'>Our high-quality <span className='grdiant'>Android app development services</span> will help your business grow and create a global brand name.
+        <p className='text-center'>Our high-quality <span className='grdiant font-bold'>Android app development services</span> will help your business grow and create a global brand name.
 
         </p>
     </>
@@ -369,8 +369,8 @@ export default function androidappdeveloment() {
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font-bold font50 '>Our <span className='grdiant'> Android App</span> Process</h4>
-                <p> The process at this top Android app development company is designed to be innovative, efficient, and transparent. What to anticipate from our <span className='grdiant'>Android app development services</span> is outlined below: </p>
+                <h4 className='font50 black fontf font-bold line60 black text-center'>Our <span className='grdiant'> Android App</span> Process</h4>
+                <p> The process at this top Android app development company is designed to be innovative, efficient, and transparent. What to anticipate from our <span className='grdiant font-bold'>Android app development services</span> is outlined below: </p>
             </Col>
         </Row>
         <Row>
@@ -380,7 +380,7 @@ export default function androidappdeveloment() {
                         <Image src={icon32} width={20} className='img-fluid' />
                         Initial Consultation
                     </h4>
-                    <p>Our top Android <span className='grdiant'>app developers</span> start by talking about the objectives, obstacles, and limitations you have for your app.</p>
+                    <p>Our top Android <span className='grdiant font-bold'>app developers</span> start by talking about the objectives, obstacles, and limitations you have for your app.</p>
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
@@ -415,7 +415,7 @@ export default function androidappdeveloment() {
                         <Image src={icon32} width={20} className='img-fluid' />
                         Launch
                     </h4>
-                    <p> To guarantee the success of your app, our <span className='grdiant'> top Android app developers </span> assist you with the submission procedure and offer continuous assistance. </p>
+                    <p> To guarantee the success of your app, our <span className='grdiant font-bold'> top Android app developers </span> assist you with the submission procedure and offer continuous assistance. </p>
                 </div>
             </Col>
             <Col lg={5}>

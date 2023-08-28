@@ -39,7 +39,7 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <h1 className='font65 black fontf font-bold line60'>
-        Forget the Rest and Work with the Best Mobile App Development Company!
+        Forget the Rest and Work with the Best <span className='grdiant'>Mobile App Development</span> Company!
     </h1>
 
     const para = <>
@@ -47,7 +47,7 @@ export default function mobileappdevelopment() {
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                The go-to <span className='grdiant'>mobile app developers</span> for popular brands
+                The go-to <span className='grdiant font-bold'>mobile app developers</span> for popular brands
             </li>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
@@ -77,14 +77,14 @@ export default function mobileappdevelopment() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-        Our professional <span className='grdiant'>mobile app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
+        Our professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
     </p> </>
 
 
     // coverage component data
 
     const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
-        Approach at BitsWits: We Turn App Ideas into Downloaded Reality!
+        Approach at <span className='grdiant'>BitsWits</span>: We Turn App Ideas into Downloaded Reality!
     </h2>
 
     const expCards = <>
@@ -118,7 +118,7 @@ export default function mobileappdevelopment() {
             </Col>
             <Col lg={7}>
                 <p>
-                    We don't just build applications at BitsWits, the <span className='grdiant'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
+                    We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
                 </p>
                 <p>
                     We create apps that give your brand a dazzling new dimension. Because of our holistic approach, your app emotionally engages users through visuals, motion, and micro-interactions.
@@ -136,7 +136,7 @@ export default function mobileappdevelopment() {
 
     const text =
         <p className='text-center'>
-            <span className='grdiant'>Building your mobile app</span> acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory.
+            <span className='grdiant font-bold'>Building your mobile app</span> acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory.
         </p>
 
 
@@ -270,11 +270,11 @@ export default function mobileappdevelopment() {
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2>
+                <h2 className='font50 black fontf font-bold line60 black text-center'>
                     The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
                 </h2>
                 <p>
-                    The talented and professional <span className='grdiant'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
+                    The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
                 </p>
             </Col>
         </Row>
@@ -291,7 +291,7 @@ export default function mobileappdevelopment() {
                                     Custom Solutions for Your Niche Audience
                                 </h4>
                                 <span className='font14'>
-                                    Our <span className='grdiant'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
                                 </span>
                             </Col>
                         </Row>
@@ -310,7 +310,7 @@ export default function mobileappdevelopment() {
                                     Ongoing Support and Maintenance
                                 </h4>
                                 <span className='font14'>
-                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
+                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
                                 </span>
                             </Col>
                         </Row>
@@ -329,7 +329,7 @@ export default function mobileappdevelopment() {
                                     Meeting Delivery Deadline and Reliability
                                 </h4>
                                 <span className='font14'>
-                                    BitsWits is known for its reliability. Our <span className='grdiant'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
+                                    BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
                                 </span>
                             </Col>
                         </Row>
@@ -348,7 +348,7 @@ export default function mobileappdevelopment() {
                                     Better Security and Data Confidentiality
                                 </h4>
                                 <span className='font14'>
-                                    Our <span className='grdiant'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
                                 </span>
                             </Col>
                         </Row>
@@ -357,7 +357,7 @@ export default function mobileappdevelopment() {
             </Col>
         </Row>
         <p className='text-center'>
-            Our professional <span className='grdiant'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant'>mobile app development services</span>.
+            Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>mobile app development services</span>.
         </p>
     </>
 
@@ -367,11 +367,11 @@ export default function mobileappdevelopment() {
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font40'>
-                    The Mobile App Development Process at BitsWits!
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    The <span className='grdiant'>Mobile App Development</span> Process at BitsWits!
                 </h4>
                 <p>
-                    Our mobile app development process is designed to be innovative, efficient, and transparent. Our <span className='grdiant'>mobile app development services</span> offer you the following:
+                    Our mobile app development process is designed to be innovative, efficient, and transparent. Our <span className='grdiant font-bold'>mobile app development services</span> offer you the following:
                 </p>
             </Col>
         </Row>
@@ -383,7 +383,7 @@ export default function mobileappdevelopment() {
                         Initial Consultation
                     </h4>
                     <p>
-                        Our <span className='grdiant'>app developers</span> begin with understanding your objectives, obstacles, and limitations you have in mind for your app.
+                        Our <span className='grdiant font-bold'>app developers</span> begin with understanding your objectives, obstacles, and limitations you have in mind for your app.
                     </p>
                 </div>
                 <div className='pb-3'>
@@ -428,7 +428,7 @@ export default function mobileappdevelopment() {
                         Launch and Deployment
                     </h4>
                     <p>
-                        Our <span className='grdiant'>app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience
+                        Our <span className='grdiant font-bold'>app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience
                     </p>
                 </div>
             </Col>

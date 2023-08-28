@@ -410,11 +410,6 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-
-
-}
-
 @media screen and (max-width: 1920px) {
 
   .bannerform {
@@ -445,10 +440,10 @@
     justify-content: space-between;
   }
 
-  .banner h1 {
+  /* .banner h1 {
     font-size: 95px;
     line-height: 95px;
-  }
+  } */
 
   .formsbanner .forminput {
     height: 40px;
@@ -507,8 +502,8 @@
 
   .banner h1 {
     margin-top: 20px;
-    font-size: 70px;
-    line-height: 75px;
+    /* font-size: 70px;
+    line-height: 75px; */
   }
 
   .bannerimg img {
@@ -578,10 +573,10 @@
     height: auto;
   }
 
-  .banner h1 {
+  /* .banner h1 {
     font-size: 50px;
     line-height: 55px;
-  }
+  } */
 
   .bannerform {
 
@@ -620,10 +615,10 @@
     font-size: 11px;
   }
 
-  .banner h1 {
+  /* .banner h1 {
     font-size: 40px;
     line-height: 50px;
-  }
+  } */
 
   .sharjah a {
     font-size: 6px;
@@ -656,10 +651,10 @@
     height: auto;
   }
 
-  .banner h1 {
+  /* .banner h1 {
     font-size: 65px;
     line-height: 75px;
-  }
+  } */
 
   .bannerimg img {
     position: unset;
@@ -701,17 +696,17 @@
     font-size: 14px;
   }
 
-  .banner h1 {
+  /* .banner h1 {
     font-size: 44px;
     line-height: 54px;
-  }
+  } */
 }
 
 @media screen and (max-width: 480px) {
-  .banner h1 {
+  /* .banner h1 {
     font-size: 30px;
     line-height: 35px;
-  }
+  } */
 
   .read {
     display: none;

@@ -46,7 +46,7 @@ export default function enterprisemobilitysolutions() {
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                The go-to <span className='grdiant'>enterprise mobility management services</span> for businesses
+                The go-to <span className='grdiant font-bold'>enterprise mobility management services</span> for businesses
             </li>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
@@ -68,15 +68,14 @@ export default function enterprisemobilitysolutions() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-        Ready to mobilize our business? Let's talk enterprise mobility solutions now!
+        Ready to mobilize our business? Let's talk <span className='grdiant font-bold'>enterprise mobility solutions</span> now!
     </p> </>
 
     // coverage component data
 
     const Workspace = <>
         <Row className={`${workStyles.soluRow} mt-5 text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font30 font-bold mb-5'> Solutions? Yes, With This Process
-            </h4>
+            <h4 className='text-center font50 font-bold mb-5'>Our Path and Process to Building Top <span className='grdiant'>Enterprise Mobility Solutions</span>!</h4>
             <Col lg={12} md={12} className={workStyles.soluCol}>
                 <Image src={icon49} alt='BitsWits' className='img-fluid' />
             </Col>
@@ -85,7 +84,7 @@ export default function enterprisemobilitysolutions() {
 
     const Workspace1 = <>
         <Row className={`${workStyles.soluRow} mt-3 text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font30 font-bold mb-5'>
+            <h4 className='text-center font50 font-bold mb-5'>
                 How Can Our <span className='grdiant'>Enterprise Mobility Services</span> Help Your Business?
             </h4>
 
@@ -97,7 +96,7 @@ export default function enterprisemobilitysolutions() {
                     <h5 className='font20 fontf font-medium line30'>
                         The Mobile Multipliers
                     </h5>
-                    <p className='font14 fontf'>Our <span className='grdiant'>enterprise mobility services</span> help multiply the power of your workforce and operations through smart mobile tech.</p>
+                    <p className='font14 fontf'>Our <span className='grdiant font-bold'>enterprise mobility services</span> help multiply the power of your workforce and operations through smart mobile tech.</p>
                 </div>
             </Col>
             <Col lg={3} md={6} className={workStyles.soluCol}>
@@ -108,7 +107,7 @@ export default function enterprisemobilitysolutions() {
                     <h5 className='font20 fontf font-medium line30'>
                         Strategic Insights
                     </h5>
-                    <p className='font14 fontf'>BitsWits, the leading <span className='grdiant'>enterprise mobility solutions company</span>, provides data-driven knowledge to help in decision-making.</p>
+                    <p className='font14 fontf'>BitsWits, the leading <span className='grdiant font-bold'>enterprise mobility solutions company</span>, provides data-driven knowledge to help in decision-making.</p>
                 </div>
             </Col>
             <Col lg={3} md={6} className={workStyles.soluCol}>
@@ -119,7 +118,7 @@ export default function enterprisemobilitysolutions() {
                     <h5 className='font20 fontf font-medium line30'>
                         The Monetizers of Mobility
                     </h5>
-                    <p className='font14 fontf'>With the help of our strategic <span className='grdiant'>enterprise mobility solutions</span>, produce more money and improve productivity.</p>
+                    <p className='font14 fontf'>With the help of our strategic <span className='grdiant font-bold'>enterprise mobility solutions</span>, produce more money and improve productivity.</p>
                 </div>
             </Col>
             <Col lg={3} md={6} className={workStyles.soluCol}>
@@ -139,11 +138,11 @@ export default function enterprisemobilitysolutions() {
     // Industry
     const Industries = <>
         <Row className={`${IndusStyle.soluRow} mt-3 text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font30 font-bold'>
-                The Domains and Markets We Serve with Pride
+            <h4 className='text-center font50 font-bold'>
+                The <span className='grdiant'>Domains and Markets</span> We Serve with Pride
             </h4>
             <p>
-                With our <span className='grdiant'>enterprise mobility management services</span>, we proudly serve a variety of sectors. Leading businesses hire us to help them with our <span className='grdiant'>enterprise mobile solutions</span> to prosper in the future.
+                With our <span className='grdiant font-bold'>enterprise mobility management services</span>, we proudly serve a variety of sectors. Leading businesses hire us to help them with our <span className='grdiant font-bold'>enterprise mobile solutions</span> to prosper in the future.
             </p>
             <Col lg={12}>
                 <div className={`${IndusStyle.indusblk}`}>

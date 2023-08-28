@@ -48,7 +48,7 @@ export default function flutterappdeveloment() {
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                The go-to <span className='grdiant'>flutter app developers</span> for popular brands
+                The go-to <span className='grdiant font-bold'>flutter app developers</span> for popular brands
             </li>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
@@ -78,14 +78,14 @@ export default function flutterappdeveloment() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-        Our professional <span className='grdiant'>flutter app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
+        Our professional <span className='grdiant font-bold'>flutter app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
     </p> </>
 
 
     // coverage component data
 
     const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
-        The Flutter Approach at BitsWits: Idea + Excellence = Successful Apps!
+        The <span className='grdiant'>Flutter Approach</span> at BitsWits: Idea + Excellence = Successful Apps!
     </h2>
 
     const expCards = <>
@@ -120,7 +120,7 @@ export default function flutterappdeveloment() {
             </Col>
             <Col lg={7}>
                 <p>
-                    At BitsWits, we blend imagination, skill, and passion to <span className='grdiant'>develop Flutter apps</span> that will definitely help you achieve your business goals. Our <span className='grdiant'>Flutter app developers</span> know how to utilize speed, expressive UI, and native compilation to turn ideas into perfect applications. From writing powerful codes to implementing platform-specific integrations, we swiftly convert visions into stunning pixel-perfect apps.
+                    At BitsWits, we blend imagination, skill, and passion to <span className='grdiant font-bold'>develop Flutter apps</span> that will definitely help you achieve your business goals. Our <span className='grdiant font-bold'>Flutter app developers</span> know how to utilize speed, expressive UI, and native compilation to turn ideas into perfect applications. From writing powerful codes to implementing platform-specific integrations, we swiftly convert visions into stunning pixel-perfect apps.
                 </p>
                 <p>
                     Our diligent approach to development creates Flutter apps that are speed optimized and attractive to the eye. Let us put together the ideal Flutter tech stack for  your masterpiece of an app!
@@ -134,13 +134,13 @@ export default function flutterappdeveloment() {
     // Why Build
 
     const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>
-        Why Does Your Business Require Flutter Applications?
+        Why Does Your Business Require <span className='grdiant'>Flutter Applications</span>?
     </h2>
 
 
     const text =
         <p className='text-center'>
-            <span className='grdiant'>Flutter app development services</span> act like an optimal framework for app development as it allows building high-quality, native-feeling applications for both iOS and Android from a single codebase that saves time and costs.
+            <span className='grdiant font-bold'>Flutter app development services</span> act like an optimal framework for app development as it allows building high-quality, native-feeling applications for both iOS and Android from a single codebase that saves time and costs.
         </p>
 
 
@@ -169,7 +169,7 @@ export default function flutterappdeveloment() {
                         Expressive and Impressive UI
                     </h5>
                     <p>
-                        Flutter widgets and composition models help <span className='grdiant'>Flutter app developers</span> quickly build intuitive and high-quality UI/UX on each platform.
+                        Flutter widgets and composition models help <span className='grdiant font-bold'>Flutter app developers</span> quickly build intuitive and high-quality UI/UX on each platform.
                     </p>
                 </div>
             </Col>
@@ -182,7 +182,7 @@ export default function flutterappdeveloment() {
                         Native Performance
                     </h5>
                     <p>
-                        <span className='grdiant'>Flutter app development agency</span> builds fast-performing apps by compiling directly to native ARM code rather than JavaScript.
+                        <span className='grdiant font-bold'>Flutter app development agency</span> builds fast-performing apps by compiling directly to native ARM code rather than JavaScript.
                     </p>
                 </div>
             </Col>
@@ -195,7 +195,7 @@ export default function flutterappdeveloment() {
                         Cost Savings
                     </h5>
                     <p>
-                        <span className='grdiant'>Flutter app developers</span> use a single codebase that reduces development and maintenance costs. No need for a separate iOS and Android codebase.
+                        <span className='grdiant font-bold'>Flutter app developers</span> use a single codebase that reduces development and maintenance costs. No need for a separate iOS and Android codebase.
                     </p>
                 </div>
             </Col>
@@ -208,7 +208,7 @@ export default function flutterappdeveloment() {
                         Rapid Development
                     </h5>
                     <p>
-                        The hot reload feature allows <span className='grdiant'>Flutter app developers</span> to see code changes reflected immediately without recompiling or accelerating the process.
+                        The hot reload feature allows <span className='grdiant font-bold'>Flutter app developers</span> to see code changes reflected immediately without recompiling or accelerating the process.
                     </p>
 
                 </div>
@@ -248,7 +248,7 @@ export default function flutterappdeveloment() {
                         Trusted by Giants
                     </h5>
                     <p>
-                        Our <span className='grdiant'>Flutter app development services</span> are used by leading global companies like Google, Alibaba, eBay, and more.
+                        Our <span className='grdiant font-bold'>Flutter app development services</span> are used by leading global companies like Google, Alibaba, eBay, and more.
                     </p>
                 </div>
             </Col>
@@ -274,8 +274,8 @@ export default function flutterappdeveloment() {
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2>
-                    The Pros of Hiring Flutter App Developers To Build Your App
+                <h2 className='font50 black fontf font-bold line60 black text-center'>
+                    The Pros of Hiring <span className='grdiant'>Flutter App Developers</span> To Build Your App
                 </h2>
                 <p>
                     Dream it today, deploy it tomorrow - our Flutter development team at BitsWits will build, test, and deploy your app at record speed!
@@ -295,7 +295,7 @@ export default function flutterappdeveloment() {
                                     Proven Track Record
                                 </h4>
                                 <span className='font14'>
-                                    BitsWits, the most reliable <span className='grdiant'>Flutter app development company</span>, has a proven history of successful Flutter app projects that ensures the ability to deliver successful solutions in the scheduled time.
+                                    BitsWits, the most reliable <span className='grdiant font-bold'>Flutter app development company</span>, has a proven history of successful Flutter app projects that ensures the ability to deliver successful solutions in the scheduled time.
                                 </span>
                             </Col>
                         </Row>
@@ -314,7 +314,7 @@ export default function flutterappdeveloment() {
                                     Rapid Growth and Development
                                 </h4>
                                 <span className='font14'>
-                                    The <span className='grdiant'>Flutter app developers</span> at BitsWits, have a reputable team of experts who move quickly with agile processes, collaboration, and modern development workflows.
+                                    The <span className='grdiant font-bold'>Flutter app developers</span> at BitsWits, have a reputable team of experts who move quickly with agile processes, collaboration, and modern development workflows.
                                 </span>
                             </Col>
                         </Row>
@@ -333,7 +333,7 @@ export default function flutterappdeveloment() {
                                     Support and Maintenance
                                 </h4>
                                 <span className='font14'>
-                                    BitsWits, a leading <span className='grdiant'>Flutter app development company</span>, knows the importance of ongoing support, maintenance, and improvements. With our assistance, your applications will stay up-to-date and bug-free.
+                                    BitsWits, a leading <span className='grdiant font-bold'>Flutter app development company</span>, knows the importance of ongoing support, maintenance, and improvements. With our assistance, your applications will stay up-to-date and bug-free.
                                 </span>
                             </Col>
                         </Row>
@@ -352,7 +352,7 @@ export default function flutterappdeveloment() {
                                     Risk Reduction and Data Protection
                                 </h4>
                                 <span className='font14'>
-                                    Hiring an experienced <span className='grdiant'>Flutter app development company</span> reduces the risks of projects catching bugs and optimizing stability to ensure a smooth user experience.
+                                    Hiring an experienced <span className='grdiant font-bold'>Flutter app development company</span> reduces the risks of projects catching bugs and optimizing stability to ensure a smooth user experience.
                                 </span>
                             </Col>
                         </Row>
@@ -371,11 +371,11 @@ export default function flutterappdeveloment() {
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font40'>
-                    Our Proven <span className='font-bold'>Flutter App Development</span> Process from Idea to App Store!
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    Our Proven <span className='grdiant'>Flutter App Development</span> Process from Idea to App Store!
                 </h4>
                 <p>
-                    Our <span className='font-bold'>Flutter app development services</span> and process is designed for efficiency, overcoming obstacles, and creating a vision.
+                    Our <span className='grdiant font-bold'>Flutter app development services</span> and process is designed for efficiency, overcoming obstacles, and creating a vision.
                 </p>
             </Col>
         </Row>

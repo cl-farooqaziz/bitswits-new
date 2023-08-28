@@ -39,7 +39,7 @@ export default function crossplateformappdev() {
 
     // banner component data
     const heading = <h1 className='font65 black fontf font-bold line60'>
-        <span className='grdiant'>Cross-Platform App Development Company</span>
+        <span className='grdiant'>Cross-Platform App</span> Development Company
     </h1>
 
     const para = <>
@@ -69,13 +69,13 @@ export default function crossplateformappdev() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-        Don't Wait, Innovate! Contact us now and hire the best <strong>cross-platform app developers</strong> in the US.
+        Don't Wait, Innovate! Contact us now and hire the best <span className='grdiant'><strong>cross-platform app developers</strong></span> in the US.
     </p> </>
 
     // coverage component data
 
     const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
-        Our Approach for Mobile App Development
+        Our Approach for <span className='grdiant'>Mobile App</span> Development
     </h2>
 
     const expCards = <>
@@ -109,7 +109,7 @@ export default function crossplateformappdev() {
 
             </Col>
             <Col lg={7}>
-                <p>Our <strong>cross-platform app developers</strong> utilize frameworks like React Native and Flutter to build once and deploy everywhere. BitsWits focus on designing interactive user interfaces and frameworks that ensure consistency across iOS, Android, the web, and upcoming platforms.
+                <p>Our <span className='grdiant'><strong>cross-platform app developers</strong></span> utilize frameworks like React Native and Flutter to build once and deploy everywhere. BitsWits focus on designing interactive user interfaces and frameworks that ensure consistency across iOS, Android, the web, and upcoming platforms.
                 </p>
                 <p>Our team creates unified experiences that smoothly switch between smartphones, tablets, browsers, wearables, and more due to our expertise in platform-agnostic coding. We guarantee high-quality experiences on all devices through thorough testing. Our progressive approach enables your software to cross-platform boundaries and connect with people everywhere. Let us build your application that can run on multiple gadgets.</p>
             </Col>
@@ -125,7 +125,7 @@ export default function crossplateformappdev() {
 
     const text =
         <p className='text-center'>
-            <span className='grdiant'>Cross-platform app development services</span> at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience.
+            <span className='grdiant'><strong>Cross-platform app development services</strong></span> at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience.
         </p>
 
 
@@ -141,7 +141,7 @@ export default function crossplateformappdev() {
                         Reaching More Users
                     </h5>
                     <p>
-                        <span className='grdiant'>Cross-platform apps</span> work across iOS, Android, web, and other platforms to access a global target market.
+                        <span className='grdiant'><strong>Cross-platform apps</strong></span> work across iOS, Android, web, and other platforms to access a global target market.
                     </p>
                 </div>
             </Col>
@@ -154,7 +154,7 @@ export default function crossplateformappdev() {
                         Sleek and Smooth Development
                     </h5>
                     <p>
-                        <span className='grdiant'>Cross-platform app developers</span> build multiple platforms from one codebase, which reduces development time, resources, and costs.
+                        <span className='grdiant'><strong>Cross-platform app developers</strong></span> build multiple platforms from one codebase, which reduces development time, resources, and costs.
                     </p>
                 </div>
             </Col>
@@ -180,7 +180,7 @@ export default function crossplateformappdev() {
                         Simplified and Easy Maintenance
                     </h5>
                     <p>
-                        Our <span className='grdiant'>cross-platform app developers improve</span> updates and bug fixes with a shared codebase issued simultaneously across platforms.
+                        Our <span className='grdiant'><strong>cross-platform app developers improve</strong></span> updates and bug fixes with a shared codebase issued simultaneously across platforms.
                     </p>
                 </div>
             </Col>
@@ -207,7 +207,7 @@ export default function crossplateformappdev() {
                         Improved Engagement
                     </h5>
                     <p>
-                        At BitsWits, professional <span className='grdiant'>cross-platform app developers</span> focus on smooth customer engagement and experience.
+                        At BitsWits, professional <span className='grdiant'><strong>cross-platform app developers</strong></span> focus on smooth customer engagement and experience.
                     </p>
                 </div>
             </Col>
@@ -233,7 +233,7 @@ export default function crossplateformappdev() {
                         Flexibility in Internal Skill Sets
                     </h5>
                     <p>
-                        BitsWits is one of the many <span className='grdiant'>cross-platform app development company</span> that helps in effective resource allocation.
+                        BitsWits is one of the many <span className='grdiant'><strong>cross-platform app development company</strong></span> that helps in effective resource allocation.
                     </p>
                 </div>
             </Col>
@@ -246,7 +246,7 @@ export default function crossplateformappdev() {
                         Native Device Capabilities
                     </h5>
                     <p>
-                        Our <span className='grdiant'>cross-platform app developers</span> unify cross-platform access to native device features, including the camera, GPS, and notification alerts.
+                        Our <span className='grdiant'><strong>cross-platform app developers</strong></span> unify cross-platform access to native device features, including the camera, GPS, and notification alerts.
                     </p>
 
                 </div>
@@ -259,10 +259,10 @@ export default function crossplateformappdev() {
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2>
-                    Go Big Without Going Broke with the Best Cross-Platform App Development Company
+                <h2 className='font50 black fontf font-bold line60 black text-center'>
+                    Go Big Without Going Broke with the Best <span className='grdiant'>Cross-Platform App</span> Development Company
                 </h2>
-                <p>The talented and professional <span className='grdiant'>cross-platform app developers</span> at BitsWits will help you reach all your business goals and objectives.</p>
+                <p>The talented and professional <span className='grdiant'><strong>cross-platform app developers</strong></span> at BitsWits will help you reach all your business goals and objectives.</p>
             </Col>
         </Row>
         <Row className='benefitscard'>
@@ -276,7 +276,7 @@ export default function crossplateformappdev() {
                             <Col lg={7}>
                                 <h4 className='font20 font-bold'>Build Once Conquer Everywhere</h4>
                                 <span className='font14'>
-                                    Utilize the knowledge of our <span className='grdiant'>cross-platform app developers</span> to create adaptable codebases that deliver simplified, high-quality experiences on iOS, Android, and other platforms.
+                                    Utilize the knowledge of our <span className='grdiant'><strong>cross-platform app developers</strong></span> to create adaptable codebases that deliver simplified, high-quality experiences on iOS, Android, and other platforms.
                                 </span>
                             </Col>
                         </Row>
@@ -292,7 +292,7 @@ export default function crossplateformappdev() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 font-bold'>Cross-Device Superheroes</h4>
-                                <span className='font14'> Our <span className='grdiant'>cross-platform app developers</span> build powerful initiatives that easily jump across platforms due to solid cross-platform designs and strict multi-platform testing procedures.
+                                <span className='font14'> Our <span className='grdiant'><strong>cross-platform app developers</strong></span> build powerful initiatives that easily jump across platforms due to solid cross-platform designs and strict multi-platform testing procedures.
                                 </span>
                             </Col>
                         </Row>
@@ -326,7 +326,7 @@ export default function crossplateformappdev() {
                             <Col lg={7}>
                                 <h4 className='font20 font-bold'>The Masters of Multi-Platform</h4>
                                 <span className='font14'>
-                                    Our skilled <span className='grdiant'>cross-platform app developers</span> use a single codebase to create, test, and deploy high-performing apps across platforms, saving you time and money.
+                                    Our skilled <span className='grdiant'><strong>cross-platform app developers</strong></span> use a single codebase to create, test, and deploy high-performing apps across platforms, saving you time and money.
                                 </span>
                             </Col>
                         </Row>
@@ -335,7 +335,7 @@ export default function crossplateformappdev() {
             </Col>
         </Row>
         <p className='text-center'>
-            Our qualified <span className='grdiant'>cross-platform app developers</span> can help you achieve your app ideas by offering the best <span className='grdiant'>cross-platform app development services</span>.
+            Our qualified <span className='grdiant'><strong>cross-platform app developers</strong></span> can help you achieve your app ideas by offering the best <span className='grdiant'><strong>cross-platform app development services</strong></span>.
         </p>
     </>
 
@@ -344,8 +344,8 @@ export default function crossplateformappdev() {
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font40'>One Codebase to Conquer Them All – Our Cross-Platform Process!</h4>
-                <p>Our <span className='grdiant'>cross-platform app development services</span> and process is designed for efficiency, overcoming obstacles, and creating a vision.</p>
+                <h4 className='font50 black fontf font-bold line60 black text-center'>One Codebase to Conquer Them All – Our <span className='grdiant'>Cross-Platform</span> Process!</h4>
+                <p>Our <span className='grdiant'><strong>cross-platform app development services</strong></span> and process is designed for efficiency, overcoming obstacles, and creating a vision.</p>
             </Col>
         </Row>
         <Row>

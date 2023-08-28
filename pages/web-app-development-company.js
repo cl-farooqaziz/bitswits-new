@@ -40,7 +40,7 @@ export default function webappdevelopment() {
 
     // banner component data
     const heading = <h1 className='font65 black fontf font-bold line60'>
-        Innovate, Create, Succeed: Hire Top Web App Development Company in US
+        Innovate, Create, Succeed: Hire Top <span className='grdiant'>Web App Development Company</span> in US
     </h1>
 
     const para = <>
@@ -115,10 +115,10 @@ export default function webappdevelopment() {
             </Col>
             <Col lg={7}>
                 <p>
-                    Are you tired of web pages that seem captivating in terms of look but don’t convert as many users as you wish for? Well, don’t worry anymore because <span className='grdiant'>web app developers</span> at BitsWits, go beyond the surface, creating perfect custom-built web applications that will make your business succeed from the inside out.
+                    Are you tired of web pages that seem captivating in terms of look but don’t convert as many users as you wish for? Well, don’t worry anymore because <span className='grdiant font-bold'>web app developers</span> at BitsWits, go beyond the surface, creating perfect custom-built web applications that will make your business succeed from the inside out.
                 </p>
                 <p>
-                    Our progressive approach includes building slick interfaces backed up by bug-free code, lightning-fast performance, and smooth scalability. Our <span className='grdiant'>web app developers</span> not only build apps but create digital solutions that assist you to connect, engage, and convert your customers. Don’t settle for an average app but let our creative approach help your app reach the destination you aim for.
+                    Our progressive approach includes building slick interfaces backed up by bug-free code, lightning-fast performance, and smooth scalability. Our <span className='grdiant font-bold'>web app developers</span> not only build apps but create digital solutions that assist you to connect, engage, and convert your customers. Don’t settle for an average app but let our creative approach help your app reach the destination you aim for.
                 </p>
             </Col>
         </Row>
@@ -128,12 +128,12 @@ export default function webappdevelopment() {
     // Why Build
 
     const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>
-        Work Smarter and Convert Faster with Web Apps at BitsWits!
+        Work Smarter and Convert Faster with <span className='grdiant'>Web Apps</span> at BitsWits!
     </h2>
 
     const text =
         <p className='text-center'>
-            <span className='grdiant'>Web app development services</span> at BitsWits, allows you to build better and faster web applications globally.
+            <span className='grdiant font-bold'>Web app development services</span> at BitsWits, allows you to build better and faster web applications globally.
         </p>
 
 
@@ -188,7 +188,7 @@ export default function webappdevelopment() {
                         A Boost in Productivity
                     </h5>
                     <p>
-                        <span className='grdiant'>Web app developers</span> at BitsWits create apps that allow users to access information faster and more efficiently.
+                        <span className='grdiant font-bold'>Web app developers</span> at BitsWits create apps that allow users to access information faster and more efficiently.
                     </p>
                 </div>
             </Col>
@@ -241,7 +241,7 @@ export default function webappdevelopment() {
                         Extensive Reach Worldwide
                     </h5>
                     <p>
-                        Our <span className='grdiant'>web app developers</span> extend your brand’s reach to the international market and industry.
+                        Our <span className='grdiant font-bold'>web app developers</span> extend your brand’s reach to the international market and industry.
                     </p>
                 </div>
             </Col>
@@ -267,8 +267,8 @@ export default function webappdevelopment() {
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2>
-                    Benefits Of Hiring A Leading Web App Development Company
+                <h2 className='font50 black fontf font-bold line60 black text-center'>
+                    Benefits Of Hiring A Leading <span className='grdiant'>Web App Development Company</span>
                 </h2>
                 <p>
                     Hiring a web app development company brings fresh perspectives and expertise to your project, accelerating innovation and ensuring your web app stays ahead of the competition.
@@ -288,7 +288,7 @@ export default function webappdevelopment() {
                                     Efficiency in Action
                                 </h4>
                                 <span className='font14'>
-                                    Our skilled <span className='grdiant'>web app developers</span> rapidly design, develop, test, and launch web apps, delivering right on schedule with faster ROI.
+                                    Our skilled <span className='grdiant font-bold'>web app developers</span> rapidly design, develop, test, and launch web apps, delivering right on schedule with faster ROI.
                                 </span>
                             </Col>
                         </Row>
@@ -307,7 +307,7 @@ export default function webappdevelopment() {
                                     Master in Utilizing Tech
                                 </h4>
                                 <span className='font14'>
-                                    Professional <span className='grdiant'>web app developers</span> at BitsWits utilize modern tech and tools to build secure and reliable apps. We stay on top of technologies like React, Angular, Node.js, MongoDB, and much more to deliver excellence.
+                                    Professional <span className='grdiant font-bold'>web app developers</span> at BitsWits utilize modern tech and tools to build secure and reliable apps. We stay on top of technologies like React, Angular, Node.js, MongoDB, and much more to deliver excellence.
                                 </span>
                             </Col>
                         </Row>
@@ -345,7 +345,7 @@ export default function webappdevelopment() {
                                     Customer Champions
                                 </h4>
                                 <span className='font14'>
-                                    Understanding users is kept a priority. Our <span className='grdiant'>web app developers</span> deliver perfect and engaging UI/UX designs that develop trust and win the hearts of our customers.
+                                    Understanding users is kept a priority. Our <span className='grdiant font-bold'>web app developers</span> deliver perfect and engaging UI/UX designs that develop trust and win the hearts of our customers.
                                 </span>
                             </Col>
                         </Row>
@@ -364,11 +364,11 @@ export default function webappdevelopment() {
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font40'>
-                    Our Web App Development Blueprint
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    Our <span className='grdiant'>Web App Development</span> Blueprint
                 </h4>
                 <p>
-                    Our <span className='grdiant'>web app development company</span> develops web applications that are designed to be efficient. Here’s an overview of how we build a web app that boosts engagement, conversion rate and ultimately brings in more revenue.
+                    Our <span className='grdiant font-bold'>web app development company</span> develops web applications that are designed to be efficient. Here’s an overview of how we build a web app that boosts engagement, conversion rate and ultimately brings in more revenue.
                 </p>
             </Col>
         </Row>

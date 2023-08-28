@@ -90,7 +90,7 @@ export default function reactappdeveloment() {
     </>
 
     const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-        Our professional <span className='grdiant'> React Native app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
+        Our professional <span className='grdiant font-bold'> React Native app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
     </p> </>
 
 
@@ -149,7 +149,7 @@ export default function reactappdeveloment() {
 
     const text =
         <p className='text-center'>
-            <span className='grdiant'>React Native app development services</span> provide substantial savings in terms of development time, effort, and cost and enable the building of high-quality Android and iOS apps.
+            <span className='grdiant font-bold'>React Native app development services</span> provide substantial savings in terms of development time, effort, and cost and enable the building of high-quality Android and iOS apps.
         </p>
 
 
@@ -244,7 +244,7 @@ export default function reactappdeveloment() {
                         Familiar Tools
                     </h5>
                     <p>
-                        <span className='grdiant'>React native app developers</span> build apps utilizing well-known React pattern libraries and common native technologies like Xcode, Android Studio, etc.
+                        <span className='grdiant font-bold'>React native app developers</span> build apps utilizing well-known React pattern libraries and common native technologies like Xcode, Android Studio, etc.
                     </p>
                 </div>
             </Col>
@@ -283,11 +283,11 @@ export default function reactappdeveloment() {
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2>
+                <h2 className='font50 black fontf font-bold line60 black text-center'>
                     The Benefits to Jumpstart Your Journey with <span className='grdiant'>React Native App Development Company</span>
                 </h2>
                 <p>
-                    The professional <span className='grdiant'>Reactive Native app developers</span> at BitsWits will fulfill all your goals and demands on schedule.
+                    The professional <span className='grdiant font-bold'>Reactive Native app developers</span> at BitsWits will fulfill all your goals and demands on schedule.
                 </p>
             </Col>
         </Row>
@@ -304,7 +304,7 @@ export default function reactappdeveloment() {
                                     Experience and Expertise
                                 </h4>
                                 <span className='font14'>
-                                    Our <span className='grdiant'>React native app developers</span> provide the best-quality services as per their expertise and experience, which ensures excellence in all aspects of your application.
+                                    Our <span className='grdiant font-bold'>React native app developers</span> provide the best-quality services as per their expertise and experience, which ensures excellence in all aspects of your application.
                                 </span>
                             </Col>
                         </Row>
@@ -323,7 +323,7 @@ export default function reactappdeveloment() {
                                     Proven Track Record
                                 </h4>
                                 <span className='font14'>
-                                    <span className='grdiant'>React Native app developers</span> at BitsWits have successfully delivered complicated projects for satisfied clients across multiple industries, which portrays their capabilities and abilities.
+                                    <span className='grdiant font-bold'>React Native app developers</span> at BitsWits have successfully delivered complicated projects for satisfied clients across multiple industries, which portrays their capabilities and abilities.
                                 </span>
                             </Col>
                         </Row>
@@ -342,7 +342,7 @@ export default function reactappdeveloment() {
                                     Swift Speed
                                 </h4>
                                 <span className='font14'>
-                                    For quick prototypes and prompt delivery, our <span className='grdiant'>React native app developers</span> efficiently utilize React Native development features. Now is the time to say <strong><i>NO</i></strong> to all the slower and older applications.
+                                    For quick prototypes and prompt delivery, our <span className='grdiant font-bold'>React native app developers</span> efficiently utilize React Native development features. Now is the time to say <strong><i>NO</i></strong> to all the slower and older applications.
                                 </span>
                             </Col>
                         </Row>
@@ -370,7 +370,7 @@ export default function reactappdeveloment() {
             </Col>
         </Row>
         <p className='text-center'>
-            Our professional <span className='grdiant'>native app developers</span> have the expertise to put a spark in your app ideas by providing the best <span className='grdiant'>react native app development services</span>.
+            Our professional <span className='grdiant font-bold'>native app developers</span> have the expertise to put a spark in your app ideas by providing the best <span className='grdiant font-bold'>react native app development services</span>.
         </p>
     </>
 
@@ -380,11 +380,11 @@ export default function reactappdeveloment() {
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font40'>
-                    The Mobile App Development Process at BitsWits!
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    The <span className='grdiant'>Mobile App Development</span> Process at BitsWits!
                 </h4>
                 <p>
-                    The <span className='grdiant'>React native app development</span> process at BitsWits is designed to be innovative, efficient, and transparent. <span className='grdiant'>React native app development services</span> offer you the following:
+                    The <span className='grdiant font-bold'>React native app development</span> process at BitsWits is designed to be innovative, efficient, and transparent. <span className='grdiant font-bold'>React native app development services</span> offer you the following:
                 </p>
             </Col>
         </Row>
@@ -396,7 +396,7 @@ export default function reactappdeveloment() {
                         Initial Consultation
                     </h4>
                     <p>
-                        Our <span className='grdiant'>React native app developers</span> begin with understanding your project goals, technical needs, and limitations you have in mind for your app. Feasibility is assessed here.
+                        Our <span className='grdiant font-bold'>React native app developers</span> begin with understanding your project goals, technical needs, and limitations you have in mind for your app. Feasibility is assessed here.
                     </p>
                 </div>
                 <div className='pb-3'>
@@ -441,7 +441,7 @@ export default function reactappdeveloment() {
                         Launch and Deployment
                     </h4>
                     <p>
-                        <span className='grdiant'>React native app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience.
+                        <span className='grdiant font-bold'>React native app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience.
                     </p>
                 </div>
             </Col>
