@@ -23,68 +23,68 @@ const Choose = () => {
                 <Container>
                     <Row>
                         <Col xl={12} className='mb-5'>
-                            <h2 className='font30 font-bold center'>Choose Us Because</h2>
-                            <p className='font16 center'>We’re efficiently effective!</p>
+                            <h2 className='font50 font-bold center black'>Choose Us <span className='grdiant'>Because</span> </h2>
+                            <p className='font18 font-bold center black'>We’re efficiently effective!</p>
                         </Col>
                     </Row>
                     <Row className='gy-5'>
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight1} />
-                                <h3 className='font16'>21+ years experience in the industry</h3>
+                                <h3 className='font16 black'>21+ years experience in the industry</h3>
                             </div>
                         </Col>
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight2}  />
-                                <h3 className='font16'>Streamlined Communication System</h3>
+                                <h3 className='font16 black'>Streamlined Communication System</h3>
                             </div>
                         </Col>
                        
                         <Col xl={4}>
                             <div className={styles.help}>
                                 <Image src={insight3} />
-                                <h3 className='font16'>Proven Methodologies</h3>
+                                <h3 className='font16 black'>Proven Methodologies</h3>
                             </div>
                         </Col>
                         <hr></hr>
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight4} />
-                                <h3 className='font16'>Competitive Pricing</h3>
+                                <h3 className='font16 black'>Competitive Pricing</h3>
                             </div>
                         </Col>
                      
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight5} />
-                                <h3 className='font16'>Comprehensive Reporting</h3>
+                                <h3 className='font16 black'>Comprehensive Reporting</h3>
                             </div>
                         </Col>
                         <Col xl={4}>
                             <div className={styles.help}>
                                 <Image src={insight6} />
-                                <h3 className='font16'>Best-in-industry quotations</h3>
+                                <h3 className='font16 black'>Best-in-industry quotations</h3>
                             </div>
                         </Col>
                         <hr></hr>
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight4} />
-                                <h3 className='font16'>Hire from a pool of highly Proficient SEO Experts</h3>
+                                <h3 className='font16 black'>Hire from a pool of highly Proficient SEO Experts</h3>
                             </div>
                         </Col>
                      
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight5} />
-                                <h3 className='font16'>Free Website Analysis</h3>
+                                <h3 className='font16 black'>Free Website Analysis</h3>
                             </div>
                         </Col>
                         <Col xl={4}>
                             <div className={styles.help}>
                                 <Image src={insight6} />
-                                <h3 className='font16'>White Hat SEO & Quality Backlinks</h3>
+                                <h3 className='font16 black'>White Hat SEO & Quality Backlinks</h3>
                             </div>
                         </Col>
 
@@ -93,20 +93,20 @@ const Choose = () => {
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight4} />
-                                <h3 className='font16'>Improved Rankings & Traffic</h3>
+                                <h3 className='font16 black'>Improved Rankings & Traffic</h3>
                             </div>
                         </Col>
                      
                         <Col xl={4} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight5} />
-                                <h3 className='font16'>Branding & Reputation Management</h3>
+                                <h3 className='font16 black'>Branding & Reputation Management</h3>
                             </div>
                         </Col>
                         <Col xl={4}>
                             <div className={styles.help}>
                                 <Image src={insight6} />
-                                <h3 className='font16'>Incresed ROI & Sales Volume</h3>
+                                <h3 className='font16 black'>Incresed ROI & Sales Volume</h3>
                             </div>
                         </Col>
                     </Row>

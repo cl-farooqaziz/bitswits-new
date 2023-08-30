@@ -170,7 +170,7 @@ export default function keywordresearch() {
 
     // Build component data
 
-    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>Our Metrics To Boost Your Keywords</h2>
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>Our Metrics To <span className='grdiant'>Boost Your Keywords</span> </h2>
 
 
 

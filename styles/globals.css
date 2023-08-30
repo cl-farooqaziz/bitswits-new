@@ -339,8 +339,8 @@ a {
 }
 
 .faqsblog .accordion-button {
-  background: #05b0b8 none repeat scroll 0 0;
-  color: #fff;
+  border:1px solid black;
+  color: black;
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -358,8 +358,9 @@ a {
 }
 
 .faqsblog .accordion-button:not(.collapsed) {
-  background: #05b0b8 none repeat scroll 0 0;
-  color: #fff;
+  border:1px solid black;
+  color: black;
+  background-color: unset;
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -367,6 +368,11 @@ a {
   padding: 15px 40px 15px 15px;
   position: relative;
   text-transform: uppercase;
+  border-radius: 0px;
+}
+
+.faqsblog .accordion-item:first-of-type .accordion-button {
+  border-radius: 0px;
 }
 
 .faqsblog .accordion-item {
@@ -1118,7 +1124,7 @@ input::-webkit-inner-spin-button {
   }
 
   .faqsblog .accordion-body {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 

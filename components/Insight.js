@@ -23,46 +23,46 @@ const Insight = () => {
                 <Container>
                     <Row>
                         <Col xl={12} className='mb-5'>
-                            <h2 className='font30 font-bold center'>An Insight Into What We Offer</h2>
+                            <h2 className='font50 black font-bold center'>An Insight Into <span className='grdiant'>What We Offer</span> </h2>
                         </Col>
                     </Row>
                     <Row className='gy-4'>
                         <Col xl={6} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight1} />
-                                <h3 className='font20'>Fully Google compliant natural search engine marketing & optimisation (SEO)</h3>
+                                <h3 className='font16 black'>Fully Google compliant natural search engine marketing & optimisation (SEO)</h3>
                             </div>
                         </Col>
                         <Col xl={6}>
                             <div className={styles.help}>
                                 <Image src={insight2}  />
-                                <h3 className='font20'>Professional pay per click agency and management services & reporting</h3>
+                                <h3 className='font16 black'>Professional pay per click agency and management services & reporting</h3>
                             </div>
                         </Col>
                         <hr></hr>
                         <Col xl={6} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight3} />
-                                <h3 className='font20'>Conversion optimisation to help increase website conversions & engagement</h3>
+                                <h3 className='font16 black'>Conversion optimisation to help increase website conversions & engagement</h3>
                             </div>
                         </Col>
                         <Col xl={6}>
                             <div className={styles.help}>
                                 <Image src={insight4} />
-                                <h3 className='font20'>Responsive website design & development in line with Google recommendations</h3>
+                                <h3 className='font16 black'>Responsive website design & development in line with Google recommendations</h3>
                             </div>
                         </Col>
                         <hr></hr>
                         <Col xl={6} className={styles.into}>
                             <div className={styles.help}>
                                 <Image src={insight5} />
-                                <h3 className='font20'>Effective social media marketing and visitor targeting</h3>
+                                <h3 className='font16 black'>Effective social media marketing and visitor targeting</h3>
                             </div>
                         </Col>
                         <Col xl={6}>
                             <div className={styles.help}>
                                 <Image src={insight6} />
-                                <h3 className='font20'>Local, National and International Search engine optimization</h3>
+                                <h3 className='font16 black'>Local, National and International Search engine optimization</h3>
                             </div>
                         </Col>
                     </Row>
