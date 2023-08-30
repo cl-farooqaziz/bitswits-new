@@ -505,6 +505,7 @@ export default function reactappdeveloment() {
 
             <WhyBuild
                 cards={Benefits}
+                alignclass="midBuild"
                 expo='expo'
             />
 

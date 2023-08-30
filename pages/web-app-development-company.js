@@ -455,7 +455,7 @@ export default function webappdevelopment() {
             </Col>
         </Row>
     </>
-    
+
 
     return (
         <>
@@ -488,6 +488,7 @@ export default function webappdevelopment() {
 
             <WhyBuild
                 cards={Benefits}
+                alignclass="midBuild"
             />
 
             <WhyBuild

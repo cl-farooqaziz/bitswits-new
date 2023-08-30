@@ -491,6 +491,7 @@ export default function mobileappdevelopment() {
 
             <WhyBuild
                 cards={Benefits}
+                alignclass="midBuild"
             />
 
             <WhyBuild

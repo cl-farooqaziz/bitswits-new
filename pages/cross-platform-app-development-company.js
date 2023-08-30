@@ -465,6 +465,7 @@ export default function crossplateformappdev() {
 
             <WhyBuild
                 cards={Benefits}
+                alignclass="midBuild"
             />
 
 

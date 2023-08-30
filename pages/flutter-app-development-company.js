@@ -495,6 +495,7 @@ export default function flutterappdeveloment() {
 
             <WhyBuild
                 cards={Benefits}
+                alignclass="midBuild"
             />
 
             <WhyBuild

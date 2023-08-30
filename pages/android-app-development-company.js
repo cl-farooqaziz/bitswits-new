@@ -477,7 +477,9 @@ export default function androidappdeveloment() {
 
             <WhyBuild
                 cards={Benefits}
+                alignclass="midBuild"
             />
+            
             <WhyBuild
                 cards={Benefits1}
             />
