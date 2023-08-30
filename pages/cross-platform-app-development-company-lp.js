@@ -164,7 +164,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Homebanner
                 subtitle='Create the Future with Our'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Cross Platform </span> Development Company!</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Cross Platform </span> Development Company!</h1></>}
 
                 text={<> With our cross-platform app development services, you can easily create apps that are compatible across multiple platforms. No more worrying about developing an app for every operating system; now you can develop and deploy one single app for both Android and iOS! </>}
                 text2={<> Harness the power of mobile app cross platform development with BitsWits now! </>}

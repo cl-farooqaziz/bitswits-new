@@ -178,7 +178,7 @@ export default function mobileappdesigncompanylp() {
 
             <Homebanner
                 subtitle='Unlock the Power of Good'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>  <span className='grdiant'> UI/UX Designs</span> With Us</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>  <span className='grdiant'> UI/UX Designs</span> With Us</h1></>}
 
                 text={<> <b>Android App Development Isn't Just Our Job – It's Our Passion.</b>
                 </>}

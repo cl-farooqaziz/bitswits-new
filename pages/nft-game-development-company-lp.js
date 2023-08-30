@@ -306,7 +306,7 @@ export default function nftgamedevelopmentcompanylp() {
 
 
             <Homebanner
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   World-Class Provider Of <span className='grdiant'> NFT Game Development</span> Solutions!</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   World-Class Provider Of <span className='grdiant'> NFT Game Development</span> Solutions!</h1></>}
                 text={<> BitsWits specializes in creating NFT games using smart contracts on Ethereum, EOS, Tron, and Cardano. Our team spends countless hours crafting unique storylines, artwork, and game mechanics that bring the world of NFTs to life. With our games, players can earn rewards while they explore our virtual worlds, battle opponents, or trade rare collectibles. Whether you're looking for an intense battle, a peaceful adventure, or a friendly competition, BitsWits has something for everyone! Join us and become part of the exciting new world of NFTs gaming. </>}
                 btn1='Consult A Gaming Expert To Begin'
             />

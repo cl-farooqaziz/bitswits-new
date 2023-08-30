@@ -357,7 +357,7 @@ export default function gameappdevelopmentcompanylp() {
 
             <Homebanner
                 subtitle='AWARDED #1 GAME APP DEVELOPMENT COMPANY'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'> Experience The <span className='grdiant'>Roller Coaster Of The Gaming World</span> With Us!  </h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'> Experience The <span className='grdiant'>Roller Coaster Of The Gaming World</span> With Us!  </h1></>}
 
             />
 

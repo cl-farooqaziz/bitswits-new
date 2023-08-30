@@ -161,7 +161,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Homebanner
                 subtitle='One-Stop Shop For'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Flutter App Development</span>  Company In USA</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Flutter App Development</span>  Company In USA</h1></>}
                 text={<> BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps. Whether you want to develop an iOS or Android app, we have the skills and know-how to make it happen. Our developers have a thorough understanding of the Flutter SDK and its components, so you can rest assured that whatever app we develop for you will be built with the utmost care and precision! </>}
             />
 

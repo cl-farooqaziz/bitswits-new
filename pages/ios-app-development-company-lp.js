@@ -170,7 +170,7 @@ export default function iosappdevelopmentcompanylp() {
 
             <Homebanner
                 subtitle='Reimagine Possibilities With'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'> Our   <span className='grdiant'> iOS App</span>  Development Company</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'> Our   <span className='grdiant'> iOS App</span>  Development Company</h1></>}
                 text='Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.'
             />
 
