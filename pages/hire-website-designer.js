@@ -320,7 +320,7 @@ export default function hirewebsitedesigner() {
 
                     Flyer & Brochure Designing
                     </h5>
-                    <p>The graphic designers at Team In India carefully design the flyers and brochures for your business – keeping the designs creative and fabulous.</p>
+                    <p>The graphic designers at BitsWits carefully design the flyers and brochures for your business – keeping the designs creative and fabulous.</p>
 
                 </div>
             </Col>
@@ -345,7 +345,7 @@ export default function hirewebsitedesigner() {
                     <h5 className='font20 fontf font-medium line30'>
                     Infographic Design
                     </h5>
-                    <p>Infographics are informative images and their design makes the first impact on the viewers mind – at Team In India the designers have got the experience to make beautiful infographics.</p>
+                    <p>Infographics are informative images and their design makes the first impact on the viewers mind – at BitsWits the designers have got the experience to make beautiful infographics.</p>
 
                 </div>
             </Col>
@@ -358,7 +358,7 @@ export default function hirewebsitedesigner() {
 
                     Email Template Designing
                     </h5>
-                    <p>E-mail templates designed by the designers at Team In India have the power to appeal to you as well your customers at one go.</p>
+                    <p>E-mail templates designed by the designers at BitsWits have the power to appeal to you as well your customers at one go.</p>
 
                 </div>
             </Col>
@@ -383,7 +383,7 @@ export default function hirewebsitedesigner() {
                     <h5 className='font20 fontf font-medium line30'>
                     Wireframes Designing
                     </h5>
-                    <p>Wireframe, or the blueprint of the website is created for the purpose of arranging elements to best accomplish a particular goal, and we at Team In India do the job of wireframe designing for you.</p>
+                    <p>Wireframe, or the blueprint of the website is created for the purpose of arranging elements to best accomplish a particular goal, and we at BitsWits do the job of wireframe designing for you.</p>
 
                 </div>
             </Col>

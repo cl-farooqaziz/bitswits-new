@@ -130,7 +130,7 @@ export default function hireRubyDeveloper() {
                     </div>
                     <h5 className="font20 fontf font-bold line30">Custom Web Application Development</h5>
                     <p>
-                        Get high quality custom ROR web and application development services delivered with utmost timeliness by our team of experts at Team In India.
+                        Get high quality custom ROR web and application development services delivered with utmost timeliness by our team of experts at BitsWits.
                     </p>
                 </div>
             </Col>
@@ -219,7 +219,7 @@ export default function hireRubyDeveloper() {
                         BUSINESS APPS
                     </h5>
                     <p>
-                        Team In India uses Rails to deliver smart and cost-efficient web solutions that reorganize, integrate and automate your diverse business processes across the company, no matter its size.
+                        BitsWits uses Rails to deliver smart and cost-efficient web solutions that reorganize, integrate and automate your diverse business processes across the company, no matter its size.
                     </p>
                 </div>
             </Col>

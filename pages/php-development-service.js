@@ -683,7 +683,7 @@ export default function phpdevelopment() {
                     <div className={servStyles.left}>
                         <h2 className='font30 black fontf font-bold line30 black mb-4'>Our <span className='grdiant'>PHP Development</span> Services</h2>
                         <p className='black font14 fontf font-medium'>
-                            At Team in India, we pride ourselves on delivering top-quality PHP development services to our clients. Our team of experienced developers has a track record of creating custom web applications, professional websites, and integrations with third-party APIs that meet the unique needs of each business. From start to finish, we are dedicated to providing excellent customer service and delivering results that exceed expectations.
+                            At BitsWits, we pride ourselves on delivering top-quality PHP development services to our clients. Our team of experienced developers has a track record of creating custom web applications, professional websites, and integrations with third-party APIs that meet the unique needs of each business. From start to finish, we are dedicated to providing excellent customer service and delivering results that exceed expectations.
                         </p>
                     </div>
                 </Col>

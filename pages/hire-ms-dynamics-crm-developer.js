@@ -298,7 +298,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <h5 className='font20 fontf font-medium line30'>
                     Integration with SharePoint
                     </h5>
-                    <p>Team In India is an expert in implementing server-to-server integration of SharePoint. With our experience in customizing the SharePoint website via CAML, and retrieving the SharePoint data into Microsoft Dynamics CRM , We provide clients with seamless integration.</p>
+                    <p>BitsWits is an expert in implementing server-to-server integration of SharePoint. With our experience in customizing the SharePoint website via CAML, and retrieving the SharePoint data into Microsoft Dynamics CRM , We provide clients with seamless integration.</p>
 
 
                 </div>
@@ -323,7 +323,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <h5 className='font20 fontf font-medium line30'>
                     LINQ Programming API in the SDK
                     </h5>
-                    <p>LINQ is used to write queries in Microsoft Dynamics CRM Online (and on-premises). Here at Team In India, experts are highly skilled to manage the LINQ programming and process.</p>
+                    <p>LINQ is used to write queries in Microsoft Dynamics CRM Online (and on-premises). Here at BitsWits, experts are highly skilled to manage the LINQ programming and process.</p>
 
                 </div>
             </Col>
@@ -362,7 +362,7 @@ export default function hiremsdynamicscrmdeveloper() {
                     <h5 className='font20 fontf font-medium line30'>
                     Packaged Customisation as Solutions
                     </h5>
-                    <p>Team In India has a good level of experience in creating custom packages using a visual studio, and also importing these packages as solutions in Microsoft Dynamics CRM. We also have an expertise in exporting the customisation from Microsoft Dynamics CRM.</p>
+                    <p>BitsWits has a good level of experience in creating custom packages using a visual studio, and also importing these packages as solutions in Microsoft Dynamics CRM. We also have an expertise in exporting the customisation from Microsoft Dynamics CRM.</p>
 
                 </div>
             </Col>
@@ -415,7 +415,7 @@ in Sandboxed/ Isolated mode
                     Custom Portal and
 Microsoft Dynamics CRM
                     </h5>
-                    <p>Our expertise in retrieving and saving the data on Microsoft Dynamics CRM through custom portal is an additional service that Team In India provides.</p>
+                    <p>Our expertise in retrieving and saving the data on Microsoft Dynamics CRM through custom portal is an additional service that BitsWits provides.</p>
 
 
                 </div>
@@ -428,7 +428,7 @@ Microsoft Dynamics CRM
                     <h5 className='font20 fontf font-medium line30'>
                     Dashboard Designer
                     </h5>
-                    <p>Dashboard design and customisation helps our clients to track their data via dashboard. Here at Team in India our developers can create a customised dashboard that would be comprehensive and will suit your business needs.
+                    <p>Dashboard design and customisation helps our clients to track their data via dashboard. Here at BitsWits our developers can create a customised dashboard that would be comprehensive and will suit your business needs.
 
                     </p>
 

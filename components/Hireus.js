@@ -47,7 +47,7 @@ const Hireus = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h3 className="white f-20 f-700 f-montserrat">WHY HIRE US?</h3>
+                            <h3 className="f-20 f-700 f-montserrat">WHY HIRE US?</h3>
                             <h2 className="black f-50 f-700  f-playfair mt-3">
                                 What Makes <span className='grdiant'>Bitswits The Most 
                                 Recommended Mobile App  Development</span> Company?

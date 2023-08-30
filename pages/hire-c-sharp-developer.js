@@ -295,7 +295,7 @@ export default function hirecsharpdeveloper() {
                     <h5 className='font20 fontf font-medium line30'>
                     Migration and Porting
                     </h5>
-                    <p>Team In India has the capability to assist and advise on any type of migration that you might be about to undertaken. We also provide the facility to port legacy systems to .Net technology so you can take advantage of the improvements.</p>
+                    <p>BitsWits has the capability to assist and advise on any type of migration that you might be about to undertaken. We also provide the facility to port legacy systems to .Net technology so you can take advantage of the improvements.</p>
 
 
                 </div>
@@ -308,7 +308,7 @@ export default function hirecsharpdeveloper() {
                     <h5 className='font20 fontf font-medium line30'>
                     Third Party Compone
                     </h5>
-                    <p>The C# developers of Team In India can build reliable third-party software components for a wide range of systems. These can be created so that they are marketable independently and reusable in relevant situations.</p>
+                    <p>The C# developers of BitsWits can build reliable third-party software components for a wide range of systems. These can be created so that they are marketable independently and reusable in relevant situations.</p>
 
                 </div>
             </Col>

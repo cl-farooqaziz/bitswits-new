@@ -1,6 +1,6 @@
 .py120{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #f2f2f2;
 }
 .almost{
@@ -52,8 +52,8 @@
     cursor: pointer;
 }
 .seen{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .analpost .active{
     border: 3px solid black;

@@ -303,7 +303,7 @@ export default function hiredatabasedeveloper() {
                     <h5 className='font20 fontf font-medium line30'>
                         Database Reporting Services
                     </h5>
-                    <p>Team In India deploys experts in implementing reporting services using SQL Server and MySQL for the database reporting services.</p>
+                    <p>BitsWits deploys experts in implementing reporting services using SQL Server and MySQL for the database reporting services.</p>
 
                 </div>
             </Col>
@@ -354,7 +354,7 @@ export default function hiredatabasedeveloper() {
                     <h5 className='font20 fontf font-medium line30'>
                         Database Capacity Planning
                     </h5>
-                    <p>Capacity planning is a great way to know the business well - the goal of which is to make sure that the hardware andsoftware will be able to enable your business to achieve the goal. At Team In India, we do the database capacity planning for you.</p>
+                    <p>Capacity planning is a great way to know the business well - the goal of which is to make sure that the hardware andsoftware will be able to enable your business to achieve the goal. At BitsWits, we do the database capacity planning for you.</p>
 
                 </div>
             </Col>

@@ -174,7 +174,7 @@ export default function socialmediaoptimization() {
                         Engagement
                     </h5>
                     <p>
-                        At Team In India, we encourage more engagement, sharing & reciprocation.
+                        At BitsWits, we encourage more engagement, sharing & reciprocation.
                     </p>
 
                 </div>

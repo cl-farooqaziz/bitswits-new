@@ -335,7 +335,7 @@ Development
                     Mobile <br></br>
 Apps
                     </h5>
-                    <p>Team In India brings the power and efficiency of .NET to iOS and Android, reusing skills and code while getting access to the native APIs and performance.</p>
+                    <p>BitsWits brings the power and efficiency of .NET to iOS and Android, reusing skills and code while getting access to the native APIs and performance.</p>
 
 
                 </div>
@@ -364,7 +364,7 @@ Integration
                     Cloud Based <br></br>
 Apps
                     </h5>
-                    <p>Implement your cloud based services in .NET with the experts from Team In India and reduce your cost of development and maintenance. We will enable you to scale up or down quickly with our cloud based services.</p>
+                    <p>Implement your cloud based services in .NET with the experts from BitsWits and reduce your cost of development and maintenance. We will enable you to scale up or down quickly with our cloud based services.</p>
 
                 </div>
             </Col>

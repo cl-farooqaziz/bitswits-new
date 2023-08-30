@@ -354,7 +354,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                     <h5 className='font20 fontf font-medium line30'>
                     Unity Multiplayer
                     </h5>
-                    <p>Unity Multiplayer is the easiest way to create real time, networked games for Unity, and at Team In India we have the needed skillset for create these real time networked games.</p>
+                    <p>Unity Multiplayer is the easiest way to create real time, networked games for Unity, and at BitsWits we have the needed skillset for create these real time networked games.</p>
 
 
                 </div>
@@ -367,7 +367,7 @@ Creating A Great <span className='grdiant'>Gaming Experience</span>
                     <h5 className='font20 fontf font-medium line30'>
                     Unity ADS
                     </h5>
-                    <p>You no longer need to rely on the 3% of players that make in-app purchases. Unity Ads is designed to become a natural part of your game. We at Team In India provide the service of creating Unity Ads.</p>
+                    <p>You no longer need to rely on the 3% of players that make in-app purchases. Unity Ads is designed to become a natural part of your game. We at BitsWits provide the service of creating Unity Ads.</p>
 
                 </div>
             </Col>

@@ -81,7 +81,7 @@ export default function hubspot() {
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Offices in Brighton, London & India
+                Offices in Brighton, London 
             </li>
         </ul>
     </>

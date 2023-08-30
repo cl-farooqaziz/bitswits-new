@@ -563,7 +563,7 @@ export default function hirecoco2dxgamedeveloper() {
                     <div className=' pt-5 pb-5'>
                         <Image src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Game Character</h3>
-                        <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
+                        <p className=''>Presenting sustainability and implementation of new strategies which is the key policy of BitsWits.</p>
                     </div>
                 </Col>
 

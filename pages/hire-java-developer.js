@@ -567,7 +567,7 @@ enterprise solutions</p>
             <WhyBuild
                 title="Why Build"
                 cards={WhyBuilds}
-                text={<> <p className='center'>Java development services from team india include the full cycle of software development from consulting to project support. Our app maintenance and modernization clubbed with integration services forms our complete Java Development suite and by this means our Java programmers can make high-end applications that conform to your plans and business goals.</p> </>}
+                text={<> <p className='center'>Java development services from BitsWits include the full cycle of software development from consulting to project support. Our app maintenance and modernization clubbed with integration services forms our complete Java Development suite and by this means our Java programmers can make high-end applications that conform to your plans and business goals.</p> </>}
                 subtitle={whytitle}
             />
 

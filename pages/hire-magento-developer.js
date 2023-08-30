@@ -198,7 +198,7 @@ export default function hireMagentoDeveloper() {
             <Row>
                 <Col>
                     <h3 className='font40 font-bold center mb-3'>BitsWits Dotsquares - Certified Magento Partner and Development Agency in UK!</h3>
-                    <p className='font18 font-regular center mb-5'>With 20+ years of experience, We are Team In India, a company of Dotsquares Ltd, We are certified Magento developers and Adobe partners. We’ve been working with Magento since it was launched in 2008. Here are some of our real, independently verifiable stats:</p>
+                    <p className='font18 font-regular center mb-5'>With 20+ years of experience, We are BitsWits, a company of Dotsquares Ltd, We are certified Magento developers and Adobe partners. We’ve been working with Magento since it was launched in 2008. Here are some of our real, independently verifiable stats:</p>
                     <ul className={markstyles.mservice}>
                         <li>
                             <Image src={mobilearrow2} alt="bitswits" />

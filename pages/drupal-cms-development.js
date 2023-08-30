@@ -53,7 +53,7 @@ export default function hireDrupalDeveloper() {
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Offices in 5 Countries (UK, USA, Australia, UAE & India)
+                Offices in 5 Countries (UK, USA, Australia, UAE )
             </li>
             <li className="font16 fontf font-medium black">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>

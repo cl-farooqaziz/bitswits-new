@@ -262,7 +262,7 @@ const value = <>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
                             <Image src={milestones3} className='img-fluid mb-4 greyscale' />
-                            <p className='center'>Presenting sustainability and implementation of new strategies which is the key policy of Team In India.</p>
+                            <p className='center'>Presenting sustainability and implementation of new strategies which is the key policy of BitsWits.</p>
                         </div>
                     </Col>
                     <Col xl={4}>

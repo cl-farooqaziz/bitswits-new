@@ -147,7 +147,7 @@ export default function ecommerencedevelopment() {
                             Enhanced Customer Relationship
                         </h5>
                         <p>
-                            ECM systems can be successfully integrated into any business, like in the case of financial services, public sector, media and entertainment, manufacturing and utilities, healthcare, education, e-commerce, services and transport- at Team In India, we provide you these enterprise portal solution developments.
+                            ECM systems can be successfully integrated into any business, like in the case of financial services, public sector, media and entertainment, manufacturing and utilities, healthcare, education, e-commerce, services and transport- at BitsWits, we provide you these enterprise portal solution developments.
                         </p>
                     </div>
                 </div>

@@ -360,7 +360,7 @@ export default function hireseoexpert() {
 
                     Conversion Rate Optimisation
                     </h5>
-                    <p>Team In India has a team of experts for Conversion Rate Optimisation – a process to increase the percentage of visitors to a website that convert into customers, or more generally, take any desired action on a webpage</p>
+                    <p>BitsWits has a team of experts for Conversion Rate Optimisation – a process to increase the percentage of visitors to a website that convert into customers, or more generally, take any desired action on a webpage</p>
 
                 </div>
             </Col>

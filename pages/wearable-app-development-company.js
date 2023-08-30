@@ -124,7 +124,7 @@ export default function waerableappdeveloment() {
             <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>20 Years</b> .Experience & Counting </li>
             <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image><b className='grdiant'>IOS, Android & cross-platform apps</b> for phone, tablet & watch. </li>
             <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Transparent</b> Project Progress </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Offices in 5 Countries</b> (UK, USA, Australia, UAE & India) </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Offices in 5 Countries</b> (UK, USA, Australia, UAE ) </li>
         </ul>
     </>
 
@@ -438,7 +438,7 @@ const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 yea
 
             </Col>
             <Col lg={7}>
-                <p>At Team In India, we believe the key to creating a successful and intuitive mobile app is to focus on the user experience. That's why we take a user-centric approach to app development, carefully considering the needs and goals of our users at every stage of the development process.
+                <p>At BitsWits, we believe the key to creating a successful and intuitive mobile app is to focus on the user experience. That's why we take a user-centric approach to app development, carefully considering the needs and goals of our users at every stage of the development process.
 </p>
 <p>As a reputable app development agency in UK, we also understand the importance of staying up-to-date with the latest technologies and development practices. Our team is constantly learning and evolving to ensure we are always at the forefront of the industry.</p>
             </Col>
