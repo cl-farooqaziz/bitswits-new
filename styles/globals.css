@@ -1000,6 +1000,11 @@ input::-webkit-inner-spin-button {
 
 }
 
+.newwidth{
+  max-width: 90%;
+  text-align: justify;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {

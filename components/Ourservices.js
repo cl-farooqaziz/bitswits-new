@@ -45,7 +45,7 @@ const Ourservices = ({ services }) => {
 
                                     {item.data == item.click1 &&
                                         <>
-                                            <div className='lightgrey padd font13 ani' key={item.id}>
+                                            <div className='lightgrey padd font13 ani newwidth' key={item.id}>
                                                 {item.text}
                                             </div>
                                         </>
