@@ -156,7 +156,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Homebanner
                 subtitle='Transform Your Business With Our Revolutionary'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Mobile App</span>  Development Company</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Mobile App</span>  Development Company</h1></>}
                 title2={<>We Don't Just Create Apps; We Create Experiences</>}
                 text={<> At BitsWits, we develop innovative and user-friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients. Our focus on delivering high-quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
             />

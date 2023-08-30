@@ -399,7 +399,7 @@ export default function gamedevelopmentcompany2dlp() {
 
             <Homebanner
                 subtitle='Best In Animation, Graphics, & Design - Your Own'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> 2D Game </span>  Development Company!</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> 2D Game </span>  Development Company!</h1></>}
                 text={<> From classic platformers to immersive RPGs, our 2D games will have your target market addicted in no time. We specialize in crafting highly detailed and interactive worlds, characters, and stories that will capture your imagination and keep your prospects hooked for hours on end. With ultra-realistic visuals and cutting-edge physics, we ensure that your games look and feel as realistic as possible. Whether you're looking for an app, a console game, or something completely different – we are here to help! </>}
                 btn1='Consult A Gaming Expert To Begin'
             />

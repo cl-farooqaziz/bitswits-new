@@ -407,7 +407,7 @@ export default function blockchaingamedevelopmentcompanylp() {
 
 
             <Homebanner
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>  We Revolutionize The Way <span className='grdiant'>Digital Games Are Designed</span> And Played!!! </h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>  We Revolutionize The Way <span className='grdiant'>Digital Games Are Designed</span> And Played!!! </h1></>}
                 text={<> BitsWits is an up-and-coming blockchain game development company that produces cutting-edge blockchain games for the global gaming market. We create next-generation games based on distributed ledger technology (DLT). Our suite of products and services includes custom game development using smart contracts, distributed storage solutions, API integrations, and more. </>}
                 text2={<> Hire us to develop AAA-level titles with the most advanced technology available today!!! </>}
                 btn1='Consult A Gaming Expert To Begin'

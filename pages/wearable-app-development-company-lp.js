@@ -171,7 +171,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Homebanner
                 subtitle='Put Your App on the Go with Our'
-                title={<>   <h1 className='font60 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Wearable App </span> Development Company!</h1></>}
+                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Wearable App </span> Development Company!</h1></>}
 
                 text={<> We understand the importance of connecting people with their devices and data. Our wearable application development company allow us to help you create the perfect app for your needs. From fitness tracking and health monitoring to access information at a glance, our developers are ready to assist in creating applications that will make life easier and more efficient. With our expertise and experience in the field of wearable technology, you can trust us to deliver the best service possible. </>}
                 text2={<> Choose us for all your wearable application development needs, and let us help you create an app that will make life easier, faster, and more connected. </>}
