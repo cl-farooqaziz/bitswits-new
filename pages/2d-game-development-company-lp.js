@@ -33,7 +33,86 @@ import pic5 from '/public/images/super/5.png'
 
 import engagement from '/public/images/step/1.png'
 
+
+
+import icon1 from '../public/images/2dgamedevelopment/sideimg.png'
+import icon2 from '../public/images/2dgamedevelopment/game.png'
+import icon3 from '../public/images/2dgamedevelopment/web30.png'
+import icon4 from '../public/images/2dgamedevelopment/blockchain.png'
+import icon5 from '../public/images/2dgamedevelopment/webflow.png'
+import icon6 from '../public/images/2dgamedevelopment/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
 export default function gamedevelopmentcompany2dlp() {
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: '2D Concept Art and Design',
+            text: (<> 2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.
+
+                LET'S START </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Single Player Games',
+            text: (<> Our team is well versed in various technologies such as C++, Unity, Unreal Engine, HTML5, and more to provide a seamless single-player gaming experience across different platforms. BitsWits guarantee bug-free code, easy navigation, intuitive controls, and perfect performance in our games so players can enjoy their experience without frustration. Whether you're looking for a complex 2D game or an old-school classic side-scroller, our 2D game developers can make it happen. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Game App Integration',
+            text: (<> Our integration services offer a range of features across platforms, including multiplayer mode, leaderboard integration, in-app purchases, analytics, and more. Our streamlined integration process ensures your game runs smoothly while maintaining high-security standards. Whether it's connecting your game app with existing APIs or creating custom solutions, we guarantee that our solutions are robust and secure. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Multiplayer Games',
+            text: (<> Whether you're looking to build a complex, engaging multiplayer game from the ground up or optimize an existing project with cutting-edge technology, we have you covered! From first-person shooters and RPGs to strategic board games and party games, we foster multiplayer gaming experiences for businesses to help them make huge bucks. </>),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'UI/UX Graphics',
+            text: 'Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.',
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Storyboarding',
+            text: (<> With our team of expert animators, you can watch your characters come alive and see your story unfold in vivid detail. Our 2D animation and storyboard services allow you to visually represent what is happening in your script or story before it gets animated. This ensures that all elements are in place for a successful storyboard. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
 
 
     const incredible = [
@@ -407,6 +486,8 @@ export default function gamedevelopmentcompany2dlp() {
 
             <Consultancy />
 
+
+
             <Yearsofexpertise
                 loop1={<> <Counter stopNumber={500} />+</>}
 
@@ -424,13 +505,17 @@ export default function gamedevelopmentcompany2dlp() {
 
             />
 
+            <Ourservices
+                services={services1}
+            />
+
 
             <Creativeopportunities
 
                 subtitle='BOUNTIES'
                 title={<>Attractive/Creative Opportunities <br></br> <span className='grdiant'> 2D Games Development</span> Offers</>}
 
-                eng = {engagement}
+                eng={engagement}
 
 
                 tit1='Improved Engagement'
@@ -528,10 +613,10 @@ export default function gamedevelopmentcompany2dlp() {
                     </Col>
                 </Row>
                 <Row>
-                <Col xl={12}>
-                    <Play
-                        demand={demand}
-                    />
+                    <Col xl={12}>
+                        <Play
+                            demand={demand}
+                        />
                     </Col>
                 </Row>
             </Container>
@@ -558,26 +643,26 @@ export default function gamedevelopmentcompany2dlp() {
                     comprehensive services that guarantee success in the world of 2D gaming. With our expertise, you
                     can ensure your 2D game will be one of the best in the market. </>}
                 pic1={pic1}
-                tit1= 'Customized Solutions'
-                text1= { <> BitsWits provides tailor-made 2D games development services tailored to each client's needs and requirements. This helps create an engaging gaming experience for the user, which can be further modified according to their preferences. </> }
+                tit1='Customized Solutions'
+                text1={<> BitsWits provides tailor-made 2D games development services tailored to each client's needs and requirements. This helps create an engaging gaming experience for the user, which can be further modified according to their preferences. </>}
 
 
                 pic2={pic2}
-                tit2= 'Innovative Solutions'
-                text2= { <> BitsWits is always looking for new and innovative ways to develop 2D games that provide a unique and immersive gaming experience. We use the latest technologies and techniques to ensure that the users enjoy the best gaming experience. </> }
+                tit2='Innovative Solutions'
+                text2={<> BitsWits is always looking for new and innovative ways to develop 2D games that provide a unique and immersive gaming experience. We use the latest technologies and techniques to ensure that the users enjoy the best gaming experience. </>}
 
                 pic3={pic3}
-                tit3= 'Experienced Professionals'
-                text3= { <> The team at BitsWits consists of experienced professionals with years of experience in 2D game development. This ensures that the games developed are efficient and bug-free, providing a fantastic gaming experience to the users. </> }
+                tit3='Experienced Professionals'
+                text3={<> The team at BitsWits consists of experienced professionals with years of experience in 2D game development. This ensures that the games developed are efficient and bug-free, providing a fantastic gaming experience to the users. </>}
 
 
                 pic4={pic4}
-                tit4= 'Exclusive Client Services'
-                text4= { <> We are also proud to offer exclusive client services, including game beta testing and post-release support. We guarantee a smooth launch for your game and ensure your players have the best experience possible. </> }
+                tit4='Exclusive Client Services'
+                text4={<> We are also proud to offer exclusive client services, including game beta testing and post-release support. We guarantee a smooth launch for your game and ensure your players have the best experience possible. </>}
 
 
                 pic5={pic5}
-              
+
 
 
             />

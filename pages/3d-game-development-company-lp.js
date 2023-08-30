@@ -34,7 +34,84 @@ import pic5 from '/public/images/3dsuper/5.png'
 
 import engagement from '/public/images/step/2.png'
 
+
+import icon1 from '../public/images/3dgamedevelopmentservices/sideimg.png'
+import icon2 from '../public/images/3dgamedevelopmentservices/game.png'
+import icon3 from '../public/images/3dgamedevelopmentservices/web30.png'
+import icon4 from '../public/images/3dgamedevelopmentservices/blockchain.png'
+import icon5 from '../public/images/3dgamedevelopmentservices/webflow.png'
+import icon6 from '../public/images/3dgamedevelopmentservices/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
 export default function gamedevelopmentcompany3dlp() {
+
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: '3D Game Concept Art',
+            text: (<> Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game. </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Advanced 3D Videos',
+            text: (<> With our state-of-the-art technology, we can turn your ideas into fully rendered 3D game videos with stunning visuals. Our services range from custom-created 3D game videos to motion capture animation. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: '3D Game App Integration',
+            text: (<> BitsWits allow you to quickly and easily add 3D gaming experiences to your existing apps so that you can play high-end games without extra coding or hardware configurations. With our services, you can also easily and quickly integrate a virtual reality (VR) or augmented reality (AR) game into your project. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: '3D Imagining Art',
+            text: (<> Our team of experienced 3D artists and engineers can turn your ideas into reality with stunning visuals that will wow your players. We specialize in creating engaging worlds with realistic landscapes, characters, and environments. </>),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'Support and Maintenance',
+            text: ( <> BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends. </> ),
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: '3D Web and App Development',
+            text: (<> BitsWits offers world-class solutions for both web and mobile platforms. We are specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
 
 
     const incredible = [
@@ -429,6 +506,10 @@ export default function gamedevelopmentcompany3dlp() {
 
             />
 
+            <Ourservices
+                services={services1}
+            />
+
 
             <Creativeopportunities
 
@@ -466,7 +547,7 @@ export default function gamedevelopmentcompany3dlp() {
 
             />
 
-            <section className='campny'>
+            {/* <section className='campny'>
                 <Container>
                     <Row>
                         <Col>
@@ -480,7 +561,7 @@ export default function gamedevelopmentcompany3dlp() {
                         />
                     </Row>
                 </Container>
-            </section>
+            </section> */}
 
 
             <Container className='campny'>

@@ -39,13 +39,13 @@ const Ourservices = ({ services }) => {
 
                             {services.map((item) => (
                                 <div>
-                                    <div className={item.data == item.click1 ? 'white font25 padd border1 cursor2 ani' : 'white font25 padd border1 cursor3 ani'} onClick={() => item.fun(item.click1)}>
+                                    <div className={item.data == item.click1 ? 'white font20 font-medium padd border1 cursor2 ani' : 'white font20 font-medium padd border1 cursor3 ani'} onClick={() => item.fun(item.click1)}>
                                         {item.title}
                                     </div>
 
                                     {item.data == item.click1 &&
                                         <>
-                                            <div className='white padd font13 ani' key={item.id}>
+                                            <div className='lightgrey padd font13 ani' key={item.id}>
                                                 {item.text}
                                             </div>
                                         </>

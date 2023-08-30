@@ -39,7 +39,85 @@ import lop5 from '/public/images/bonusflutter/5.webp'
 import lop6 from '/public/images/bonusflutter/6.webp'
 import lop7 from '/public/images/bonusflutter/mobile.webp'
 
+import React, { useState } from 'react';
+import icon1 from '../public/images/flutterservice/sideimg.png'
+import icon2 from '../public/images/flutterservice/game.png'
+import icon3 from '../public/images/flutterservice/web30.png'
+import icon4 from '../public/images/flutterservice/blockchain.png'
+import icon5 from '../public/images/flutterservice/webflow.png'
+import icon6 from '../public/images/flutterservice/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
+
+
 export default function androidappdevelopmentcompanylp() {
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: 'Dart Application Development Services',
+            text: (<> Our Dart application development services create efficient and powerful hybrid apps using the latest libraries to modernize your native apps. We'll help your app stand out and succeed with seamless solutions exceeding expectations. </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Flutter Cross-Platform App Development',
+            text: (<> As a leading Flutter app development company, our expertise lies in developing innovative Flutter apps and provide solutions that extend your app's potential reach, driving your business growth to new heights. Hire us, and experience the difference of our exceptional Flutter app development services. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Flutter Development For IOS & Android',
+            text: (<> We make stellar Flutter apps that work on both iOS and Android platforms. We aim to make your application stand out in the industry with our Flutter app development service. Trust our expert flutter developers to deliver seamless user experience and robust functionality. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Customized Flutter Development Solutions',
+            text: ( <> Flutter app developers at BitsWits can make customized powerful apps that help your business grow and reach more people. Hire top-rated Flutter development services and skyrocket your business growth. </> ),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'Testing & Quality Assurance',
+            text: 'Our Flutter mobile app developers, quality analysts, and testers, collaborate seamlessly to ensure your app is free of bugs during development. We guarantee you a dependable, top-notch final product that meets your expectations.',
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Maintenance & Support Services For Flutter Apps',
+            text: (<> BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for the long term, giving you peace of mind and ensuring the success of your business. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
 
 
 
@@ -168,10 +246,14 @@ export default function androidappdevelopmentcompanylp() {
 
             <Consultancy />
 
+            <Ourservices
+                services={services1}
+            />
 
 
 
-            <div className='bgimageserve d-lg-block d-none'>
+
+            {/* <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
                         <div>
@@ -195,7 +277,7 @@ export default function androidappdevelopmentcompanylp() {
 
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
             <div className='bgimageserve d-lg-none d-block'>
                 <Container className='ourspacing'>

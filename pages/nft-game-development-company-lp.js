@@ -33,8 +33,88 @@ import pic5 from '/public/images/supernft/5.png'
 
 import engagement from '/public/images/step/3.png'
 
+
+import icon1 from '../public/images/nftgameservices/sideimg.png'
+import icon2 from '../public/images/nftgameservices/game.png'
+import icon3 from '../public/images/nftgameservices/web30.png'
+import icon4 from '../public/images/nftgameservices/blockchain.png'
+import icon5 from '../public/images/nftgameservices/webflow.png'
+import icon6 from '../public/images/nftgameservices/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
+
 export default function nftgamedevelopmentcompanylp() {
 
+
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: 'Take Home What You Earn',
+            text: (<> Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!
+</>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Rewarding Challenges',
+            text: (<> With these NFT games, you will face rewarding challenges that test your abilities and allow you to earn rewards or tokens for completing them. It's a great way to increase your skills and expand your knowledge. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Strengthen Your Character',
+            text: (<> These Play-to-Earn NFT games can help you develop your character and increase confidence. As you make progress in the game, you learn more about yourself and can become a better player. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Create Your Own Path',
+            text: (<> With Play-to-Earn NFT games, you can be your own boss. Create an economy for yourself by earning tokens, rewards, and additional items to help you progress in the game. The possibilities are endless with what you can achieve! </>),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'Diversity of Games',
+            text: (<> A massive variety of NFT games is available for players to choose from, so you can find something that fits your interests and tastes. From sports games to puzzle games, there's something for everyone! </>),
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Collect Rare Items',
+            text: (<>Step into a world of exclusive collectibles with NFT games! Unlock rare items that can't be found in other games and flaunt your one-of-a-kind collection to your friends. It's time to level up your gaming experience and invest in something unique. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+       
+
+    ]
 
     const incredible = [
 
@@ -331,6 +411,10 @@ export default function nftgamedevelopmentcompanylp() {
 
             />
 
+            <Ourservices
+                services={services1}
+            />
+
 
             <Creativeopportunities
 
@@ -367,7 +451,7 @@ export default function nftgamedevelopmentcompanylp() {
 
             />
 
-            <section className='campny'>
+            {/* <section className='campny'>
                 <Container>
                     <Row>
                         <Col>
@@ -382,7 +466,7 @@ export default function nftgamedevelopmentcompanylp() {
                         />
                     </Row>
                 </Container>
-            </section>
+            </section> */}
 
 
             <Container className='campny'>

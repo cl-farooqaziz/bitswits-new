@@ -39,8 +39,86 @@ import lop5 from '/public/images/bonus/5.webp'
 import lop6 from '/public/images/bonus/6.webp'
 import lop7 from '/public/images/bonus/mobile.webp'
 
+import React, { useState } from 'react';
+import icon1 from '../public/images/iphoneservice/sideimg.png'
+import icon2 from '../public/images/iphoneservice/game.png'
+import icon3 from '../public/images/iphoneservice/web30.png'
+import icon4 from '../public/images/iphoneservice/blockchain.png'
+import icon5 from '../public/images/iphoneservice/webflow.png'
+import icon6 from '../public/images/iphoneservice/artifical.png'
+import Ourservices from '@/components/Ourservices'
 
 export default function iosappdevelopmentcompanylp() {
+
+
+
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: 'Custom iOS App Development',
+            text: (<> Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs. </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'iPhone App Development',
+            text: (<> We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Apple Watch Development',
+            text: (<> Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Apple Tv App Development',
+            text: ( <> Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality! </> ),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'Apple App Designing',
+            text: 'Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.',
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Hybird Iphone App Development',
+            text: (<> Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
 
 
     const android = <> <span className='grdiant'> Custom iOS </span> <br></br> App Development
@@ -176,6 +254,11 @@ export default function iosappdevelopmentcompanylp() {
 
 
             <Consultancy />
+
+
+            <Ourservices
+                services={services1}
+            />
 
 
 

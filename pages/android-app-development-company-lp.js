@@ -39,7 +39,87 @@ import lop5 from '/public/images/bonusandriod/5.webp'
 import lop6 from '/public/images/bonusandriod/6.webp'
 import lop7 from '/public/images/bonusandriod/mobile.webp'
 
+
+import React, { useState } from 'react';
+import icon1 from '../public/images/andriodservices/sideimg.png'
+import icon2 from '../public/images/andriodservices/game.png'
+import icon3 from '../public/images/andriodservices/web30.png'
+import icon4 from '../public/images/andriodservices/blockchain.png'
+import icon5 from '../public/images/andriodservices/webflow.png'
+import icon6 from '../public/images/andriodservices/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
+
 export default function androidappdevelopmentcompanylp() {
+
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: 'Custom Android App Development',
+            text: (<> Our expert Android developers team can help take your business to the next level with custom Android mobile app development services. Let us create stunning visuals, intuitive interfaces, and robust security features to keep you ahead of the competition. Contact us today to get started. </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Android App Integration',
+            text: (<> Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android developers’ team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Android Game Development',
+            text: (<> Do you plan to produce an exceptional Android mobile game that will captivate your audience? Worry no more, as our team of Android game developers can provide you with the best assistance in developing exciting and irresistible games that will keep your users hooked and always craving more. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Android Wear Development',
+            text: ( <> Expand your reach in the wearable market with our expert Android developers. Our advanced Android Wear solutions will give you a competitive edge and elevate your brand visibility. Allow us to help you take your enterprise to new heights. </> ),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'Enterprise Android Apps',
+            text: 'We can help streamline your business operations with our enterprise Android app development services. Our solutions cover all aspects, from employee communication and data management to workflow optimization. Contact us to learn more.',
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Android UI/UX Design',
+            text: (<> Our team of experienced Android designers can assist you in crafting visually appealing and user-friendly interfaces for your Android app. With our expertise, we can enhance user engagement and ensure a seamless user experience. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
+
 
 
     const android = <> <span className='grdiant'> Custom iOS </span> <br></br> App Development
@@ -172,9 +252,14 @@ export default function androidappdevelopmentcompanylp() {
 
             <Consultancy />
 
+            <Ourservices
+                services={services1}
+            />
 
 
 
+
+{/* 
             <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
@@ -199,7 +284,7 @@ export default function androidappdevelopmentcompanylp() {
 
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
             <div className='bgimageserve d-lg-none d-block'>
                 <Container className='ourspacing'>

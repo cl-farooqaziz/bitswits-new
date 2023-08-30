@@ -41,7 +41,85 @@ import lop5 from '/public/images/bonusreact/5.png'
 import lop6 from '/public/images/bonusreact/6.png'
 import lop7 from '/public/images/bonusreact/mobile.png'
 
+import React, { useState } from 'react';
+import icon1 from '../public/images/reactnativeservice/sideimg.png'
+import icon2 from '../public/images/reactnativeservice/game.png'
+import icon3 from '../public/images/reactnativeservice/web30.png'
+import icon4 from '../public/images/reactnativeservice/blockchain.png'
+import icon5 from '../public/images/reactnativeservice/webflow.png'
+import icon6 from '../public/images/reactnativeservice/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
+
 export default function androidappdevelopmentcompanylp() {
+
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: 'React Native Mobile App Development Services',
+            text: (<> Our expert team of React Native developers creates high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users. </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Expert React Native Code Development Services',
+            text: (<> Our React Native code development services ensure your app is developed with clean, efficient, and high-quality code. Our experienced developers ensure that your app's performance is optimized for performance and scalability. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Expert React Native App Maintenance Services',
+            text: (<> We provide reliable and efficient React Native app maintenance services to maintain your app up-to-date with the latest features and functionalities. Our team of experts ensures that your app runs smoothly, is bug-free, and is optimized for performance. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Hybrid Mobile App with React Native',
+            text: (<> Our React Native, hybrid mobile app development services combine the benefits of both native and web-based apps. This approach allows for faster development, cost-effectiveness, & cross-platform compatibility. </>),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'Custom React Plugin Development for Apps',
+            text: ( <> Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience. </> ),
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Custom React Native UI/UX Design for Apps',
+            text: (<> Our React Native UI/UX design services ensures your app has an intuitive, user-friendly interface with stunning visuals. We create customized designs for your app that look great and provide a seamless user experience. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
 
 
     const android = <> <span className='grdiant'> Custom iOS </span> <br></br> App Development
@@ -60,7 +138,7 @@ export default function androidappdevelopmentcompanylp() {
             title: (<>React Native Mobile App <br></br>
                 Development Services </>),
             text: <>
-               Our expert team of React Native developers creates high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users.
+                Our expert team of React Native developers creates high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users.
             </>
         },
 
@@ -87,14 +165,14 @@ export default function androidappdevelopmentcompanylp() {
             title: (<>Hybrid Mobile App <br></br>
                 with React Native </>),
             text: <>
-               Our React Native, hybrid mobile app development services combine the benefits of both native and web-based apps. This approach allows for faster development, cost-effectiveness, & cross-platform compatibility.
+                Our React Native, hybrid mobile app development services combine the benefits of both native and web-based apps. This approach allows for faster development, cost-effectiveness, & cross-platform compatibility.
             </>
         },
 
         {
             img: servicesmobile5,
             title: (<>Custom React Plugin <br></br>
-               Development for Apps </>),
+                Development for Apps </>),
             text: <>
                 Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience.
 
@@ -181,10 +259,14 @@ export default function androidappdevelopmentcompanylp() {
 
             <Consultancy />
 
+            <Ourservices
+                services={services1}
+            />
 
 
 
-            <div className='bgimageserve d-lg-block d-none'>
+
+            {/* <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
                         <div>
@@ -208,7 +290,7 @@ export default function androidappdevelopmentcompanylp() {
 
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
             <div className='bgimageserve d-lg-none d-block'>
                 <Container className='ourspacing'>

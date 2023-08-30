@@ -42,7 +42,86 @@ import lop6 from '/public/images/bonuscross/6.png'
 
 import lop7 from '/public/images/bonuscross/mobile.png'
 
+
+
+import React, { useState } from 'react';
+import icon1 from '../public/images/crossplatformservices/sideimg.png'
+import icon2 from '../public/images/crossplatformservices/game.png'
+import icon3 from '../public/images/crossplatformservices/web30.png'
+import icon4 from '../public/images/crossplatformservices/blockchain.png'
+import icon5 from '../public/images/crossplatformservices/webflow.png'
+import icon6 from '../public/images/crossplatformservices/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
 export default function androidappdevelopmentcompanylp() {
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: 'Custom Cross-Platform Development',
+            text: (<> Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones. </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Wearable Cross-Platform Apps',
+            text: (<> Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Cross-Platform UI/UX Design Services',
+            text: (<> Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Web-Based Cross-Platform Apps',
+            text: ( <> We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive. </> ),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'AI Integrated Cross Platforms Apps',
+            text: 'BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business.',
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Cross Platforms Apps Consulting',
+            text: (<> Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
+
 
 
 
@@ -173,10 +252,14 @@ export default function androidappdevelopmentcompanylp() {
 
             <Consultancy />
 
+            <Ourservices
+                services={services1}
+            />
+
 
             <Partner />
 
-            <div className='bgimageserve d-lg-block d-none'>
+            {/* <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
                         <div>
@@ -200,7 +283,7 @@ export default function androidappdevelopmentcompanylp() {
 
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
             <div className='bgimageserve d-lg-none d-block'>
                 <Container className='ourspacing'>

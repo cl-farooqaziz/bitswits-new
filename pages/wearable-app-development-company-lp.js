@@ -41,8 +41,85 @@ import lop6 from '/public/images/bonuswear/6.png'
 import lop7 from '/public/images/bonuswear/android.png'
 
 
+import React, { useState } from 'react';
+import icon1 from '../public/images/wearableservice/sideimg.png'
+import icon2 from '../public/images/wearableservice/game.png'
+import icon3 from '../public/images/wearableservice/web30.png'
+import icon4 from '../public/images/wearableservice/blockchain.png'
+import icon5 from '../public/images/wearableservice/webflow.png'
+import icon6 from '../public/images/wearableservice/artifical.png'
+import Ourservices from '@/components/Ourservices'
+
+
 
 export default function androidappdevelopmentcompanylp() {
+
+
+    const [gameshow, gameapp] = useState('tab1');
+
+    function game(tab) {
+        gameapp(tab);
+    }
+
+
+    const services1 = [
+
+        {
+            id: '1',
+            title: 'Android Wear Apps Development',
+            text: (<> With our expert Android Wear apps developers, you can create innovative and reliable solutions that help your business stay ahead in the ever-evolving mobile technology arena. We have a deep understanding of wearable android app development, allowing us to create device-agnostic Wear solutions that work across multiple devices. </>),
+            click1: 'tab1',
+            img: icon1,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '2',
+            title: 'Apple Smart Watch App Development',
+            text: (<>Our team of experienced developers cash in on wearable technology for iOS apps to create efficient and innovative experiences that will give you the freedom to stay connected on the go. With Apple's superior engineering and creative design, your smart watch app experience will be unrivaled in quality and productivity. </>),
+            click1: 'tab2',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '3',
+            title: 'Google Glass App Development',
+            text: (<> Google Glass app development services offer groundbreaking technology for advancing businesses and organizations. Our app development team is experienced in creating Google Glass apps to fit any need - from organizing data to entertaining customers to enhancing communication between staff members. </>),
+            click1: 'tab3',
+            img: icon3,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '4',
+            title: 'Wearable UI/UX Design',
+            text: (<> We understand that creating a great user experience on a watch or other small device requires a different touch. Our wearable app development company is here to ensure that you get the right design and that your customers have an enjoyable experience with your product. </>),
+            click1: 'tab4',
+            img: icon4,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '5',
+            title: 'API & Back-End System Development',
+            text: ( <> With the right expertise, our developers create powerful applications that work seamlessly with various devices. Our team is experienced in crafting custom APIs and developing a secure, reliable backend system to ensure your wearable app runs smoothly and efficiently at all times. </> ),
+            click1: 'tab5',
+            img: icon5,
+            fun: game,
+            data: gameshow
+        },
+        {
+            id: '6',
+            title: 'Custom Wearable App Development',
+            text: (<> Custom wearable app development is the next big thing for businesses looking to stay ahead of the technological curve. Whether you're a retailer, healthcare provider, or any other business that needs to keep up with modern technology, our custom wearable app development services can help keep your business running smoothly and efficiently. </>),
+            click1: 'tab6',
+            img: icon6,
+            fun: game,
+            data: gameshow
+        },
+
+    ]
 
 
     const android = <> <span className='grdiant'> Custom iOS </span> <br></br> App Development
@@ -180,10 +257,14 @@ export default function androidappdevelopmentcompanylp() {
 
             <Consultancy />
 
+            <Ourservices
+                services={services1}
+            />
 
 
 
-            <div className='bgimageserve d-lg-block d-none'>
+
+            {/* <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
                         <div>
@@ -207,7 +288,7 @@ export default function androidappdevelopmentcompanylp() {
 
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
             <div className='bgimageserve d-lg-none d-block'>
                 <Container className='ourspacing'>
