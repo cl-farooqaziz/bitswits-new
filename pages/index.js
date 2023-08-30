@@ -185,13 +185,9 @@ export default function Home() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-
-
       <Banner />
       <Rated />
       <About />
-
-
 
       <Yearsofexpertise
         loop1={<> <Counter stopNumber={16} />+ </>}
@@ -213,7 +209,6 @@ export default function Home() {
         services={services}
       />
 
-
       <Lookingfor />
       <Trusted />
       <Ourportfolio />
@@ -223,15 +218,6 @@ export default function Home() {
       <Ourblogs />
       <OurProject />
       <Contact />
-
-
-
-
-
-
-
-
-
 
     </>
   )
