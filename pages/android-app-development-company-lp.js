@@ -54,6 +54,7 @@ import icon4 from '../public/images/andriodservices/blockchain.png'
 import icon5 from '../public/images/andriodservices/webflow.png'
 import icon6 from '../public/images/andriodservices/artifical.png'
 import Ourservices from '@/components/Ourservices'
+import Contact from '@/components/Contact'
 
 
 export default function androidappdevelopmentcompanylp() {
@@ -255,78 +256,25 @@ export default function androidappdevelopmentcompanylp() {
                 text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
             /> */}
 
-            <NewBannerFy />
+            <NewBannerFy
+                subtitle='Revolutionizing & Creating Smarter Future'
+                title={<> Android App <br /> Development Company </>}
+                title2='Android App Development Isn’t Just Our Job – It’s Our Passion.'
+                text={<> BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development company firmly believes that no two businesses are the same, and neither should their apps be. </>}
+                text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
+            />
+
             <NewSliderFy />
 
-
             <Aboutlp />
-
 
             <Ourservices
                 services={services1}
             />
 
-
-
-
-            {/* 
-            <div className='bgimageserve d-lg-block d-none'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        {fine.map((item, i) =>
-                            <Servicesmobile key={i}
-                                title={item.title}
-                                text={item.text}
-                                img1={item.img}
-
-                            />
-                        )}
-
-                    </Row>
-                </Container>
-            </div> */}
-
-            <div className='bgimageserve d-lg-none d-block'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        <Slider {...rangSlider}>
-                            {fine.map((item, i) =>
-                                <Servicesmobile key={i}
-                                    title={item.title}
-                                    text={item.text}
-                                    img1={item.img}
-
-                                />
-                            )}
-                        </Slider>
-                    </Row>
-                </Container>
-            </div>
-
-
             <Ready />
+            
             {/* <Scalable /> */}
-
-            <Lookingforlp />
 
             <Enhanced
                 subtitle='BONUSES'
@@ -358,26 +306,27 @@ export default function androidappdevelopmentcompanylp() {
                 text6='Android being open source, an android app developer will have direct access to licensing, royalty-free, and the latest and greatest technology framework available.'
             />
 
+            <Lookingforlp />
 
-            {/* <Musicapp />
+            <Consultation />
 
-
-
-            <Cab />
-
-            <Findfood /> */}
+            {/* <Musicapp /> */}
 
             <Ourportfoliolp />
 
+            {/* <Cab />*/}
+
+            {/*<Findfood /> */}
 
             <Digitallp />
 
             <Publication />
 
             <Hireus />
+
             <ClientsThinklp />
 
-
+            <Contact />
 
         </>
     )

@@ -13,7 +13,7 @@ import rev1 from '../public/images/newbanner/one.png'
 import rev2 from '../public/images/newbanner/two.png'
 
 
-const NewBannerFy = () => {
+const NewBannerFy = (props) => {
 
     const [show, setShow] = useState(false);
 
@@ -27,13 +27,53 @@ const NewBannerFy = () => {
                 <Row className={`${styles.bannnerproject}`}>
                     <Col lg={8}>
                         <div className={`${styles.banerTxt} ps-0 ps-md-3 ps-lg-0`}>
-                            <h1 className='white fontf font-bold mb-4'>
-                            Our iOS App  Development Company
-                            </h1>
 
-                            <p className='white f-montserrat mb-2'>
-                            Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.
-                            </p>
+                            {props.subtitle ?
+                                <p className="f-montserrat font-bold f-20 mb-1 white lheight24"> {props.subtitle}</p>
+                                :
+                                ''
+                            }
+
+
+                            {props.title ?
+                                <h1 className='font65 white fontf font-bold line60 mb-3'>{props.title}</h1>
+                                :
+                                ''
+                            }
+
+
+
+                            {props.title2 ?
+                                <p className="f-18 white f-montserrat mb-2 line30 font-bold">
+                                    {props.title2}
+                                </p>
+                                :
+                                ''
+                            }
+
+
+
+
+                            {props.text ?
+                                <p className="f-18 white f-montserrat mb-2 line30 font-regular">
+                                    {props.text}
+                                </p>
+                                :
+                                ''
+                            }
+
+
+
+
+
+
+                            {props.text ?
+                                <p className="f-18 white f-montserrat mb-3 mb-xxl-4 line30 font-medium">
+                                    {props.text2}
+                                </p>
+                                :
+                                ''
+                            }
 
                             <div className={`${styles.bttnsto} mt-5`}>
                                 <Link className={styles.bttns1} onClick={modal} href="#">

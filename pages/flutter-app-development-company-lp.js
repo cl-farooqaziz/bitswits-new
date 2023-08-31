@@ -49,6 +49,13 @@ import icon4 from '../public/images/flutterservice/blockchain.png'
 import icon5 from '../public/images/flutterservice/webflow.png'
 import icon6 from '../public/images/flutterservice/artifical.png'
 import Ourservices from '@/components/Ourservices'
+import Aboutlp from '@/components/Aboutlp'
+import NewBannerFy from '@/components/NewBannerFy'
+import NewSliderFy from '@/components/NewSliderFy'
+import Lookingforlp from '@/components/Lookingforlp'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Digitallp from '@/components/Digitallp'
+import Contact from '@/components/Contact'
 
 
 
@@ -94,7 +101,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             id: '4',
             title: 'Customized Flutter Development Solutions',
-            text: ( <> Flutter app developers at BitsWits can make customized powerful apps that help your business grow and reach more people. Hire top-rated Flutter development services and skyrocket your business growth. </> ),
+            text: (<> Flutter app developers at BitsWits can make customized powerful apps that help your business grow and reach more people. Hire top-rated Flutter development services and skyrocket your business growth. </>),
             click1: 'tab4',
             img: icon4,
             fun: game,
@@ -239,84 +246,25 @@ export default function androidappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+
+            <NewBannerFy
                 subtitle='One-Stop Shop For'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Flutter App Development</span>  Company In USA</h1></>}
+                title={<> Flutter App Development <br />  Company In USA </>}
                 text={<> BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps. Whether you want to develop an iOS or Android app, we have the skills and know-how to make it happen. Our developers have a thorough understanding of the Flutter SDK and its components, so you can rest assured that whatever app we develop for you will be built with the utmost care and precision! </>}
             />
 
+            <NewSliderFy />
 
-            <About />
-
+            <Aboutlp />
 
             <Ourservices
                 services={services1}
             />
 
-
-
-
-            {/* <div className='bgimageserve d-lg-block d-none'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        {fine.map((item, i) =>
-                            <Servicesmobile key={i}
-                                title={item.title}
-                                text={item.text}
-                                img1={item.img}
-
-                            />
-                        )}
-
-                    </Row>
-                </Container>
-            </div> */}
-
-            <div className='bgimageserve d-lg-none d-block'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                            <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center"> {revolutionize} </p>
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        <Slider {...rangSlider}>
-                            {fine.map((item, i) =>
-                                <Servicesmobile key={i}
-                                    title={item.title}
-                                    text={item.text}
-                                    img1={item.img}
-
-                                />
-                            )}
-                        </Slider>
-                    </Row>
-                </Container>
-            </div>
-
-
-            <Ready />
-            <Scalable />
-
             <Enhanced
                 subtitle='BONUSES'
                 title={<> <span className='grdiant'>Flutter App Development Company</span> That Offers Unparalleled Solutions, Limitless Possibilities! </>}
-                textnew = 'With its impressive 70% growth in mobile app development, Flutter has become one of the most popular tools for creating apps. Discover why developers around the world are choosing to use this powerful framework and explore some of its many advantages!'
+                textnew='With its impressive 70% growth in mobile app development, Flutter has become one of the most popular tools for creating apps. Discover why developers around the world are choosing to use this powerful framework and explore some of its many advantages!'
                 lop7={lop7}
 
                 lop1={lop1}
@@ -337,27 +285,34 @@ export default function androidappdevelopmentcompanylp() {
 
                 lop5={lop5}
                 titl5={<> CUSTOM <br></br> ANIMATED UI </>}
-                text5= { <> Flutter's UI capabilities give developers the power to create stunning, one-of-a-kind user interfaces. Transitioning from one element to another, manipulating shadows and clipping are just a few of the available tools that help make eye catching animations with ease. </> }
+                text5={<> Flutter's UI capabilities give developers the power to create stunning, one-of-a-kind user interfaces. Transitioning from one element to another, manipulating shadows and clipping are just a few of the available tools that help make eye catching animations with ease. </>}
 
                 lop6={lop6}
                 titl6={<> BEYOND MOBILE </>}
-                text6= {<> You're no longer limited to just mobile when it comes to Flutter-powered apps! Thanks to Dart, the programming language behind Flutter, you can now create app experiences for Smart TVs, wearables and even the web. Step into a world of endless opportunities with Beyond Mobile on your side. </> }
+                text6={<> You're no longer limited to just mobile when it comes to Flutter-powered apps! Thanks to Dart, the programming language behind Flutter, you can now create app experiences for Smart TVs, wearables and even the web. Step into a world of endless opportunities with Beyond Mobile on your side. </>}
             />
 
-            <Musicapp />
-            <Cab />
+            <Lookingforlp />
 
-            <Findfood />
+            <Consultation />
 
+            {/* <Musicapp /> */}
+
+            <Ourportfoliolp />
+
+            {/* <Cab /> */}
+
+            {/* <Findfood /> */}
+
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
 
+            <ClientsThinklp />
 
-
+            <Contact />
         </>
     )
 }

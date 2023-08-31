@@ -48,12 +48,12 @@ const Hireus = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h3 className="f-20 f-700 f-montserrat">WHY HIRE US?</h3>
-                            <h2 className="black f-50 f-700  f-playfair mt-3">
+                            <h3 className="white f-20 f-700 f-montserrat">WHY HIRE US?</h3>
+                            <h2 className="white f-50 f-700  f-playfair mt-3">
                                 What Makes <span className='grdiant'>Bitswits The Most 
                                 Recommended Mobile App  Development</span> Company?
                             </h2>
-                            <p className="black  text-center f-16 f-400 t-justify mt-3 mb-5">
+                            <p className="white text-center f-16 f-400 t-justify mt-3 mb-5">
                                 As the leading mobile app development agency, we've gathered top-notch resources to create exceptional solutions for mobile applications. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to instantly provide unparalleled solutions to our valued clients.
                             </p>
                             <Link href='#' className={`${styles.btnHire}`}>
@@ -72,7 +72,7 @@ const Hireus = () => {
                                     src={team1}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Skilled Team
                                 </p>
                             </div>
@@ -81,7 +81,7 @@ const Hireus = () => {
                                     src={team2}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Guaranteed <br /> Innovation
                                 </p>
                             </div>
@@ -90,7 +90,7 @@ const Hireus = () => {
                                     src={team3}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Result-Driven <br /> Approach
                                 </p>
                             </div>
@@ -99,7 +99,7 @@ const Hireus = () => {
                                     src={team4}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Quality & Security
                                 </p>
                             </div>
@@ -108,7 +108,7 @@ const Hireus = () => {
                                     src={team5}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Increase ROI
                                 </p>
                             </div>
@@ -117,7 +117,7 @@ const Hireus = () => {
                                     src={team6}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Non-Disclosure <br /> Agreement
                                 </p>
                             </div>
@@ -126,7 +126,7 @@ const Hireus = () => {
                                     src={team7}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     In-Depth Domain <br /> Knowledge
                                 </p>
                             </div>
@@ -135,7 +135,7 @@ const Hireus = () => {
                                     src={team8}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Integrity <br /> Transparency
                                 </p>
                             </div>
@@ -144,7 +144,7 @@ const Hireus = () => {
                                     src={team9}
 
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                     Quick and Easy  <br /> Communication
                                 </p>
                             </div>

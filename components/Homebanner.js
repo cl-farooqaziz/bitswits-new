@@ -30,9 +30,6 @@ function Homebanner(props) {
                                 }
 
 
-
-
-
                                 {props.title}
 
 

@@ -54,6 +54,7 @@ import Ourservices from '@/components/Ourservices'
 import Aboutlp from '@/components/Aboutlp'
 import NewBannerFy from '@/components/NewBannerFy'
 import NewSliderFy from '@/components/NewSliderFy'
+import Contact from '@/components/Contact'
 
 
 
@@ -265,7 +266,13 @@ export default function iosappdevelopmentcompanylp() {
             <About /> */}
 
 
-            <NewBannerFy />
+            <NewBannerFy
+                subtitle='Reimagine Possibilities With'
+                title={<> Our iOS App <br /> Development Company </>}
+                text='Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.'
+            />
+
+
             <NewSliderFy />
 
 
@@ -338,10 +345,6 @@ export default function iosappdevelopmentcompanylp() {
             {/* <Scalable /> */}
 
 
-            <Consultation />
-            <Lookingforlp />
-
-
             <Enhanced
                 subtitle='BONUSES'
                 title={<> Benefits Of <span className='grdiant'>iOS App Development</span> Services </>}
@@ -384,6 +387,12 @@ export default function iosappdevelopmentcompanylp() {
                 most advanced tools and tech stack to ensure a seamless user experience.'
             />
 
+
+            <Lookingforlp />
+
+            <Consultation />
+
+
             {/* <Musicapp /> */}
 
             <Ourportfoliolp />
@@ -393,16 +402,15 @@ export default function iosappdevelopmentcompanylp() {
             <Findfood /> */}
 
 
-
-
             <Digitallp />
 
             <Publication />
 
             <Hireus />
+
             <ClientsThinklp />
 
-
+            <Contact />
 
         </>
     )

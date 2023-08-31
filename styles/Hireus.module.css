@@ -1,5 +1,6 @@
 .resources{
-  background-color: #f3f3f3;
+  background-color: #000;
+  color: #fff;
 }
 
 .hireUs {
@@ -32,24 +33,26 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: #fff;
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   margin: 0 auto;
-
+  transition: background-color 2s;
 }
 
 .btnHire:hover {
   color: #000;
+  background-color: #fff;
+  transition: background-color 2s;
 }
 
 .team .slideBox {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-right: 0;
   height: 150px;
   width: 237px;
@@ -58,6 +61,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.team .slideBox img{
+  filter: invert(1);
 }
 
 .team .slideBox p {

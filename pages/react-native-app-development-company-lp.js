@@ -51,6 +51,13 @@ import icon4 from '../public/images/reactnativeservice/blockchain.png'
 import icon5 from '../public/images/reactnativeservice/webflow.png'
 import icon6 from '../public/images/reactnativeservice/artifical.png'
 import Ourservices from '@/components/Ourservices'
+import NewBannerFy from '@/components/NewBannerFy'
+import Aboutlp from '@/components/Aboutlp'
+import Lookingforlp from '@/components/Lookingforlp'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Digitallp from '@/components/Digitallp'
+import Contact from '@/components/Contact'
+import NewSliderFy from '@/components/NewSliderFy'
 
 
 export default function androidappdevelopmentcompanylp() {
@@ -105,7 +112,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             id: '5',
             title: 'Custom React Plugin Development for Apps',
-            text: ( <> Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience. </> ),
+            text: (<> Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience. </>),
             click1: 'tab5',
             img: icon5,
             fun: game,
@@ -250,80 +257,25 @@ export default function androidappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='BitsWits Is Your One-Stop Shop For'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> React Native </span>  Development Company</h1></>}
+                title={<> React Native <br />  Development Company </>}
                 title2={<>React Native Development is the future of mobile development. And we have already made a mark in that future without expertise in this kind of development!.</>}
                 text={<> With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and AGILITY of native development with the flexibility of JavaScript to bring comprehensive solutions to the table. </>}
                 text2={<> Take the first step toward creating an amazing mobile experience with React Native app development company from our team of experts. Contact us today to create React app! </>}
             />
 
+            <NewSliderFy />
 
-            <About />
-
+            <Aboutlp />
 
             <Ourservices
                 services={services1}
             />
 
+            <Ready />
 
-
-
-            {/* <div className='bgimageserve d-lg-block d-none'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        {fine.map((item, i) =>
-                            <Servicesmobile key={i}
-                                title={item.title}
-                                text={item.text}
-                                img1={item.img}
-
-                            />
-                        )}
-
-                    </Row>
-                </Container>
-            </div> */}
-
-            <div className='bgimageserve d-lg-none d-block'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        <Slider {...rangSlider}>
-                            {fine.map((item, i) =>
-                                <Servicesmobile key={i}
-                                    title={item.title}
-                                    text={item.text}
-                                    img1={item.img}
-
-                                />
-                            )}
-                        </Slider>
-                    </Row>
-                </Container>
-            </div>
-
-
-
+            {/* <Scalable /> */}
 
             <Enhanced
                 subtitle='BENEFITS'
@@ -355,24 +307,27 @@ export default function androidappdevelopmentcompanylp() {
                 text6='React Native offers access to third-party plugins that simplify the process of app building.'
             />
 
+            <Lookingforlp />
 
+            <Consultation />
 
-            <Ready />
-            <Scalable />
+            {/* <Musicapp /> */}
 
-            <Musicapp />
-            <Cab />
+            <Ourportfoliolp />
 
-            <Findfood />
+            {/* <Cab /> */}
 
+            {/* <Findfood /> */}
+
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
 
+            <ClientsThinklp />
 
+            <Contact />
 
         </>
     )

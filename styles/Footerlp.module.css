@@ -88,6 +88,23 @@
   text-decoration: underline !important;
 }
 
+.startup1 img {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.minImg img {
+  width: 75%;
+}
+
+.strpImg {
+  text-align: center;
+}
+
+.project{
+  padding: 50px 0 0;
+}
+
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 767px) {
