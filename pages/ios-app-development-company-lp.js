@@ -51,6 +51,11 @@ import icon4 from '../public/images/iphoneservice/blockchain.png'
 import icon5 from '../public/images/iphoneservice/webflow.png'
 import icon6 from '../public/images/iphoneservice/artifical.png'
 import Ourservices from '@/components/Ourservices'
+import Aboutlp from '@/components/Aboutlp'
+import NewBannerFy from '@/components/NewBannerFy'
+import NewSliderFy from '@/components/NewSliderFy'
+
+
 
 export default function iosappdevelopmentcompanylp() {
 
@@ -250,14 +255,21 @@ export default function iosappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+            {/* <Homebanner
                 subtitle='Reimagine Possibilities With'
                 title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'> Our   <span className='grdiant'> iOS App</span>  Development Company</h1></>}
                 text='Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.'
             />
 
 
-            <About />
+            <About /> */}
+
+
+            <NewBannerFy />
+            <NewSliderFy />
+
+
+            <Aboutlp />
 
 
 
@@ -325,6 +337,8 @@ export default function iosappdevelopmentcompanylp() {
             <Ready />
             {/* <Scalable /> */}
 
+
+            <Consultation />
             <Lookingforlp />
 
 

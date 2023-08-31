@@ -4,6 +4,7 @@ import '@/styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { useRouter } from "next/router";
 import Footerlp from '@/components/Footer-lp';
+import NewHeaderFy from '@/components/NewHeaderFy';
 
 export default function App({ Component, pageProps }) {
 
@@ -21,8 +22,16 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Header />
 
+
+      {newfooter ?
+
+        <NewHeaderFy />
+
+        :
+
+        <Header />
+      }
 
       <Component {...pageProps} />
 

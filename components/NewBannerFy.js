@@ -28,11 +28,11 @@ const NewBannerFy = () => {
                     <Col lg={8}>
                         <div className={`${styles.banerTxt} ps-0 ps-md-3 ps-lg-0`}>
                             <h1 className='white fontf font-bold mb-4'>
-                                The Top Android App <br /> Development Company <br /> in US!
+                            Our iOS App  Development Company
                             </h1>
 
                             <p className='white f-montserrat mb-2'>
-                                BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development company firmly believes that no two businesses are the same, and neither should their apps be.
+                            Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.
                             </p>
 
                             <div className={`${styles.bttnsto} mt-5`}>

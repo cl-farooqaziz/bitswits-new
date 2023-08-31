@@ -124,11 +124,7 @@
   position: relative;
   height: 100%;
 }
-.output img {
-  position: absolute;
-  height: auto;
-  bottom: 0px;
-}
+
 
 .bottom4 {
   width: 100%;

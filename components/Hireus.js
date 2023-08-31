@@ -43,6 +43,7 @@ const Hireus = () => {
 
     return (
         <>
+        <section className={styles.resources}>
             <section className={styles.hireUs}>
                 <Container>
                     <Row>
@@ -150,6 +151,7 @@ const Hireus = () => {
                         </Slider>
                     </Col>
                 </Row>
+            </section>
             </section>
         </>
     )
