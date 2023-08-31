@@ -10,7 +10,7 @@ const Consultation = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h3 className="orange f-18 f-700 f-montserrat">GET A FREE CONSULTATION</h3>
+                            <h3 className="grdiant f-18 f-700 f-montserrat">GET A FREE CONSULTATION</h3>
                             <h2 className="white f-50 f-700  f-playfair mt-3 mb-5">
                                 Looking For Expert Guidance On 
                                 Your Mobile App Development  Project?
