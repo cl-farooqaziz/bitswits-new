@@ -17,10 +17,11 @@ import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import { RxCross2 } from 'react-icons/rx'
 import Freequote from './Freequote'
 import { useState } from "react";
+
+
 const Banner = () => {
 
     const [show, setShow] = useState(false);
@@ -76,27 +77,6 @@ const Banner = () => {
                                         <Image alt="bitswits" src={banImg5} className="img-fluid" />
                                     </div>
                                 </Slider>
-
-                                {/* <div className={styles.bannerimg1}>
-                                    <div className={` ${styles.logo1} ${styles.logo13} `}>
-                                        <Image  alt="bitswits"       src={alignicon4} className={` ${styles.bottom}  img-fluid`} />
-                                        <Image  alt="bitswits"       src={alignicon3} className={`${styles.bottom1}  img-fluid mt-3`} />
-                                    </div>
-
-                                    <div className={styles.logo1}>
-                                        <Image  alt="bitswits"       src={alignicon} className={`${styles.bottom2} img-fluid`} />
-                                    </div>
-
-                                    <div className={` ${styles.logo1} ${styles.logo14} `}>
-                                        <Image  alt="bitswits"       src={alignicon2} className={`${styles.bottom3} img-fluid`} />
-                                        <Image  alt="bitswits"       src={alignicon1} className={`${styles.bottom4} img-fluid`} />
-
-                                    </div>
-                                </div> */}
-
-                                {/* <Image  alt="bitswits"       src={alignicon} className="img-fluid" />
-                            <Image  alt="bitswits"       src={alignicon1} className="img-fluid" />
-                            <Image  alt="bitswits"       src={alignicon2} className="img-fluid" /> */}
                             </div>
                         </div>
                     </Col>
