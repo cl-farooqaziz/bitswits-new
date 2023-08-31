@@ -5,6 +5,8 @@ import Publication from '@/components/Publication'
 import Range from '@/components/Range'
 import Hireus from '@/components/Hireus'
 import Consultancy from '@/components/Consultancy'
+import About from '@/components/About'
+import ClientsThinklp from '@/components/ClientsThinklp'
 import Creativeopportunities from '@/components/Creativeopportunities'
 import Developer from '@/components/Developer'
 import Counter from '@/components/Counter';
@@ -484,7 +486,8 @@ export default function gamedevelopmentcompany2dlp() {
             />
 
 
-            <Consultancy />
+            <About />
+
 
 
 
@@ -682,8 +685,8 @@ export default function gamedevelopmentcompany2dlp() {
             <Publication />
 
             <Range />
-
-            <Hireus />
+  <Hireus />
+<ClientsThinklp/>
 
 
 

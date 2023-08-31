@@ -44,6 +44,12 @@
   margin-top: 5%;
 }
 
+.orange{
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .clientData img {
   width: 125px;
 }
@@ -88,9 +94,12 @@
   margin-top: 3%;
 }
 
+.clientDataTxt img{
+  filter: grayscale();
+}
+
 .value {
   font-size: 50px;
-  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 2%;

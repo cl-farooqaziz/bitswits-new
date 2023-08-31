@@ -5,6 +5,8 @@ import Publication from '@/components/Publication'
 import Range from '@/components/Range'
 import Hireus from '@/components/Hireus'
 import Consultancy from '@/components/Consultancy'
+import About from '@/components/About'
+import ClientsThinklp from '@/components/ClientsThinklp'
 import Creativeopportunities from '@/components/Creativeopportunities'
 import Developer from '@/components/Developer'
 import Counter from '@/components/Counter';
@@ -493,7 +495,8 @@ export default function blockchaingamedevelopmentcompanylp() {
             />
 
 
-            <Consultancy />
+            <About />
+
 
             <Yearsofexpertise
                 loop1={<> <Counter stopNumber={500} />+</>}
@@ -650,8 +653,8 @@ export default function blockchaingamedevelopmentcompanylp() {
             <Publication />
 
             <Range />
-
-            <Hireus />
+  <Hireus />
+<ClientsThinklp/>
 
 
 

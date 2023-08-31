@@ -68,9 +68,9 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}></div>
-              <h3 className='f-18 f-700 orange mb-3 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+              <h3 className={`${styles.orange} f-18 f-700 mb-3`}>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
-              <p className={` ${styles.canva} black`}>
+              <p className={` ${styles.canva} black `}>
                 BitsWits was a lifesaver for our business. We needed to create an app that could be used on
                 multiple platforms, but we didn’t have a lot of technical know-how or additional development
                 resources. Their team made it easy for us and delivered exactly what we needed. They stayed on
@@ -84,7 +84,7 @@ const Whatourclients = () => {
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
-                  <p className='f-18 f-700 f-montserrat orange mb-0'><b>Bryce Carlos</b></p>
+                  <p className={`${styles.orange} f-18 f-700 f-montserrat mb-0`}><b>Bryce Carlos</b></p>
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">CEO / Founder <strong className="f-uppercase">Soul Sound</strong> </span>
                   </h4>
@@ -97,7 +97,7 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}></div>
-              <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS</h3>
+              <h3 className={`${styles.orange} f-18 f-700 mb-3`}>GRATITUDE FROM GLOBAL FOLLOWERS</h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
               <p className={` ${styles.canva} black`}>
                 We hired mobile app developers to create a completely new mobile app for our company. The team
@@ -113,7 +113,7 @@ const Whatourclients = () => {
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
-                  <p className='f-18 f-700 f-montserrat orange mb-0'><b>Aden Ward</b></p>
+                  <p className={`${styles.orange} f-18 f-700 f-montserrat mb-0`}><b>Aden Ward</b></p>
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Co-Founder <strong className="f-uppercase">ProHealth</strong> </span>
                   </h4>
@@ -126,7 +126,7 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}></div>
-              <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+              <h3 className={`${styles.orange} f-18 f-700 mb-3`}>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
               <p className={` ${styles.canva} black`}>
                 We recently worked with BitsWits to build a custom mobile app for our business. Their mobile app
@@ -142,7 +142,7 @@ const Whatourclients = () => {
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
-                  <p className='f-18 f-700 f-montserrat orange mb-0'><b>Annabella Josh</b></p>
+                  <p className={`${styles.orange} f-18 f-700 f-montserrat mb-0`}><b>Annabella Josh</b></p>
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">CEO <strong className="f-uppercase">Find Food</strong> </span>
                   </h4>
@@ -155,7 +155,7 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}></div>
-              <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+              <h3 className={`${styles.orange} f-18 f-700 mb-3`}>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
               <p className={` ${styles.canva} black`}>
                 We were looking for a reliable team of Flutter app developers, and we found the perfect fit in
@@ -170,7 +170,7 @@ const Whatourclients = () => {
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
-                  <p className='f-18 f-700 f-montserrat orange mb-0'><b>Abraham Jones</b></p>
+                  <p className={`${styles.orange} f-18 f-700 f-montserrat mb-0`}><b>Abraham Jones</b></p>
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Co-Founder <strong className="f-uppercase">EZ Ride</strong> </span>
                   </h4>
@@ -183,7 +183,7 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}></div>
-              <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+              <h3 className={`${styles.orange} f-18 f-700 mb-3`}>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
               <p className={` ${styles.canva} black`}>
                 We're very satisfied with the results of our working relationship with BitsWits.
@@ -200,7 +200,7 @@ const Whatourclients = () => {
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
-                  <p className='f-18 f-700 f-montserrat orange mb-0'><b>Chavi Miles</b></p>
+                  <p className={`${styles.orange} f-18 f-700 f-montserrat mb-0`}><b>Chavi Miles</b></p>
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Co-Founder <strong className="f-uppercase">Bliss Travel</strong> </span>
                   </h4>
@@ -213,7 +213,7 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}></div>
-              <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+              <h3 className={`${styles.orange} f-18 f-700 mb-3`}>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
               <p className={` ${styles.canva} black`}>
                 BitsWits have done a great job making an attractive and eye-catching IOS application.
@@ -228,7 +228,7 @@ const Whatourclients = () => {
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
-                  <p className='f-18 f-700 f-montserrat orange mb-0'><b>Andrew Drake</b></p>
+                  <p className={`${styles.orange} f-18 f-700 f-montserrat mb-0`}><b>Andrew Drake</b></p>
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Founder and CEO <strong className="f-uppercase">Mark Place</strong> </span>
                   </h4>
@@ -241,7 +241,7 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}></div>
-              <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+              <h3 className={`${styles.orange} f-18 f-700 mb-3`}>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
               <p className={` ${styles.canva} black`}>
                 Hiring Flutter app developers from BitsWits was one of the best decisions I have ever made. They
@@ -257,7 +257,7 @@ const Whatourclients = () => {
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
-                  <p className='f-18 f-700 f-montserrat orange mb-0'><b>Winnie Brooks</b></p>
+                  <p className={`${styles.orange} f-18 f-700 f-montserrat mb-0`}><b>Winnie Brooks</b></p>
                   <h4 className="black f-15 f-montserrat my-2">
                     <span className="f-400">Founder and CEO <strong className="f-uppercase">Glow Spa</strong> </span>
                   </h4>
