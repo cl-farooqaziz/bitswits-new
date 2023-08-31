@@ -27,10 +27,14 @@ import Findfood from '@/components/Findfood'
 import Cab from '@/components/Cab'
 import Musicapp from '@/components/Musicapp'
 import Consultancy from '@/components/Consultancy'
+import About from '@/components/About'
+import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
-
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Digitallp from '@/components/Digitallp'
+import Lookingforlp from '@/components/Lookingforlp'
 import lop1 from '/public/images/bonusandriod/1.webp'
 import lop2 from '/public/images/bonusandriod/2.webp'
 import lop3 from '/public/images/bonusandriod/3.webp'
@@ -93,7 +97,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             id: '4',
             title: 'Android Wear Development',
-            text: ( <> Expand your reach in the wearable market with our expert Android developers. Our advanced Android Wear solutions will give you a competitive edge and elevate your brand visibility. Allow us to help you take your enterprise to new heights. </> ),
+            text: (<> Expand your reach in the wearable market with our expert Android developers. Our advanced Android Wear solutions will give you a competitive edge and elevate your brand visibility. Allow us to help you take your enterprise to new heights. </>),
             click1: 'tab4',
             img: icon4,
             fun: game,
@@ -250,7 +254,8 @@ export default function androidappdevelopmentcompanylp() {
             />
 
 
-            <Consultancy />
+            <About />
+
 
             <Ourservices
                 services={services1}
@@ -259,7 +264,7 @@ export default function androidappdevelopmentcompanylp() {
 
 
 
-{/* 
+            {/* 
             <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
@@ -314,7 +319,9 @@ export default function androidappdevelopmentcompanylp() {
 
 
             <Ready />
-            <Scalable />
+            {/* <Scalable /> */}
+
+            <Lookingforlp />
 
             <Enhanced
                 subtitle='BONUSES'
@@ -347,17 +354,23 @@ export default function androidappdevelopmentcompanylp() {
             />
 
 
-            <Musicapp />
+            {/* <Musicapp />
+
+
+
             <Cab />
 
-            <Findfood />
+            <Findfood /> */}
 
+            <Ourportfoliolp />
+
+
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-
             <Hireus />
+            <ClientsThinklp />
 
 
 

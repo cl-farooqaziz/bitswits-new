@@ -29,6 +29,8 @@ import Findfood from '@/components/Findfood'
 import Cab from '@/components/Cab'
 import Musicapp from '@/components/Musicapp'
 import Consultancy from '@/components/Consultancy'
+import About from '@/components/About'
+import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
@@ -255,7 +257,8 @@ export default function androidappdevelopmentcompanylp() {
             />
 
 
-            <Consultancy />
+            <About />
+
 
             <Ourservices
                 services={services1}
@@ -362,8 +365,8 @@ export default function androidappdevelopmentcompanylp() {
             <Publication />
 
             <Range />
-
-            <Hireus />
+  <Hireus />
+<ClientsThinklp/>
 
 
 

@@ -15,7 +15,7 @@ import Whatourclients from '@/components/Whatourclients'
 import Partner from '@/components/Partner'
 import Servicesmobile from '@/components/Servicesmobile'
 import Publication from '@/components/Publication'
-import Range from '@/components/Range'
+import Digitallp from '@/components/Digitallp'
 import Integration from '@/components/Integration'
 import Hireus from '@/components/Hireus'
 import Consultation from '@/components/Consultation'
@@ -24,9 +24,13 @@ import GetInTouch from '@/components/GetInTouch'
 import Locations from '@/components/Locations'
 import Videotestimonial from '@/components/Videotestimonial'
 import Findfood from '@/components/Findfood'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Cab from '@/components/Cab'
 import Musicapp from '@/components/Musicapp'
+import Lookingforlp from '@/components/Lookingforlp'
 import Consultancy from '@/components/Consultancy'
+import About from '@/components/About'
+import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
@@ -93,7 +97,7 @@ export default function iosappdevelopmentcompanylp() {
         {
             id: '4',
             title: 'Apple Tv App Development',
-            text: ( <> Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality! </> ),
+            text: (<> Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality! </>),
             click1: 'tab4',
             img: icon4,
             fun: game,
@@ -253,7 +257,8 @@ export default function iosappdevelopmentcompanylp() {
             />
 
 
-            <Consultancy />
+            <About />
+
 
 
             <Ourservices
@@ -263,7 +268,7 @@ export default function iosappdevelopmentcompanylp() {
 
 
 
-            <div className='bgimageserve d-lg-block d-none'>
+            {/* <div className='bgimageserve d-lg-block d-none'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
                         <div>
@@ -287,9 +292,9 @@ export default function iosappdevelopmentcompanylp() {
 
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
-            <div className='bgimageserve d-lg-none d-block'>
+            {/* <div className='bgimageserve d-lg-none d-block'>
                 <Container className='ourspacing'>
                     <Row className='mb-5'>
                         <div>
@@ -314,11 +319,13 @@ export default function iosappdevelopmentcompanylp() {
                         </Slider>
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
 
             <Ready />
-            <Scalable />
+            {/* <Scalable /> */}
+
+            <Lookingforlp />
 
 
             <Enhanced
@@ -363,17 +370,23 @@ export default function iosappdevelopmentcompanylp() {
                 most advanced tools and tech stack to ensure a seamless user experience.'
             />
 
-            <Musicapp />
-            <Cab />
+            {/* <Musicapp /> */}
 
-            <Findfood />
+            <Ourportfoliolp />
 
+            {/* <Cab />
+
+            <Findfood /> */}
+
+
+
+
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-
             <Hireus />
+            <ClientsThinklp />
 
 
 
