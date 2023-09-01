@@ -34,6 +34,10 @@ import pic3 from '/public/images/supergameapp/3.png'
 import pic4 from '/public/images/supergameapp/4.png'
 import pic5 from '/public/images/supergameapp/5.png'
 import engagement from '/public/images/step/4.png'
+import Contact from '@/components/Contact'
+import NewSliderFy from '@/components/NewSliderFy'
+import Aboutlp from '@/components/Aboutlp'
+import NewBannerFy from '@/components/NewBannerFy'
 
 
 export default function gameappdevelopmentcompanylp() {
@@ -357,14 +361,16 @@ export default function gameappdevelopmentcompanylp() {
             </Head>
 
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='AWARDED #1 GAME APP DEVELOPMENT COMPANY'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'> Experience The <span className='grdiant'>Roller Coaster Of The Gaming World</span> With Us!  </h1></>}
+                title={<> Experience The <br /> With Us! </>}
 
             />
 
 
-            <About />
+            <NewSliderFy />
+
+            <Aboutlp />
 
 
             <Yearsofexpertise
@@ -418,7 +424,7 @@ export default function gameappdevelopmentcompanylp() {
 
             />
 
-            <Invigorate/>
+            <Invigorate />
 
 
 
@@ -464,7 +470,7 @@ export default function gameappdevelopmentcompanylp() {
 
 
 
-           
+
 
 
 
@@ -481,7 +487,7 @@ export default function gameappdevelopmentcompanylp() {
             <Developer
                 subtitle2={<>  HIRE THE BEST; FORGET THE REST! </>}
                 subtitle={<>  Why Engage BitsWits As Your <br></br> <span className='grdiant'>Game Development </span> Studio? </>}
-               
+
                 pic1={pic1}
                 tit1='Unpaired Expertise'
                 text1={<> Our team brings a wealth of expertise to the table. We celebrate a team of experts in game design, programming, and art direction, ensuring your vision for a video game comes to life with precision and accuracy. </>}
@@ -508,10 +514,6 @@ export default function gameappdevelopmentcompanylp() {
             />
 
 
-
-
-
-
             <Tribute
                 subtitle='GAME DEVELOPMENT'
                 title='Past Projects Are A Glorious Tribute To Our Unwavering Devotion to Quality and Innovation!'
@@ -522,11 +524,9 @@ export default function gameappdevelopmentcompanylp() {
             <Publication />
 
             <Range />
-  <Hireus />
-<ClientsThinklp/>
-
-
-
+            <Hireus />
+            <ClientsThinklp />
+            <Contact />
         </>
     )
 }

@@ -38,12 +38,16 @@ import engagement from '/public/images/step/1.png'
 
 
 import icon1 from '../public/images/2dgamedevelopment/sideimg.png'
-import icon2 from '../public/images/2dgamedevelopment/game.png'
-import icon3 from '../public/images/2dgamedevelopment/web30.png'
-import icon4 from '../public/images/2dgamedevelopment/blockchain.png'
-import icon5 from '../public/images/2dgamedevelopment/webflow.png'
-import icon6 from '../public/images/2dgamedevelopment/artifical.png'
+import icon2 from '../public/images/2dgamedevelopment/game1.png'
+import icon3 from '../public/images/2dgamedevelopment/web301.png'
+import icon4 from '../public/images/2dgamedevelopment/blockchain1.png'
+import icon5 from '../public/images/2dgamedevelopment/webflow1.png'
+import icon6 from '../public/images/2dgamedevelopment/artifical1.png'
 import Ourservices from '@/components/Ourservices'
+import Aboutlp from '@/components/Aboutlp'
+import NewSliderFy from '@/components/NewSliderFy'
+import NewBannerFy from '@/components/NewBannerFy'
+import Contact from '@/components/Contact'
 
 export default function gamedevelopmentcompany2dlp() {
 
@@ -478,17 +482,17 @@ export default function gamedevelopmentcompany2dlp() {
             </Head>
 
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='Best In Animation, Graphics, & Design - Your Own'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> 2D Game </span>  Development Company!</h1></>}
+                title={<> 2D Game <br />  Development Company! </>}
                 text={<> From classic platformers to immersive RPGs, our 2D games will have your target market addicted in no time. We specialize in crafting highly detailed and interactive worlds, characters, and stories that will capture your imagination and keep your prospects hooked for hours on end. With ultra-realistic visuals and cutting-edge physics, we ensure that your games look and feel as realistic as possible. Whether you're looking for an app, a console game, or something completely different – we are here to help! </>}
                 btn1='Consult A Gaming Expert To Begin'
             />
 
 
-            <About />
+            <NewSliderFy />
 
-
+            <Aboutlp />
 
 
             <Yearsofexpertise
@@ -603,9 +607,6 @@ export default function gamedevelopmentcompany2dlp() {
             </Container>
 
 
-
-
-
             <Container className='topbottom'>
                 <Row>
                     <Col>
@@ -663,16 +664,9 @@ export default function gamedevelopmentcompany2dlp() {
                 tit4='Exclusive Client Services'
                 text4={<> We are also proud to offer exclusive client services, including game beta testing and post-release support. We guarantee a smooth launch for your game and ensure your players have the best experience possible. </>}
 
-
                 pic5={pic5}
 
-
-
             />
-
-
-
-
 
 
             <Tribute
@@ -685,9 +679,12 @@ export default function gamedevelopmentcompany2dlp() {
             <Publication />
 
             <Range />
-  <Hireus />
-<ClientsThinklp/>
 
+            <Hireus />
+
+            <ClientsThinklp />
+
+            <Contact />
 
 
         </>

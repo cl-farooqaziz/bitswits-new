@@ -38,12 +38,16 @@ import engagement from '/public/images/step/2.png'
 
 
 import icon1 from '../public/images/3dgamedevelopmentservices/sideimg.png'
-import icon2 from '../public/images/3dgamedevelopmentservices/game.png'
-import icon3 from '../public/images/3dgamedevelopmentservices/web30.png'
-import icon4 from '../public/images/3dgamedevelopmentservices/blockchain.png'
-import icon5 from '../public/images/3dgamedevelopmentservices/webflow.png'
-import icon6 from '../public/images/3dgamedevelopmentservices/artifical.png'
+import icon2 from '../public/images/3dgamedevelopmentservices/game1.png'
+import icon3 from '../public/images/3dgamedevelopmentservices/web301.png'
+import icon4 from '../public/images/3dgamedevelopmentservices/blockchain1.png'
+import icon5 from '../public/images/3dgamedevelopmentservices/webflow1.png'
+import icon6 from '../public/images/3dgamedevelopmentservices/artifical1.png'
 import Ourservices from '@/components/Ourservices'
+import Aboutlp from '@/components/Aboutlp'
+import NewSliderFy from '@/components/NewSliderFy'
+import NewBannerFy from '@/components/NewBannerFy'
+import Contact from '@/components/Contact'
 
 export default function gamedevelopmentcompany3dlp() {
 
@@ -97,7 +101,7 @@ export default function gamedevelopmentcompany3dlp() {
         {
             id: '5',
             title: 'Support and Maintenance',
-            text: ( <> BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends. </> ),
+            text: (<> BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends. </>),
             click1: 'tab5',
             img: icon5,
             fun: game,
@@ -481,15 +485,17 @@ export default function gamedevelopmentcompany3dlp() {
             </Head>
 
 
-            <Homebanner
+            <NewBannerFy
                 subtitle={<> Best <span className='grdiant'>3d GAME</span> DEVELOPMENT COMPANY </>}
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>  Dedicated To Providing Customized <span className='grdiant'> Gaming Solution </span> </h1></>}
+                title={<> Dedicated To Providing Customized <br /> Gaming Solution </>}
                 text={<> BitsWits is a premier game development studio specializing in creating 3D immersive, interactive worlds. We specialize in developing various 3D games, from MMOs and RPGs to FPS and puzzle games for PC, console, and mobile platforms. What more can you expect to get your audience driving? Get ready to create richly detailed graphics that bring your vision to life! </>}
                 btn1='Consult A Gaming Expert To Begin'
             />
 
 
-            <About />
+            <NewSliderFy />
+
+            <Aboutlp />
 
 
             <Yearsofexpertise
@@ -673,10 +679,10 @@ export default function gamedevelopmentcompany3dlp() {
             <Publication />
 
             <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
+            <ClientsThinklp />
 
-
+            <Contact />
 
         </>
     )

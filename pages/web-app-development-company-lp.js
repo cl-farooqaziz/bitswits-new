@@ -40,6 +40,13 @@ import lop4 from '/public/images/bonuswepapp/4.png'
 import lop5 from '/public/images/bonuswepapp/5.png'
 import lop6 from '/public/images/bonuswepapp/6.png'
 import lop7 from '/public/images/bonuswepapp/mobile.png'
+import Aboutlp from '@/components/Aboutlp'
+import NewSliderFy from '@/components/NewSliderFy'
+import NewBannerFy from '@/components/NewBannerFy'
+import Lookingforlp from '@/components/Lookingforlp'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Digitallp from '@/components/Digitallp'
+import Contact from '@/components/Contact'
 
 export default function androidappdevelopmentcompanylp() {
 
@@ -169,9 +176,9 @@ export default function androidappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='Top-notch Web Development Company'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Where Imagination </span>Meets Creativity</h1></>}
+                title={<> Where Imagination <br />Meets Creativity </>}
 
                 text={<> BitsWits is a future-forward, human-centered, and client-focused web development company that revolutionizes the way businesses appear on the online paradigm. We build dynamic, multi-purpose, secure, and highly-performing websites that help brands gain online traction in no time. With sheer expertise in cutting-edge technology, state-of-the-art frameworks, and buzzed-about programming languages, we make the development process an absolute breeze.
                 </>}
@@ -179,22 +186,17 @@ export default function androidappdevelopmentcompanylp() {
             />
 
 
-            <About />
+            <NewSliderFy />
 
-
-
+            <Aboutlp />
 
             <Dedicated />
 
-
-
-
-             
             <Enhanced
                 subtitle='WHAT MAKES US STAND OUT?'
                 title={<> Empowering Your Web Identity with Our
                     <span className='grdiant'> Full Stack Development</span> Services </>}
-                    textnew ={ <> Capitalized on years of experience, BitsWits has become the most sought-after choice for full-stack web development needs. With a pool of talented web developers, we go the extra mile to develop scalable and highly-functional front-end and back-end solutions and database management. The motive of our company is to offer result-oriented enterprise-grade web solutions that CONVERT. We not only make the projects happen in record time but also extend our services to provide maintenance and support after the website launch. Our developers are well-versed in DevOps, front-end, and back-end that use advanced technologies and different frameworks to develop data-driven web solutions for you. Thousands of successful projects go to our credit; we take pride in serving clients from different industries, i.e., retail, eCommerce, medical, infrastructure, automobile, etc. The languages that are the cornerstone of our services include but are not limited to Angular, React, HTML 5, Vue.js, node.js, Express JS, Microsoft.NET, C#, Java, Python, PHP, and others. </> }
+                textnew={<> Capitalized on years of experience, BitsWits has become the most sought-after choice for full-stack web development needs. With a pool of talented web developers, we go the extra mile to develop scalable and highly-functional front-end and back-end solutions and database management. The motive of our company is to offer result-oriented enterprise-grade web solutions that CONVERT. We not only make the projects happen in record time but also extend our services to provide maintenance and support after the website launch. Our developers are well-versed in DevOps, front-end, and back-end that use advanced technologies and different frameworks to develop data-driven web solutions for you. Thousands of successful projects go to our credit; we take pride in serving clients from different industries, i.e., retail, eCommerce, medical, infrastructure, automobile, etc. The languages that are the cornerstone of our services include but are not limited to Angular, React, HTML 5, Vue.js, node.js, Express JS, Microsoft.NET, C#, Java, Python, PHP, and others. </>}
                 lop7={lop7}
 
                 lop1={lop1}
@@ -215,29 +217,28 @@ export default function androidappdevelopmentcompanylp() {
 
                 lop5={lop5}
                 titl5={<> ERP SOLUTIONS </>}
-                text5= { <> Our ERP development solutions help you manage and seamlessly automate your daily business activities. With this integrated management, we help you manage your business's core functions efficiently. </> }
+                text5={<> Our ERP development solutions help you manage and seamlessly automate your daily business activities. With this integrated management, we help you manage your business's core functions efficiently. </>}
 
                 lop6={lop6}
                 titl6={<> MAINTENANCE & <br></br> SUPPORT </>}
                 text6='We remain 24/7 operational to help businesses streamline their operations. Even after the project is done and dusted, we provide maintenance and support services to keep your website up and running even in crucial times.'
-            />       
-           
-            <Ready />
-            <Scalable />
+            />
 
-            <Musicapp />
-            <Cab />
+            <Lookingforlp />
 
-            <Findfood />
+            <Consultation />
 
+            <Ourportfoliolp />
+
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
 
+            <ClientsThinklp />
 
+            <Contact />
 
         </>
     )

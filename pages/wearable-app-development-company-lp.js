@@ -45,12 +45,19 @@ import lop7 from '/public/images/bonuswear/android.png'
 
 import React, { useState } from 'react';
 import icon1 from '../public/images/wearableservice/sideimg.png'
-import icon2 from '../public/images/wearableservice/game.png'
-import icon3 from '../public/images/wearableservice/web30.png'
-import icon4 from '../public/images/wearableservice/blockchain.png'
-import icon5 from '../public/images/wearableservice/webflow.png'
-import icon6 from '../public/images/wearableservice/artifical.png'
+import icon2 from '../public/images/wearableservice/game1.png'
+import icon3 from '../public/images/wearableservice/web301.png'
+import icon4 from '../public/images/wearableservice/blockchain1.png'
+import icon5 from '../public/images/wearableservice/webflow1.png'
+import icon6 from '../public/images/wearableservice/artifical1.png'
 import Ourservices from '@/components/Ourservices'
+import NewBannerFy from '@/components/NewBannerFy'
+import NewSliderFy from '@/components/NewSliderFy'
+import Aboutlp from '@/components/Aboutlp'
+import Lookingforlp from '@/components/Lookingforlp'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Digitallp from '@/components/Digitallp'
+import Contact from '@/components/Contact'
 
 
 
@@ -105,7 +112,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             id: '5',
             title: 'API & Back-End System Development',
-            text: ( <> With the right expertise, our developers create powerful applications that work seamlessly with various devices. Our team is experienced in crafting custom APIs and developing a secure, reliable backend system to ensure your wearable app runs smoothly and efficiently at all times. </> ),
+            text: (<> With the right expertise, our developers create powerful applications that work seamlessly with various devices. Our team is experienced in crafting custom APIs and developing a secure, reliable backend system to ensure your wearable app runs smoothly and efficiently at all times. </>),
             click1: 'tab5',
             img: icon5,
             fun: game,
@@ -248,84 +255,27 @@ export default function androidappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='Put Your App on the Go with Our'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Wearable App </span> Development Company!</h1></>}
-
+                title={<> Wearable App <br /> Development Company! </>}
                 text={<> We understand the importance of connecting people with their devices and data. Our wearable application development company allow us to help you create the perfect app for your needs. From fitness tracking and health monitoring to access information at a glance, our developers are ready to assist in creating applications that will make life easier and more efficient. With our expertise and experience in the field of wearable technology, you can trust us to deliver the best service possible. </>}
                 text2={<> Choose us for all your wearable application development needs, and let us help you create an app that will make life easier, faster, and more connected. </>}
             />
 
+            <NewSliderFy />
 
-            <About />
-
+            <Aboutlp />
 
             <Ourservices
                 services={services1}
             />
 
-
-
-
-            {/* <div className='bgimageserve d-lg-block d-none'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        {fine.map((item, i) =>
-                            <Servicesmobile key={i}
-                                title={item.title}
-                                text={item.text}
-                                img1={item.img}
-
-                            />
-                        )}
-
-                    </Row>
-                </Container>
-            </div> */}
-
-            <div className='bgimageserve d-lg-none d-block'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        <Slider {...rangSlider}>
-                            {fine.map((item, i) =>
-                                <Servicesmobile key={i}
-                                    title={item.title}
-                                    text={item.text}
-                                    img1={item.img}
-
-                                />
-                            )}
-                        </Slider>
-                    </Row>
-                </Container>
-            </div>
-
-
+            <Ready />
 
             <Enhanced
                 subtitle='WHY SETTLE FOR LESS WHEN YOU CAN HAVE THE BEST?'
                 title={<> Enjoy The Convenience of a <span className='grdiant'>One-Stop Shop for All Your Mobile App</span> Needs With Our Top <span className='grdiant'>Mobile Application</span> Company! </>}
-                textnew = 'BitsWits takes pride in prioritizing cutting-edge technology to create seamless user experiences across multiple platforms, including iOS, Android, and web apps. Needless to say, we strive to ensure that the products we deliver are tailored to meet the specific needs of our clients. At our web and mobile app development company, we give you countless reasons to confide in us!'
+                textnew='BitsWits takes pride in prioritizing cutting-edge technology to create seamless user experiences across multiple platforms, including iOS, Android, and web apps. Needless to say, we strive to ensure that the products we deliver are tailored to meet the specific needs of our clients. At our web and mobile app development company, we give you countless reasons to confide in us!'
                 lop7={lop7}
 
                 lop1={lop1}
@@ -350,25 +300,24 @@ export default function androidappdevelopmentcompanylp() {
 
                 lop6={lop6}
                 titl6={<> COMPETITIVE PRICE <br></br> STRUCTURE </>}
-                text6= { <> We provide competitive pricing that can't be beaten. Our prices are fair and transparent, allowing customers to get the highest quality product without breaking their budget. </> }
+                text6={<> We provide competitive pricing that can't be beaten. Our prices are fair and transparent, allowing customers to get the highest quality product without breaking their budget. </>}
             />
 
-            <Ready />
-            <Scalable />
+            <Lookingforlp />
 
-            <Musicapp />
-            <Cab />
+            <Consultation />
 
-            <Findfood />
+            <Ourportfoliolp />
 
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
 
+            <ClientsThinklp />
 
+            <Contact />
 
         </>
     )

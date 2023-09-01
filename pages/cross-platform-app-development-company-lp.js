@@ -48,12 +48,19 @@ import lop7 from '/public/images/bonuscross/mobile.png'
 
 import React, { useState } from 'react';
 import icon1 from '../public/images/crossplatformservices/sideimg.png'
-import icon2 from '../public/images/crossplatformservices/game.png'
-import icon3 from '../public/images/crossplatformservices/web30.png'
-import icon4 from '../public/images/crossplatformservices/blockchain.png'
-import icon5 from '../public/images/crossplatformservices/webflow.png'
-import icon6 from '../public/images/crossplatformservices/artifical.png'
+import icon2 from '../public/images/crossplatformservices/game1.png'
+import icon3 from '../public/images/crossplatformservices/web301.png'
+import icon4 from '../public/images/crossplatformservices/blockchain1.png'
+import icon5 from '../public/images/crossplatformservices/webflow1.png'
+import icon6 from '../public/images/crossplatformservices/artifical1.png'
 import Ourservices from '@/components/Ourservices'
+import NewBannerFy from '@/components/NewBannerFy'
+import NewSliderFy from '@/components/NewSliderFy'
+import Aboutlp from '@/components/Aboutlp'
+import Lookingforlp from '@/components/Lookingforlp'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Digitallp from '@/components/Digitallp'
+import Contact from '@/components/Contact'
 
 export default function androidappdevelopmentcompanylp() {
 
@@ -97,7 +104,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             id: '4',
             title: 'Web-Based Cross-Platform Apps',
-            text: ( <> We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive. </> ),
+            text: (<> We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive. </>),
             click1: 'tab4',
             img: icon4,
             fun: game,
@@ -133,7 +140,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             img: servicesmobile,
             title: (<>Custom <br></br>
-               Cross-Platform Development </>),
+                Cross-Platform Development </>),
             text: <>
                 Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.
             </>
@@ -142,7 +149,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             img: servicesmobile2,
             title: (<>Wearable <br></br>
-               Cross-Platform Apps </>),
+                Cross-Platform Apps </>),
             text: <>
                 Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise.
             </>
@@ -151,7 +158,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             img: servicesmobile3,
             title: (<>Cross-Platform <br></br>
-               UI/UX Design Services </>),
+                UI/UX Design Services </>),
             text: <>
                 Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.
             </>
@@ -180,7 +187,7 @@ export default function androidappdevelopmentcompanylp() {
             title: (<>Cross Platforms <br></br>
                 Apps Consulting </>),
             text: <>
-               Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.
+                Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.
             </>
         },
 
@@ -189,7 +196,7 @@ export default function androidappdevelopmentcompanylp() {
 
     const services = 'WHAT WE DO'
     const app = <> <span className='grdiant'>Cross-Platform App Development</span> One Codebase,
-    Multiple Platforms, Infinite Possibilities  </>
+        Multiple Platforms, Infinite Possibilities  </>
     const revolutionize = 'Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.'
 
 
@@ -243,80 +250,23 @@ export default function androidappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='Create the Future with Our'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Cross Platform </span> Development Company!</h1></>}
-
+                title={<> Cross Platform <br /> Development Company! </>}
                 text={<> With our cross-platform app development services, you can easily create apps that are compatible across multiple platforms. No more worrying about developing an app for every operating system; now you can develop and deploy one single app for both Android and iOS! </>}
                 text2={<> Harness the power of mobile app cross platform development with BitsWits now! </>}
             />
 
 
-            <About />
+            <NewSliderFy />
 
+            <Aboutlp />
 
             <Ourservices
                 services={services1}
             />
 
-
-            <Partner />
-
-            {/* <div className='bgimageserve d-lg-block d-none'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        {fine.map((item, i) =>
-                            <Servicesmobile key={i}
-                                title={item.title}
-                                text={item.text}
-                                img1={item.img}
-
-                            />
-                        )}
-
-                    </Row>
-                </Container>
-            </div> */}
-
-            <div className='bgimageserve d-lg-none d-block'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                            <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center"> {revolutionize} </p>
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        <Slider {...rangSlider}>
-                            {fine.map((item, i) =>
-                                <Servicesmobile key={i}
-                                    title={item.title}
-                                    text={item.text}
-                                    img1={item.img}
-
-                                />
-                            )}
-                        </Slider>
-                    </Row>
-                </Container>
-            </div>
-
-
-
+            <Ready />
 
             <Enhanced
                 subtitle='BONUSES'
@@ -348,23 +298,21 @@ export default function androidappdevelopmentcompanylp() {
                 text6='Hybrid mobile apps are easy to integrate with the cloud for hosting services. Single code source can be integrated with multiple extensions and plug-ins making the app more functional.'
             />
 
+            <Lookingforlp />
 
-            <Ready />
-            <Scalable />
+            <Consultation />
 
-            <Musicapp />
-            <Cab />
+            <Ourportfoliolp />
 
-            <Findfood />
-
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
 
+            <ClientsThinklp />
 
+            <Contact />
 
         </>
     )

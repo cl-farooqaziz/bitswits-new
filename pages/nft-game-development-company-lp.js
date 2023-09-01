@@ -43,6 +43,10 @@ import icon4 from '../public/images/nftgameservices/blockchain.png'
 import icon5 from '../public/images/nftgameservices/webflow.png'
 import icon6 from '../public/images/nftgameservices/artifical.png'
 import Ourservices from '@/components/Ourservices'
+import Contact from '@/components/Contact'
+import NewSliderFy from '@/components/NewSliderFy'
+import Aboutlp from '@/components/Aboutlp'
+import NewBannerFy from '@/components/NewBannerFy'
 
 
 export default function nftgamedevelopmentcompanylp() {
@@ -63,7 +67,7 @@ export default function nftgamedevelopmentcompanylp() {
             id: '1',
             title: 'Take Home What You Earn',
             text: (<> Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!
-</>),
+            </>),
             click1: 'tab1',
             img: icon1,
             fun: game,
@@ -114,7 +118,7 @@ export default function nftgamedevelopmentcompanylp() {
             fun: game,
             data: gameshow
         },
-       
+
 
     ]
 
@@ -387,14 +391,16 @@ export default function nftgamedevelopmentcompanylp() {
             </Head>
 
 
-            <Homebanner
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   World-Class Provider Of <span className='grdiant'> NFT Game Development</span> Solutions!</h1></>}
+            <NewBannerFy
+                title={<> World-Class Provider Of <br /> Solutions! </>}
                 text={<> BitsWits specializes in creating NFT games using smart contracts on Ethereum, EOS, Tron, and Cardano. Our team spends countless hours crafting unique storylines, artwork, and game mechanics that bring the world of NFTs to life. With our games, players can earn rewards while they explore our virtual worlds, battle opponents, or trade rare collectibles. Whether you're looking for an intense battle, a peaceful adventure, or a friendly competition, BitsWits has something for everyone! Join us and become part of the exciting new world of NFTs gaming. </>}
                 btn1='Consult A Gaming Expert To Begin'
             />
 
 
-            <About />
+            <NewSliderFy />
+
+            <Aboutlp />
 
 
             <Yearsofexpertise
@@ -572,10 +578,10 @@ export default function nftgamedevelopmentcompanylp() {
             <Publication />
 
             <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
+            <ClientsThinklp />
 
-
+            <Contact />
 
         </>
     )

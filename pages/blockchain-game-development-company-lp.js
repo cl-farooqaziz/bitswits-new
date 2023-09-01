@@ -43,6 +43,10 @@ import icon4 from '../public/images/blockchaingameservices/blockchain.png'
 import icon5 from '../public/images/blockchaingameservices/webflow.png'
 import icon6 from '../public/images/blockchaingameservices/artifical.png'
 import Ourservices from '@/components/Ourservices'
+import NewSliderFy from '@/components/NewSliderFy'
+import Aboutlp from '@/components/Aboutlp'
+import NewBannerFy from '@/components/NewBannerFy'
+import Contact from '@/components/Contact'
 
 export default function blockchaingamedevelopmentcompanylp() {
 
@@ -487,15 +491,16 @@ export default function blockchaingamedevelopmentcompanylp() {
             </Head>
 
 
-            <Homebanner
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>  We Revolutionize The Way <span className='grdiant'>Digital Games Are Designed</span> And Played!!! </h1></>}
+            <NewBannerFy
+                title={<> We Revolutionize The Way <br /> And Played!!! </>}
                 text={<> BitsWits is an up-and-coming blockchain game development company that produces cutting-edge blockchain games for the global gaming market. We create next-generation games based on distributed ledger technology (DLT). Our suite of products and services includes custom game development using smart contracts, distributed storage solutions, API integrations, and more. </>}
                 text2={<> Hire us to develop AAA-level titles with the most advanced technology available today!!! </>}
                 btn1='Consult A Gaming Expert To Begin'
             />
 
+            <NewSliderFy />
 
-            <About />
+            <Aboutlp />
 
 
             <Yearsofexpertise
@@ -644,19 +649,13 @@ export default function blockchaingamedevelopmentcompanylp() {
             />
 
 
-
-
-
-
-
-
             <Publication />
 
             <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
+            <ClientsThinklp />
 
-
+            <Contact />
 
         </>
     )
