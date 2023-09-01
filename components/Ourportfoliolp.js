@@ -5,10 +5,13 @@ import Link from 'next/link'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ourportfolio1 from '../public/images/ourportfoliolp/music.png'
-import ourportfolio2 from '../public/images/ourportfoliolp/ezride.png'
-import ourportfolio3 from '../public/images/ourportfoliolp/findfood.png'
-import ourportfolio4 from '../public/images/ourportfoliolp/prohealth.png'
+import ourportfolio1 from '../public/images/ourportfoliolp/1.jpg'
+import ourportfolio2 from '../public/images/ourportfoliolp/2.jpg'
+import ourportfolio3 from '../public/images/ourportfoliolp/3.jpg'
+import ourportfolio4 from '../public/images/ourportfoliolp/4.jpg'
+import ourportfolio5 from '../public/images/ourportfoliolp/5.jpg'
+import ourportfolio6 from '../public/images/ourportfoliolp/6.jpg'
+import ourportfolio7 from '../public/images/ourportfoliolp/7.jpg'
 
 
 import Image from 'next/image';
@@ -81,6 +84,18 @@ const Ourportfoliolp = () => {
                         </div>
                         <div className={styles.rightlogo}>
                             <Image alt="bitswits" src={ourportfolio4} className="img-fluid mb-4" />
+                            <Link className='fontf font25 black font-bold mt-5' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
+                        </div>
+                        <div className={styles.rightlogo}>
+                            <Image alt="bitswits" src={ourportfolio5} className="img-fluid mb-4" />
+                            <Link className='fontf font25 black font-bold mt-5' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
+                        </div>
+                        <div className={styles.rightlogo}>
+                            <Image alt="bitswits" src={ourportfolio6} className="img-fluid mb-4" />
+                            <Link className='fontf font25 black font-bold mt-5' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
+                        </div>
+                        <div className={styles.rightlogo}>
+                            <Image alt="bitswits" src={ourportfolio7} className="img-fluid mb-4" />
                             <Link className='fontf font25 black font-bold mt-5' href='#'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
                         </div>
                       

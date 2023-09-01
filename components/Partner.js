@@ -30,26 +30,26 @@ const Partner = () => {
         <section className={styles.hearfelt}>
             <Container>
                 <div className={styles.makes}>
-                    <h3 className="f-20 black f-montserrat f-700 mb-2">TECHNOLOGIES</h3>
-                    <h2 className="f-50 f-playfair f-700  black"> <span className='grdiant'>Best App Making Company</span> <br className="d-lg-block d-none" />
+                    <h3 className="f-20 white f-montserrat f-700 mb-2">TECHNOLOGIES</h3>
+                    <h2 className="f-50 f-playfair f-700  white"> <span className='grdiant'>Best App Making Company</span> <br className="d-lg-block d-none" />
                         Technologies We Used</h2>
-                    <p className='f-16  f-500 black t-center'>Bitswits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!</p>
+                    <p className='f-16  f-500 white t-center'>Bitswits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!</p>
                 </div>
                 <div className='d-lg-block d-none'>
                     <Row className='gy-5'>
                         <Col lg={6}>
                             <div className={styles.rightpadding}>
-                                <h3 className="black f-30 f-playfair f-700 mb-3">Hybrid <br className="d-none d-xl-block" /> <span className='grdiant'>App Development</span> </h3>
+                                <h3 className="white f-30 f-playfair f-700 mb-3">Hybrid <br className="d-none d-xl-block" /> <span className='grdiant'>App Development</span> </h3>
                                 <Image src={hybird} className='img-fluid mt-2 mb-4' />
-                                <p className="f-16 black f-500 f-montserrat mb-4 ">
+                                <p className="f-16 white f-500 f-montserrat mb-4 ">
                                     BitsWits take pride in developing hybrid apps that are visually stunning and perform exceptionally well. Our team of skilled hybrid app developers leverages the latest technologies to create fast, secure, and user-friendly apps, ensuring your business stays ahead of the curve with:
                                 </p>
 
                                 <ul className='p-0'>
-                                    <li className="f-14 black f-500 f-montserrat">1. Cross-platform Compatibility.</li>
-                                    <li className="f-14 black f-500 f-montserrat">2. Accelerated Development Cycle.</li>
-                                    <li className="f-14 black f-500 f-montserrat">3. Customizable UI/UX Design.</li>
-                                    <li className="f-14 black f-500 f-montserrat">4. Cost-Effective Single Codebase Solution.</li>
+                                    <li className="f-14 white f-500 f-montserrat">1. Cross-platform Compatibility.</li>
+                                    <li className="f-14 white f-500 f-montserrat">2. Accelerated Development Cycle.</li>
+                                    <li className="f-14 white f-500 f-montserrat">3. Customizable UI/UX Design.</li>
+                                    <li className="f-14 white f-500 f-montserrat">4. Cost-Effective Single Codebase Solution.</li>
                                 </ul>
 
                                 <Link href="#" className={styles.arrowBtn}>
@@ -61,17 +61,17 @@ const Partner = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.leftpadding}>
-                                <h3 className="black f-30 f-playfair f-700 mb-3">Native <br className="d-none d-xl-block" />  <span className='grdiant'>App Development</span> </h3>
+                                <h3 className="white f-30 f-playfair f-700 mb-3">Native <br className="d-none d-xl-block" />  <span className='grdiant'>App Development</span> </h3>
                                 <Image src={native} className='img-fluid mt-2 mb-4' />
-                                <p className="f-16 black f-500 f-montserrat mb-4 ">
+                                <p className="f-16 white f-500 f-montserrat mb-4 ">
                                     BitsWits specializes in creating native applications that provide users with the best experience. With our native app developers, we deeply understand the most popular operating systems and programming languages to ensure that any app developed with us will have professional performance. Our key focus includes:
                                 </p>
 
                                 <ul className='p-0'>
-                                    <li className="f-14 black f-500 f-montserrat">1. High Performance Platform-Optimization.</li>
-                                    <li className="f-14 black f-500 f-montserrat">2. Access To Device Features & Integration.</li>
-                                    <li className="f-14 black f-500 f-montserrat">3. Customized UI/UX Application Design.</li>
-                                    <li className="f-14 black f-500 f-montserrat">4. Robust & Adaptable Mobile Application.</li>
+                                    <li className="f-14 white f-500 f-montserrat">1. High Performance Platform-Optimization.</li>
+                                    <li className="f-14 white f-500 f-montserrat">2. Access To Device Features & Integration.</li>
+                                    <li className="f-14 white f-500 f-montserrat">3. Customized UI/UX Application Design.</li>
+                                    <li className="f-14 white f-500 f-montserrat">4. Robust & Adaptable Mobile Application.</li>
                                 </ul>
                                 <Link href="#" className={styles.arrowBtn}>
                                     <span className="grdiant f-poppins f-600 f-capitalize">Talk To Our Experts</span>
@@ -86,17 +86,17 @@ const Partner = () => {
                 <div className='d-lg-none d-block'>
                     <Slider {...prtnrSlider}>
                         <div className={styles.rightpadding}>
-                            <h3 className="black f-30 f-playfair f-700 mb-3">Hybrid <br className="d-none d-xl-block" /> <span className='grdiant'>App Development</span> </h3>
+                            <h3 className="white f-30 f-playfair f-700 mb-3">Hybrid <br className="d-none d-xl-block" /> <span className='grdiant'>App Development</span> </h3>
                             <Image src={hybird} className='img-fluid mt-2 mb-4' />
-                            <p className="f-16 black f-500 f-montserrat mb-4 ">
+                            <p className="f-16 white f-500 f-montserrat mb-4 ">
                                 BitsWits take pride in developing hybrid apps that are visually stunning and perform exceptionally well. Our team of skilled hybrid app developers leverages the latest technologies to create fast, secure, and user-friendly apps, ensuring your business stays ahead of the curve with:
                             </p>
 
                             <ul className='p-0'>
-                                <li className="f-14 black f-500 f-montserrat">1. Cross-platform Compatibility.</li>
-                                <li className="f-14 black f-500 f-montserrat">2. Accelerated Development Cycle.</li>
-                                <li className="f-14 black f-500 f-montserrat">3. Customizable UI/UX Design.</li>
-                                <li className="f-14 black f-500 f-montserrat">4. Cost-Effective Single Codebase Solution.</li>
+                                <li className="f-14 white f-500 f-montserrat">1. Cross-platform Compatibility.</li>
+                                <li className="f-14 white f-500 f-montserrat">2. Accelerated Development Cycle.</li>
+                                <li className="f-14 white f-500 f-montserrat">3. Customizable UI/UX Design.</li>
+                                <li className="f-14 white f-500 f-montserrat">4. Cost-Effective Single Codebase Solution.</li>
                             </ul>
 
                             <Link href="#" className={styles.arrowBtn}>
@@ -106,17 +106,17 @@ const Partner = () => {
 
                         </div>
                         <div className={styles.leftpadding}>
-                            <h3 className="black f-30 f-playfair f-700 mb-3">Native <br className="d-none d-xl-block" />  <span className='grdiant'>App Development</span> </h3>
+                            <h3 className="white f-30 f-playfair f-700 mb-3">Native <br className="d-none d-xl-block" />  <span className='grdiant'>App Development</span> </h3>
                             <Image src={native} className='img-fluid mt-2 mb-4' />
-                            <p className="f-16 black f-500 f-montserrat mb-4 ">
+                            <p className="f-16 white f-500 f-montserrat mb-4 ">
                                 BitsWits specializes in creating native applications that provide users with the best experience. With our native app developers, we deeply understand the most popular operating systems and programming languages to ensure that any app developed with us will have professional performance. Our key focus includes:
                             </p>
 
                             <ul className='p-0'>
-                                <li className="f-14 black f-500 f-montserrat">1. High Performance Platform-Optimization.</li>
-                                <li className="f-14 black f-500 f-montserrat">2. Access To Device Features & Integration.</li>
-                                <li className="f-14 black f-500 f-montserrat">3. Customized UI/UX Application Design.</li>
-                                <li className="f-14 black f-500 f-montserrat">4. Robust & Adaptable Mobile Application.</li>
+                                <li className="f-14 white f-500 f-montserrat">1. High Performance Platform-Optimization.</li>
+                                <li className="f-14 white f-500 f-montserrat">2. Access To Device Features & Integration.</li>
+                                <li className="f-14 white f-500 f-montserrat">3. Customized UI/UX Application Design.</li>
+                                <li className="f-14 white f-500 f-montserrat">4. Robust & Adaptable Mobile Application.</li>
                             </ul>
                             <Link href="#" className={styles.arrowBtn}>
                                 <span className="grdiant f-poppins f-600 f-capitalize">Talk To Our Experts</span>

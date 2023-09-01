@@ -1,6 +1,7 @@
 .capomt{
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #ccc;
 }
 .front{
     display: flex;

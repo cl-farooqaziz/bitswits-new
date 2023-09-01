@@ -10,9 +10,9 @@ const Tribute = (props) => {
         <Container>
             <Row>
                 <Col>
-                <h3 className='f-20  f-700 black t-center '> {props.subtitle} </h3>
-                <h2 className='f-50  f-700 black t-center'> {props.title} </h2>
-                <p className='f-16 f-500 black t-center'> {props.text} </p>
+                <h3 className='f-20 f-700 white t-center '> {props.subtitle} </h3>
+                <h2 className='f-50 f-700 white t-center'> {props.title} </h2>
+                <p className='f-16 f-500 white t-center'> {props.text} </p>
 
                 <video controls className={`${styles.bgVideo}`} muted
                 src={props.video} type="video/mp4"></video>

@@ -317,7 +317,9 @@ export default function androidappdevelopmentcompanylp() {
 
             <ClientsThinklp />
 
-            <Contact />
+            <Contact
+              newBg="newBg"
+            />
 
         </>
     )

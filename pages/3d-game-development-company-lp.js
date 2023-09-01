@@ -498,23 +498,6 @@ export default function gamedevelopmentcompany3dlp() {
             <Aboutlp />
 
 
-            <Yearsofexpertise
-                loop1={<> <Counter stopNumber={500} />+</>}
-
-                looptext11={<> Applications Developed <br></br> and Designed  </>}
-                loop2={<> <Counter stopNumber={250} />+ </>}
-
-                looptext22={<> Developers & Engineers <br></br> Under One Roof </>}
-                loop3={<> <Counter stopNumber={12} />+ </>}
-
-                looptext33={<> Years in Software <br></br>
-                    Development Business </>}
-                loop4={<> <Counter stopNumber={92} />% </>}
-
-                looptext44={<> Client Retention </>}
-
-            />
-
             <Ourservices
                 services={services1}
             />
@@ -573,6 +556,24 @@ export default function gamedevelopmentcompany3dlp() {
             </section> */}
 
 
+            <Yearsofexpertise
+                loop1={<> <Counter stopNumber={500} />+</>}
+
+                looptext11={<> Applications Developed <br></br> and Designed  </>}
+                loop2={<> <Counter stopNumber={250} />+ </>}
+
+                looptext22={<> Developers & Engineers <br></br> Under One Roof </>}
+                loop3={<> <Counter stopNumber={12} />+ </>}
+
+                looptext33={<> Years in Software <br></br>
+                    Development Business </>}
+                loop4={<> <Counter stopNumber={92} />% </>}
+
+                looptext44={<> Client Retention </>}
+
+            />
+
+
             <Container className='campny'>
                 <Row>
                     <Col xl={12} className='mb-3'>
@@ -602,7 +603,7 @@ export default function gamedevelopmentcompany3dlp() {
             </Container>
 
 
-
+            <Range />
 
 
             <Container className='topbottom'>
@@ -678,11 +679,13 @@ export default function gamedevelopmentcompany3dlp() {
 
             <Publication />
 
-            <Range />
+
             <Hireus />
             <ClientsThinklp />
 
-            <Contact />
+            <Contact
+                newBg="newBg"
+            />
 
         </>
     )

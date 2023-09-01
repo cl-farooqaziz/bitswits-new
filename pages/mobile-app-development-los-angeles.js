@@ -67,55 +67,55 @@ export default function androidappdevelopmentcompanylp() {
 
         {
             id: '1',
-            title: 'Android Application Development',
-            text: (<> We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations. </>),
+            title: 'IOS Application Development',
+            text: (<> We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps! </>),
             click1: 'tab1',
-            img: icon1,
+            img: icon6,
             fun: game,
             data: gameshow
         },
         {
             id: '2',
-            title: 'Web App Development',
-            text: (<> We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today! </>),
+            title: 'Android Application Development',
+            text: (<> We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations. </>),
             click1: 'tab2',
-            img: icon2,
+            img: icon1,
             fun: game,
             data: gameshow
         },
         {
             id: '3',
-            title: 'Flutter App Development',
-            text: (<> Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process. </>),
+            title: 'Web App Development',
+            text: (<> We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today! </>),
             click1: 'tab3',
-            img: icon3,
+            img: icon2,
             fun: game,
             data: gameshow
         },
         {
             id: '4',
-            title: 'React Native App Development',
-            text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
+            title: 'Flutter App Development',
+            text: (<> Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process. </>),
             click1: 'tab4',
-            img: icon4,
+            img: icon3,
             fun: game,
             data: gameshow
         },
         {
             id: '5',
-            title: 'Cross Platform App Development',
-            text: 'We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.',
+            title: 'React Native App Development',
+            text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
             click1: 'tab5',
-            img: icon5,
+            img: icon4,
             fun: game,
             data: gameshow
         },
         {
             id: '6',
-            title: 'IOS Application Development',
-            text: (<> We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps! </>),
+            title: 'Cross Platform App Development',
+            text: 'We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.',
             click1: 'tab6',
-            img: icon6,
+            img: icon5,
             fun: game,
             data: gameshow
         },
@@ -279,7 +279,9 @@ export default function androidappdevelopmentcompanylp() {
 
             <ClientsThinklp />
 
-            <Contact />
+            <Contact
+                newBg="newBg"
+            />
         </>
     )
 }

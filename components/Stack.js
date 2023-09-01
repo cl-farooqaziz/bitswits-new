@@ -18,43 +18,43 @@ const Stack = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className='f-20  f-700 black t-center'>TECHNOLOGY STACK</h3>
-                            <h2 className='f-50  f-700 black t-center'>Unleash Your <span className='grdiant'>Gaming Creativity <br></br> With Our Myriad</span> Of Technology In Use</h2>
-                            <p className='f-16  f-500 black t-center'>BitsWits uses various blockchain technologies, such as multi-signature authentication, to further enhance the security of our products. More so, we offer multiple services, including custom game design and development, cryptocurrency wallet integration, smart contract development, and more. Here are a few technologies we embed in our services:</p>
+                            <h3 className='f-20  f-700 white t-center'>TECHNOLOGY STACK</h3>
+                            <h2 className='f-50  f-700 white t-center'>Unleash Your <span className='grdiant'>Gaming Creativity <br></br> With Our Myriad</span> Of Technology In Use</h2>
+                            <p className='f-16  f-500 white t-center'>BitsWits uses various blockchain technologies, such as multi-signature authentication, to further enhance the security of our products. More so, we offer multiple services, including custom game design and development, cryptocurrency wallet integration, smart contract development, and more. Here are a few technologies we embed in our services:</p>
                         </Col>
                     </Row>
                     <Row className='gy-3 mt-3'>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony1} className='img-fluid' />
-                                <p className='f-16 f-700 black'>ETHEREUM</p></div>
+                                <p className='f-16 f-700 white'>ETHEREUM</p></div>
                         </Col>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony2} className='img-fluid' />
-                                <p className='f-16 f-700 black'>EOS</p></div>
+                                <p className='f-16 f-700 white'>EOS</p></div>
                         </Col>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony3} className='img-fluid' />
-                                <p className='f-16 f-700 black'>TRON</p></div>
+                                <p className='f-16 f-700 white'>TRON</p></div>
                         </Col>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony4} className='img-fluid' />
-                                <p className='f-16 f-700 black'>BSC</p></div>
+                                <p className='f-16 f-700 white'>BSC</p></div>
                         </Col>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony5} className='img-fluid' />
-                                <p className='f-16 f-700 black'>SOLANA</p></div>
+                                <p className='f-16 f-700 white'>SOLANA</p></div>
                         </Col>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony6} className='img-fluid' />
-                                <p className='f-16 f-700 black'>TEZOS</p></div>
+                                <p className='f-16 f-700 white'>TEZOS</p></div>
                         </Col>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony7} className='img-fluid' />
-                                <p className='f-16 f-700 black'>COSMOS</p></div>
+                                <p className='f-16 f-700 white'>COSMOS</p></div>
                         </Col>
                         <Col lg={3}>
                             <div className={styles.floatpont}><Image src={pony8} className='img-fluid' />
-                                <p className='f-16 f-700 black'>MATIC</p></div>
+                                <p className='f-16 f-700 white'>MATIC</p></div>
                         </Col>
                     </Row>
 

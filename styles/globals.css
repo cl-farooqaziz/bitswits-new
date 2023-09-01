@@ -1792,6 +1792,11 @@ button {
   display: none;
 }
 
+.com2{
+  background-color: #ccc;
+  padding-bottom: 50px;
+}
+
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 1200px) {

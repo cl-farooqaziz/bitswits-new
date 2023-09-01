@@ -410,7 +410,9 @@ export default function iosappdevelopmentcompanylp() {
 
             <ClientsThinklp />
 
-            <Contact />
+            <Contact
+              newBg="newBg"
+            />
 
         </>
     )

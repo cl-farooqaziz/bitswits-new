@@ -649,13 +649,14 @@ export default function blockchaingamedevelopmentcompanylp() {
             />
 
 
-            <Publication />
-
             <Range />
+            <Publication />
             <Hireus />
             <ClientsThinklp />
 
-            <Contact />
+            <Contact
+              newBg="newBg"
+            />
 
         </>
     )

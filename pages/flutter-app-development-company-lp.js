@@ -261,6 +261,8 @@ export default function androidappdevelopmentcompanylp() {
                 services={services1}
             />
 
+            <Ready />
+
             <Enhanced
                 subtitle='BONUSES'
                 title={<> <span className='grdiant'>Flutter App Development Company</span> That Offers Unparalleled Solutions, Limitless Possibilities! </>}
@@ -312,7 +314,9 @@ export default function androidappdevelopmentcompanylp() {
 
             <ClientsThinklp />
 
-            <Contact />
+            <Contact
+                newBg="newBg"
+            />
         </>
     )
 }

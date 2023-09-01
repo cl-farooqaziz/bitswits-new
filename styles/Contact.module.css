@@ -1,6 +1,6 @@
 .contact {
   padding: 50px 0;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .getInTch {
@@ -158,6 +158,45 @@
   color: #f32f4d;
 }
 
+.newBg {
+  background-color: #ccc;
+}
+
+.newBg .cntcForm form input,
+.newBg .cntcForm form select,
+.newBg .cntcForm form textarea {
+  background-color: transparent;
+  border-color: #000;
+  color: #222;
+}
+
+.newBg .cntcForm form ::placeholder {
+  color: #222;
+}
+
+.newBg .cntcForm form .btns {
+  border: 0;
+}
+
+.newBg .cntcForm form .btns:hover {
+  border: 1px solid #000;
+}
+
+.newBg .touch svg,
+.newBg .touch span,
+.newBg .social h5,
+.newBg .socialIcn svg {
+  color: #000;
+}
+
+.newBg .socialIcn img {
+  filter: invert(1);
+}
+
+.newBg .formPara p {
+  color: #000;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 991px) {
@@ -178,7 +217,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .cntcTxt h2 {
     font-size: 40px;
     line-height: 45px;

@@ -495,23 +495,6 @@ export default function gamedevelopmentcompany2dlp() {
             <Aboutlp />
 
 
-            <Yearsofexpertise
-                loop1={<> <Counter stopNumber={500} />+</>}
-
-                looptext11={<> Applications Developed <br></br> and Designed  </>}
-                loop2={<> <Counter stopNumber={250} />+ </>}
-
-                looptext22={<> Developers & Engineers <br></br> Under One Roof </>}
-                loop3={<> <Counter stopNumber={12} />+ </>}
-
-                looptext33={<> Years in Software <br></br>
-                    Development Business </>}
-                loop4={<> <Counter stopNumber={92} />% </>}
-
-                looptext44={<> Client Retention </>}
-
-            />
-
             <Ourservices
                 services={services1}
             />
@@ -559,11 +542,28 @@ export default function gamedevelopmentcompany2dlp() {
                     deployment of new content. </>}
                 btn6='Lets Start'
 
+            />
 
+
+            <Yearsofexpertise
+                loop1={<> <Counter stopNumber={500} />+</>}
+
+                looptext11={<> Applications Developed <br></br> and Designed  </>}
+                loop2={<> <Counter stopNumber={250} />+ </>}
+
+                looptext22={<> Developers & Engineers <br></br> Under One Roof </>}
+                loop3={<> <Counter stopNumber={12} />+ </>}
+
+                looptext33={<> Years in Software <br></br>
+                    Development Business </>}
+                loop4={<> <Counter stopNumber={92} />% </>}
+
+                looptext44={<> Client Retention </>}
 
             />
 
-            <section className='campny'>
+
+            <section className='campny com2'>
                 <Container>
                     <Row>
                         <Col>
@@ -596,7 +596,7 @@ export default function gamedevelopmentcompany2dlp() {
             </Container>
 
 
-            <Container className='campny'>
+            <Container className='campny pb-5'>
                 <Row className='gy-4'>
 
                     <Incredible
@@ -605,6 +605,9 @@ export default function gamedevelopmentcompany2dlp() {
 
                 </Row>
             </Container>
+
+
+            <Range />
 
 
             <Container className='topbottom'>
@@ -678,13 +681,13 @@ export default function gamedevelopmentcompany2dlp() {
 
             <Publication />
 
-            <Range />
-
             <Hireus />
 
             <ClientsThinklp />
 
-            <Contact />
+            <Contact
+                newBg="newBg"
+            />
 
 
         </>

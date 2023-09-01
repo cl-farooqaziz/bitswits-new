@@ -7,10 +7,10 @@ import { FaRegEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaFacebookSquare
 import icon from '../public/images/footer/icon.png'
 
 
-const Contact = () => {
+const Contact = (props) => {
     return (
         <>
-            <section className={styles.contact}>
+            <section className={` ${styles[props.newBg]} ${styles.contact}`}>
                 <Container>
                     <Row className='justify-content-between'>
                         <Col lg={4}>

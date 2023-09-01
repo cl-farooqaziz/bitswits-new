@@ -4,8 +4,11 @@
   padding: 2rem 1rem;
   cursor: pointer;
   transition: 0.5s;
-  height: 400px;
+  height: 520px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .serveimg img {
