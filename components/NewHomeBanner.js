@@ -48,10 +48,19 @@ const NewHomeBanner = () => {
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
                         <div className={styles.banerTxt}>
-                            <h1 className='font65 black fontf font-bold line60'> Affordable <span className='grdiant'> Website</span> <br></br> <span className='grdiant'>Mobile App</span> & <span className='grdiant'>Game</span><br></br> Development</h1>
-                            <p className='black fontf font-medium line30'>Rationalize your gaming and <span className='grdiant'> mobile app development </span> experience <br></br>  with our affordable packages and prompt deliveries. </p>
+                            
+                            <h1 className='font65 black fontf font-bold line60'> 
+                            
+                             A <span className='grdiant font-bold'>Top Mobile App Development Company</span> at Your Service
+                            
+                            </h1>
+                            <h4 className='font16 font-bold black fontf'>Apps, Games, and Web Bliss:</h4>
+                            <p className='black fontf font16 font-medium line30'>
+                            From engaging mobile applications and exhilarating games to inspiring online web solutions, everything is driven with experience at BitsWits, a <span className='grdiant font-bold'>top mobile app development company in US</span>
+                                
+                                 </p>
 
-                            <div className={`${styles.bttnsto} mt-3`}>
+                            <div className={`${styles.bttnsto}`}>
                                 <Link className={styles.bttns1} onClick={modal} href="#">Book A Call</Link>
                                 <Link className={styles.bttns2} href="#">Live Chat </Link>
                             </div>

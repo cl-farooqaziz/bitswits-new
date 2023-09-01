@@ -3,10 +3,12 @@
   display: block;
   width: 100%;
   text-align: center;
-  padding-bottom: 21px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 .indusblk {
-  background-color: #fff;
+  background-color: #f3f3f3;
+  margin-top: 50px;
 }
 .indusblk li {
   display: inline-block;

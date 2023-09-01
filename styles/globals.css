@@ -950,6 +950,7 @@ input::-webkit-inner-spin-button {
   line-height: 28px;
   height: 300px;
   border: 0px;
+  overflow: auto;
 }
 
 .benefitscard .card {
@@ -1632,6 +1633,10 @@ button {
 
 .ourspacing {
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ourspacingbottom {
+  
   padding-bottom: 50px;
 }
 

@@ -28,7 +28,7 @@ const Rated = dynamic(() => import('@/components/Rated'));
 const About = dynamic(() => import('@/components/About'));
 const Yearsofexpertise = dynamic(() => import('@/components/Yearsofexpertise'));
 const Nextproject = dynamic(() => import('@/components/Nextproject'));
-const Ourservices = dynamic(() => import('@/components/Ourservices'));
+const Ourservices = dynamic(() => import('@/components/Ourserviceshome'));
 const Lookingfor = dynamic(() => import('@/components/Lookingfor'));
 const Trusted = dynamic(() => import('@/components/Trusted'));
 const Ourportfolio = dynamic(() => import('@/components/Ourportfolio'));
@@ -58,8 +58,12 @@ export default function Home() {
 
     {
       id: '1',
-      title: 'Mobile Application Development',
-      text: (<> <span className='grdiant'> Develop your app</span> with our advanced mobile applications solutions that deliver smooth user experiences and boost your growth in the digital world. </>),
+      title: 'Mobile App Development',
+      text: (<> 
+      
+      The mobile apps developed by <span className='grdiant font-bold'>app developers</span> at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.
+      
+       </>),
       click1: 'tab1',
       img: icon1,
       fun: game,
@@ -67,8 +71,12 @@ export default function Home() {
     },
     {
       id: '2',
-      title: 'Game Development',
-      text: (<> Dive into a world of captivating gameplay and stunning visuals that are carefully designed by our <span className='grdiant'> expert game developers </span> where every pixel comes to life and every level sparks excitement </>),
+      title: 'Web App Development',
+      text: (<> 
+      
+      Our <span className='grdiant font-bold'>top app developers</span> excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery. 
+      
+       </>),
       click1: 'tab2',
       img: icon2,
       fun: game,
@@ -76,8 +84,11 @@ export default function Home() {
     },
     {
       id: '3',
-      title: 'Web App Development',
-      text: (<> Grow your online presence with our skilled <span className='grdiant'>web app development company</span> . We ensure flawless functionality and outstanding user experiences by developing robust and scalable mobile apps. </>),
+      title: 'Game Development ',
+      text: (<> 
+      Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.
+      
+       </>),
       click1: 'tab3',
       img: icon3,
       fun: game,
@@ -85,8 +96,8 @@ export default function Home() {
     },
     {
       id: '4',
-      title: 'Blockchain Game Development',
-      text: 'Enter into an exciting gaming adventure with the best blockchain game development company, which focuses on emerging gaming with transparency and security of blockchain technology, creating immersive and decentralized game experiences.',
+      title: 'Blockchain Solutions and Innovations ',
+      text: 'We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.',
       click1: 'tab4',
       img: icon4,
       fun: game,
@@ -94,8 +105,15 @@ export default function Home() {
     },
     {
       id: '5',
-      title: 'Artificial Intelligence',
-      text: 'Boost productivity and save your precious time and resources by utilizing the power of the future - Artificial Intelligence. Discover the excellent levels of efficiency and effectiveness with our AI-driven solutions',
+      title: 'UI/UX App Design',
+      text: 
+      (
+        <>
+        Our team of professional <span className='grdiant font-bold'>UI/UX app designers</span> help develop designs that guide users towards meaningful interactions and impactful user experience. 
+        
+        </>
+      )
+      ,
       click1: 'tab5',
       img: icon5,
       fun: game,
@@ -103,9 +121,24 @@ export default function Home() {
     },
     {
       id: '6',
-      title: 'UI/UX App Design',
-      text: (<> BitsWits, a <span className='grdiant'>UI/UX app design company</span> , helps to enhance user experience with intuitive interfaces that engage users and make interactions enjoyable. Our skilled <span className='grdiant'>mobile app UI designers</span> assist in bringing the best outcomes. </>),
+      title: 'Internet of Things ',
+      text: (<> 
+      Our Internet of Things (IoT) services assist you in developing your concept for IoT adoption and in setting up safe technical support systems for complex data work.
+      
+       </>),
       click1: 'tab6',
+      img: icon6,
+      fun: game,
+      data: gameshow
+    },
+    {
+      id: '7',
+      title: 'Artificial Intelligence ',
+      text: (<> 
+      Utilize AI's potential to promote automated interactions, personalized experiences, and predictive insights for better engagement with technology and data.
+      
+       </>),
+      click1: 'tab7',
       img: icon6,
       fun: game,
       data: gameshow
@@ -179,8 +212,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>BitsWits</title>
-        <meta name="description" content="Generated by create next app" />
+        <title>Top Mobile App Development Company - BitsWits</title>
+        <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>

@@ -56,7 +56,11 @@ const Ourblogs = () => {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Blogs</h5>
                         </Col>
                         <Col lg={7}>
-                        <h2 className='font65 black fontf font-bold line60 black'><span className='grdiant'>Insight</span></h2>
+                        <h2 className='font65 black fontf font-bold line60 black'> 
+                        
+                        Illuminating the <span className='grdiant font-bold'>Canvas of Our Project</span> Insights
+                        
+                        </h2>
                         </Col>
                         <Col lg={3}>
                             <Link className={styles.bttns1} href="#">View All Blogs </Link>

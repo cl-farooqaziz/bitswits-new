@@ -13,8 +13,10 @@ const Swipe = (props) => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                        {props.title1}
-                        <p className='text-center'>{props.para1}</p>
+                            {props.title1}
+                            {props.para1 &&
+                                <p className='text-center'>{props.para1}</p>
+                            }
                         </Col>
                     </Row>
                     <Row className='justify-content-between align-items-center mt-3'>
@@ -34,9 +36,13 @@ const Swipe = (props) => {
                                         <Col lg={6}>
                                             <div className={styles.swapBox}>
                                                 {props.subtitle}
-                                                <p className='font14 black fontf font-medium line30'>
-                                                    {props.subpara}
-                                                </p>
+
+                                                {props.subpara &&
+                                                    <p className='font14 black fontf font-medium line30'>
+                                                        {props.subpara}
+                                                    </p>
+                                                }
+
                                             </div>
                                         </Col>
                                         <Col lg={6}>
@@ -48,8 +54,8 @@ const Swipe = (props) => {
                                             </div>
                                         </Col>
                                         <Col sm={5}>
-                                            <Link className={`${styles.bttns1} mt-3`} href="#">
-                                                Call Us Now!
+                                            <Link className={`${styles.bttns1}`} href="#">
+                                                Book a Call Today!
                                             </Link>
                                         </Col>
                                     </Row>

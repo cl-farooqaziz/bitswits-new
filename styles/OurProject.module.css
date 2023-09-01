@@ -115,9 +115,9 @@
 }
 
 .slidLst li {
-  padding: 5px 5px 10px 32px;
-  font-size: 18px;
-  line-height: 30px;
+  padding: 5px 5px 1px 32px;
+  font-size: 16px;
+  line-height: 25px;
   color: #fff;
   background: url(../public/images/digital/tick-point.png) no-repeat;
   background-position: top 9px left 0;
