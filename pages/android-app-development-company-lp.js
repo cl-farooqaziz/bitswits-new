@@ -44,8 +44,7 @@ import lop4 from '/public/images/bonusandriod/4.webp'
 import lop5 from '/public/images/bonusandriod/5.webp'
 import lop6 from '/public/images/bonusandriod/6.webp'
 import lop7 from '/public/images/bonusandriod/mobile.webp'
-
-
+//
 import React, { useState } from 'react';
 import icon1 from '../public/images/andriodservices/sideimg.png'
 import icon2 from '../public/images/andriodservices/game.png'
