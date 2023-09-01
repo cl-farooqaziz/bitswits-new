@@ -254,7 +254,7 @@ const Aboutlp = () => {
 
                             </Slider> */}
 
-                            <Button className={styles.aboutbtn}>About US</Button>
+                            <Button className={styles.aboutbtn}>CALL NOW!</Button>
 
                         </Col>
                     </Row>
