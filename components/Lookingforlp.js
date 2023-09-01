@@ -52,10 +52,10 @@ const Lookingforlp = () => {
                 <Container>
                     <Row className={styles.project}>
                         <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Need</h5>
+                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>TECHNOLOGY</h5>
                         </Col>
                         <Col lg={7}>
-                            <h2 className='font65 black fontf font-bold line60 black'>If You're <span className='grdiant'>Looking For</span> </h2>
+                            <h2 className='font65 black fontf font-bold line60 black'>You're <span className='grdiant'>Looking For</span> </h2>
                         </Col>
                         <Col lg={3}>
                             <Link className={styles.bttns1} href="#">Book a Call</Link>
