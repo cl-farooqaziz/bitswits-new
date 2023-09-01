@@ -42,6 +42,13 @@ import icon4 from '../public/images/mobilelpservices/blockchain.png'
 import icon5 from '../public/images/mobilelpservices/webflow.png'
 import icon6 from '../public/images/mobilelpservices/artifical.png'
 import Ourservices from '@/components/Ourservices'
+import NewBannerFy from '@/components/NewBannerFy'
+import NewSliderFy from '@/components/NewSliderFy'
+import Aboutlp from '@/components/Aboutlp'
+import Lookingforlp from '@/components/Lookingforlp'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Digitallp from '@/components/Digitallp'
+import Contact from '@/components/Contact'
 
 
 
@@ -88,7 +95,7 @@ export default function androidappdevelopmentcompanylp() {
         {
             id: '4',
             title: 'React Native App Development',
-            text: ( <> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </> ),
+            text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
             click1: 'tab4',
             img: icon4,
             fun: game,
@@ -233,98 +240,46 @@ export default function androidappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='Transform Your Business With Our Revolutionary'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Mobile App</span>  Development Company</h1></>}
+                title={<>Los Angeles Mobile App <br />  Development Company </>}
                 title2={<>We Don't Just Create Apps; We Create Experiences</>}
                 text={<> At BitsWits, we develop innovative and user-friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients. Our focus on delivering high-quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
             />
 
-            <Endorsements />
+            <NewSliderFy />
 
-
-            <About />
-
+            <Aboutlp />
 
             <Ourservices
                 services={services1}
             />
 
-            <Transforming />
-
-
-
-
-            {/* <div className='bgimageserve d-lg-block d-none'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 black f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                            <p className="f-montserrat f-500 f-16 mb-1 black lheight24 t-center"> {revolutionize} </p>
-
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        {fine.map((item, i) =>
-                            <Servicesmobile key={i}
-                                title={item.title}
-                                text={item.text}
-                                img1={item.img}
-
-                            />
-                        )}
-
-                    </Row>
-                </Container>
-            </div> */}
-
-            <div className='bgimageserve d-lg-none d-block'>
-                <Container className='ourspacing'>
-                    <Row className='mb-5'>
-                        <div>
-                            <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
-                            <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
-                            <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center"> {revolutionize} </p>
-                        </div>
-                    </Row>
-
-
-                    <Row className='gy-4'>
-
-                        <Slider {...rangSlider}>
-                            {fine.map((item, i) =>
-                                <Servicesmobile key={i}
-                                    title={item.title}
-                                    text={item.text}
-                                    img1={item.img}
-
-                                />
-                            )}
-                        </Slider>
-                    </Row>
-                </Container>
-            </div>
+            <Ready />
 
             <Partner />
 
-            <Musicapp />
-            <Cab />
+            <Lookingforlp />
 
-            <Findfood />
+            <Consultation />
 
+            {/* <Musicapp /> */}
+
+            <Ourportfoliolp />
+
+            {/* <Cab />*/}
+
+            {/*<Findfood /> */}
+
+            <Digitallp />
 
             <Publication />
 
-            <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
 
+            <ClientsThinklp />
 
-
+            <Contact />
         </>
     )
 }
