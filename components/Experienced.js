@@ -13,7 +13,7 @@ const Experienced = (props) => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h2 className='text-center font40 font-bold text-center'>Our Experience
+                            <h2 className='text-center font50 font-bold text-center'>A Glimpse at <span className='grdiant font-bold'>Our Legacy</span>
 </h2>
                         </Col>
                     </Row>
@@ -35,7 +35,7 @@ const Experienced = (props) => {
                                        </Col>
                                         <Col sm={5}>
                                             <Link className={`${styles.bttns1} mt-3`} href="#">
-                                                Call Us Now!
+                                            Call Us Today!
                                             </Link>
                                         </Col>
                                     </Row>

@@ -54,8 +54,7 @@ import icon44 from '../public/images/industryInt/idu-10.png'
 
 export default function internetofthings() {
 
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Here are <span className='grdiant'>six key reasons</span> why
-        UK agencies choose to partner with us</h2>
+    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'> Why Do Businesses <span className='grdiant'>Hire IoT Developers</span> at BitsWits? </h2>
 
     const resCards = <>
         <Row className={`${reStyles.soluRow} mt-5`}>
@@ -65,13 +64,12 @@ export default function internetofthings() {
                         #1
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Competitive rates
+                        Modern-Day Pioneers
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
-                    </p>
-                    <p>
-                        Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
+
+                        Our <span className='grdiant font-bold'>IoT developers</span> build and design innovative linked solutions that provide your business with a competitive edge by using the latest IoT platforms and protocols. To create systems that are ready for the future, we constantly adapt to evolving technology.
+
                     </p>
                 </div>
             </Col>
@@ -81,14 +79,12 @@ export default function internetofthings() {
                         #2
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Quality
+                    IoT Platform Integration
                     </h5>
                     <p>
-                        We are CMMI level 3 appraised and members of the Agile Alliance, which is your assurance that we have processes and safeguards in place to ensure the delivery of a high quality finished product, each and every time.
+                    We connect IoT platforms seamlessly into your existing applications and infrastructure. This integration opens up a world of smart automation, making your work smoother and more innovative.
                     </p>
-                    <p>
-                        Read more about our <strong>CMMI appraisal</strong>.
-                    </p>
+                  
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -97,14 +93,12 @@ export default function internetofthings() {
                         #3
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Flexibility
+                    Unlimited Scalability
                     </h5>
                     <p>
-                        Our massive permanent workforce is comprised of designers, developers and PMs. You can hire as many or as few of them as you need - on a per project or retained basis.
+                    Rapid prototyping and smooth deployment of IoT devices and solutions to suit your expanding business demands are made possible by our agile methodology. 
                     </p>
-                    <p>
-                        This flexibility means that you’re never paying for skills and time that you’re not using.
-                    </p>
+                  
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -113,14 +107,12 @@ export default function internetofthings() {
                         #4
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        In-house expertise
+                    Top Notch Security
                     </h5>
                     <p>
-                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
+                    Our <span className='grdiant font-bold'>IoT development services</span> have total safety built in to protect your systems, networks, and the reliability of your data. We offer dependable, enterprise-grade security.
                     </p>
-                    <p>
-                        This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
-                    </p>
+                 
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -129,14 +121,12 @@ export default function internetofthings() {
                         #5
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Security & confidentiality
+                    Increasing effectiveness and ROI
                     </h5>
                     <p>
-                        Your contract of engagement is with our UK company (DotSquares Ltd), so our liability to you is governed and protected by UK law.
+                    By automating procedures, boosting productivity, eliminating waste, and providing real-time insights into operations, our <span className='grdiant font-bold'>IoT development services</span> assist with cost reduction.
                     </p>
-                    <p>
-                        This is a very important detail that sets us apart from many offshoring companies. Furthermore, all Intellectual Property Rights & source code are yours, forever.
-                    </p>
+                 
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -145,10 +135,10 @@ export default function internetofthings() {
                         #6
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        The original, and best
+                    Engineered to Last Forever
                     </h5>
                     <p>
-                        We’ve been servicing UK businesses like yours with offshore teams for <strong>21 years</strong>. In fact, we were one of the first companies to set up this offshore business model, back in 2002. Since then we’ve completed over <strong>20,000 projects</strong> (at last count, and we are still growing!) Our scalability provides you with the best talent backed up by guarantees and consumer protection, whilst our attention to detail, perfectionism and personal service still makes every customer feel very special indeed.
+                    We provide exceptional <span className='grdiant font-bold'>Internet of Things services</span> that are foreseeable and maximize value throughout time, regardless of technological advancements. Our solutions endure throughout eternity.
                     </p>
                 </div>
             </Col>
@@ -189,19 +179,17 @@ export default function internetofthings() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Leading  <br /><span className='grdiant'> Internet of Things Development Company! </span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>Bringing Intelligence to Everyday Objects with the <span className='grdiant'>Internet of Things Development Company</span> </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Backup and Storage </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Application Hosting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>E-commerce Applications </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Web Hosting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Media and Entertainment </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Content Delivery </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Databases </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Search Engine Applications </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Design and Deployment of Professional IoT Systems </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Prototyping for Customized IoT Hardware </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> IoT Data Analytics and Visualization in Real-Time </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> IoT Security and Compliance from start to end </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> IoT Smooth Integrations with AI, ML, and Blockchain  </li>
+
         </ul>
     </>
 
@@ -281,7 +269,7 @@ export default function internetofthings() {
         </div>
     </div>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>  IoT connects various devices, objects, or "things" through the internet. And, we sync devices in an ecosystem through the internet, delivering productivity and efficiency for your business.  </p> </>
 
 
     // Swipe component data
@@ -301,10 +289,10 @@ export default function internetofthings() {
 
 
     const Workspace = <>
-        <Row className={`${workStyles.soluRow} mt-5 text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font30 font-bold'> Thinking Why You Need IoT Solutions? Here’s Why!
+        <Row className={`${workStyles.soluRow} text-center justify-content-center align-items-center`}>
+            <h4 className='text-center font50 font-bold'> Simplifying the Complex With <span className='grdiant font-bold'>Internet of Things Development</span> Solutions
             </h4>
-            <p>Some of the benefits and reasons for choosing IoT development are
+            <p> The <span className='grdiant font-bold'>IoT developers</span> at BitsWits offer many benefits including: 
             </p>
             <Col lg={4} md={6} className={workStyles.soluCol}>
                 <div className={`${workStyles.soluCard}`}>
@@ -312,11 +300,12 @@ export default function internetofthings() {
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Saves Time
+                    Overcoming Operational Complexities
                     </h5>
-                    <p>
-                        IoT Development helps develop business as it gives the user full control to the applications, which is more productive in the long run. It helps individuals to monitor a range of tasks and increase efficiency while reducing the manual labor and cost simultaneously.
+                    <p className='m-0 p-0'>
+                    Our IoT solutions simplify complex systems and processes through real-time visibility, automated control, and data-driven optimization.
                     </p>
+                    <p>We help organizations leverage IoT to enhance operations, reduce costs, and overcome legacy complexity.</p>
 
                 </div>
             </Col>
@@ -326,41 +315,41 @@ export default function internetofthings() {
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Easy Control
+                    Enhanced Revenue Generation
                     </h5>
-                    <p>
-                        In the traditional developments it was very difficult to control all the functions of the application manually, but now with IoT, things have become easier to handle. Devices and machines now link together to inform users for required tasks as well as execute them wherever necessary.
+                    <p className='m-0 p-0'>
+                    Our <span className='grdiant font-bold'>IoT services</span> enable organizations to create new income streams, business models, and pricing schemes by using data from linked devices and sensors. 
                     </p>
+                    <p>It's time to open up new earning opportunities!</p>
                 </div>
             </Col>
         </Row>
     </>
 
     const Workspace1 = <>
-        <Row className={`${workStyles.soluRow} mt-3 text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font30 font-bold'> Connected Room Experience
+        <Row className={`${workStyles.soluRow} text-center justify-content-center align-items-center`}>
+            <h4 className='text-center font50 font-bold'> Innovative Examples of <span className='grdiant'>Connected Devices</span>
             </h4>
-            <p>It is an application designed for one of the world's most diverse casino-entertainment providers "Cromwell Caesars Entertainment". The app is used to manage the growing needs of their guests, by incorporating the existing hotel systems into a handheld device, which offers guests an in-house digital access to complimentary and paid services for proactive assistance.
+            <p>
+            Hire BitsWits, and experience the real-world applications of Innovative Connected Devices, ranging from smart homes to industrial solutions, healthcare industry, and many more. 
             </p>
             <Col lg={4} md={6} className={workStyles.soluCol}>
                 <div className={`${workStyles.soluCard}`}>
                     <h5 className='font20 fontf font-medium line30'>
-                        Cromwell Room
-                        Automation App
+                    Connecting Physical and Digital Worlds
                     </h5>
                     <p>
-                        The purpose of the connected room application is to meet the developing needs of guests, incorporating existing hotel systems into a consolidated handheld device that offers guests the convenience of in-room digital access to complimentary and paid services, as well as proactive guest assistance.
+                    <span className='grdiant font-bold'>Our IoT development</span> mutually links the real and virtual worlds using real-time data from sensors and other gadgets to give intelligent monitoring, automation, and control for manufacturing, supply chains, infrastructure, and other areas.
                     </p>
                 </div>
             </Col>
             <Col lg={4} md={6} className={workStyles.soluCol}>
                 <div className={`${workStyles.soluCard}`}>
                     <h5 className='font20 fontf font-medium line30'>
-                        My Medical
-                        Connections
+                    Increasing IoT Efficiency
                     </h5>
                     <p>
-                        With an ever increasing number of new diseases being discovered everyday and the medical conditions that only put people in distress, there is an increased a need of a social platform that can help people gather as much information as they can and provide them a new way to medication.
+                    Our <span className='grdiant font-bold'>IoT development services</span> boosts productivity by collecting knowledge from connected devices and resources. We provide specialized <span className='grdiant font-bold'>IoT services</span> for organizations that increase productivity, cut costs, prevent downtime, and offer them a competitive edge.
 
 
                     </p>
@@ -372,12 +361,10 @@ export default function internetofthings() {
                 <Image src={icon34} alt='BitsWits' className='img-fluid' />
             </div> */}
                     <h5 className='font20 fontf font-medium line30'>
-                        GPG (Global Payroll
-                        Gateway Inc.)
+                    Custom Solutions for Enhanced Efficiency
                     </h5>
                     <p>
-                        GPG is a BFSI (Banking, Finance and Insurance) based company located in Irvine (USA) and Global Payroll Gateway Ltd. of the UK is a wholly owned subsidiary of Global Payroll Gateway, Inc. GPG is not a Card issuer, but works with various card issuers around the world.
-
+                    Our custom IoT solutions are meticulously designed to boost operational efficiency for businesses of all scales. Our <span className='grdiant font-bold'>IoT solutions</span> help you become really good at running your business in today's fast-changing world.
 
                     </p>
                 </div>
@@ -386,10 +373,11 @@ export default function internetofthings() {
     </>
     // Industry
     const Industries = <>
-        <Row className={`${IndusStyle.soluRow} mt-3 text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font30 font-bold'>Industries we're proud to serve
+        <Row className={`${IndusStyle.soluRow} text-center justify-content-center align-items-center`}>
+            <h4 className='text-center font50 font-bold'> The <span className='grdiant font-bold'>Industries</span> Where We Make an Impact!
             </h4>
-            <p>It is an application designed for one of the world's most diverse casino-entertainment providers "Cromwell Caesars Entertainment". The app is used to manage the growing needs of their guests, by incorporating the existing hotel systems into a handheld device, which offers guests an in-house digital access to complimentary and paid services for proactive assistance.
+            <p>
+            Through the creation of innovative internet of things development, we are delighted to assist and empower several sectors. Our <span className='grdiant font-bold'>IoT services</span> support a variety of industries in upgrading processes, and increasing production.
             </p>
             <Col lg={12}>
                 <div className={`${IndusStyle.indusblk}`}>
@@ -397,37 +385,37 @@ export default function internetofthings() {
                         <li>
                             <Link href="#">
                                 <Image src={icon35} alt="Real Estate" />
-                                <p>Real Estate </p>
+                                <p>Real Estate</p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <Image src={icon36} alt="Travel &amp; Hospitality" />
-                                <p> Travel &amp; Hospitality </p>
+                                <p> Travel and Hospitality </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <Image src={icon37} alt="B2B Solutions" />
-                                <p>  B2B Solutions  </p>
+                                <p>  B2B Solutions   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <Image src={icon38} alt="Travel &amp; Hospitality" />
-                                <p>  Healthcare  </p>
+                                <p>  B2C Solutions  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <Image src={icon39} alt="Travel &amp; Hospitality" />
-                                <p>   Education & E-Learning   </p>
+                                <p>   Education and E-Learning   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <Image src={icon40} alt="Travel &amp; Hospitality" />
-                                <p>   Banking & Finance  </p>
+                                <p>   Banking and Finance   </p>
                             </Link>
                         </li>
                         <li>
@@ -439,21 +427,36 @@ export default function internetofthings() {
                         <li>
                             <Link href="#">
                                 <Image src={icon42} alt="Travel &amp; Hospitality" />
-                                <p>    Startup Solutions </p>
+                                <p>   Media and Publishing  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <Image src={icon43} alt="Travel &amp; Hospitality" />
-                                <p>   Media & Publishing    </p>
+                                <p>  Food Ordering Solutions     </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
                                 <Image src={icon44} alt="Travel &amp; Hospitality" />
-                                <p>   Food & Drink   </p>
+                                <p>   Healthcare  </p>
                             </Link>
                         </li>
+
+
+                        <li>
+                            <Link href="#">
+                                <Image src={icon41} alt="Travel &amp; Hospitality" />
+                                <p>   Ticket Booking Solutions   </p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <Image src={icon42} alt="Travel &amp; Hospitality" />
+                                <p>   Automotive Solutions   </p>
+                            </Link>
+                        </li>
+
 
                     </ul>
                 </div>
@@ -484,12 +487,16 @@ export default function internetofthings() {
 
             <WorkExp
                 Workspace={Workspace}
+                expclass='bgcolor'
+                myExpertise = 'myExpertise'
 
             />
 
             <WorkExp
                 Workspace={Workspace1}
-                expclass='expclasse'
+                expclass='bgcolor'
+             
+               
             />
 
             <IndustriesInt

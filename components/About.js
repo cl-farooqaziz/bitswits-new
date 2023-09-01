@@ -60,17 +60,25 @@ const About = () => {
                             <h3 className='font20 fontf font-semibold mt-1 letterspace black'>About Us</h3>
                         </Col>
                         <Col lg={10}>
-                            <h2 className='font50 black fontf font-bold line60'>The Mobile <span className='grdiant'>App Development Company </span> Thriving to Master Innovation! </h2>
+                            <h2 className='font50 black fontf font-bold line60'>Ride in the Journey of Innovation with the Most Trusted  <span className='grdiant font-bold'>Mobile App Development Company!</span> </h2>
 
-                            <p className='font20 fontf font-medium mt-4 mb-4 black'>Our expert<span className='grdiant'> mobile app developers </span> work with the world’s leading start-ups, mid-level companies and enterprises to create advanced user experiences. </p>
+                            <p className='font20 fontf font-medium mt-4 mb-4 black'> 
+                            
+                            Take a turning trip through the innovation sector, where the <span className='grdiant font-bold'>top app developers</span> provide brilliance on the center of the stage. 
+                            
+                             </p>
 
-                            <p className='font20 fontf font-medium mt-4 mb-4 black'>Witness the brilliance of our diverse portfolio which includes sound, food, pro-health improvement, real estate, traveling, and much more.  </p>
+                            <p className='font20 fontf font-medium mt-4 mb-4 black'>
+                                
+                            We at BitsWits are the dream <span className='grdiant font-bold'>app developers</span> who create applications that capture the exact essence of innovation, perfecting every line of code and every pixel.
+                                
+                                  </p>
 
                             <Row className={styles.decade}>
 
                                 <Col md={4}>
                                     <div className={`${styles.toltip} ${styles.smlp}`}>
-                                        <p className='fontf font20 font-medium m-0 black'>The portfolios we serve provide</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Our portfolio includes:</p>
                                     </div>
                                 </Col>
 
@@ -81,7 +89,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>Home,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Home ,</p>
                                         <Image alt="bitswits" className={styles.tolImg}
                                             src={thumb1}
 
@@ -96,7 +104,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>food,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Real Estate,</p>
                                         <Image alt="bitswits" className={styles.tolImg}
                                             src={thumb2}
 
@@ -113,7 +121,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>improve health,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Food ,</p>
                                         <Image alt="bitswits" className={styles.tolImg}
                                             src={thumb3}
 
@@ -129,7 +137,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>make better trade,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Health ,</p>
                                         <Image alt="bitswits" className={styles.tolImg}
                                             src={thumb4}
 
@@ -145,7 +153,7 @@ const About = () => {
                                     </div>
 
                                     <div className={`${styles.toltip} ${styles.smlp}`}>
-                                        <p className='fontf font20 font-medium m-0 black'>educate leaders,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Ecommerce,</p>
                                         <Image alt="bitswits" className={styles.tolImg}
                                             src={thumb5}
 
@@ -161,7 +169,7 @@ const About = () => {
                                     </div>
 
                                     <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>and more,</p>
+                                        <p className='fontf font20 font-medium m-0 black'>Education ,</p>
                                         <Image alt="bitswits" className={styles.tolImg}
                                             src={thumb6}
 

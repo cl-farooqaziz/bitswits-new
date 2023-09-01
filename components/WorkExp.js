@@ -7,22 +7,21 @@ import styles from '@/styles/WorkExp.module.css'
 const WhyBuild = (props) => {
     return (
         <>
-            <section className={`${styles.myExpertise} ${props.expclass}`}>
+            <section className={`${styles[props.myExpertise]} ${styles[props.expclass]}`}>  
                 <Container>
                     <Row className='aboutfold'>
-                        {/* <Col md={2}>
-                           
-                        </Col> */}
+
                         <Col lg={12}>
-                            {/* {props.subtitle} */}
-                            <h3 className='font40 fontf font-bold mt-1 black text-center'>{props.title} </h3>                              </Col>
-                        {/* <Col lg={3}>
-                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
-                                CALL NOW!
-                            </Link>
-                        </Col> */}
+
+
+                            {props.title &&
+                                <h3 className='font40 fontf font-bold mt-1 black text-center'>{props.title} </h3>
+                            }
+
+                        </Col>
+
                     </Row>
-                    <div className='mt-0 mt-md-5'>{props.Workspace}</div>
+                    <div>{props.Workspace}</div>
                 </Container>
             </section>
         </>

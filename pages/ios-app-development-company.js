@@ -115,17 +115,18 @@ export default function iosappdevelopment() {
 
 
     // banner component data
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Top <span className='grdiant'>Ios App Development Company </span></h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Best  <span className='grdiant'>iOS App Development Company! </span></h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Over <b className='grdiant'>2082+ mobile apps</b> published Worldwide <b className='grdiant'>since 2007</b> . </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>180+</b> In-House Team Of App Designers & Developers </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>20 Years</b> .Experience & Counting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image><b className='grdiant'>IOS, Android & cross-platform apps</b> for phone, tablet & watch. </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Transparent</b> Project Progress </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image> <b className='grdiant'>Offices in 5 Countries</b> (UK, USA, Australia, UAE ) </li>
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Expert IOS Development Team </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Delivering solutions across diverse industry verticals </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Building Applications for the iOS Ecosystem </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>High client satisfaction rate  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>User-centric responsive app designs </li>
+
         </ul>
     </>
 
@@ -202,7 +203,7 @@ export default function iosappdevelopment() {
     </div>
 
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>Our top-rated iOS developers have engaged with a diverse array of exceptional clientele. Connect and let us build a perfect iOS application for your business!</p> </>
 
     // Swipe component data
     const serCards = <>
@@ -414,7 +415,7 @@ export default function iosappdevelopment() {
                 <h4 className='font30 font-bold'>Our Approach for Ios App Development</h4>
                 <div className='d-flex justify-content-start align-content-start mt-5'>
                     <div className='d-inline'>
-                        <div className="mobbtn">
+                        <div className="mobbtn nonefor">
                             <Link href="#" target="_blank" aria-label="img" className={`${expStyles.mobdev} ${expStyles.ev1}`}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21.849" height="26" viewBox="0 0 21.849 26">
                                     <path id="Icon_awesome-apple" data-name="Icon awesome-apple" d="M18.548,15.99a5.419,5.419,0,0,1,2.9-4.922,6.237,6.237,0,0,0-4.917-2.589c-2.061-.163-4.313,1.2-5.137,1.2-.871,0-2.867-1.144-4.435-1.144C3.723,8.589.281,11.119.281,16.268a14.468,14.468,0,0,0,.836,4.713c.743,2.13,3.425,7.354,6.223,7.267,1.463-.035,2.5-1.039,4.4-1.039,1.846,0,2.8,1.039,4.435,1.039,2.821-.041,5.247-4.789,5.956-6.925a5.754,5.754,0,0,1-3.581-5.334ZM15.263,6.458A5.467,5.467,0,0,0,16.656,2.25a6.155,6.155,0,0,0-3.941,2.026,5.553,5.553,0,0,0-1.486,4.174,4.875,4.875,0,0,0,4.034-1.991Z" transform="translate(-0.281 -2.25)" fill="#fff"></path>
@@ -439,9 +440,10 @@ export default function iosappdevelopment() {
 
             </Col>
             <Col lg={7}>
-                <p>At BitsWits, we believe the key to creating a successful and intuitive mobile app is to focus on the user experience. That's why we take a user-centric approach to app development, carefully considering the needs and goals of our users at every stage of the development process.
+                <p>
+                As a premier <span className='grdiant font-bold'>iOS app development company</span> , our <span className='grdiant font-bold'>iOS developers</span> create eye-catching and user-friendly iPhone and iPad apps that capture attention immediately. To develop customized applications that are appropriate for Apple devices, our professional <span className='grdiant font-bold'>iOS developers</span> and designers make use of the newest iOS capabilities.
                 </p>
-                <p>As a reputable app development agency in UK, we also understand the importance of staying up-to-date with the latest technologies and development practices. Our team is constantly learning and evolving to ensure we are always at the forefront of the industry.</p>
+                <p>We put a lot of emphasis on fluid design, clear interfaces, slick performance, thorough testing, and a fantastic user experience. Allow our professionals to create an appealing iOS app that is successful in the App Store and generates actual commercial results.</p>
             </Col>
 
         </Row>
@@ -449,12 +451,10 @@ export default function iosappdevelopment() {
 
     // Why Build
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our Approach for Mobile
-        App Development
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'> Driving User Engagement at the Top <span className='grdiant'>iOS App Development Agency</span> 
     </h2>
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why Does Your Business Need a
-        <span className='grdiant'> Web App?</span></h2>
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why Do You Require Our <span className='grdiant'>iOS Applications</span>?</h2>
 
     const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>What are Progressive Web Apps (PWA’s)?
     </h2>
@@ -466,7 +466,7 @@ export default function iosappdevelopment() {
 
     const text =
         <p className='text-center'>
-            The mobile app makes it possible to add value to your business and attract more customers. A quality app helps you make data-driven decisions that can shape your business for the future and give you a significant edge over your competitors.
+            <span className='grdiant font-bold'>Building your mobile app</span> acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business.
         </p>
     const WhyBuilds = <>
 
@@ -478,10 +478,10 @@ export default function iosappdevelopment() {
                         <Image src={icon232} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Strengthen Brand Identity
+                    Stunning and Intuitive Designs
                     </h5>
                     <p>
-                        Create a solid brand identity by emphasising your brand messaging and values, helping to build a stronger connection with customers.
+                    Our <span className='grdiant font-bold'>iOS developers</span> craft pixel-perfect iOS apps with beautiful and latest designs for Apple devices. 
 
 
                     </p>
@@ -494,10 +494,10 @@ export default function iosappdevelopment() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Increase Engagement
+                    Expert Development
                     </h5>
                     <p>
-                        Enhance customer engagement with your brand using streamlined communication and deliver more personalised experiences.
+                    Expert <span className='grdiant font-bold'>iOS developers</span> at BitsWits know about Swift and Xcode and utilize the latest iOS features for perfect user experiences.
                     </p>
                 </div>
             </Col>
@@ -507,10 +507,10 @@ export default function iosappdevelopment() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Stand Out From Competitors
+                    High Performing Apps
                     </h5>
                     <p>
-                        Position your brand in the market as innovative and forward-thinking with a mobile app and convert more leads more conveniently.</p>
+                    We build powerful and high-performing iOS applications that are stable, smooth, and fast.</p>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -519,12 +519,12 @@ export default function iosappdevelopment() {
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Gather Valuable Customer Data
+                    Apple Guidelines Compliance
 
 
                     </h5>
                     <p>
-                        With a mobile app, gather valuable data on your customers’ behaviour, preferences, and interactions with your brand to build future strategies.
+                    For optimal App Store optimization, our <span className='grdiant font-bold'>iOS developers</span> stick to Apple's strict interface rules and standards of excellence.
 
                     </p>
 
@@ -536,12 +536,12 @@ export default function iosappdevelopment() {
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Offer Push Notifications
+                    Continuous Support
 
 
                     </h5>
                     <p>
-                        With push notifications, you can send messages directly to user’s mobile devices, keeping them informed of new products, promotions, or other relevant updates.
+                    We provide on-going support and maintenance to keep your applications updated with high-quality services. 
 
                     </p>
 
@@ -553,11 +553,11 @@ export default function iosappdevelopment() {
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Enhance Customer Support
+                    Open Communication
 
 
                     </h5>
-                    <p>  A mobile app can offer a more efficient and effective way for customers to get support and assistance, reducing the need for a call or email support.
+                    <p>  Our <span className='grdiant font-bold'>iOS developers</span> ensure open dialogues and total transparency throughout the development process. 
 
                     </p>
 
@@ -569,13 +569,12 @@ export default function iosappdevelopment() {
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Add Exclusiveness
-
+                    Extensive Testing 
 
 
                     </h5>
                     <p>
-                        A mobile app can be used to offer exclusive content, such as access to new products or services, discounts, or promotions.
+                    BitsWits focuses on thorough QA testing, which guarantees your iOS app is free of bugs. 
 
 
                     </p>
@@ -587,12 +586,12 @@ export default function iosappdevelopment() {
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Run Loyalty Programs
+                    Risk Reduction 
 
 
                     </h5>
                     <p>
-                        Create and manage loyalty programs, offering customers encouragement to continue using your products and services with the help of an app.
+                    Outsourcing professional <span className='grdiant font-bold'>iOS app developers</span> from BitsWits, helps reduce risks of launch delays and failure.
 
 
 
@@ -606,11 +605,11 @@ export default function iosappdevelopment() {
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Extended Reach
+                    Proven Track Record 
 
 
                     </h5>
-                    <p>  Reach customers on mobile and offer seamless experiences to access your products and services, place orders, and get support.
+                    <p>  Our <span className='grdiant font-bold'>iOS app development services</span> are known to have a proven history of successfully delivering hundreds of iOS applications for customers.  
 
 
 
@@ -627,26 +626,26 @@ export default function iosappdevelopment() {
     const Benefits = <>
         <Row className='justify-content-center align-items-center text-center mb-4'>
             <Col lg={12}>
-                <h2>Benefits of Working with a Leading
-                    <br />
-                    <span className='font-bold'> Ios App Development Company</span>
+                <h2 className='font50 black fontf font-bold line60 black text-center'>The Perks of Hiring an 
+                    <br className='d-none d-lg-block' />
+                    <span className='grdiant font-bold'> iOS App Development Company!</span>
                 </h2>
-                <p>When you choose to work with our team of expert app developers, you can expect-</p>
+                <p> BitsWits has a team of professional <span className='grdiant font-bold'>iOS app developers</span> who will assist you with;</p>
             </Col>
         </Row>
         <Row className='benefitscard'>
             <Col lg={6}>
                 <div className='card mb-4'>
                     <div className='card-body p-4'>
-                        <Row>
+                        <Row className='gy-4'>
                             <Col lg={5}>
                                 <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A dedicated project manager who will guide you through the app development process and ensure that your project stays on the track that too within budget.
-
-                                </span>
+                            <h4 className='font-bold font20'>Gaining Proven Return on Investments  </h4>
+                                <p className='font14'>
+                                Our <span className='grdiant font-bold'>iOS app development services</span> boost productivity, user growth, and income in the real world of business. We use analytics to demonstrate that our apps increase ROI across important business metrics.
+                                </p>
                             </Col>
                         </Row>
                     </div>
@@ -655,16 +654,15 @@ export default function iosappdevelopment() {
             <Col lg={6}>
                 <div className='card mb-4'>
                     <div className='card-body p-4'>
-                        <Row>
+                        <Row className='gy-4'>
                             <Col lg={5}>
                                 <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A team of experienced app developers with a proven track record of delivering high-quality apps that users love.
-
-
-                                </span>
+                            <h4 className='font-bold font20'>Gaining Access to the Latest App Features  </h4>
+                                <p className='font14'>
+                                BitsWits, a leading  <span className='grdiant font-bold'>iOS app development company</span>, always stays up-to-date with Apple’s latest iOS features to create differentiated and smooth innovative user experiences. 
+                                </p>
                             </Col>
                         </Row>
                     </div>
@@ -673,16 +671,15 @@ export default function iosappdevelopment() {
             <Col lg={6}>
                 <div className='card mb-4'>
                     <div className='card-body p-4'>
-                        <Row>
+                        <Row className='gy-4'>
                             <Col lg={5}>
                                 <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A commitment to clear and open communication, with regular progress updates and the opportunity to provide feedback throughout the development process.
-
-
-                                </span>
+                            <h4 className='font-bold font20'>Reducing Launch Time   </h4>
+                                <p className='font14'>
+                                Our <span className='grdiant font-bold'>iOS app developers</span> have a swift speed in taking your app from concept to launch than most companies. With high-quality applications, BitsWits will definitely surpass your expectations. 
+                                </p>
                             </Col>
                         </Row>
                     </div>
@@ -691,58 +688,59 @@ export default function iosappdevelopment() {
             <Col lg={6}>
                 <div className='card mb-4'>
                     <div className='card-body p-4'>
-                        <Row>
+                        <Row className='gy-4'>
                             <Col lg={5}>
                                 <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <span>
-                                    A focus on your business needs and goals with custom solutions tailored to your unique requirements.
-
-
-                                </span>
+                            <h4 className='font-bold font20'>Reducing Risks During App Launch  </h4>
+                                <p className='font14'>
+                                Our wealth of experience launching hundreds of iOS apps reduces risks of delays, rejections, or other complications. To ensure that your software is approved and goes live on the app store on time, we know how to avoid frequent errors.
+                                </p>
                             </Col>
                         </Row>
                     </div>
                 </div>
             </Col>
         </Row>
-        <p className='text-center'>As skilled app developers in London, we have the knowledge and experience to bring your app ideas to life. Our team is dedicated to providing top-quality service and delivering results that exceed your expectations.
+        <p className='text-center'> 
+
+        Our <span className='grdiant font-bold'>iOS app development services</span> include developing perfect applications according to your unique business requirements. 
 
         </p>
     </>
     const Benefits1 = <>
         <Row className='text-center'>
             <Col lg={12}>
-                <h4 className='font40'>Our <span className='font-bold'> Ios App Development</span> Process</h4>
-                <p>Our app development process is designed to be efficient, transparent, and collaborative. Here's an overview of what you can expect from our mobile app development services:</p>
+                <h4 className='font50 font-bold'>Our <span className='grdiant font-bold'> Ios App Development</span> Process</h4>
+                <p>Our <span className='grdiant font-bold'>iOS mobile app development</span> process is designed to be innovative, efficient, and transparent. What to anticipate from our <span className='grdiant font-bold'>iOS app development services</span> is outlined below:</p>
             </Col>
         </Row>
         <Row>
             <Col lg={7}>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Initial Consultation</h4>
-                    <p>We'll start by discussing your app ideas, goals, and any challenges or constraints you face.</p>
+                    <p>Our <span className='grdiant font-bold'>iOS app developers</span> start by talking about the objectives, obstacles, and limitations you have for your app.</p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Requirements Gathering</h4>
-                    <p>We'll work with you to define the specific features and functionality  that your app will need.</p>
+                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Gathering Requirements</h4>
+                    <p>We'll work with you to define the specific requirements and functionality for your business app.</p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Design and prototyping</h4>
-                    <p>We'll create wireframes and prototypes to give you an idea of how your app will look and function.</p>
+                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Design and Prototype </h4>
+                    <p>In order to give you a sense of how your app will look and work, we design wireframes and prototypes.</p>
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Development</h4>
-                    <p>Our team will build your app using agile development methodologies to ensure we can quickly  adapt to any changes or challenges.</p>
+                    <p>Utilizing development approaches, our team will create your app in a way that swiftly responds to any issues or modifications.</p>
                 </div>
                 <div className='pb-3'>
-                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Testing And Quality Assurance</h4>
-                    <p>We'll thoroughly test your app to ensure it is stable, reliable, and easy to use.</p>
+                    <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Tests and Quality Control</h4>
+                    <p>Your app will be thoroughly evaluated by us to make sure it is dependable, stable, and simple to use.</p>
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold'><Image src={icon32} width={20} className='img-fluid' /> Launch</h4>
-                    <p>We'll help you with the submission process and provide ongoing support to ensure  your app's success.</p>
+                    <p>To guarantee the success of your app, our <span className='grdiant font-bold'>iOS developers</span> assist you with the submission procedure and offer continuous assistance.</p>
                 </div>
             </Col>
             <Col lg={5}>
@@ -776,8 +774,8 @@ export default function iosappdevelopment() {
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>iOS App Development Company - Bitswits!</title>
+                <meta name="description" content="Get the most out of your iOS app by working with our top-rated iOS app developers! We have the best team of developers who specialize in building iOS apps" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -808,6 +806,7 @@ export default function iosappdevelopment() {
             <WhyBuild
                 title="Why Does Your Business Need a"
                 cards={Benefits}
+                alignclass="midBuild"
             // subtitle={whytitle}
             // text={text}
             />

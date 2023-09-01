@@ -51,7 +51,7 @@ const Digital = () => {
                         </Col>
                         <Col lg={7}>
                             <h2 className='font50 black fontf font-bold line60 white mb-0'>
-                            <span className='grdiant'>  Digital Product Solutions </span> For Different Industries
+                                Crossing Industry Frontiers: <span className='grdiant font-bold'>Custom Digital Product Solutions</span> for Diverse Fields
                             </h2>
                         </Col>
                         <Col lg={3}>
@@ -66,26 +66,29 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Healthcare</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Health and Fitness</h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Telemedicine Solution</li>
-                                                    <li>Electronic Health Records (EHR)</li>
-                                                    <li>Practice Management Systems</li>
-                                                    <li>Clinical Software Solutions</li>
-                                                    <li>Medical Device Integrations Solutions</li>
+
+                                                    <li>Custom workout plans – Mass gain and weight loss.</li>
+                                                    <li>Nutrition plans for calorie surplus and deficit. </li>
+                                                    <li>Video demonstrations.</li>
+                                                    <li>Virtual classes and workshops.</li>
+                                                    <li>Appointment booking with fitness trainers and nutritionists.</li>
+                                                    <li>Health diaries. </li>
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={health}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -95,26 +98,29 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Fintech</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Banking and Finance </h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Digital Payment Systems</li>
-                                                    <li>Custom Digital Banking Solutions</li>
-                                                    <li>Wealth/Finance Management Solutions</li>
-                                                    <li>Mobile Payment App Development</li>
-                                                    <li>Insurance App Development</li>
+
+                                                    <li>Account management, transfer, and payment apps for mobile banking.</li>
+                                                    <li>Portfolio management and investment tracking.</li>
+                                                    <li>Chatbots for customer support and financial guidance.</li>
+                                                    <li>Personal financial applications.</li>
+                                                    <li>Security measures and fraud detection.</li>
+
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={fintech}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -126,24 +132,27 @@ const Digital = () => {
                                             <div className={styles.slideCntnt}>
                                                 <h3 className='font40 fontf font-semibold white mb-4'>Real Estate</h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>MLS Solutions for Real Estate</li>
-                                                    <li>Virtual Property Tours</li>
-                                                    <li>Property Valuation Tools</li>
-                                                    <li>Real Estate Investment Platforms</li>
-                                                    <li>Property Management Solutions</li>
+
+
+                                                    <li>Apps for searching and choosing properties from real estate listings.</li>
+                                                    <li>3D models and virtual property tours.</li>
+                                                    <li>CRM programs.</li>
+                                                    <li>Mortgage calculators and financial planning tools.</li>
+                                                    <li>Integration of local facilities and knowledge. </li>
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={realState}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -155,82 +164,61 @@ const Digital = () => {
                                             <div className={styles.slideCntnt}>
                                                 <h3 className='font40 fontf font-semibold white mb-4'>E-Commerce</h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Custom eCommerce Store Development</li>
-                                                    <li>Shipping and fulfillment Solution</li>
-                                                    <li>Grocery E-Commerce Apps</li>
-                                                    <li>End to End MarketPlace</li>
-                                                    <li>AR-based eCommerce solutions</li>
+                                                    <li>Online Store Development.</li>
+                                                    <li>Mobile Commerce Apps.</li>
+                                                    <li>Responsive Design.</li>
+                                                    <li>Shopping Cart and Checkout.</li>
+                                                    <li>Product Catalog Management.</li>
+                                                    <li>Discounts and Promotion.</li>
+                                                    <li>Social Media Integration.</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={eCommerce}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
                                     </Row>
                                 </div>
+
                                 <div className={styles.slideBox}>
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Fitness</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Food Ordering Services</h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Online Workout Coach Apps</li>
-                                                    <li>Fitness Tracker (with wearable integration)</li>
-                                                    <li>Gym Management Solutions</li>
-                                                    <li>Online Fitness Supplement Store Development</li>
-                                                    <li>Wellness Apps</li>
+
+                                                    <li>Simple ordering and live tracking on food apps.</li>
+                                                    <li>Discounts and loyalty programs for regular customers.</li>
+                                                    <li>POS system integration.</li>
+                                                    <li>Pre-orders for meals and plans.</li>
+                                                    <li>Latest payment methods.</li>
+                                                    <li>Integration with point systems and loyalty applications.</li>
+
+
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
-                                                    src={fitness}
-                                                    
-                                                />
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                                <div className={styles.slideBox}>
-                                    <Row className='align-items-center'>
-                                        <Col lg={6}>
-                                            <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Restaurant</h3>
-                                                <ul className={styles.slidLst}>
-                                                    <li>Food Delivery App Development</li>
-                                                    <li>Cloud Kitchen Delivery Solutions</li>
-                                                    <li>Grocery Delivery Solutions</li>
-                                                    <li>Direct delivery Solutions</li>
-                                                    <li>Restaurant PoS Software Development</li>
-                                                </ul>
-                                                <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
-                                                        BOOK A CALL
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col lg={6}>
-                                            <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={restaurant}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -240,26 +228,29 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Travel</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Travel and Hospitality </h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Travel Planning Solution</li>
-                                                    <li>Itinerary Management Platform</li>
-                                                    <li>Ticket & Hotel Booking Solutions</li>
-                                                    <li>Travel Loyalty & Rewards Solutions</li>
-                                                    <li>Car Booking Solutions</li>
+
+
+                                                    <li>Systems for reviewing and ratings.</li>
+                                                    <li>Multi-language support for international travelers.</li>
+                                                    <li>Mobile applications for making reservations for trips, lodging, and activities.</li>
+                                                    <li>Location-based navigational aids and interactive maps.</li>
+                                                    <li>Personalized offers and loyalty programs to attract travelers.</li>
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={travel}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -269,27 +260,30 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Sports</h3>
-                                                <ul className={styles.slidLst}>
-                                                    <li>Sports Training and Coaching Apps</li>
-                                                    <li>Sports Live Streaming Solutions</li>
-                                                    <li>Fantasy Sports Games Development</li>
-                                                    <li>Sports Betting Platforms</li>
-                                                    <li>AR/VR-based Game Development</li>
-                                                    <li>Facilities Management Solutions</li>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>On-Demand Applications</h3>
+                                                <ul>
+                                                    <li>Real-time tracking through GPS.</li>
+                                                    <li>Ratings and reviews for transparency and accountability.</li>
+                                                    <li>Service selection.</li>
+                                                    <li>Secured payment gateways.</li>
+                                                    <li>In-App chat.</li>
+                                                    <li>Geofencing – features based on a specific location.</li>
+                                                    <li>Order history and instant alerts.</li>
+
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={sports}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -299,26 +293,27 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Social Networking</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Media Publishing </h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Community App Development</li>
-                                                    <li>Dating & Matrimony App Development</li>
-                                                    <li>Social Networking App Development</li>
-                                                    <li>Messaging App Development</li>
-                                                    <li>Media Sharing App Development</li>
+                                                    <li>Audio content subscription and streaming.</li>
+                                                    <li>Animated infographics, tools, and visual storytelling.</li>
+                                                    <li>Content curation for community involvement.</li>
+                                                    <li>Apps for distributing articles, movies, and multimedia content.</li>
+                                                    <li>Paywalls and subscription models.</li>
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={social}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -328,26 +323,32 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Business</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>B2B Solutions </h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Sales & Marketing (CRMS)</li>
-                                                    <li>Employee Management (HRMS)</li>
-                                                    <li>HR Portals (Recruitment Platforms)</li>
-                                                    <li>Cloud Solutions</li>
-                                                    <li>Business Process Automation Solutions</li>
+
+
+
+                                                    <li>Enterprise software with smooth communication.</li>
+                                                    <li>Supply chain management applications.</li>
+                                                    <li>Customer management platforms.</li>
+                                                    <li>Collaborative tools for teamwork and project management.</li>
+                                                    <li>Analytics dashboards.</li>
+                                                    <li>Secured document storage and sharing.</li>
+
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={business}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -357,26 +358,30 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Education</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Education and E-Learning </h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Education App Development</li>
-                                                    <li>E2C eLearning App Development</li>
-                                                    <li>Virtual Classrooms & Video Conferencing</li>
-                                                    <li>Learning Management System (LMS)</li>
-                                                    <li>Online Exam Management System</li>
+
+                                                    <li>Gamification features to improve learning.</li>
+                                                    <li>Instant feedback on tests and quizzes.</li>
+                                                    <li>Performance reports for learners.</li>
+                                                    <li>Online training course for learning.</li>
+                                                    <li>Tests, quizzes, and assignments. </li>
+                                                    <li>Video conferencing and virtual classroom tools.</li>
+
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={education}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -386,26 +391,30 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Entertainment</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Ride Apps </h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Video Streaming Solutions</li>
-                                                    <li>Storyboarding and Collaboration Solutions</li>
-                                                    <li>Live Event Ticketing Platforms</li>
-                                                    <li>ML Solution for Large Data</li>
-                                                    <li>VFX Solutions</li>
+
+                                                    <li>Easy booking for pick-up and drop-off.</li>
+                                                    <li>Driver profiles for safety.</li>
+                                                    <li>Real-time tracking with transparency.</li>
+                                                    <li>Estimated arrival time.</li>
+                                                    <li>Multiple ride options.</li>
+                                                    <li>Ridesharing and split fares.</li>
+
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={entertanmnt}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -415,26 +424,30 @@ const Digital = () => {
                                     <Row className='align-items-center'>
                                         <Col lg={6}>
                                             <div className={styles.slideCntnt}>
-                                                <h3 className='font40 fontf font-semibold white mb-4'>Logistics</h3>
+                                                <h3 className='font40 fontf font-semibold white mb-4'>Delivery Apps </h3>
                                                 <ul className={styles.slidLst}>
-                                                    <li>Delivery Management</li>
-                                                    <li>Shipping Logistics Management</li>
-                                                    <li>Fleet Management Software</li>
-                                                    <li>Inventory Management Software</li>
-                                                    <li>Telematics Software Development</li>
+
+
+                                                    <li>Live tracking of progress and location.</li>
+                                                    <li>No-contact delivery for convenience.</li>
+                                                    <li>Order customization.</li>
+                                                    <li>Instant notifications for order confirmation and delivery status.</li>
+                                                    <li>Delivery history and view past orders.</li>
+
+
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
                                                     <Link href="#" className='white'>
-                                                        BOOK A CALL
+                                                        Call Us Today!
                                                     </Link>
                                                 </div>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image  alt="bitswits"     className='img-fluid'
+                                                <Image alt="bitswits" className='img-fluid'
                                                     src={logistic}
-                                                    
+
                                                 />
                                             </div>
                                         </Col>
@@ -447,59 +460,34 @@ const Digital = () => {
                     {/*============= mobile slider ==============*/}
 
                     <Slider {...ourproject1} className='sidenewlong slution mt-5'>
+                     
                         <div className={styles.slideBox}>
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Healthcare</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Banking and Finance </h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Telemedicine Solution</li>
-                                            <li>Electronic Health Records (EHR)</li>
-                                            <li>Practice Management Systems</li>
-                                            <li>Clinical Software Solutions</li>
-                                            <li>Medical Device Integrations Solutions</li>
+
+                                            <li>Account management, transfer, and payment apps for mobile banking.</li>
+                                            <li>Portfolio management and investment tracking.</li>
+                                            <li>Chatbots for customer support and financial guidance.</li>
+                                            <li>Personal financial applications.</li>
+                                            <li>Security measures and fraud detection.</li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
-                                            src={health}
-                                            
-                                        />
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-                        <div className={styles.slideBox}>
-                            <Row>
-                                <Col lg={6}>
-                                    <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Fintech</h3>
-                                        <ul className={styles.slidLst}>
-                                            <li>Digital Payment Systems</li>
-                                            <li>Custom Digital Banking Solutions</li>
-                                            <li>Wealth/Finance Management Solutions</li>
-                                            <li>Mobile Payment App Development</li>
-                                            <li>Insurance App Development</li>
-                                        </ul>
-                                        <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
-                                                BOOK A CALL
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={6}>
-                                    <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={fintech}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -511,24 +499,29 @@ const Digital = () => {
                                     <div className={styles.slideCntnt}>
                                         <h3 className='font40 fontf font-semibold white mb-4'>Real Estate</h3>
                                         <ul className={styles.slidLst}>
-                                            <li>MLS Solutions for Real Estate</li>
-                                            <li>Virtual Property Tours</li>
-                                            <li>Property Valuation Tools</li>
-                                            <li>Real Estate Investment Platforms</li>
-                                            <li>Property Management Solutions</li>
+
+
+                                            <li>Apps for searching and choosing properties from real estate listings.</li>
+                                            <li>3D models and virtual property tours.</li>
+                                            <li>CRM programs.</li>
+                                            <li>Mortgage calculators and financial planning tools.</li>
+                                            <li>Integration of local facilities and knowledge. </li>
+
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={realState}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -540,24 +533,30 @@ const Digital = () => {
                                     <div className={styles.slideCntnt}>
                                         <h3 className='font40 fontf font-semibold white mb-4'>E-Commerce</h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Custom eCommerce Store Development</li>
-                                            <li>Shipping and fulfillment Solution</li>
-                                            <li>Grocery E-Commerce Apps</li>
-                                            <li>End to End MarketPlace</li>
-                                            <li>AR-based eCommerce solutions</li>
+
+
+                                            <li>Online Store Development.</li>
+                                            <li>Mobile Commerce Apps.</li>
+                                            <li>Responsive Design.</li>
+                                            <li>Shopping Cart and Checkout.</li>
+                                            <li>Product Catalog Management.</li>
+                                            <li>Discounts and Promotion.</li>
+                                            <li>Social Media Integration.</li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={eCommerce}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -567,26 +566,31 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Fitness</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Health and Fitness</h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Online Workout Coach Apps</li>
-                                            <li>Fitness Tracker (with wearable integration)</li>
-                                            <li>Gym Management Solutions</li>
-                                            <li>Online Fitness Supplement Store Development</li>
-                                            <li>Wellness Apps</li>
+
+
+                                            <li>Custom workout plans – Mass gain and weight loss.</li>
+                                            <li>Nutrition plans for calorie surplus and deficit. </li>
+                                            <li>Video demonstrations.</li>
+                                            <li>Virtual classes and workshops.</li>
+                                            <li>Appointment booking with fitness trainers and nutritionists.</li>
+                                            <li>Health diaries. </li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={fitness}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -596,26 +600,32 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Restaurant</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Food Ordering Services</h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Food Delivery App Development</li>
-                                            <li>Cloud Kitchen Delivery Solutions</li>
-                                            <li>Grocery Delivery Solutions</li>
-                                            <li>Direct delivery Solutions</li>
-                                            <li>Restaurant PoS Software Development</li>
+
+
+                                            <li>Simple ordering and live tracking on food apps.</li>
+                                            <li>Discounts and loyalty programs for regular customers.</li>
+                                            <li>POS system integration.</li>
+                                            <li>Pre-orders for meals and plans.</li>
+                                            <li>Latest payment methods.</li>
+                                            <li>Integration with point systems and loyalty applications.</li>
+
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={restaurant}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -625,26 +635,29 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Travel</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Travel and Hospitality </h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Travel Planning Solution</li>
-                                            <li>Itinerary Management Platform</li>
-                                            <li>Ticket & Hotel Booking Solutions</li>
-                                            <li>Travel Loyalty & Rewards Solutions</li>
-                                            <li>Car Booking Solutions</li>
+
+                                            <li>Systems for reviewing and ratings.</li>
+                                            <li>Multi-language support for international travelers.</li>
+                                            <li>Mobile applications for making reservations for trips, lodging, and activities.</li>
+                                            <li>Location-based navigational aids and interactive maps.</li>
+                                            <li>Personalized offers and loyalty programs to attract travelers.</li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={travel}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -654,27 +667,32 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Sports</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>On-Demand Applications</h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Sports Training and Coaching Apps</li>
-                                            <li>Sports Live Streaming Solutions</li>
-                                            <li>Fantasy Sports Games Development</li>
-                                            <li>Sports Betting Platforms</li>
-                                            <li>AR/VR-based Game Development</li>
-                                            <li>Facilities Management Solutions</li>
+
+                                            <li>Real-time tracking through GPS.</li>
+                                            <li>Ratings and reviews for transparency and accountability.</li>
+                                            <li>Service selection.</li>
+                                            <li>Secured payment gateways.</li>
+                                            <li>In-App chat.</li>
+                                            <li>Geofencing – features based on a specific location.</li>
+                                            <li>Order history and instant alerts.</li>
+
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={sports}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -684,26 +702,30 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Social Networking</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Media Publishing </h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Community App Development</li>
-                                            <li>Dating & Matrimony App Development</li>
-                                            <li>Social Networking App Development</li>
-                                            <li>Messaging App Development</li>
-                                            <li>Media Sharing App Development</li>
+
+
+                                            <li>Audio content subscription and streaming.</li>
+                                            <li>Animated infographics, tools, and visual storytelling.</li>
+                                            <li>Content curation for community involvement.</li>
+                                            <li>Apps for distributing articles, movies, and multimedia content.</li>
+                                            <li>Paywalls and subscription models.</li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={social}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -713,26 +735,30 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Business</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>B2B Solutions </h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Sales & Marketing (CRMS)</li>
-                                            <li>Employee Management (HRMS)</li>
-                                            <li>HR Portals (Recruitment Platforms)</li>
-                                            <li>Cloud Solutions</li>
-                                            <li>Business Process Automation Solutions</li>
+
+                                            <li>Enterprise software with smooth communication.</li>
+                                            <li>Supply chain management applications.</li>
+                                            <li>Customer management platforms.</li>
+                                            <li>Collaborative tools for teamwork and project management.</li>
+                                            <li>Analytics dashboards.</li>
+                                            <li>Secured document storage and sharing.</li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={business}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -742,26 +768,30 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Education</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Education and E-Learning </h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Education App Development</li>
-                                            <li>E2C eLearning App Development</li>
-                                            <li>Virtual Classrooms & Video Conferencing</li>
-                                            <li>Learning Management System (LMS)</li>
-                                            <li>Online Exam Management System</li>
+
+                                            <li>Gamification features to improve learning.</li>
+                                            <li>Instant feedback on tests and quizzes.</li>
+                                            <li>Performance reports for learners.</li>
+                                            <li>Online training course for learning.</li>
+                                            <li>Tests, quizzes, and assignments. </li>
+                                            <li>Video conferencing and virtual classroom tools.</li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={education}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -771,26 +801,32 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Entertainment</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Ride Apps </h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Video Streaming Solutions</li>
-                                            <li>Storyboarding and Collaboration Solutions</li>
-                                            <li>Live Event Ticketing Platforms</li>
-                                            <li>ML Solution for Large Data</li>
-                                            <li>VFX Solutions</li>
+
+
+                                            <li>Easy booking for pick-up and drop-off.</li>
+                                            <li>Driver profiles for safety.</li>
+                                            <li>Real-time tracking with transparency.</li>
+                                            <li>Estimated arrival time.</li>
+                                            <li>Multiple ride options.</li>
+                                            <li>Ridesharing and split fares.</li>
+
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={entertanmnt}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -800,26 +836,29 @@ const Digital = () => {
                             <Row>
                                 <Col lg={6}>
                                     <div className={styles.slideCntnt}>
-                                        <h3 className='font40 fontf font-semibold white mb-4'>Logistics</h3>
+                                        <h3 className='font40 fontf font-semibold white mb-4'>Delivery Apps </h3>
                                         <ul className={styles.slidLst}>
-                                            <li>Delivery Management</li>
-                                            <li>Shipping Logistics Management</li>
-                                            <li>Fleet Management Software</li>
-                                            <li>Inventory Management Software</li>
-                                            <li>Telematics Software Development</li>
+
+                                            <li>Live tracking of progress and location.</li>
+                                            <li>No-contact delivery for convenience.</li>
+                                            <li>Order customization.</li>
+                                            <li>Instant notifications for order confirmation and delivery status.</li>
+                                            <li>Delivery history and view past orders.</li>
+
+
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
                                             <Link href="#" className='white'>
-                                                BOOK A CALL
+                                                Call Us Today!
                                             </Link>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image  alt="bitswits"     className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={logistic}
-                                            
+
                                         />
                                     </div>
                                 </Col>
@@ -827,7 +866,7 @@ const Digital = () => {
                         </div>
                     </Slider>
                 </Container>
-            </section>
+            </section >
         </>
     )
 }

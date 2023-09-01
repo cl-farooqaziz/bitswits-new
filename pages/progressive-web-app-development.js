@@ -99,26 +99,26 @@ export default function progressivewebappdevelopment() {
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Fast in loading
+                Speed optimized
             </li>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Traffic increases on website
+                Global presence
             </li>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Decrease in bounce rate
+                Latest technology utilization like Workbox and IndexedDB 
             </li>
             <li className="font16 fontf font-medium black ">
                 <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Increase in page per session
+                Built PWAs apps for leading brands
             </li>
         </ul>
     </>
 
 
     const stay = <span className='font30 fontf font-bold black'>
-        Classic Football Shirts
+        Our Stunning Creations Portray Our Journey! 
     </span>
 
     const offline = <span>
@@ -134,29 +134,36 @@ export default function progressivewebappdevelopment() {
 
     const first = <h2> Top-Performing <span className='grdiant'>Progressive Web App Development</span> </h2>
 
-    const visually = <span>
-        Smartphone users are 50% more likely to expect to purchase something immediately while using their smartphone compared to a year ago (Google)
+    const visually = <>
+       
 
-        <br />
-        70% of smartphone users who bought something in a store first turned to their phone for information about a purchase (Google) 35% of people who searched on their phone spent more than they expected in the store (Google)
+       <span className='grdiant font-bold'>Progressive web app development</span> services at BitsWits are changing app experiences and engagement, as seen by the statistics. When compared to regular websites, PWAs load twice as quickly on 3G networks, keep visitors twice as engaged, and increase conversion rates by over 80%. PWAs have 97% opt-in rates for push notifications, and users spend much more time each session.
 
 
-    </span>
+    </>
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>Top <span className='grdiant'> Progressive Web App Development Company!</span> </h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>
+
+        Build PWAs That Adapt to Any Screen Size & Resolution with <span className='grdiant font-bold'>Top Progressive Web App Development Company</span>
+    </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Mobile App-Like Interface </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Connectivity Independence </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Push Notifications </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Self-Updates </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Full Responsiveness and Browser </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Compatibilty </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Secure Since It Is Hosted On Https </li>
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Instant Loading</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Offline Functionality</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Responsive Design</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Push Notifications</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Enhanced Security</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Low Data Usage</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Analytics and Insights</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Cost-Effective Development</li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Cross-Platform Compatibility</li>
+
+
         </ul>
     </>
 
@@ -233,10 +240,10 @@ export default function progressivewebappdevelopment() {
         </div>
     </div>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'> Experience the thrill of diversity with our dedicated progressive web app developers, contact us to book a free consultation!  </p> </>
 
     const titleswip = <>
-        <h3 className='black fontf font-bold font-bold line30 mt-5'>Mobile Searches Statistics</h3>
+        <h3 className='black fontf font-bold font-bold line30 mt-5'>The Data Inspiring the Next App Revolution – PWAs</h3>
     </>
 
     // MyExpertise component data
@@ -250,7 +257,7 @@ export default function progressivewebappdevelopment() {
                         {/* <Image src={icon16} alt='BitsWits' className='img-fluid' /> */}
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Native Apps
+                    Engaging PWA UI/UX Design
                     </h5>
                     <p>
 
@@ -260,19 +267,19 @@ export default function progressivewebappdevelopment() {
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Fast and quick to respond
+                                    Creating wireframes and interactive prototypes
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Smooth, consistent and self contained UI
+                                    Designing intuitive, snappy, and immersive UI/UX
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Work consistently when offline
+                                    Ensuring designs meet the web benchmarks
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Complete access to phone’s hardware.
+                                    Conducting usability testing
                                 </li>
                             </ul>
                         </Col>
@@ -285,7 +292,7 @@ export default function progressivewebappdevelopment() {
                         {/* <Image src={icon17} alt='BitsWits' className='img-fluid' /> */}
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        PWA’s
+                    PWA Feasibility Analysis and Consultation
                     </h5>
                     {/* <p>
                     Here at BitsWits our goals are to deliver work that exceeds our client’s satisfaction. With the strength of our core values and our vast array of skills, we promise to deliver the ultimate web applications and services.
@@ -295,33 +302,22 @@ export default function progressivewebappdevelopment() {
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Mobile App-like interface
+                                    Evaluation for PWA as a right fit for you
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Web standard technologies.
+                                    Technical design and strategy
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
 
-                                    Most of the benefits of Native Apps
+                                    Benchmarking against competitors 
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    No download required
+                                    Road mapping Progressive web app features to drive growth
                                 </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Linkable and sharable
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Improves SEO
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Full responsiveness and browser compatibility.
-                                </li>
+                                
                             </ul>
                         </Col>
                     </Row>
@@ -333,7 +329,7 @@ export default function progressivewebappdevelopment() {
                         {/* <Image src={icon18} alt='BitsWits' className='img-fluid' /> */}
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Traditional Web Apps
+                    Extensive PWA Testing 
                     </h5>
                     {/* <p>
                     As far as CRM (Customer Relationship Management) systems go, here at BitsWits our professionals have extensive industry experience when it comes to developing CRM solutions.
@@ -343,24 +339,21 @@ export default function progressivewebappdevelopment() {
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Depending on the speed of your internet, the web app will be instantly delivered to you.
+                                    Thorough testing of device and OS operation
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Web apps are built using standard HTML, CSS, and JavaScript.
+                                    Field testing to get usability feedback
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Limited access to device’s features.
+                                    Performance testing and load optimization 
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    You cannot install the web app on your device.
+                                    Scanning for errors and improving security 
                                 </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Unlike native apps, web apps don’t have to bother with any kind of app store restrictions.
-                                </li>
+
                             </ul>
                         </Col>
                     </Row>
@@ -370,21 +363,26 @@ export default function progressivewebappdevelopment() {
         </Row>
     </>
 
-    
+
     // Why Build
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>What are Progressive Web Apps (PWA’s)?
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
+        PWA Design, <span className='grdiant font-bold'>Development, and Testing</span> - All in one place
     </h2>
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why Build
-        <span className='grdiant'> Progressive Web Apps?</span></h2>
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'> 
+    
+    Why Does Your Business Need <span className='grdiant font-bold'>Progressive Web App Development</span>?
+     </h2>
 
-    const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>What are Progressive Web Apps (PWA’s)?
+    const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>
+
+Hire BitsWits For <span className='grdiant font-bold'>Progressive Web App Development</span>
+
     </h2>
 
-    const para1 = <span className='font30 black fontf font-regular line60 black'>
-        Usage of internet over mobile is continuously increasing than desktop.
-        53% of traffic to online stores comes via mobile devices
+    const para1 = <span className='font30 black fontf font-regular black'>
+        Hire us for progressive web app development to beat your competitors with a faster, cross-platform solution that captures wider market reach.
     </span>
     const WhyBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -394,10 +392,10 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon232} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Fast
+                    Online and Offline Access
                     </h5>
                     <p>
-                        Being fast has the most significant impact on your business.
+                    <span className='grdiant font-bold'>Progressive web app development services</span> offer online and offline access with a reliable and smooth user experience.  
                     </p>
 
                 </div>
@@ -408,11 +406,11 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Offline – first
+                    Fast Performance 
 
                     </h5>
                     <p>
-                        Website can be accessed and used, even you are in offline mode or airplane mode
+                    Progressive web apps load instantly, with fast functionality. Forget waiting - PWAs deliver speedy experiences users love. 
                     </p>
 
                 </div>
@@ -423,11 +421,13 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Installable & Add icon to home screen
+                    App-Store Power
 
                     </h5>
                     <p>
-                        It can be installed on the device’s home screen and can be easily accessed with one click.</p>
+                    <span className='grdiant font-bold'>Progressive web app development</span> enables immersive app-like interactions with splash screens, icons, and prompts to boost engagement.  
+                        
+                        </p>
 
                 </div>
             </Col>
@@ -437,10 +437,10 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Fresh
+                    Low-Cost and High-Rewards
                     </h5>
                     <p>
-                        Content is automatically updated if something new is added to the website when user is online. </p>
+                    PWAs require lower development costs while providing high ROI if done properly.  </p>
 
                 </div>
             </Col>
@@ -450,10 +450,10 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Secure
+                    No Platform Left Behind 
                     </h5>
                     <p>
-                        Web app is hosted over https to avoid any kind of attacks.</p>
+                    <span className='grdiant font-bold'>Progressive web app developers</span> work consistently across numerous platforms like desktops, mobiles, laptops, and more. </p>
 
                 </div>
             </Col>
@@ -463,9 +463,13 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        App Like
+                    Progressive Excellence 
                     </h5>
-                    <p>  Same functionalities similar to native app but are on the web</p>
+                    <p>  
+
+                    At BitsWits, PWAs keep getting better with updated features and progressive improvements. 
+
+                    </p>
 
                 </div>
             </Col>
@@ -475,11 +479,11 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Responsive
+                    Edge of Tomorrow
 
                     </h5>
                     <p>
-                        App’s UI fit to the device screen size
+                    PWAs offer native features like push notifications, offline access, and home screen icons. 
                     </p>
                 </div>
             </Col>
@@ -489,11 +493,10 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Engaging
+                    Enhanced User Engagement
                     </h5>
                     <p>
-                        Built in features like food ordering and loyalty rewards points to engage users
-
+                    PWAs offer a seamless, fast, and responsive user experience, which  leads to longer on-site engagement, and increased conversions. 
 
                     </p>
                 </div>
@@ -504,9 +507,11 @@ export default function progressivewebappdevelopment() {
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Engaging
+                    Lower Bounce Rates
                     </h5>
-                    <p>  Built in features like food ordering and loyalty rewards points to engage users
+                    <p>  
+PWAs reduce bounce rates and retain users through improved app-like interaction and engagement features.
+
 
                     </p>
 
@@ -524,11 +529,13 @@ export default function progressivewebappdevelopment() {
                     <div className={`${workStyles.imgBox} text-center`}>
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
-                    {/* <h5 className='font20 fontf font-medium line30'>
-                Fast
-                </h5> */}
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
+                    Instability
+                </h5>
+
+
                     <p>
-                        When you open the Website URL on your mobile’s browser, you will have look & feel of mobile app.
+                    Users don't need an app store to install PWAs, as they can do it with just one click from their desktop or home screen.
                     </p>
 
                 </div>
@@ -538,11 +545,11 @@ export default function progressivewebappdevelopment() {
                     <div className={`${workStyles.imgBox}`}>
                         <Image src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
-                    {/* <h5 className='font20 fontf font-medium line30'>
-                Fast
-                </h5> */}
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
+                    Offline Access 
+                </h5>
                     <p>
-                        When you open the browser’s menu, you will see the opttion Add to Home Screen.
+                    Service workers enable PWAs to operate offline after installation. Users enjoy easy, continuous use that doesn't get impacted by network issues.
 
 
                     </p>
@@ -554,11 +561,11 @@ export default function progressivewebappdevelopment() {
                     <div className={`${workStyles.imgBox}`}>
                         <Image src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
-                    {/* <h5 className='font20 fontf font-medium line30'>
-                Fast
-                </h5> */}
+                    <h5 className='font20 fontf font-medium line30 mt-3'>
+                    Swift Speed
+                </h5>
                     <p>
-                        Just like a Native App, your PWA will also be available in the device’s app drawer.
+                    PWAs provide incredibly quick loading due to caching, simplified code, and other optimizations.
 
 
                     </p>
@@ -617,10 +624,10 @@ export default function progressivewebappdevelopment() {
     // </>
 
     const title23 =
-        <span>
-            How PWAs Actually Works for user?
-            {/* When you open the Website URL on your mobile’s browser, you will have look & feel of mobile app. */}
-        </span>
+        <>
+            The Key to Mind-Blowing User Experiences with Top <span className='grdiant font-bold'>Progressive Web App Development Company</span>
+           
+        </>
 
     const subtitle32 = <span>How PWAs Actually Works for user?
     </span>
@@ -629,8 +636,8 @@ export default function progressivewebappdevelopment() {
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Top Rated Progressive Web App Development Company in US - BitsWits</title>
+                <meta name="description" content="As an experienced progressive web app development company, we create fast loading, immersive PWAs that provide native-quality experiences across all devices. Get started today!" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -676,20 +683,22 @@ export default function progressivewebappdevelopment() {
                 title={stay}
                 para={based}
                 subtitle='Classic Football Shirts'
-                subpara2='Our research data serves as a foundation for making data-informed product decisions. By understanding your target audience on a deeper level, we customize apps according to their preferences, improving engagement and satisfaction.'
-                subpara='Dotsquares has already launched their Progressive web app and see how it effects'
+                subpara2= { <> Long before PWAs were even an idea, we were at the forefront of online innovation. Our <span className='grdiant font-bold'>progressive web app developers</span> were the first to embrace the progressive web app revolution when it initially started. Since then, we've created more than 100 highly effective PWAs for businesses across sectors, strengthening our position as industry leaders. </> }
                 // subtitle2 = {}
                 hoke={hoke}
                 ahead={aheadimage}
             />
             {/* <WorkExp /> */}
 
+<div className='ourspacingbottom'>
             <WorkExp
                 title={title23}
                 subtitle={subtitle32}
                 Workspace={Workspace}
 
             />
+</div>
+
             {/* Workspace */}
 
             {/* <Ensure
