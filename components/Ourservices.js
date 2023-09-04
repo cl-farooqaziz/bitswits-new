@@ -9,13 +9,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Ourservices = ({ services }) => {
 
 
-
-
-
-
-
-
-
     return (
         <>
             <section className={styles.ourservices}>
@@ -24,12 +17,13 @@ const Ourservices = ({ services }) => {
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white'>Services</h5>
                         </Col>
-                        <Col lg={7}>
-                            <h2 className='font50 black fontf font-bold line60 white'> <span className='grdiant'>Mobile App Development</span> Services</h2>
+                        <Col lg={9}>
+                            <h2 className='font50 black fontf font-bold line60 white mb-2'> <span className='grdiant'>Mobile App Development</span> Services</h2>
+                            <p className='font18 white'>Here are the mobile app solutions we use to create meaningful futures.</p>
                         </Col>
-                        <Col lg={3}>
+                        {/* <Col lg={3}>
                             <Link className={styles.bttns1} href="#">Book a Call</Link>
-                        </Col>
+                        </Col> */}
                     </Row>
                     <Row className='mt-5 pb-5 ourservicesfaqs'>
                         <Col lg={6}>

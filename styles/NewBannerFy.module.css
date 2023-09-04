@@ -1,5 +1,6 @@
 .newbanner {
-  background: url(../public/images/newbanner/bg-img.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../public/images/newbanner/bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,7 +15,7 @@
   gap: 20px;
 }
 
-.bttns1 { 
+.bttns1 {
   width: 198px;
   height: 45px;
   display: flex;
@@ -275,11 +276,9 @@
   .banerTxt p {
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 767px) {
-
   .newbanner {
     padding: 150px 0 50px;
   }

@@ -54,7 +54,7 @@ const NewDecFy = () => {
                                         src={team1}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Skilled Team
                                     </p>
                                 </div>
@@ -63,7 +63,7 @@ const NewDecFy = () => {
                                         src={team2}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Guaranteed <br /> Innovation
                                     </p>
                                 </div>
@@ -72,7 +72,7 @@ const NewDecFy = () => {
                                         src={team3}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Result-Driven <br /> Approach
                                     </p>
                                 </div>
@@ -81,7 +81,7 @@ const NewDecFy = () => {
                                         src={team4}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Quality & Security
                                     </p>
                                 </div>
@@ -90,7 +90,7 @@ const NewDecFy = () => {
                                         src={team5}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Increase ROI
                                     </p>
                                 </div>
@@ -99,7 +99,7 @@ const NewDecFy = () => {
                                         src={team6}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Non-Disclosure <br /> Agreement
                                     </p>
                                 </div>
@@ -108,7 +108,7 @@ const NewDecFy = () => {
                                         src={team7}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         In-Depth Domain <br /> Knowledge
                                     </p>
                                 </div>
@@ -117,7 +117,7 @@ const NewDecFy = () => {
                                         src={team8}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Integrity <br /> Transparency
                                     </p>
                                 </div>
@@ -126,7 +126,7 @@ const NewDecFy = () => {
                                         src={team9}
 
                                     />
-                                    <p className='f-14 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
                                         Quick and Easy  <br /> Communication
                                     </p>
                                 </div>
