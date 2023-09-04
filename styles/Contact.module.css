@@ -160,6 +160,7 @@
 
 .newBg {
   background-color: #000;
+  border-bottom: 1px solid #fff;
 }
 
 .newBg .cntcForm form input,
