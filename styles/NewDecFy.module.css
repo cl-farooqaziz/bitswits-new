@@ -52,9 +52,7 @@
   }
   
   .team .slideBox {
-    border-image: linear-gradient(90deg,#F32F5E,#4A78EF) 30;
-    border-width: 3px;
-    border-style: solid;
+    border: 1px solid #707070;
     border-right: 0;
     height: 120px;
     width: 237px;

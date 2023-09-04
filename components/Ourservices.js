@@ -13,7 +13,7 @@ const Ourservices = ({ services }) => {
         <>
             <section className={styles.ourservices}>
                 <Container>
-                    <Row className={styles.project}>
+                    <Row className={`${styles.project} justify-content-between`}>
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white'>Services</h5>
                         </Col>
@@ -27,9 +27,6 @@ const Ourservices = ({ services }) => {
                     </Row>
                     <Row className='mt-5 pb-5 ourservicesfaqs'>
                         <Col lg={6}>
-
-
-
 
                             {services.map((item) => (
                                 <div>
@@ -54,7 +51,7 @@ const Ourservices = ({ services }) => {
 
                         </Col>
 
-                        
+
                         <Col lg={6} className='d-lg-block'>
 
                             {services.map((item) => (

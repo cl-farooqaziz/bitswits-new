@@ -66,196 +66,44 @@ const Aboutlp = () => {
 
                             <p className='font20 fontf font-medium mt-4 mb-4 black'>Witness the brilliance of our diverse portfolio which includes sound, food, pro-health improvement, real estate, traveling, and much more.  </p>
 
-                            {/* <Row className={styles.decade}>
-
-                                <Col md={4}>
-                                    <div className={`${styles.toltip} ${styles.smlp}`}>
-                                        <p className='fontf font20 font-medium m-0 black'>The portfolios we serve provide</p>
-                                    </div>
-                                </Col>
-
-                                <Col md={3} className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon4} className='img-fluid' />
-                                    </div>
-
-                                    <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>Home,</p>
-                                        <Image alt="bitswits" className={styles.tolImg}
-                                            src={thumb1}
-
-                                        />
-                                    </div>
-                                </Col>
-
-                                <Col md={2} className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon1} className='img-fluid' />
-                                    </div>
-
-                                    <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>food,</p>
-                                        <Image alt="bitswits" className={styles.tolImg}
-                                            src={thumb2}
-
-                                        />
-                                    </div>
-
-                                </Col>
-
-
-                                <Col md={3} className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon6} className='img-fluid' />
-                                    </div>
-
-                                    <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>improve health,</p>
-                                        <Image alt="bitswits" className={styles.tolImg}
-                                            src={thumb3}
-
-                                        />
-                                    </div>
-
-                                </Col>
-
-                                <Col md={4} className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon5} className='img-fluid' />
-                                    </div>
-
-                                    <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>make better trade,</p>
-                                        <Image alt="bitswits" className={styles.tolImg}
-                                            src={thumb4}
-
-                                        />
-                                    </div>
-
-                                </Col>
-
-                                <Col md={3} className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon2} className='img-fluid' />
-                                    </div>
-
-                                    <div className={`${styles.toltip} ${styles.smlp}`}>
-                                        <p className='fontf font20 font-medium m-0 black'>educate leaders,</p>
-                                        <Image alt="bitswits" className={styles.tolImg}
-                                            src={thumb5}
-
-                                        />
-                                    </div>
-
-                                </Col>
-
-                                <Col md={3} className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon3} className='img-fluid' />
-                                    </div>
-
-                                    <div className={styles.toltip}>
-                                        <p className='fontf font20 font-medium m-0 black'>and more,</p>
-                                        <Image alt="bitswits" className={styles.tolImg}
-                                            src={thumb6}
-
-                                        />
-                                    </div>
-
-                                </Col>
-
-
-
-                            </Row> */}
-
-
-
-                            {/* <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
-
-                                <div className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon4} className='img-fluid' />
-                                    </div>
-
-                                    <div>
-                                        <p className='fontf font25 font-medium m-0 black'>Home</p>
-                                    </div>
-
-                                </div>
-
-                                <div className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon1} className='img-fluid' />
-                                    </div>
-
-                                    <div>
-                                        <p className='fontf font25 font-medium m-0 black'>food</p>
-                                    </div>
-
-                                </div>
-
-
-                                <div className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon6} className='img-fluid' />
-                                    </div>
-
-                                    <div>
-                                        <p className='fontf font25 font-medium m-0 black'>improve health</p>
-                                    </div>
-
-                                </div>
-
-                                <div className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon5} className='img-fluid' />
-                                    </div>
-
-                                    <div>
-                                        <p className='fontf font25 font-medium m-0 black'>make better trade</p>
-                                    </div>
-
-                                </div>
-
-                                <div className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon2} className='img-fluid' />
-                                    </div>
-
-                                    <div>
-                                        <p className='fontf font25 font-medium m-0 black'>educate leaders</p>
-                                    </div>
-
-                                </div>
-
-                                <div className={styles.spaceimg}>
-
-                                    <div>
-                                        <Image alt="bitswits" src={icon3} className='img-fluid' />
-                                    </div>
-
-                                    <div>
-                                        <p className='fontf font25 font-medium m-0 black'>and more</p>
-                                    </div>
-
-                                </div>
-
-
-                            </Slider> */}
-
                             <Button className={styles.aboutbtn}>CALL NOW!</Button>
 
+                            {/* <div className="mt-4">
+                                <div className="row f-center align-items-start">
+                                    <div className="col-lg-3">
+                                        <div className={styles.counterBox}>
+                                            <h3 className="font50 font-bold white mb-0">
+                                                12+
+                                            </h3>
+                                            <p className="font14 font-bold white">Year Of Experiance</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3">
+                                        <div className={styles.counterBox}>
+                                            <h3 className="font50 font-bold white mb-0">
+                                                300+
+                                            </h3>
+                                            <p className="font14 font-bold white">Our Employess</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3">
+                                        <div className={styles.counterBox}>
+                                            <h3 className="font50 font-bold white mb-0">
+                                                500+
+                                            </h3>
+                                            <p className="font14 font-bold white">Applications Developed and Designed</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3">
+                                        <div className={styles.counterBox}>
+                                            <h3 className="font50 font-bold white mb-0">
+                                                92%
+                                            </h3>
+                                            <p className="font14 font-bold white">Client Retention</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
                         </Col>
                     </Row>
                 </Container>

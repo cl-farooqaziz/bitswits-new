@@ -50,6 +50,7 @@ import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
+import FaqsLp from '@/components/FaqsLp'
 
 
 
@@ -263,6 +264,8 @@ export default function androidappdevelopmentcompanylp() {
 
             <Publication />
 
+            <Digitallp />
+
             <Hireus />
 
             <Consultation />
@@ -275,11 +278,11 @@ export default function androidappdevelopmentcompanylp() {
 
             {/*<Findfood /> */}
 
-            <Digitallp />
-
             <Lookingforlp />
 
             <ClientsThinklp />
+
+            <FaqsLp />
 
             <Contact
                 newBg="newBg"
