@@ -104,7 +104,7 @@ const NewBannerFy = (props) => {
                                     <input type='email' className={styles.forminput} placeholder='Email Address' />
                                     <textarea className={styles.formarea} placeholder='Message'></textarea>
                                     <div className={`${styles.take} d-flex`}>
-                                        <p className='white font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong>.</p>
+                                        <p className='white font11 font-semibold fontf m-0'>We take your privacy seriously.<br className='d-block' /> Read our <strong>Privacy Notice</strong>.</p>
                                         <input type='Submit' className={styles.notice} />
                                     </div>
                                 </form>

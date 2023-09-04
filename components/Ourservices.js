@@ -25,7 +25,7 @@ const Ourservices = ({ services }) => {
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white'>Services</h5>
                         </Col>
                         <Col lg={7}>
-                            <h2 className='font50 black fontf font-bold line60 white'> <span className='grdiant'>Services</span> Offered by Us! </h2>
+                            <h2 className='font50 black fontf font-bold line60 white'> <span className='grdiant'>Mobile App Development</span> Services</h2>
                         </Col>
                         <Col lg={3}>
                             <Link className={styles.bttns1} href="#">Book a Call</Link>

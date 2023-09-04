@@ -50,10 +50,11 @@ import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
+import OurWork from '@/components/OurWork'
 
 
 
-export default function androidappdevelopmentcompanylp() {
+export default function ourWork() {
 
 
 
@@ -241,39 +242,13 @@ export default function androidappdevelopmentcompanylp() {
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
             <NewBannerFy
-                subtitle='Transform Your Business With Our Revolutionary'
-                title={<>Mobile App <br />  Development Company </>}
-                title2={<>We Don't Just Create Apps; We Create Experiences</>}
-                text={<> At BitsWits, we develop innovative and user-friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients. Our focus on delivering high-quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
+                title={<>Our Portfolio</>}
+                title2={<>We help our clients grow with cutting-edging technologies, extravagant designs, and innovative software solutions.</>}
             />
 
-            <NewDecFy />
+            {/* <NewDecFy /> */}
 
-            <Aboutlp />
-
-            {/* <NewSliderFy /> */}
-
-            <Ourservices
-                services={services1}
-            />
-
-            <Ready />
-
-            <Partner />
-
-            <Publication />
-
-            <Hireus />
-
-            <Consultation />
-
-            {/* <Musicapp /> */}
-
-            <Ourportfoliolp />
-
-            {/* <Cab />*/}
-
-            {/*<Findfood /> */}
+            <OurWork />
 
             <Digitallp />
 

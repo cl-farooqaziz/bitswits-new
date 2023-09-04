@@ -52,9 +52,9 @@
   }
   
   .team .slideBox {
-    border: 1px solid #fff;
+    border: 2px solid #f32f53;
     border-right: 0;
-    height: 150px;
+    height: 135px;
     width: 237px;
     display: flex !important;
     flex-direction: column;
@@ -65,6 +65,7 @@
   
   .team .slideBox img{
     filter: invert(1);
+    width: 45px;
   }
   
   .team .slideBox p {
