@@ -1,12 +1,12 @@
 .resources{
-  background-color: #000;
+  background-color: #fff;
   color: #fff;
 }
 
 .hireUs {
   position: relative;
   text-align: center;
-  padding-top: 50px;
+  padding: 0 0 50px 0;
 }
 
 .hireUs:before {
@@ -33,21 +33,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #000;
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   margin: 0 auto;
   transition: background-color 2s;
 }
 
 .btnHire:hover {
-  color: #000;
-  background-color: #fff;
+  color: #fff;
+  background-color: #000;
   transition: background-color 2s;
 }
 

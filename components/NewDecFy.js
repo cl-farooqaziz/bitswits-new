@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/Hireus.module.css'
+import styles from '../styles/NewDecFy.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -17,7 +17,8 @@ import team7 from '../public/images/hire/7.webp'
 import team8 from '../public/images/hire/8.webp'
 import team9 from '../public/images/hire/9.webp'
 
-const Hireus = () => {
+
+const NewDecFy = () => {
 
     let teamSlider = {
         centerMode: true,
@@ -44,29 +45,10 @@ const Hireus = () => {
     return (
         <>
             <section className={styles.resources}>
-                <section className={styles.hireUs}>
-                    <Container>
-                        <Row>
-                            <Col lg={12}>
-                                <h3 className="black f-20 f-700 f-montserrat">WHY HIRE US?</h3>
-                                <h2 className="black f-50 f-700  f-playfair mt-3">
-                                    What Makes <span className='grdiant'>Bitswits The Most
-                                        Recommended Mobile App  Development</span> Company?
-                                </h2>
-                                <p className="black text-center f-16 f-400 t-justify mt-3 mb-5">
-                                    As the leading mobile app development agency, we've gathered top-notch resources to create exceptional solutions for mobile applications. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to instantly provide unparalleled solutions to our valued clients.
-                                </p>
-                                <Link href='#' className={`${styles.btnHire}`}>
-                                    Get Free Consultation
-                                </Link>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section>
-                {/* <section className={`${styles.team} mt-4 mt-lg-5`}>
+                <section className={`${styles.team}`}>
                     <Row className={styles.teamRow}>
                         <Col lg={12}>
-                            <Slider {...teamSlider} className='mt-3'>
+                            <Slider {...teamSlider}>
                                 <div className={styles.slideBox}>
                                     <Image alt="bitswits" className='img-fluid mx-auto'
                                         src={team1}
@@ -151,10 +133,10 @@ const Hireus = () => {
                             </Slider>
                         </Col>
                     </Row>
-                </section> */}
+                </section>
             </section>
         </>
     )
 }
 
-export default Hireus
+export default NewDecFy

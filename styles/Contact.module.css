@@ -159,19 +159,20 @@
 }
 
 .newBg {
-  background-color: #ccc;
+  background-color: #000;
+  border-bottom: 1px solid #fff;
 }
 
 .newBg .cntcForm form input,
 .newBg .cntcForm form select,
 .newBg .cntcForm form textarea {
   background-color: transparent;
-  border-color: #000;
-  color: #222;
+  border-color: #fff;
+  color: #fff;
 }
 
 .newBg .cntcForm form ::placeholder {
-  color: #222;
+  color: #fff;
 }
 
 .newBg .cntcForm form .btns {
@@ -179,22 +180,36 @@
 }
 
 .newBg .cntcForm form .btns:hover {
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 
 .newBg .touch svg,
 .newBg .touch span,
 .newBg .social h5,
 .newBg .socialIcn svg {
-  color: #000;
+  color: #fff;
 }
 
 .newBg .socialIcn img {
-  filter: invert(1);
+  filter: invert(0);
 }
 
-.newBg .formPara p {
-  color: #000;
+.newBg .cntcTxt p, .newBg .formPara p {
+  color: #fff;
+}
+
+.newBg .cntcTxt h2{
+  color: #fff; 
+}
+
+.newBg .cntcForm form label {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 37.5px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  display: block;
 }
 
 /* ===============Media Queries================ */

@@ -46,12 +46,12 @@ import lop6 from '/public/images/bonusandriod/6.webp'
 import lop7 from '/public/images/bonusandriod/mobile.webp'
 //
 import React, { useState } from 'react';
-import icon1 from '../public/images/andriodservices/sideimg1.png'
-import icon2 from '../public/images/andriodservices/game1.png'
-import icon3 from '../public/images/andriodservices/web301.png'
-import icon4 from '../public/images/andriodservices/blockchain1.png'
-import icon5 from '../public/images/andriodservices/webflow1.png'
-import icon6 from '../public/images/andriodservices/artifical1.png'
+import icon1 from '../public/images/andriodservices/sideimg.png'
+import icon2 from '../public/images/andriodservices/game.png'
+import icon3 from '../public/images/andriodservices/web30.png'
+import icon4 from '../public/images/andriodservices/blockchain.png'
+import icon5 from '../public/images/andriodservices/webflow.png'
+import icon6 from '../public/images/andriodservices/artifical.png'
 import Ourservices from '@/components/Ourservices'
 import Contact from '@/components/Contact'
 
