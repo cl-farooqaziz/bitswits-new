@@ -49,6 +49,7 @@ import Lookingforlp from '@/components/Lookingforlp'
 import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
+import NewDecFy from '@/components/NewDecFy'
 
 
 
@@ -247,6 +248,8 @@ export default function androidappdevelopmentcompanylp() {
                 text={<> At BitsWits, we develop innovative and user-friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients. Our focus on delivering high-quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
             />
 
+            <NewDecFy />
+
             <NewSliderFy />
 
             <Aboutlp />
@@ -259,7 +262,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Partner />
 
-            <Lookingforlp />
+            <Publication />
 
             <Consultation />
 
@@ -273,7 +276,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Digitallp />
 
-            <Publication />
+            <Lookingforlp />
 
             <Hireus />
 
