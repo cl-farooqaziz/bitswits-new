@@ -11,7 +11,8 @@
   background-color: #d5ebf9;
   margin-bottom: 13px;
   font-size: 17px;
-  color: #085281;
+  color: black;
+  font-weight: 500;
 }
 
 .mservice li img {

@@ -57,27 +57,35 @@ export default function aboutUs() {
 
     // banner component data
 
-const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Web Development </span> Company!</h1>
+    const heading = <h1 className='font65 grdiant fontf font-bold line60'>Building Futuristic Applications With Our World-Class Web App Development Company </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Multi Browser Compatabilitiy </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Highly Maintainable Code</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Solid Version Control System</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> User Friendly Interfaces</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Performance, load and Stress Testing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Staying Up-To-Date with Latest Technology</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Clean Code and API’s</li>
+
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Increased demand and functionality with scalable web apps.  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Smart solutions into web apps. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Combining technology and innovation to create intelligent online apps. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Innovative web app development  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>99% customer satisfaction rate </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Transforming ideas into flexible, intelligent online apps. </li>
+
+
+
         </ul>
 
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>In 21 years of business we've worked with over <strong>128 Fintech</strong>, banking and finance clients. What can we do for you?</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
+
+        At BitsWits, our <span className='grdiant font-bold'>web application developers</span> focus on creating web solutions and improving brand identity. Connect with us and let our experts fill your apps with creativity and entertainment.
+
+    </p> </>
 
     // MyServices component data
 
-    const sersubtile = <h2 className='font50 black fontf font-bold line60 black'>Get An Insight Of Our <span className='grdiant'>Web Development</span> Services</h2>
+    const sersubtile = <h2 className='font50 black fontf font-bold line60 black'> How Our <span className='grdiant font-bold'>Web Application Developers</span> Take Websites from Blah to Wow! </h2>
 
 
     // const mobile = <div>
@@ -158,10 +166,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon1} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Custom Web Development
+                        E-Commerce Development
                     </h5>
                     <p>
-                        BitsWits can design and develop a solution targeted to your organization’s specific needs – custom web development. We make sure your needs are not only heard but met, effectively.
+                        We create feature-rich online shops that are optimized for simplified usage and sales. Extensive product brochures, secure checkout, promotions, SEO, and other features are available on our eCommerce platforms.
                     </p>
                 </div>
             </Col>
@@ -171,10 +179,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon2} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Portal Development
+                        Personalized Portal Development
                     </h5>
                     <p>
-                        We offer full-cycle development services to create a web portal that supports your business strategy. We’ve deployed amazing and experienced web developers, each of whom have an affinity towards coding and developing.
+                        Our <span className='grdiant font-bold'>web developers</span> create branded, private portals that accelerate procedures and centralize access, communication, and collaboration.
                     </p>
                 </div>
             </Col>
@@ -184,10 +192,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon3} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Online Reservation & Ticketing
+                        Game Design
                     </h5>
                     <p>
-                        BitsWits provides design and software development for event management companies and companies who sell tickets online.
+                        Our <span className='grdiant font-bold'>web application developers</span> create interactive web games using a variety of technologies, including HTML5, WebGL, and JavaScript. Our games draw players in with amazing graphics, engaging gameplay, and social features.
                     </p>
                 </div>
             </Col>
@@ -197,10 +205,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon4} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        E-Commerce Development
+                        LMS and Learning Platforms
                     </h5>
                     <p>
-                        With rich, dynamic and customer oriented B2C solutions, BitsWits is in a strong position to assist business efficiently. Helping our clients achieve business growth through the medium of our services is what keeps us motivated.
+                        For the purpose of providing online training and courses, we construct reliable learning management systems. Course creation, testing, certification, and social learning are all part of our LMS solutions.
                     </p>
                 </div>
             </Col>
@@ -210,10 +218,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon5} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Game Development
+                        Database and Listings
                     </h5>
                     <p>
-                        We understand what can turn a good gaming idea into a fantabulously great game. We’ve got expert game developers who do it all wonderfully and at an amazing speed.
+                        To link consumers with pertinent providers and companies, we provide specialized directories and classified websites. On our platforms, users can browse, search, check reviews, make reservations, and more.
                     </p>
                 </div>
             </Col>
@@ -223,10 +231,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon6} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Education & e-Learning Development
+                        Sites for Social Networking
                     </h5>
                     <p>
-                        e-Learning can revolutionize the way developing and 3rd world countries educate their people. At BitsWits we develop education and e-learning websites, ones that surpass quality and standards of the ones already made.
+                        We create social networks that link members based on shared interests and goals. Modern features on our social networks include profiles, newsfeeds, chat, groups, and more.
                     </p>
                 </div>
             </Col>
@@ -236,10 +244,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon7} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        CRM Solutions
+                        Streaming Multimedia
                     </h5>
                     <p>
-                        With rich, dynamic and customer oriented B2C solutions, BitsWits is in a strong position to assist business efficiently. Helping our clients achieve business growth through the medium of our services is what keeps us motivated.
+                        We build platforms for streaming rich media, including music, video, and photos. Our platforms include responsive playback, playlists, comments, and other features.
                     </p>
                 </div>
             </Col>
@@ -249,10 +257,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon8} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        CMS Solutions
+                        Custom CMS Solutions
                     </h5>
                     <p>
-                        At BitsWits, we provide you undisputed and standard CMS Solutions – we’ve got the kind of experience in doing this and we’ve served a lot of clients for many years.
+                        Our <span className='grdiant font-bold'>web app developers</span> provide adaptable content management solutions that are customized to your unique content processing requirements.
                     </p>
                 </div>
             </Col>
@@ -262,10 +270,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon9} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Enterprise Web Development
+                        Portals for Real Estate
                     </h5>
                     <p>
-                        In today’s fast paced world, business can make their mark only if they are able to cope with the challenges like improved quality services, speedy claims management, reduced time-to-market, improved functionality, etc.
+                        We create real estate portals that showcase the latest features like mortgage calculation, agent biographies, virtual tours, tax reports metrics and 360-Degree Entity Management.
                     </p>
                 </div>
             </Col>
@@ -275,10 +283,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon10} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Mobile App & Mobile Web Development
+                        Deal and Coupon Platforms
                     </h5>
                     <p>
-                        Mobile apps are reigning supreme and for a business to make the right impression on the clients it is most important to get it made by experienced mobile app developers. Our developers have the experience to do mobile apps and mobile web development.
+                        For displaying exclusive offers and discounts, we create deal platforms and coupon websites. Users can quickly search for, share, and use brand offers.
                     </p>
                 </div>
             </Col>
@@ -288,10 +296,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon11} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Social Network Websites
+                        Online Reserving Methods
                     </h5>
                     <p>
-                        We deliver Custom Social Networking and Collaboration platforms and build Online Communities and Knowledge Networks, with great user experience and responsive web design providing you full ownership rights to a custom solution.
+                        We design websites that allow people to make online reservations for hotels, restaurants, appointments, and events. Our reservation systems offer dynamic price and inventory synchronization.
                     </p>
                 </div>
             </Col>
@@ -301,10 +309,12 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon12} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Responsive Web Development
+                        Forms & Workflow Customized
+
+
                     </h5>
                     <p>
-                        Web designing is essential to keep up with the newest trends. In recent times, a business can be displayed in any given mobile device and to have a responsive web design. Our web designers are affluent with the technology and your requirements, thus making the best designs.
+                        Custom forms and multi-step processes for approvals, document management, and other purposes are part of the data-collecting systems we create.
                     </p>
                 </div>
             </Col>
@@ -314,10 +324,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon13} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Search Engine Optimization Services
+                        Fitness & Well-Being Apps
                     </h5>
                     <p>
-                        Our search engine optimisation (SEO) services are designed to increase visibility within the algorithmic search results to deliver high quality, targeted traffic to your website.
+                        To track exercise, diet, and health objectives, we build online applications. Our applications include social features, wearable syncing, and personalized analytics.
                     </p>
                 </div>
             </Col>
@@ -327,10 +337,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon14} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Quality Analyst Services
+                        Games, Apps, and Trivia
                     </h5>
                     <p>
-                        Our company is an ISO 9001:2008 Certified for a quality standards IT Company. This means that we will ensure to focus on four major components: quality planning, quality control, quality assurance and quality improvement.
+                        With the help of games, quizzes, and interactive material, our <span className='grdiant font-bold'>web application developers</span> create entertaining and educational online applications.
                     </p>
                 </div>
             </Col>
@@ -340,10 +350,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon15} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Server Management And Domain Services Support Services
+                        Web interfaces for IoT
                     </h5>
                     <p>
-                        Server infrastructure is the centerpiece of any technology planning. Servers enable process integration and facilitate collaboration among internal and external stakeholders. BitsWits provides you this amazing service.
+                        <span className='grdiant font-bold'> Custom web application developers</span> at BitsWits provide web applications to remotely manage, control, and monitor Internet of Things sensors and devices.
                     </p>
                 </div>
             </Col>
@@ -352,7 +362,7 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
 
     // MyExpertise component data
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our Technical Expertise</h2>
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant font-bold'>Technical Expertise</span> </h2>
 
     const expCards = <>
         <Row className={`${expStyles.soluRow} mt-5`}>
@@ -362,52 +372,37 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        PHP
+                        Laravel and PHP
                     </h5>
                     <p>
-                        Powering nearly 80% of websites, PHP has established itself as the most popular server-side language. Here at BitsWits we cover a wide range of core PHP developments from simple scripts to complex, corporate systems.
+                        Our professional <span className='grdiant font-bold'>web application developers</span> build secure PHP apps rapidly with Laravel by utilizing templates, authentication, and routing. We implement APIs, queues, and live features.
                     </p>
                     <Row>
                         <Col sm={6}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Core PHP
+                                    Routing
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Larvel
+                                    Eloquent ORM
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Zend
+                                    Artisan CLI
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    ROR
+                                    Auth Scaffolding
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Redis Support
                                 </li>
                             </ul>
                         </Col>
-                        <Col sm={6}>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Cake PHP
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    YII
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Codeigniter
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Opencart
-                                </li>
-                            </ul>
-                        </Col>
+
                     </Row>
                 </div>
             </Col>
@@ -417,29 +412,33 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        .Net
+                        Java Script Frameworks
                     </h5>
                     <p>
-                        Here at BitsWits our goals are to deliver work that exceeds our client’s satisfaction. With the strength of our core values and our vast array of skills, we promise to deliver the ultimate web applications and services.
+                        Our professional <span className='grdiant font-bold'>web application developers</span> help bring interactivity to life with spellbinding interfaces powered by React. We build universal JavaScript apps and interactive UI components.
                     </p>
                     <Row>
                         <Col sm={6}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    ASP.NET
+                                    React
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    C#
+                                    Angular
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Umbraco
+                                    Vue.js
                                 </li>
                                 <li className="font14 fontf font-medium black ">
                                     <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    DNN
+                                    Ember
+                                </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    Backbone
                                 </li>
                             </ul>
                         </Col>
@@ -452,26 +451,27 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        CRM
+                        Progressive Web Apps
                     </h5>
                     <p>
-                        As far as CRM (Customer Relationship Management) systems go, here at BitsWits our professionals have extensive industry experience when it comes to developing CRM solutions.
+                        Are you tired of the word “loading”? Well, BitsWits help create lightning-fast apps. We use service workers, push notifications, and offer an app-like experience with offline access.
                     </p>
                     <Row>
                         <Col>
                             <ul className='p-0 m-0'>
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    MS Dynamics CRM
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Responsive Design </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Salesforce
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />App-like User Experience  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Sharepoint
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Mobile Optimization </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />HTTPS Security </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Caching Strategies </li>
+
                             </ul>
                         </Col>
                     </Row>
@@ -483,26 +483,28 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        CMS
+                        Python and Django
                     </h5>
                     <p>
-                        Drupal, Wordpress and Joomla are the CMS (Content Management System) trusted by millions around the globe. It comes with impressive features like extendibility from a huge range of plugins, Content Management, and Front end Editing
+                        BitsWits, a <span className='grdiant font-bold'>web app development company</span> , builds server-side apps and APIs with Django. Our quick prototypes and agile development give a smooth experience on all Python web apps.
                     </p>
                     <Row>
                         <Col sm={6}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Drupal
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Form Handling  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Joomla
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />ORM Models </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Wordpress
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Routing Systems  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />MVT Design </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Third-Party Integration </li>
+
                             </ul>
                         </Col>
                     </Row>
@@ -514,48 +516,28 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        e-Commerce Solution
+                        Java Spring Boot
                     </h5>
                     <p>
-                        With rich, dynamic and customer oriented e-Commerce, BitsWits is in a strong position to assist business efficiently. Helping our clients achieve business growth through the medium of our services is what keeps us motivated.
+                        We develop flexible Java backends with Spring Boot. Our <span className='grdiant font-bold'>web application developers</span> assist in delivering rapid application development, deployment, and powerful frameworks for Java web apps.
                     </p>
                     <Row>
                         <Col sm={6}>
                             <ul className='p-0 m-0'>
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Magento
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Actuator </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Shopify
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Spring MVC </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Prestashop
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    NopCommerce
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Embedded Tomcat Server </li>
+
+
+
                             </ul>
                         </Col>
-                        <Col sm={6}>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Magento 2
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    WooCommerce
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    BigCommerce
-                                </li>
-                            </ul>
-                        </Col>
+
                     </Row>
                 </div>
             </Col>
@@ -565,30 +547,33 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Full Stack Technology
+                        Ruby on Rails
+
+
                     </h5>
                     <p>
-                        With our skills and expertise we can make the application and its functionality more efficient with our improved design architecture.
+                        We at BitsWits, build quick prototypes and MVPs. Our <span className='grdiant font-bold'>web application developers</span> utilize conventions over configurations.
                     </p>
                     <Row>
                         <Col sm={6}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Angulur JS
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Active Record ORM </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Node JS
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />MVC Architecture  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Mean Stack
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Asset Pipeline  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    MongoDB
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Scaffolding  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Built-in-Webserver (Puma) </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Stimulus JS </li>
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -600,22 +585,27 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Mobile App Development
+                        Node.js and Express
                     </h5>
                     <p>
-                        Mobile apps are reigning supreme and for a business to make the right impression on the clients it is most important to get it made by experienced mobile app developers.
+                        If you are looking for fast and flexible backend services with event-driven developmental apps that work effectively, connect with BitsWits today.
                     </p>
                     <Row>
                         <Col sm={6}>
                             <ul className='p-0 m-0'>
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Android
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Asynchronous  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    iOS
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />NPM </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />MVC Patterns </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Core Modules  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Rest API Support </li>
+
                             </ul>
                         </Col>
                     </Row>
@@ -627,18 +617,28 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         <Image src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Games Development
+                        Frontend Development
                     </h5>
                     <p>
-                        No matter what the target age group, we have a genre to suit all tastes. From short, quick fire games, through to fully immersive 3D games and Virtual Reality (VR) environments we can provide it all!
+                        Our professional <span className='grdiant font-bold'>web application developers</span> specialize in HTML/CSS for UI development. We use React, Vue, and other frameworks for responsive designs, performance, and accessibility.
                     </p>
                     <Row>
                         <Col sm={6}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Unity 3D
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />HTML </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />CSS </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />JavaScript  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Cross-Browser Testing  </li>
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -649,8 +649,13 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
 
     // MyReason component data
 
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Here are <span className='grdiant'>six key reasons</span> why
-        UK agencies choose to partner with us</h2>
+    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>
+
+
+Let the Heroes of <span className='grdiant font-bold'>Top Web App Development Company</span> Rescue from Overflow Work and Save the Day by Offloading Projects!
+
+
+    </h2>
 
     const resCards = <>
         <Row className={`${reStyles.soluRow} mt-5`}>
@@ -660,14 +665,12 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         #1
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Competitive rates
+                    Expertise and Capabilities 
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
+                    Our expert group of <span className='grdiant font-bold'>web app developers</span> and designers has built web applications for businesses and startups. We keep up with the most recent trends in web and mobile app development and can create anything from basic CRUD applications to more intricate SaaS solutions.
                     </p>
-                    <p>
-                        Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
-                    </p>
+                  
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -676,14 +679,12 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         #2
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Quality
+                    Specialized Talents and Skills
                     </h5>
                     <p>
-                        We are CMMI level 3 appraised and members of the Agile Alliance, which is your assurance that we have processes and safeguards in place to ensure the delivery of a high quality finished product, each and every time.
+                    Our team offers expertise in advanced technologies like machine learning, augmented reality, real-time communication, and blockchain, in addition to more conventional talents like React and Node. We can assist with integrating modern features.
                     </p>
-                    <p>
-                        Read more about our <strong>CMMI appraisal</strong>.
-                    </p>
+                  
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -692,14 +693,12 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         #3
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Flexibility
+                    Increased Development Bandwidth 
                     </h5>
                     <p>
-                        Our massive permanent workforce is comprised of designers, developers and PMs. You can hire as many or as few of them as you need - on a per project or retained basis.
+                    By delegating work to us, you lighten the pressure on your present developers. This enables them to concentrate on their strategic ambitions and primary goals rather than extra tasks.
                     </p>
-                    <p>
-                        This flexibility means that you’re never paying for skills and time that you’re not using.
-                    </p>
+                 
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -708,14 +707,12 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         #4
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        In-house expertise
+                    Latest Tech Stack
                     </h5>
                     <p>
-                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
+                    Our top <span className='grdiant font-bold'>web application developers</span> remain up to date with contemporary web stacks like React, Angular, Node, and Golang. We can create apps that are more accessible and maintainable.
                     </p>
-                    <p>
-                        This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
-                    </p>
+                  
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -724,14 +721,12 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         #5
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Security & confidentiality
+                    Time and financial savings
                     </h5>
                     <p>
-                        Your contract of engagement is with our UK company (DotSquares Ltd), so our liability to you is governed and protected by UK law.
+                    Avoid the costs associated with hiring, training, and maintaining greater internal staff. Faster delivery at cheaper costs is made possible by our skilled personnel and efficient operations.
                     </p>
-                    <p>
-                        This is a very important detail that sets us apart from many offshoring companies. Furthermore, all Intellectual Property Rights & source code are yours, forever.
-                    </p>
+                  
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -740,10 +735,10 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
                         #6
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        The original, and best
+                    End-to-End Services
                     </h5>
                     <p>
-                        We’ve been servicing UK businesses like yours with offshore teams for <strong>21 years</strong>. In fact, we were one of the first companies to set up this offshore business model, back in 2002. Since then we’ve completed over <strong>20,000 projects</strong> (at last count, and we are still growing!) Our scalability provides you with the best talent backed up by guarantees and consumer protection, whilst our attention to detail, perfectionism and personal service still makes every customer feel very special indeed.
+                    From the original UX/UI design stage to deployment and maintenance, we manage the full product development process. This saves you from the hassles of coordinating across multiple agencies.
                     </p>
                 </div>
             </Col>
@@ -753,8 +748,8 @@ const heading = <h1 className='font65 black fontf font-bold line60'>The Best Des
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Top Web App Development Company - BitsWits</title>
+                <meta name="description" content="Achieve key business goals with the help of our web application development company. As experienced web app developers, we build feature-rich, user-friendly solutions" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>

@@ -95,21 +95,42 @@ export default function ecommerencedevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> E-Commerence Development </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>
+
+        Our <span className='grdiant font-bold'>Expert Ecommerce Web Development Company</span> Helps You Grow Your Business Worldwide.
+
+    </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Advanced E-Commerce For Growing Brands </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Multi Vendor Marketplace Solutions</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Shopping Cart Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  E-Commerce Application Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Web Design & Development Services</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Custom E-Commerce Solutions</li>
+
+
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Product Filtering and Search </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>User-Friendly eCommerce Websites </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Optimized Checkout Funnels  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Omnichannel Sales </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Shipping and Fulfillment  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Security and Protection </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Quality Guaranteed  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Continuous Support and Maintenance  </li>
+
+
+
+
+
+
+
+
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b> 1200+</b> e-Commerce solutions to <b>1000+</b> clients in the last <b>21 years</b> .</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
+
+        With over 20 years of experience building successful online stores, our <span className='grdiant font-bold'>eCommerce website developers</span> have the expertise to create high-converting sales for your business.
+
+    </p> </>
 
 
     // coverage component data
@@ -190,7 +211,10 @@ export default function ecommerencedevelopment() {
 
     // Build component data
 
-    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Major Platforms Our <span className='grdiant'>E-commerce</span> Developers Provide Solutions For:
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+
+        Let Our <span className='grdiant font-bold'>eCommerce Website Developers</span> Can Develop Your Online Store From Scratch By Working On These Top Platforms.
+
     </h2>
 
     const WhyBuilds = <>
@@ -205,7 +229,7 @@ export default function ecommerencedevelopment() {
                             Magento
                         </h5>
                         <p>
-                            We're a well established Magento Certified development company, and we have built and successfully launched thousands of Magento stores.
+                            As eCommerce experts, we offer specialized design, development, and integration services for Magento stores with an extensive list of features.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -218,10 +242,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon19} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            Prestashop
+                            Shopify
                         </h5>
                         <p>
-                            Bitswitsprovides professional and skilful PrestaShop development services including Prestashop adaptation, template design, responsive theme & module development.
+                            For effective operations, our <span className='grdiant font-bold'>eCommerce website developers</span> create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -234,10 +258,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon20} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            BigCommerce
+                            WooCommerce
                         </h5>
                         <p>
-                            If you’re looking for a BigCommerce development company, then we’re here to help. We offer customized services for your BigCommerce store needs.
+                            BitsWits utilizes WooCommerce for WordPress sites and adds extensions, payment connections, and shipping options.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -250,10 +274,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon21} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            WooCommerce
+                            Salesforce Commerce Cloud
                         </h5>
                         <p>
-                            Our WooCommerce development team are experts in providing custom development services for plug-ins, themes, and templates with flexible pricing.
+                            On the Salesforce Commerce Cloud platform, our <span className='grdiant font-bold'>eCommerce website developers</span> implement enterprise-level B2B and B2C services.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -266,10 +290,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            Shopify
+                            Oracle Commerce
                         </h5>
                         <p>
-                            With extensive experience of Shopify's architecture, our developers are the most sought after in the industry when it comes to Shopify development services.
+                            On the Oracle eCommerce platform, we create adaptable, customizable omnichannel ecommerce experiences for users.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -282,10 +306,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            NopCommerce
+                            SAP Commerce
                         </h5>
                         <p>
-                            Bitswitshas the experience and expertise for NopCommerce Development, and we provide the ultimate services in this field.
+                            For international firms, our SAP eCommerce solutions assist in combining several business systems into a unified <span className='grdiant font-bold'>eCommerce website development</span> platform.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -298,10 +322,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            XCart
+                            OpenCart
                         </h5>
                         <p>
-                            Our X-Cart development service is one of the best in the industry. Get a customised online shopping cart solution for your e-Commerce website.
+                            We create and modify OpenCart stores with responsive design, marketing tools, payment gateways, and shipping connections.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -314,10 +338,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            OpenCart
+                            X-Cart
                         </h5>
                         <p>
-                            Our OpenCart developers have extensive experience in OpenCart customisation, theme customisation and vQmod based OpenCart extensions.
+                            Multi-vendor markets with extensions for subscriptions, auctions, and specialized product design are implemented by our X-Cart specialists.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -330,10 +354,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            VirtueMart
+                            PrestaShop
                         </h5>
                         <p>
-                            Benefit from our VirtueMart development services in which we can create shopping cart solutions for e-Commerce websites.
+                            We brand-specifically provide attractive themes, sales, and integrations to the PrestaShop CMS for <span className='grdiant font-bold'>eCommerce website development.</span>
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -346,10 +370,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            Zencart
+                            VirtueMart
                         </h5>
                         <p>
-                            Bitswitsoffers Zen Cart web development services and you can hire our professional developers for custom Zen Cart e-Commerce website design and development.
+                            We create VirtueMart extensions for Joomla that allow several languages, coupons, wish lists, and efficient ERP connectivity.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -362,10 +386,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            OSCommerce
+                            CS-Cart
                         </h5>
                         <p>
-                            Our unrivaled experience and technical expertise make us a trusted offshore osCommerce development company for business across the globe.
+                            CS-Cart developers at BitsWits build multi-vendor platforms with marketplace modules, drop shipping support, and wholesale pricing.
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -378,10 +402,12 @@ export default function ecommerencedevelopment() {
                             <Image src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font20 fontf font-medium line30'>
-                            Magento 2
+                            3D Cart
                         </h5>
                         <p>
-                            Bitswitsprovides top quality Magento 2.0 development and customisation services including Magento 2.0 migration, theme/extension development.
+
+                            Expert <span className='grdiant font-bold'>eCommerce website developers</span> provide digital marketing services, payment connections, POS synchronization, and 3D Cart design modification.
+
                         </p>
                     </div>
                     <Link className={exmplstyles.btn} href="#">View More</Link>
@@ -395,7 +421,7 @@ export default function ecommerencedevelopment() {
 
     // Exmple component data
 
-    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>E-Commerce</span> solutions </h2> </>
+    const exmplTitle = <> <h2 className='font40 fontf font-bold line60 black text-center mb-3'> Are You Craving for More Sales? Check Out the <span className='grdiant font-bold'>eCommerce Sites</span> we Developed! </h2> </>
 
     const exmplSlider = <>
         <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
@@ -462,7 +488,7 @@ export default function ecommerencedevelopment() {
         </Slider>
     </>
 
-    const exmplText = <> Let's talk about your CRM requirements </>
+    const exmplText = <> Connect With Us Today!  </>
 
 
 
@@ -473,7 +499,7 @@ export default function ecommerencedevelopment() {
             <Row>
                 <Col xl={12}>
                     <h3 className='font40 fontf font-bold line60 black text-center mb-5'>
-                        Advantages of Our <span className='grdiant'>E-commerce App Development</span> Services UK:
+                    What Makes Our <span className='grdiant font-bold'>eCommerce App Development Services</span> The Best?
                     </h3>
                 </Col>
             </Row>
@@ -481,37 +507,37 @@ export default function ecommerencedevelopment() {
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones1} className='img-fluid me-auto mb-3' />
-                        <h5 className="font18 fontf font-semibold me-auto">Higher Average Order Values</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Customized eCommerce Mobile App Designs </h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
                         <Image src={milestones2} className='img-fluid me-auto mb-3' />
-                        <h5 className="font18 fontf font-semibold me-auto">Increased Customer Loyalty</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Native iOS and Android Applications for eCommerce Website Development</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones3} className='img-fluid me-auto mb-3' />
-                        <h5 className="font18 fontf font-semibold me-auto">Increased Customer Base</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Improved UI/UX</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones4} className='img-fluid me-auto mb-3' />
-                        <h5 className="font18 fontf font-semibold me-auto">Higher Margins and Better Cash Flow</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Secured and Simplified Payments </h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                         <Image src={milestones5} className='img-fluid me-auto mb-3' />
-                        <h5 className="font18 fontf font-semibold me-auto">Gain New Customers with Search Engine Visibility</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Offline Support </h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                         <Image src={milestones6} className='img-fluid me-auto mb-3' />
-                        <h5 className="font18 fontf font-semibold me-auto">Promote your e-Commerce Website presence</h5>
+                        <h5 className="font18 fontf font-semibold me-auto">Push Notifications </h5>
                     </div>
                 </Col>
             </Row>
@@ -522,10 +548,13 @@ export default function ecommerencedevelopment() {
 
     // E-Commerce Development Services
 
-    const ecomDevTtl = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Our <span className='grdiant'>E-Commerce Development</span>  Services
+    const ecomDevTtl = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'> 
+
+Get Ready to Dominate Your Competition with Our <span className='grdiant font-bold'>E-Commerce Website Development</span> Services
+
     </h2>
 
-    const ecomText = <p className='font16 fontf font-medium black text-center'>From Simple to Complex – Our e-Commerce Solutions Are Our Strength</p>
+    const ecomText = <p className='font16 fontf font-medium black text-center'> The Range of Our eCommerce Talent: From Basic Shopfronts to Massive Ecosystems </p>
 
     const ecomDevSer = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -535,7 +564,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon10} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Pre-Order <br /> Management
+                    Constant Support and Maintenance 
                     </h5>
                 </div>
             </Col>
@@ -545,7 +574,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon11} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Product <br /> Recommendations
+                    Cyber-Security and Performance 
                     </h5>
                 </div>
             </Col>
@@ -555,7 +584,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon12} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Offline Product <br /> Management
+                    Marketing Features and Tools
                     </h5>
                 </div>
             </Col>
@@ -565,7 +594,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon13} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Wish-List <br /> Statement
+                    Shipping and Fulfillment Management
                     </h5>
                 </div>
             </Col>
@@ -575,7 +604,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon14} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Social <br /> Promotions
+                    Integration with Business Systems
                     </h5>
                 </div>
             </Col>
@@ -585,7 +614,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon15} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Customize Product <br /> Using Designing Tool
+                    Omnichannel Commerce 
                     </h5>
                 </div>
             </Col>
@@ -595,7 +624,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Quickbooks <br /> Integration
+                    Custom eCommerce Website Development and Design
                     </h5>
                 </div>
             </Col>
@@ -605,7 +634,7 @@ export default function ecommerencedevelopment() {
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Shipping <br /> Methods
+                    Improve Navigation and Optimization 
                     </h5>
                 </div>
             </Col>
@@ -619,10 +648,10 @@ export default function ecommerencedevelopment() {
     const busGrowth = <>
         <Container>
             <div className='mb-5'>
-                <h3 className='font30 fontf font-bold white text-center mb-0'>
-                    Business Growth With Our E-commerce Development?
+                <h3 className='font50 fontf font-bold white text-center mb-0'>
+                Ready to Grow Your Business? Our <span className='black font-bold'>eCommerce Web Development Company</span> Can Develop Interactive Online Stores
                 </h3>
-                <p className='font30 fontf white text-center'>Here’s Everything You Need To Know:</p>
+                
             </div>
             <div className={growthStyles.mainBox}>
                 <Row className={growthStyles.boxRow}>
@@ -634,10 +663,10 @@ export default function ecommerencedevelopment() {
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
                                     <h5 className='font20 fontf font-medium white line30'>
-                                        Build An Incredible Shopping Experience
+                                    Reach More Customers Online 
                                     </h5>
                                     <p>
-                                        Our revolutionary e-Commerce development lets you create stores that engage with the maximum shoppers to increase sales. Choose from the best responsive e-Commerce templates on the market or build a fully custom site.
+                                    Our <span className='black font-bold'>eCommerce website developers</span> build websites that are rich in features to help you acquire new customers in areas where services are scarce. 
                                     </p>
                                 </div>
                             </div>
@@ -647,10 +676,10 @@ export default function ecommerencedevelopment() {
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
                                     <h5 className='font20 fontf font-medium white line30'>
-                                        Add Promising Features
+                                    Boost Conversion Rates 
                                     </h5>
                                     <p>
-                                        Best-in-class marketing and conversion tools enable the merchants to grow at double the speed of the industry average. Drive more traffic, convert more visitors and seamlessly sell on multiple channels from a single location by first adding a few promising features.
+                                    Our UX specialists simplify site navigation, and our marketing tools promote interaction to increase traffic and revenues. 
                                     </p>
                                 </div>
                             </div>
@@ -660,10 +689,10 @@ export default function ecommerencedevelopment() {
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
                                     <h5 className='font20 fontf font-medium white line30'>
-                                        Get Unparraled Performance
+                                    Reduced Operating Costs
                                     </h5>
                                     <p>
-                                        The e-Commerce systems developed by us at BitsWits benefit merchants from industry-leading performance, stability and sites that load fast for maximum conversion.
+                                    <span className='black font-bold'>Ecommerce website developers</span> at BitsWits assist in lowering overhead expenses and human labor by integrating systems and automating processes on our integrated platforms.
                                     </p>
                                 </div>
                             </div>
@@ -673,10 +702,10 @@ export default function ecommerencedevelopment() {
                                 </div>
                                 <div className={`${growthStyles.txtBox}`}>
                                     <h5 className='font20 fontf font-medium white line30'>
-                                        Optimisation of ROI
+                                    Obtain a Competitive Edge
                                     </h5>
                                     <p>
-                                        You’ll spend less time managing technology and get regular updates with new, cutting-edge features once you know the technique to manage and optimize the things that impact your business.
+                                    Our innovative e-commerce solutions enable you to stand out from the crowd, provide the best possible customer service, and outperform rivals.
                                     </p>
                                 </div>
                             </div>
@@ -695,8 +724,8 @@ export default function ecommerencedevelopment() {
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Leading eCommerce Web Development Company - BitsWits</title>
+                <meta name="description" content="Embark on an eCommerce web development journey to online retail supremacy. Our expert ecommerce web developers provide you with the best ecommerce solutions" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>

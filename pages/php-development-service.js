@@ -53,21 +53,36 @@ export default function phpdevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> Php Development </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>
+
+
+        Develop Quality Websites With Our <span className='grdiant font-bold'>Top PHP Development Company</span>
+
+    </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Expertise in different PHP based frameworks (CorePHP, CakePHP, Zend, Laravel). </li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Hassle-Free Integration on multiple platforms</li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> Leverage PHP’s open-source capabilities for Custom Php Development</li>
-            <li className="font16 fontf font-medium mt-1 black mb-2"> <Image src={mobilearrow} className='img-fluid multi'></Image> CMMI DEV/3 appraised ensuring accurate and on-time delivery.</li>
+
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>PHP Artisans: Expertise in Core PHP, Laravel, CodeIgniter, and more.  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Smooth Integration and Diverse Platforms Through REST APIs and Web Services. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Cost-Effective Custom Solutions. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>21 Years of Excellence: Delivered 10000+ Successful PHP Websites and Apps for 480+ Clients. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Precision Delivery with our CMMI Level 3 Processes. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Full Spectrum Services: End-to-End PHP Development, Design, QA, Maintenance, and More.  </li>
+
+
 
         </ul>
     </>
 
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b >10000+</b> websites to <b>450+</b> clients in the last <b>21</b> years. What can we do for you?</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
+
+        Let's talk about utilizing PHP's flexibility to realize your most audacious online concepts!
+
+    </p> </>
 
 
     // coverage component data
@@ -149,7 +164,7 @@ export default function phpdevelopment() {
 
     // MyExpertise component data
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>PHP Technologies</h2>
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Introducing PHP Technologies: The Driving Force of Our <span className='grdiant font-bold'>PHP Development Company</span> </h2>
 
     const expCards = <>
         <Row className={`${expStyles.soluRow} ${expStyles.phpdev} mt-5`}>
@@ -159,32 +174,24 @@ export default function phpdevelopment() {
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Magento Development
+                        Fuel PHP
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Easy Product Search
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Simpler Payment Gateways
 
-                                </li>
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Social Media Connectivity
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />PHP web framework based on HMVC  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Easy Shopping Module
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Modular design with reusable libraries  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Magento Multivendor Solutions
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Active record implementation  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Strong security features for authentication  </li>
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -196,27 +203,25 @@ export default function phpdevelopment() {
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        CakePHP Development
+                        Cake PHP
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Offers support for PHP 4 & 5
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Opensource web framework for PHP  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Helpful to decrease project development cost
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Built on MVC pattern  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Rapid development and time saving features
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Code generation capabilities and scaffolding   </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Flexible and stable development standards
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Security, authentication, and internationalization features   </li>
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -228,31 +233,22 @@ export default function phpdevelopment() {
                         <Image src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Drupal Development
+                        Phalcon
                     </h5>
                     <Row>
                         <Col>
                             <ul className='p-0 m-0'>
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Drupal migration
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />C-extension for PHP  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Drupal SEO
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />High performance and less consumption of resources  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Drupal Module Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Can handle high traffic web apps easily  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Drupal Theming
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Drupal Hosting
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />MVC, ORM, Caching, and other features   </li>
+
                             </ul>
                         </Col>
                     </Row>
@@ -264,31 +260,26 @@ export default function phpdevelopment() {
                         <Image src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        YII Development
+                        Yii Development
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Retail Management System
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />High performance PHP framework  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Inventory Management
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Uses MVC, DAO, and Active Record patterns  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Retail Management System
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Allows procedural and object-oriented programming  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Logistics And Distribution Management System
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Enterprise Content Management System
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Integrated libraries  </li>
+
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -300,31 +291,24 @@ export default function phpdevelopment() {
                         <Image src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Laravel Development
+                        Laravel
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Web Application Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Open Source PHP framework for building web apps </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Extension Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Model View Controller (MVC) design pattern </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Customisation and Integration
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Routing </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    e-Commerce Development
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Website Migration Services
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Templating and caching </li>
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -336,31 +320,26 @@ export default function phpdevelopment() {
                         <Image src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Zend Development
+                        Zend Framework
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Web & Application Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />PHP and object-oriented programming practices </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Zend integration services
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Modular design </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Zend customisation services
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Integrates features like MVC, ORM, Authentication, etc.  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Build and Deploy Zend Apps
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Payment Gateways Integration
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Perfect for enterprise level and API-first development </li>
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -372,27 +351,25 @@ export default function phpdevelopment() {
                         <Image src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Wordpress Development
+                        October CMS
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    WordPress Website Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Content management system based on Laravel </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Open Source CMS Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Modular system with plugin extensions </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    WordPress Blog Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Frontend framework uses HTML, CSS, JavaScript and Vue.js </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    WordPress Blog Theme Design and Development
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Tools for managing users, permission, and SEO.  </li>
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -404,27 +381,24 @@ export default function phpdevelopment() {
                         <Image src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
-                        Joomla Development
+                        CodeIgniter
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Content Management System
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Lightweight open source PHP framework </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Blog Creation
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Simple syntax and minimal configuration required </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    JomSocial for Community Building
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Perfect for small websites and apps </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Use Virtual Mart and Hikashop for e-commerce Site
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Provide libraries for web projects </li>
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -436,7 +410,7 @@ export default function phpdevelopment() {
 
     // Build component data
 
-    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>How Our
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>How Our
         <span className='grdiant'> PHP Developers</span> Can Help You?</h2>
 
     const whytext = <p className='black font16 fontf font-medium text-center'>Our aim is to match one of our PHP experts to suit your requirements, whether you are a start-up business looking for your first website, selling your goods or services online or have a larger bespoke project.</p>
@@ -449,10 +423,10 @@ export default function phpdevelopment() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        CMS <br /> Websites
+                    Create Reliable Websites
                     </h5>
                     <p>
-                        Content Management Systems allow website owners to update their websites without the need of technical support.
+                    <span className='grdiant font-bold'>PHP developers</span> can create safe, high-performing websites that are flexible and fast.
                     </p>
 
                 </div>
@@ -463,10 +437,10 @@ export default function phpdevelopment() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        e-Commerce <br /> Stories
+                    Make Intuitive Web Applications
                     </h5>
                     <p>
-                        Digital commerce is still one of the fastest growing areas on the internet with shares of online shopping growing year on year.
+                    Our <sapn className='grdiant font-bold'>PHP developers</sapn> build intuitive and engaging web applications with rich functionality using PHP frameworks.
                     </p>
 
                 </div>
@@ -477,10 +451,10 @@ export default function phpdevelopment() {
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Custom <br /> Appliances
+                    Development of API
                     </h5>
                     <p>
-                        With companies requiring their own bespoke solutions to solve their unique business needs, we understand that not all software comes in a box.
+                    For various channels and devices, <span className='grdiant font-bold'>PHP developers</span> can create well-documented REST and SOAP APIs.
                     </p>
 
                 </div>
@@ -491,10 +465,10 @@ export default function phpdevelopment() {
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Travel <br /> Websites
+                    Services for Custom CMS
                     </h5>
                     <p>
-                        Booking holidays and online hotel reservations has become second nature and our experience in this area is second to none.
+                    <span className='grdiant font-bold'>PHP developers</span> at BitsWits develop unique CMS solutions based on the demands and specifications of your particular organization.
                     </p>
 
                 </div>
@@ -505,10 +479,10 @@ export default function phpdevelopment() {
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Healthware
+                    Platforms for eCommerce
                     </h5>
                     <p>
-                        We design and develop sites for the healthcare industry, letting the maximum amount of people reach your business.
+                   <span className='grdiant font-bold'> PHP developers</span> create e-commerce platforms with features like payment gateways and shopping carts that are optimized for sales.
                     </p>
 
                 </div>
@@ -519,10 +493,10 @@ export default function phpdevelopment() {
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Education & e-Learning <br /> Development
+                    Food Delivery Services
                     </h5>
                     <p>
-                        Educating the masses through our educational websites is one of the primary things we do.
+                    At BitsWits, we create online meal ordering platforms with features for menu browsing, order customization, delivery window selection, etc.
                     </p>
                 </div>
             </Col>
@@ -532,10 +506,10 @@ export default function phpdevelopment() {
                         <Image src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Food Ordering <br /> Solutions
+                    Systems for Logistics Management
                     </h5>
                     <p>
-                        Our food ordering solutions are second to none and we employ only the best to do it for you.
+                    Solutions for logistics management can be made by <span className='grdiant font-bold'>PHP developers</span> and programmers to handle inventory, shipping, tracking, and other tasks.
                     </p>
                 </div>
             </Col>
@@ -545,10 +519,10 @@ export default function phpdevelopment() {
                         <Image src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Real <br /> Estate
+                    CRM Programs
                     </h5>
                     <p>
-                        We’ve got the experience in creating some amazing real estate portals that make the property search easier – we can do that for you too.
+                    Our <span className='grdiant font-bold'>PHP developers</span> build perfect customer relationship management systems to manage contacts, track interactions, and gain trust.
                     </p>
                 </div>
             </Col>
@@ -558,10 +532,10 @@ export default function phpdevelopment() {
                         <Image src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Startup <br /> Solutions
+                    Debugging and Testing
                     </h5>
                     <p>
-                        We provide amazing solutions to start up a business, enabling them to have a better ROI later.
+                    BitsWits has the best <span className='grdiant font-bold'>PHP developers</span> who extensively check for bugs in your PHP solutions and resolve any errors that occur.
                     </p>
                 </div>
             </Col>
@@ -572,8 +546,11 @@ export default function phpdevelopment() {
 
     // MyReason component data
 
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Why <span className='grdiant'>BitsWits</span> Is A Leading
-        PHP Development Agency</h2>
+    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>
+
+        The <span className='grdiant font-bold'>Best PHP Developers</span> and Innovators Leading the Way: Why Choose BitsWits?
+
+    </h2>
 
     const resCards = <>
         <Row className={`${reStyles.soluRow} mt-5`}>
@@ -583,14 +560,12 @@ export default function phpdevelopment() {
                         #1
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Competitive rates
+                        Innovative Technical Talents
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
+                        BitsWits creates high-performing, flexible solutions to address complicated demands with expertise in the most recent PHP versions and frameworks like Laravel and Symfony. They stand out due to their growth abilities and finest practices.
                     </p>
-                    <p>
-                        Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
-                    </p>
+
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -599,14 +574,12 @@ export default function phpdevelopment() {
                         #2
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Quality
+                        Outstanding PHP Developers and Talents
                     </h5>
                     <p>
-                        We are CMMI level 3 appraised and members of the Agile Alliance, which is your assurance that we have processes and safeguards in place to ensure the delivery of a high quality finished product, each and every time.
+                        Some of the top <span className='grdiant font-bold'>PHP developers</span> can be found at BitsWits, and they frequently receive home awards from reputable websites. Our skilled talent delivers the highest quality <span className='grdiant font-bold'>PHP development services</span> and excellence in every project.
                     </p>
-                    <p>
-                        Read more about our <strong>CMMI appraisal</strong>.
-                    </p>
+
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -615,14 +588,14 @@ export default function phpdevelopment() {
                         #3
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Flexibility
+                        Future-Oriented Tactics
                     </h5>
                     <p>
-                        Our massive permanent workforce is comprised of designers, developers and PMs. You can hire as many or as few of them as you need - on a per project or retained basis.
+
+                        BitsWits uses <span className='grdiant font-bold'>PHP development services</span> and strategies that are future-oriented. They craft forward-compatible code while monitoring upcoming PHP trends. By doing this, solutions created today can adapt to the future.
+
                     </p>
-                    <p>
-                        This flexibility means that you’re never paying for skills and time that you’re not using.
-                    </p>
+
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -631,14 +604,12 @@ export default function phpdevelopment() {
                         #4
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        In-house expertise
+                    Client-Centered Culture
                     </h5>
                     <p>
-                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
+                    The customer is at the core of everything BitsWits does. Our <span className='grdiant font-bold'>PHP developers</span> collaborate closely with customers during the development process to fully comprehend demands and provide specialized solutions.
                     </p>
-                    <p>
-                        This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
-                    </p>
+
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -647,14 +618,12 @@ export default function phpdevelopment() {
                         #5
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Security & confidentiality
+                    Continuous and Agile Methodology
                     </h5>
                     <p>
-                        Your contract of engagement is with our UK company (DotSquares Ltd), so our liability to you is governed and protected by UK law.
+                    For <span className='grdiant font-bold'>PHP development services</span> and applications, BitsWits employs agile approaches. They operate in sprints, regularly evaluating and enhancing solutions in response to input. This makes it possible to respond quickly to shifting needs.
                     </p>
-                    <p>
-                        This is a very important detail that sets us apart from many offshoring companies. Furthermore, all Intellectual Property Rights & source code are yours, forever.
-                    </p>
+
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -663,10 +632,10 @@ export default function phpdevelopment() {
                         #6
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        The original, and best
+                    Excellent Code Quality
                     </h5>
                     <p>
-                        We’ve been servicing UK businesses like yours with offshore teams for <strong>21 years</strong>. In fact, we were one of the first companies to set up this offshore business model, back in 2002. Since then we’ve completed over <strong>20,000 projects</strong> (at last count, and we are still growing!) Our scalability provides you with the best talent backed up by guarantees and consumer protection, whilst our attention to detail, perfectionism and personal service still makes every customer feel very special indeed.
+                    BitsWits regularly produces secure, high-quality code that complies with industry requirements due to effective QA procedures. Their products are designed for effectiveness, scalability, and efficiency.
                     </p>
                 </div>
             </Col>
@@ -681,62 +650,70 @@ export default function phpdevelopment() {
             <Row className='justify-content-between align-items-center'>
                 <Col lg={4}>
                     <div className={servStyles.left}>
-                        <h2 className='font30 black fontf font-bold line30 black mb-4'>Our <span className='grdiant'>PHP Development</span> Services</h2>
+                        <h2 className='font30 black fontf font-bold line40 black mb-4'>
+
+                            Our PHP Experts Provide Top <span className='grdiant font-bold'>PHP Web Development Services</span>
+
+                        </h2>
                         <p className='black font14 fontf font-medium'>
-                            At BitsWits, we pride ourselves on delivering top-quality PHP development services to our clients. Our team of experienced developers has a track record of creating custom web applications, professional websites, and integrations with third-party APIs that meet the unique needs of each business. From start to finish, we are dedicated to providing excellent customer service and delivering results that exceed expectations.
+                            Our team of professional <span className='grdiant font-bold'>PHP developers</span> has all the expertise needed to make a stunning website for you. Through our core PHP expertise and specialization in Laravel, Symfony, and CodeIgniter, we design high-quality performing websites customized according to your specific requirements. Let our expert <span className='grdiant font-bold'>PHP developers</span> save you from the website hassles!
                         </p>
                     </div>
                 </Col>
                 <Col lg={7} className={servStyles.secondHalf}>
                     <div className={servStyles.servicesBox}>
                         <h3 className={servStyles.servicesTtl}>
-                            Custom Web Application Development
+                            Custom PHP Development
                         </h3>
                         <div className={servStyles.serviceDetails}>
                             <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                Custom Web Application Development
+                                Custom PHP Development
                             </p>
                             <p className='black font13 fontf font-medium mb-0'>
-                                Our team of PHP developers has the skills and experience to build custom web applications from the ground up. We can work with you to understand your business requirements and create a solution that meets your needs. We can customize existing applications to add new features or modify existing functionality.
+                                By combining basic PHP with frameworks like Laravel, Symfony, Yii, and CodeIgniter, our <span className='grdiant font-bold'>PHP developers</span> create high-performing, customized <span className='grdiant font-bold'>PHP development services</span> . From basic websites to advanced web apps, we have built all.
                             </p>
                         </div>
                     </div>
                     <div className={servStyles.servicesBox}>
                         <h3 className={servStyles.servicesTtl}>
-                            Website Development
+                            PHP E-Commerce Services and Solutions
+
+
                         </h3>
                         <div className={servStyles.serviceDetails}>
                             <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                Website Development
+                                PHP E-Commerce Services and Solutions
+
+
                             </p>
                             <p className='black font13 fontf font-medium mb-0'>
-                                Our team can develop a professional website for your business using PHP. We can create many websites, including e-commerce sites, blogs, and portfolios. We will work with you to understand your business needs and design a website that meets your goals and resonates with your target audience.
+                                Are you considering an online sale? Our PHP experts create feature-rich e-commerce websites and apps specifically according to your needs. We can help skyrocket your online sales!
                             </p>
                         </div>
                     </div>
                     <div className={servStyles.servicesBox}>
                         <h3 className={servStyles.servicesTtl}>
-                            Integration with Third-Party APIs
+                            Design of PHP Websites
                         </h3>
                         <div className={servStyles.serviceDetails}>
                             <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                Integration with Third-Party APIs
+                                Design of PHP Websites
                             </p>
                             <p className='black font13 fontf font-medium mb-0'>
-                                Do you need to integrate your web application or website with a third-party service such as Google Maps, a social media platform, or a payment gateway? Our team can help you do this seamlessly using PHP. We have experience integrating with a wide range of APIs and can help you add this functionality to your project.
+                                Our experts create PHP websites that thrill users, from beautiful UI/UX design to deep interactivity. We combine excellent graphics, easy navigation, interesting information, and simple functionality.
                             </p>
                         </div>
                     </div>
                     <div className={servStyles.servicesBox}>
                         <h3 className={servStyles.servicesTtl}>
-                            Maintenance and Support
+                            Application Integration Using PHP
                         </h3>
                         <div className={servStyles.serviceDetails}>
                             <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                Maintenance and Support
+                                Application Integration Using PHP
                             </p>
                             <p className='black font13 fontf font-medium mb-0'>
-                                Once your PHP-based solution is live, it is important to keep it running smoothly and efficiently. Our team offers ongoing maintenance and support to ensure that your project is always up-to-date and functioning as intended. We can handle bug fixes, security updates, and any other maintenance tasks that may come up.
+                                Our experts are skilled in integrating PHP applications with external systems and APIs. Through web services, REST APIs, SOAP, and skilled optimization, our <span className='grdiant font-bold'>PHP developers</span> connect with numerous diverse systems.
                             </p>
                         </div>
                     </div>
@@ -744,14 +721,14 @@ export default function phpdevelopment() {
             </Row>
         </Container>
     </>
-    
+
 
 
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>The Best PHP Development Company - BitsWits</title>
+                <meta name="description" content="Our leading PHP development company develops your idea from conception to completion. Our PHP developers ensure developing dynamic websites" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>

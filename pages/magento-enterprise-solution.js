@@ -51,21 +51,26 @@ export default function magentoenterprisesolution() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> MAGENTO ENTERPRISE SOLUTION </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>The Leading <span className='grdiant'>Magento Enterprise Solutions Company</span> Powering Online Retail Innovation</h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Module Devlopment </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Third Party API  Integration </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Theme Customisations </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Manage Marketing and Sales Activities </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Report On All Activities </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Migration Service </li>
+
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Custom Module Development </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Crafting Inventive Online Stores That Attract and Convert </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Customized Theme Designs </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Sales Optimization </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Marketing Automation </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Generation of Actionable Insights with Data-Driven Reports </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Magento Expertise and Creativity</li>
+
+
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>80+</b> Magento Enterprise Portal solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'> Our Magento enterprise development services have been of highest quality for decades. Let our experts work on your project to make them succeed without hassles! </p> </>
 
 
 
@@ -147,7 +152,7 @@ export default function magentoenterprisesolution() {
 
     // Build component data
 
-    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Look At The Services We Have In <span className='grdiant'>Magento Enterprise</span> For You</h2>
+    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'> Our Renowned <span className='grdiant'>Magento Enterprise Solutions</span> Helping Brands Achieve their eCommerce Goals </h2>
 
     const WhyBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -158,10 +163,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon1} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Websites Development
+                            Custom Module Development
                         </h5>
                         <p>
-                            Website design and development including, themes and extension development, API development, custom eCommerce websites, and responsive website design.
+                            To expand the possibilities of your ecommerce shop, <span className='grdiant font-bold'>Magento developers</span> construct new modules that are specifically suited to your individual business demands.
                         </p>
                     </div>
                 </div>
@@ -173,10 +178,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon2} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Integration With 3rd Party Applications
+                            Integrations with Third Parties
                         </h5>
                         <p>
-                            We integrate websites with third party applications namely POS applications, CRM, ERP, accounting, bookkeeping applications and many more.
+                            Our <span className='grdiant font-bold'>Magento enterprise developers</span> expertly connect the highest quality third-party softwares, including ERP, CRM, and marketing automation solutions.
                         </p>
                     </div>
                 </div>
@@ -188,10 +193,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon3} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Performance Optimization
+                            Design of a Custom Theme
                         </h5>
                         <p>
-                            We do Performance Optimization to improve loading time, increase your site's ranking, improve user experience and increase your sales.
+                            Our designers produce distinctive, brand-aligned themes that entice customers to visit your shop.
                         </p>
                     </div>
                 </div>
@@ -203,10 +208,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon4} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Theming
+                            Sales Optimization and Management
                         </h5>
                         <p>
-                            There is quite a buzz lately around Responsive Web Design (RWD) which means using the latest standards to design a site that adapts/optimizes to many different visiting devices (e.g. computers, tablets, smartphones)...
+                            Our <span className='grdiant font-bold'>Magento enterprise solutions</span> include tools and data analysis to improve pricing, promotions, and product listings for greater conversions and sales.
                         </p>
                     </div>
                 </div>
@@ -218,10 +223,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon5} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Module Development
+                            Marketing Automation
                         </h5>
                         <p>
-                            Magento Enterprise is considered as an important platform for creating e-commerce websites bestowed with reliability, flexibility and unmatched regulation over the all platforms of use.
+                            With the aid of automation and data insights, <span className='grdiant font-bold'>Magento enterprise developers</span> at BitsWits assist you in developing focused campaigns and customer experiences.
                         </p>
                     </div>
                 </div>
@@ -233,10 +238,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon6} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Customize magento Enterprise
+                            Flexible Infrastructure
                         </h5>
                         <p>
-                            Attract more prospects and create more opportunities with less effort. Engage with your customers
+                            <span className='grdiant font-bold'>Magento enterprise developers</span> builds an adaptable, safe, and high-performing infrastructure that can expand with the growth of your company.
                         </p>
                     </div>
                 </div>
@@ -247,7 +252,10 @@ export default function magentoenterprisesolution() {
 
     // MyExpertise component data
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Magento Enterprise</span> Solutions</h2>
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
+        Boost eCommerce Business Revenue With Our <span className='grdiant font-bold'>Magento Enterprise Solutions</span>
+
+    </h2>
 
     const expCards = <>
         <Row className={`${expStyles.soluRow} mt-5`}>
@@ -257,27 +265,27 @@ export default function magentoenterprisesolution() {
                         <Image src={icon7} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
-                        Analytics and <br /> Reporting
+                        Multiple Websites and Stores
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Integration with Google Analytics
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Manage multiple brands </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Admin Report Dashboard with Business Overview
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Localized experiences </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Sales Reports Including Total Sales and Returns
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Centralized inventory </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Tax Reports
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Shared shopping cart </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Consistent look and feel </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Shared admin access
                                 </li>
+
                             </ul>
                         </Col>
                     </Row>
@@ -289,23 +297,28 @@ export default function magentoenterprisesolution() {
                         <Image src={icon8} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
-                        Marketing Promotions <br /> and Tools
+                        Advanced pricing and Promotions
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Online Poll Creation and Management
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Flexible pricing rules </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Landing Page Creation Tools
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Special discounts and prices </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Catalog Promotional Pricing and Controls
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Cart price rules</li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Advanced coupon capabilities </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Gift wrapping services </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Reward points program</li>
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -317,31 +330,28 @@ export default function magentoenterprisesolution() {
                         <Image src={icon9} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
-                        Customer Service
+                        Built-In PCI Compliance
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Contact Us Form
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Secure card data handling   </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Feature-rich Customer Accounts
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Role-based access control  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Order History with Status Updates
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Quarterly network scans  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Order Tracking from Account
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />TLS 1.2+  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Order and Account Update Emails
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Documentation pack  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Regular patching   </li>
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -353,31 +363,30 @@ export default function magentoenterprisesolution() {
                         <Image src={icon10} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
-                        Customer <br /> Accounts
+                        Payment Gateway Integration
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Order status and history
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Multiple Payment Options </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Re-orders from account
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Security Measures </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Recently ordered items
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Multi-Currency Support  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Address Book with unlimited addresses
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Recurring Payments </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Default Billing and Shipping addresses
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Fraud Prevention </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Real-Time Payment Processing</li>
+
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -389,31 +398,29 @@ export default function magentoenterprisesolution() {
                         <Image src={icon11} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
-                        Product <br /> Browsing
+                        Order Management System
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Multiple Images Per Product
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Flexible order workflow  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Product Image Zoom-in Capability
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Omnichannel order processing  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Product Reviews
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Multi-Channel Integration  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Related Products
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Bulk order management  </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Stock Availability
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Customizable rules  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Fraud analysis integration </li>
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -425,19 +432,31 @@ export default function magentoenterprisesolution() {
                         <Image src={icon12} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
-                        Catalog <br /> Browsing
+                        High-Performance Architecture
                     </h5>
                     <Row>
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
+
+
+
+
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Layered / Faceted Navigation for filtering of products in categories and search results.
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Built on PHP 7 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Flat Catalog Module for Improved Performance with large catalogs
-                                </li>
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Asynchronous indexing  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Media Storage Optimization  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Node.js for tools  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Code profiling  </li>
+                                <li className="font14 fontf font-medium black ">
+                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Cache management  </li>
+
+
+
+
                             </ul>
                         </Col>
                     </Row>
@@ -449,7 +468,11 @@ export default function magentoenterprisesolution() {
 
     // Enterprise component data
 
-    const whyEptTitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Why <span className='grdiant'>Magento Enterprise</span></h2>
+    const whyEptTitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'> 
+    
+    Why Choose BitsWits for <span className='grdiant font-bold'>Magento Enterprise Solutions</span>? 
+    
+     </h2>
 
     const WhyEnterprise = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -460,10 +483,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon13} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-4'>
-                            Drive Sales and Improve Productivity
+                        Certified <span className='grdiant font-bold'>Magento Enterprise Developers</span> 
                         </h5>
                         <p>
-                            It all starts with Content Staging and Preview. Now you can easily stage, preview, and schedule a wide range of new content, including updates to products, categories, and promotions.
+                        The team at BitsWits consists of professional <span className='grdiant font-bold'>Magento enterprise developers</span> who are officially certified by Magento for their skills.
                         </p>
                     </div>
                 </div>
@@ -475,10 +498,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon14} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-4'>
-                            Improve Your Management Experience
+                        Complex Project Experience
                         </h5>
                         <p>
-                            Advances to the Magento Admin empower you to work more efficiently. An all-new Admin search feature enables you to quickly find customers and order information.
+                        Our <span className='grdiant font-bold'>Magento developers</span> have extensive experience on complex enterprise-scale Magento projects. 
                         </p>
                     </div>
                 </div>
@@ -490,10 +513,10 @@ export default function magentoenterprisesolution() {
                             <Image src={icon15} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-4'>
-                            Simplify With One Platform
+                        Costs and Time Savings 
                         </h5>
                         <p>
-                            Sell to consumers, businesses, or anything in-between with one powerful platform. The Magento Enterprise Edition flexible feature set offers effortless customization.
+                        <span className='grdiant font-bold'>Magento enterprise Solutions</span> provide quality and value by reducing costs, timelines, and other obstacles. 
                         </p>
                     </div>
                 </div>
@@ -505,8 +528,8 @@ export default function magentoenterprisesolution() {
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Top Magento Enterprise Solution Company - Bitswits</title>
+                <meta name="description" content="With the help of a top Magento Enterprise Development Company, maximize the potential of your business and Join forces with us for incomparable success" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>

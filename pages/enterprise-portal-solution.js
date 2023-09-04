@@ -36,29 +36,46 @@ export default function ecommerencedevelopment() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'>ENTERPRISE PORTAL SOLUTION </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>
+
+        The Best <span className='grdiant font-bold'>Enterprise Portal Development Company</span>: Delivering Enterprise Portal Solutions That You Can Trust
+
+    </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Strategy Assessment And Consulting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> User Interface Design And USablity </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> End-To-End Portal Application Programming </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Third Party Web Services </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Integration With Legacy Business Applications </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Quality Assurance And Complete Testing </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Portal Setup And Maintenance Support </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Poratl Upgrades And New Features Enhancements </li>
+
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Strategic Consulting and Planning  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Interactive Features  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Access Control  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Enterprise Search  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Thorough Testing Analysis  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Continuous Support  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Engaging UI/UX Design  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Legacy System Integration  </li>
+
+
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'> We’ve delivered more than <b>80+</b> Enterprisen Portal solutions to <b>50+</b> clients in the last <b>21 years</b> . </p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
+
+        <span className='grdiant font-bold'>Hire enterprise portal developers</span> at BitsWits who are constantly available for you in providing top quality services that meet your goals and vision.
+
+
+    </p> </>
 
 
 
     // Build component data
 
-    const whytitle = <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>We Let Our Business Values Look After Our Quality Of Work</h2>
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+
+        Light Your Path to Success with Our <span className='grdiant font-bold'>Enterprise Portal Development Services</span>
+
+    </h2>
 
     const WhyBuilds = <>
         <Row className={`${whyStyles.soluRow} mt-5`}>
@@ -69,10 +86,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Effective Resource Utilization
+                            Simplified Processes
                         </h5>
                         <p>
-                            Developing effective management skills to deal with certain challenges and problems of every organization is the urgent need of many businesses and organizations in the global competitive environment, which continues the changing of technology and environment.
+                            At BitsWits, we create user-friendly, integrated portals that improve processes within the organization. This increases effectiveness and production.
                         </p>
                     </div>
                 </div>
@@ -84,10 +101,12 @@ export default function ecommerencedevelopment() {
                             <Image src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Smarter, Simpler, Efficient And Well-Coordinated Processes
+                            Universal Accessibility
                         </h5>
                         <p>
-                            The larger the enterprise, the more challenges there are. Therefore, to implement large scale tools that help enterprises in bringing different processes, people and data on one platform, enterprise solutions are developed.
+
+                            We create inclusive, dynamic portals that can be accessed on any device. This guarantees that all workers can safely obtain the information they require.
+
                         </p>
                     </div>
                 </div>
@@ -99,10 +118,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Easy Access To Data, Even From Different Locations
+                            Improvements in Collaboration
                         </h5>
                         <p>
-                            One of the biggest challenges that companies with multiple locations face is sharing data from one part of the company with another. Even when all portions of the company want to share, it’s often hard to figure out the best way to do so. Enterprise portal solutions ease this problem beautifully.
+                            Our <span className='grdiant font-bold'>enterprise portal development services</span> make it easy for teams, departments, and locations to work together effectively, which leads to better coordination, communication, and outcomes.
                         </p>
                     </div>
                 </div>
@@ -114,10 +133,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Streamlinied Content Storage
+                            Practical Insights
                         </h5>
                         <p>
-                            Keeping your content in order is not everything – the content is useful only when it is available, accessible, searchable and timely updated. ECMs store the current state of your company content management and streamline the processes that were slow and heavy previously.
+                            We incorporate analytics and constantly changing information visualization into portals. This enables quicker, data-driven decision- making throughout the whole organization.
                         </p>
                     </div>
                 </div>
@@ -129,10 +148,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Real Time Data Analysis
+                            Cost-saving measure
                         </h5>
                         <p>
-                            Real-time, accurate data is available within an ERP solution.Information that is needed to make important decisions can be accessed at anytime from one system and the data is updated and stored in real time.
+                            Our portals combine many systems into a single platform. In the long run, this reduces IT expenses by removing redundancies.
                         </p>
                     </div>
                 </div>
@@ -144,10 +163,12 @@ export default function ecommerencedevelopment() {
                             <Image src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Enhanced Customer Relationship
+                            Future-Ready Systems
                         </h5>
                         <p>
-                            ECM systems can be successfully integrated into any business, like in the case of financial services, public sector, media and entertainment, manufacturing and utilities, healthcare, education, e-commerce, services and transport- at BitsWits, we provide you these enterprise portal solution developments.
+
+                            Hire <span className='grdiant font-bold'>enterprise portal developers</span> at BitsWits to create adaptable and flexible portals that are prepared for expansion and innovation in the future. This also assists in decreasing the upgrading expenses.
+
                         </p>
                     </div>
                 </div>
@@ -159,10 +180,12 @@ export default function ecommerencedevelopment() {
                             <Image src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Reduced Cost
+                            Customer service orientation
                         </h5>
                         <p>
-                            ERP solutions for manufacturing are being built with speed and productivity as the focus. And that unquestionably means that employing such a system at your company will build the benefits of cost reduction and streamlined operations.
+
+                            All our staff has quick access to customer data and insights through our portals. This encourages a customer-centric attitude across the whole organization.
+
                         </p>
                     </div>
                 </div>
@@ -174,10 +197,10 @@ export default function ecommerencedevelopment() {
                             <Image src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
-                            Increased Business Revenue
+                            Competitive Advantage
                         </h5>
                         <p>
-                            A business Intelligence system produces detailed analysis that can benefit every company. The tools can track performance, identify hidden trends and strategic information – providing powerful analytics to highlight the right data for business decisions, affecting growth and success.
+                            Our specialized, innovative <span className='grdiant font-bold'>enterprise portal development services</span> provide businesses the advantage of outperforming the competitors and providing superb customer service.
                         </p>
                     </div>
                 </div>
@@ -196,23 +219,24 @@ export default function ecommerencedevelopment() {
                     <Image src={sevcImg} alt='BitsWits' className='img-fluid' />
                 </Col>
                 <Col lg={6} className='mx-auto'>
-                    <h3 className='font-bold mb-3'>Enterprise Portal Development Services</h3>
+                    <h3 className='font-bold mb-3 font50'>  Unify Your Businesses Under One <span className='grdiant font-bold'>Enterprise Portal Development</span> Powerhouse!  </h3>
                     <ul>
-                        <li>Social Networks and Communities</li>
-                        <li>Content Distribution Portals (Digital Docs and Media)</li>
-                        <li>B2C and B2B Ecommerce Portals</li>
-                        <li>Enterprise Information Portals</li>
-                        <li>Business Intelligence Portals</li>
-                        <li>Sales Management Solution</li>
-                        <li>Production Management Solutions</li>
-                        <li>Supply Chain Management</li>
-                        <li>Customer Relation Management</li>
-                        <li>Human Capital Management</li>
-                        <li>Finance Management Solutions</li>
-                        <li>Service Management Solutions</li>
-                        <li>Project Management Solutions</li>
-                        <li>Knowledge Management Portals</li>
-                        <li>Application/Web Services Portals</li>
+
+                        <li>Portal Blueprinting </li>
+                        <li>Custom Portal Development </li>
+                        <li>System Convergence </li>
+                        <li>Portal Content Management </li>
+                        <li>Workflow Automation </li>
+                        <li>Data Visualization </li>
+                        <li>Training and Support </li>
+                        <li>Portal Hosting </li>
+                        <li>Continuous Maintenance and Support </li>
+                        <li>Responsive Web Design </li>
+                        <li>Enterprise Portal Security </li>
+
+
+
+
                     </ul>
                 </Col>
             </Row>
@@ -226,16 +250,21 @@ export default function ecommerencedevelopment() {
         <Container className='mb-5'>
             <Row>
                 <Col>
-                    <h3 className='center font-bold mb-5'>Our Benefits</h3>
+                    <h3 className='center black font50 font-bold mb-5'> Why <span className='grdiant font-bold'>Choose BitsWits for Custom Enterprise Portals</span> to Catalyze Your Success?  </h3>
                     <ul className={markstyles.mservice}>
-                        <li><Image src={mobilearrow2} alt="bitswits" />Certified Web developers</li>
-                        <li><Image src={mobilearrow2} alt="bitswits" />Strict NDA Terms</li>
-                        <li><Image src={mobilearrow2} alt="bitswits" /> Flexible Hiring Models</li>
-                        <li><Image src={mobilearrow2} alt="bitswits" /> Source Code Authorization</li>
-                        <li><Image src={mobilearrow2} alt="bitswits" />24*7 Technical Support</li>
-                        <li><Image src={mobilearrow2} alt="bitswits" />Transparent Process</li>
-                        <li><Image src={mobilearrow2} alt="bitswits" />Ready-to-use Infrastructure</li>
-                        <li><Image src={mobilearrow2} alt="bitswits" />Flexible timings</li>
+
+
+
+                        <li><Image src={mobilearrow2} alt="bitswits" />Extensive Knowledge and Expertise</li>
+                        <li><Image src={mobilearrow2} alt="bitswits" />Customized Enterprise Portal Development Solutions</li>
+                        <li><Image src={mobilearrow2} alt="bitswits" />Proven Structured Development Process </li>
+                        <li><Image src={mobilearrow2} alt="bitswits" />Usage of Innovative and Modern Technologies </li>
+                        <li><Image src={mobilearrow2} alt="bitswits" />Protection and Security of Data</li>
+                        <li><Image src={mobilearrow2} alt="bitswits" />Smoothly Connect Your New Portal with Existing Systems</li>
+                        <li><Image src={mobilearrow2} alt="bitswits" />High Productivity and Efficiency </li>
+                        <li><Image src={mobilearrow2} alt="bitswits" />Better Implementation Process </li>
+
+
                     </ul>
                 </Col>
             </Row>
@@ -246,8 +275,8 @@ export default function ecommerencedevelopment() {
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Top Enterprise Portal Development Solutions Company - BitsWits</title>
+                <meta name="description" content="Evolve in the world of exceptional enterprise portal development solutions where we deliver results seamlessly without facing any complications. Connect with BitsWits!" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -259,7 +288,7 @@ export default function ecommerencedevelopment() {
                 infopara={infopara}
             />
 
-           
+
             <WhyBuild
                 cards={WhyBuilds}
                 subtitle={whytitle}

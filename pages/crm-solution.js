@@ -71,22 +71,37 @@ export default function crmsolution() {
 
     // banner component data
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> CRM Solution </span> Company!</h1>
+    const heading = <h1 className='font65 black fontf font-bold line60'>
+
+        Let Success Come Your Way with the <span className='grdiant font-bold'>Top CRM Solutions Company</span>!
+
+    </h1>
 
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Integration Services </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Migration Services</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Solution Implementation</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Reporting Services</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Customization</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> CRM Implementation</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> ERP Systems</li>
+
+
+
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Improved CRM Development Services. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Tracking Sales Activities and Increased Productivity.  </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Powerful Reporting for Smarter Decisions. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Managing Customer Inquiries and Track Support Tickets </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Personalized Assistance </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Better Collaboration and Communication. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Accurate Sales Forecasting with the <span className='grdiant font-bold'>Top CRM Solution Company</span>. </li>
+            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Scalability and Flexibility </li>
+
+
+
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We’ve delivered more than <b>500+</b> CRM Solutions to <b>450+</b> clients in the last <b>21 years</b>. What can we do for you?</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-5'> 
+    
+    At BitsWits, our experts offer perfect <span className='grdiant font-bold'>CRM Solutions</span> which will fit right to your business requirements. Contact us to increase your CRM success!
+    
+     </p> </>
 
 
 
@@ -167,8 +182,10 @@ export default function crmsolution() {
 
     // CRMExpert component data
 
-    const crmtitle = <h2 className='font50 black fontf font-bold line60 black text-center'>Why choose
-        <span className='grdiant'> CRM Experts</span> and Developers from BitsWits?
+    const crmtitle = <h2 className='font50 black fontf font-bold line60 black text-center'>
+
+Why Choose BitsWits For All Your <span className='grdiant font-bold'>CRM Software Solutions</span>?
+
     </h2>
 
     const crmCards = <>
@@ -179,7 +196,7 @@ export default function crmsolution() {
                         <Image src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        We can develop CRM solutions using these technologies - Microsoft Dynamics CRM/ 365, Salesforce, Sugar CRM.
+                    Data integration through easy interconnections.
                     </p>
                 </div>
             </Col>
@@ -189,7 +206,7 @@ export default function crmsolution() {
                         <Image src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        Our experts have the experience in using great technologies like MS Dynamics CRM and Salesforce solutions for domains ranging from Medical legal firms, Telecommunication industries, Travel.
+                    Flexible to expand and meet your evolving business requirements and demands.
                     </p>
 
                 </div>
@@ -200,7 +217,7 @@ export default function crmsolution() {
                         <Image src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        We’re great at Custom CRM Development
+                    Easy UI interfaces designed for simple usage.
                     </p>
                 </div>
             </Col>
@@ -210,7 +227,7 @@ export default function crmsolution() {
                         <Image src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        We’ve served our clients on a vast industrial spectrum ranging from enterprises to medium and small scale organisations.
+                    Secure cloud hosting with 24/7 access worldwide.
                     </p>
 
                 </div>
@@ -221,7 +238,7 @@ export default function crmsolution() {
                         <Image src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        We’ll be responsible for complete document management.
+                    You can easily track, manage your leads, opportunities, accounts, and contacts in one place.
                     </p>
                 </div>
             </Col>
@@ -231,7 +248,9 @@ export default function crmsolution() {
                         <Image src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        We have the knowledge of carrying out all integrations with Microsoft SharePoint.
+                       
+Improved customer services by providing tools for ticketing, communication, and feedback.
+
                     </p>
 
                 </div>
@@ -242,7 +261,7 @@ export default function crmsolution() {
                         <Image src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        Want updates and migration services? We can do it for you.
+                    Powerful and strong reporting for data-driven choices.
                     </p>
                 </div>
             </Col>
@@ -252,7 +271,7 @@ export default function crmsolution() {
                         <Image src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
-                        We’ll be responsible for Upgrade and Migration
+                    Constant innovation to take advantage of new technology and CRM software solutions.
                     </p>
                 </div>
             </Col>
@@ -262,8 +281,8 @@ export default function crmsolution() {
 
     // Build component data
 
-    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>
-        <span className='grdiant'>CRM Services</span> We'd Like You To Know About
+    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>
+       Strengthen Your CRM Capabilities with Our Expert <span className='grdiant font-bold'>CRM Services</span>
     </h2>
 
     const WhyBuilds = <>
@@ -274,10 +293,10 @@ export default function crmsolution() {
                         <Image src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Migration <br /> And Porting
+                    Contact Management 
                     </h5>
                     <p>
-                        Our team is capable of building highly scalable, secure, dimensional, and service oriented websites and applications.
+                    Contact management involves compiling and keeping up an extensive database of client data, interactions, and contact history.
                     </p>
 
                 </div>
@@ -288,10 +307,10 @@ export default function crmsolution() {
                         <Image src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Third Party <br /> Customisation
+                    Lead Tracking 
                     </h5>
                     <p>
-                        Digital commerce is still one of the fastest growing areas on the internet with shares of online shopping growing year on year.
+                    Our <span className='grdiant font-bold'>CRM solutions company</span> keeps records and tracks of lead's interactions and information to enable efficient follow-ups and conversions.
                     </p>
 
                 </div>
@@ -302,10 +321,10 @@ export default function crmsolution() {
                         <Image src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Custom Workflow <br /> Development
+                    Sales Automation 
                     </h5>
                     <p>
-                        With companies requiring their own bespoke solutions to solve their unique business needs, we understand that not all software comes in a box.
+                    Our custom <span className='grdiant font-bold'> CRM development services</span> include simplifying the sales process by automating operations like lead assignment, follow-ups, and data input.
                     </p>
 
                 </div>
@@ -316,10 +335,10 @@ export default function crmsolution() {
                         <Image src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Integration With <br /> External System
+                    Pipeline Management
                     </h5>
                     <p>
-                        We provide specialized experts to develop services so that your CRM system seamlessly communicates with any kind of external system like websites, payment gateways, file repositories like DropBox etc.
+                    Our Experts visualize sales prospects and their progression through different phases to help with resource allocation and forecasting.
                     </p>
 
                 </div>
@@ -330,10 +349,10 @@ export default function crmsolution() {
                         <Image src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Application <br /> Integration
+                    Customer Interaction Tracking
                     </h5>
                     <p>
-                        Our company offers services for integrating enterprise applications, business-to-business systems, business processes, legacy and third party systems with utmost efficiency to provide the best results to our clients.
+                    <span className='grdiant font-bold'>CRM software solutions</span> at BitsWits involve keeping a comprehensive record of customer contact across all communication channels (phone, email, social media).
                     </p>
 
                 </div>
@@ -344,10 +363,10 @@ export default function crmsolution() {
                         <Image src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
-                        Data Reporting <br /> Components
+                    Customer Support
                     </h5>
                     <p>
-                        Bitswitswill produce statistics for CRM in a highly visual, engaging perspective using customized reports and dashboards. Using these, our team will produce an effective data reporting component.
+                    Our <span className='grdiant font-bold'>CRM development services</span> include incorporating top customer service features to efficiently manage questions, complaints, and solutions for our users.
                     </p>
                 </div>
             </Col>
@@ -358,8 +377,11 @@ export default function crmsolution() {
 
     // MyReason component data
 
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>Here are <span className='grdiant'>six key reasons</span> why
-        UK agencies choose to partner with us</h2>
+    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'> 
+    
+    How Joining <span className='grdiant font-bold'>Our CRM Software Team</span> Encourages You to Reach New Success?
+    
+     </h2>
 
     const resCards = <>
         <Row className={`${reStyles.soluRow} mt-5`}>
@@ -369,14 +391,12 @@ export default function crmsolution() {
                         #1
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Competitive rates
+                    Obtain a Personalized Solution
                     </h5>
                     <p>
-                        Even though our service is a cut above the rest, we remain competitively priced. Our developer rates start from as little as <strong>$15/hr</strong>
+                    We don't provide universal <span className='grdiant font-bold'>CRM development services</span> and solutions. Our specialists will modify the system to meet your particular company needs, workflows, and procedures. This makes sure you get a solution that is customized according to your unique demands and goals.
                     </p>
-                    <p>
-                        Agencies who work with us enjoy making more profit per client and have a higher throughput of projects.
-                    </p>
+                  
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -385,14 +405,12 @@ export default function crmsolution() {
                         #2
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Quality
+                    Get Top CRM Experts Access
                     </h5>
                     <p>
-                        We are CMMI level 3 appraised and members of the Agile Alliance, which is your assurance that we have processes and safeguards in place to ensure the delivery of a high quality finished product, each and every time.
+                    High-caliber CRM experts offer perfect CRM development services that help manage difficult deployments for many sectors that make up our team. They have the necessary skills to provide the greatest value and facilitate the easy adoption of the CRM.
                     </p>
-                    <p>
-                        Read more about our <strong>CMMI appraisal</strong>.
-                    </p>
+                
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -401,14 +419,12 @@ export default function crmsolution() {
                         #3
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Flexibility
+                    Increasing Output
                     </h5>
                     <p>
-                        Our massive permanent workforce is comprised of designers, developers and PMs. You can hire as many or as few of them as you need - on a per project or retained basis.
+                    Our <span className='grdiant font-bold'>CRM development services</span> and solutions are designed to break down data silos, automate repetitive tasks, and simplify procedures throughout the whole business. Our solutions promote cooperation and information exchange, increasing efficiency throughout your organization.
                     </p>
-                    <p>
-                        This flexibility means that you’re never paying for skills and time that you’re not using.
-                    </p>
+               
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -417,14 +433,12 @@ export default function crmsolution() {
                         #4
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        In-house expertise
+                    Eliminates Business Obstacles and Disruption
                     </h5>
                     <p>
-                        Every one of our <strong>1,000+</strong> designers, developers and project managers in the UK, USA and Worldwide are directly employed by us, and they work in offices that are owned by us.
+                    In order to achieve a smooth transition to the new CRM inside your organization, our team employs proven change management techniques. So that you may continue to concentrate on your core activities, this minimizes business disturbance.
                     </p>
-                    <p>
-                        This enables us to ensure continuity of knowledge and in fact, many of our team members have been working with the same clients for years - maintaining consistently high quality, reliability and efficiency at all times.
-                    </p>
+        
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -433,14 +447,13 @@ export default function crmsolution() {
                         #5
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        Security & confidentiality
+                    Realize a Shared Vision
                     </h5>
-                    <p>
-                        Your contract of engagement is with our UK company (DotSquares Ltd), so our liability to you is governed and protected by UK law.
+                    <p className='m-0 p-0'>
+                    Our CRM connections link easily to your other systems, such as email, e-commerce, accounting, etc., to synchronize data across channels.
                     </p>
-                    <p>
-                        This is a very important detail that sets us apart from many offshoring companies. Furthermore, all Intellectual Property Rights & source code are yours, forever.
-                    </p>
+                    <p>This gives a full 360-degree perspective of the consumer.</p>
+              
                 </div>
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
@@ -449,10 +462,10 @@ export default function crmsolution() {
                         #6
                     </h6>
                     <h5 className='font20 fontf font-bold line30'>
-                        The original, and best
+                    Obtain Constant Support
                     </h5>
                     <p>
-                        We’ve been servicing UK businesses like yours with offshore teams for <strong>21 years</strong>. In fact, we were one of the first companies to set up this offshore business model, back in 2002. Since then we’ve completed over <strong>20,000 projects</strong> (at last count, and we are still growing!) Our scalability provides you with the best talent backed up by guarantees and consumer protection, whilst our attention to detail, perfectionism and personal service still makes every customer feel very special indeed.
+                    Our local support staff are on hand around the clock to answer any problems you have. Even after implementation, we continue to offer servicing, improvements, and advice to help you get the most out of our <span className='grdiant font-bold'>CRM development services</span> . 
                     </p>
                 </div>
             </Col>
@@ -462,7 +475,10 @@ export default function crmsolution() {
 
     // Exmple component data
 
-    const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>CRM work</span>
+    const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>
+
+The Glimpse of <span className='grdiant font-bold'>CRM Excellence</span> We Deliver!
+
     </h2> </>
 
     const exmplSlider = <>
@@ -506,13 +522,13 @@ export default function crmsolution() {
         </Slider>
     </>
 
-    const exmplText = <> Let's talk about your CRM requirements </>
+    const exmplText = <> Connect With Us Today!  </>
 
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Hire Top CRM Solution Company - BitsWits </title>
+                <meta name="description" content="Are you looking for the best CRM solutions for your business? BitsWits is a leading CRM solutions company that will help your business grow and flourish. " />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
