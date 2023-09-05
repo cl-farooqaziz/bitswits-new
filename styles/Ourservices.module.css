@@ -41,6 +41,7 @@
 
 .imgapost img {
   position: absolute;
+  max-width: 100%;
 }
 
 .imgapost1 {
@@ -54,7 +55,7 @@
 }
 
 .bottom4 {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   animation: buger-bottom;
   animation-delay: 1ms;
@@ -77,18 +78,16 @@
 @media screen and (max-width: 1399px) {
   .imgapost img {
     position: absolute;
-    width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: 25px;
+    top: -20px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .imgapost img {
     position: absolute;
-    width: 90%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -112,7 +111,6 @@
 
   .imgapost img {
     position: unset;
-    width: 75%;
     left: 0;
     right: 0;
     margin: 0 auto;
