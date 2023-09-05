@@ -10,13 +10,13 @@ const Consultation2 = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h3 className="grdiant f-18 f-700 f-montserrat">Need Help?</h3>
-                            <h2 className="white f-50 f-700 f-playfair mt-3 mb-5">
+                            <h3 className="grdiant f-20 f-700 f-montserrat">Need Help?</h3>
+                            <h2 className="white font40 f-700 f-playfair mt-3 mb-5">
                                 Looking For Expert Guidance On
                                 Your <span className='grdiant'>Mobile App Development</span> Project?
                             </h2>
                             <Link href='#' className={`${styles.btnConslt}`}>
-                                CLAIM YOUR COMPLIMENTARY CONSULTANCY SESSION TODAY
+                                Get A Free Consultation
                             </Link>
                         </Col>
                     </Row>
