@@ -61,12 +61,12 @@ const Ourportfoliolp = () => {
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Work</h5>
                         </Col>
-                        <Col lg={7}>
-                            <h2 className='font65 black fontf font-bold line60 black'>Our <span className='grdiant'>Portfolio</span></h2>
+                        <Col lg={12}>
+                            <h2 className='font65 black fontf font-bold line60 black t-center'>Our <span className='grdiant'>Portfolio</span></h2>
                         </Col>
-                        <Col lg={3}>
+                        {/* <Col lg={3}>
                             <Link className={styles.bttns1} href="/our-work">View All Work</Link>
-                        </Col>
+                        </Col> */}
                     </Row>
 
                     <Slider {...awardslogo} className='mt-5 pt-3 ourarrows2'>
@@ -100,6 +100,11 @@ const Ourportfoliolp = () => {
                         </div>
                       
                     </Slider>
+                    <Row className={`${styles.project} mt-5`}>
+                        <Col lg={4} className='mx-auto'>
+                            <Link className={styles.bttns1} href="/our-work">View All Work</Link>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
 

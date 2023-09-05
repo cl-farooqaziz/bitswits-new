@@ -46,17 +46,17 @@ function ClientsThinklp() {
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black mb-0'>Reviews</h5>
                         </Col>
-                        <Col lg={7}>
-                            <h2 className='font50 black fontf font-bold line60 mb-0'>
+                        <Col lg={12}>
+                            <h2 className='font50 black fontf font-bold line60 mb-0 t-center'>
                                 Feedback From  <br /> <span className='grdiant'>Our Valued Clients!</span>
 
                             </h2>
                         </Col>
-                        <Col lg={3}>
+                        {/* <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
                                 View All
                             </Link>
-                        </Col>
+                        </Col> */}
                         <Col lg={12}>
                             <div className='mt-5'>
                                 <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider`}>

@@ -33,12 +33,12 @@ const Partner = () => {
                     <Col lg={2}>
                         <h3 className="f-20 white f-montserrat f-700 mb-2 letterspace">Platforms</h3>
                     </Col>
-                    <Col lg={9}>
-                        <h2 className="f-50 f-playfair f-700 white"> <span className='grdiant'>
+                    <Col lg={12}>
+                        <h2 className="f-50 f-playfair f-700 white t-center"> <span className='grdiant'>
                             Best App Making Company</span> <br className="d-lg-block d-none" />
                             Technologies We Used
                         </h2>
-                        <p className='font16 f-montserrat white mb-5'>
+                        <p className='font16 f-montserrat white mb-5 t-center'>
                             Bitswits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!
                         </p>
                     </Col>

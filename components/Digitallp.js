@@ -49,17 +49,17 @@ const Digitallp = () => {
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white mb-0'>Industries</h5>
                         </Col>
-                        <Col lg={7}>
-                            <p className='font12 white fontf font-meduim letterspace'>WE SERVE A RANGE OF SECTORS</p>
-                            <h2 className='font50 black fontf font-bold line60 white mb-0'>
+                        <Col lg={12}>
+                            <p className='font12 white fontf font-meduim letterspace t-center'>WE SERVE A RANGE OF SECTORS</p>
+                            <h2 className='font50 black fontf font-bold line60 white mb-0 t-center'>
                             <span className='grdiant'>Mobile Application Development</span> Company For Everyone Out There
                             </h2>
                         </Col>
-                        <Col lg={3}>
+                        {/* <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
                                 Connect Now!
                             </Link>
-                        </Col>
+                        </Col> */}
                         <Col lg={12}>
                             <div className={styles.line}></div>
                             <Slider {...projectslider} className={`${styles.newproject} ${styles.solutn} solutn newproject`}>

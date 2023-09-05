@@ -54,16 +54,16 @@ const Lookingforlp = () => {
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5>
                         </Col>
-                        <Col lg={9}>
-                            <h2 className='font65 black fontf font-bold line60 black mb-3'>
+                        <Col lg={12}>
+                            <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
                             <span className='grdiant'>Mobile App</span> Development</h2>
-                            <p className='font18 black'>We build top-notch mobile apps using a tried-and-true technological stack that can scale.</p>
+                            <p className='font18 black t-center'>We build top-notch mobile apps using a tried-and-true technological stack that can scale.</p>
                         </Col>
                         {/* <Col lg={3}>
                             <Link className={styles.bttns1} href="#">Book a Call</Link>
                         </Col> */}
                     </Row>
-                    <Row className="mt-5">
+                    <Row className="mt-4">
                         <Col lg={12}>
 
 

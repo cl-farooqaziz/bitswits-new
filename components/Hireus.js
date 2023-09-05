@@ -48,11 +48,11 @@ const Hireus = () => {
                     <Container>
 
                         <Row className={`${styles.project} justify-content-between`}>
-                            <Col lg={3}>
-                                <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Why Hire Us?</h5>
+                            <Col lg={2}>
+                                <h5 className='font20 fontf font-semibold mt-1 mb-3 letterspace black'>Why Hire Us?</h5>
                             </Col>
-                            <Col lg={9}>
-                                <h2 className="black f-50 f-700 t-left f-playfair">
+                            <Col lg={12}>
+                                <h2 className="black f-50 f-700 f-playfair t-center">
                                     What Makes <span className='grdiant'>Bitswits The Most
                                         Recommended Mobile App  Development</span> Company?
                                 </h2>
