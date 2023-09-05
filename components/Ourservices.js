@@ -14,10 +14,10 @@ const Ourservices = ({ services }) => {
             <section className={styles.ourservices}>
                 <Container>
                     <Row className={`${styles.project} justify-content-between`}>
-                        <Col lg={2}>
+                        <Col lg={3}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace white'>Services</h5>
                         </Col>
-                        <Col lg={9}>
+                        <Col lg={10}>
                             <h2 className='font50 black fontf font-bold line60 white mb-2'> <span className='grdiant'>Mobile App Development</span> Services</h2>
                             <p className='font18 white'>Here are the mobile app solutions we use to create meaningful futures.</p>
                         </Col>
