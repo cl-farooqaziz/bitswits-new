@@ -34,6 +34,9 @@ import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsLp'
+import NewDecFy from '@/components/NewDecFy'
 
 import lop1 from '/public/images/bonuscross/1.png'
 import lop2 from '/public/images/bonuscross/2.png'
@@ -258,7 +261,9 @@ export default function androidappdevelopmentcompanylp() {
             />
 
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
+
+            <NewDecFy />
 
             <Aboutlp />
 
@@ -298,22 +303,30 @@ export default function androidappdevelopmentcompanylp() {
                 text6='Hybrid mobile apps are easy to integrate with the cloud for hosting services. Single code source can be integrated with multiple extensions and plug-ins making the app more functional.'
             />
 
-            <Lookingforlp />
+            <Publication />
+
+
+            <Digitallp />
+
+
+            <Hireus />
 
             <Consultation />
 
             <Ourportfoliolp />
 
-            <Digitallp />
 
-            <Publication />
+            <Lookingforlp />
 
-            <Hireus />
+            <Consultation2 />
+
 
             <ClientsThinklp />
 
+            <FaqsLp />
+
             <Contact
-              newBg="newBg"
+                newBg="newBg"
             />
 
         </>

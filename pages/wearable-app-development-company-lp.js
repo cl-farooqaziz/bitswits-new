@@ -41,6 +41,9 @@ import lop4 from '/public/images/bonuswear/4.png'
 import lop5 from '/public/images/bonuswear/5.png'
 import lop6 from '/public/images/bonuswear/6.png'
 import lop7 from '/public/images/bonuswear/android.png'
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsLp'
+import NewDecFy from '@/components/NewDecFy'
 
 
 import React, { useState } from 'react';
@@ -262,7 +265,9 @@ export default function androidappdevelopmentcompanylp() {
                 text2={<> Choose us for all your wearable application development needs, and let us help you create an app that will make life easier, faster, and more connected. </>}
             />
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
+
+            <NewDecFy />
 
             <Aboutlp />
 
@@ -303,22 +308,33 @@ export default function androidappdevelopmentcompanylp() {
                 text6={<> We provide competitive pricing that can't be beaten. Our prices are fair and transparent, allowing customers to get the highest quality product without breaking their budget. </>}
             />
 
-            <Lookingforlp />
+
+
+            <Publication />
+
+
+            <Digitallp />
+
+
+            <Hireus />
 
             <Consultation />
 
             <Ourportfoliolp />
 
-            <Digitallp />
 
-            <Publication />
+            <Lookingforlp />
 
-            <Hireus />
+            <Consultation2 />
+
 
             <ClientsThinklp />
 
+            <FaqsLp />
+
+
             <Contact
-              newBg="newBg"
+                newBg="newBg"
             />
 
         </>

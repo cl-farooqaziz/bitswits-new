@@ -34,7 +34,9 @@ import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
-
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsLp'
+import NewDecFy from '@/components/NewDecFy'
 import lop1 from '/public/images/bonusreact/1.png'
 import lop2 from '/public/images/bonusreact/2.png'
 import lop3 from '/public/images/bonusreact/3.png'
@@ -265,7 +267,9 @@ export default function androidappdevelopmentcompanylp() {
                 text2={<> Take the first step toward creating an amazing mobile experience with React Native app development company from our team of experts. Contact us today to create React app! </>}
             />
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
+
+            <NewDecFy />
 
             <Aboutlp />
 
@@ -307,28 +311,30 @@ export default function androidappdevelopmentcompanylp() {
                 text6='React Native offers access to third-party plugins that simplify the process of app building.'
             />
 
-            <Lookingforlp />
+            <Publication />
 
-            <Consultation />
-
-            {/* <Musicapp /> */}
-
-            <Ourportfoliolp />
-
-            {/* <Cab /> */}
-
-            {/* <Findfood /> */}
 
             <Digitallp />
 
-            <Publication />
 
             <Hireus />
 
+            <Consultation />
+
+            <Ourportfoliolp />
+
+
+            <Lookingforlp />
+
+            <Consultation2 />
+
+
             <ClientsThinklp />
 
+            <FaqsLp />
+
             <Contact
-              newBg="newBg"
+                newBg="newBg"
             />
 
         </>
