@@ -94,6 +94,18 @@
   border: 1px solid #000;
 }
 
+.counterBox {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #f03161;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
 /* ================== Media Query ================== */
 
 @media screen and (max-width: 1366px) {

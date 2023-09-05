@@ -50,6 +50,8 @@ import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
+import FaqsLp from '@/components/FaqsLp'
+import Consultation2 from '@/components/Consultation2'
 
 
 
@@ -86,40 +88,41 @@ export default function androidappdevelopmentcompanylp() {
         },
         {
             id: '3',
-            title: 'Web App Development',
-            text: (<> We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today! </>),
-            click1: 'tab3',
-            img: icon2,
-            fun: game,
-            data: gameshow
-        },
-        {
-            id: '4',
             title: 'Flutter App Development',
             text: (<> Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process. </>),
-            click1: 'tab4',
+            click1: 'tab3',
             img: icon3,
             fun: game,
             data: gameshow
         },
         {
+            id: '4',
+            title: 'Web App Development',
+            text: (<> We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today! </>),
+            click1: 'tab4',
+            img: icon2,
+            fun: game,
+            data: gameshow
+        },
+        {
             id: '5',
-            title: 'React Native App Development',
-            text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
+            title: 'Cross Platform App Development',
+            text: 'We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.',
             click1: 'tab5',
-            img: icon4,
+            img: icon5,
             fun: game,
             data: gameshow
         },
         {
             id: '6',
-            title: 'Cross Platform App Development',
-            text: 'We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.',
+            title: 'React Native App Development',
+            text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
             click1: 'tab6',
-            img: icon5,
+            img: icon4,
             fun: game,
             data: gameshow
         },
+
 
     ]
 
@@ -232,8 +235,6 @@ export default function androidappdevelopmentcompanylp() {
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
                 <link rel="icon" href="images/icons/favicon.png" />
-
-
             </Head>
 
 
@@ -252,7 +253,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Aboutlp />
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
 
             <Ourservices
                 services={services1}
@@ -264,6 +265,8 @@ export default function androidappdevelopmentcompanylp() {
 
             <Publication />
 
+            <Digitallp />
+
             <Hireus />
 
             <Consultation />
@@ -272,15 +275,13 @@ export default function androidappdevelopmentcompanylp() {
 
             <Ourportfoliolp />
 
-            {/* <Cab />*/}
-
-            {/*<Findfood /> */}
-
-            <Digitallp />
-
             <Lookingforlp />
 
+            <Consultation2 />
+
             <ClientsThinklp />
+
+            <FaqsLp />
 
             <Contact
                 newBg="newBg"

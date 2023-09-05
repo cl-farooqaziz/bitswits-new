@@ -85,10 +85,12 @@ const Publication = () => {
     <>
       <section className={`${styles.publi} d-lg-block d-none`}>
         <Container>
-          <Row className="gy-3">
-            <Col md={12}>
-              <h3 className='t-center f-18 f-montserrat f-700 black'>PUBLICATIONS</h3>
-              <h2 className='f-50 f-playfair f-700 black t-center'> Many  <span className='grdiant'>Got Featured In Major</span> <br></br>   Publications Just    By Working With Us.
+          <Row className={`${styles.project} justify-content-between`}>
+            <Col lg={2}>
+              <h3 className="f-20 f-montserrat f-700 mb-2 letterspace">Publications</h3>
+            </Col>
+            <Col lg={9}>
+              <h2 className='f-50 f-playfair f-700 black'> Many <span className='grdiant'>Got Featured In Major</span> <br></br> Publications Just By Working With Us.
               </h2>
             </Col>
           </Row>
@@ -96,7 +98,7 @@ const Publication = () => {
             {bloglisting.map((item, i) =>
               <Col md={2} key={i} className='imgspacetop'>
                 <div className={styles.publicationimg}>
-                  <Image alt="bitswits"  src={item.image} className='img-fluid' />
+                  <Image alt="bitswits" src={item.image} className='img-fluid' />
                 </div>
               </Col>
             )}
@@ -113,15 +115,15 @@ const Publication = () => {
             </Col>
           </Row>
           <Row className="gy-3 mt-4">
-          <Slider {...rangSlider} className={styles.rangSlide}>
-            {bloglisting.map((item, i) =>
-              <Col md={2} key={i} className='imgspacetop'>
-                <div className={styles.publicationimg}>
-                  <Image alt="bitswits"  src={item.image} className='img-fluid' />
-                </div>
-              </Col>
-            )}
-             </Slider>
+            <Slider {...rangSlider} className={styles.rangSlide}>
+              {bloglisting.map((item, i) =>
+                <Col md={2} key={i} className='imgspacetop'>
+                  <div className={styles.publicationimg}>
+                    <Image alt="bitswits" src={item.image} className='img-fluid' />
+                  </div>
+                </Col>
+              )}
+            </Slider>
           </Row>
         </Container>
       </section>

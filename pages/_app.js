@@ -22,7 +22,8 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/3d-game-development-company-lp'
     || router.pathname == '/nft-game-development-company-lp'
     || router.pathname == '/game-app-development-company-lp'
-    || router.pathname == '/blockchain-game-development-company-lp';
+    || router.pathname == '/blockchain-game-development-company-lp'
+    || router.pathname == '/our-work';
 
   return (
     <>

@@ -177,10 +177,16 @@
 
 .newBg .cntcForm form .btns {
   border: 0;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 2s;
 }
 
 .newBg .cntcForm form .btns:hover {
   border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: background-color 2s;
 }
 
 .newBg .touch svg,
@@ -194,12 +200,13 @@
   filter: invert(0);
 }
 
-.newBg .cntcTxt p, .newBg .formPara p {
+.newBg .cntcTxt p,
+.newBg .formPara p {
   color: #fff;
 }
 
-.newBg .cntcTxt h2{
-  color: #fff; 
+.newBg .cntcTxt h2 {
+  color: #fff;
 }
 
 .newBg .cntcForm form label {

@@ -1,5 +1,6 @@
 .newbanner {
-  background: url(../public/images/newbanner/bg-img.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../public/images/newbanner/bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -278,7 +279,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .newbanner {
     padding: 150px 0 50px;
   }

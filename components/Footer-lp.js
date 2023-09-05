@@ -68,7 +68,7 @@ const Footerlp = () => {
             <footer className={styles.footer}>
                 <Container>
 
-                    <Row className={styles.project}>
+                    {/* <Row className={styles.project}>
                         <Col lg={12}>
                             <h2 className='font30 fontf font-bold white mb-0 text-center'>
                                 <span className='grdiant'>Our Partnerships </span> <br />
@@ -112,7 +112,7 @@ const Footerlp = () => {
                                 </div>
                             </Slider>
                         </Col>
-                    </Row>
+                    </Row> */}
 
                     <div className={styles.footerNav}>
                         <Row>
