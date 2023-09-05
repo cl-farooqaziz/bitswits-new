@@ -47,6 +47,11 @@ import Lookingforlp from '@/components/Lookingforlp'
 import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
+import NewDecFy from '@/components/NewDecFy'
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsLp'
+
+
 
 export default function androidappdevelopmentcompanylp() {
 
@@ -186,11 +191,14 @@ export default function androidappdevelopmentcompanylp() {
             />
 
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
+            <NewDecFy />
 
             <Aboutlp />
 
             <Dedicated />
+
+            <Ready />
 
             <Enhanced
                 subtitle='WHAT MAKES US STAND OUT?'
@@ -224,22 +232,30 @@ export default function androidappdevelopmentcompanylp() {
                 text6='We remain 24/7 operational to help businesses streamline their operations. Even after the project is done and dusted, we provide maintenance and support services to keep your website up and running even in crucial times.'
             />
 
-            <Lookingforlp />
+            <Publication />
+
+
+            <Digitallp />
+
+
+            <Hireus />
 
             <Consultation />
 
             <Ourportfoliolp />
 
-            <Digitallp />
 
-            <Publication />
+            <Lookingforlp />
 
-            <Hireus />
+            <Consultation2 />
+
 
             <ClientsThinklp />
 
+            <FaqsLp />
+
             <Contact
-              newBg="newBg"
+                newBg="newBg"
             />
 
         </>

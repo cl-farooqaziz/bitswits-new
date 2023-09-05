@@ -37,6 +37,7 @@ import Enhanced from '@/components/Enhanced'
 import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Lookingforlp from '@/components/Lookingforlp'
+import NewDecFy from '@/components/NewDecFy'
 import lop1 from '/public/images/bonusandriod/1.webp'
 import lop2 from '/public/images/bonusandriod/2.webp'
 import lop3 from '/public/images/bonusandriod/3.webp'
@@ -44,6 +45,9 @@ import lop4 from '/public/images/bonusandriod/4.webp'
 import lop5 from '/public/images/bonusandriod/5.webp'
 import lop6 from '/public/images/bonusandriod/6.webp'
 import lop7 from '/public/images/bonusandriod/mobile.webp'
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsLp'
+
 //
 import React, { useState } from 'react';
 import icon1 from '../public/images/andriodservices/sideimg.png'
@@ -263,7 +267,9 @@ export default function androidappdevelopmentcompanylp() {
                 text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
             />
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
+
+            <NewDecFy />
 
             <Aboutlp />
 
@@ -272,7 +278,7 @@ export default function androidappdevelopmentcompanylp() {
             />
 
             <Ready />
-            
+
             {/* <Scalable /> */}
 
             <Enhanced
@@ -305,28 +311,26 @@ export default function androidappdevelopmentcompanylp() {
                 text6='Android being open source, an android app developer will have direct access to licensing, royalty-free, and the latest and greatest technology framework available.'
             />
 
-            <Lookingforlp />
-
-            <Consultation />
-
-            {/* <Musicapp /> */}
-
-            <Ourportfoliolp />
-
-            {/* <Cab />*/}
-
-            {/*<Findfood /> */}
+            <Publication />
 
             <Digitallp />
 
-            <Publication />
-
             <Hireus />
+
+            <Consultation />
+
+            <Ourportfoliolp />
+
+            <Lookingforlp />
+
+            <Consultation2 />
 
             <ClientsThinklp />
 
+            <FaqsLp />
+
             <Contact
-              newBg="newBg"
+                newBg="newBg"
             />
 
         </>

@@ -32,7 +32,9 @@ import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
-
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsLp'
+import NewDecFy from '@/components/NewDecFy'
 import lop1 from '/public/images/bonusflutter/1.webp'
 import lop2 from '/public/images/bonusflutter/2.webp'
 import lop3 from '/public/images/bonusflutter/3.webp'
@@ -253,7 +255,9 @@ export default function androidappdevelopmentcompanylp() {
                 text={<> BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps. Whether you want to develop an iOS or Android app, we have the skills and know-how to make it happen. Our developers have a thorough understanding of the Flutter SDK and its components, so you can rest assured that whatever app we develop for you will be built with the utmost care and precision! </>}
             />
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
+
+            <NewDecFy />
 
             <Aboutlp />
 
@@ -294,25 +298,27 @@ export default function androidappdevelopmentcompanylp() {
                 text6={<> You're no longer limited to just mobile when it comes to Flutter-powered apps! Thanks to Dart, the programming language behind Flutter, you can now create app experiences for Smart TVs, wearables and even the web. Step into a world of endless opportunities with Beyond Mobile on your side. </>}
             />
 
-            <Lookingforlp />
+            <Publication />
 
-            <Consultation />
-
-            {/* <Musicapp /> */}
-
-            <Ourportfoliolp />
-
-            {/* <Cab /> */}
-
-            {/* <Findfood /> */}
 
             <Digitallp />
 
-            <Publication />
 
             <Hireus />
 
+            <Consultation />
+
+            <Ourportfoliolp />
+
+
+            <Lookingforlp />
+
+            <Consultation2 />
+
+
             <ClientsThinklp />
+
+            <FaqsLp />
 
             <Contact
                 newBg="newBg"

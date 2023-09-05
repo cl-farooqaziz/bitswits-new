@@ -34,7 +34,9 @@ import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
 import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
-
+import NewDecFy from '@/components/NewDecFy'
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsLp'
 import lop1 from '/public/images/bonus/1.webp'
 import lop2 from '/public/images/bonus/2.webp'
 import lop3 from '/public/images/bonus/3.webp'
@@ -273,7 +275,8 @@ export default function iosappdevelopmentcompanylp() {
             />
 
 
-            <NewSliderFy />
+            {/* <NewSliderFy /> */}
+            <NewDecFy />
 
 
             <Aboutlp />
@@ -345,6 +348,9 @@ export default function iosappdevelopmentcompanylp() {
             {/* <Scalable /> */}
 
 
+
+
+
             <Enhanced
                 subtitle='BONUSES'
                 title={<> Benefits Of <span className='grdiant'>iOS App Development</span> Services </>}
@@ -388,30 +394,30 @@ export default function iosappdevelopmentcompanylp() {
             />
 
 
-            <Lookingforlp />
-
-            <Consultation />
-
-
-            {/* <Musicapp /> */}
-
-            <Ourportfoliolp />
-
-            {/* <Cab />
-
-            <Findfood /> */}
+            <Publication />
 
 
             <Digitallp />
 
-            <Publication />
 
             <Hireus />
 
+            <Consultation />
+
+            <Ourportfoliolp />
+
+
+            <Lookingforlp />
+
+            <Consultation2 />
+
+
             <ClientsThinklp />
 
+            <FaqsLp />
+
             <Contact
-              newBg="newBg"
+                newBg="newBg"
             />
 
         </>
