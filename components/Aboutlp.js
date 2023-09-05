@@ -56,10 +56,10 @@ const Aboutlp = () => {
 
                 <Container>
                     <Row className='aboutfold'>
-                        <Col md={3}>
+                        <Col md={2}>
                             <h3 className='font20 fontf font-semibold mt-1 letterspace black'>About Us</h3>
                         </Col>
-                        <Col lg={10} className='ms-auto'>
+                        <Col lg={10}>
                             <h2 className='font50 black fontf font-bold line60'>The Mobile <span className='grdiant'>App Development Company </span> Thriving to Master Innovation! </h2>
 
                             <p className='font20 fontf font-medium mt-4 mb-4 black'>Our expert<span className='grdiant'> mobile app developers </span> work with the world’s leading start-ups, mid-level companies and enterprises to create advanced user experiences. </p>

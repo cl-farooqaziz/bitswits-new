@@ -87,10 +87,10 @@ const Publication = () => {
         <Container>
           <Row className={`${styles.project} justify-content-between`}>
             <Col lg={2}>
-              <h3 className="f-20 f-montserrat f-700 mb-2">PUBLICATIONS</h3>
+              <h3 className="f-20 f-montserrat f-700 mb-2 letterspace">Publications</h3>
             </Col>
             <Col lg={9}>
-              <h2 className='f-50 f-playfair f-700 black'> Many <span className='grdiant'>Got Featured In Major</span> <br></br>   Publications Just    By Working With Us.
+              <h2 className='f-50 f-playfair f-700 black'> Many <span className='grdiant'>Got Featured In Major</span> <br></br> Publications Just By Working With Us.
               </h2>
             </Col>
           </Row>

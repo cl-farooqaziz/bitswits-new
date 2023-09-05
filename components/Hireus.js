@@ -49,7 +49,7 @@ const Hireus = () => {
 
                         <Row className={`${styles.project} justify-content-between`}>
                             <Col lg={3}>
-                                <h5 className='font20 fontf font-semibold mt-1 letterspace black'>WHY HIRE US?</h5>
+                                <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Why Hire Us?</h5>
                             </Col>
                             <Col lg={9}>
                                 <h2 className="black f-50 f-700 t-left f-playfair">

@@ -52,7 +52,7 @@ const Lookingforlp = () => {
                 <Container>
                     <Row className={`${styles.project} justify-content-between`}>
                         <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>TECHNOLOGY STACK</h5>
+                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5>
                         </Col>
                         <Col lg={9}>
                             <h2 className='font65 black fontf font-bold line60 black mb-3'>
