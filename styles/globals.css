@@ -408,7 +408,7 @@ a {
 
 .faqsLp .accordion-button {
   border: 1px solid #a7a7a7;
-  color: black;
+  color: #2d2d2d;
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -416,22 +416,22 @@ a {
   padding: 15px 40px 15px 15px;
   position: relative;
   text-transform: uppercase;
-  background-color: #fff;
-  display: flex;
+  background-color: #ccc;
 }
 
 .faqsLp .accordion-body {
   font-size: 16px;
-  color: black;
+  color: #2d2d2d;
   font-family: "Montserrat";
   font-weight: 500;
   background-color: #fff;
   border: 1.5px solid #a7a7a7;
+  background-color: #ccc;
 }
 
 .faqsLp .accordion-button:not(.collapsed) {
   border: 1px solid #a7a7a7;
-  color: black;
+  color: #2d2d2d;
   background-color: unset;
   display: block;
   font-size: 16px;
@@ -441,7 +441,7 @@ a {
   position: relative;
   text-transform: uppercase;
   border-radius: 0px;
-  background-color: #fff;
+  background-color: #ccc;
 }
 
 .faqsLp .accordion-item:first-of-type .accordion-button {

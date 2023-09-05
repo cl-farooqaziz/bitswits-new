@@ -51,6 +51,7 @@ import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
 import FaqsLp from '@/components/FaqsLp'
+import Consultation2 from '@/components/Consultation2'
 
 
 
@@ -274,11 +275,9 @@ export default function androidappdevelopmentcompanylp() {
 
             <Ourportfoliolp />
 
-            {/* <Cab />*/}
-
-            {/*<Findfood /> */}
-
             <Lookingforlp />
+
+            <Consultation2 />
 
             <ClientsThinklp />
 

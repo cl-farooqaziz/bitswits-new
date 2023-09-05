@@ -46,13 +46,20 @@ const Hireus = () => {
             <section className={styles.resources}>
                 <section className={styles.hireUs}>
                     <Container>
-                        <Row>
-                            <Col lg={12}>
-                                <h3 className="black f-20 f-700 f-montserrat">WHY HIRE US?</h3>
-                                <h2 className="black f-50 f-700  f-playfair mt-3">
+
+                        <Row className={`${styles.project} justify-content-between`}>
+                            <Col lg={3}>
+                                <h5 className='font20 fontf font-semibold mt-1 letterspace black'>WHY HIRE US?</h5>
+                            </Col>
+                            <Col lg={9}>
+                                <h2 className="black f-50 f-700 t-left f-playfair">
                                     What Makes <span className='grdiant'>Bitswits The Most
                                         Recommended Mobile App  Development</span> Company?
                                 </h2>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col lg={12}>
                                 <p className="black text-center f-16 f-400 t-justify mt-3 mb-5">
                                     As the leading mobile app development agency, we've gathered top-notch resources to create exceptional solutions for mobile applications. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to instantly provide unparalleled solutions to our valued clients.
                                 </p>

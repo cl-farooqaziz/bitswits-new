@@ -1,5 +1,7 @@
 .faqsLp {
-  padding-bottom: 50px;
+  padding: 50px 0;
+  background-color: #000;
+  border-bottom: 1px solid #fff;
 }
 
 .bttns1 {
