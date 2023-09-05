@@ -25,7 +25,7 @@ const Ourservices = ({ services }) => {
                             <Link className={styles.bttns1} href="#">Book a Call</Link>
                         </Col> */}
                     </Row>
-                    <Row className='mt-5 pb-5 ourservicesfaqs'>
+                    <Row className='mt-3 mt-lg-5 pb-lg-5 ourservicesfaqs'>
                         <Col lg={6}>
 
                             {services.map((item) => (

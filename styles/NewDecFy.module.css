@@ -84,16 +84,15 @@
   
   @media screen and (max-width: 767px) {
     .team .slideBox {
-      border: none;
       border-right: 0;
       height: 120px;
       width: 235px;
       margin-bottom: 0px;
     }
   
-    .team .slideBox:hover {
+    /* .team .slideBox:hover {
       box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
-    }
+    } */
   
     .team .slideBox p {
       font-size: 8px;

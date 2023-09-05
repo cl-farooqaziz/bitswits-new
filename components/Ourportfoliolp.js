@@ -56,7 +56,7 @@ const Ourportfoliolp = () => {
     return (
         <>
             <section className={styles.ourportfolio}>
-                <Container className='newyou'>
+                <Container>
                     <Row className={styles.project}>
                         <Col lg={2}>
                             <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Work</h5>
@@ -69,7 +69,7 @@ const Ourportfoliolp = () => {
                         </Col> */}
                     </Row>
 
-                    <Slider {...awardslogo} className='mt-5 pt-3 ourarrows2'>
+                    <Slider {...awardslogo} className='mt-lg-5 pt-3 ourarrows2'>
                         <div className={styles.rightlogo}>
                             <Image alt="bitswits" src={ourportfolio1} className="img-fluid  mb-4" />
                             <Link className='fontf font25 black font-bold mt-4' href='/travel-app-development'>View Case Studies <RiArrowRightUpLine className={styles.arrow} size={25} /> </Link>
@@ -100,7 +100,7 @@ const Ourportfoliolp = () => {
                         </div>
                       
                     </Slider>
-                    <Row className={`${styles.project} mt-5`}>
+                    <Row className={`mt-5 mb-0 pt-5 pt-lg-0`}>
                         <Col lg={4} className='mx-auto'>
                             <Link className={styles.bttns1} href="/our-work">View All Work</Link>
                         </Col>

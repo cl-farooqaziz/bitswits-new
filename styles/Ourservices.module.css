@@ -104,9 +104,10 @@
 @media screen and (max-width: 991px) {
   .ourservices {
     background-color: #272727;
-    padding-top: 65px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: auto;
+    margin-bottom: 0;
   }
 
   .imgapost img {

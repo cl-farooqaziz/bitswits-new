@@ -47,10 +47,10 @@ const Digitallp = () => {
                 <Container>
                     <Row className={styles.project}>
                         <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace white mb-0'>Industries</h5>
+                            <h5 className='font20 fontf font-semibold mt-1 letterspace white mb-3 mb-lg-0'>Industries</h5>
                         </Col>
                         <Col lg={12}>
-                            <p className='font12 white fontf font-meduim letterspace t-center'>WE SERVE A RANGE OF SECTORS</p>
+                            <p className='font12 white fontf font-meduim letterspace t-center mb-0'>WE SERVE A RANGE OF SECTORS</p>
                             <h2 className='font50 black fontf font-bold line60 white mb-0 t-center'>
                             <span className='grdiant'>Mobile Application Development</span> Company For Everyone Out There
                             </h2>

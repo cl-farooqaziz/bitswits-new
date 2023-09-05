@@ -50,17 +50,11 @@
   .bttns1 {
     width: 270px;
     font-size: 13px;
+    margin: 0 auto;
   }
 
-  .ourportfolio {
-    padding-top: 70px;
-    padding-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .ourportfolio {
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 0px;
   }
 }
