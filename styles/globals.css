@@ -402,13 +402,10 @@ a {
 
 /* =========================== */
 
-.faqsLp .accordion-item {
-  margin-bottom: 20px;
-}
-
 .faqsLp .accordion-button {
-  border: 1px solid #a7a7a7;
-  color: #2d2d2d;
+  border: 1px solid #fff;
+  border-radius: 0px !important;
+  color: #fff;
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -416,23 +413,24 @@ a {
   padding: 15px 40px 15px 15px;
   position: relative;
   text-transform: uppercase;
-  background-color: #ccc;
+  background-color: #515151;
+  border-top: 2px solid #fff !important;
 }
 
 .faqsLp .accordion-body {
   font-size: 16px;
-  color: #2d2d2d;
+  color: #fff;
   font-family: "Montserrat";
-  font-weight: 500;
-  background-color: #fff;
-  border: 1.5px solid #a7a7a7;
-  background-color: #ccc;
+  font-weight: 400;
+  border: 1px solid #fff;
+  border-radius: 0px !important;
+  background-color: #515151;
 }
 
 .faqsLp .accordion-button:not(.collapsed) {
-  border: 1px solid #a7a7a7;
-  color: #2d2d2d;
-  background-color: unset;
+  border: 1px solid #fff;
+  border-radius: 0px !important;
+  color: #fff;
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -440,39 +438,34 @@ a {
   padding: 15px 40px 15px 15px;
   position: relative;
   text-transform: uppercase;
-  border-radius: 0px;
-  background-color: #ccc;
-}
-
-.faqsLp .accordion-item:first-of-type .accordion-button {
-  border-radius: 0px;
+  background-color: #515151;
 }
 
 .faqsLp .accordion-item {
-  border-top-left-radius: unset;
-  border-top-right-radius: unset;
-}
-
-.faqsLp .accordion-item {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   background-color: #faf7fa;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
 }
 
-.faqsLp .accordion-item:first-of-type {
-  border-top-left-radius: unset;
-  border-top-right-radius: unset;
+.faqsLp .accordion-item:first-of-type,
+.faqsLp .accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
-.faqsLp .accordion-item:last-of-type {
-  border-bottom-right-radius: unset;
-  border-bottom-right-radius: unset;
+.faqsLp .accordion-item:last-of-type,
+.faqsLp .accordion-item:last-of-type .accordion-button {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .faqsLp .accordion-button:focus {
   z-index: 3;
-  border-color: unset;
   outline: 0;
   box-shadow: unset;
-  border-color: #a7a7a7;
+  border-color: #fff;
 }
 
 .faqsLp .accordion-button svg {
