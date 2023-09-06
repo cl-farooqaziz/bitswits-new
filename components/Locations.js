@@ -24,7 +24,7 @@ const Locations = () => {
             <section className={styles.locations}>
                 <div className={styles.mapVideo}>
                     <div className={`${styles.map} h-100`}>
-                        <video autoPlay muted className='w-100' loop src="video.mp4" type="video/mp4"></video>
+                        <video autoPlay muted className='w-100' loop src="/video.mp4" type="video/mp4"></video>
                     </div>
                 </div>
                 <div className={styles.upside}>
@@ -33,7 +33,7 @@ const Locations = () => {
                             <Col lg={5} className="d-lg-block d-none"></Col>
                             <Col lg={7}>
                                 <div className={styles.lctnMain}>
-                                    <p className="f-16 f-montserrat f-700 orange f-uppercase mb-0">
+                                    <p className="f-16 f-montserrat f-700 grdiant f-uppercase mb-0">
                                         Areas We Serve
                                     </p>
                                     <h3 className="f-50 f-playfair white f-700 mb-4 mb-lg-5">
@@ -47,32 +47,32 @@ const Locations = () => {
                                                         USA
                                                     </h4>
                                                     <div className={`${styles.detail} border-btm`}>
-                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                             Delaware
                                                         </p>
                                                         <p className="f-14 f-500 f-montserrat white mb-0">
                                                             8 The Green STE 300, Dover DE 19901.
                                                         </p>
-                                                        <Link className="f-16 f-500 orange"
+                                                        <Link className="f-16 f-500 white"
                                                             href="tel:+18335006007">
                                                             +1 833 500 6007
                                                         </Link><br />
-                                                        <Link className="f-16 f-500 orange"
+                                                        <Link className="f-16 f-500 white"
                                                             href="tel:+13123795987">
                                                             +1 312 379 5987
                                                         </Link>
                                                     </div>
                                                     <div className={`${styles.detail}`}>
-                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                             California
                                                         </p>
                                                         <p className="f-14 f-500 f-montserrat white mb-0">350 South Grand Avenue, Los Angeles,
                                                             CA 90071</p>
-                                                        <Link className="f-16 f-500 orange"
+                                                        <Link className="f-16 f-500 white"
                                                             href="tel:+13123795987">
                                                             +1 312 379 5987
                                                         </Link><br />
-                                                        <Link className="f-16 f-500 orange"
+                                                        <Link className="f-16 f-500 white"
                                                             href="tel:+18335006007">
                                                             +1 833 500 6007
                                                         </Link>
@@ -83,13 +83,13 @@ const Locations = () => {
                                                         UAE
                                                     </h4>
                                                     <div className={`${styles.detail}`}>
-                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                             Sharjah
                                                         </p>
                                                         <p className="f-14 f-500 f-montserrat white mb-0">
                                                             Office #101, 32 Street, Al Mujarrah, Sharjah
                                                         </p>
-                                                        <Link className="f-16 f-500 orange"
+                                                        <Link className="f-16 f-500 white"
                                                             href="tel:+971555031266">
                                                             +97 155 503 1266
                                                         </Link>
@@ -102,7 +102,7 @@ const Locations = () => {
                                                         Malaysia
                                                     </h4>
                                                     <div className={`${styles.detail}`}>
-                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                             Labuan
                                                         </p>
                                                         <p className="f-14 f-500 f-montserrat white mb-0">
@@ -115,13 +115,13 @@ const Locations = () => {
                                                         Pakistan
                                                     </h4>
                                                     <div className={`${styles.detail}`}>
-                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                        <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                             Karachi
                                                         </p>
                                                         <p className="f-14 f-500 f-montserrat white mb-0">
                                                             12th Floor Caesar's Tower, Karachi, Pakistan
                                                         </p>
-                                                        <Link className="f-16 f-500 orange" href="tel:923468280101">
+                                                        <Link className="f-16 f-500 white" href="tel:923468280101">
                                                             +92 346 828 0101
                                                         </Link>
                                                     </div>
@@ -138,33 +138,33 @@ const Locations = () => {
                                                             USA
                                                         </h4>
                                                         <div className={`${styles.detail} border-btm`}>
-                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                                 Delaware
                                                             </p>
                                                             <p className="f-14 f-500 f-montserrat white mb-0">
                                                                 8 The Green STE 300, Dover DE 19901.
                                                             </p>
-                                                            <Link className="f-16 f-500 orange"
+                                                            <Link className="f-16 f-500 white"
                                                                 href="tel:+18335006007">
                                                                 +1 833 500 6007
                                                             </Link><br />
-                                                            <Link className="f-16 f-500 orange"
+                                                            <Link className="f-16 f-500 white"
                                                                 href="tel:+13123795987">
                                                                 +1 312 379 5987
                                                             </Link>
                                                         </div>
 
                                                         <div className={`${styles.detail}`}>
-                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                                 California
                                                             </p>
                                                             <p className="f-14 f-500 f-montserrat white mb-0">350 South Grand Avenue, Los Angeles,
                                                                 CA 90071</p>
-                                                            <Link className="f-16 f-500 orange"
+                                                            <Link className="f-16 f-500 white"
                                                                 href="tel:+13123795987">
                                                                 +1 312 379 5987
                                                             </Link><br />
-                                                            <Link className="f-16 f-500 orange"
+                                                            <Link className="f-16 f-500 white"
                                                                 href="tel:+18335006007">
                                                                 +1 833 500 6007
                                                             </Link>
@@ -176,7 +176,7 @@ const Locations = () => {
                                                             Malaysia
                                                         </h4>
                                                         <div className={`${styles.detail}`}>
-                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                                 Labuan
                                                             </p>
                                                             <p className="f-14 f-500 f-montserrat white mb-0">
@@ -190,13 +190,13 @@ const Locations = () => {
                                                             UAE
                                                         </h4>
                                                         <div className={`${styles.detail}`}>
-                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                                 Sharjah
                                                             </p>
                                                             <p className="f-14 f-500 f-montserrat white mb-0">
                                                                 Office #101, 32 Street, Al Mujarrah, Sharjah
                                                             </p>
-                                                            <Link className="f-16 f-500 orange"
+                                                            <Link className="f-16 f-500 white"
                                                                 href="tel:+971555031266">
                                                                 +97 155 503 1266
                                                             </Link>
@@ -208,13 +208,13 @@ const Locations = () => {
                                                             Pakistan
                                                         </h4>
                                                         <div className={`${styles.detail}`}>
-                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase orange">
+                                                            <p className="f-18 f-700 f-montserrat mb-1 f-uppercase grdiant">
                                                                 Karachi
                                                             </p>
                                                             <p className="f-14 f-500 f-montserrat white mb-0">
                                                                 12th Floor Caesar's Tower, Karachi, Pakistan
                                                             </p>
-                                                            <Link className="f-16 f-500 orange" href="tel:923468280101">
+                                                            <Link className="f-16 f-500 white" href="tel:923468280101">
                                                                 +92 346 828 0101
                                                             </Link>
                                                         </div>
