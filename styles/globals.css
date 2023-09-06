@@ -142,6 +142,11 @@ body {
   line-height: 120px;
 }
 
+.font100 {
+  font-size: 250px;
+  line-height: 230px;
+}
+
 .font90 {
   font-size: 320px;
   line-height: 280px;
