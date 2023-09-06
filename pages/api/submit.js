@@ -20,9 +20,7 @@ export default async function handler(req, res ) {
             ]
         })
 
-       
 
-        
 
         const sheets = google.sheets({
             auth,
@@ -31,7 +29,7 @@ export default async function handler(req, res ) {
 
       
         var resource = {
-            "values": ["alim","alim@gmail.com","0000000000"]
+            "values": ["farooq","farooq@gmail.com","123456789"]
         }
 
         var optionalArgs = {valueInputOption: "USER_ENTERED"};

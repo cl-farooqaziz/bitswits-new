@@ -12,6 +12,54 @@ import icon4 from '../public/images/banner/icon4.png'
 
 
 function Homebanner(props) {
+
+    const [score, setScore] = useState('Submit');
+
+    const handleSubmit = async (event) => {
+
+        event.preventDefault()
+
+
+        const data = {
+            firstName: event.target.fname.value,
+            lastName: event.target.lname.value,
+            email: event.target.email.value,
+            phone: event.target.phone.value,
+            message: event.target.message.value,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Wating For Send Data');
+
+        // axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+        //   .then((response) => {
+        //     setScore('Thank You');
+        //     console.log(response.data);
+        //   });
+
+        fetch('/api/email', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log('Response received')
+            if (res.status === 200) {
+                console.log('Response succeeded!')
+            }
+        })
+
+
+        // const { pathname } = Router
+        // if (pathname == pathname) {
+        //     Router.push('/thank-you')
+        // }
+
+    }
+
     return (
         <>
 
@@ -111,16 +159,15 @@ function Homebanner(props) {
                                             Make an obligation-free enquiry
                                         </p>
                                     </div>
-                                    <form className={styles1.formsbanner}>
-                                        <input type='text' className={styles1.forminput} placeholder='Your Name' />
-                                        <input type='number' className={styles1.forminput} placeholder='Phone Number' />
-                                        <input type='email' className={styles1.forminput} placeholder='Email Address' />
+                                    <form className={styles1.formsbanner} onSubmit={handleSubmit}>
+                                        <input type='text' className={`${styles1.forminput} form-control`} placeholder='Your Name' required />
+                                        <input type='number' className={`${styles1.forminput} form-control`} placeholder='Phone Number' required />
+                                        <input type='email' className={`${styles1.forminput} form-control`} placeholder='Email Address' required />
                                         <textarea className={styles1.formarea} placeholder='How can we help you?' ></textarea>
                                         <div className={`${styles1.take} d-flex`}>
-                                            <p className='grey font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong> .</p>
-                                            <input type='Submit' className={styles1.notice} />
+                                            <p className='grey font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong>.</p>
+                                            <button type="submit" id="submit" className={styles1.notice}>{score}</button>
                                         </div>
-
                                     </form>
                                 </div>
 
