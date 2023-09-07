@@ -251,14 +251,6 @@ export default function androidappdevelopmentcompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            {/* <Homebanner
-                subtitle='Revolutionizing & Creating Smarter Future'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>   <span className='grdiant'> Android App</span>  Development Company</h1></>}
-                title2='Android App Development Isn’t Just Our Job – It’s Our Passion.'
-                text={<> BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development company firmly believes that no two businesses are the same, and neither should their apps be. </>}
-                text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
-            /> */}
-
             <NewBannerFy
                 subtitle='Revolutionizing & Creating Smarter Future'
                 title={<> Android App <br /> Development Company </>}
@@ -267,9 +259,6 @@ export default function androidappdevelopmentcompanylp() {
                 text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
                 banClass="andriod"
             />
-
-
-            {/* <NewSliderFy /> */}
 
             <NewDecFy />
 
@@ -280,8 +269,6 @@ export default function androidappdevelopmentcompanylp() {
             />
 
             <Ready />
-
-            {/* <Scalable /> */}
 
             <Enhanced
                 subtitle='BONUSES'

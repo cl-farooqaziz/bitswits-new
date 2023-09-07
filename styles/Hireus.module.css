@@ -1,6 +1,26 @@
-.resources{
+.resources {
   background-color: #fff;
   color: #fff;
+}
+
+.resources.black {
+  background-color: #000;
+}
+
+.resources.black h2,
+.resources.black h5,
+.resources.black p {
+  color: #fff;
+}
+
+.resources.black .btnHire {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.resources.black .btnHire:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .hireUs {
@@ -63,7 +83,7 @@
   text-align: center;
 }
 
-.team .slideBox img{
+.team .slideBox img {
   filter: invert(1);
 }
 
@@ -73,12 +93,10 @@
 
 /* =================Media Queries=================== */
 
-@media screen and (max-width: 991px) { 
-
-.btnHire{
-  width: 45%;
-}
-
+@media screen and (max-width: 991px) {
+  .btnHire {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 767px) {

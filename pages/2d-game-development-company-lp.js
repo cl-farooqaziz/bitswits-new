@@ -48,6 +48,8 @@ import Aboutlp from '@/components/Aboutlp'
 import NewSliderFy from '@/components/NewSliderFy'
 import NewBannerFy from '@/components/NewBannerFy'
 import Contact from '@/components/Contact'
+import Consultation2 from '@/components/Consultation2'
+import Consultation from '@/components/Consultation'
 
 export default function gamedevelopmentcompany2dlp() {
 
@@ -564,7 +566,7 @@ export default function gamedevelopmentcompany2dlp() {
             />
 
 
-            <section className='campny com2'>
+            <section className='campny pb-5'>
                 <Container>
                     <Row>
                         <Col>
@@ -579,6 +581,9 @@ export default function gamedevelopmentcompany2dlp() {
                     </Row>
                 </Container>
             </section>
+
+
+            <Consultation />
 
 
             <Container className='campny'>
@@ -682,7 +687,9 @@ export default function gamedevelopmentcompany2dlp() {
 
             <Publication />
 
-            <Hireus />
+            <Hireus
+                bgColor="black"
+            />
 
             <ClientsThinklp />
 

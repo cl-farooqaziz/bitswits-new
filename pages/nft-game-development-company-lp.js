@@ -47,6 +47,8 @@ import Contact from '@/components/Contact'
 import NewSliderFy from '@/components/NewSliderFy'
 import Aboutlp from '@/components/Aboutlp'
 import NewBannerFy from '@/components/NewBannerFy'
+import Consultation2 from '@/components/Consultation2'
+import Consultation from '@/components/Consultation'
 
 
 export default function nftgamedevelopmentcompanylp() {
@@ -392,7 +394,7 @@ export default function nftgamedevelopmentcompanylp() {
 
 
             <NewBannerFy
-                title={<> World-Class Provider Of <br /> Solutions! </>}
+                title={<> World-Class Provider <br /> Of  Solutions! </>}
                 text={<> BitsWits specializes in creating NFT games using smart contracts on Ethereum, EOS, Tron, and Cardano. Our team spends countless hours crafting unique storylines, artwork, and game mechanics that bring the world of NFTs to life. With our games, players can earn rewards while they explore our virtual worlds, battle opponents, or trade rare collectibles. Whether you're looking for an intense battle, a peaceful adventure, or a friendly competition, BitsWits has something for everyone! Join us and become part of the exciting new world of NFTs gaming. </>}
                 btn1='Consult A Gaming Expert To Begin'
                 banClass="nft"
@@ -482,7 +484,7 @@ export default function nftgamedevelopmentcompanylp() {
             />
 
 
-            <Container className='campny'>
+            <Container className='campny pb-5'>
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>SERVICES</h3>
@@ -503,7 +505,7 @@ export default function nftgamedevelopmentcompanylp() {
 
 
 
-
+            <Consultation />
 
 
 
@@ -582,7 +584,11 @@ export default function nftgamedevelopmentcompanylp() {
             <Publication />
 
             <Range />
+
             <Hireus />
+
+            <Consultation2 />
+            
             <ClientsThinklp />
 
             <Contact
