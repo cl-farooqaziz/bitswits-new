@@ -313,6 +313,7 @@ export default function mobileappdevelopmentusa() {
                     Company</span> in USA </>}
 
                 text={<> BitsWits, we are determined to provide you the best mobile application development experience. Our team of expert app developers always offers cutting-edge solutions to the clients that can cater to all of their business needs. </>}
+                banClass= 'mobile'
                 img1={<>
                     <div className='newbit'>
                         <Image src={new1} alt="bitswits" className='img-fluid' />
