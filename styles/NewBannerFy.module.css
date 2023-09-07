@@ -1,7 +1,4 @@
 .newbanner {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding: 175px 0 50px;
   display: flex;
   align-items: center;
@@ -10,54 +7,93 @@
 .andriod {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/andriod.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .ios {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/ios.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .flutter {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/flutter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .mobile {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .react {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/react.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .wearable {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/wearable.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .cross {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/cross.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .web {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/web.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .game2d {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/2d.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .game3d {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/3d.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .nft {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/nft.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .blockchain {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/blockchain.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .game {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/newbanner/game.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bttnsto {
