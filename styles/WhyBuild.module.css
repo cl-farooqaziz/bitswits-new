@@ -95,6 +95,12 @@
 .expo{
   background: #fff;
 }
+
+.bgColor{
+  background-color: #000;
+}
+
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 991px) {

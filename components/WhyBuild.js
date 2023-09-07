@@ -6,7 +6,7 @@ import styles from '@/styles/WhyBuild.module.css'
 const WhyBuild = (props) => {
     return (
         <>
-            <section className={`${styles.myExpertise} ${props.expo} ${styles[props.alignclass]}`}>
+            <section className={`${styles.myExpertise} ${props.expo} ${styles[props.alignclass]} ${styles[props.chngColor]}`}>
                 <Container>
                     <Row className='aboutfold'>
                         <Col lg={12} className='mx-auto'>

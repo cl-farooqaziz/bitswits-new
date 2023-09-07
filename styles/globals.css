@@ -213,6 +213,14 @@ body {
   color: #00000099;
 }
 
+.fyColor {
+  color: #a7a7a7;
+}
+
+.fyColor2 {
+  color: #ff0045;
+}
+
 /* text alignments */
 
 .rowGap {
@@ -247,7 +255,11 @@ body {
   text-transform: capitalize;
 }
 
-.letterspacing{
+.justify {
+  text-align: justify;
+}
+
+.letterspacing {
   letter-spacing: 8px;
 }
 
@@ -294,26 +306,24 @@ a {
   margin-top: 4%;
 }
 .newbit2 img {
-
   margin-right: 4%;
   margin-top: 4%;
-
 }
 
-.rename{
+.rename {
   background-color: #000;
   text-align: center;
   padding-top: 50px;
 }
-.rename p{
+.rename p {
   max-width: 800px;
-  margin: 0 auto!important;
+  margin: 0 auto !important;
 }
 
-.nopl{
+.nopl {
   filter: brightness(0.5);
 }
-.marque{
+.marque {
   margin-left: 4%;
 }
 
@@ -1455,15 +1465,12 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 480px) {
-
-
   .newbit img {
-   display: none;
+    display: none;
   }
   .newbit2 img {
     display: none;
   }
-
 
   .ourservicesfaqs .font25 {
     font-size: 18px;
@@ -1925,8 +1932,7 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-
-  .btnclas{
+  .btnclas {
     font-size: 11px;
   }
 
