@@ -265,7 +265,9 @@ export default function androidappdevelopmentcompanylp() {
                 title2='Android App Development Isn’t Just Our Job – It’s Our Passion.'
                 text={<> BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development company firmly believes that no two businesses are the same, and neither should their apps be. </>}
                 text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
+                banClass="andriod"
             />
+
 
             {/* <NewSliderFy /> */}
 

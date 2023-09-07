@@ -246,6 +246,7 @@ export default function androidappdevelopmentcompanylp() {
                 title={<>Los Angeles Mobile App <br />  Development Company </>}
                 title2={<>We Don't Just Create Apps; We Create Experiences</>}
                 text={<> At BitsWits, we develop innovative and user-friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients. Our focus on delivering high-quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
+                banClass="mobile"
             />
 
             <NewDecFy />

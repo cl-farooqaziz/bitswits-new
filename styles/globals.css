@@ -247,6 +247,10 @@ body {
   text-transform: capitalize;
 }
 
+.letterspacing{
+  letter-spacing: 8px;
+}
+
 ul {
   list-style-type: none;
 }

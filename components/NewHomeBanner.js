@@ -21,6 +21,9 @@ import Button from 'react-bootstrap/Button';
 import { RxCross2 } from 'react-icons/rx'
 import Freequote from './Freequote'
 import { useState } from "react";
+import Router from 'next/router'
+
+
 const NewHomeBanner = () => {
 
     const [show, setShow] = useState(false);
@@ -42,23 +45,114 @@ const NewHomeBanner = () => {
 
     };
 
+    // const [score, setScore] = useState('Submit');
+
+    // const handleSubmit = async (event) => {
+
+    //     event.preventDefault()
+
+
+    //     const data = {
+    //         name: event.target.name.value,
+    //         phone: event.target.phone.value,
+    //         email: event.target.email.value,
+    //         message: event.target.message.value,
+    //     }
+
+    //     const JSONdata = JSON.stringify(data)
+
+    //     setScore('Sending Data');
+
+    //     // axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+    //     //   .then((response) => {
+    //     //     setScore('Thank You');
+    //     //     console.log(response.data);
+    //     //   });
+
+    //     fetch('/api/email', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Accept': 'application/json, text/plain, */*',
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSONdata
+    //     }).then((res) => {
+    //         console.log('Response received')
+    //         if (res.status === 200) {
+    //             console.log('Response succeeded!')
+    //         }
+    //     })
+
+    //     // const { pathname } = Router
+    //     // if (pathname == pathname) {
+    //     //     Router.push('/thank-you')
+    //     // }
+
+    // }
+
+
+    const [score, setScore] = useState('Submit');
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        const data = {
+            name: event.target.name.value,
+            phone: event.target.phone.value,
+            email: event.target.email.value,
+            message: event.target.message.value,
+        };
+
+        const JSONdata = JSON.stringify(data);
+
+        setScore('Sending Data');
+
+        try {
+            const response = await fetch('/api/email', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'Content-Type': 'application/json',
+                },
+                body: JSONdata,
+            });
+
+            if (response.status === 200) {
+                setScore('Thank You');
+                console.log('Response succeeded!')
+                const { pathname } = Router
+                if (pathname == pathname) {
+                    Router.push('/thank-you')
+                }
+            } else {
+                console.error('Error:', response.statusText);
+                setScore('Submit');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            setScore('Submit');
+        }
+    };
+
+
+
     return (
         <section className={styles.banner}>
             <Container fluid>
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
                         <div className={styles.banerTxt}>
-                            
-                            <h1 className='font65 black fontf font-bold line60'> 
-                            
-                             A <span className='grdiant font-bold'>Top Mobile App Development Company</span> at Your Service
-                            
+
+                            <h1 className='font65 black fontf font-bold line60'>
+
+                                A <span className='grdiant font-bold'>Top Mobile App Development Company</span> at Your Service
+
                             </h1>
                             <h4 className='font16 font-bold black fontf'>Apps, Games, and Web Bliss:</h4>
                             <p className='black fontf font16 font-medium line30'>
-                            From engaging mobile applications and exhilarating games to inspiring online web solutions, everything is driven with experience at BitsWits, a <span className='grdiant font-bold'>top mobile app development company in US</span>
-                                
-                                 </p>
+                                From engaging mobile applications and exhilarating games to inspiring online web solutions, everything is driven with experience at BitsWits, a <span className='grdiant font-bold'>top mobile app development company in US</span>
+
+                            </p>
 
                             <div className={`${styles.bttnsto}`}>
                                 <Link className={styles.bttns1} onClick={modal} href="#">Book A Call</Link>
@@ -116,7 +210,6 @@ const NewHomeBanner = () => {
                                 <div className={styles.call}>
                                     <Image alt="bitswits" className='img-fluid'
                                         src={callIcn}
-
                                     />
                                     <p className='font13 font-semibold lightgrey fontf m-0'>
                                         Let's discuss your project:
@@ -131,16 +224,15 @@ const NewHomeBanner = () => {
                                         Make an obligation-free enquiry
                                     </p>
                                 </div>
-                                <form className={styles.formsbanner}>
-                                    <input type='text' className={styles.forminput} placeholder='Your Name' />
-                                    <input type='number' className={styles.forminput} placeholder='Phone Number' />
-                                    <input type='email' className={styles.forminput} placeholder='Email Address' />
-                                    <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                                <form className={styles.formsbanner} id="myForm" onSubmit={handleSubmit}>
+                                    <input type='text' name='name' id='name' className={`${styles.forminput} form-control`} placeholder='Your Name' required />
+                                    <input type='tel' maxLength={11} minLength={7} name='phone' id='phone' className={`${styles.forminput} form-control`} placeholder='Phone Number' required />
+                                    <input type='email' name='email' id='email' className={`${styles.forminput} form-control`} placeholder='Email Address' required />
+                                    <textarea name='message' id='message' className={styles.formarea} placeholder='How can we help you?'></textarea>
                                     <div className={`${styles.take} d-flex`}>
-                                        <p className='grey font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong> .</p>
-                                        <input type='Submit' className={styles.notice} />
+                                        <p className='grey font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong>.</p>
+                                        <button type="submit" id="submit" className={styles.notice}>{score}</button>
                                     </div>
-
                                 </form>
                             </div>
 

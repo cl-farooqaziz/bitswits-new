@@ -176,13 +176,12 @@
   font-size: 12px;
 }
 
-.formsbanner .forminput:focus-visible {
-  outline: none;
-}
-
+.formsbanner .forminput:focus-visible,
 .formsbanner .formarea:focus-visible {
   outline: none;
+  box-shadow: none;
 }
+
 
 .formsbanner .formarea::placeholder {
   color: #707070;
@@ -395,6 +394,16 @@
   margin-left: 50px;
 }
 
+.thankYou {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0);
+}
+
 /* ============================================= */
 
 @media screen and (min-width: 2020px) {
@@ -588,10 +597,9 @@
 }
 
 @media screen and (max-width: 1199px) {
-
   .call p {
     font-size: 11px;
-}
+  }
 
   .alignment p {
     font-size: 10px;
@@ -680,7 +688,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .read {
     display: none;
   }

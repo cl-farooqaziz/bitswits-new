@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import { useState } from 'react'
 import Slider from 'react-slick'
 import { Container, Row } from 'react-bootstrap'
 import Homebanner from '@/components/Homebanner'
@@ -236,8 +237,8 @@ export default function mobileappdesigncompanylp() {
             <Publication />
 
             <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
+            <ClientsThinklp />
 
 
 

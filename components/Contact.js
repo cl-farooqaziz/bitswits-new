@@ -1,13 +1,63 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Contact.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import { FaRegEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaFacebookSquare, FaInstagram, FaDribbble, FaPinterest, FaBehance } from 'react-icons/fa';
+import { FaRegEnvelope, FaPhoneAlt, FaLinkedin, FaFacebookSquare, FaInstagram, FaDribbble, FaPinterest, FaBehance } from 'react-icons/fa';
 import icon from '../public/images/footer/icon.png'
 
 
 const Contact = (props) => {
+
+
+    const [score, setScore] = useState('Time to Book The Call');
+
+    const handleSubmit = async (event) => {
+
+        event.preventDefault()
+
+
+        const data = {
+            firstName: event.target.fname.value,
+            lastName: event.target.lname.value,
+            email: event.target.email.value,
+            phone: event.target.phone.value,
+            message: event.target.message.value,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Wating For Send Data');
+
+        // axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+        //   .then((response) => {
+        //     setScore('Thank You');
+        //     console.log(response.data);
+        //   });
+
+        fetch('/api/email', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log('Response received')
+            if (res.status === 200) {
+                console.log('Response succeeded!')
+            }
+        })
+
+
+        // const { pathname } = Router
+        // if (pathname == pathname) {
+        //     Router.push('/thank-you')
+        // }
+
+    }
+
+
     return (
         <>
             <section className={` ${styles[props.newBg]} ${styles.contact}`}>
@@ -41,7 +91,7 @@ const Contact = (props) => {
                                         <Link href="#"> <FaFacebookSquare className={styles.email} /></Link>
                                         <Link href="#"> <FaInstagram className={styles.email} /></Link>
                                         <Link href="#"> <FaDribbble className={styles.email} /></Link>
-                                        <Link href="#" > <Image  alt="bitswits"     src={icon}  className={`${styles.email}`} /> </Link>
+                                        <Link href="#" > <Image alt="bitswits" src={icon} className={`${styles.email}`} /> </Link>
                                         <Link href="#"> <FaPinterest className={styles.email} /></Link>
                                         <Link href="#"> <FaBehance className={styles.email} /></Link>
                                     </div>
@@ -50,7 +100,7 @@ const Contact = (props) => {
                         </Col>
                         <Col lg={7}>
                             <div className={`${styles.cntcForm} mt-5 mt-lg-0`}>
-                                <form>
+                                <form onSubmit={handleSubmit}>
                                     <Row>
                                         <Col lg={6}>
                                             <div className='mb-4'>
@@ -58,7 +108,7 @@ const Contact = (props) => {
                                                     First Name
                                                     <span className={styles.imp}>*</span>
                                                 </label>
-                                                <input type="text" className='form-control' id="fname" placeholder="What's your first name?" />
+                                                <input type="text" className='form-control' id="fname" name='fname' placeholder="What's your first name?" required />
                                             </div>
                                         </Col>
                                         <Col lg={6}>
@@ -67,7 +117,7 @@ const Contact = (props) => {
                                                     Last Name
                                                     <span className={styles.imp}>*</span>
                                                 </label>
-                                                <input type="text" className='form-control' id="lname" placeholder="What's your last name?" />
+                                                <input type="text" className='form-control' id="lname" name='lname' placeholder="What's your last name?" required />
                                             </div>
                                         </Col>
                                         <Col lg={6}>
@@ -76,13 +126,13 @@ const Contact = (props) => {
                                                     Email Address
                                                     <span className={styles.imp}>*</span>
                                                 </label>
-                                                <input type="email" className='form-control' id="email" placeholder="yourname@email.com" />
+                                                <input type="email" className='form-control' id="email" name='email' placeholder="yourname@email.com" required />
                                             </div>
                                         </Col>
                                         <Col lg={6}>
                                             <div className='mb-4'>
                                                 <label className='form-label'>Company Size</label>
-                                                <select id="company" name="Company" data-name="Company" className={styles.wSelect}>
+                                                <select id="company" name="Company" data-name="Company" className={styles.wSelect} required >
                                                     <option value="0">Company Size</option>
                                                     <option value="1">Only 1</option>
                                                     <option value="2-10">2-10</option>
@@ -96,7 +146,7 @@ const Contact = (props) => {
                                         <Col lg={6}>
                                             <div className='mb-4'>
                                                 <label className='form-label'>Service</label>
-                                                <select id="Service" name="Service" data-name="Service" className={styles.wSelect}>
+                                                <select id="service" name="service" data-name="Service" className={styles.wSelect} required>
                                                     <option value="">Select service</option>
                                                     <option value="Webflow Development">Mobile/Web Design</option>
                                                     <option value="Web Development">Web Development</option>
@@ -111,7 +161,7 @@ const Contact = (props) => {
                                         <Col lg={6}>
                                             <div className='mb-4'>
                                                 <label className='form-label'>How did you find us?</label>
-                                                <select id="Source" name="Source" data-name="Source" className={styles.wSelect}>
+                                                <select id="source" name="source" data-name="Source" className={styles.wSelect} required>
                                                     <option value="">How did you find us?</option>
                                                     <option value="Google">Google</option>
                                                     <option value="Clutch">Clutch</option>
@@ -128,7 +178,7 @@ const Contact = (props) => {
                                                     What have you budgeted for this project?
                                                     <span className={styles.imp}>*</span>
                                                 </label>
-                                                <select id="Budget" name="Budget" data-name="Budget" required="" className={styles.wSelect}>
+                                                <select id="budget" name="budget" data-name="Budget" className={styles.wSelect} required>
                                                     <option value="0">What is your budget for this project?</option>
                                                     <option value="Under $20,000">Under $20,000</option>
                                                     <option value="$20.000-$50,000">$20.000-$50,000</option>
@@ -142,17 +192,12 @@ const Contact = (props) => {
                                         <Col lg={12}>
                                             <div className='mb-4'>
                                                 <label className='form-label'>About Your Project</label>
-                                                <textarea id="Message" name="Message" maxLength="5000" data-name="Message" placeholder="Tell us about your project goals &amp; timeline in a snapshot. Please include any necessary links about your project." className="form-field text-area w-input"></textarea>
+                                                <textarea id="message" name="message" maxLength="5000" data-name="Message" placeholder="Tell us about your project goals &amp; timeline in a snapshot. Please include any necessary links about your project." className="form-field text-area w-input"></textarea>
                                             </div>
                                         </Col>
-                                        {/* <Col lg={12}>
-                                            <div className='mb-5 mt-3 text-center'>
-                                                <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Ld6Ox0lAAAAADUM1uxAXKGybcB6zB8x3owVCUTM&amp;co=aHR0cHM6Ly96ZW5zaXRlLmNvOjQ0Mw..&amp;hl=en&amp;v=Xh5Zjh8Od10-SgxpI_tcSnHR&amp;size=normal&amp;cb=l17p04q98i1h" width="304" height="78" role="presentation" name="a-uig0r51k4l2w" frameBorder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-                                            </div>
-                                        </Col> */}
                                         <Col lg={12}>
                                             <div className='mb-5'>
-                                                <button type="submit" id="submit" data-wait="Booking the Call " className={styles.btns}>Time to Book The Call</button>
+                                                <button type="submit" id="submit" data-wait="Booking the Call " className={styles.btns}>{score}</button>
                                             </div>
                                         </Col>
                                         <Col lg={12}>

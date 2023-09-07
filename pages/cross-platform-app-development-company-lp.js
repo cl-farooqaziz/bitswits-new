@@ -258,6 +258,7 @@ export default function androidappdevelopmentcompanylp() {
                 title={<> Cross Platform <br /> Development Company! </>}
                 text={<> With our cross-platform app development services, you can easily create apps that are compatible across multiple platforms. No more worrying about developing an app for every operating system; now you can develop and deploy one single app for both Android and iOS! </>}
                 text2={<> Harness the power of mobile app cross platform development with BitsWits now! </>}
+                banClass="cross"
             />
 
 

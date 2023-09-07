@@ -490,6 +490,7 @@ export default function gamedevelopmentcompany3dlp() {
                 title={<> Dedicated To Providing Customized <br /> Gaming Solution </>}
                 text={<> BitsWits is a premier game development studio specializing in creating 3D immersive, interactive worlds. We specialize in developing various 3D games, from MMOs and RPGs to FPS and puzzle games for PC, console, and mobile platforms. What more can you expect to get your audience driving? Get ready to create richly detailed graphics that bring your vision to life! </>}
                 btn1='Consult A Gaming Expert To Begin'
+                banClass="game3d"
             />
 
 

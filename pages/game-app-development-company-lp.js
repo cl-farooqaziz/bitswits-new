@@ -364,7 +364,7 @@ export default function gameappdevelopmentcompanylp() {
             <NewBannerFy
                 subtitle='AWARDED #1 GAME APP DEVELOPMENT COMPANY'
                 title={<> Experience The <br /> With Us! </>}
-
+                banClass="game"
             />
 
 

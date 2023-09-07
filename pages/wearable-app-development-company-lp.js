@@ -263,6 +263,7 @@ export default function androidappdevelopmentcompanylp() {
                 title={<> Wearable App <br /> Development Company! </>}
                 text={<> We understand the importance of connecting people with their devices and data. Our wearable application development company allow us to help you create the perfect app for your needs. From fitness tracking and health monitoring to access information at a glance, our developers are ready to assist in creating applications that will make life easier and more efficient. With our expertise and experience in the field of wearable technology, you can trust us to deliver the best service possible. </>}
                 text2={<> Choose us for all your wearable application development needs, and let us help you create an app that will make life easier, faster, and more connected. </>}
+                banClass="wearable"
             />
 
             {/* <NewSliderFy /> */}

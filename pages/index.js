@@ -38,6 +38,7 @@ const ClientsThink = dynamic(() => import('@/components/ClientsThink'));
 const Contact = dynamic(() => import('@/components/Contact'));
 const OurProject = dynamic(() => import('@/components/OurProject'));
 import Counter from '@/components/Counter';
+import Ourportfoliolp from '@/components/Ourportfoliolp';
 
 
 
@@ -59,11 +60,9 @@ export default function Home() {
     {
       id: '1',
       title: 'Mobile App Development',
-      text: (<> 
-      
-      The mobile apps developed by <span className='grdiant font-bold'>app developers</span> at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.
-      
-       </>),
+      text: (<>
+        The mobile apps developed by <span className='grdiant font-bold'>app developers</span> at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.
+      </>),
       click1: 'tab1',
       img: icon1,
       fun: game,
@@ -72,11 +71,9 @@ export default function Home() {
     {
       id: '2',
       title: 'Web App Development',
-      text: (<> 
-      
-      Our <span className='grdiant font-bold'>top app developers</span> excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery. 
-      
-       </>),
+      text: (<>
+        Our <span className='grdiant font-bold'>top app developers</span> excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.
+      </>),
       click1: 'tab2',
       img: icon2,
       fun: game,
@@ -85,10 +82,9 @@ export default function Home() {
     {
       id: '3',
       title: 'Game Development ',
-      text: (<> 
-      Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.
-      
-       </>),
+      text: (<>
+        Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.
+      </>),
       click1: 'tab3',
       img: icon3,
       fun: game,
@@ -106,13 +102,13 @@ export default function Home() {
     {
       id: '5',
       title: 'UI/UX App Design',
-      text: 
-      (
-        <>
-        Our team of professional <span className='grdiant font-bold'>UI/UX app designers</span> help develop designs that guide users towards meaningful interactions and impactful user experience. 
-        
-        </>
-      )
+      text:
+        (
+          <>
+            Our team of professional <span className='grdiant font-bold'>UI/UX app designers</span> help develop designs that guide users towards meaningful interactions and impactful user experience.
+
+          </>
+        )
       ,
       click1: 'tab5',
       img: icon5,
@@ -122,10 +118,10 @@ export default function Home() {
     {
       id: '6',
       title: 'Internet of Things ',
-      text: (<> 
-      Our Internet of Things (IoT) services assist you in developing your concept for IoT adoption and in setting up safe technical support systems for complex data work.
-      
-       </>),
+      text: (<>
+        Our Internet of Things (IoT) services assist you in developing your concept for IoT adoption and in setting up safe technical support systems for complex data work.
+
+      </>),
       click1: 'tab6',
       img: icon6,
       fun: game,
@@ -134,10 +130,10 @@ export default function Home() {
     {
       id: '7',
       title: 'Artificial Intelligence ',
-      text: (<> 
-      Utilize AI's potential to promote automated interactions, personalized experiences, and predictive insights for better engagement with technology and data.
-      
-       </>),
+      text: (<>
+        Utilize AI's potential to promote automated interactions, personalized experiences, and predictive insights for better engagement with technology and data.
+
+      </>),
       click1: 'tab7',
       img: icon6,
       fun: game,
@@ -244,7 +240,7 @@ export default function Home() {
 
       <Lookingfor />
       <Trusted />
-      <Ourportfolio />
+      <Ourportfoliolp />
       <Digital />
       <ClientsThink />
       <Nextproject />
