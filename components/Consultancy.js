@@ -18,12 +18,16 @@ const Consultancy = () => {
                         <Col>
                             <form className={styles.bottomform}>
 
-                                <input type="text" name="name" className={styles.name} placeholder="Hi, what's your name?" required="" />
+                                <input type="text" name="name" className={styles.name} placeholder="Name" required="" />
 
 
-                                <input type="email" name="email" className={styles.name} id="email" placeholder="What's your email address?" required="" />
+                                <input type="email" name="email" className={styles.name} id="email" placeholder="Email" required="" />
 
-                                <input type="phone" name="phone" className={styles.name} id="phone" placeholder="Your contact number" required="" minLength="7" maxLength="15" />
+                                <input type="phone" name="phone" className={styles.name} id="phone" placeholder="Number" required="" minLength="7" maxLength="15" />
+
+                                <input type="text" name="Message" className={styles.name} id="phone" placeholder="Message"  />
+
+                                
 
 
                                 <button type="submit" className={styles.butsave}>Submit Details</button>

@@ -84,10 +84,27 @@ const NewBannerFy = (props) => {
                                 </Link>
                             </div>
 
-                            <div className={`${styles.revImg} mt-5`}>
-                                <Image src={rev1} alt="bitswits" className='img-fluid' />
-                                <Image src={rev2} alt="bitswits" className='img-fluid' />
-                            </div>
+                            {props.img1 ?
+ <>
+                                {props.img1}
+
+                                 {props.img2} 
+                                 
+                                 
+                                 </>
+
+
+
+                                :
+
+                                <div className={`${styles.revImg} mt-5`}>
+                                    <Image src={rev1} alt="bitswits" className='img-fluid' />
+                                    <Image src={rev2} alt="bitswits" className='img-fluid' />
+                                </div>
+
+                            }
+
+
                         </div>
                     </Col>
                     <Col lg={4} className='p-0'>

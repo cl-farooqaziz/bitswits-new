@@ -24,6 +24,9 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/game-app-development-company-lp'
     || router.pathname == '/blockchain-game-development-company-lp'
     || router.pathname == '/our-work'
+    || router.pathname == '/flutter-app-development-usa'
+    || router.pathname == '/mobile-app-development-usa'
+    || router.pathname == '/mobile-application-development-company'
     || router.pathname == '/homelp';
 
   return (

@@ -288,6 +288,35 @@ a {
   background-color: #f6f7f9;
 }
 
+.newbit img {
+  width: 12%;
+  margin-right: 4%;
+  margin-top: 4%;
+}
+.newbit2 img {
+  width: 100px;
+  margin-right: 4%;
+  margin-top: 4%;
+  filter: grayscale(1);
+}
+
+.rename{
+  background-color: #000;
+  text-align: center;
+  padding-top: 50px;
+}
+.rename p{
+  max-width: 800px;
+  margin: 0 auto!important;
+}
+
+.nopl{
+  filter: brightness(0.5);
+}
+.marque{
+  margin-left: 4%;
+}
+
 /* ======Btns====== */
 
 .bttns1 {
@@ -1426,6 +1455,16 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 480px) {
+
+
+  .newbit img {
+   display: none;
+  }
+  .newbit2 img {
+    display: none;
+  }
+
+
   .ourservicesfaqs .font25 {
     font-size: 18px;
   }
