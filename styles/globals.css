@@ -1925,6 +1925,11 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+
+  .btnclas{
+    font-size: 11px;
+  }
+
   .line60 {
     line-height: 55px;
   }
