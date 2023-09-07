@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Image from 'next/image'
 import styles from '../styles/Homebanner.module.css'
 import styles1 from '@/styles/Banner.module.css'
