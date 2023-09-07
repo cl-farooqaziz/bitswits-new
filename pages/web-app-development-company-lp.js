@@ -184,10 +184,10 @@ export default function androidappdevelopmentcompanylp() {
             <NewBannerFy
                 subtitle='Top-notch Web Development Company'
                 title={<> Where Imagination <br />Meets Creativity </>}
-
                 text={<> BitsWits is a future-forward, human-centered, and client-focused web development company that revolutionizes the way businesses appear on the online paradigm. We build dynamic, multi-purpose, secure, and highly-performing websites that help brands gain online traction in no time. With sheer expertise in cutting-edge technology, state-of-the-art frameworks, and buzzed-about programming languages, we make the development process an absolute breeze.
                 </>}
                 text2={<> Get in touch with us to get bespoke development services from the experts! </>}
+                banClass="web"
             />
 
 

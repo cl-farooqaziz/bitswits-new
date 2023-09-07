@@ -272,6 +272,7 @@ export default function iosappdevelopmentcompanylp() {
                 subtitle='Reimagine Possibilities With'
                 title={<> Our iOS App <br /> Development Company </>}
                 text='Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.'
+                banClass="ios"
             />
 
 

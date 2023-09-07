@@ -265,6 +265,7 @@ export default function androidappdevelopmentcompanylp() {
                 title2={<>React Native Development is the future of mobile development. And we have already made a mark in that future without expertise in this kind of development!.</>}
                 text={<> With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and AGILITY of native development with the flexibility of JavaScript to bring comprehensive solutions to the table. </>}
                 text2={<> Take the first step toward creating an amazing mobile experience with React Native app development company from our team of experts. Contact us today to create React app! </>}
+                banClass="react"
             />
 
             {/* <NewSliderFy /> */}

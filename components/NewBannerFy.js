@@ -22,7 +22,7 @@ const NewBannerFy = (props) => {
 
 
     return (
-        <section className={styles.newbanner}>
+        <section className={`${styles.newbanner} ${styles[props.banClass]}`}>
             <Container fluid className='mx-xl-5 px-xxl-5 pe-xl-4'>
                 <Row className={`${styles.bannnerproject}`}>
                     <Col lg={8}>

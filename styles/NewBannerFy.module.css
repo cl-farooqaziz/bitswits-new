@@ -1,12 +1,63 @@
 .newbanner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../public/images/newbanner/bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 175px 0 50px;
   display: flex;
   align-items: center;
+}
+
+.andriod {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/andriod.png);
+}
+.ios {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/ios.png);
+}
+.flutter {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/flutter.png);
+}
+.mobile {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/mobile.png);
+}
+.react {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/react.png);
+}
+.wearable {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/wearable.png);
+}
+.cross {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/cross.png);
+}
+.web {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/web.png);
+}
+.game2d {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/2d.png);
+}
+.game3d {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/3d.png);
+}
+.nft {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/nft.png);
+}
+.blockchain {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/blockchain.png);
+}
+.game {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/newbanner/game.png);
 }
 
 .bttnsto {

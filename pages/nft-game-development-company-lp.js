@@ -395,6 +395,7 @@ export default function nftgamedevelopmentcompanylp() {
                 title={<> World-Class Provider Of <br /> Solutions! </>}
                 text={<> BitsWits specializes in creating NFT games using smart contracts on Ethereum, EOS, Tron, and Cardano. Our team spends countless hours crafting unique storylines, artwork, and game mechanics that bring the world of NFTs to life. With our games, players can earn rewards while they explore our virtual worlds, battle opponents, or trade rare collectibles. Whether you're looking for an intense battle, a peaceful adventure, or a friendly competition, BitsWits has something for everyone! Join us and become part of the exciting new world of NFTs gaming. </>}
                 btn1='Consult A Gaming Expert To Begin'
+                banClass="nft"
             />
 
 
