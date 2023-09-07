@@ -237,8 +237,8 @@ export default function mobileappdesigncompanylp() {
             <Publication />
 
             <Range />
-  <Hireus />
-<ClientsThinklp/>
+            <Hireus />
+            <ClientsThinklp />
 
 
 

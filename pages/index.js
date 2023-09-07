@@ -38,6 +38,7 @@ const ClientsThink = dynamic(() => import('@/components/ClientsThink'));
 const Contact = dynamic(() => import('@/components/Contact'));
 const OurProject = dynamic(() => import('@/components/OurProject'));
 import Counter from '@/components/Counter';
+import Ourportfoliolp from '@/components/Ourportfoliolp';
 
 
 
@@ -239,7 +240,7 @@ export default function Home() {
 
       <Lookingfor />
       <Trusted />
-      <Ourportfolio />
+      <Ourportfoliolp />
       <Digital />
       <ClientsThink />
       <Nextproject />
