@@ -50,7 +50,7 @@ import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
-import FaqsLp from '@/components/FaqsLp'
+import FaqsLp from '@/components/FaqsiosLp'
 import Consultation2 from '@/components/Consultation2'
 
 

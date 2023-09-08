@@ -46,7 +46,7 @@ import lop5 from '/public/images/bonusandriod/5.webp'
 import lop6 from '/public/images/bonusandriod/6.webp'
 import lop7 from '/public/images/bonusandriod/mobile.webp'
 import Consultation2 from '@/components/Consultation2'
-import FaqsLp from '@/components/FaqsLp'
+import FaqsLp from '@/components/FaqsandriodLp'
 
 //
 import React, { useState } from 'react';
@@ -56,7 +56,7 @@ import icon3 from '../public/images/andriodservices/web30.png'
 import icon4 from '../public/images/andriodservices/blockchain.png'
 import icon5 from '../public/images/andriodservices/webflow.png'
 import icon6 from '../public/images/andriodservices/artifical.png'
-import Ourservices from '@/components/Ourservices'
+import Ourservices from '@/components/Ourserviceslp'
 import Contact from '@/components/Contact'
 
 
@@ -265,6 +265,12 @@ export default function androidappdevelopmentcompanylp() {
             <Aboutlp />
 
             <Ourservices
+                title='WHAT WE DO'
+                title2={<>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
+
+Leveling Up Your App Game With Our Slew of <span className='grdiant'>Android App Development Service</span>!
+
+                </h2> </>}
                 services={services1}
             />
 
@@ -310,7 +316,26 @@ export default function androidappdevelopmentcompanylp() {
 
             <Ourportfoliolp />
 
-            <Lookingforlp />
+            <Lookingforlp
+            
+
+    
+
+            tilte = {  <>    <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5> </> }
+            title2 = { <> <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
+            
+            Bring Out The Best Of Your <span className='grdiant'>Mobile Application
+            With Our Scalable Technology </span> Stack
+            
+            </h2>  </> }
+            para = { <> 
+            
+            <p className='font18 black t-center'>Experience the Success of Your Mobile Apps with Our Powerful Tech Stack</p>
+            
+            </> }
+            
+            
+            />
 
             <Consultation2 />
 
