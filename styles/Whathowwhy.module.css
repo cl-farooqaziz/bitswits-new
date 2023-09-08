@@ -59,3 +59,23 @@ margin-bottom: 20px;
 }
 
  }
+
+
+ @media screen and (max-width: 767px) {
+
+
+  .see {
+    width: auto;
+    height: auto;
+  }
+
+  .engineering h2 {
+    font-size: 30px;
+    letter-spacing: unset;
+    margin-bottom: 4%;
+}
+
+
+  }
+
+  

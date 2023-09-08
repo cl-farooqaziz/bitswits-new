@@ -386,9 +386,8 @@ export default function mobileappservices() {
 
             <NewBannerFy
 
-                subtitle='Awarded #1 Mobile App Development Company In USA'
-                title={<>   Expert <span className='grdiant'>Mobile App Developers</span>
-                    Crafting Experiences With Every Tap And Swipe. </>}
+             
+                title={<>   Mobile Application <br></br> Services </>}
                 banClass='mobile'
 
 
