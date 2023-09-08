@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer'
 import '@/styles/globals.css'
+import '@/styles/blockchain/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { useRouter } from "next/router";
 import Footerlp from '@/components/Footer-lp';
@@ -27,6 +28,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/flutter-app-development-usa'
     || router.pathname == '/mobile-app-development-usa'
     || router.pathname == '/mobile-application-development-company'
+    || router.pathname == '/mobile-app-services'
     || router.pathname == '/homelp';
 
   return (
