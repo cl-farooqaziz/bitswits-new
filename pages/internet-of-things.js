@@ -1,473 +1,491 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
-import banImg from '../public/images/banner/internetbanner.png'
-import foldimg from '../public/images/services/iot/internet-of-things-01.png'
-import foldensure from '../public/images/services/iot/internet-of-things-03.png'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import { Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Coverage.module.css'
+import expStyles from '@/styles/MyExpertise.module.css'
+import whyStyles from '@/styles/whyServices.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
-import ClientsThink from '@/components/ClientsThink';
-import Nextproject from '@/components/Nextproject';
-import Contact from '@/components/Contact';
-import styles from '@/styles/Coverage.module.css';
-import aheadimage from '../public/images/services/iot/internet-of-things-02.png';
-import Image from 'next/image';
-import mobilearrow from '../public/images/icons/mobile-arrow.png';
-
-import MyReason from '../components/MyReason';
-import reStyles from '@/styles/MyReason.module.css';
-import WorkExp from '@/components/WorkExp'
-import workStyles from '@/styles/WorkExp.module.css'
-
-import IndustriesInt from '@/components/IndustriesInt'
-import IndusStyle from '@/components/IndustriesInt'
+import ClientsThink from '@/components/ClientsThink'
+import Nextproject from '@/components/Nextproject'
+import Contact from '@/components/Contact'
+import MyExpertise from '@/components/MyExpertise';
+import WhyBuild from '@/components/WhyBuild';
+//images
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import arrow from '../public/images/icons/arrow.webp'
+import banImg from '../public/images/banner/mobileappbanner.png'
+//
+import benefitimg1 from '../public/images/industryInt/benefit-img1.svg'
+import benefitimg2 from '../public/images/industryInt/benefit-img2.svg'
+import benefitimg3 from '../public/images/industryInt/benefit-img3.svg'
+import benefitimg4 from '../public/images/industryInt/benefit-img4.svg'
 // Why Icon
-import icon232 from '../public/images/whybuild/pwa-icon1.png'
-import icon24 from '../public/images/whybuild/pwa-icon2.png'
-import icon25 from '../public/images/whybuild/pwa-icon3.png'
-import icon26 from '../public/images/whybuild/pwa-icon4.png'
-import icon27 from '../public/images/whybuild/pwa-icon5.png'
-import icon28 from '../public/images/whybuild/pwa-icon6.png'
-import icon29 from '../public/images/whybuild/pwa-icon7.png'
-import icon30 from '../public/images/whybuild/pwa-icon8.png'
-import icon31 from '../public/images/whybuild/pwa-icon9.png'
-import icon32 from '../public/images/whybuild/pwa-1.png'
-import icon33 from '../public/images/wbd-icons/iot-ico1.png'
-import icon34 from '../public/images/wbd-icons/iot-ico2.png'
-import icon35 from '../public/images/industryInt/idu-1.png'
-import icon36 from '../public/images/industryInt/idu-2.png'
-import icon37 from '../public/images/industryInt/idu-3.png'
-import icon38 from '../public/images/industryInt/idu-4.png'
-import icon39 from '../public/images/industryInt/idu-5.png'
-import icon40 from '../public/images/industryInt/idu-6.png'
-import icon41 from '../public/images/industryInt/idu-7.png'
-import icon42 from '../public/images/industryInt/idu-8.png'
-import icon43 from '../public/images/industryInt/idu-9.png'
-import icon44 from '../public/images/industryInt/idu-10.png'
-// import RoomExperience from '../components/RoomExperience'
-// import roomStyles from '@/styles/WorkExp.module.css'
-
-export default function internetofthings() {
-
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'> Why Do Businesses <span className='grdiant'>Hire IoT Developers</span> at BitsWits? </h2>
-
-    const resCards = <>
-        <Row className={`${reStyles.soluRow} mt-5`}>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #1
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Modern-Day Pioneers
-                    </h5>
-                    <p>
-
-                        Our <span className='grdiant font-bold'>IoT developers</span> build and design innovative linked solutions that provide your business with a competitive edge by using the latest IoT platforms and protocols. To create systems that are ready for the future, we constantly adapt to evolving technology.
-
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #2
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    IoT Platform Integration
-                    </h5>
-                    <p>
-                    We connect IoT platforms seamlessly into your existing applications and infrastructure. This integration opens up a world of smart automation, making your work smoother and more innovative.
-                    </p>
-                  
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #3
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Unlimited Scalability
-                    </h5>
-                    <p>
-                    Rapid prototyping and smooth deployment of IoT devices and solutions to suit your expanding business demands are made possible by our agile methodology. 
-                    </p>
-                  
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #4
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Top Notch Security
-                    </h5>
-                    <p>
-                    Our <span className='grdiant font-bold'>IoT development services</span> have total safety built in to protect your systems, networks, and the reliability of your data. We offer dependable, enterprise-grade security.
-                    </p>
-                 
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #5
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Increasing effectiveness and ROI
-                    </h5>
-                    <p>
-                    By automating procedures, boosting productivity, eliminating waste, and providing real-time insights into operations, our <span className='grdiant font-bold'>IoT development services</span> assist with cost reduction.
-                    </p>
-                 
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #6
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Engineered to Last Forever
-                    </h5>
-                    <p>
-                    We provide exceptional <span className='grdiant font-bold'>Internet of Things services</span> that are foreseeable and maximize value throughout time, regardless of technological advancements. Our solutions endure throughout eternity.
-                    </p>
-                </div>
-            </Col>
-        </Row>
-    </>
+import icon23 from '../public/images/fyicons/1.png'
+import icon24 from '../public/images/fyicons/2.png'
+import icon25 from '../public/images/fyicons/3.png'
+import icon26 from '../public/images/fyicons/4.png'
+import icon27 from '../public/images/fyicons/5.png'
+import icon28 from '../public/images/fyicons/6.png'
+import icon29 from '../public/images/fyicons/7.png'
+import icon30 from '../public/images/fyicons/8.png'
+import icon31 from '../public/images/fyicons/9.png'
+import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
+import NewDecFy from '@/components/NewDecFy';
 
 
-
-
-    const rates = <span>
-        Our research data serves as a foundation for making data-informed product decisions. At BitsWits, our <span className='grdiant'>IoT app developers</span> are driven by research data, allowing us to gain deeper insights into your target audience. By understanding their preferences and needs, our <span className='grdiant'>IoT developers</span> create customized solutions that enhance engagement and satisfaction.
-    </span>
-
-    const primary = <span>
-        Our team of skilled <span className='grdiant'>IoT services providers</span> is committed to optimizing your applications to its fullest potential. Through thorough testing and analysis, we identify areas for improvement and implement strategic optimizations that result in smooth and satisfying user experiences.
-    </span>
-
-    const better = <span>
-        BitsWits, a trusted <span className='grdiant'>IoT apps development company</span>, brings you an exceptional team of professionals dedicated to delivering outstanding <span className='grdiant'>IoT development services</span> and solutions, ensuring a smooth user experience. Our professional <span className='grdiant'>IoT software developers</span> go the extra mile to test and optimize your applications, continuously seeking improvement opportunities and implementing advanced techniques to boost their performance.
-    </span>
-
-    const user5 = <span> Experience Exceptional <span className='grdiant'>IoT Development Services!</span> </span>
-
-    const project = <span>
-        Every project is different, and we modify our research methods to suit your specific goals. Whether it’s conducting focus groups, analyzing client feedback, or tracking user behavior through advanced analytics, we have a variety of creative techniques and methods to gather relevant and reliable data for providing top <span className='grdiant'>custom IoT development services.</span>
-    </span>
-
-    const research = <span>Overcome all Competitors with Our Top <span className='grdiant'>Custom IoT Development Services!</span> </span>
-
-    const performance = <span> Our professional <span className='grdiant'>IoT services providers</span> focus on creating engaging and personalized mobile experiences that keep users coming back for more. Whether it’s through responsive designs, real-time updates, or offline capabilities, our <span className='grdiant'>IoT app development services</span> improve engagement and drive conversions.  </span>
-
-    const design = <span> BitsWits Improves Experiences with Advanced <span className='grdiant'>IoT Software Development Services!</span> </span>
-
-    const goal = <span> Our <span className='grdiant'>IoT app developers</span> specialize in creating software applications that interact with and control IoT devices, collect and analyze sensor data, and provide a user interface for managing IoT systems. Our team has programming skills, knowledge of IoT platforms and protocols, and expertise in UI/UX design and security considerations.   </span>
-
-    const solutions = <span> The Top <span className='grdiant'>IoT Development Services</span> and Solutions </span>
-
+export default function mobileappdevelopment() {
 
     // banner component data
-
-    const heading = <h1 className='font65 black fontf font-bold line60'>Bringing Intelligence to Everyday Objects with the <span className='grdiant'>Internet of Things Development Company</span> </h1>
+    const heading = <>
+        <h1 className='font60 white fontf font-bold mb-4'>
+            <span className='grdiant'>Best Mobile App Development Company </span>
+            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+        </h1>
+    </>
 
     const para = <>
 
-        <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Design and Deployment of Professional IoT Systems </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Prototyping for Customized IoT Hardware </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> IoT Data Analytics and Visualization in Real-Time </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> IoT Security and Compliance from start to end </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> IoT Smooth Integrations with AI, ML, and Blockchain  </li>
+        <p className='font16 fontf font-regular fyColor justify'>
+            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+        </p>
 
+        <ul className='mb-4 p-0'>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+            </li>
         </ul>
     </>
 
 
     // coverage component data
 
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black text-center'>
+        We Turn App Ideas into Downloaded Reality!
+    </h2>
 
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
-
-    const mobile = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            Mobile App Design
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UI UX Design
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research & Discovery
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Wireframing & Prototyping
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                iOS + Android Applications
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Post Launch Support
-            </Link>
-        </div>
-    </div>
-
-    const user = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            User Research
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Journey & Persona Building
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Participant Recruitments
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research Method & Material Development
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Iterative Research
-            </Link>
-        </div>
-    </div>
-
-
-    const ux = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            UX Optimization
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Experience Assessment
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User & KPIs Data Analysis
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                A/B Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Feature Experimentation
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UX Iterations
-            </Link>
-        </div>
-    </div>
-
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>  IoT connects various devices, objects, or "things" through the internet. And, we sync devices in an ecosystem through the internet, delivering productivity and efficiency for your business.  </p> </>
-
-
-    // Swipe component data
-
-
-
-
-    const title23 =
-        <span>
-            How PWAs Actually Works for user?
-            {/* When you open the Website URL on your mobile’s browser, you will have look & feel of mobile app. */}
-        </span>
-
-    const subtitle32 = <span>How PWAs Actually Works for user?
-    </span>
-
-
-
-    const Workspace = <>
-        <Row className={`${workStyles.soluRow} text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font50 font-bold'> Simplifying the Complex With <span className='grdiant font-bold'>Internet of Things Development</span> Solutions
-            </h4>
-            <p> The <span className='grdiant font-bold'>IoT developers</span> at BitsWits offer many benefits including: 
-            </p>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    <div className={`${workStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Overcoming Operational Complexities
-                    </h5>
-                    <p className='m-0 p-0'>
-                    Our IoT solutions simplify complex systems and processes through real-time visibility, automated control, and data-driven optimization.
-                    </p>
-                    <p>We help organizations leverage IoT to enhance operations, reduce costs, and overcome legacy complexity.</p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    <div className={`${workStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Enhanced Revenue Generation
-                    </h5>
-                    <p className='m-0 p-0'>
-                    Our <span className='grdiant font-bold'>IoT services</span> enable organizations to create new income streams, business models, and pricing schemes by using data from linked devices and sensors. 
-                    </p>
-                    <p>It's time to open up new earning opportunities!</p>
-                </div>
-            </Col>
-        </Row>
-    </>
-
-    const Workspace1 = <>
-        <Row className={`${workStyles.soluRow} text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font50 font-bold'> Innovative Examples of <span className='grdiant'>Connected Devices</span>
-            </h4>
-            <p>
-            Hire BitsWits, and experience the real-world applications of Innovative Connected Devices, ranging from smart homes to industrial solutions, healthcare industry, and many more. 
-            </p>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Connecting Physical and Digital Worlds
-                    </h5>
-                    <p>
-                    <span className='grdiant font-bold'>Our IoT development</span> mutually links the real and virtual worlds using real-time data from sensors and other gadgets to give intelligent monitoring, automation, and control for manufacturing, supply chains, infrastructure, and other areas.
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Increasing IoT Efficiency
-                    </h5>
-                    <p>
-                    Our <span className='grdiant font-bold'>IoT development services</span> boosts productivity by collecting knowledge from connected devices and resources. We provide specialized <span className='grdiant font-bold'>IoT services</span> for organizations that increase productivity, cut costs, prevent downtime, and offer them a competitive edge.
-
-
-                    </p>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    {/* <div className={`${workStyles.imgBox}`}>
-                <Image src={icon34} alt='BitsWits' className='img-fluid' />
-            </div> */}
-                    <h5 className='font20 fontf font-medium line30'>
-                    Custom Solutions for Enhanced Efficiency
-                    </h5>
-                    <p>
-                    Our custom IoT solutions are meticulously designed to boost operational efficiency for businesses of all scales. Our <span className='grdiant font-bold'>IoT solutions</span> help you become really good at running your business in today's fast-changing world.
-
-                    </p>
-                </div>
-            </Col>
-        </Row>
-    </>
-    // Industry
-    const Industries = <>
-        <Row className={`${IndusStyle.soluRow} text-center justify-content-center align-items-center`}>
-            <h4 className='text-center font50 font-bold'> The <span className='grdiant font-bold'>Industries</span> Where We Make an Impact!
-            </h4>
-            <p>
-            Through the creation of innovative internet of things development, we are delighted to assist and empower several sectors. Our <span className='grdiant font-bold'>IoT services</span> support a variety of industries in upgrading processes, and increasing production.
-            </p>
+    const expCards = <>
+        <Row className={`${expStyles.soluRow} mt-0`}>
             <Col lg={12}>
-                <div className={`${IndusStyle.indusblk}`}>
-                    <ul>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon35} alt="Real Estate" />
-                                <p>Real Estate</p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon36} alt="Travel &amp; Hospitality" />
-                                <p> Travel and Hospitality </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon37} alt="B2B Solutions" />
-                                <p>  B2B Solutions   </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon38} alt="Travel &amp; Hospitality" />
-                                <p>  B2C Solutions  </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon39} alt="Travel &amp; Hospitality" />
-                                <p>   Education and E-Learning   </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon40} alt="Travel &amp; Hospitality" />
-                                <p>   Banking and Finance   </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon41} alt="Travel &amp; Hospitality" />
-                                <p>   Startup Solutions   </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon42} alt="Travel &amp; Hospitality" />
-                                <p>   Media and Publishing  </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon43} alt="Travel &amp; Hospitality" />
-                                <p>  Food Ordering Solutions     </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon44} alt="Travel &amp; Hospitality" />
-                                <p>   Healthcare  </p>
-                            </Link>
-                        </li>
+                <p className='text-center'>
+                    We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
+                </p>
+                <p className='text-center'>
+                    We create apps that give your brand a dazzling new dimension. Because of our holistic approach, your app emotionally engages users through visuals, motion, and micro-interactions.
+                </p>
+            </Col>
+        </Row>
+    </>
 
 
-                        <li>
-                            <Link href="#">
-                                <Image src={icon41} alt="Travel &amp; Hospitality" />
-                                <p>   Ticket Booking Solutions   </p>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <Image src={icon42} alt="Travel &amp; Hospitality" />
-                                <p>   Automotive Solutions   </p>
-                            </Link>
-                        </li>
+    // Why Build
+
+    const whytitle = <>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
+            Building Mobile Applications Where Vision Meets Excellence
+        </h2>
+    </>
+
+    const text =
+        <p className='fyColor text-center'>
+            <span>Building your mobile app</span> boosts business services, attracts customers, and shapes success.
+        </p>
 
 
-                    </ul>
+    const WhyBuilds = <>
+
+        <Row className={`${whyStyles.soluRow} mt-5`}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon23} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Greater Customer Reach
+                    </h5>
+                    <p className='white'>
+                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon24} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Improved Customer Service
+                    </h5>
+                    <p className='white'>
+                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon25} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Shared Valuable Content
+                    </h5>
+                    <p className='white'>
+                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon26} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Customer Loyalty
+                    </h5>
+                    <p className='white'>
+                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon27} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Drive Sales
+                    </h5>
+                    <p className='white'>
+                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon28} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Simplified Payments
+                    </h5>
+                    <p className='white'>
+                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon29} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Increased Visibility
+                    </h5>
+                    <p className='white'>
+                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon30} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Competitive Advantage
+                    </h5>
+                    <p className='white'>
+                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+
+                </div>
+            </Col>
+
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon31} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Future-Proof Your Business
+                    </h5>
+                    <p className='white'>
+                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
         </Row>
     </>
+
+
+    // Why Benefits
+
+    const whytitle2 = <>
+        <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
+            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        </h2>
+    </>
+
+    const text2 =
+        <p className='black text-center mb-5'>
+            The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
+        </p>
+
+
+    const Benefits = <>
+        <Row className='benefitscard'>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Custom Solutions for Your Niche Audience
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Ongoing Support and Maintenance
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Meeting Delivery Deadline and Reliability
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Better Security and Data Confidentiality
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+        </Row>
+        <p className='text-center'>
+            Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>mobile app development services</span>.
+        </p>
+    </>
+
+
+    // Why Build
+
+    const Benefits1 = <>
+        <Row className='text-center'>
+            <Col lg={12}>
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    The <span className='grdiant'>Mobile App Development</span> Process at BitsWits!
+                </h4>
+                <p>
+                    Our mobile app development process is designed to be innovative, efficient, and transparent. Our <span className='grdiant font-bold'>mobile app development services</span> offer you the following:
+                </p>
+            </Col>
+        </Row>
+        <Row>
+            <Col lg={7}>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Initial Consultation
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> begin with understanding your objectives, obstacles, and limitations you have in mind for your app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Gathering Requirements
+                    </h4>
+                    <p>
+                        We'll work with you to define the specific requirements and functionality for your business app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Design and Prototyping
+                    </h4>
+                    <p>
+                        In order to give you a sense of how your app will look and work, we design wireframes and prototypes.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Development
+                    </h4>
+                    <p>
+                        Our team builds applications using agile approaches and methodologies for security, speed, and integration that help create your app in a way that swiftly responds to any issues or modifications.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Testing and Quality Control
+                    </h4>
+                    <p>
+                        We thoroughly test your app to ensure it is reliable, stable, and easy to use. Our QA process checks functionality, UI, cross-platform compatibility, security, and compliance.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Launch and Deployment
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience
+                    </p>
+                </div>
+            </Col>
+            <Col lg={5}>
+                <div className={styles.contactform}>
+                    <div className=''>
+                        <h3 className='font20 font-bold mb-3'>Get a Free Consultation</h3>
+                    </div>
+                    <Row>
+                        <Col lg={12}>
+                            <input type='text' className={styles.forminput} placeholder='Your Name' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='number' className={styles.forminput} placeholder='Phone Number' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='email' className={styles.forminput} placeholder='Email Address' />
+                        </Col>
+                        <Col lg={12}>
+                            <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                        </Col>
+                        <Col lg={12}>
+                            <input type='Submit' className={styles.notice} />
+                        </Col>
+                    </Row>
+                </div>
+            </Col>
+        </Row>
+    </>
+
+
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Top Mobile App Development Company - Bitswits.</title>
+                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for professional app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -476,82 +494,40 @@ export default function internetofthings() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
-                infopara={infopara}
+                bgClass="mobile"
             />
 
-            <MyReason
-                title="Reasons"
-                subtitle={reSubtile}
-                cards={resCards}
+            <NewDecFy />
+
+            <MyExpertise
+                title="EXPERTISE"
+                subtitle={expsubtile}
+                cards={expCards}
+                className='bgColorf'
             />
 
-            <WorkExp
-                Workspace={Workspace}
-                expclass='bgcolor'
-                myExpertise = 'myExpertise'
-
+            <WhyBuild
+                title="WHY BITSWITS?"
+                cards={WhyBuilds}
+                subtitle={whytitle}
+                text={text}
+                chngColor="bgColor"
             />
 
-            <WorkExp
-                Workspace={Workspace1}
-                expclass='bgcolor'
-             
-               
+            <WhyBuild
+                title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
+                cards={Benefits}
+                subtitle={whytitle2}
+                text={text2}
+                alignclass="midBuild"
             />
 
-            <IndustriesInt
-                IndustriesInt={Industries}
-            />
-            {/* <Coverage
-                title="Coverage"
-                subtitle={subtile}
-                mobile={mobile}
-                user={user}
-                ux={ux}
-            /> */}
-
-
-            {/* <Swipe
-                foldimg={foldimg}
-                title={design}
-                para={goal}
-                subtitle={solutions}
-                subpara='At BitsWits, we provide developing and deploying IoT solutions, including hardware development, connectivity integration, data analytics, and application development. Our experts provide end-to-end services that enable smooth connectivity, data-driven insights, and efficient management of IoT ecosystems.'
-                subtitle2='Experience a Smooth User Experience'
-                subpara2={performance}
-
-            /> */}
-
-
-
-            {/* <Ahead
-                title={research}
-                para='At BitsWits, our team conducts thorough research and gathers valuable user feedback for building your custom that provides you with a competitive edge. Our team combines a range of creative and innovative methods to collect information and inform your product decisions, ensuring your product meets the desires of your target audience.'
-                subtitle='Utilizing Data for Informed Product Decision'
-                subpara='As the leading IoT development services company in the US, BitsWits stands out for its track record of delivering innovative solutions. The data we collect provides you with valuable insights that guide your product strategy. From identifying market trends to understanding user expectations, we provide quality Internet of Things services with a data-driven approach that lets you stand out from the competition. '
-                subtitle2='Improved Research Methods for Targeted Results'
-                subpara2={project}
-                ahead={aheadimage}
-
-            /> */}
-
-
-            {/* 
-            <Ensure
-                foldimg={foldensure}
-                title={user5}
-                para={better}
-                subtitle='Continuous Improvement and Optimal Results'
-                subpara={primary}
-                subtitle2='Data-Driven Decision Making!'
-                subpara2={rates}
-
-
-
-            /> */}
             <OurProject />
+
             <ClientsThink />
+
             <Nextproject />
+
             <Contact />
         </>
     )

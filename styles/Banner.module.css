@@ -20,8 +20,8 @@
 }
 
 .banner {
-  background-color: #fff;
-  background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0);
+  background-color: #f3f2f5;
+  /* background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0); */
   position: relative;
   overflow: hidden;
 }
@@ -34,7 +34,8 @@
 }
 
 .banner h1 {
-  padding-top: 22px;
+  /* padding-top: -25px; */
+  margin-top: -50px ;
 }
 
 .banner .banerTxt {
@@ -42,7 +43,7 @@
 }
 
 .banner .banerTxt p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .call {
@@ -62,7 +63,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: #e83468;
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
@@ -70,6 +71,7 @@
   font-weight: bold;
   transition: background-color 1s;
   border: 1px solid #000;
+  background-color: #000;
 }
 
 .bttns2 {
@@ -78,7 +80,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #000;
+  color: #e83468;
   justify-content: center;
   font-family: "Montserrat";
   list-style: none;
@@ -87,24 +89,27 @@
   font-weight: bold;
   border: 1px solid #000;
   transition: background-color 1s;
+  background-color: #000;
 }
 
 .bttns2:hover {
   transition: background-color 1s;
-  background-color: #000;
-  color: #fff;
+  color: #e83468;
+  background-color: transparent;
+}
+
+
+.bttns1:hover {
+  transition: background-color 1s;
+  color: #e83468;
+  background-color: transparent;
 }
 
 .notice:hover {
   transition: background-color 1s;
-  background-color: #000;
+  background-color: transparent;
   color: #fff;
-  border: 1px solid #fff;
-}
-.bttns1:hover {
-  transition: background-color 1s;
-  background-color: #000;
-  color: #fff;
+  border: 1px solid #e83468;
 }
 
 .bttnsto {
@@ -112,7 +117,10 @@
   justify-content: flex-start;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
+}
+
+.bttnsto img{
+  filter: grayscale();
 }
 
 .bannerform {
@@ -138,6 +146,7 @@
 
 .bannnerproject {
   justify-content: space-between;
+  align-items: center;
 }
 
 .discuss a {
@@ -145,7 +154,7 @@
 }
 
 .make {
-  background-color: #000;
+  background-color: #4d4c4c;
   padding-top: 29px;
   padding-bottom: 30px;
 }
@@ -168,7 +177,7 @@
 }
 
 .formsbanner .forminput::placeholder {
-  color: #707070;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -183,7 +192,7 @@
 }
 
 .formsbanner .formarea::placeholder {
-  color: #707070;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -209,7 +218,7 @@
 }
 
 .notice {
-  background-color: #fff;
+  background-color: #e83468;
   width: 40%;
   height: 45px;
   display: block;
@@ -217,7 +226,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: #fff;
   font-family: "Montserrat";
   list-style: none;
   text-decoration: none;
@@ -385,7 +394,7 @@
 /* =========== Services Banner ========== */
 
 .webDevelpmnt {
-  background-color: #efefef;
+  background-color: #000;
 }
 
 .srvcBannerImg img {
@@ -501,7 +510,7 @@
   }
 
   .banner h1 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* font-size: 70px;
     line-height: 75px; */
   }

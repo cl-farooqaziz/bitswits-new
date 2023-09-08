@@ -100,7 +100,34 @@ const NewDecFy = () => {
 
                                     />
                                     <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
-                                        Non-Disclosure <br /> Agreement
+                                       12+ Years <br /> Of Experience
+                                    </p>
+                                </div>
+                                <div className={styles.slideBox}>
+                                    <Image alt="bitswits" className='img-fluid mx-auto'
+                                        src={team6}
+
+                                    />
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                       500+ <br /> Dedicated Developers
+                                    </p>
+                                </div>
+                                <div className={styles.slideBox}>
+                                    <Image alt="bitswits" className='img-fluid mx-auto'
+                                        src={team6}
+
+                                    />
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                       6500+ <br /> Happy Clients
+                                    </p>
+                                </div>
+                                <div className={styles.slideBox}>
+                                    <Image alt="bitswits" className='img-fluid mx-auto'
+                                        src={team6}
+
+                                    />
+                                    <p className='font11 f-500 f-montserrat white mb-0 mt-2 f-uppercase'>
+                                      10000+ <br /> PROJECTS DELIVERED
                                     </p>
                                 </div>
                                 <div className={styles.slideBox}>

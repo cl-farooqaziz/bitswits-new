@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #4d4c4c;
 }
 
 .navLogo {
@@ -33,7 +33,7 @@
 }
 
 .menu li a {
-  color: #000;
+  color: #fff;
   height: 100%;
   padding: 0 30px;
   font-size: 14px;

@@ -7,7 +7,7 @@ import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 // images
-import logo from '../public/images/icons/logo.png'
+import logo from '../public/images/icons/footerlogo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
 import php from '../public/images/icons/php.png'
 import eCom from '../public/images/icons/eCom.png'

@@ -38,19 +38,19 @@ const OurProject = () => {
             <section className={styles.ourProject}>
                 <Container>
                     <Row className={styles.project}>
-                        <Col lg={3}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace white mb-0'>Capabilities</h5>
+                        <Col lg={12}>
+                            <h5 className='font20 fontf font-semibold letterspace fyColor2 text-center mb-3'>CAPABILITIES</h5>
                         </Col>
-                        <Col lg={6}>
-                            <h2 className='font50 black fontf font-bold line60 white mb-0'>
+                        <Col lg={12}>
+                            <h2 className='font50 black fontf font-bold line60 white text-center mb-0'>
                                 The Game Plan for <span className='grdiant'> Building Your App </span>
                             </h2>
                         </Col>
-                        <Col lg={3}>
+                        {/* <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
                                 Connect Now!
                             </Link>
-                        </Col>
+                        </Col> */}
                         <Col lg={12}>
                             <div className={styles.line}></div>
                             <Slider {...projectslider} className={`${styles.newproject} newproject`}>

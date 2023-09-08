@@ -11,19 +11,14 @@ const MyExpertise = (props) => {
 
                 <Container>
                     <Row className='aboutfold'>
-                        <Col md={2}>
-                            <h3 className='font20 fontf font-semibold mt-1 letterspace black'>{props.title}</h3>
+                        <Col md={12}>
+                            <h3 className='font20 fontf font-semibold letterspace text-center fyColor2 mb-3'>{props.title}</h3>
                         </Col>
-                        <Col lg={7}>
+                        <Col lg={12}>
                             {props.subtitle}
                         </Col>
-                        <Col lg={3}>
-                            <Link className={`${styles.bttns1} ${props.notpost} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
-                                Book a Call Today!
-                            </Link>
-                        </Col>
                     </Row>
-                    <div className='mt-0 mt-md-5'>{props.cards}</div>
+                    <div className='-mt0 mt-md-2'>{props.cards}</div>
                 </Container>
             </section>
         </>

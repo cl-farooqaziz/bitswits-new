@@ -39,20 +39,19 @@ function ClientsThink() {
             <section className={styles.ourClients}>
                 <Container>
                     <Row className={styles.clients}>
-                        <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black mb-0'>Reviews</h5>
+                        <Col lg={12}>
+                            <h5 className='font20 fontf font-semibold letterspace text-center fyColor2 mb-3'>REVIEWS</h5>
                         </Col>
-                        <Col lg={7}>
-                            <h2 className='font50 black fontf font-bold line60 mb-0'>
-                                Feedback From  <br /> <span className='grdiant'>Our Valued Clients!</span>
-
+                        <Col lg={12}>
+                            <h2 className='font50 black fontf font-bold line60 text-center mb-5'>
+                                Feedback From <span className='grdiant'>Our Valued Clients!</span>
                             </h2>
                         </Col>
-                        <Col lg={3}>
+                        {/* <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
                                 View All
                             </Link>
-                        </Col>
+                        </Col> */}
                         <Col lg={12}>
                             <div className='mt-5'>
                                 <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider`}>
