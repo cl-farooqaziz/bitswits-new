@@ -1,7 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer'
 import '@/styles/globals.css'
-// import '@/styles/blockchain/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { useRouter } from "next/router";
 import Footerlp from '@/components/Footer-lp';
