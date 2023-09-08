@@ -1,734 +1,492 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Coverage.module.css'
 import expStyles from '@/styles/MyExpertise.module.css'
-import reStyles from '@/styles/MyReason.module.css'
 import whyStyles from '@/styles/whyServices.module.css'
-import servStyles from '@/styles/PhpServices.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import aheadimage from '../public/images/services/webAhead.svg'
-import mobilearrow from '../public/images/icons/mobile-arrow.png'
-import PhpServices from '@/components/PhpServices';
 import MyExpertise from '@/components/MyExpertise';
-import MyReason from '@/components/MyReason';
 import WhyBuild from '@/components/WhyBuild';
 //images
-import banImg from '../public/images/banner/webBanner.png'
-import foldimg from '../public/images/services/webSwipe.svg'
-import foldensure from '../public/images/services/webEnsure.svg'
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import arrow from '../public/images/icons/arrow.webp'
+import banImg from '../public/images/banner/mobileappbanner.png'
 //
-import icon16 from '../public/images/phpdev/phpdev-tec1.png'
-import icon17 from '../public/images/phpdev/phpdev-tec2.png'
-import icon18 from '../public/images/phpdev/phpdev-tec3.png'
-import icon19 from '../public/images/phpdev/phpdev-tec4.png'
-import icon20 from '../public/images/phpdev/phpdev-tec5.png'
-import icon21 from '../public/images/phpdev/phpdev-tec6.png'
-import icon22 from '../public/images/phpdev/phpdev-tec7.png'
-import icon23 from '../public/images/phpdev/phpdev-tec8.png'
-import grnArrow from '../public/images/wbd-icons/arrow-green.png'
-//Why Icon
-import icon24 from '../public/images/phpdev/phpdev-icon1.png'
-import icon25 from '../public/images/phpdev/phpdev-icon2.png'
-import icon26 from '../public/images/phpdev/phpdev-icon3.png'
-import icon27 from '../public/images/phpdev/phpdev-icon4.png'
-import icon28 from '../public/images/phpdev/phpdev-icon5.png'
-import icon29 from '../public/images/phpdev/phpdev-icon6.png'
-import icon30 from '../public/images/phpdev/phpdev-icon7.png'
-import icon31 from '../public/images/phpdev/phpdev-icon8.png'
-import icon32 from '../public/images/phpdev/phpdev-icon9.png'
+import benefitimg1 from '../public/images/industryInt/Illustrations-01.svg'
+import benefitimg2 from '../public/images/industryInt/Illustrations-02.svg'
+import benefitimg3 from '../public/images/industryInt/Illustrations-03.svg'
+import benefitimg4 from '../public/images/industryInt/Illustrations-04.svg'
+// Why Icon
+import icon23 from '../public/images/fyicons/1.png'
+import icon24 from '../public/images/fyicons/2.png'
+import icon25 from '../public/images/fyicons/3.png'
+import icon26 from '../public/images/fyicons/4.png'
+import icon27 from '../public/images/fyicons/5.png'
+import icon28 from '../public/images/fyicons/6.png'
+import icon29 from '../public/images/fyicons/7.png'
+import icon30 from '../public/images/fyicons/8.png'
+import icon31 from '../public/images/fyicons/9.png'
+import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
+import NewDecFy from '@/components/NewDecFy';
 
 
-export default function phpdevelopment() {
-
+export default function mobileappdevelopment() {
 
     // banner component data
-
-    const heading = <h1 className='font65 black fontf font-bold line60'>
-
-
-        Develop Quality Websites With Our <span className='grdiant font-bold'>Top PHP Development Company</span>
-
-    </h1>
+    const heading = <>
+        <h1 className='font60 white fontf font-bold mb-4'>
+            <span className='grdiant'>Best Mobile App Development Company </span>
+            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+        </h1>
+    </>
 
     const para = <>
 
-        <ul className='p-0'>
+        <p className='font16 fontf font-regular fyColor justify'>
+            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+        </p>
 
-
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>PHP Artisans: Expertise in Core PHP, Laravel, CodeIgniter, and more.  </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Smooth Integration and Diverse Platforms Through REST APIs and Web Services. </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Cost-Effective Custom Solutions. </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>21 Years of Excellence: Delivered 10000+ Successful PHP Websites and Apps for 480+ Clients. </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Precision Delivery with our CMMI Level 3 Processes. </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Full Spectrum Services: End-to-End PHP Development, Design, QA, Maintenance, and More.  </li>
-
-
-
+        <ul className='mb-4 p-0'>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+            </li>
         </ul>
     </>
 
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-
-        Let's talk about utilizing PHP's flexibility to realize your most audacious online concepts!
-
-    </p> </>
-
-
     // coverage component data
 
-
-    // const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
-
-    // const mobile = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         Mobile App Design
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             UI UX Design
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Research & Discovery
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Wireframing & Prototyping
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             iOS + Android Applications
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Post Launch Support
-    //         </Link>
-    //     </div>
-    // </div>
-
-    // const user = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         User Research
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Journey & Persona Building
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Testing
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Participant Recruitments
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Research Method & Material Development
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Iterative Research
-    //         </Link>
-    //     </div>
-    // </div>
-
-
-    // const ux = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         UX Optimization
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Experience Assessment
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User & KPIs Data Analysis
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             A/B Testing
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Feature Experimentation
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             UX Iterations
-    //         </Link>
-    //     </div>
-    // </div>
-
-
-
-    // MyExpertise component data
-
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>Introducing PHP Technologies: The Driving Force of Our <span className='grdiant font-bold'>PHP Development Company</span> </h2>
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black text-center'>
+        We Turn App Ideas into Downloaded Reality!
+    </h2>
 
     const expCards = <>
-        <Row className={`${expStyles.soluRow} ${expStyles.phpdev} mt-5`}>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Fuel PHP
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />PHP web framework based on HMVC  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Modular design with reusable libraries  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Active record implementation  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Strong security features for authentication  </li>
-
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.mblR}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Cake PHP
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Opensource web framework for PHP  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Built on MVC pattern  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Code generation capabilities and scaffolding   </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Security, authentication, and internationalization features   </li>
-
-
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.mblM}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Phalcon
-                    </h5>
-                    <Row>
-                        <Col>
-                            <ul className='p-0 m-0'>
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />C-extension for PHP  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />High performance and less consumption of resources  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Can handle high traffic web apps easily  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />MVC, ORM, Caching, and other features   </li>
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.mblR}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Yii Development
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />High performance PHP framework  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Uses MVC, DAO, and Active Record patterns  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Allows procedural and object-oriented programming  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Integrated libraries  </li>
-
-
-
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Laravel
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Open Source PHP framework for building web apps </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Model View Controller (MVC) design pattern </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Routing </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Templating and caching </li>
-
-
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.mblR}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Zend Framework
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-
-
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />PHP and object-oriented programming practices </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Modular design </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Integrates features like MVC, ORM, Authentication, etc.  </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Perfect for enterprise level and API-first development </li>
-
-
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB} ${expStyles.mblBr}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        October CMS
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Content management system based on Laravel </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Modular system with plugin extensions </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Frontend framework uses HTML, CSS, JavaScript and Vue.js </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Tools for managing users, permission, and SEO.  </li>
-
-
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBB} ${expStyles.soluCardBR} ${expStyles.mblR}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                        CodeIgniter
-                    </h5>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-
-
-
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Lightweight open source PHP framework </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Simple syntax and minimal configuration required </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Perfect for small websites and apps </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />Provide libraries for web projects </li>
-
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
+        <Row className={`${expStyles.soluRow} mt-0`}>
+            <Col lg={12}>
+                <p className='text-center'>
+                    We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
+                </p>
+                <p className='text-center'>
+                    We create apps that give your brand a dazzling new dimension. Because of our holistic approach, your app emotionally engages users through visuals, motion, and micro-interactions.
+                </p>
             </Col>
         </Row>
     </>
 
 
-    // Build component data
+    // Why Build
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center mb-3'>How Our
-        <span className='grdiant'> PHP Developers</span> Can Help You?</h2>
+    const whytitle = <>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
+            Building Mobile Applications Where Vision Meets Excellence
+        </h2>
+    </>
 
-    const whytext = <p className='black font16 fontf font-medium text-center'>Our aim is to match one of our PHP experts to suit your requirements, whether you are a start-up business looking for your first website, selling your goods or services online or have a larger bespoke project.</p>
+    const text =
+        <p className='fyColor text-center'>
+            <span>Building your mobile app</span> boosts business services, attracts customers, and shapes success.
+        </p>
+
 
     const WhyBuilds = <>
+
         <Row className={`${whyStyles.soluRow} mt-5`}>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon23} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Create Reliable Websites
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Greater Customer Reach
                     </h5>
-                    <p>
-                    <span className='grdiant font-bold'>PHP developers</span> can create safe, high-performing websites that are flexible and fast.
+                    <p className='white'>
+                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr}`}>
+                <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon24} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Make Intuitive Web Applications
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Improved Customer Service
                     </h5>
-                    <p>
-                    Our <sapn className='grdiant font-bold'>PHP developers</sapn> build intuitive and engaging web applications with rich functionality using PHP frameworks.
+                    <p className='white'>
+                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon25} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Development of API
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Shared Valuable Content
                     </h5>
-                    <p>
-                    For various channels and devices, <span className='grdiant font-bold'>PHP developers</span> can create well-documented REST and SOAP APIs.
+                    <p className='white'>
+                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr}`}>
+                <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon26} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Services for Custom CMS
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Customer Loyalty
                     </h5>
-                    <p>
-                    <span className='grdiant font-bold'>PHP developers</span> at BitsWits develop unique CMS solutions based on the demands and specifications of your particular organization.
+                    <p className='white'>
+                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr}`}>
+                <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Platforms for eCommerce
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Drive Sales
                     </h5>
-                    <p>
-                   <span className='grdiant font-bold'> PHP developers</span> create e-commerce platforms with features like payment gateways and shopping carts that are optimized for sales.
+                    <p className='white'>
+                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBR}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Food Delivery Services
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Simplified Payments
                     </h5>
-                    <p>
-                    At BitsWits, we create online meal ordering platforms with features for menu browsing, order customization, delivery window selection, etc.
+                    <p className='white'>
+                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
                     </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon29} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Systems for Logistics Management
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Increased Visibility
                     </h5>
-                    <p>
-                    Solutions for logistics management can be made by <span className='grdiant font-bold'>PHP developers</span> and programmers to handle inventory, shipping, tracking, and other tasks.
+                    <p className='white'>
+                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
                     </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
+
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon30} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    CRM Programs
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Competitive Advantage
                     </h5>
-                    <p>
-                    Our <span className='grdiant font-bold'>PHP developers</span> build perfect customer relationship management systems to manage contacts, track interactions, and gain trust.
+                    <p className='white'>
+                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
                     </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+
                 </div>
             </Col>
+
             <Col lg={4} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardJstCntr} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon31} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Debugging and Testing
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Future-Proof Your Business
                     </h5>
-                    <p>
-                    BitsWits has the best <span className='grdiant font-bold'>PHP developers</span> who extensively check for bugs in your PHP solutions and resolve any errors that occur.
+                    <p className='white'>
+                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
                     </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
-        </Row>
 
-    </>
-
-
-    // MyReason component data
-
-    const reSubtile = <h2 className='font50 black fontf font-bold line60 black'>
-
-        The <span className='grdiant font-bold'>Best PHP Developers</span> and Innovators Leading the Way: Why Choose BitsWits?
-
-    </h2>
-
-    const resCards = <>
-        <Row className={`${reStyles.soluRow} mt-5`}>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #1
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Innovative Technical Talents
-                    </h5>
-                    <p>
-                        BitsWits creates high-performing, flexible solutions to address complicated demands with expertise in the most recent PHP versions and frameworks like Laravel and Symfony. They stand out due to their growth abilities and finest practices.
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #2
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Outstanding PHP Developers and Talents
-                    </h5>
-                    <p>
-                        Some of the top <span className='grdiant font-bold'>PHP developers</span> can be found at BitsWits, and they frequently receive home awards from reputable websites. Our skilled talent delivers the highest quality <span className='grdiant font-bold'>PHP development services</span> and excellence in every project.
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #3
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                        Future-Oriented Tactics
-                    </h5>
-                    <p>
-
-                        BitsWits uses <span className='grdiant font-bold'>PHP development services</span> and strategies that are future-oriented. They craft forward-compatible code while monitoring upcoming PHP trends. By doing this, solutions created today can adapt to the future.
-
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #4
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Client-Centered Culture
-                    </h5>
-                    <p>
-                    The customer is at the core of everything BitsWits does. Our <span className='grdiant font-bold'>PHP developers</span> collaborate closely with customers during the development process to fully comprehend demands and provide specialized solutions.
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #5
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Continuous and Agile Methodology
-                    </h5>
-                    <p>
-                    For <span className='grdiant font-bold'>PHP development services</span> and applications, BitsWits employs agile approaches. They operate in sprints, regularly evaluating and enhancing solutions in response to input. This makes it possible to respond quickly to shifting needs.
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={reStyles.soluCol}>
-                <div className={`${reStyles.soluCard}`}>
-                    <h6 className={`${reStyles.count}`}>
-                        #6
-                    </h6>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Excellent Code Quality
-                    </h5>
-                    <p>
-                    BitsWits regularly produces secure, high-quality code that complies with industry requirements due to effective QA procedures. Their products are designed for effectiveness, scalability, and efficiency.
-                    </p>
-                </div>
-            </Col>
         </Row>
     </>
 
 
-    // Services component data
+    // Why Benefits
 
-    const ourServcs = <>
-        <Container>
-            <Row className='justify-content-between align-items-center'>
-                <Col lg={4}>
-                    <div className={servStyles.left}>
-                        <h2 className='font30 black fontf font-bold line40 black mb-4'>
-
-                            Our PHP Experts Provide Top <span className='grdiant font-bold'>PHP Web Development Services</span>
-
-                        </h2>
-                        <p className='black font14 fontf font-medium'>
-                            Our team of professional <span className='grdiant font-bold'>PHP developers</span> has all the expertise needed to make a stunning website for you. Through our core PHP expertise and specialization in Laravel, Symfony, and CodeIgniter, we design high-quality performing websites customized according to your specific requirements. Let our expert <span className='grdiant font-bold'>PHP developers</span> save you from the website hassles!
-                        </p>
-                    </div>
-                </Col>
-                <Col lg={7} className={servStyles.secondHalf}>
-                    <div className={servStyles.servicesBox}>
-                        <h3 className={servStyles.servicesTtl}>
-                            Custom PHP Development
-                        </h3>
-                        <div className={servStyles.serviceDetails}>
-                            <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                Custom PHP Development
-                            </p>
-                            <p className='black font13 fontf font-medium mb-0'>
-                                By combining basic PHP with frameworks like Laravel, Symfony, Yii, and CodeIgniter, our <span className='grdiant font-bold'>PHP developers</span> create high-performing, customized <span className='grdiant font-bold'>PHP development services</span> . From basic websites to advanced web apps, we have built all.
-                            </p>
-                        </div>
-                    </div>
-                    <div className={servStyles.servicesBox}>
-                        <h3 className={servStyles.servicesTtl}>
-                            PHP E-Commerce Services and Solutions
-
-
-                        </h3>
-                        <div className={servStyles.serviceDetails}>
-                            <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                PHP E-Commerce Services and Solutions
-
-
-                            </p>
-                            <p className='black font13 fontf font-medium mb-0'>
-                                Are you considering an online sale? Our PHP experts create feature-rich e-commerce websites and apps specifically according to your needs. We can help skyrocket your online sales!
-                            </p>
-                        </div>
-                    </div>
-                    <div className={servStyles.servicesBox}>
-                        <h3 className={servStyles.servicesTtl}>
-                            Design of PHP Websites
-                        </h3>
-                        <div className={servStyles.serviceDetails}>
-                            <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                Design of PHP Websites
-                            </p>
-                            <p className='black font13 fontf font-medium mb-0'>
-                                Our experts create PHP websites that thrill users, from beautiful UI/UX design to deep interactivity. We combine excellent graphics, easy navigation, interesting information, and simple functionality.
-                            </p>
-                        </div>
-                    </div>
-                    <div className={servStyles.servicesBox}>
-                        <h3 className={servStyles.servicesTtl}>
-                            Application Integration Using PHP
-                        </h3>
-                        <div className={servStyles.serviceDetails}>
-                            <p className={`${servStyles.subtitle} black font14 fontf font-medium mb-0`}>
-                                Application Integration Using PHP
-                            </p>
-                            <p className='black font13 fontf font-medium mb-0'>
-                                Our experts are skilled in integrating PHP applications with external systems and APIs. Through web services, REST APIs, SOAP, and skilled optimization, our <span className='grdiant font-bold'>PHP developers</span> connect with numerous diverse systems.
-                            </p>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
+    const whytitle2 = <>
+        <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
+            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        </h2>
     </>
 
+    const text2 =
+        <p className='black text-center mb-5'>
+            The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
+        </p>
+
+
+    const Benefits = <>
+        <Row className='benefitscard'>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Custom Solutions for Your Niche Audience
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Ongoing Support and Maintenance
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Meeting Delivery Deadline and Reliability
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Better Security and Data Confidentiality
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+        </Row>
+        <p className='text-center'>
+            Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>mobile app development services</span>.
+        </p>
+    </>
+
+
+    // Why Build
+
+    const Benefits1 = <>
+        <Row className='text-center'>
+            <Col lg={12}>
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    The <span className='grdiant'>Mobile App Development</span> Process at BitsWits!
+                </h4>
+                <p>
+                    Our mobile app development process is designed to be innovative, efficient, and transparent. Our <span className='grdiant font-bold'>mobile app development services</span> offer you the following:
+                </p>
+            </Col>
+        </Row>
+        <Row>
+            <Col lg={7}>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Initial Consultation
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> begin with understanding your objectives, obstacles, and limitations you have in mind for your app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Gathering Requirements
+                    </h4>
+                    <p>
+                        We'll work with you to define the specific requirements and functionality for your business app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Design and Prototyping
+                    </h4>
+                    <p>
+                        In order to give you a sense of how your app will look and work, we design wireframes and prototypes.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Development
+                    </h4>
+                    <p>
+                        Our team builds applications using agile approaches and methodologies for security, speed, and integration that help create your app in a way that swiftly responds to any issues or modifications.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Testing and Quality Control
+                    </h4>
+                    <p>
+                        We thoroughly test your app to ensure it is reliable, stable, and easy to use. Our QA process checks functionality, UI, cross-platform compatibility, security, and compliance.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Launch and Deployment
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience
+                    </p>
+                </div>
+            </Col>
+            <Col lg={5}>
+                <div className={styles.contactform}>
+                    <div className=''>
+                        <h3 className='font20 font-bold mb-3'>Get a Free Consultation</h3>
+                    </div>
+                    <Row>
+                        <Col lg={12}>
+                            <input type='text' className={styles.forminput} placeholder='Your Name' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='number' className={styles.forminput} placeholder='Phone Number' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='email' className={styles.forminput} placeholder='Email Address' />
+                        </Col>
+                        <Col lg={12}>
+                            <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                        </Col>
+                        <Col lg={12}>
+                            <input type='Submit' className={styles.notice} />
+                        </Col>
+                    </Row>
+                </div>
+            </Col>
+        </Row>
+    </>
 
 
     return (
         <>
             <Head>
-                <title>The Best PHP Development Company - BitsWits</title>
-                <meta name="description" content="Our leading PHP development company develops your idea from conception to completion. Our PHP developers ensure developing dynamic websites" />
+                <title>Top Mobile App Development Company - Bitswits.</title>
+                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for professional app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -737,75 +495,40 @@ export default function phpdevelopment() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
-                infopara={infopara}
+                bgClass="mobile"
             />
 
-            {/* <Coverage
-                title="Coverage"
-                subtitle={subtile}
-                mobile={mobile}
-                user={user}
-                ux={ux}
-            /> */}
-
-            <PhpServices
-                servcs={ourServcs}
-            />
-
-            {/* <Swipe
-                foldimg={foldimg}
-                title='We Design Engaging Mobile Apps your users will swipe through from start to finish'
-                para='Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-                subtitle='High Performance User Experience'
-                subpara='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-                subtitle2='Swipe that Convert'
-                subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-
-            /> */}
+            <NewDecFy />
 
             <MyExpertise
-                title="Technologies"
+                title="EXPERTISE"
                 subtitle={expsubtile}
                 cards={expCards}
+                className='bgColorf'
             />
-
-            {/* <Ahead
-                title='Our Mobile App Research Data that puts you ahead of others'
-                para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-                subtitle='Laser Focused User Research'
-                subpara='We remain laser focused on your target audience to best meet their needs and requirements.'
-                subtitle2='Competitive Advantage'
-                subpara2='Our research process gives you a competitive advantage and up-to-date market insights.'
-                ahead={aheadimage}
-
-            /> */}
-
-            <MyReason
-                title="Reasons"
-                subtitle={reSubtile}
-                cards={resCards}
-            />
-
-            {/* <Ensure
-                foldimg={foldensure}
-                title='We Test and Optimize your mobile app to ensure best user experience'
-                para='We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-                subtitle='Constant Innovation'
-                subpara='In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-                subtitle2=' Active On-Going Support'
-                subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
-            /> */}
 
             <WhyBuild
-                title="Why Build"
-                text={whytext}
+                title="WHY BITSWITS?"
                 cards={WhyBuilds}
                 subtitle={whytitle}
+                text={text}
+                chngColor="bgColor"
+            />
+
+            <WhyBuild
+                title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
+                cards={Benefits}
+                subtitle={whytitle2}
+                text={text2}
+                alignclass="midBuild"
             />
 
             <OurProject />
+
             <ClientsThink />
+
             <Nextproject />
+
             <Contact />
         </>
     )
