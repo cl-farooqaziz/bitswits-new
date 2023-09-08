@@ -244,6 +244,7 @@ export default function ourWork() {
             <NewBannerFy
                 title={<>Our Portfolio</>}
                 title2={<>We help our clients grow with cutting-edging technologies, extravagant designs, and innovative software solutions.</>}
+                banClass="andriod"
             />
 
             {/* <NewDecFy /> */}

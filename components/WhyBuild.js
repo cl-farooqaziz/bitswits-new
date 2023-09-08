@@ -9,7 +9,10 @@ const WhyBuild = (props) => {
             <section className={`${styles.myExpertise} ${props.expo} ${styles[props.alignclass]} ${styles[props.chngColor]}`}>
                 <Container>
                     <Row className='aboutfold'>
-                        <Col lg={12} className='mx-auto'>
+                        <Col md={12}>
+                            <h3 className='font20 fontf font-semibold letterspace white text-center mb-3'>{props.title}</h3>
+                        </Col>
+                        <Col lg={12}>
                             {props.subtitle}
                             {props.text}
                         </Col>

@@ -24,77 +24,65 @@ import benefitimg2 from '../public/images/industryInt/benefit-img2.svg'
 import benefitimg3 from '../public/images/industryInt/benefit-img3.svg'
 import benefitimg4 from '../public/images/industryInt/benefit-img4.svg'
 // Why Icon
-import icon232 from '../public/images/magento/mesiconfy.png'
-import icon24 from '../public/images/industryInt/why-us2.svg'
-import icon25 from '../public/images/industryInt/why-us3.svg'
-import icon26 from '../public/images/industryInt/why-us4.svg'
-import icon27 from '../public/images/industryInt/why-us5.svg'
-import icon28 from '../public/images/industryInt/why-us6.svg'
-import icon29 from '../public/images/industryInt/why-us7.svg'
-import icon30 from '../public/images/industryInt/why-us8.svg'
-import icon31 from '../public/images/industryInt/why-us9.svg'
+import icon23 from '../public/images/fyicons/1.png'
+import icon24 from '../public/images/fyicons/2.png'
+import icon25 from '../public/images/fyicons/3.png'
+import icon26 from '../public/images/fyicons/4.png'
+import icon27 from '../public/images/fyicons/5.png'
+import icon28 from '../public/images/fyicons/6.png'
+import icon29 from '../public/images/fyicons/7.png'
+import icon30 from '../public/images/fyicons/8.png'
+import icon31 from '../public/images/fyicons/9.png'
 import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
+import NewDecFy from '@/components/NewDecFy';
 
 
 export default function mobileappdevelopment() {
 
     // banner component data
-    const heading = <h1 className='font65 black fontf font-bold line60'>
-        Forget the Rest and Work with the Best <span className='grdiant'>Mobile App Development</span> Company!
-    </h1>
+    const heading = <>
+        <h1 className='font60 white fontf font-bold mb-4'>
+            <span className='grdiant'>Best Mobile App Development Company </span>
+            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+        </h1>
+    </>
 
     const para = <>
 
-        <ul className='p-0'>
-            <li className="font16 fontf font-medium black ">
+        <p className='font16 fontf font-regular fyColor justify'>
+            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+        </p>
+
+        <ul className='mb-4 p-0'>
+            <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                The go-to <span className='grdiant font-bold'>mobile app developers</span> for popular brands
+                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
             </li>
-            <li className="font16 fontf font-medium black ">
+            <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                2000+ apps launched and counting
+                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
             </li>
-            <li className="font16 fontf font-medium black ">
+            <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                A highly skilled in-house team of 250+ app experts
-            </li>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Global presence
-            </li>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Build apps for iOS, Android, and Cross-Platform
-            </li>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                99% customer satisfaction rate
-            </li>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Spectacular and award-winning app designs
+                Unwavering Quality: Delivering only the best, because you deserve nothing less.
             </li>
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>
-        Our professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
-    </p> </>
-
 
     // coverage component data
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
-        Approach at <span className='grdiant'>BitsWits</span>: We Turn App Ideas into Downloaded Reality!
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black text-center'>
+        We Turn App Ideas into Downloaded Reality!
     </h2>
 
     const expCards = <>
-        <Row className={`${expStyles.soluRow} mt-5`}>
+        <Row className={`${expStyles.soluRow} mt-0`}>
             <Col lg={12}>
-                <p>
+                <p className='text-center'>
                     We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
                 </p>
-                <p>
+                <p className='text-center'>
                     We create apps that give your brand a dazzling new dimension. Because of our holistic approach, your app emotionally engages users through visuals, motion, and micro-interactions.
                 </p>
             </Col>
@@ -104,13 +92,16 @@ export default function mobileappdevelopment() {
 
     // Why Build
 
-    const whytitle = <h2 className='font50 white fontf font-bold line60 white text-center mb-2'>
-        Why Choose BitsWits for <span className='grdiant'>Building Mobile Applications</span>?
-    </h2>
+    const whytitle = <>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
+            Building Mobile Applications Where Vision Meets Excellence
+        </h2>
+    </>
 
     const text =
-        <p className='text-center fyColor'>
-            <span className='white font-bold'>Building your mobile app</span> boosts business services, attracts customers, and shapes success.
+        <p className='fyColor text-center'>
+            <span>Building your mobile app</span> boosts business services, attracts customers, and shapes success.
         </p>
 
 
@@ -120,7 +111,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon232} alt='BitsWits' />
+                        <Image src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Greater Customer Reach
@@ -137,7 +128,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon232} alt='BitsWits' />
+                        <Image src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Improved Customer Service
@@ -154,7 +145,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon232} alt='BitsWits' />
+                        <Image src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Shared Valuable Content
@@ -188,7 +179,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' />
+                        <Image src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Drive Sales
@@ -205,7 +196,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' />
+                        <Image src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Simplified Payments
@@ -222,7 +213,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' />
+                        <Image src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Increased Visibility
@@ -240,7 +231,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' />
+                        <Image src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Competitive Advantage
@@ -259,7 +250,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' />
+                        <Image src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Future-Proof Your Business
@@ -278,19 +269,21 @@ export default function mobileappdevelopment() {
     </>
 
 
-    // Why Build
+    // Why Benefits
+
+    const whytitle2 = <>
+        <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
+            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        </h2>
+    </>
+
+    const text2 =
+        <p className='black text-center mb-5'>
+            The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
+        </p>
+
 
     const Benefits = <>
-        <Row className='justify-content-center align-items-center text-center mb-4'>
-            <Col lg={12}>
-                <h2 className='font50 black fontf font-bold line60 black text-center'>
-                    The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
-                </h2>
-                <p>
-                    The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
-                </p>
-            </Col>
-        </Row>
         <Row className='benefitscard'>
             <Col lg={6}>
                 <div className='card mb-4'>
@@ -300,12 +293,16 @@ export default function mobileappdevelopment() {
                                 <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <h4 className='font20 font-bold'>
+                                <h4 className='font20 lheight24 font-bold'>
                                     Custom Solutions for Your Niche Audience
                                 </h4>
-                                <span className='font14 justify'>
+                                <p className='font14'>
                                     Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
-                                </span>
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
                             </Col>
                         </Row>
                     </div>
@@ -319,12 +316,16 @@ export default function mobileappdevelopment() {
                                 <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <h4 className='font20 font-bold'>
+                                <h4 className='font20 lheight24 font-bold'>
                                     Ongoing Support and Maintenance
                                 </h4>
-                                <span className='font14 justify'>
+                                <p className='font14'>
                                     BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
-                                </span>
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
                             </Col>
                         </Row>
                     </div>
@@ -338,12 +339,16 @@ export default function mobileappdevelopment() {
                                 <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <h4 className='font20 font-bold'>
+                                <h4 className='font20 lheight24 font-bold'>
                                     Meeting Delivery Deadline and Reliability
                                 </h4>
-                                <span className='font14 justify'>
+                                <p className='font14'>
                                     BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
-                                </span>
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
                             </Col>
                         </Row>
                     </div>
@@ -357,12 +362,16 @@ export default function mobileappdevelopment() {
                                 <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
-                                <h4 className='font20 font-bold'>
+                                <h4 className='font20 lheight24 font-bold'>
                                     Better Security and Data Confidentiality
                                 </h4>
-                                <span className='font14 justify'>
+                                <p className='font14'>
                                     Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
-                                </span>
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
                             </Col>
                         </Row>
                     </div>
@@ -486,17 +495,20 @@ export default function mobileappdevelopment() {
                 title={heading}
                 para={para}
                 bannerimg={banImg}
-                infopara={infopara}
+                bgClass="mobile"
             />
 
+            <NewDecFy />
+
             <MyExpertise
-                title="Expertise"
+                title="EXPERTISE"
                 subtitle={expsubtile}
                 cards={expCards}
                 className='bgColorf'
             />
 
             <WhyBuild
+                title="WHY BITSWITS?"
                 cards={WhyBuilds}
                 subtitle={whytitle}
                 text={text}
@@ -504,18 +516,19 @@ export default function mobileappdevelopment() {
             />
 
             <WhyBuild
+                title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
                 cards={Benefits}
+                subtitle={whytitle2}
+                text={text2}
                 alignclass="midBuild"
             />
 
-            {/* <WhyBuild
-                cards={Benefits1}
-                chngColor="bgColor"
-            /> */}
-
             <OurProject />
+
             <ClientsThink />
+
             <Nextproject />
+
             <Contact />
         </>
     )
