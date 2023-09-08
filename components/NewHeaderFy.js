@@ -134,7 +134,7 @@ const NewHeaderFy = () => {
                                                         <div className={styles.listBody}>
                                                             <Row>
                                                                 <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                    <ul className='mb-0 mt-0'>
 
                                                                         <li>
                                                                             <Link onClick={handleMenu} href='/ios-app-development-company'>
@@ -220,7 +220,7 @@ const NewHeaderFy = () => {
                                                         <div className={styles.listBody}>
                                                             <Row>
                                                                 <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                    <ul className='mb-0 mt-0'>
                                                                         <li>
                                                                             <Link onClick={handleMenu} href="/blockchain-development">
                                                                                 <FaAngleRight />
@@ -294,7 +294,7 @@ const NewHeaderFy = () => {
                                                         <div className={styles.listBody}>
                                                             <Row>
                                                                 <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                    <ul className='mb-0 mt-0'>
                                                                         <li>
                                                                             <Link onClick={handleMenu} href='/web-development'>
                                                                                 <FaAngleRight />
@@ -349,7 +349,7 @@ const NewHeaderFy = () => {
                                                         <div className={styles.listBody}>
                                                             <Row>
                                                                 <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                    <ul className='mb-0 mt-0'>
                                                                         <li>
                                                                             <Link onClick={handleMenu} href='/2d-cartoon-animation'>
                                                                                 <FaAngleRight />
@@ -394,7 +394,7 @@ const NewHeaderFy = () => {
                                                     <div className={styles.listBody}>
                                                         <Row>
                                                             <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                <ul className='mb-0 mt-0'>
                                                                     <li>
                                                                         <Link onClick={handleMenu} href='/search-engine-optimization-company'>
                                                                             <FaAngleRight />
@@ -430,7 +430,7 @@ const NewHeaderFy = () => {
                                                         <div className={styles.listBody}>
                                                             <Row>
                                                                 <Col md={12}>
-                                                                    {/* <ul className='mb-0 ps-0 mt-2'>
+                                                                    {/* <ul className='mb-0 mt-0'>
                                                                     <li>
                                                                         <Link onClick={handleMenu} href='/social-media-optimization'>
                                                                             <FaAngleRight />
@@ -468,7 +468,7 @@ const NewHeaderFy = () => {
                                                                         <div className={styles.listBody}>
                                                                             <Row>
                                                                                 <Col md={12}>
-                                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                                    <ul className='mb-0 mt-0'>
                                                                                         <li>
                                                                                             <Link onClick={handleMenu} href='/nft-game-development-company'>
                                                                                                 <FaAngleRight />
@@ -539,7 +539,7 @@ const NewHeaderFy = () => {
                                                     <div className={styles.listBody}>
                                                         <Row>
                                                             <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                <ul className='mb-0 mt-0'>
                                                                     <li>
                                                                         <Link onClick={handleMenu} href='/2d-cartoon-animation'>
                                                                             <FaAngleRight />
@@ -583,7 +583,7 @@ const NewHeaderFy = () => {
                                                     <div className={styles.listBody}>
                                                         <Row>
                                                             <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                <ul className='mb-0 mt-0'>
                                                                     <li>
                                                                         <Link onClick={handleMenu} href='/data-science'>
                                                                             <FaAngleRight />
@@ -606,7 +606,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2 pt-1'>
+                                                            <ul className='mb-0 mt-0 pt-1'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/real-estate'>
                                                                         <div className={styles.megaIcon}>
@@ -783,7 +783,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/about-us'>
                                                                         <FaAngleRight />
@@ -1039,7 +1039,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={6}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-php-developer'>
                                                                         <FaAngleRight />
@@ -1067,7 +1067,7 @@ const NewHeaderFy = () => {
                                                             </ul>
                                                         </Col>
                                                         <Col md={6}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-zend-developer'>
                                                                         <FaAngleRight />
@@ -1105,7 +1105,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={6}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-magento-developer'>
                                                                         <FaAngleRight />
@@ -1145,7 +1145,7 @@ const NewHeaderFy = () => {
                                                             </ul>
                                                         </Col>
                                                         <Col md={6}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-woocommerce-developer'>
                                                                         <FaAngleRight />
@@ -1195,7 +1195,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-asp-dot-net-developer'>
                                                                         <FaAngleRight />
@@ -1239,7 +1239,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-ms-dynamics-crm-developer'>
                                                                         <FaAngleRight />
@@ -1283,7 +1283,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/drupal-cms-development'>
                                                                         <FaAngleRight />
@@ -1345,7 +1345,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-java-developer'>
                                                                         <FaAngleRight />
@@ -1401,7 +1401,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-android-developer'>
                                                                         <FaAngleRight />
@@ -1439,7 +1439,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-unity-3d-developer'>
                                                                         <FaAngleRight />
@@ -1507,7 +1507,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-seo-expert'>
                                                                         <FaAngleRight />
@@ -1533,7 +1533,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listBody}>
                                                     <Row>
                                                         <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                            <ul className='mb-0 mt-0'>
                                                                 <li>
                                                                     <Link onClick={handleMenu} href='/hire-website-designer'>
                                                                         <FaAngleRight />

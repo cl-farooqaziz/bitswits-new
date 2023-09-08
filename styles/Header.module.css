@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #4d4c4c;
+  position: relative;
 }
 
 .navLogo {
@@ -16,7 +17,6 @@
   height: 100%;
   display: flex;
   align-items: center;
-  position: relative;
   /* box-shadow: rgba(0, 0, 0, 0.35) 20px 0px 15px; */
 }
 
@@ -65,7 +65,7 @@
 .megaList4 .megaMenu4 {
   width: 100%;
   position: absolute;
-  top: 60px;
+  top: 65px;
   left: 0;
   right: 0;
   opacity: 1;
@@ -77,6 +77,13 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   transition: all 0.4s ease-in-out;
+  border-image: linear-gradient(90deg, #f32f5e, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  border-top: 2px solid;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 .megaList1:hover .megaMenu1,
@@ -100,6 +107,10 @@
   text-transform: unset;
   font-family: "Montserrat", sans-serif;
   transition: all 0.4s ease-in-out;
+}
+
+.header .listBody .download:hover {
+  background-color: transparent !important;
 }
 
 @keyframes growDown {
@@ -130,8 +141,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  border-bottom: 1px solid #919191;
   padding-bottom: 8px;
+  width: 100%;
+  border-image: linear-gradient(90deg, #f32f5e, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 2px solid;
+  border-left: 0;
+  border-right: 0;
 }
 
 .listHeading h5 {
@@ -148,6 +166,9 @@
 
 .listImg {
   text-align: center;
+  background-color: #1c1c1cc2;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .listImg img {
@@ -159,7 +180,14 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10px;
+  padding: 20px;
+  background-color: #1c1c1cc2;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.listBody ul li {
+  width: 100%;
 }
 
 .listBody ul li a {
@@ -168,7 +196,14 @@
   gap: 8px;
   padding: 0;
   color: #ccc;
+  position: relative;
+  width: 100%;
 }
+
+.listBody ul li a:hover {
+  background-color: transparent !important;
+}
+
 
 .listBody ul li span {
   font-size: 11px;
@@ -188,15 +223,15 @@
 
 .listMain2 {
   background-color: #141414;
-  height: 100%;
+  border-radius: 10px;
 }
 
 .megaMenu3 .megaRow {
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 
 .megaMenu3 .listMain2 {
-  padding: 30px 20px 30px 10px;
+  padding: 30px;
 }
 
 .listMain2 .listBody ul {
@@ -234,6 +269,10 @@
   display: flex;
   flex-direction: column;
   gap: 60px;
+  background-color: #1c1c1cc2;
+  padding: 20px;
+  border-radius: 10px;
+  height: 365px;
 }
 
 .workBox {
@@ -336,8 +375,16 @@
   background-color: #ff004a;
 }
 
-.gameApp img{
+.gameApp img {
   filter: invert(0);
+}
+
+.imgCol {
+  padding: 20px 20px 20px 0;
+}
+
+.megaMenu2 .listBody ul {
+  height: 330px;
 }
 
 /* ===============Media Queries================ */
@@ -357,15 +404,15 @@
   }
 
   .megaMenu2 {
-    height: 60vh;
+    height: 70vh;
   }
 
   .megaMenu3 {
-    height: 90vh;
+    height: 70vh;
   }
 
   .megaMenu4 {
-    height: 65vh;
+    height: 70vh;
   }
 }
 
@@ -410,7 +457,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .cross {
     top: 10px;
     right: 10px;

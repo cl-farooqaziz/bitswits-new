@@ -1,504 +1,492 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
-import banImg from '../public/images/banner/webBanner.png'
-import foldimg from '../public/images/services/webSwipe.svg'
-import foldensure from '../public/images/services/webEnsure.svg'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Coverage.module.css'
+import expStyles from '@/styles/MyExpertise.module.css'
+import whyStyles from '@/styles/whyServices.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/services/webAhead.svg'
-import Image from 'next/image';
-import mobilearrow from '../public/images/icons/mobile-arrow.png'
-
-
-import { Row, Col } from 'react-bootstrap'
+import MyExpertise from '@/components/MyExpertise';
 import WhyBuild from '@/components/WhyBuild';
-import whyStyles from '@/styles/whyServices.module.css'
-
-
-//Why Icon
-import icon24 from '../public/images/successfully/1.jpg'
-import icon25 from '../public/images/successfully/2.jpg'
-import icon26 from '../public/images/successfully/3.jpg'
-import icon27 from '../public/images/successfully/4.jpg'
-import icon28 from '../public/images/successfully/5.jpg'
-import icon29 from '../public/images/successfully/6.jpg'
-import icon30 from '../public/images/successfully/7.jpg'
-import icon31 from '../public/images/successfully/8.jpg'
-
-import icon32 from '../public/images/successfully/9.jpg'
-import icon33 from '../public/images/successfully/10.jpg'
-import icon34 from '../public/images/successfully/11.jpg'
-import icon35 from '../public/images/successfully/12.jpg'
-import icon36 from '../public/images/successfully/13.jpg'
-import icon37 from '../public/images/successfully/14.jpg'
-import icon38 from '../public/images/successfully/15.jpg'
-import icon39 from '../public/images/successfully/16.jpg'
-
+//images
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import arrow from '../public/images/icons/arrow.webp'
+import banImg from '../public/images/banner/mobileappbanner.png'
 //
-import CrmExamples from '@/components/CrmExamples';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import slide1 from '../public/images/ourfood/1.png'
-import slide2 from '../public/images/ourfood/2.png'
-import slide3 from '../public/images/ourfood/3.jpg'
-import slide4 from '../public/images/ourfood/4.jpg'
-import slide5 from '../public/images/ourfood/5.jpg'
-import slide6 from '../public/images/ourfood/6.jpg'
+import benefitimg1 from '../public/images/industryInt/Illustrations-01.svg'
+import benefitimg2 from '../public/images/industryInt/Illustrations-02.svg'
+import benefitimg3 from '../public/images/industryInt/Illustrations-03.svg'
+import benefitimg4 from '../public/images/industryInt/Illustrations-04.svg'
+// Why Icon
+import icon23 from '../public/images/fyicons/1.png'
+import icon24 from '../public/images/fyicons/2.png'
+import icon25 from '../public/images/fyicons/3.png'
+import icon26 from '../public/images/fyicons/4.png'
+import icon27 from '../public/images/fyicons/5.png'
+import icon28 from '../public/images/fyicons/6.png'
+import icon29 from '../public/images/fyicons/7.png'
+import icon30 from '../public/images/fyicons/8.png'
+import icon31 from '../public/images/fyicons/9.png'
+import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
+import NewDecFy from '@/components/NewDecFy';
 
-import exmplstyles from '@/styles/CrmExamples.module.css'
 
-
-export default function foodorderingsolutions() {
-
-    var crmExamples = {
-        dots: false,
-        arrows: true,
-        autoplay: true,
-        speed: 3000,
-        fade: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    };
-
+export default function mobileappdevelopment() {
 
     // banner component data
+    const heading = <>
+        <h1 className='font60 white fontf font-bold mb-4'>
+            <span className='grdiant'>Best Mobile App Development Company </span>
+            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+        </h1>
+    </>
 
-    const heading = <h1 className='font65 black fontf font-bold line60'>The Best Design and <br /><span className='grdiant'> FOOD ORDERING SOLUTIONS </span> Company!</h1>
+    const para = <>
 
-    const para = <ul className='p-0'>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Integrated reservation systems
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            POS integration
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Business management
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Stock control
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Management reporting
-        </li>
-        <li className="font16 fontf font-medium black">
-            <Image src={mobilearrow} className='img-fluid multi'></Image>
-            Single & multi-restaurant solutions
-        </li>
-    </ul>
+        <p className='font16 fontf font-regular fyColor justify'>
+            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+        </p>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'>We've been providing tailored, robust solutions to the food & drink industry since <strong>2002</strong>. Whatever your requirements, we've got you covered get in touch with us today to start talking about your requirements.</p> </>
+        <ul className='mb-4 p-0'>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+            </li>
+        </ul>
+    </>
 
 
     // coverage component data
 
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black text-center'>
+        We Turn App Ideas into Downloaded Reality!
+    </h2>
 
-    // const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
-
-    // const mobile = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         Mobile App Design
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             UI UX Design
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Research & Discovery
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Wireframing & Prototyping
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             iOS + Android Applications
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Post Launch Support
-    //         </Link>
-    //     </div>
-    // </div>
-
-    // const user = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         User Research
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Journey & Persona Building
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Testing
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Participant Recruitments
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Research Method & Material Development
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Iterative Research
-    //         </Link>
-    //     </div>
-    // </div>
+    const expCards = <>
+        <Row className={`${expStyles.soluRow} mt-0`}>
+            <Col lg={12}>
+                <p className='text-center'>
+                    We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
+                </p>
+                <p className='text-center'>
+                    We create apps that give your brand a dazzling new dimension. Because of our holistic approach, your app emotionally engages users through visuals, motion, and micro-interactions.
+                </p>
+            </Col>
+        </Row>
+    </>
 
 
-    // const ux = <div>
-    //     <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-    //         UX Optimization
-    //     </h5>
-    //     <div className={styles.servcsList}>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User Experience Assessment
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             User & KPIs Data Analysis
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             A/B Testing
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             Feature Experimentation
-    //         </Link>
-    //         <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-    //             UX Iterations
-    //         </Link>
-    //     </div>
-    // </div>
+    // Why Build
 
+    const whytitle = <>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
+            Building Mobile Applications Where Vision Meets Excellence
+        </h2>
+    </>
 
-
-    // Swipe component data
-
-
-
-    // Swipe component data
-
-
-    const whytitle = <h2 className='font30 black fontf font-bold line60 black text-center mb-3'>“Our Solutions”!</h2>
-
-    const text = <p className='center'>Some of our successfully implemented food solutions are</p>
-
+    const text =
+        <p className='fyColor text-center'>
+            <span>Building your mobile app</span> boosts business services, attracts customers, and shapes success.
+        </p>
 
 
     const WhyBuilds = <>
+
         <Row className={`${whyStyles.soluRow} mt-5`}>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon23} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Front Website
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Greater Customer Reach
                     </h5>
-                    <p>
-                    First Things First - we code and design the forefront of your website
+                    <p className='white'>
+                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon24} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Customer App
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Improved Customer Service
                     </h5>
-                    <p>
-                    Apps are more appealing for the customer as they can access it with ease.
+                    <p className='white'>
+                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Merchant App
-                    </h5>
-                    <p>
-                    We create cloud based mobile point-of-sale (mPOS) for Merchants and individuals
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon25} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    POS Integration
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Shared Valuable Content
                     </h5>
-                    <p>
-                    Integrating a system to let customers pay by card and get a receipt
+                    <p className='white'>
+                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon26} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Social Media Integration
-
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Customer Loyalty
                     </h5>
-                    <p>
-                    Planning, promoting and marketing products at all stages of the development lifecycle.
+                    <p className='white'>
+                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Branch Management
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Drive Sales
                     </h5>
-                    <p>
-                    With our management solutions, you can manage employees and branch information
+                    <p className='white'>
+                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Category Management
-                    </h5>
-                    <p>
-                    Creating sections or categories for your products, making shopping more efficient
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Product Management
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Simplified Payments
                     </h5>
-                    <p>
-                    Managing the products efficiently to earn best results to your business
+                    <p className='white'>
+                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
                     </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon29} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Increased Visibility
+                    </h5>
+                    <p className='white'>
+                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+                </div>
+            </Col>
+
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
+                    <div className={`${whyStyles.imgBox}`}>
+                        <Image src={icon30} alt='BitsWits' />
+                    </div>
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Competitive Advantage
+                    </h5>
+                    <p className='white'>
+                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
 
                 </div>
             </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
+
+            <Col lg={4} md={6} className={whyStyles.soluCol}>
+                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon31} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Discount & Coupon
-Management
-
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Future-Proof Your Business
                     </h5>
-                    <p>
-                    You can manage discounts and coupons for your business convenience
+                    <p className='white'>
+                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
                     </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Order Management
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
-                    <p>
-                    We can develop codes to streamline the management of the order process
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Payment Gateway Integration
-                    </h5>
-                    <p>
-                    Let your customers choose how they wish to pay with our flawless systems.
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Content Management
-                    </h5>
-                    <p>
-                    You can successfully and easily manage the content within your solution from a CMS.
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon36} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Database Management
-
-                    </h5>
-                    <p>
-                    You can safely manage all your important data within your business
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon37} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Customer Management
-                    </h5>
-                    <p>
-                    Successfully manage all details from current, new and old clientele to better your business
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon38} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Sales Report
-                    </h5>
-                    <p>
-                    Generate sales reports for your business to calculate the sales conducted over a period of time
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={3} md={6} className={whyStyles.soluCol}>
-                <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                    <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon39} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Customisation
-                    </h5>
-                    <p>
-                    We can customise and tailor make any solutions specifically for your business needs.
-                    </p>
-
                 </div>
             </Col>
 
         </Row>
-
     </>
 
 
+    // Why Benefits
 
-    // Exmple component data
-
-
-    const exmplTitle = <> <h2 className='font40 black fontf font-bold line60 black text-center mb-3'>Some examples of our <span className='grdiant'>Food & Drink solutions</span>
-    </h2> </>
-
-    const exmplSlider = <>
-        <Slider {...crmExamples} className={` ${exmplstyles.crmSlider}  crmSlider`}>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Bali Brasserie Restaurants</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide1} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>My Coffee Shop - Admin</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide2} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>My Coffee Shop</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide2} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Formisano Bakery</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide3} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Emma Boutique Gourmande</div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide4} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Eat Out Spain </div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide5} className="img-fluid" />
-                </div>
-            </div>
-            <div className={exmplstyles.strpImg}>
-                <div className={exmplstyles.topTitle}>Super Van 247 </div>
-                <div className={exmplstyles.topImg}>
-                    <Image alt="bitswits" src={slide6} className="img-fluid" />
-                </div>
-            </div>
-            
-        </Slider>
+    const whytitle2 = <>
+        <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
+            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        </h2>
     </>
 
-    const exmplText = <> Let's talk about your Food & Drink requirements </>
+    const text2 =
+        <p className='black text-center mb-5'>
+            The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
+        </p>
 
 
+    const Benefits = <>
+        <Row className='benefitscard'>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Custom Solutions for Your Niche Audience
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Ongoing Support and Maintenance
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Meeting Delivery Deadline and Reliability
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Better Security and Data Confidentiality
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+        </Row>
+        <p className='text-center'>
+            Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>mobile app development services</span>.
+        </p>
+    </>
 
 
+    // Why Build
 
+    const Benefits1 = <>
+        <Row className='text-center'>
+            <Col lg={12}>
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    The <span className='grdiant'>Mobile App Development</span> Process at BitsWits!
+                </h4>
+                <p>
+                    Our mobile app development process is designed to be innovative, efficient, and transparent. Our <span className='grdiant font-bold'>mobile app development services</span> offer you the following:
+                </p>
+            </Col>
+        </Row>
+        <Row>
+            <Col lg={7}>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Initial Consultation
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> begin with understanding your objectives, obstacles, and limitations you have in mind for your app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Gathering Requirements
+                    </h4>
+                    <p>
+                        We'll work with you to define the specific requirements and functionality for your business app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Design and Prototyping
+                    </h4>
+                    <p>
+                        In order to give you a sense of how your app will look and work, we design wireframes and prototypes.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Development
+                    </h4>
+                    <p>
+                        Our team builds applications using agile approaches and methodologies for security, speed, and integration that help create your app in a way that swiftly responds to any issues or modifications.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Testing and Quality Control
+                    </h4>
+                    <p>
+                        We thoroughly test your app to ensure it is reliable, stable, and easy to use. Our QA process checks functionality, UI, cross-platform compatibility, security, and compliance.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Launch and Deployment
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience
+                    </p>
+                </div>
+            </Col>
+            <Col lg={5}>
+                <div className={styles.contactform}>
+                    <div className=''>
+                        <h3 className='font20 font-bold mb-3'>Get a Free Consultation</h3>
+                    </div>
+                    <Row>
+                        <Col lg={12}>
+                            <input type='text' className={styles.forminput} placeholder='Your Name' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='number' className={styles.forminput} placeholder='Phone Number' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='email' className={styles.forminput} placeholder='Email Address' />
+                        </Col>
+                        <Col lg={12}>
+                            <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                        </Col>
+                        <Col lg={12}>
+                            <input type='Submit' className={styles.notice} />
+                        </Col>
+                    </Row>
+                </div>
+            </Col>
+        </Row>
+    </>
 
 
     return (
         <>
             <Head>
-                <title>BitsWits</title>
-                <meta name="description" content="Generated by create next app" />
+                <title>Top Mobile App Development Company - Bitswits.</title>
+                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for professional app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -506,76 +494,41 @@ Management
             <Banner
                 title={heading}
                 para={para}
-                infopara={infopara}
                 bannerimg={banImg}
+                bgClass="mobile"
             />
 
-            {/* <Coverage
-                title="Coverage"
-                subtitle={subtile}
-                mobile={mobile}
-                user={user}
-                ux={ux}
-            /> */}
+            <NewDecFy />
 
-
-            {/* <Swipe
-                foldimg={foldimg}
-                title='We Design Engaging Mobile Apps your users will swipe through from start to finish'
-                para='Our goal with each new mobile app design is to keep users engaged and drive higher completion rates. We use data and user research to create intuitive interfaces that drive actions and we follow the latest design trends to ensure your mobile app is visually appealing.'
-                subtitle='High Performance User Experience'
-                subpara='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-                subtitle2='Swipe that Convert'
-                subpara2='In our design lab performance always comes first. We ensure that your mobile app is effective and engaging.'
-
-            /> */}
-
-
-
-            {/* <Ahead
-                title='Our Mobile App Research Data that puts you ahead of others'
-                para='We conduct user research with real people to provide valuable insights that help our clients stay ahead of their competitors. We use various creative methods to gather data and inform product decisions based on the needs and wants of the target audience.'
-                subtitle='Laser Focused User Research'
-                subpara='We remain laser focused on your target audience to best meet their needs and requirements.'
-                subtitle2='Competitive Advantage'
-                subpara2='Our research process gives you a competitive advantage and up-to-date market insights.'
-                ahead={aheadimage}
-
-            /> */}
-
-
-
-            {/* <Ensure
-                foldimg={foldensure}
-                title='We Test and Optimize your mobile app to ensure best user experience'
-                para='We aim to optimize your mobile app experience for better end results. Our team continuously looks for improvement opportunities and tests new features through A/B optimization.'
-                subtitle='Constant Innovation'
-                subpara='In our design Our primary focus is increasing the end result and making sure the site brings revenue to your business.'
-                subtitle2=' Active On-Going Support'
-                subpara2='We only rely on real evidence-based improvements that drives conversion rates.'
-
-            /> */}
-
+            <MyExpertise
+                title="EXPERTISE"
+                subtitle={expsubtile}
+                cards={expCards}
+                className='bgColorf'
+            />
 
             <WhyBuild
-                title="Why Build"
-                text={text}
+                title="WHY BITSWITS?"
                 cards={WhyBuilds}
                 subtitle={whytitle}
+                text={text}
+                chngColor="bgColor"
             />
 
-            <CrmExamples
-                title={exmplTitle}
-                slider={exmplSlider}
-                text={exmplText}
+            <WhyBuild
+                title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
+                cards={Benefits}
+                subtitle={whytitle2}
+                text={text2}
+                alignclass="midBuild"
             />
-
-
-
 
             <OurProject />
+
             <ClientsThink />
+
             <Nextproject />
+
             <Contact />
         </>
     )
