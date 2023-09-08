@@ -504,7 +504,7 @@ export default function blockchaingamedevelopmentcompanylp() {
             <Aboutlp />
 
 
-            <Yearsofexpertise
+            {/* <Yearsofexpertise
                 loop1={<> <Counter stopNumber={500} />+</>}
 
                 looptext11={<> Applications Developed <br></br> and Designed  </>}
@@ -519,7 +519,7 @@ export default function blockchaingamedevelopmentcompanylp() {
 
                 looptext44={<> Client Retention </>}
 
-            />
+            /> */}
 
             <Ourservices
                 services={services1}
@@ -652,7 +652,11 @@ export default function blockchaingamedevelopmentcompanylp() {
 
             <Range />
             <Publication />
-            <Hireus />
+            
+            <Hireus
+                bgColor="black"
+            />
+
             <ClientsThinklp />
 
             <Contact

@@ -7,7 +7,7 @@ import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 // images
-import logo from '../public/images/icons/logo.png'
+import logo from '../public/images/icons/footerlogo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
 import php from '../public/images/icons/php.png'
 import eCom from '../public/images/icons/eCom.png'
@@ -336,7 +336,7 @@ const Header = () => {
                                                         </Row>
                                                     </div>
                                                 </div>
-                                                <Col md={12} className='mt-4'>
+                                                {/* <Col md={12} className='mt-4'>
                                                     <div className={styles.listMain}>
                                                         <div className={styles.listHeading}>
                                                             <div className={styles.megaIcon}>
@@ -379,10 +379,10 @@ const Header = () => {
                                                             </Row>
                                                         </div>
                                                     </div>
-                                                </Col>
+                                                </Col> */}
                                             </Col>
                                             <Col md={4}>
-                                                <div className={styles.listMain}>
+                                                {/* <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="bitswits" className='img-fluid'
@@ -417,20 +417,20 @@ const Header = () => {
                                                             </Col>
                                                         </Row>
                                                     </div>
-                                                </div>
-                                                <div className={`${styles.listMain} mt-4`}>
-                                                    <div className={styles.listHeading}>
+                                                </div> */}
+                                                <div className={`${styles.listMain} mt-0`}>
+                                                    {/* <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
                                                             <Image alt="bitswits" className='img-fluid'
                                                                 src={cms}
                                                             />
                                                         </div>
                                                         <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
-                                                    </div>
+                                                    </div> */}
                                                     <div className={styles.listBody}>
                                                         <Row>
                                                             <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                {/* <ul className='mb-0 ps-0 mt-2'>
                                                                     <li>
                                                                         <Link onClick={handleMenu} href='/social-media-optimization'>
                                                                             <FaAngleRight />
@@ -455,8 +455,8 @@ const Header = () => {
                                                                             <span>Conversion Rate Optimisation</span>
                                                                         </Link>
                                                                     </li>
-                                                                </ul>
-                                                                <div className={`${styles.listMain} ${styles.resList} mt-4`}>
+                                                                </ul> */}
+                                                                <div className={`${styles.listMain} ${styles.resList} mt-0`}>
                                                                     <div className={styles.listHeading}>
                                                                         <div className={styles.megaIcon}>
                                                                             <Image alt="bitswits" className='img-fluid'

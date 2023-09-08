@@ -101,6 +101,918 @@ const NewHeaderFy = () => {
                                     />
                                 </Link>
                             </div>
+                            <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMenu}>
+                                <Link href='/' className={styles.megaLink}>
+                                    Home
+                                </Link>
+                            </li>
+                            <li className={`${styles.megaList3} ${styles.navList}`} onClick={handleMegaMenu3}>
+                                <Link href='#' className={styles.megaLink}>
+                                    SERVICES
+                                    <FaAngleDown />
+                                </Link>
+                                <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
+                                    <div className={styles.backArrow}>
+                                        <Image alt="bitswits"
+                                            src={backarrow}
+
+                                        />
+                                    </div>
+                                    <Row>
+                                        <Col md={9}>
+                                            <Row className={styles.megaRow}>
+
+                                                <Col md={4}>
+                                                    <div className={styles.listMain}>
+                                                        <div className={styles.listHeading}>
+                                                            <div className={styles.megaIcon}>
+                                                                <Image alt="bitswits" className='img-fluid'
+                                                                    src={apps} />
+                                                            </div>
+                                                            <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
+                                                        </div>
+                                                        <div className={styles.listBody}>
+                                                            <Row>
+                                                                <Col md={12}>
+                                                                    <ul className='mb-0 ps-0 mt-2'>
+
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/ios-app-development-company'>
+                                                                                <FaAngleRight />
+                                                                                <span>iOS App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/android-app-development-company'>
+                                                                                <FaAngleRight />
+                                                                                <span>Android App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/flutter-app-development-company'>
+                                                                                <FaAngleRight />
+                                                                                <span>Flutter App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/react-native-app-development-company'>
+                                                                                <FaAngleRight />
+                                                                                <span>React Native App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/wearable-app-development-company'>
+                                                                                <FaAngleRight />
+                                                                                <span>Wearable App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/cross-platform-app-development-company'>
+                                                                                <FaAngleRight />
+                                                                                <span>Cross Platform App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/web-app-development-company'>
+                                                                                <FaAngleRight />
+                                                                                <span>Web App Development</span>
+                                                                            </Link>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/progressive-web-app-development'>
+                                                                                <FaAngleRight />
+                                                                                <span>Progressive Web App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/mobile-app-development'>
+                                                                                <FaAngleRight />
+                                                                                <span>Mobile App Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/internet-of-things'>
+                                                                                <FaAngleRight />
+                                                                                <span>Internet Of Things</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/enterprise-mobility-solutions'>
+                                                                                <FaAngleRight />
+                                                                                <span>Enterprise Mobility Solutions</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                    </ul>
+                                                                </Col>
+                                                            </Row>
+                                                        </div>
+                                                    </div>
+                                                    <div className={`${styles.listMain} mt-4`}>
+                                                        <div className={styles.listHeading}>
+                                                            <div className={styles.megaIcon}>
+                                                                <Image alt="bitswits" className='img-fluid'
+                                                                    src={hosting}
+                                                                />
+                                                            </div>
+                                                            <h5 className='font14 fontf font-semibold mb-0'>BLOCKCHAIN</h5>
+                                                        </div>
+                                                        <div className={styles.listBody}>
+                                                            <Row>
+                                                                <Col md={12}>
+                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href="/blockchain-development">
+                                                                                <FaAngleRight />
+                                                                                <span>Blockchain Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        {/* <li>
+                                                                        <Link onClick={handleMenu} href="/blockchain-app-development-company">
+                                                                            <FaAngleRight />
+                                                                            <span>Blockchain App Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/decentralized-dapp-development-company">
+                                                                            <FaAngleRight />
+                                                                            <span>dApp Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/nft-game-development-company">
+                                                                            <FaAngleRight />
+                                                                            <span>NFT Game Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/nft-marketplace-development-company">
+                                                                            <FaAngleRight />
+                                                                            <span>NFT Marketplace Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/blockchain-wallet-development-company">
+                                                                            <FaAngleRight />
+                                                                            <span>Blockchain Wallet Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/supply-chain-blockchain-development-company">
+                                                                            <FaAngleRight />
+                                                                            <span>Supply Chain Blockchain Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/cryptocurrency-development-company">
+                                                                            <FaAngleRight />
+                                                                            <span>Cryptocurrency Development Company</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href="/tokenization-solutions-company">
+                                                                            <FaAngleRight />
+                                                                            <span>Tokenization Solutions</span>
+                                                                        </Link>
+                                                                    </li> */}
+                                                                    </ul>
+                                                                </Col>
+                                                            </Row>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                                <Col md={4}>
+                                                    <div className={styles.listMain}>
+                                                        <div className={styles.listHeading}>
+                                                            <div className={styles.megaIcon}>
+                                                                <Image alt="bitswits" className='img-fluid'
+                                                                    src={web}
+                                                                />
+                                                            </div>
+                                                            <h5 className='font14 fontf font-semibold mb-0'>WEB</h5>
+                                                        </div>
+                                                        <div className={styles.listBody}>
+                                                            <Row>
+                                                                <Col md={12}>
+                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/web-development'>
+                                                                                <FaAngleRight />
+                                                                                <span>Web Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/php-development-service'>
+                                                                                <FaAngleRight />
+                                                                                <span>PHP Development Services</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/crm-solution'>
+                                                                                <FaAngleRight />
+                                                                                <span>CRM Solutions</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/e-commerence-development'>
+                                                                                <FaAngleRight />
+                                                                                <span>e-Commerce Development</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/enterprise-portal-solution'>
+                                                                                <FaAngleRight />
+                                                                                <span>Enterprise Portal Solution</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/magento-enterprise-solution'>
+                                                                                <FaAngleRight />
+                                                                                <span>Magento Enterprise Solution</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                    </ul>
+                                                                </Col>
+                                                            </Row>
+                                                        </div>
+                                                    </div>
+                                                    {/* <Col md={12} className='mt-4'>
+                                                    <div className={styles.listMain}>
+                                                        <div className={styles.listHeading}>
+                                                            <div className={styles.megaIcon}>
+                                                                <Image alt="bitswits" className='img-fluid'
+                                                                    src={cms}
+                                                                />
+                                                            </div>
+                                                            <h5 className='font14 fontf font-semibold mb-0'>Explainer Video</h5>
+                                                        </div>
+                                                        <div className={styles.listBody}>
+                                                            <Row>
+                                                                <Col md={12}>
+                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/2d-cartoon-animation'>
+                                                                                <FaAngleRight />
+                                                                                <span>2D Cartoon Animation</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/whiteboard-animation'>
+                                                                                <FaAngleRight />
+                                                                                <span>Whiteboard Animation</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/motion-graphics'>
+                                                                                <FaAngleRight />
+                                                                                <span>Motion Graphics</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                        <li>
+                                                                            <Link onClick={handleMenu} href='/3d-animation'>
+                                                                                <FaAngleRight />
+                                                                                <span>3D Animation</span>
+                                                                            </Link>
+                                                                        </li>
+                                                                    </ul>
+                                                                </Col>
+                                                            </Row>
+                                                        </div>
+                                                    </div>
+                                                </Col> */}
+                                                </Col>
+                                                <Col md={4}>
+                                                    {/* <div className={styles.listMain}>
+                                                    <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image alt="bitswits" className='img-fluid'
+                                                                src={marketing}
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>SEO</h5>
+                                                    </div>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/search-engine-optimization-company'>
+                                                                            <FaAngleRight />
+                                                                            <span>Search Engine Optimization</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/keyword-research-company'>
+                                                                            <FaAngleRight />
+                                                                            <span>Keyword Research</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/link-building-company'>
+                                                                            <FaAngleRight />
+                                                                            <span>Link Building</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div> */}
+                                                    <div className={`${styles.listMain} mt-0`}>
+                                                        {/* <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image alt="bitswits" className='img-fluid'
+                                                                src={cms}
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
+                                                    </div> */}
+                                                        <div className={styles.listBody}>
+                                                            <Row>
+                                                                <Col md={12}>
+                                                                    {/* <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/social-media-optimization'>
+                                                                            <FaAngleRight />
+                                                                            <span>Social Media Optimization</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/pay-per-click-services'>
+                                                                            <FaAngleRight />
+                                                                            <span>Pay Per Click Services</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/digital-marketing'>
+                                                                            <FaAngleRight />
+                                                                            <span>Digital Marketing</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/conversion-rate-optimisation'>
+                                                                            <FaAngleRight />
+                                                                            <span>Conversion Rate Optimisation</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul> */}
+                                                                    <div className={`${styles.listMain} ${styles.resList} mt-0`}>
+                                                                        <div className={styles.listHeading}>
+                                                                            <div className={styles.megaIcon}>
+                                                                                <Image alt="bitswits" className='img-fluid'
+                                                                                    src={games}
+                                                                                />
+                                                                            </div>
+                                                                            <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
+                                                                        </div>
+                                                                        <div className={styles.listBody}>
+                                                                            <Row>
+                                                                                <Col md={12}>
+                                                                                    <ul className='mb-0 ps-0 mt-2'>
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='/nft-game-development-company'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>NFT Game Development</span>
+                                                                                            </Link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='/blockchain-game-development-company'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>Blockchain Game Development</span>
+                                                                                            </Link>
+                                                                                        </li>
+
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='/game-development'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>Game Development</span>
+                                                                                            </Link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='/2d-art'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>2D Art</span>
+                                                                                            </Link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='/3d-art'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>3D Art</span>
+                                                                                            </Link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='/augmented-reality'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>Augmented Reality</span>
+                                                                                            </Link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='/virtual-reality'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>Virtual Reality</span>
+                                                                                            </Link>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </Col>
+                                                                            </Row>
+                                                                        </div>
+                                                                    </div>
+                                                                </Col>
+                                                            </Row>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+
+                                                <Col md={4}>
+
+                                                </Col>
+                                                {/* <Col md={4}>
+                                                <div className={styles.listMain}>
+                                                    <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image alt="bitswits" className='img-fluid'
+                                                                src={cms}
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>Explainer Video</h5>
+                                                    </div>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/2d-cartoon-animation'>
+                                                                            <FaAngleRight />
+                                                                            <span>2D Cartoon Animation</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/whiteboard-animation'>
+                                                                            <FaAngleRight />
+                                                                            <span>Whiteboard Animation</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/motion-graphics'>
+                                                                            <FaAngleRight />
+                                                                            <span>Motion Graphics</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/3d-animation'>
+                                                                            <FaAngleRight />
+                                                                            <span>3D Animation</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
+                                            </Col> */}
+                                                {/* <Col md={4}>
+                                                <div className={styles.listMain}>
+                                                    <div className={styles.listHeading}>
+                                                        <div className={styles.megaIcon}>
+                                                            <Image  alt="bitswits"      className='img-fluid'
+                                                                src={tailormade}
+                                                            />
+                                                        </div>
+                                                        <h5 className='font14 fontf font-semibold mb-0'>DATA SCIENCE</h5>
+                                                    </div>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <ul className='mb-0 ps-0 mt-2'>
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/data-science'>
+                                                                            <FaAngleRight />
+                                                                            <span>DATA SCIENCE</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
+                                            </Col> */}
+                                            </Row>
+                                        </Col>
+                                        <Col md={3} className='p-md-0'>
+                                            <div className={styles.listMain2}>
+                                                <div className={styles.listHeading}>
+                                                    <h5 className='font20 fontf font-semibold mb-0'>INDUSTRIES</h5>
+                                                </div>
+                                                <div className={styles.listBody}>
+                                                    <Row>
+                                                        <Col md={12}>
+                                                            <ul className='mb-0 ps-0 mt-2 pt-1'>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/real-estate'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={estate}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Real Estate</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/travel-hospitality'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={travel}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Travel & Hospitality</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/b2b-solutions'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={b2b}
+                                                                            />
+                                                                        </div>
+                                                                        <span>B2B Solutions</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/b2c-solutions'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={b2c}
+                                                                            />
+                                                                        </div>
+                                                                        <span>B2C Solutions</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/healthcare'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={health}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Healthcare</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/education-and-e-learning'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={education}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Education and E Learning</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/banking-finance'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={finance}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Banking & Finance</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/startup-solutions'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={education}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Startup Solutions</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/media-publishing'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={media}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Media & Publishing</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/food-ordering-solutions'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={foods}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Food Ordering Solutions</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/ticket-booking-solutions'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={tickets}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Ticket Booking Solutions</span>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/automotive-solutions'>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={automotive}
+                                                                            />
+                                                                        </div>
+                                                                        <span>Automotive Solutions</span>
+                                                                    </Link>
+                                                                </li>
+                                                            </ul>
+                                                        </Col>
+                                                    </Row>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </li>
+                            <li className={`${styles.megaList2} ${styles.navList}`} onClick={handleMegaMenu2}>
+                                <Link href='#' className={styles.megaLink}>
+                                    OUR COMPANY
+                                    <FaAngleDown />
+                                </Link>
+                                <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
+                                    <div className={styles.backArrow}>
+                                        <Image alt="bitswits"
+                                            src={backarrow}
+
+                                        />
+                                    </div>
+                                    <Row className={styles.megaRow}>
+
+                                        <Col lg={4} md={6}>
+                                            <div className={styles.listMain}>
+                                                <div className={styles.listHeading}>
+                                                    <div className={styles.megaIcon}>
+                                                        <Image alt="bitswits" className='img-fluid'
+                                                            src={about}
+                                                        />
+                                                    </div>
+                                                    <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
+                                                </div>
+                                                <div className={styles.listBody}>
+                                                    <Row>
+                                                        <Col md={12}>
+                                                            <p>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
+                                                            <Link className={styles.download} onClick={opnen} href='#' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
+                                                        </Col>
+                                                    </Row>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={2} md={6}>
+                                            <div className={styles.listMain}>
+                                                <div className={styles.listHeading}>
+                                                    <div className={styles.megaIcon}>
+                                                        <Image alt="bitswits" className='img-fluid'
+                                                            src={company}
+                                                        />
+                                                    </div>
+                                                    <h5 className='font14 fontf font-semibold mb-0'>COMPANY</h5>
+                                                </div>
+                                                <div className={styles.listBody}>
+                                                    <Row>
+                                                        <Col md={12}>
+                                                            <ul className='mb-0 ps-0 mt-2'>
+                                                                <li>
+                                                                    <Link onClick={handleMenu} href='/about-us'>
+                                                                        <FaAngleRight />
+                                                                        <span>About Us</span>
+                                                                    </Link>
+                                                                </li>
+                                                                {/* <li>
+                                                                <Link onClick={handleMenu} href='#'>
+                                                                    <FaAngleRight />
+                                                                    <span>Fulfilment</span>
+                                                                </Link>
+                                                            </li>
+
+                                                            <li>
+                                                                <Link onClick={handleMenu} href='#'>
+                                                                    <FaAngleRight />
+                                                                    <span>Facts and Figures</span>
+                                                                </Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link onClick={handleMenu} href='#'>
+                                                                    <FaAngleRight />
+                                                                    <span>Video Testimonials</span>
+                                                                </Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link onClick={handleMenu} href='#'>
+                                                                    <FaAngleRight />
+                                                                    <span>Reasons to Choose Us</span>
+                                                                </Link>
+                                                            </li>
+
+                                                            <li>
+                                                                <Link onClick={handleMenu} href='#'>
+                                                                    <FaAngleRight />
+                                                                    <span>Contact Us</span>
+                                                                </Link>
+                                                            </li> */}
+                                                            </ul>
+                                                        </Col>
+                                                    </Row>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={6}>
+                                            <div className={styles.listMain}>
+                                                <div className={styles.listImg}>
+                                                    <Image alt="bitswits" className='img-fluid'
+                                                        src={ourbg}
+                                                    />
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </li>
+                            <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMegaMenu4}>
+                                <Link href='#' className={styles.megaLink}>
+                                    OUR WORK
+                                    <FaAngleDown />
+                                </Link>
+                                <div className={megamenu4 ? `${styles.megaMenu4} ${styles.opnMenu4}` : `${styles.megaMenu4}`}>
+                                    <div className={styles.backArrow}>
+                                        <Image alt="bitswits"
+                                            src={backarrow}
+
+                                        />
+                                    </div>
+                                    <Row className={styles.megaRow}>
+                                        <Col lg={4} md={6}>
+                                            <div className={styles.boxSpace}>
+                                                <div className={styles.workBox}>
+                                                    <Image alt="bitswits"
+                                                        src={travel}
+
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/travel-app-development" onClick={handleMenu}>
+                                                            Travel App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            Create Hassle-Free Travel...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div className={`${styles.workBox}`}>
+                                                    <Image alt="bitswits"
+                                                        src={estate}
+
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/real-estate-app-development-solutions" onClick={handleMenu}>
+                                                            Real Estate App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            A Real Estate App Instilling...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div className={styles.workBox}>
+                                                    <Image alt="bitswits"
+                                                        src={bactria}
+
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/bacteria-app-development" onClick={handleMenu}>
+                                                            Bacteria App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            Bacteria Shield - Cleaning...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} md={6}>
+                                            <div className={styles.boxSpace}>
+                                                <div className={styles.workBox}>
+                                                    <Image alt="bitswits"
+                                                        src={music}
+
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/music-streaming-app-development" onClick={handleMenu}>
+                                                            Sound App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            Developed A Music Streaming...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div className={`${styles.workBox}`}>
+                                                    <Image alt="bitswits"
+                                                        src={health}
+
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/prohealth-application-development" onClick={handleMenu}>
+                                                            PROHealth App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            AS Medicare - A Pharmacy...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div className={styles.workBox}>
+                                                    <Image alt="bitswits"
+                                                        src={ride}
+
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/ez-ride" onClick={handleMenu}>
+                                                            Rider App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            EZ Ride is a two-sided market...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} md={6}>
+                                            <div className={styles.boxSpace}>
+                                                <div className={styles.workBox}>
+                                                    <Image alt="bitswits"
+                                                        src={foods}
+
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/food-delivery-app-development" onClick={handleMenu}>
+                                                            Food App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            Food Delivery Services That...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div className={`${styles.workBox} ${styles.gameApp}`}>
+                                                    <Image alt="bitswits"
+                                                        src={games}
+                                                    />
+                                                    <div className={styles.ourWork}>
+                                                        <Link className={styles.workTitle} href="/game-app-development" onClick={handleMenu}>
+                                                            Game App
+                                                        </Link>
+                                                        <span className={styles.realDummy}>
+                                                            Ios And Android Games...
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div className={styles.workBox}>
+                                                    <div className={`${styles.ourWork} ${styles.cntct}`}>
+                                                        <div className={styles.fill}>
+                                                            <div>
+                                                                <BsFillEnvelopeFill size={20} className={styles.email} />
+                                                            </div>
+                                                            <div>
+                                                                <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
+                                                                    info@bitswits.co
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                        <div className={styles.fill}>
+                                                            <div>
+                                                                <BsFillTelephoneFill size={25} className={styles.email} />
+                                                            </div>
+                                                            <div>
+                                                                <Link className='font15 font-medium white fontf' href="tel:+1 312 379 5987" onClick={handleMenu}>
+                                                                    +1 312 379 5987
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                        <div className={styles.fill}>
+                                                            <div>
+                                                                <BsFillTelephoneFill size={25} className={styles.email} />
+                                                            </div>
+                                                            <div>
+                                                                <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007" onClick={handleMenu}>
+                                                                    +1 833 500 6007
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </li>
                             <li className={`${styles.megaList1} ${styles.navList}`} onClick={handleMegaMenu1}>
                                 <Link href='#' className={styles.megaLink}>
                                     TECHNOLOGIES
@@ -649,913 +1561,6 @@ const NewHeaderFy = () => {
                                     </Row>
                                 </div>
                             </li>
-                            <li className={`${styles.megaList2} ${styles.navList}`} onClick={handleMegaMenu2}>
-                                <Link href='#' className={styles.megaLink}>
-                                    OUR COMPANY
-                                    <FaAngleDown />
-                                </Link>
-                                <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
-                                    <div className={styles.backArrow}>
-                                        <Image alt="bitswits"
-                                            src={backarrow}
-
-                                        />
-                                    </div>
-                                    <Row className={styles.megaRow}>
-
-                                        <Col lg={4} md={6}>
-                                            <div className={styles.listMain}>
-                                                <div className={styles.listHeading}>
-                                                    <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
-                                                            src={about}
-                                                        />
-                                                    </div>
-                                                    <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
-                                                </div>
-                                                <div className={styles.listBody}>
-                                                    <Row>
-                                                        <Col md={12}>
-                                                            <p>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
-                                                            <Link className={styles.download} onClick={opnen} href='#' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
-                                                        </Col>
-                                                    </Row>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col lg={2} md={6}>
-                                            <div className={styles.listMain}>
-                                                <div className={styles.listHeading}>
-                                                    <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
-                                                            src={company}
-                                                        />
-                                                    </div>
-                                                    <h5 className='font14 fontf font-semibold mb-0'>COMPANY</h5>
-                                                </div>
-                                                <div className={styles.listBody}>
-                                                    <Row>
-                                                        <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2'>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/about-us'>
-                                                                        <FaAngleRight />
-                                                                        <span>About Us</span>
-                                                                    </Link>
-                                                                </li>
-                                                                {/* <li>
-                                                                <Link onClick={handleMenu} href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Fulfilment</span>
-                                                                </Link>
-                                                            </li>
-
-                                                            <li>
-                                                                <Link onClick={handleMenu} href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Facts and Figures</span>
-                                                                </Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link onClick={handleMenu} href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Video Testimonials</span>
-                                                                </Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link onClick={handleMenu} href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Reasons to Choose Us</span>
-                                                                </Link>
-                                                            </li>
-
-                                                            <li>
-                                                                <Link onClick={handleMenu} href='#'>
-                                                                    <FaAngleRight />
-                                                                    <span>Contact Us</span>
-                                                                </Link>
-                                                            </li> */}
-                                                            </ul>
-                                                        </Col>
-                                                    </Row>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col lg={6}>
-                                            <div className={styles.listMain}>
-                                                <div className={styles.listImg}>
-                                                    <Image alt="bitswits" className='img-fluid'
-                                                        src={ourbg}
-                                                    />
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </li>
-                            <li className={`${styles.megaList3} ${styles.navList}`} onClick={handleMegaMenu3}>
-                                <Link href='#' className={styles.megaLink}>
-                                    SERVICES
-                                    <FaAngleDown />
-                                </Link>
-                                <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
-                                    <div className={styles.backArrow}>
-                                        <Image alt="bitswits"
-                                            src={backarrow}
-
-                                        />
-                                    </div>
-                                    <Row>
-                                        <Col md={9}>
-                                            <Row className={styles.megaRow}>
-
-                                                <Col md={4}>
-                                                    <div className={styles.listMain}>
-                                                        <div className={styles.listHeading}>
-                                                            <div className={styles.megaIcon}>
-                                                                <Image alt="bitswits" className='img-fluid'
-                                                                    src={apps} />
-                                                            </div>
-                                                            <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
-                                                        </div>
-                                                        <div className={styles.listBody}>
-                                                            <Row>
-                                                                <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
-
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/ios-app-development-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>iOS App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/android-app-development-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Android App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/flutter-app-development-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Flutter App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/react-native-app-development-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>React Native App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/wearable-app-development-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Wearable App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/cross-platform-app-development-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Cross Platform App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/web-app-development-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Web App Development</span>
-                                                                            </Link>
-                                                                        </li>
-
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/progressive-web-app-development'>
-                                                                                <FaAngleRight />
-                                                                                <span>Progressive Web App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/mobile-app-development'>
-                                                                                <FaAngleRight />
-                                                                                <span>Mobile App Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/internet-of-things'>
-                                                                                <FaAngleRight />
-                                                                                <span>Internet Of Things</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/enterprise-mobility-solutions'>
-                                                                                <FaAngleRight />
-                                                                                <span>Enterprise Mobility Solutions</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                    </ul>
-                                                                </Col>
-                                                            </Row>
-                                                        </div>
-                                                    </div>
-                                                    <div className={`${styles.listMain} mt-4`}>
-                                                        <div className={styles.listHeading}>
-                                                            <div className={styles.megaIcon}>
-                                                                <Image alt="bitswits" className='img-fluid'
-                                                                    src={hosting}
-                                                                />
-                                                            </div>
-                                                            <h5 className='font14 fontf font-semibold mb-0'>BLOCKCHAIN</h5>
-                                                        </div>
-                                                        <div className={styles.listBody}>
-                                                            <Row>
-                                                                <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href="/blockchain-development">
-                                                                                <FaAngleRight />
-                                                                                <span>Blockchain Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        {/* <li>
-                                                                        <Link onClick={handleMenu} href="/blockchain-app-development-company">
-                                                                            <FaAngleRight />
-                                                                            <span>Blockchain App Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href="/decentralized-dapp-development-company">
-                                                                            <FaAngleRight />
-                                                                            <span>dApp Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href="/nft-game-development-company">
-                                                                            <FaAngleRight />
-                                                                            <span>NFT Game Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href="/nft-marketplace-development-company">
-                                                                            <FaAngleRight />
-                                                                            <span>NFT Marketplace Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href="/blockchain-wallet-development-company">
-                                                                            <FaAngleRight />
-                                                                            <span>Blockchain Wallet Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href="/supply-chain-blockchain-development-company">
-                                                                            <FaAngleRight />
-                                                                            <span>Supply Chain Blockchain Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href="/cryptocurrency-development-company">
-                                                                            <FaAngleRight />
-                                                                            <span>Cryptocurrency Development Company</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href="/tokenization-solutions-company">
-                                                                            <FaAngleRight />
-                                                                            <span>Tokenization Solutions</span>
-                                                                        </Link>
-                                                                    </li> */}
-                                                                    </ul>
-                                                                </Col>
-                                                            </Row>
-                                                        </div>
-                                                    </div>
-                                                </Col>
-                                                <Col md={4}>
-                                                    <div className={styles.listMain}>
-                                                        <div className={styles.listHeading}>
-                                                            <div className={styles.megaIcon}>
-                                                                <Image alt="bitswits" className='img-fluid'
-                                                                    src={web}
-                                                                />
-                                                            </div>
-                                                            <h5 className='font14 fontf font-semibold mb-0'>WEB</h5>
-                                                        </div>
-                                                        <div className={styles.listBody}>
-                                                            <Row>
-                                                                <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/web-development'>
-                                                                                <FaAngleRight />
-                                                                                <span>Web Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/php-development-service'>
-                                                                                <FaAngleRight />
-                                                                                <span>PHP Development Services</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/crm-solution'>
-                                                                                <FaAngleRight />
-                                                                                <span>CRM Solutions</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/e-commerence-development'>
-                                                                                <FaAngleRight />
-                                                                                <span>e-Commerce Development</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/enterprise-portal-solution'>
-                                                                                <FaAngleRight />
-                                                                                <span>Enterprise Portal Solution</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/magento-enterprise-solution'>
-                                                                                <FaAngleRight />
-                                                                                <span>Magento Enterprise Solution</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                    </ul>
-                                                                </Col>
-                                                            </Row>
-                                                        </div>
-                                                    </div>
-                                                    <Col md={12} className='mt-4'>
-                                                        <div className={styles.listMain}>
-                                                            <div className={styles.listHeading}>
-                                                                <div className={styles.megaIcon}>
-                                                                    <Image alt="bitswits" className='img-fluid'
-                                                                        src={cms}
-                                                                    />
-                                                                </div>
-                                                                <h5 className='font14 fontf font-semibold mb-0'>Explainer Video</h5>
-                                                            </div>
-                                                            <div className={styles.listBody}>
-                                                                <Row>
-                                                                    <Col md={12}>
-                                                                        <ul className='mb-0 ps-0 mt-2'>
-                                                                            <li>
-                                                                                <Link onClick={handleMenu} href='/2d-cartoon-animation'>
-                                                                                    <FaAngleRight />
-                                                                                    <span>2D Cartoon Animation</span>
-                                                                                </Link>
-                                                                            </li>
-                                                                            <li>
-                                                                                <Link onClick={handleMenu} href='/whiteboard-animation'>
-                                                                                    <FaAngleRight />
-                                                                                    <span>Whiteboard Animation</span>
-                                                                                </Link>
-                                                                            </li>
-                                                                            <li>
-                                                                                <Link onClick={handleMenu} href='/motion-graphics'>
-                                                                                    <FaAngleRight />
-                                                                                    <span>Motion Graphics</span>
-                                                                                </Link>
-                                                                            </li>
-                                                                            <li>
-                                                                                <Link onClick={handleMenu} href='/3d-animation'>
-                                                                                    <FaAngleRight />
-                                                                                    <span>3D Animation</span>
-                                                                                </Link>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </Col>
-                                                                </Row>
-                                                            </div>
-                                                        </div>
-                                                    </Col>
-                                                </Col>
-                                                <Col md={4}>
-                                                    <div className={styles.listMain}>
-                                                        <div className={styles.listHeading}>
-                                                            <div className={styles.megaIcon}>
-                                                                <Image alt="bitswits" className='img-fluid'
-                                                                    src={marketing}
-                                                                />
-                                                            </div>
-                                                            <h5 className='font14 fontf font-semibold mb-0'>SEO</h5>
-                                                        </div>
-                                                        <div className={styles.listBody}>
-                                                            <Row>
-                                                                <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/search-engine-optimization-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Search Engine Optimization</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/keyword-research-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Keyword Research</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/link-building-company'>
-                                                                                <FaAngleRight />
-                                                                                <span>Link Building</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                    </ul>
-                                                                </Col>
-                                                            </Row>
-                                                        </div>
-                                                    </div>
-                                                    <div className={`${styles.listMain} mt-4`}>
-                                                        <div className={styles.listHeading}>
-                                                            <div className={styles.megaIcon}>
-                                                                <Image alt="bitswits" className='img-fluid'
-                                                                    src={cms}
-                                                                />
-                                                            </div>
-                                                            <h5 className='font14 fontf font-semibold mb-0'>DIGITAL MARKETING</h5>
-                                                        </div>
-                                                        <div className={styles.listBody}>
-                                                            <Row>
-                                                                <Col md={12}>
-                                                                    <ul className='mb-0 ps-0 mt-2'>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/social-media-optimization'>
-                                                                                <FaAngleRight />
-                                                                                <span>Social Media Optimization</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/pay-per-click-services'>
-                                                                                <FaAngleRight />
-                                                                                <span>Pay Per Click Services</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/digital-marketing'>
-                                                                                <FaAngleRight />
-                                                                                <span>Digital Marketing</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                        <li>
-                                                                            <Link onClick={handleMenu} href='/conversion-rate-optimisation'>
-                                                                                <FaAngleRight />
-                                                                                <span>Conversion Rate Optimisation</span>
-                                                                            </Link>
-                                                                        </li>
-                                                                    </ul>
-                                                                    <div className={`${styles.listMain} ${styles.resList} mt-4`}>
-                                                                        <div className={styles.listHeading}>
-                                                                            <div className={styles.megaIcon}>
-                                                                                <Image alt="bitswits" className='img-fluid'
-                                                                                    src={games}
-                                                                                />
-                                                                            </div>
-                                                                            <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
-                                                                        </div>
-                                                                        <div className={styles.listBody}>
-                                                                            <Row>
-                                                                                <Col md={12}>
-                                                                                    <ul className='mb-0 ps-0 mt-2'>
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/nft-game-development-company'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>NFT Game Development</span>
-                                                                                            </Link>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/blockchain-game-development-company'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>Blockchain Game Development</span>
-                                                                                            </Link>
-                                                                                        </li>
-
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/game-development'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>Game Development</span>
-                                                                                            </Link>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/2d-art'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>2D Art</span>
-                                                                                            </Link>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/3d-art'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>3D Art</span>
-                                                                                            </Link>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/augmented-reality'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>Augmented Reality</span>
-                                                                                            </Link>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/virtual-reality'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>Virtual Reality</span>
-                                                                                            </Link>
-                                                                                        </li>
-                                                                                    </ul>
-                                                                                </Col>
-                                                                            </Row>
-                                                                        </div>
-                                                                    </div>
-                                                                </Col>
-                                                            </Row>
-                                                        </div>
-                                                    </div>
-                                                </Col>
-
-                                                <Col md={4}>
-
-                                                </Col>
-                                                {/* <Col md={4}>
-                                                <div className={styles.listMain}>
-                                                    <div className={styles.listHeading}>
-                                                        <div className={styles.megaIcon}>
-                                                            <Image alt="bitswits" className='img-fluid'
-                                                                src={cms}
-                                                            />
-                                                        </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>Explainer Video</h5>
-                                                    </div>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/2d-cartoon-animation'>
-                                                                            <FaAngleRight />
-                                                                            <span>2D Cartoon Animation</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/whiteboard-animation'>
-                                                                            <FaAngleRight />
-                                                                            <span>Whiteboard Animation</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/motion-graphics'>
-                                                                            <FaAngleRight />
-                                                                            <span>Motion Graphics</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/3d-animation'>
-                                                                            <FaAngleRight />
-                                                                            <span>3D Animation</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </div>
-                                            </Col> */}
-                                                {/* <Col md={4}>
-                                                <div className={styles.listMain}>
-                                                    <div className={styles.listHeading}>
-                                                        <div className={styles.megaIcon}>
-                                                            <Image  alt="bitswits"      className='img-fluid'
-                                                                src={tailormade}
-                                                            />
-                                                        </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>DATA SCIENCE</h5>
-                                                    </div>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <ul className='mb-0 ps-0 mt-2'>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/data-science'>
-                                                                            <FaAngleRight />
-                                                                            <span>DATA SCIENCE</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </div>
-                                            </Col> */}
-                                            </Row>
-                                        </Col>
-                                        <Col md={3} className='p-md-0'>
-                                            <div className={styles.listMain2}>
-                                                <div className={styles.listHeading}>
-                                                    <h5 className='font20 fontf font-semibold mb-0'>INDUSTRIES</h5>
-                                                </div>
-                                                <div className={styles.listBody}>
-                                                    <Row>
-                                                        <Col md={12}>
-                                                            <ul className='mb-0 ps-0 mt-2 pt-1'>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/real-estate'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={estate}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Real Estate</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/travel-hospitality'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={travel}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Travel & Hospitality</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/b2b-solutions'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={b2b}
-                                                                            />
-                                                                        </div>
-                                                                        <span>B2B Solutions</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/b2c-solutions'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={b2c}
-                                                                            />
-                                                                        </div>
-                                                                        <span>B2C Solutions</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/healthcare'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={health}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Healthcare</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/education-and-e-learning'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={education}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Education and E Learning</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/banking-finance'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={finance}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Banking & Finance</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/startup-solutions'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={education}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Startup Solutions</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/media-publishing'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={media}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Media & Publishing</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/food-ordering-solutions'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={foods}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Food Ordering Solutions</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/ticket-booking-solutions'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={tickets}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Ticket Booking Solutions</span>
-                                                                    </Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link onClick={handleMenu} href='/automotive-solutions'>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={automotive}
-                                                                            />
-                                                                        </div>
-                                                                        <span>Automotive Solutions</span>
-                                                                    </Link>
-                                                                </li>
-                                                            </ul>
-                                                        </Col>
-                                                    </Row>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </li>
-                            <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMegaMenu4}>
-                                <Link href='#' className={styles.megaLink}>
-                                    OUR WORK
-                                    <FaAngleDown />
-                                </Link>
-                                <div className={megamenu4 ? `${styles.megaMenu4} ${styles.opnMenu4}` : `${styles.megaMenu4}`}>
-                                    <div className={styles.backArrow}>
-                                        <Image alt="bitswits"
-                                            src={backarrow}
-
-                                        />
-                                    </div>
-                                    <Row className={styles.megaRow}>
-                                        <Col lg={4} md={6}>
-                                            <div className={styles.boxSpace}>
-                                                <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
-                                                        src={travel}
-
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/travel-app-development" onClick={handleMenu}>
-                                                            Travel App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            Create Hassle-Free Travel...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className={`${styles.workBox}`}>
-                                                    <Image alt="bitswits"
-                                                        src={estate}
-
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/real-estate-app-development-solutions" onClick={handleMenu}>
-                                                            Real Estate App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            A Real Estate App Instilling...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
-                                                        src={bactria}
-
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/bacteria-app-development" onClick={handleMenu}>
-                                                            Bacteria App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            Bacteria Shield - Cleaning...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col lg={4} md={6}>
-                                            <div className={styles.boxSpace}>
-                                                <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
-                                                        src={music}
-
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/music-streaming-app-development" onClick={handleMenu}>
-                                                            Sound App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            Developed A Music Streaming...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className={`${styles.workBox}`}>
-                                                    <Image alt="bitswits"
-                                                        src={health}
-
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/prohealth-application-development" onClick={handleMenu}>
-                                                            PROHealth App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            AS Medicare - A Pharmacy...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
-                                                        src={ride}
-
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/ez-ride" onClick={handleMenu}>
-                                                            Rider App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            EZ Ride is a two-sided market...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                        <Col lg={4} md={6}>
-                                            <div className={styles.boxSpace}>
-                                                <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
-                                                        src={foods}
-
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/food-delivery-app-development" onClick={handleMenu}>
-                                                            Food App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            Food Delivery Services That...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className={`${styles.workBox} ${styles.gameApp}`}>
-                                                    <Image alt="bitswits"
-                                                        src={games}
-                                                    />
-                                                    <div className={styles.ourWork}>
-                                                        <Link className={styles.workTitle} href="/game-app-development" onClick={handleMenu}>
-                                                            Game App
-                                                        </Link>
-                                                        <span className={styles.realDummy}>
-                                                            Ios And Android Games...
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className={styles.workBox}>
-                                                    <div className={`${styles.ourWork} ${styles.cntct}`}>
-                                                        <div className={styles.fill}>
-                                                            <div>
-                                                                <BsFillEnvelopeFill size={20} className={styles.email} />
-                                                            </div>
-                                                            <div>
-                                                                <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                                    info@bitswits.co
-                                                                </Link>
-                                                            </div>
-                                                        </div>
-                                                        <div className={styles.fill}>
-                                                            <div>
-                                                                <BsFillTelephoneFill size={25} className={styles.email} />
-                                                            </div>
-                                                            <div>
-                                                                <Link className='font15 font-medium white fontf' href="tel:+1 312 379 5987" onClick={handleMenu}>
-                                                                    +1 312 379 5987
-                                                                </Link>
-                                                            </div>
-                                                        </div>
-                                                        <div className={styles.fill}>
-                                                            <div>
-                                                                <BsFillTelephoneFill size={25} className={styles.email} />
-                                                            </div>
-                                                            <div>
-                                                                <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007" onClick={handleMenu}>
-                                                                    +1 833 500 6007
-                                                                </Link>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </li>
                             <li className={`${styles.navList} ${styles.inqBtn}`} onClick={modal}>
                                 <Link href='#'>ENQUIRE NOW</Link>
                             </li>
@@ -1608,7 +1613,6 @@ const NewHeaderFy = () => {
 
 
                     </Modal>
-
                 </header>
             </Container>
 

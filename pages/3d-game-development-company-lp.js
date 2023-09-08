@@ -593,7 +593,7 @@ export default function gamedevelopmentcompany3dlp() {
             </Container>
 
 
-            <Container className='campny'>
+            <Container className='campny pb-5'>
                 <Row className='gy-4'>
 
                     <Incredible
@@ -680,8 +680,10 @@ export default function gamedevelopmentcompany3dlp() {
 
             <Publication />
 
+            <Hireus
+                bgColor="black"
+            />
 
-            <Hireus />
             <ClientsThinklp />
 
             <Contact

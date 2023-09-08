@@ -15,6 +15,8 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/flutter-app-development-company-lp'
     || router.pathname == '/mobile-app-development-company-lp'
     || router.pathname == '/mobile-app-development-los-angeles'
+    || router.pathname == '/mobile-app-development-newyork'
+    || router.pathname == '/mobile-app-development-huston'
     || router.pathname == '/react-native-app-development-company-lp'
     || router.pathname == '/wearable-app-development-company-lp'
     || router.pathname == '/cross-platform-app-development-company-lp'

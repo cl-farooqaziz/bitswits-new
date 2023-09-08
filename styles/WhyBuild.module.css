@@ -1,12 +1,13 @@
 .myExpertise {
   padding: 50px 0;
   overflow: hidden;
-  background-color: #f6f7f9;
+  background-color: #000;
 }
 
 .midBuild{
   background-color: #fff;
 }
+
 
 .bttns1 {
   background-color: transparent;
@@ -95,6 +96,12 @@
 .expo{
   background: #fff;
 }
+
+.bgColor{
+  background-color: #000;
+}
+
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 991px) {

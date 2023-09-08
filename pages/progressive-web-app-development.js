@@ -1,643 +1,491 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import { Row, Col } from 'react-bootstrap'
-import banImg from '../public/images/banner/webappbanner.png'
-import foldimg from '../public/images/whybuild/pwa-img1.png'
-import foldensure from '../public/images/services/webapp/web-app-development-03.png'
+import styles from '@/styles/Coverage.module.css'
+import expStyles from '@/styles/MyExpertise.module.css'
+import whyStyles from '@/styles/whyServices.module.css'
 //components
 import Banner from '@/components/ServicesBanner'
-import Coverage from '@/components/Coverage';
-import Swipe from '@/components/Swipe';
-import Ahead from '@/components/Ahead';
-import Ensure from '@/components/Ensure';
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
 import Contact from '@/components/Contact'
-import styles from '@/styles/Coverage.module.css'
-import aheadimage from '../public/images/whybuild/pwa-img2.png'
-import Image from 'next/image';
-import WhyBuild from '@/components/WhyBuild';
-import whyStyles from '@/styles/whyServices.module.css'
-import Experienced from '@/components/Experienced'
-import exStyle from '@/styles/Experienced.module.css'
-import mobilearrow from '../public/images/icons/mobile-arrow.png'
 import MyExpertise from '@/components/MyExpertise';
-import expStyles from '@/styles/MyExpertise.module.css'
-
-import WorkExp from '@/components/WorkExp'
-import workStyles from '@/styles/WorkExp.module.css'
-
-// import MyReason from '@/components/MyReason';
-import icon1 from '../public/images/wbd-icons/wbd-icon1.png'
-import icon2 from '../public/images/wbd-icons/wbd-icon2.png'
-import icon3 from '../public/images/wbd-icons/wbd-icon3.png'
-import icon4 from '../public/images/wbd-icons/wbd-icon4.png'
-import icon5 from '../public/images/wbd-icons/wbd-icon5.png'
-import icon6 from '../public/images/wbd-icons/wbd-icon6.png'
-import icon7 from '../public/images/wbd-icons/wbd-icon7.png'
-import icon8 from '../public/images/wbd-icons/wbd-icon8.png'
-import icon9 from '../public/images/wbd-icons/wbd-icon9.png'
-import icon10 from '../public/images/wbd-icons/wbd-icon10.png'
-import icon11 from '../public/images/wbd-icons/wbd-icon11.png'
-import icon12 from '../public/images/wbd-icons/wbd-icon12.png'
-import icon13 from '../public/images/wbd-icons/wbd-icon13.png'
-import icon14 from '../public/images/wbd-icons/wbd-icon14.png'
-import icon15 from '../public/images/wbd-icons/wbd-icon15.png'
-
+import WhyBuild from '@/components/WhyBuild';
+//images
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import arrow from '../public/images/icons/arrow.webp'
+import banImg from '../public/images/banner/mobileappbanner.png'
 //
-
-import icon16 from '../public/images/wbd-icons/wbd-t1.png'
-import icon17 from '../public/images/wbd-icons/wbd-t2.png'
-import icon18 from '../public/images/wbd-icons/wbd-t3.png'
-import icon19 from '../public/images/wbd-icons/wbd-t4.png'
-import icon20 from '../public/images/wbd-icons/wbd-t5.png'
-import icon21 from '../public/images/wbd-icons/wbd-t6.png'
-import icon22 from '../public/images/wbd-icons/wbd-t7.png'
-import icon23 from '../public/images/wbd-icons/wbd-t8.png'
-import grnArrow from '../public/images/wbd-icons/arrow-green.png'
-
-
+import benefitimg1 from '../public/images/industryInt/benefit-img1.svg'
+import benefitimg2 from '../public/images/industryInt/benefit-img2.svg'
+import benefitimg3 from '../public/images/industryInt/benefit-img3.svg'
+import benefitimg4 from '../public/images/industryInt/benefit-img4.svg'
 // Why Icon
-import icon232 from '../public/images/whybuild/pwa-icon1.png'
-import icon24 from '../public/images/whybuild/pwa-icon2.png'
-import icon25 from '../public/images/whybuild/pwa-icon3.png'
-import icon26 from '../public/images/whybuild/pwa-icon4.png'
-import icon27 from '../public/images/whybuild/pwa-icon5.png'
-import icon28 from '../public/images/whybuild/pwa-icon6.png'
-import icon29 from '../public/images/whybuild/pwa-icon7.png'
-import icon30 from '../public/images/whybuild/pwa-icon8.png'
-import icon31 from '../public/images/whybuild/pwa-icon9.png'
-import icon32 from '../public/images/whybuild/pwa-1.png'
-import icon33 from '../public/images/whybuild/pwa-2.png'
-import icon34 from '../public/images/whybuild/pwa-3.png'
+import icon23 from '../public/images/fyicons/1.png'
+import icon24 from '../public/images/fyicons/2.png'
+import icon25 from '../public/images/fyicons/3.png'
+import icon26 from '../public/images/fyicons/4.png'
+import icon27 from '../public/images/fyicons/5.png'
+import icon28 from '../public/images/fyicons/6.png'
+import icon29 from '../public/images/fyicons/7.png'
+import icon30 from '../public/images/fyicons/8.png'
+import icon31 from '../public/images/fyicons/9.png'
+import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
+import NewDecFy from '@/components/NewDecFy';
 
 
-
-export default function progressivewebappdevelopment() {
-
-
-    const team = <span>Our team of <span className='grdiant'>professional progressive web app developers</span> is committed to optimizing your applications to its fullest potential. Through careful observations and analysis, we identify areas for improvement and implement strategic optimizations that result in a user-friendly experience. </span>
-
-    const continuously = <span> BitsWits, the most reliable <span className='grdiant'>progressive web app development agency</span>, has a team of experts who are dedicated to ensuring that your web app delivers the best user experience every time. Our team of professional <span className='grdiant'>progressive web app developers</span> goes above and beyond to test and optimize your applications while continuously seeking improvement opportunities to boost their performance.  </span>
-
-    const based1 = <span>Create an Exceptional <span className='grdiant'>Progressive Web App Development</span> Experience!</span>
-
-    const gives = <span>
-        Every project is different, and we modify our research methods to suit your specific goals. Whether it’s conducting focus groups, analyzing client feedback, or tracking user behavior through advanced analytics, we have a variety of creative techniques to gather relevant and reliable data for your <span className='grdiant'>progressive web app development</span>.
-    </span>
-
-    const meet = <span> Our team of expert <span className='grdiant'>progressive web app developers</span> believes in fetching data that shapes amazing results. Our experienced researchers and analysts analyze the data we collect, providing you with valuable insights that guide your product strategy. From identifying market trends to understanding user expectations, our data-driven approach helps you gain a competitive edge. </span>
-
-    const based = <span>
-        The World's largest collection of original football shirts. It is the home of classic, rare, retro and vintage football shirts from your soccer team's history.
-        <br />
-        Dotsquares has already launched their Progressive web app and see how it effects
-    </span>
-
-    const hoke = <>
-        <ul className='p-0'>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Speed optimized
-            </li>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Global presence
-            </li>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Latest technology utilization like Workbox and IndexedDB 
-            </li>
-            <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
-                Built PWAs apps for leading brands
-            </li>
-        </ul>
-    </>
-
-
-    const stay = <span className='font30 fontf font-bold black'>
-        Our Stunning Creations Portray Our Journey! 
-    </span>
-
-    const offline = <span>
-
-        The development process at BitsWits focuses on creating engaging and personalized mobile experiences that keep users coming back for more. Whether it’s through responsive designs, real-time updates, or offline capabilities, our <span className='grdiant'>progressive web app development</span> improves engagement and drives conversions.
-
-    </span>
-
-    const combines = <span>
-        At BitsWits, our team of <span className='grdiant'>progressive web app developers </span> combines technical expertise with a deeper understanding of the behavior of the user to create web applications that load quickly and work smoothly for a delightful experience across all devices and platforms.
-
-    </span>
-
-    const first = <h2> Top-Performing <span className='grdiant'>Progressive Web App Development</span> </h2>
-
-    const visually = <>
-       
-
-       <span className='grdiant font-bold'>Progressive web app development</span> services at BitsWits are changing app experiences and engagement, as seen by the statistics. When compared to regular websites, PWAs load twice as quickly on 3G networks, keep visitors twice as engaged, and increase conversion rates by over 80%. PWAs have 97% opt-in rates for push notifications, and users spend much more time each session.
-
-
-    </>
+export default function mobileappdevelopment() {
 
     // banner component data
-
-    const heading = <h1 className='font65 black fontf font-bold line60'>
-
-        Build PWAs That Adapt to Any Screen Size & Resolution with <span className='grdiant font-bold'>Top Progressive Web App Development Company</span>
-    </h1>
+    const heading = <>
+        <h1 className='font60 white fontf font-bold mb-4'>
+            <span className='grdiant'>Best Mobile App Development Company </span>
+            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+        </h1>
+    </>
 
     const para = <>
 
-        <ul className='p-0'>
+        <p className='font16 fontf font-regular fyColor justify'>
+            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+        </p>
 
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Instant Loading</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Offline Functionality</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Responsive Design</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Push Notifications</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Enhanced Security</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Low Data Usage</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Analytics and Insights</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Cost-Effective Development</li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Cross-Platform Compatibility</li>
-
-
+        <ul className='mb-4 p-0'>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+            </li>
         </ul>
     </>
 
+
     // coverage component data
 
-    const subtile = <h2 className='font50 black fontf font-bold line60 black'>Our <span className='grdiant'>Mobile App</span> Services</h2>
-
-    const mobile = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            Mobile App Design
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UI UX Design
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research & Discovery
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Wireframing & Prototyping
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                iOS + Android Applications
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Post Launch Support
-            </Link>
-        </div>
-    </div>
-
-    const user = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            User Research
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Journey & Persona Building
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Participant Recruitments
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Research Method & Material Development
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Iterative Research
-            </Link>
-        </div>
-    </div>
-
-    const ux = <div>
-        <h5 className='font20 fontf font-bold mt-1 letterspace black mb-4'>
-            UX Optimization
-        </h5>
-        <div className={styles.servcsList}>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User Experience Assessment
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                User & KPIs Data Analysis
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                A/B Testing
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                Feature Experimentation
-            </Link>
-            <Link href='#' className='font14 fontf font-semibold mt-1 black'>
-                UX Iterations
-            </Link>
-        </div>
-    </div>
-
-    const infopara = <> <p className='black fontf font-medium line30 mt-5'> Experience the thrill of diversity with our dedicated progressive web app developers, contact us to book a free consultation!  </p> </>
-
-    const titleswip = <>
-        <h3 className='black fontf font-bold font-bold line30 mt-5'>The Data Inspiring the Next App Revolution – PWAs</h3>
-    </>
-
-    // MyExpertise component data
-
+    const expsubtile = <h2 className='font50 black fontf font-bold line60 black text-center'>
+        We Turn App Ideas into Downloaded Reality!
+    </h2>
 
     const expCards = <>
-        <Row className={`${expStyles.soluRow} mt-5`}>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        {/* <Image src={icon16} alt='BitsWits' className='img-fluid' /> */}
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Engaging PWA UI/UX Design
-                    </h5>
-                    <p>
-
-                    </p>
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Creating wireframes and interactive prototypes
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Designing intuitive, snappy, and immersive UI/UX
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Ensuring designs meet the web benchmarks
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Conducting usability testing
-                                </li>
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
+        <Row className={`${expStyles.soluRow} mt-0`}>
+            <Col lg={12}>
+                <p className='text-center'>
+                    We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
+                </p>
+                <p className='text-center'>
+                    We create apps that give your brand a dazzling new dimension. Because of our holistic approach, your app emotionally engages users through visuals, motion, and micro-interactions.
+                </p>
             </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.mblR}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        {/* <Image src={icon17} alt='BitsWits' className='img-fluid' /> */}
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                    PWA Feasibility Analysis and Consultation
-                    </h5>
-                    {/* <p>
-                    Here at BitsWits our goals are to deliver work that exceeds our client’s satisfaction. With the strength of our core values and our vast array of skills, we promise to deliver the ultimate web applications and services.
-                </p> */}
-                    <Row>
-                        <Col sm={12}>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Evaluation for PWA as a right fit for you
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Technical design and strategy
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-
-                                    Benchmarking against competitors 
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Road mapping Progressive web app features to drive growth
-                                </li>
-                                
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={expStyles.soluCol}>
-                <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.mblM}`}>
-                    <div className={`${expStyles.imgBox}`}>
-                        {/* <Image src={icon18} alt='BitsWits' className='img-fluid' /> */}
-                    </div>
-                    <h5 className='font20 fontf font-bold line30'>
-                    Extensive PWA Testing 
-                    </h5>
-                    {/* <p>
-                    As far as CRM (Customer Relationship Management) systems go, here at BitsWits our professionals have extensive industry experience when it comes to developing CRM solutions.
-                </p> */}
-                    <Row>
-                        <Col>
-                            <ul className='p-0 m-0'>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Thorough testing of device and OS operation
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Field testing to get usability feedback
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Performance testing and load optimization 
-                                </li>
-                                <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
-                                    Scanning for errors and improving security 
-                                </li>
-
-                            </ul>
-                        </Col>
-                    </Row>
-                </div>
-            </Col>
-
         </Row>
     </>
 
 
     // Why Build
 
-    const expsubtile = <h2 className='font50 black fontf font-bold line60 black'>
-        PWA Design, <span className='grdiant font-bold'>Development, and Testing</span> - All in one place
-    </h2>
+    const whytitle = <>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
+            Building Mobile Applications Where Vision Meets Excellence
+        </h2>
+    </>
 
-    const whytitle = <h2 className='font50 black fontf font-bold line60 black text-center'> 
-    
-    Why Does Your Business Need <span className='grdiant font-bold'>Progressive Web App Development</span>?
-     </h2>
+    const text =
+        <p className='fyColor text-center'>
+            <span>Building your mobile app</span> boosts business services, attracts customers, and shapes success.
+        </p>
 
-    const title1 = <h2 className='font50 black fontf font-bold line60 black text-center'>
 
-Hire BitsWits For <span className='grdiant font-bold'>Progressive Web App Development</span>
-
-    </h2>
-
-    const para1 = <span className='font30 black fontf font-regular black'>
-        Hire us for progressive web app development to beat your competitors with a faster, cross-platform solution that captures wider market reach.
-    </span>
     const WhyBuilds = <>
+
         <Row className={`${whyStyles.soluRow} mt-5`}>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon232} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon23} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Online and Offline Access
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Greater Customer Reach
                     </h5>
-                    <p>
-                    <span className='grdiant font-bold'>Progressive web app development services</span> offer online and offline access with a reliable and smooth user experience.  
+                    <p className='white'>
+                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon24} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Fast Performance 
-
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Improved Customer Service
                     </h5>
-                    <p>
-                    Progressive web apps load instantly, with fast functionality. Forget waiting - PWAs deliver speedy experiences users love. 
+                    <p className='white'>
+                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon25} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    App-Store Power
-
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Shared Valuable Content
                     </h5>
-                    <p>
-                    <span className='grdiant font-bold'>Progressive web app development</span> enables immersive app-like interactions with splash screens, icons, and prompts to boost engagement.  
-                        
-                        </p>
-
+                    <p className='white'>
+                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon26} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Low-Cost and High-Rewards
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Customer Loyalty
                     </h5>
-                    <p>
-                    PWAs require lower development costs while providing high ROI if done properly.  </p>
-
+                    <p className='white'>
+                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon27} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    No Platform Left Behind 
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Drive Sales
                     </h5>
-                    <p>
-                    <span className='grdiant font-bold'>Progressive web app developers</span> work consistently across numerous platforms like desktops, mobiles, laptops, and more. </p>
-
+                    <p className='white'>
+                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
+                    </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon28} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Progressive Excellence 
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Simplified Payments
                     </h5>
-                    <p>  
-
-                    At BitsWits, PWAs keep getting better with updated features and progressive improvements. 
-
+                    <p className='white'>
+                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
                     </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon29} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Edge of Tomorrow
-
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Increased Visibility
                     </h5>
-                    <p>
-                    PWAs offer native features like push notifications, offline access, and home screen icons. 
+                    <p className='white'>
+                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
                     </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
+
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon30} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Enhanced User Engagement
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Competitive Advantage
                     </h5>
-                    <p>
-                    PWAs offer a seamless, fast, and responsive user experience, which  leads to longer on-site engagement, and increased conversions. 
-
+                    <p className='white'>
+                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
                     </p>
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
+
                 </div>
             </Col>
+
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image src={icon31} alt='BitsWits' />
                     </div>
-                    <h5 className='font20 fontf font-medium line30'>
-                    Lower Bounce Rates
+                    <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
+                        Future-Proof Your Business
                     </h5>
-                    <p>  
-PWAs reduce bounce rates and retain users through improved app-like interaction and engagement features.
-
-
+                    <p className='white'>
+                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
                     </p>
-
-                </div>
-            </Col>
-        </Row>
-
-    </>
-
-
-    const Workspace = <>
-        <Row className={`${workStyles.soluRow} mt-5 text-center`}>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    <div className={`${workStyles.imgBox} text-center`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30 mt-3'>
-                    Instability
-                </h5>
-
-
-                    <p>
-                    Users don't need an app store to install PWAs, as they can do it with just one click from their desktop or home screen.
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    <div className={`${workStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30 mt-3'>
-                    Offline Access 
-                </h5>
-                    <p>
-                    Service workers enable PWAs to operate offline after installation. Users enjoy easy, continuous use that doesn't get impacted by network issues.
-
-
-                    </p>
-
-                </div>
-            </Col>
-            <Col lg={4} md={6} className={workStyles.soluCol}>
-                <div className={`${workStyles.soluCard}`}>
-                    <div className={`${workStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
-                    </div>
-                    <h5 className='font20 fontf font-medium line30 mt-3'>
-                    Swift Speed
-                </h5>
-                    <p>
-                    PWAs provide incredibly quick loading due to caching, simplified code, and other optimizations.
-
-
-                    </p>
-
+                    <h5 class="font14">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </h5>
                 </div>
             </Col>
         </Row>
     </>
 
-    // const WorkforUser = <>  
-    // <Row className={`${workStyles.soluRow} mt-5`}>
-    // <Col lg={4} md={6} className={workStyles.soluCol}>
-    //     <div className={`${workStyles.soluCard}`}>
-    //         <div className={`${workStyles.imgBox}`}>
-    //             <Image src={icon232} alt='BitsWits' className='img-fluid' />
-    //         </div>
-    //         <h5 className='font20 fontf font-medium line30'>
-    //         Fast
-    //         </h5>
-    //         <p>
-    //         Being fast has the most significant impact on your business.
-    //         </p>
 
-    //     </div>
-    // </Col>
-    //     <Col lg={4} md={6} className={workStyles.soluCol}>
-    //         <div className={`${workStyles.soluCard}`}>
-    //             <div className={`${workStyles.imgBox}`}>
-    //                 <Image src={icon24} alt='BitsWits' className='img-fluid' />
-    //             </div>
-    //             <h5 className='font20 fontf font-medium line30'>
-    //             Offline – first
+    // Why Benefits
 
-    //             </h5>
-    //             <p>
-    //             Website can be accessed and used, even you are in offline mode or airplane mode
-    //             </p>
+    const whytitle2 = <>
+        <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
+            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        </h2>
+    </>
 
-    //         </div>
-    //     </Col>
-    //     <Col lg={4} md={6} className={workStyles.soluCol}>
-    //         <div className={`${workStyles.soluCard} ${workStyles.soluCardBR}`}>
-    //             <div className={`${workStyles.imgBox}`}>
-    //                 <Image src={icon25} alt='BitsWits' className='img-fluid' />
-    //             </div>
-    //             <h5 className='font20 fontf font-medium line30'>
-    //             Installable & Add icon to home screen
+    const text2 =
+        <p className='black text-center mb-5'>
+            The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
+        </p>
 
-    //             </h5>
-    //             <p>
-    //             It can be installed on the device’s home screen and can be easily accessed with one click.</p>
 
-    //         </div>
-    //     </Col>
-    // </Row>
-    // </>
+    const Benefits = <>
+        <Row className='benefitscard'>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Custom Solutions for Your Niche Audience
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Ongoing Support and Maintenance
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Meeting Delivery Deadline and Reliability
+                                </h4>
+                                <p className='font14'>
+                                    BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+            <Col lg={6}>
+                <div className='card mb-4'>
+                    <div className='card-body'>
+                        <Row className='gy-4'>
+                            <Col lg={5}>
+                                <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
+                            </Col>
+                            <Col lg={7}>
+                                <h4 className='font20 lheight24 font-bold'>
+                                    Better Security and Data Confidentiality
+                                </h4>
+                                <p className='font14'>
+                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                </p>
+                                <h5 class="font14 fyColor3">
+                                    <span>Connect Now</span>
+                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                </h5>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+            </Col>
+        </Row>
+        <p className='text-center'>
+            Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>mobile app development services</span>.
+        </p>
+    </>
 
-    const title23 =
-        <>
-            The Key to Mind-Blowing User Experiences with Top <span className='grdiant font-bold'>Progressive Web App Development Company</span>
-           
-        </>
 
-    const subtitle32 = <span>How PWAs Actually Works for user?
-    </span>
+    // Why Build
+
+    const Benefits1 = <>
+        <Row className='text-center'>
+            <Col lg={12}>
+                <h4 className='font50 black fontf font-bold line60 black text-center'>
+                    The <span className='grdiant'>Mobile App Development</span> Process at BitsWits!
+                </h4>
+                <p>
+                    Our mobile app development process is designed to be innovative, efficient, and transparent. Our <span className='grdiant font-bold'>mobile app development services</span> offer you the following:
+                </p>
+            </Col>
+        </Row>
+        <Row>
+            <Col lg={7}>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Initial Consultation
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> begin with understanding your objectives, obstacles, and limitations you have in mind for your app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Gathering Requirements
+                    </h4>
+                    <p>
+                        We'll work with you to define the specific requirements and functionality for your business app.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Design and Prototyping
+                    </h4>
+                    <p>
+                        In order to give you a sense of how your app will look and work, we design wireframes and prototypes.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Development
+                    </h4>
+                    <p>
+                        Our team builds applications using agile approaches and methodologies for security, speed, and integration that help create your app in a way that swiftly responds to any issues or modifications.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Testing and Quality Control
+                    </h4>
+                    <p>
+                        We thoroughly test your app to ensure it is reliable, stable, and easy to use. Our QA process checks functionality, UI, cross-platform compatibility, security, and compliance.
+                    </p>
+                </div>
+                <div className='pb-3'>
+                    <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
+                        <Image src={icon32} width={20} className='img-fluid' />
+                        Launch and Deployment
+                    </h4>
+                    <p>
+                        Our <span className='grdiant font-bold'>app developers</span> assist with deployment, guiding you through app store submissions and helping launch your app for success. We offer ongoing support post-launch to guarantee a smooth experience
+                    </p>
+                </div>
+            </Col>
+            <Col lg={5}>
+                <div className={styles.contactform}>
+                    <div className=''>
+                        <h3 className='font20 font-bold mb-3'>Get a Free Consultation</h3>
+                    </div>
+                    <Row>
+                        <Col lg={12}>
+                            <input type='text' className={styles.forminput} placeholder='Your Name' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='number' className={styles.forminput} placeholder='Phone Number' />
+                        </Col>
+                        <Col lg={12}>
+                            <input type='email' className={styles.forminput} placeholder='Email Address' />
+                        </Col>
+                        <Col lg={12}>
+                            <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                        </Col>
+                        <Col lg={12}>
+                            <input type='Submit' className={styles.notice} />
+                        </Col>
+                    </Row>
+                </div>
+            </Col>
+        </Row>
+    </>
 
 
     return (
         <>
             <Head>
-                <title>Top Rated Progressive Web App Development Company in US - BitsWits</title>
-                <meta name="description" content="As an experienced progressive web app development company, we create fast loading, immersive PWAs that provide native-quality experiences across all devices. Get started today!" />
+                <title>Top Mobile App Development Company - Bitswits.</title>
+                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for professional app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -646,76 +494,40 @@ PWAs reduce bounce rates and retain users through improved app-like interaction 
                 title={heading}
                 para={para}
                 bannerimg={banImg}
-                infopara={infopara}
+                bgClass="mobile"
             />
 
-
-            <WhyBuild
-                title="Why Build"
-                cards={WhyBuilds}
-                subtitle={whytitle}
-            />
-
-            {/* <Coverage
-                title="Coverage"
-                subtitle={subtile}
-                mobile={mobile}
-                user={user}
-                ux={ux}
-            /> */}
-
-            <Swipe
-                foldimg={foldimg}
-                title={titleswip}
-                para={visually}
-                title1={title1}
-                para1={para1}
-            // subtitle = {first}
-            />
+            <NewDecFy />
 
             <MyExpertise
-                title="Expertise"
+                title="EXPERTISE"
                 subtitle={expsubtile}
                 cards={expCards}
+                className='bgColorf'
             />
 
-            <Experienced
-                title={stay}
-                para={based}
-                subtitle='Classic Football Shirts'
-                subpara2= { <> Long before PWAs were even an idea, we were at the forefront of online innovation. Our <span className='grdiant font-bold'>progressive web app developers</span> were the first to embrace the progressive web app revolution when it initially started. Since then, we've created more than 100 highly effective PWAs for businesses across sectors, strengthening our position as industry leaders. </> }
-                // subtitle2 = {}
-                hoke={hoke}
-                ahead={aheadimage}
+            <WhyBuild
+                title="WHY BITSWITS?"
+                cards={WhyBuilds}
+                subtitle={whytitle}
+                text={text}
+                chngColor="bgColor"
             />
-            {/* <WorkExp /> */}
 
-<div className='ourspacingbottom'>
-            <WorkExp
-                title={title23}
-                subtitle={subtitle32}
-                Workspace={Workspace}
-
+            <WhyBuild
+                title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
+                cards={Benefits}
+                subtitle={whytitle2}
+                text={text2}
+                alignclass="midBuild"
             />
-</div>
 
-            {/* Workspace */}
-
-            {/* <Ensure
-            foldimg  = {foldensure}
-            title = {based1}
-            para =  {continuously}
-            subtitle = 'Continuous Improvement and Better Outcomes '
-            subpara = {team}
-            subtitle2 = 'Data-Informed Product Decisions!'
-            subpara2 = 'Our research data serves as a foundation for making data-informed product decisions. By understanding your target audience on a deeper level, we customize apps according to their preferences, improving engagement and satisfaction. '
-            
-            
-            
-            /> */}
             <OurProject />
+
             <ClientsThink />
+
             <Nextproject />
+
             <Contact />
         </>
     )

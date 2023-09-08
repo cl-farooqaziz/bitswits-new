@@ -38,6 +38,8 @@ import Contact from '@/components/Contact'
 import NewSliderFy from '@/components/NewSliderFy'
 import Aboutlp from '@/components/Aboutlp'
 import NewBannerFy from '@/components/NewBannerFy'
+import Consultation from '@/components/Consultation'
+import Consultation2 from '@/components/Consultation2'
 
 
 export default function gameappdevelopmentcompanylp() {
@@ -429,7 +431,7 @@ export default function gameappdevelopmentcompanylp() {
 
 
 
-            <Container className='campny'>
+            <Container className='campny pb-5'>
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>THE WORK WE UNDERTAKE</h3>
@@ -450,14 +452,17 @@ export default function gameappdevelopmentcompanylp() {
             </Container>
 
 
+            <Consultation />
+
+
             <Container className='topbottom'>
                 <Row>
                     <Col>
                         <h3 className='f-20 f-700 black t-center'>OUR <span className='grdiant'>SERVICES</span> ARE WHERE INNOVATION MEETS PLAY</h3>
-                        <h2 className='f-50 f-700 black t-center mb-3'>Which <span className='grdiant'>Genre Of Games</span> Do We Create?</h2>
+                        <h2 className='f-50 f-700 black t-center mb-5'>Which <span className='grdiant'>Genre Of Games</span> Do We Create?</h2>
                     </Col>
                 </Row>
-                <Row className='gy-4'>
+                <Row className='gy-5'>
 
                     <Incredible
                         fontpont={incredible}
@@ -524,7 +529,11 @@ export default function gameappdevelopmentcompanylp() {
             <Publication />
 
             <Range />
+
             <Hireus />
+
+            <Consultation2 />
+            
             <ClientsThinklp />
             <Contact
               newBg="newBg"

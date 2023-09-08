@@ -17,7 +17,7 @@ import team7 from '../public/images/hire/7.webp'
 import team8 from '../public/images/hire/8.webp'
 import team9 from '../public/images/hire/9.webp'
 
-const Hireus = () => {
+const Hireus = (props) => {
 
     let teamSlider = {
         centerMode: true,
@@ -43,7 +43,7 @@ const Hireus = () => {
 
     return (
         <>
-            <section className={styles.resources}>
+            <section className={`${styles.resources} ${styles[props.bgColor]}`}>
                 <section className={styles.hireUs}>
                     <Container>
 

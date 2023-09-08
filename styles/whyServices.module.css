@@ -51,15 +51,16 @@
   height: 100%;
   transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   cursor: pointer;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #252323;
+  border-right: 1px solid #252323;
   border-radius: 0;
-  background: white;
+  background: #000;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
+  text-align: left;
 }
 
 .soluCard.soluCardJstCntr {
@@ -83,15 +84,30 @@
   justify-content: center;
 }
 
+.imgBox img{
+  /* filter: grayscale(); */
+  width: 500px;
+}
+
+.soluCard h5 img{
+  filter: grayscale();
+}
+
 .soluCard h5 {
   margin-bottom: 10px;
   letter-spacing: -1px;
+  color: #a7a7a7;
+}
+
+.soluCard h5 span{
+  color: #5275e9;
 }
 
 .soluCard p {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  color: #9f9999;
 }
 
 .soluCard ul {

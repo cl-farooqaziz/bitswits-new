@@ -8,12 +8,13 @@ import icon1 from '../public/images/banner/icon1.png'
 import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
+import arrow from '../public/images/icons/arrow.webp'
 
 
 const ServicesBanner = (props) => {
 
     return (
-        <section className={`${styles.banner} ${styles.webDevelpmnt}`}>
+        <section className={`${styles.banner} ${styles.webDevelpmnt} ${styles[props.bgClass]}`}>
             <Container fluid>
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
@@ -38,8 +39,9 @@ const ServicesBanner = (props) => {
 
 
                             <div className={`${styles.bttnsto} mt-3`}>
-                                <Link className={styles.bttns1} href='tel:(833) 500-6007'>(833)500-6007</Link>
-                                <Link className={styles.bttns2} href="#">Chat with Us Today!</Link>
+                                {/* <Link className={styles.bttns1} href='tel:(833) 500-6007'>(833)500-6007</Link> */}
+                                <Link className={styles.bttns2} href="#">Let's Build Something</Link>
+                                <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                             </div>
 
 
@@ -61,7 +63,7 @@ const ServicesBanner = (props) => {
                                         src={callIcn}
 
                                     />
-                                    <p className='font13 font-semibold lightgrey fontf m-0'>
+                                    <p className='font13 font-semibold white fontf m-0'>
                                         Let's discuss your project:
                                     </p>
                                 </div>
@@ -70,7 +72,7 @@ const ServicesBanner = (props) => {
 
                             <div className={styles.make}>
                                 <div className={styles.free}>
-                                    <p className='font16 texttran font-bold fontf grey'>
+                                    <p className='font16 texttran font-bold fontf white'>
                                         Make an obligation-free enquiry
                                     </p>
                                 </div>
@@ -80,7 +82,7 @@ const ServicesBanner = (props) => {
                                     <input type='email' className={styles.forminput} placeholder='Email Address' />
                                     <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
                                     <div className={`${styles.take} d-flex`}>
-                                        <p className='grey font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong> .</p>
+                                        <p className='white font11 font-semibold fontf m-0'>We take your privacy seriously.<br></br> Read our <strong>Privacy Notice</strong> .</p>
                                         <input type='Submit' className={styles.notice} />
                                     </div>
 
@@ -89,7 +91,7 @@ const ServicesBanner = (props) => {
 
                             <div className={styles.read}>
                                 <div className={`${styles.free} text-center`}>
-                                    <p className='font21 font-bold fontf grey'>OUR OFFICES</p>
+                                    <p className='font21 font-bold fontf white'>OUR OFFICES</p>
                                 </div>
 
                                 <div className={styles.locations}>
