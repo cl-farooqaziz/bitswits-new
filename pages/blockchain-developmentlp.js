@@ -16,6 +16,7 @@ import Contact from '@/components/blockchain/Contact';
 import FireUp from '@/components/blockchain/FireUp';
 // import { keyframes } from "@emotion/react";
 import Banners from '@/components/blockchain/Banners';
+import '../styles/blockchain/globals.css'
 // import Languages from '@/components/Languages';
 // import { Reveal } from "react-awesome-reveal";
 // import { Fade } from "react-awesome-reveal";

@@ -3,7 +3,7 @@ import React from 'react';
 // import Link from 'next/link';
 import { Col, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import style from '@/styles/HomeBanner.module.css';
+import style from '@/styles/blockchain/Banner.module.css';
 import logo1 from '@/public/blockchain/images/logo-1.png'; 
 import logo2 from '@/public/blockchain/images/logo-2.png'; 
 import logo3 from '@/public/blockchain/images/logo-3.png'; 

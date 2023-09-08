@@ -59,7 +59,7 @@ const Trusted = () => {
         <Container>
           <Row>
             <Col lg={12}>
-              <h4 className='font-semibold font25 fontf black center'>TRUSTED BY STARTUPS TO PUBLICLY LISTED COMPANIES</h4>
+              <h4 className='font-semibold font25 fontf white center'>TRUSTED BY STARTUPS TO PUBLICLY LISTED COMPANIES</h4>
             </Col>
           </Row>
           <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>

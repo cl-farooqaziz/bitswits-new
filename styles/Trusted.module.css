@@ -1,5 +1,5 @@
 .trusted {
-  background-color: #f1f1f1;
+  background-color: #000;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -16,6 +16,7 @@
 .startup1 img {
   margin: 0 auto;
   width: 130px;
+  filter: contrast(0.5);
 }
 
 .minImg img{
