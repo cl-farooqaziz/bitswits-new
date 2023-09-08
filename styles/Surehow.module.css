@@ -52,12 +52,26 @@ font-family: 'Dosis', sans-serif;
     padding: 10px 20px 10px 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
 
   .engineering h2 {
     font-size: 40px;
     letter-spacing: unset;
+    margin-bottom: 4%;
+}
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+  .engineering h2 {
+    font-size: 30px;
+    letter-spacing: unset;
+    margin-bottom: 4%;
 }
 
 
