@@ -41,7 +41,7 @@ import icon3 from '../public/images/mobilelpservices/web30.png'
 import icon4 from '../public/images/mobilelpservices/blockchain.png'
 import icon5 from '../public/images/mobilelpservices/webflow.png'
 import icon6 from '../public/images/mobilelpservices/artifical.png'
-import Ourservices from '@/components/Ourservices'
+import Ourservices from '@/components/Ourserviceslp'
 import NewBannerFy from '@/components/NewBannerFy'
 import NewSliderFy from '@/components/NewSliderFy'
 import Aboutlp from '@/components/Aboutlp'
@@ -50,7 +50,7 @@ import Ourportfoliolp from '@/components/Ourportfoliolp'
 import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
-import FaqsLp from '@/components/FaqsLp'
+import FaqsLp from '@/components/FaqsmobileappLp'
 import Consultation2 from '@/components/Consultation2'
 
 
@@ -70,8 +70,8 @@ export default function androidappdevelopmentcompanylp() {
 
         {
             id: '1',
-            title: 'IOS Application Development',
-            text: (<> We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps! </>),
+            title: 'Android Application Development',
+            text: (<> We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations. </>),
             click1: 'tab1',
             img: icon6,
             fun: game,
@@ -79,8 +79,8 @@ export default function androidappdevelopmentcompanylp() {
         },
         {
             id: '2',
-            title: 'Android Application Development',
-            text: (<> We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations. </>),
+            title: 'Web App Development',
+            text: (<> We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today! </>),
             click1: 'tab2',
             img: icon1,
             fun: game,
@@ -97,8 +97,8 @@ export default function androidappdevelopmentcompanylp() {
         },
         {
             id: '4',
-            title: 'Web App Development',
-            text: (<> We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today! </>),
+            title: 'React Native App Development',
+            text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
             click1: 'tab4',
             img: icon2,
             fun: game,
@@ -115,8 +115,8 @@ export default function androidappdevelopmentcompanylp() {
         },
         {
             id: '6',
-            title: 'React Native App Development',
-            text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
+            title: 'IOS Application Development',
+            text: (<> We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps! </>),
             click1: 'tab6',
             img: icon4,
             fun: game,
@@ -257,6 +257,17 @@ export default function androidappdevelopmentcompanylp() {
             {/* <NewSliderFy /> */}
 
             <Ourservices
+               title= 'SERVICES'
+               title2= { <>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
+                   
+                   <span className='grdiant'>Mobile App Development</span> Services 
+                   
+                    </h2> </> }
+                    para ={ <>   <p className='font16 white fontf font-medium t-center'>
+                   
+                   Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.
+                    
+                     </p> </> }
                 services={services1}
             />
 
@@ -274,7 +285,7 @@ export default function androidappdevelopmentcompanylp() {
 
             <Ourportfoliolp />
 
-            <Lookingforlp />
+            {/* <Lookingforlp /> */}
 
             <Consultation2 />
 

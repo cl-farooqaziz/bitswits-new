@@ -36,7 +36,7 @@ import Scalable from '@/components/Scalable'
 import Enhanced from '@/components/Enhanced'
 import NewDecFy from '@/components/NewDecFy'
 import Consultation2 from '@/components/Consultation2'
-import FaqsLp from '@/components/FaqsLp'
+import FaqsLp from '@/components/FaqsiosLp'
 import lop1 from '/public/images/bonus/1.webp'
 import lop2 from '/public/images/bonus/2.webp'
 import lop3 from '/public/images/bonus/3.webp'
@@ -52,7 +52,7 @@ import icon3 from '../public/images/iphoneservice/web30.png'
 import icon4 from '../public/images/iphoneservice/blockchain.png'
 import icon5 from '../public/images/iphoneservice/webflow.png'
 import icon6 from '../public/images/iphoneservice/artifical.png'
-import Ourservices from '@/components/Ourservices'
+import Ourservices from '@/components/Ourserviceslp'
 import Aboutlp from '@/components/Aboutlp'
 import NewBannerFy from '@/components/NewBannerFy'
 import NewSliderFy from '@/components/NewSliderFy'
@@ -285,6 +285,12 @@ export default function iosappdevelopmentcompanylp() {
 
 
             <Ourservices
+                title= 'IOS APP DEVELOPMENT SERVICES'
+                title2= { <>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
+                    
+                    Craft Incredible Apps : <span className='grdiant'> Hire iOS App Developer! </span>
+                    
+                     </h2> </> }
                 services={services1}
             />
 
@@ -408,7 +414,22 @@ export default function iosappdevelopmentcompanylp() {
             <Ourportfoliolp />
 
 
-            <Lookingforlp />
+            <Lookingforlp
+            
+            tilte = {  <>    <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5> </> }
+            title2 = { <> <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
+            
+            Bring Out The Best Of Your <span className='grdiant'>Mobile Application With Our Scalable Technology</span> Stack
+            
+            </h2>  </> }
+            para = { <> 
+            
+            <p className='font18 black t-center'>We build top-notch mobile apps using a tried-and-true technological stack that can scale.</p>
+            
+            </> }
+            
+            
+            />
 
             <Consultation2 />
 

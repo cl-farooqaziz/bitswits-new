@@ -51,7 +51,7 @@ import Digitallp from '@/components/Digitallp'
 import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
 import Consultation2 from '@/components/Consultation2'
-import FaqsLp from '@/components/FaqsLp'
+import FaqsLp from '@/components/FaqsiosLp'
 
 
 
