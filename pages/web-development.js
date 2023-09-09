@@ -42,29 +42,33 @@ export default function mobileappdevelopment() {
     // banner component data
     const heading = <>
         <h1 className='font60 white fontf font-bold mb-4'>
-            <span className='grdiant'>Best Mobile App Development Company </span>
-            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+            Building Futuristic Applications With Our World-Class
+            <span className='grdiant'> Web App Development Company</span>
         </h1>
     </>
 
     const para = <>
 
         <p className='font16 fontf font-regular fyColor justify'>
-            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+            At BitsWits, our web application developers focus on creating web solutions and improving brand identity. Connect with us and let our experts fill your apps with creativity and entertainment.
         </p>
 
         <ul className='mb-4 p-0'>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+                Increased demand and functionality with scalable web apps.
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+                Smart solutions into web apps.
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+                Combining technology and innovation to create intelligent online apps.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Innovative web app development
             </li>
         </ul>
     </>
@@ -95,7 +99,7 @@ export default function mobileappdevelopment() {
     const whytitle = <>
         <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
         <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
-            Building Mobile Applications Where Vision Meets Excellence
+            How Our Web Application Developers Take Websites from Blah to Wow!
         </h2>
     </>
 
@@ -114,10 +118,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Greater Customer Reach
+                        E-Commerce Development
                     </h5>
                     <p className='white'>
-                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
+                        We create feature-rich online shops that are optimized for simplified usage and sales. Extensive product brochures, secure checkout, promotions, SEO, and other features are available on our eCommerce platforms.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -131,10 +135,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Improved Customer Service
+                        Personalized Portal Development
                     </h5>
                     <p className='white'>
-                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
+                        Our web developers create branded, private portals that accelerate procedures and centralize access, communication, and collaboration.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -148,10 +152,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Shared Valuable Content
+                        Game Design
                     </h5>
                     <p className='white'>
-                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
+                        Our web application developers create interactive web games using a variety of technologies, including HTML5, WebGL, and JavaScript. Our games draw players in with amazing graphics, engaging gameplay, and social features.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -165,10 +169,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon26} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Customer Loyalty
+                        LMS and Learning Platforms
                     </h5>
                     <p className='white'>
-                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
+                        For the purpose of providing online training and courses, we construct reliable learning management systems. Course creation, testing, certification, and social learning are all part of our LMS solutions.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -182,10 +186,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Drive Sales
+                        Database and Listings
                     </h5>
                     <p className='white'>
-                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
+                        To link consumers with pertinent providers and companies, we provide specialized directories and classified websites. On our platforms, users can browse, search, check reviews, make reservations, and more.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -199,10 +203,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Simplified Payments
+                        Sites for Social Networking
                     </h5>
                     <p className='white'>
-                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
+                        We create social networks that link members based on shared interests and goals. Modern features on our social networks include profiles, newsfeeds, chat, groups, and more.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -216,10 +220,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Increased Visibility
+                        Streaming Multimedia
                     </h5>
                     <p className='white'>
-                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
+                        We build platforms for streaming rich media, including music, video, and photos. Our platforms include responsive playback, playlists, comments, and other features.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -234,10 +238,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Competitive Advantage
+                        Custom CMS Solutions
                     </h5>
                     <p className='white'>
-                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
+                        Our web app developers provide adaptable content management solutions that are customized to your unique content processing requirements.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -253,10 +257,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Future-Proof Your Business
+                        Portals for Real Estate
                     </h5>
                     <p className='white'>
-                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
+                        We create real estate portals that showcase the latest features like mortgage calculation, agent biographies, virtual tours, tax reports metrics and 360-Degree Entity Management.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -272,8 +276,8 @@ export default function mobileappdevelopment() {
     // Why Benefits
 
     const whytitle2 = <>
-        <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
-            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        <h2 className='font50 fontf font-bold text-center black mb-5'>
+            Let the Heroes of Top <span className='grdiant'>Web App Development Company</span> Rescue from Overflow Work and Save the Day by Offloading Projects!
         </h2>
     </>
 
@@ -294,10 +298,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Custom Solutions for Your Niche Audience
+                                    Expertise and Capabilities
                                 </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                    Our expert group of <span className='grdiant font-bold'>web app developers and designers </span>has built web applications for businesses and startups. We keep up with the most recent trends in web and mobile app development and can create anything from basic CRUD applications to more intricate SaaS solutions.
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -317,10 +321,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Ongoing Support and Maintenance
+                                    Specialized Talents and Skills
                                 </h4>
                                 <p className='font14'>
-                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
+                                    Our team offers expertise in advanced technologies like <span className='grdiant font-bold'>machine learning, augmented reality, real-time communication, and blockchain,</span> in addition to more conventional talents like React and Node. We can assist with integrating modern features.
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -340,10 +344,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Meeting Delivery Deadline and Reliability
+                                    Increased Development Bandwidth
                                 </h4>
                                 <p className='font14'>
-                                    BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
+                                    By delegating work to us, you lighten the pressure on your <span className='grdiant font-bold'>present developers.</span> This enables them to concentrate on their strategic ambitions and primary goals rather than extra tasks.
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -363,10 +367,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Better Security and Data Confidentiality
+                                    Latest Tech Stack
                                 </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                    Our <span className='grdiant font-bold'>top web application developers</span> remain up to date with contemporary web stacks like React, Angular, Node, and Golang. We can create apps that are more accessible and maintainable
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -511,7 +515,7 @@ export default function mobileappdevelopment() {
                 title="WHY BITSWITS?"
                 cards={WhyBuilds}
                 subtitle={whytitle}
-                text={text}
+                // text={text}
                 chngColor="bgColor"
             />
 
@@ -519,7 +523,7 @@ export default function mobileappdevelopment() {
                 title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
                 cards={Benefits}
                 subtitle={whytitle2}
-                text={text2}
+                // text={text2}
                 alignclass="midBuild"
             />
 

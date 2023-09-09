@@ -42,29 +42,34 @@ export default function mobileappdevelopment() {
     // banner component data
     const heading = <>
         <h1 className='font60 white fontf font-bold mb-4'>
-            <span className='grdiant'>Best Mobile App Development Company </span>
-            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+            The Leading
+            <span className='grdiant'>Magento Enterprise Solutions Company </span>
+            Powering Online Retail Innovation
         </h1>
     </>
 
     const para = <>
 
         <p className='font16 fontf font-regular fyColor justify'>
-            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+            Our Magento enterprise development services have been of highest quality for decades. Let our experts work on your project to make them succeed without hassles!
         </p>
 
         <ul className='mb-4 p-0'>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+                Custom Module Development
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+                Crafting Inventive Online Stores That Attract and Convert
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+                Customized Theme Designs
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Sales Optimization
             </li>
         </ul>
     </>
@@ -80,7 +85,7 @@ export default function mobileappdevelopment() {
         <Row className={`${expStyles.soluRow} mt-0`}>
             <Col lg={12}>
                 <p className='text-center'>
-                    We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top mobile app development company</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
+                    We don't just build applications at BitsWits, the <span className='grdiant font-bold'>top magento enterprise solutions</span> in USA. We shape smooth digital experiences. Our <span className='grdiant font-bold'>app developers</span> and creators blend imagination and creativity with empathy to envision every user's tap and swipe. From constructing back ends to pixel-perfect designs, we assure every user of an unforgettable journey.
                 </p>
                 <p className='text-center'>
                     We create apps that give your brand a dazzling new dimension. Because of our holistic approach, your app emotionally engages users through visuals, motion, and micro-interactions.
@@ -101,7 +106,7 @@ export default function mobileappdevelopment() {
 
     const text =
         <p className='fyColor text-center'>
-            <span>Building your mobile app</span> boosts business services, attracts customers, and shapes success.
+            <span>Our Renowned Magento Enterprise Solutions Helping Brands Achieve their eCommerce Goals</span>
         </p>
 
 
@@ -114,10 +119,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Greater Customer Reach
+                    Custom Module Development 
                     </h5>
                     <p className='white'>
-                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
+                    To expand the possibilities of your ecommerce shop, Magento developers construct new modules that are specifically suited to your individual business demands.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -131,10 +136,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Improved Customer Service
+                    Integrations with Third Parties
                     </h5>
                     <p className='white'>
-                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
+                    Our Magento enterprise developers expertly connect the highest quality third-party softwares, including ERP, CRM, and marketing automation solutions.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -148,10 +153,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Shared Valuable Content
+                    Design of a Custom Theme 
                     </h5>
                     <p className='white'>
-                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
+                    Our designers produce distinctive, brand-aligned themes that entice customers to visit your shop.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -165,10 +170,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon26} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Customer Loyalty
+                    Sales Optimization and Management  
                     </h5>
                     <p className='white'>
-                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
+                    Our Magento enterprise solutions include tools and data analysis to improve pricing, promotions, and product listings for greater conversions and sales.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -182,10 +187,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Drive Sales
+                    Marketing Automation
                     </h5>
                     <p className='white'>
-                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
+                    With the aid of automation and data insights, Magento enterprise developers at BitsWits assist you in developing focused campaigns and customer experiences.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -199,10 +204,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Simplified Payments
+                    Flexible Infrastructure
                     </h5>
                     <p className='white'>
-                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
+                    Magento enterprise developers builds an adaptable, safe, and high-performing infrastructure that can expand with the growth of your company.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -216,10 +221,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Increased Visibility
+                    Certified Magento Enterprise Developers 
                     </h5>
                     <p className='white'>
-                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
+                    The team at BitsWits consists of professional Magento enterprise developers who are officially certified by Magento for their skills.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -234,10 +239,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Competitive Advantage
+                    Complex Project Experience
                     </h5>
                     <p className='white'>
-                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
+                    Our Magento developers have extensive experience on complex enterprise-scale Magento projects. 
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -253,10 +258,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Future-Proof Your Business
+                    Costs and Time Savings 
                     </h5>
                     <p className='white'>
-                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
+                    Magento enterprise Solutions provide quality and value by reducing costs, timelines, and other obstacles. 
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -272,14 +277,14 @@ export default function mobileappdevelopment() {
     // Why Benefits
 
     const whytitle2 = <>
-        <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
-            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        <h2 className='font50 fontf font-bold line60 text-center black mb-5'>
+            The Perks of Choosing the <span className='grdiant'>Magento Enterprise Solutions Company!</span>
         </h2>
     </>
 
     const text2 =
         <p className='black text-center mb-5'>
-            The talented and professional <span className='grdiant font-bold'>mobile app developers</span> at BitsWits will fulfill all your goals and needs on schedule.
+            The talented and professional <span className='grdiant font-bold'>Magento Enterprise Solutions</span> at BitsWits will fulfill all your goals and needs on schedule.
         </p>
 
 
@@ -297,7 +302,7 @@ export default function mobileappdevelopment() {
                                     Custom Solutions for Your Niche Audience
                                 </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                    Our <span className='grdiant font-bold'>Magento Enterprise Solutions</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -366,7 +371,7 @@ export default function mobileappdevelopment() {
                                     Better Security and Data Confidentiality
                                 </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                    Our <span className='grdiant font-bold'>Magento Enterprise Solutions</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -379,7 +384,7 @@ export default function mobileappdevelopment() {
             </Col>
         </Row>
         <p className='text-center'>
-            Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>mobile app development services</span>.
+            Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>Magento Enterprise Solutions</span>.
         </p>
     </>
 
@@ -390,10 +395,10 @@ export default function mobileappdevelopment() {
         <Row className='text-center'>
             <Col lg={12}>
                 <h4 className='font50 black fontf font-bold line60 black text-center'>
-                    The <span className='grdiant'>Mobile App Development</span> Process at BitsWits!
+                    The <span className='grdiant'>Magento Enterprise Solutions</span> Process at BitsWits!
                 </h4>
                 <p>
-                    Our mobile app development process is designed to be innovative, efficient, and transparent. Our <span className='grdiant font-bold'>mobile app development services</span> offer you the following:
+                    Our Magento Enterprise Solutions process is designed to be innovative, efficient, and transparent. Our <span className='grdiant font-bold'>Magento Enterprise Solutions services</span> offer you the following:
                 </p>
             </Col>
         </Row>
@@ -485,7 +490,7 @@ export default function mobileappdevelopment() {
     return (
         <>
             <Head>
-                <title>Top Mobile App Development Company - Bitswits.</title>
+                <title>Top Magento Enterprise Solutions Company - Bitswits.</title>
                 <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for professional app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
@@ -519,7 +524,7 @@ export default function mobileappdevelopment() {
                 title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
                 cards={Benefits}
                 subtitle={whytitle2}
-                text={text2}
+                // text={text2}
                 alignclass="midBuild"
             />
 
