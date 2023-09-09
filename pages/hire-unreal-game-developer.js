@@ -112,7 +112,7 @@ export default function hireunrealgamedeveloper() {
         </ul>
     </>
 
-    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Our developers are all 100% in-house permanent staff, working from our brick & mortar offices in India, Brighton & London.</p> </>
+    const infopara = <> <p className='black fontf font-medium line30 mt-3'>Our developers are all 100% in-house permanent staff, working from our brick & mortar offices in USA, Brighton & London.</p> </>
 
 
 

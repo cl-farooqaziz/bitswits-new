@@ -43,7 +43,7 @@ import bactria from '../public/images/icons/bactria.png'
 import Modal from 'react-bootstrap/Modal';
 import Freequote from '../components/Freequote'
 import { RxCross2 } from 'react-icons/rx'
-import newImg from '../public/images/1.png'
+import newImg from '../public/images/1.jpg'
 
 
 const Header = () => {
@@ -145,6 +145,12 @@ const Header = () => {
                                                                         </Link>
                                                                     </li>
                                                                     <li>
+                                                                        <Link onClick={handleMenu} href='/mobile-app-development'>
+                                                                            <FaAngleRight />
+                                                                            <span>Mobile App Development</span>
+                                                                        </Link>
+                                                                    </li>
+                                                                    <li>
                                                                         <Link onClick={handleMenu} href='/android-app-development-company'>
                                                                             <FaAngleRight />
                                                                             <span>Android App Development</span>
@@ -187,12 +193,6 @@ const Header = () => {
                                                                             <span>Progressive Web App Development</span>
                                                                         </Link>
                                                                     </li> */}
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/mobile-app-development'>
-                                                                            <FaAngleRight />
-                                                                            <span>Mobile App Development</span>
-                                                                        </Link>
-                                                                    </li>
                                                                     {/* <li>
                                                                         <Link onClick={handleMenu} href='/internet-of-things'>
                                                                             <FaAngleRight />
@@ -481,28 +481,42 @@ const Header = () => {
                                                                                     </div>
 
                                                                                     <li>
-                                                                                        <Link onClick={handleMenu} href='/nft-game-development-company'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>NFT Game Development</span>
-                                                                                        </Link>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='/blockchain-game-development-company'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>Blockchain Game Development</span>
-                                                                                        </Link>
-                                                                                    </li>
-
-                                                                                    <li>
                                                                                         <Link onClick={handleMenu} href='/game-development'>
                                                                                             <FaAngleRight />
                                                                                             <span>Game Development</span>
                                                                                         </Link>
                                                                                     </li>
+
                                                                                     <li>
-                                                                                        <Link onClick={handleMenu} href='/virtual-reality'>
+                                                                                        <Link onClick={handleMenu} href='/game-app-development-company-lp'>
                                                                                             <FaAngleRight />
-                                                                                            <span>Mobile Game Development</span>
+                                                                                            <span>Game App Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/2d-game-development-company-lp'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>2D Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/3d-game-development-company-lp'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>3D Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/nft-game-development-company-lp'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Nft Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/blockchain-game-development-company-lp'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Blockchain Game Development</span>
                                                                                         </Link>
                                                                                     </li>
                                                                                     <li>
@@ -517,19 +531,6 @@ const Header = () => {
                                                                                             <span>3D Art</span>
                                                                                         </Link>
                                                                                     </li>
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='/augmented-reality'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>Augmented Reality</span>
-                                                                                        </Link>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='/virtual-reality'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>Virtual Reality</span>
-                                                                                        </Link>
-                                                                                    </li>
-
                                                                                 </ul>
                                                                             </Col>
                                                                         </Row>
