@@ -120,9 +120,9 @@ const Header = () => {
                                     />
                                 </div>
                                 <Row>
-                                    <Col md={9}>
+                                    <Col md={12}>
                                         <Row className={styles.megaRow}>
-                                            <Col md={4}>
+                                            <Col md={3}>
                                                 <div className={styles.listMain}>
 
                                                     <div className={styles.listBody}>
@@ -211,7 +211,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col md={4}>
+                                            <Col md={3}>
                                                 <div className={styles.listMain}>
 
                                                     <div className={styles.listBody}>
@@ -339,7 +339,7 @@ const Header = () => {
                                                     <div className={styles.listBody}>
                                                         <Row>
                                                             <Col md={12}>
-                                                                
+
                                                             </Col>
                                                         </Row>
                                                     </div>
@@ -389,7 +389,7 @@ const Header = () => {
                                                     </div>
                                                 </Col> */}
                                             </Col>
-                                            <Col md={4}>
+                                            <Col md={3}>
                                                 {/* <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -529,7 +529,31 @@ const Header = () => {
                                                                                             <span>Virtual Reality</span>
                                                                                         </Link>
                                                                                     </li>
-                                                                                    
+
+                                                                                </ul>
+                                                                            </Col>
+                                                                        </Row>
+                                                                    </div>
+                                                                </div>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
+                                            </Col>
+                                            <Col md={3}>
+                                                <div className={`${styles.listMain} mt-0`}>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <div className={`${styles.listMain} ${styles.resList} mt-0`}>
+
+                                                                    <div className={styles.listBody}>
+                                                                        <Row>
+                                                                            <Col md={12}>
+                                                                                <ul className='mb-0 mt-0'>
+                                                                                    <li>
+                                                                                        <Image src={newImg} alt='BitsWits' className='img-fluid' />
+                                                                                    </li>
                                                                                 </ul>
                                                                             </Col>
                                                                         </Row>
@@ -613,12 +637,12 @@ const Header = () => {
                                             </Col> */}
                                         </Row>
                                     </Col>
-                                    <Col md={3} className={styles.imgCol}>
+                                    {/* <Col md={3} className={styles.imgCol}>
                                         <div className={styles.listMain2}>
 
                                             <Image src={newImg} alt='BitsWits' className='img-fluid' />
 
-                                            {/* <div className={styles.listHeading}>
+                                            <div className={styles.listHeading}>
                                                 <h5 className='font20 fontf font-semibold mb-0'>INDUSTRIES</h5>
                                             </div>
                                             <div className={styles.listBody}>
@@ -748,9 +772,9 @@ const Header = () => {
                                                         </ul>
                                                     </Col>
                                                 </Row>
-                                            </div> */}
+                                            </div>
                                         </div>
-                                    </Col>
+                                    </Col> */}
                                 </Row>
                             </div>
                         </li>
@@ -999,7 +1023,7 @@ const Header = () => {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className={styles.workBox}>
+                                            <div className={`${styles.workBox} ${styles.lastBox}`}>
                                                 <div className={`${styles.ourWork} ${styles.cntct}`}>
                                                     <div className={styles.fill}>
                                                         <div>
@@ -1586,6 +1610,16 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li> */}
+                        <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMenu}>
+                            <Link href='/about-us' className={styles.megaLink}>
+                                About
+                            </Link>
+                        </li>
+                        <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMenu}>
+                            <Link href='/contact-us' className={styles.megaLink}>
+                                Contact
+                            </Link>
+                        </li>
                         <li className={`${styles.navList} ${styles.inqBtn}`} onClick={modal}>
                             <Link href='#'>ENQUIRE NOW</Link>
                         </li>

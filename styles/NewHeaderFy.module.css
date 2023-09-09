@@ -21,7 +21,6 @@
   height: 100%;
   display: flex;
   align-items: center;
-  position: relative;
   /* box-shadow: rgba(0, 0, 0, 0.35) 20px 0px 15px; */
 }
 
@@ -35,6 +34,7 @@
 
 .menu li {
   height: 100%;
+  display: flex;
 }
 
 .menu li a {
@@ -82,6 +82,13 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   transition: all 0.4s ease-in-out;
+  border-image: linear-gradient(90deg, #f32f5e, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  border-top: 2px solid;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 .megaList1:hover .megaMenu1,
@@ -135,8 +142,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  border-bottom: 1px solid #919191;
   padding-bottom: 8px;
+  width: 100%;
+  border-image: linear-gradient(90deg, #f32f5e, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 2px solid;
+  border-left: 0;
+  border-right: 0;
 }
 
 .listHeading h5 {
@@ -153,6 +167,10 @@
 
 .listImg {
   text-align: center;
+  background-color: #1c1c1cc2;
+  padding: 20px;
+  border-radius: 10px;
+  height: 375px;
 }
 
 .listImg img {
@@ -164,7 +182,15 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10px;
+  padding: 20px;
+  background-color: #1c1c1cc2;
+  gap: 20px;
+  border-radius: 10px;
+  height: 520px;
+}
+
+.listBody ul li {
+  width: 100%;
 }
 
 .listBody ul li a {
@@ -173,6 +199,12 @@
   gap: 8px;
   padding: 0;
   color: #ccc;
+  position: relative;
+  width: 100%;
+}
+
+.listBody ul li a:hover {
+  background-color: transparent !important;
 }
 
 .listBody ul li span {
@@ -180,6 +212,8 @@
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  border-bottom: 1px solid #a7a7a7;
+  width: 100%;
 }
 
 .listBody p {
@@ -197,11 +231,11 @@
 }
 
 .megaMenu3 .megaRow {
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 
 .megaMenu3 .listMain2 {
-  padding: 30px 20px 30px 10px;
+  padding: 30px;
 }
 
 .listMain2 .listBody ul {
@@ -228,7 +262,7 @@
 }
 
 .megaMenu4 {
-  padding: 40px 20px;
+  padding: 30px 20px;
 }
 
 .megaMenu4 .megaRow {
@@ -238,7 +272,11 @@
 .boxSpace {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 10px;
+  background-color: #1c1c1cc2;
+  padding: 20px;
+  border-radius: 10px;
+  height: 365px;
 }
 
 .workBox {
@@ -246,6 +284,12 @@
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
+  padding: 20px 0;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.lastBox {
+  border: 0;
 }
 
 .workBox img {
@@ -348,24 +392,49 @@
   filter: invert(0);
 }
 
+.imgCol {
+  padding: 20px 20px 20px 0;
+}
+
+.megaMenu2 .listBody ul {
+  height: 375px;
+}
+
 /* ===============Media Queries================ */
 
-@media screen and (min-width: 1440) {
+@media screen and (max-width: 1600px) {
+  .listBody ul {
+    height: 415px;
+  }
+
+  .listImg,
+  .megaMenu2 .listBody ul {
+    height: 340px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .megaMenu1,
   .megaMenu2,
   .megaMenu3,
   .megaMenu4 {
     height: auto;
   }
-
 }
 
-@media screen and (max-width: 1440) {
-  .header {
-    width: 93%;
-    left: 4%;
+@media screen and (max-width: 1440px) {
+  .listBody ul {
+    height: 370px;
   }
 
+  .listImg,
+  .megaMenu2 .listBody ul {
+    height: 300px;
+  }
+
+  .megaMenu2 {
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -373,16 +442,12 @@
     height: 90vh;
   }
 
-  .megaMenu2 {
-    height: 60vh;
-  }
-
   .megaMenu3 {
-    height: 90vh;
+    height: 70vh;
   }
 
   .megaMenu4 {
-    height: 65vh;
+    height: 70vh;
   }
 }
 
@@ -638,11 +703,10 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .menu {
     width: 80%;
   }
-  
+
   .inqBtn a {
     border-radius: 0;
   }

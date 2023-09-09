@@ -30,6 +30,7 @@
 
 .menu li {
   height: 100%;
+  display: flex;
 }
 
 .menu li a {
@@ -169,6 +170,7 @@
   background-color: #1c1c1cc2;
   padding: 20px;
   border-radius: 10px;
+  height: 375px;
 }
 
 .listImg img {
@@ -184,6 +186,7 @@
   background-color: #1c1c1cc2;
   gap: 20px;
   border-radius: 10px;
+  height: 520px;
 }
 
 .listBody ul li {
@@ -204,12 +207,13 @@
   background-color: transparent !important;
 }
 
-
 .listBody ul li span {
   font-size: 11px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  border-bottom: 1px solid #a7a7a7;
+  width: 100%;
 }
 
 .listBody p {
@@ -268,7 +272,7 @@
 .boxSpace {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 10px;
   background-color: #1c1c1cc2;
   padding: 20px;
   border-radius: 10px;
@@ -280,6 +284,12 @@
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
+  padding: 20px 0;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.lastBox {
+  border: 0;
 }
 
 .workBox img {
@@ -310,7 +320,7 @@
 }
 
 .cntct {
-  row-gap: 20px;
+  row-gap: 10px;
 }
 
 .fill {
@@ -384,12 +394,23 @@
 }
 
 .megaMenu2 .listBody ul {
-  height: 330px;
+  height: 375px;
 }
 
 /* ===============Media Queries================ */
 
-@media screen and (min-width: 1440) {
+@media screen and (max-width: 1600px) {
+  .listBody ul {
+    height: 415px;
+  }
+
+  .listImg,
+  .megaMenu2 .listBody ul {
+    height: 340px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .megaMenu1,
   .megaMenu2,
   .megaMenu3,
@@ -398,13 +419,24 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
-  .megaMenu1 {
-    height: 90vh;
+@media screen and (max-width: 1440px) {
+  .listBody ul {
+    height: 370px;
+  }
+
+  .listImg,
+  .megaMenu2 .listBody ul {
+    height: 300px;
   }
 
   .megaMenu2 {
-    height: 70vh;
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .megaMenu1 {
+    height: 90vh;
   }
 
   .megaMenu3 {
