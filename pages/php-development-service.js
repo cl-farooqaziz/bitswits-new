@@ -42,29 +42,33 @@ export default function mobileappdevelopment() {
     // banner component data
     const heading = <>
         <h1 className='font60 white fontf font-bold mb-4'>
-            <span className='grdiant'>Best Mobile App Development Company </span>
-            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+        Develop Quality Websites With Our Top
+            <span className='grdiant'> PHP Development Company</span>
         </h1>
     </>
 
     const para = <>
 
         <p className='font16 fontf font-regular fyColor justify'>
-            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+        Let's talk about utilizing PHP's flexibility to realize your most audacious online concepts!
         </p>
 
         <ul className='mb-4 p-0'>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+                PHP Artisans: Expertise in Core PHP, Laravel, CodeIgniter, and more. 
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+                Smooth Integration and Diverse Platforms Through REST APIs and Web Services.
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+                Cost-Effective Custom Solutions.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                21 Years of Excellence: Delivered 10000+ Successful PHP Websites and Apps for 480+ Clients.
             </li>
         </ul>
     </>
@@ -95,7 +99,7 @@ export default function mobileappdevelopment() {
     const whytitle = <>
         <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
         <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
-            Building Mobile Applications Where Vision Meets Excellence
+            Our PHP Experts Provide Top PHP Web Development Services
         </h2>
     </>
 
@@ -114,10 +118,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Greater Customer Reach
+                    Create Reliable Websites
                     </h5>
                     <p className='white'>
-                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
+                    PHP developers can create safe, high-performing websites that are flexible and fast.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -131,10 +135,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Improved Customer Service
+                    Make Intuitive Web Applications
                     </h5>
                     <p className='white'>
-                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
+                    Our PHP developers build intuitive and engaging web applications with rich functionality using PHP frameworks.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -148,10 +152,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Shared Valuable Content
+                    Development of API
                     </h5>
                     <p className='white'>
-                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
+                    For various channels and devices, PHP developers can create well-documented REST and SOAP APIs.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -165,10 +169,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon26} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Customer Loyalty
+                    Services for Custom CMS
                     </h5>
                     <p className='white'>
-                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
+                    PHP developers at BitsWits develop unique CMS solutions based on the demands and specifications of your particular organization.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -182,10 +186,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Drive Sales
+                    Platforms for eCommerce
                     </h5>
                     <p className='white'>
-                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
+                    PHP developers create e-commerce platforms with features like payment gateways and shopping carts that are optimized for sales.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -199,10 +203,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Simplified Payments
+                    Food Delivery Services
                     </h5>
                     <p className='white'>
-                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
+                    At BitsWits, we create online meal ordering platforms with features for menu browsing, order customization, delivery window selection, etc
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -216,10 +220,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Increased Visibility
+                    Systems for Logistics Management
                     </h5>
                     <p className='white'>
-                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
+                    Solutions for logistics management can be made by PHP developers and programmers to handle inventory, shipping, tracking, and other tasks.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -234,10 +238,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Competitive Advantage
+                    CRM Programs
                     </h5>
                     <p className='white'>
-                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
+                    Our PHP developers build perfect customer relationship management systems to manage contacts, track interactions, and gain trust.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -253,10 +257,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Future-Proof Your Business
+                    Debugging and Testing
                     </h5>
                     <p className='white'>
-                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
+                    BitsWits has the best PHP developers who extensively check for bugs in your PHP solutions and resolve any errors that occur.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -273,7 +277,7 @@ export default function mobileappdevelopment() {
 
     const whytitle2 = <>
         <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
-            The Perks of Choosing the <span className='grdiant'>Top Mobile App Development Company!</span>
+        The Best <span className='grdiant'>PHP Developers and Innovators </span>Leading the Way: Why Choose BitsWits?
         </h2>
     </>
 
@@ -294,10 +298,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Custom Solutions for Your Niche Audience
+                                Innovative Technical Talents
                                 </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
+                                BitsWits creates <span className='grdiant font-bold'>high-performing, flexible solutions </span>to address complicated demands with expertise in the most recent PHP versions and frameworks like Laravel and Symfony. They stand out due to their growth abilities and finest practices
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -317,10 +321,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Ongoing Support and Maintenance
+                                Outstanding PHP Developers and Talents
                                 </h4>
                                 <p className='font14'>
-                                    BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
+                                Some of the top <span className='grdiant font-bold'>PHP developers </span>can be found at BitsWits, and they frequently receive home awards from reputable websites. Our skilled talent delivers the highest quality PHP development services and excellence in every project
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -340,10 +344,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Meeting Delivery Deadline and Reliability
+                                Future-Oriented Tactics
                                 </h4>
                                 <p className='font14'>
-                                    BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
+                                BitsWits uses <span className='grdiant font-bold'>PHP development services</span>  and strategies that are future-oriented. They craft forward-compatible code while monitoring upcoming PHP trends. By doing this, solutions created today can adapt to the future.
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -363,10 +367,10 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                    Better Security and Data Confidentiality
+                                Client-Centered Culture
                                 </h4>
                                 <p className='font14'>
-                                    Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
+                                The customer is at the core of everything BitsWits does. Our<span className='grdiant font-bold'> PHP developers </span> collaborate closely with customers during the development process to fully comprehend demands and provide specialized solutions.
                                 </p>
                                 <h5 class="font14 fyColor3">
                                     <span>Connect Now</span>
@@ -378,9 +382,9 @@ export default function mobileappdevelopment() {
                 </div>
             </Col>
         </Row>
-        <p className='text-center'>
+        {/* <p className='text-center'>
             Our professional <span className='grdiant font-bold'>app developers</span> have the expertise to put flesh on the bones of your app ideas by providing the best <span className='grdiant font-bold'>mobile app development services</span>.
-        </p>
+        </p> */}
     </>
 
 
@@ -519,7 +523,7 @@ export default function mobileappdevelopment() {
                 title={<> <span className='fyColor2'>BITSWITS ADVANTAGE</span> </>}
                 cards={Benefits}
                 subtitle={whytitle2}
-                text={text2}
+                // text={text2}
                 alignclass="midBuild"
             />
 
