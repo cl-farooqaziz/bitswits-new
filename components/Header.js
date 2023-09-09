@@ -41,7 +41,7 @@ import music from '../public/images/icons/music.png'
 import ride from '../public/images/icons/ride.png'
 import bactria from '../public/images/icons/bactria.png'
 import Modal from 'react-bootstrap/Modal';
-import Freequote from '../components/Freequote'
+import Bitswitspopup from '../components/Bitswitspopup'
 import { RxCross2 } from 'react-icons/rx'
 import newImg from '../public/images/1.jpg'
 
@@ -1669,7 +1669,7 @@ const Header = () => {
                 </nav>
 
                 <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-                    <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
+                    <Modal.Body> <Bitswitspopup formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
 
 
                 </Modal>
