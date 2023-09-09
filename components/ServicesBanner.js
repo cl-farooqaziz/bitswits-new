@@ -9,16 +9,42 @@ import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
 import arrow from '../public/images/icons/arrow.webp'
+//
+import banImg1 from '../public/images/agency logos/agency-logo1.png'
+import banImg2 from '../public/images/agency logos/agency-logo2.png'
+import banImg3 from '../public/images/agency logos/agency-logo3.png'
+import banImg4 from '../public/images/agency logos/agency-logo4.png'
+import banImg5 from '../public/images/agency logos/agency-logo5.png'
+//
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 const ServicesBanner = (props) => {
+
+
+    var bannerslider = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 20000,
+        pauseOnHover: false,
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1
+
+    };
+
 
     return (
         <section className={`${styles.banner} ${styles.webDevelpmnt} ${styles[props.bgClass]}`}>
             <Container fluid>
                 <Row className={styles.bannnerproject}>
                     <Col lg={7}>
-                        <div className={styles.banerTxt}>
+                        <div className={`${styles.banerTxt} pt-5`}>
 
 
                             {props.title}
@@ -42,6 +68,25 @@ const ServicesBanner = (props) => {
                                 {/* <Link className={styles.bttns1} href='tel:(833) 500-6007'>(833)500-6007</Link> */}
                                 <Link className={styles.bttns2} href="#">Let's Build Something</Link>
                                 <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                            </div>
+
+
+                            <div className='d-flex align-items-center'>
+                                <div className={styles.strpImg}>
+                                    <Image alt="bitswits" src={banImg1} className="img-fluid" />
+                                </div>
+                                <div className={styles.strpImg}>
+                                    <Image alt="bitswits" src={banImg2} className="img-fluid" />
+                                </div>
+                                <div className={styles.strpImg}>
+                                    <Image alt="bitswits" src={banImg3} className="img-fluid" />
+                                </div>
+                                <div className={styles.strpImg}>
+                                    <Image alt="bitswits" src={banImg4} className="img-fluid" />
+                                </div>
+                                <div className={styles.strpImg}>
+                                    <Image alt="bitswits" src={banImg5} className="img-fluid" />
+                                </div>
                             </div>
 
 
