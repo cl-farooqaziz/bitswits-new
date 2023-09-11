@@ -28,6 +28,9 @@ const Rated = dynamic(() => import('@/components/Rated'));
 const About = dynamic(() => import('@/components/Aboutnewdesign'));
 const Howweare = dynamic(() => import('@/components/Howweare'));
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+const Whatwedo = dynamic(() => import('@/components/Whatwedo'));
+const Globalsucces = dynamic(() => import('@/components/Globalsucces'));
+const Maintaining = dynamic(() => import('@/components/Maintaining'));
 const Yearsofexpertise = dynamic(() => import('@/components/Yearsofexpertise'));
 const Nextproject = dynamic(() => import('@/components/Nextproject'));
 const Ourservices = dynamic(() => import('@/components/Ourserviceshome'));
@@ -224,6 +227,15 @@ export default function Home() {
       <Howweare />
       
       <Justbuildit />
+
+      <Whatwedo />
+
+      <Maintaining />
+
+      <Globalsucces />
+
+
+     
 
       {/* <Yearsofexpertise
         loop1={<> <Counter stopNumber={16} />+ </>}

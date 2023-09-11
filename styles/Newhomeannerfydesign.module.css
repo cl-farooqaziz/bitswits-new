@@ -39,7 +39,8 @@
 
   width: 198px;
   height: 45px;
-  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+
+  background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
 
   color: white;
   display: flex;

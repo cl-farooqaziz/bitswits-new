@@ -1,6 +1,13 @@
 .aboutus {
   padding-bottom: 50px;
-  overflow: hidden;
+  position: relative;
+  top: -22px;
+}
+
+.aboutfold img {
+  position: relative;
+  top: -20px;
+  z-index: 2;
 }
 
 .about{
@@ -10,6 +17,7 @@
 }
 
 @media screen and (max-width: 991px) { 
+
 
 .about{
   font-size: 40px;

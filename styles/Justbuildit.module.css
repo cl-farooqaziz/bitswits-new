@@ -75,7 +75,9 @@
   .just {
     font-size: 35px;
   }
-
+  .develop{
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -83,8 +85,6 @@
   .just {
     font-size: 30px;
   }
-  .develop{
-    font-size: 20px;
-  }
+  
 
 }
