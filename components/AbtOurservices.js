@@ -16,7 +16,7 @@ const AbtOurservices = () => {
 
     return (
         <>
-            <section className={`${styles.ourservices} abtourservices`}>
+            <section className={`${styles.ourservices} ${styles.abtServices} abtourservices`}>
                 <Container>
                     <Row className={styles.project}>
                         <Col lg={2}>

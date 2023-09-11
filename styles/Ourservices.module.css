@@ -5,6 +5,10 @@
   margin-bottom: 50px;
 }
 
+.abtServices{
+  margin-bottom: 0;
+}
+
 .bttns1:hover {
   transition: background-color 2s;
   background-color: #272727;

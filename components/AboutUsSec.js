@@ -70,9 +70,9 @@ const AboutUsSec = () => {
                             </Link>
                         </Col>
                         <Col lg={12} className='mt-0 mt-md-5'>
-                            <p className='font25 fontf font-medium mt-4 mb-4 black'>We at, BitsWits, the top mobile application development agency have established ourselves as a reliable partner for leading start-ups around the world. Our team dedicated to enabling growth by providing multiple range of design and development services.</p>
+                            <p className='font16 fontf font-medium mt-4 mb-4 black'>We at, BitsWits, the top mobile application development agency have established ourselves as a reliable partner for leading start-ups around the world. Our team dedicated to enabling growth by providing multiple range of design and development services.</p>
 
-                            <p className='font25 fontf font-medium mt-4 black'>Our mobile app developers and designers' goal is to achieve productive outcomes to help our clients succeed in the highly competitive digital world.</p>
+                            <p className='font16 fontf font-medium mt-4 black'>Our mobile app developers and designers' goal is to achieve productive outcomes to help our clients succeed in the highly competitive digital world.</p>
                         </Col>
                         <Col lg={12} className='mt-0 mt-md-5'>
                             <div className={styles.phoneSliderBox}>

@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import React, { useState, useEffect } from 'react'; import Link from 'next/link';
+import Image from 'next/image';
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 //components
-import Banner from '@/components/AboutBanner'
+import Banner from '@/components/ServicesBanner'
 import About from '@/components/AboutUsSec'
 import Yearsofexpertise from '@/components/Yearsofexpertise'
 import Ourservices from '@/components/AbtOurservices'
@@ -9,9 +11,25 @@ import Nextproject from '@/components/Nextproject'
 import ClientsThink from '@/components/ClientsThink'
 import Contact from '@/components/Contact'
 import OurProject from '@/components/OurProject';
+//
+import mobilearrow from '../public/images/icons/mobile-arrow.png'
+import arrow from '../public/images/icons/arrow.webp'
+import banImg from '../public/images/banner/mobileappbanner.png'
 
 
 export default function aboutUs() {
+
+    // banner component data
+    const heading = <>
+        <h1 className='font60 white fontf font-bold mb-4'>
+            <span className='grdiant font-bold'>About</span> Us
+        </h1>
+    </>
+
+    const para = <>
+
+        <p className='white fontf font-medium line30'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide. The <span className='grdiant'>top app developers</span> in US provide the best web, mobile, and Web3 design and development solutions for better metrics and ROI. </p>
+    </>
 
 
     return (
@@ -23,7 +41,12 @@ export default function aboutUs() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <Banner />
+            <Banner
+                title={heading}
+                para={para}
+                bannerimg={banImg}
+                bgClass="mobile"
+            />
             <About />
             <Yearsofexpertise />
             <Ourservices />
