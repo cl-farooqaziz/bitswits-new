@@ -63,169 +63,76 @@
   text-transform: uppercase;
 }
 
-.line {
-  background-color: #525252;
-  width: 70%;
-  height: 2px;
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6 {
   margin-top: 50px;
   margin-left: 40px;
   position: relative;
 }
 
-.line::before {
+.line1::before {
   content: "01";
   position: absolute;
-  left: -40px;
+  left: 20px;
   top: -14px;
   display: block;
   color: #fff;
   font-size: 18px;
 }
 
-.line::after {
-  content: "02";
-  position: absolute;
-  right: -40px;
-  top: -14px;
-  display: block;
-  color: #fff;
-  font-size: 18px;
-}
-
-
-.line1 {
-  background-color: #525252;
-  width: 70%;
-  height: 2px;
-  margin-top: 50px;
-  margin-left: 126px;
-  position: relative;
-}
-.line1::before {
-  content: "02";
-  position: absolute;
-  left: -40px;
-  top: -14px;
-  display: block;
-  color: #fff;
-  font-size: 18px;
-}
-
-.line1::after {
-  content: "03";
-  position: absolute;
-  right: -40px;
-  top: -14px;
-  display: block;
-  color: #fff;
-  font-size: 18px;
-}
-
-
-
-
-
-.line2 {
-  background-color: #525252;
-  width: 60%;
-  height: 2px;
-  margin-top: 50px;
-  margin-left: 206px;
-  position: relative;
-}
 .line2::before {
+  content: "02";
+  position: absolute;
+  left: 15px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line3::before {
   content: "03";
   position: absolute;
-  left: -40px;
+  left: 15px;
   top: -14px;
   display: block;
   color: #fff;
   font-size: 18px;
 }
 
-.line2::after {
-  content: "04";
-  position: absolute;
-  right: -40px;
-  top: -14px;
-  display: block;
-  color: #fff;
-  font-size: 18px;
-}
-
-
-
-
-
-
-
-
-.line3 {
-  background-color: #525252;
-  width: 60%;
-  height: 2px;
-  margin-top: 50px;
-  margin-left: 256px;
-  position: relative;
-}
-.line3::before {
-  content: "04";
-  position: absolute;
-  left: -40px;
-  top: -14px;
-  display: block;
-  color: #fff;
-  font-size: 18px;
-}
-
-.line3::after {
-  content: "05";
-  position: absolute;
-  right: -40px;
-  top: -14px;
-  display: block;
-  color: #fff;
-  font-size: 18px;
-}
-
-
-
-
-.line4 {
-  background-color: #525252;
-  width: 60%;
-  height: 2px;
-  margin-top: 50px;
-  margin-left: 306px;
-  position: relative;
-}
 .line4::before {
-  content: "05";
+  content: "04";
   position: absolute;
-  left: -40px;
+  left: 12px;
   top: -14px;
   display: block;
   color: #fff;
   font-size: 18px;
 }
 
-.line4::after {
+.line5::before {
+  content: "05";
+  position: absolute;
+  left: 12px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line6::before {
   content: "06";
   position: absolute;
-  right: -40px;
+  left: 10px;
   top: -14px;
   display: block;
   color: #fff;
   font-size: 18px;
 }
-
-
-
-
-
-
-
-
 
 .slidBtns {
   display: flex;
@@ -257,10 +164,10 @@
   color: #fff;
   background: url(../public/images/digital/tick-point.png) no-repeat;
   background-position: top 9px left 0;
-  filter: invert(.1);
+  filter: invert(0.1);
 }
 
-.solutn .slideImg{
+.solutn .slideImg {
   width: 95%;
 }
 

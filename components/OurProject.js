@@ -17,7 +17,7 @@ import slidebefore from '../public/images/workprojects/slidebefore.png'
 const OurProject = () => {
 
     var projectslider = {
-        dots: false,
+        dots: true,
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -57,12 +57,12 @@ const OurProject = () => {
 
 
                         <Row>
-                            <Col lg={2}><div className={styles.line}></div></Col>
                             <Col lg={2}><div className={styles.line1}></div></Col>
                             <Col lg={2}><div className={styles.line2}></div></Col>
                             <Col lg={2}><div className={styles.line3}></div></Col>
                             <Col lg={2}><div className={styles.line4}></div></Col>
                             <Col lg={2}><div className={styles.line5}></div></Col>
+                            <Col lg={2}><div className={styles.line6}></div></Col>
 
                         </Row>
 

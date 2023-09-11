@@ -49,6 +49,13 @@ import Analysis from '@/components/Analysis'
 import Products from '@/components/Products'
 import publication1 from '/public/images/gifimages/ourwork03.gif'
 import publication2 from '/public/images/gifimages/ourwork02.gif'
+import NewBannerFy from '@/components/NewBannerFy'
+import NewDecFy from '@/components/NewDecFy'
+import Aboutlp from '@/components/Aboutlp'
+import Ourportfoliolp from '@/components/Ourportfoliolp'
+import Consultation2 from '@/components/Consultation2'
+import FaqsLp from '@/components/FaqsandriodLp'
+import Contact from '@/components/Contact'
 
 
 export default function mobileappdesigncompanylp() {
@@ -179,32 +186,25 @@ export default function mobileappdesigncompanylp() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
 
-            <Homebanner
+            <NewBannerFy
                 subtitle='Unlock the Power of Good'
-                title={<>   <h1 className='font65 black fontf font-bold line60 mb-3'>  <span className='grdiant'> UI/UX Designs</span> With Us</h1></>}
-
+                title={<> UI/UX Designs <br /> With Us </>}
                 text={<> <b>Android App Development Isn't Just Our Job – It's Our Passion.</b>
                 </>}
                 text2={<> At BitsWits, we specialize in crafting user interfaces (UIs) and user experiences (UXs) that provide delightful interactions and engaging visuals. We help you achieve your vision by creating an inspired journey for your ideal prospects. </>}
+                banClass="mobile"
             />
 
 
-            <About />
+            <NewDecFy />
 
-
+            <Aboutlp />
 
             <Analysis />
 
             <Cuttingedge />
 
             <Tool />
-
-            <Combination
-                title={<>   Get A <span className='grdiant'>Dedicated Account Manager</span> </>}
-                text='  Our 1:1 account managers ensure you get the support and expertise needed to grow your business online. Our experienced and knowledgeable account managers offer personalized support to help you quickly and easily build unmatched applications. Get in touch today to get your project up and running in a flash.'
-                btn='Say Hi! to Discuss a Project'
-
-            />
 
             <Products />
 
@@ -228,19 +228,28 @@ export default function mobileappdesigncompanylp() {
 
             />
 
-            <Musicapp />
-            <Cab />
+            <Combination
+                title={<>   Get A <span className='grdiant'>Dedicated Account Manager</span> </>}
+                text='  Our 1:1 account managers ensure you get the support and expertise needed to grow your business online. Our experienced and knowledgeable account managers offer personalized support to help you quickly and easily build unmatched applications. Get in touch today to get your project up and running in a flash.'
+                btn='Say Hi! to Discuss a Project'
 
-            <Findfood />
+            />
 
+            <Ourportfoliolp />
+
+            <Consultation />
 
             <Publication />
 
             <Range />
             <Hireus />
+            <Consultation2 />
             <ClientsThinklp />
+            <FaqsLp />
 
-
+            <Contact
+                newBg="newBg"
+            />
 
         </>
     )

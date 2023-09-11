@@ -44,6 +44,8 @@ const Contact = dynamic(() => import('@/components/Contact'));
 const OurProject = dynamic(() => import('@/components/OurProject'));
 import Counter from '@/components/Counter';
 import Ourportfoliolp from '@/components/Ourportfoliolp';
+import FaqsLp from '@/components/FaqsandriodLp';
+const Faqs = dynamic(() => import('@/components/Faqs'));
 
 
 
@@ -224,8 +226,9 @@ export default function Home() {
       <About /> */}
 
       <About />
+
       <Howweare />
-      
+
       <Justbuildit />
 
       <Whatwedo />
@@ -235,7 +238,7 @@ export default function Home() {
       <Globalsucces />
 
 
-     
+
 
       {/* <Yearsofexpertise
         loop1={<> <Counter stopNumber={16} />+ </>}
@@ -266,16 +269,10 @@ export default function Home() {
       <Ourblogs /> */}
 
 
-<Lookingfor />
-      <Trusted />
-      <Ourportfoliolp />
-      <Digital />
-      <ClientsThink />
-
-
       <OurProject />
       <ClientsThink />
       <Nextproject />
+      <Faqs />
       <Contact />
 
     </>

@@ -10,8 +10,11 @@ export default function App({ Component, pageProps }) {
 
   const router = useRouter();
 
-  const newfooter = router.pathname == '/ios-app-development-company-lp' || router.pathname == '/android-app-development-company-lp'
+  const newfooter =
+    router.pathname == '/ios-app-development-company-lp'
+    || router.pathname == '/android-app-development-company-lp'
     || router.pathname == '/flutter-app-development-company-lp'
+    || router.pathname == '/mobile-app-design-company-lp'
     || router.pathname == '/mobile-app-development-company-lp'
     || router.pathname == '/mobile-app-development-los-angeles'
     || router.pathname == '/mobile-app-development-newyork'

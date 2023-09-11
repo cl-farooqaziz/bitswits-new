@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 @font-face {
   font-family: Nofex;
@@ -23,11 +22,11 @@ body {
 
 /* fontfamily */
 
-.fontfam{
-  font-family: 'Dosis', sans-serif;
+.fontfam {
+  font-family: "Dosis", sans-serif;
 }
-.newfony{
-  font-family: 'Dosis', sans-serif;
+.newfony {
+  font-family: "Dosis", sans-serif;
 }
 
 .fontf {
@@ -622,6 +621,35 @@ a {
 }
 
 /* ===============OurProject================ */
+
+.newproject .slick-dots {
+  bottom: auto;
+  top: -40px;
+  left: 75px;
+}
+
+.newproject .slick-dots li {
+  width: 175px;
+  height: 5px;
+}
+
+.newproject .slick-dots li button::before {
+  content: "";
+  position: absolute;
+  width: 115px;
+  height: 5px;
+  color: black;
+  background-color: #525252;
+  border: 0;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.newproject .slick-dots li.slick-active button:before {
+  background-color: #4a78ef;
+}
+
+/* ======================================== */
 
 .sidenewlong .slick-dots {
   bottom: -55px;
@@ -1794,6 +1822,11 @@ button {
 }
 
 /* ==================Changes================== */
+
+.Serbannerslider.slick-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
 
 .testtimonials .slick-slider .slick-prev,
 .bannerslider.slick-slider .slick-prev {

@@ -10,11 +10,11 @@ import icon4 from '../public/images/banner/icon4.png'
 import callIcn from '../public/images/banner/call-icon.png'
 import arrow from '../public/images/icons/arrow.webp'
 //
-import banImg1 from '../public/images/agency logos/agency-logo1.png'
-import banImg2 from '../public/images/agency logos/agency-logo2.png'
-import banImg3 from '../public/images/agency logos/agency-logo3.png'
-import banImg4 from '../public/images/agency logos/agency-logo4.png'
-import banImg5 from '../public/images/agency logos/agency-logo5.png'
+import banImg1 from '../public/images/agencylogos/agency-logo1.svg'
+import banImg2 from '../public/images/agencylogos/agency-logo2.svg'
+import banImg3 from '../public/images/agencylogos/agency-logo3.svg'
+import banImg4 from '../public/images/agencylogos/agency-logo4.svg'
+import banImg5 from '../public/images/agencylogos/agency-logo5.svg'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -33,7 +33,7 @@ const ServicesBanner = (props) => {
         speed: 20000,
         pauseOnHover: false,
         cssEase: 'linear',
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1
 
     };
@@ -71,22 +71,26 @@ const ServicesBanner = (props) => {
                             </div>
 
 
-                            <div className='d-flex align-items-center'>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={banImg1} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={banImg2} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={banImg3} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={banImg4} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={banImg5} className="img-fluid" />
-                                </div>
+
+
+                            <div className='mt-5'>
+                                <Slider {...bannerslider} className={` ${styles.startSlide} Serbannerslider mt-5`}>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="bitswits" src={banImg1} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="bitswits" src={banImg2} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="bitswits" src={banImg3} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="bitswits" src={banImg4} className="img-fluid" />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="bitswits" src={banImg5} className={`${styles.clutchImg} img-fluid`} />
+                                    </div>
+                                </Slider>
                             </div>
 
 

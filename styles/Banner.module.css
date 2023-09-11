@@ -402,6 +402,15 @@
   margin-left: 50px;
 }
 
+.startSlide img{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.startSlide .clutchImg{
+  width: 50%;
+}
+
 /* ============================================= */
 
 @media screen and (min-width: 2020px) {

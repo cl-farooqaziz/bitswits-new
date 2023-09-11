@@ -67,9 +67,9 @@ const Tool = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h3 className='font20 black fontf font-bold center'>CREATIVE TOOLS IN OUR USE</h3>
-                            <h2 className='font50 black fontf font-bold center'>List Of <span className='grdiant'>Interaction Design Tools</span> We Leverage</h2>
-                            <p className='font16 black fontf font-medium center'>Our arsenal includes cutting-edge digital applications, intuitive illustration programs, and powerful photo editing suites.</p>
+                            <h3 className='font20 white fontf font-bold center'>CREATIVE TOOLS IN OUR USE</h3>
+                            <h2 className='font50 white fontf font-bold center'>List Of <span className='grdiant'>Interaction Design Tools</span> We Leverage</h2>
+                            <p className='font16 white fontf font-medium center'>Our arsenal includes cutting-edge digital applications, intuitive illustration programs, and powerful photo editing suites.</p>
                         </Col>
                     </Row>
                     <Row>
@@ -83,47 +83,47 @@ const Tool = () => {
 
                                     <div className={styles.inclu}>
                                         <Image src={figma1} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Balsamiq</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Balsamiq</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma2} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe Illustrator</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe Illustrator</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma3} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe XD</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe XD</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma4} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe Photoshop</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe Photoshop</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma5} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Indesign</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Indesign</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma6} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Zeplin</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Zeplin</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma7} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe After Effects</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe After Effects</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma8} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Figma</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Figma</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma9} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>InVision</h3>
+                                        <h3 className='font16 white fontf font-bold center'>InVision</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma10} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Premier Pro</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Premier Pro</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma11} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Sketch</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Sketch</h3>
                                     </div>
                                 </Slider>
 
@@ -133,47 +133,47 @@ const Tool = () => {
                                 <div className={styles.usefont}>
                                     <div className={styles.inclu}>
                                         <Image src={figma1} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Balsamiq</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Balsamiq</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma2} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe Illustrator</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe Illustrator</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma3} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe XD</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe XD</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma4} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe Photoshop</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe Photoshop</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma5} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Indesign</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Indesign</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma6} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Zeplin</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Zeplin</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma7} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Adobe After Effects</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Adobe After Effects</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma8} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Figma</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Figma</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma9} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>InVision</h3>
+                                        <h3 className='font16 white fontf font-bold center'>InVision</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma10} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Premier Pro</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Premier Pro</h3>
                                     </div>
                                     <div className={styles.inclu}>
                                         <Image src={figma11} className='img-fluid pt-4 pb-4' />
-                                        <h3 className='font16 black fontf font-bold center'>Sketch</h3>
+                                        <h3 className='font16 white fontf font-bold center'>Sketch</h3>
                                     </div>
 
                                 </div>

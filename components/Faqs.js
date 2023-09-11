@@ -78,7 +78,7 @@ const Faqs = () => {
                                 Frequently Asked Questions
                             </h2>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={12}>
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
@@ -128,9 +128,6 @@ const Faqs = () => {
                                     </div>
                                 </div>
                             </div>
-
-                        </Col>
-                        <Col lg={6}>
 
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
