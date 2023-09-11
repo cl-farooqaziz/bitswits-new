@@ -53,8 +53,24 @@ const OurProject = () => {
                                 Connect Now!
                             </Link>
                         </Col> */}
+
+
+
+                        <Row>
+                            <Col lg={2}><div className={styles.line}></div></Col>
+                            <Col lg={2}><div className={styles.line1}></div></Col>
+                            <Col lg={2}><div className={styles.line2}></div></Col>
+                            <Col lg={2}><div className={styles.line3}></div></Col>
+                            <Col lg={2}><div className={styles.line4}></div></Col>
+                            <Col lg={2}><div className={styles.line5}></div></Col>
+
+                        </Row>
+
                         <Col lg={12}>
-                            <div className={styles.line}></div>
+                            {/* <div className={styles.line}></div> */}
+
+
+
                             <Slider {...projectslider} className={`${styles.newproject} newproject`}>
                                 <div className={styles.slideBox}>
                                     <Row>

@@ -264,6 +264,15 @@ export default function Home() {
       <ClientsThink />
      
       <Ourblogs /> */}
+
+
+<Lookingfor />
+      <Trusted />
+      <Ourportfoliolp />
+      <Digital />
+      <ClientsThink />
+
+
       <OurProject />
       <ClientsThink />
       <Nextproject />

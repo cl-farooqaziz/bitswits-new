@@ -65,7 +65,7 @@
 
 .line {
   background-color: #525252;
-  width: 100%;
+  width: 70%;
   height: 2px;
   margin-top: 50px;
   margin-left: 40px;
@@ -83,7 +83,7 @@
 }
 
 .line::after {
-  content: "13";
+  content: "02";
   position: absolute;
   right: -40px;
   top: -14px;
@@ -91,6 +91,141 @@
   color: #fff;
   font-size: 18px;
 }
+
+
+.line1 {
+  background-color: #525252;
+  width: 70%;
+  height: 2px;
+  margin-top: 50px;
+  margin-left: 126px;
+  position: relative;
+}
+.line1::before {
+  content: "02";
+  position: absolute;
+  left: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line1::after {
+  content: "03";
+  position: absolute;
+  right: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+
+
+
+.line2 {
+  background-color: #525252;
+  width: 60%;
+  height: 2px;
+  margin-top: 50px;
+  margin-left: 206px;
+  position: relative;
+}
+.line2::before {
+  content: "03";
+  position: absolute;
+  left: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line2::after {
+  content: "04";
+  position: absolute;
+  right: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.line3 {
+  background-color: #525252;
+  width: 60%;
+  height: 2px;
+  margin-top: 50px;
+  margin-left: 256px;
+  position: relative;
+}
+.line3::before {
+  content: "04";
+  position: absolute;
+  left: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line3::after {
+  content: "05";
+  position: absolute;
+  right: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+
+
+.line4 {
+  background-color: #525252;
+  width: 60%;
+  height: 2px;
+  margin-top: 50px;
+  margin-left: 306px;
+  position: relative;
+}
+.line4::before {
+  content: "05";
+  position: absolute;
+  left: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line4::after {
+  content: "06";
+  position: absolute;
+  right: -40px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
 
 .slidBtns {
   display: flex;
