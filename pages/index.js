@@ -23,9 +23,11 @@ import icon6 from '../public/images/ourservices/artifical.png'
 // import OurProject from '@/components/OurProject'
 import dynamic from 'next/dynamic';
 
-const Banner = dynamic(() => import('@/components/NewHomeBanner'));
+const Banner = dynamic(() => import('@/components/NewHomeBannerfydesign'));
 const Rated = dynamic(() => import('@/components/Rated'));
-const About = dynamic(() => import('@/components/About'));
+const About = dynamic(() => import('@/components/Aboutnewdesign'));
+const Howweare = dynamic(() => import('@/components/Howweare'));
+const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 const Yearsofexpertise = dynamic(() => import('@/components/Yearsofexpertise'));
 const Nextproject = dynamic(() => import('@/components/Nextproject'));
 const Ourservices = dynamic(() => import('@/components/Ourserviceshome'));
@@ -215,10 +217,15 @@ export default function Home() {
       </Head>
 
       <Banner />
-      <Rated />
-      <About />
+      {/* <Rated />
+      <About /> */}
 
-      <Yearsofexpertise
+      <About />
+      <Howweare />
+      
+      <Justbuildit />
+
+      {/* <Yearsofexpertise
         loop1={<> <Counter stopNumber={16} />+ </>}
         looptext1={<> YEARS OF <br></br> EXPERTISE </>}
         looptext11={<> Established in 2002 in the USA </>}
@@ -243,9 +250,11 @@ export default function Home() {
       <Ourportfoliolp />
       <Digital />
       <ClientsThink />
-      <Nextproject />
-      <Ourblogs />
+     
+      <Ourblogs /> */}
       <OurProject />
+      <ClientsThink />
+      <Nextproject />
       <Contact />
 
     </>

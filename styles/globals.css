@@ -191,7 +191,12 @@ body {
 .ling25 {
   line-height: 25px;
 }
-
+.line1 {
+  line-height: 1;
+}
+.line2 {
+  line-height: 1.2;
+}
 /* colors */
 .black {
   color: #000000;

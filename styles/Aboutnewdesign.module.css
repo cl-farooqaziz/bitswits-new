@@ -1,0 +1,38 @@
+.aboutus {
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.about{
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 991px) { 
+
+.about{
+  font-size: 40px;
+}
+
+
+}
+
+
+@media screen and (max-width: 767px) { 
+
+  .about{
+    font-size: 35px;
+  }
+  
+  
+  }
+
+  @media screen and (max-width: 480px) { 
+
+    .about{
+      font-size: 30px;
+    }
+    
+    
+    }
