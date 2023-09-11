@@ -13,10 +13,10 @@ import CTA from '@/components/blockchain/cta';
 const LeftContent = (props) => {
     return (
         <>
-            <div className={styles[props.whychooseclass]}>
+            <div className={`${styles[props.whychooseclass]} secPad`}>
                 <Container>
                     <Row className={`${styles.middle} gy-4`}>
-                       
+
                         <Col lg={6}>
                             <div className={styles.cube}>
                                 <h2 className="fw700 f40 text-white mb-2">{props.title}</h2>
@@ -28,20 +28,20 @@ const LeftContent = (props) => {
                                     ''
                                 }
                                 <CTA number="1-844-400-0025"
-        discuss="Hire Blockchain Developer"/>
+                                    discuss="Hire Blockchain Developer" />
                             </div>
                         </Col>
                         <Col lg={6}>
                             <div className={styles.image}>
                                 <div>
 
-    {/* <video autoplay muted loop className={`${styles.video} img-fluid`} width={500} height={500}>         
+                                    {/* <video autoplay muted loop className={`${styles.video} img-fluid`} width={500} height={500}>         
         <source src='/images/blockchain.mp4' type="video/mp4"/>       
     </video> */}
 
-    <video  className={`${styles.bgVideo} img-fluid`} width={500} autoPlay muted loop src="../../../blockchain/images/starlycoin.mp4" type="video/mp4"></video>
+                                    <video className={`${styles.bgVideo} img-fluid`} width={500} autoPlay muted loop src="../../../blockchain/images/starlycoin.mp4" type="video/mp4"></video>
 
-                                       
+
                                 </div>
                             </div>
                         </Col>

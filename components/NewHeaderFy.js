@@ -333,7 +333,7 @@ const NewHeaderFy = () => {
                                                             </Row>
                                                         </div>
                                                     </div>
-                                                    <div className={`${styles.listMain} mt-4`}>
+                                                    <div className={`${styles.listMain}`}>
 
                                                         <div className={styles.listBody}>
                                                             <Row>

@@ -365,7 +365,7 @@ export default function gameappdevelopmentcompanylp() {
 
             <NewBannerFy
                 subtitle='AWARDED #1 GAME APP DEVELOPMENT COMPANY'
-                title={<> Experience The Roller <br></br> Coaster Of The Gaming <br></br> World With Us! </>}
+                title={<> Experience The Roller Coaster Of The Gaming World With Us!! </>}
                 banClass="game"
             />
 
@@ -396,7 +396,8 @@ export default function gameappdevelopmentcompanylp() {
             <Creativeopportunities
 
                 subtitle='BULLET-PROOF GAME DEVELOPMENT ACTION PLAN'
-                title={<> <span className='grdiant'>Custom Development Roadmap For Games</span> That Brings Fame </>}
+                title={<> <span className='grdiant'>Custom Development Roadmap </span> For Games
+                That Brings Fame </>}
                 eng={engagement}
                 tit1='Ideation'
                 text1={<> We get our creative juices flowing by brainstorming ideas and concepts for your game. We work together to figure out what kind of game you want to create, the story behind it, and how you want players to interact with it </>}
@@ -521,8 +522,8 @@ export default function gameappdevelopmentcompanylp() {
 
             <Tribute
                 subtitle='GAME DEVELOPMENT'
-                title='Past Projects Are A Glorious Tribute To Our Unwavering Devotion to Quality and Innovation!'
-                text={<> Whether you're a fan of classic arcade games, modern blockbusters, or quirky indie titles, our portfolio has something for everyone. Dive into our past projects and discover why we're one of the industry's most sought-after 2D game developers. </>}
+                title='Our Past Projects Are A Glorious Tribute To Our Unwavering Devotion to Quality and Innovation!'
+                text={<> Whether you're a buff of classic arcade games, modern blockbusters, or quirky indie titles, our portfolio has something for everyone. Dive into our past projects and discover why we're one of the industry's most sought-after 2D and 3D game developers. </>}
                 video='/images/game2dvideo/video2.mp4'
             />
 

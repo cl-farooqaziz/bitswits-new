@@ -75,10 +75,10 @@ const Expertise = (props) => {
 
     return(
         <>
-           <section>
+           <section className='secPad'>
                 <Container>
                     <Row>
-                        <Col lg={9} className='pt-4 pb-4'>
+                        <Col lg={9} className='pb-4'>
                             <h4 className="fw300 f28 text-white mb-2">{props.exTitle}</h4>
                             <p className='text-white fw300'>{props.exPara}</p>
                         </Col>

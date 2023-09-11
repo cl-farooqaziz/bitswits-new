@@ -71,7 +71,7 @@ const Standing = (props) => {
     };   
     return(
         <>
-           <section>
+           <section className='secPad'>
                 <Container>
                     <Row className='justify-content-center text-center align-items-center mb-5'>
                         <Col lg={12} >

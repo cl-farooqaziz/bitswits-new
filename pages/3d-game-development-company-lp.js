@@ -627,8 +627,8 @@ export default function gamedevelopmentcompany3dlp() {
 
 
             <Combination
-                subtitle={<> THE  <span className='grdiant'>ENJOY AN UNINTERRUPTED</span> GAMING SESSION NOW! </>}
-                title={<>   The Future Of <span className='grdiant'>Create Engaging Worlds with Our</span>  3D Game Development Studio! </>}
+                subtitle={<> <span className='grdiant'>ENJOY AN UNINTERRUPTED</span> GAMING SESSION NOW! </>}
+                title={<>  Create Engaging Worlds with Our <span className='grdiant'>3D Game Development</span> Studio!</>}
                 text='  BitsWits creates highly interactive and immersive 3D games that take players on an unforgettable journey into a thrilling world of realism. Our services feature designing complex characters, environments, objects, and textures, animating scenes, creating realistic physics for game objects to interact with each other, and integrating user controls and interfaces. From designing and developing 3D models to producing and integrating game logic, we provide end-to-end solutions for creating cutting-edge gaming experiences.'
                 text2='Get ready for your next adventure with our 3D Game Development Company!'
                 btn='Consult A Gaming Expert To Begin'
@@ -674,7 +674,7 @@ export default function gamedevelopmentcompany3dlp() {
             <Tribute
                 subtitle='GAME DEVELOPMENT'
                 title='Past Projects Are A Glorious Tribute To Our Unwavering Devotion to Quality and Innovation!'
-                text={<> Whether you're a fan of classic arcade games, modern blockbusters, or quirky indie titles, our portfolio has something for everyone. Dive into our past projects and discover why we're one of the industry's most sought-after 2D game developers. </>}
+                text={<> Whether you're a fan of classic arcade games, modern blockbusters, or quirky indie titles, our portfolio has something for everyone. Dive into our past projects and discover why we're one of the industry's most sought-after 3D game developers.</>}
                 video='/images/game2dvideo/video2.mp4'
             />
 

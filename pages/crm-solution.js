@@ -42,29 +42,33 @@ export default function mobileappdevelopment() {
     // banner component data
     const heading = <>
         <h1 className='font60 white fontf font-bold mb-4'>
-            <span className='grdiant'>Best Mobile App Development Company </span>
-            <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
+            Let Success Come Your Way with the
+            <span className='grdiant'>Top CRM Solutions Company!</span>
         </h1>
     </>
 
     const para = <>
 
         <p className='font16 fontf font-regular fyColor justify'>
-            At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
+            At BitsWits, our experts offer perfect CRM Solutions which will fit right to your business requirements. Contact us to increase your CRM success!
         </p>
 
         <ul className='mb-4 p-0'>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
+                Improved CRM Development Services.
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Innovative Approach: Harnessing the latest tech to set industry benchmarks.
+                Tracking Sales Activities and Increased Productivity.
             </li>
             <li className="font16 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Unwavering Quality: Delivering only the best, because you deserve nothing less.
+                Powerful Reporting for Smarter Decisions.
+            </li>
+            <li className="font16 fontf font-medium fyColor ">
+                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                Managing Customer Inquiries and Track Support Tickets
             </li>
         </ul>
     </>
@@ -95,7 +99,7 @@ export default function mobileappdevelopment() {
     const whytitle = <>
         <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
         <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
-            Building Mobile Applications Where Vision Meets Excellence
+        Strengthen Your CRM Capabilities with Our Expert CRM Services
         </h2>
     </>
 
@@ -114,10 +118,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Greater Customer Reach
+                    Contact Management 
                     </h5>
                     <p className='white'>
-                        Mobile apps allow you to connect with customers anywhere and anytime worldwide.
+                    Contact management involves compiling and keeping up an extensive database of client data, interactions, and contact history.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -131,10 +135,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Improved Customer Service
+                    Lead Tracking 
                     </h5>
                     <p className='white'>
-                        Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
+                    Our CRM solutions company keeps records and tracks of lead's interactions and information to enable efficient follow-ups and conversions.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -148,10 +152,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Shared Valuable Content
+                    Sales Automation
                     </h5>
                     <p className='white'>
-                        Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
+                    Our custom CRM development services include simplifying the sales process by automating operations like lead assignment, follow-ups, and data input.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -165,10 +169,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon26} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Customer Loyalty
+                    Pipeline Management
                     </h5>
                     <p className='white'>
-                        Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
+                    Our Experts visualize sales prospects and their progression through different phases to help with resource allocation and forecasting.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -182,10 +186,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Drive Sales
+                    Customer Interaction Tracking
                     </h5>
                     <p className='white'>
-                        Mobile applications provide a convenient way for customers to purchase your products and services on the go.
+                    CRM software solutions at BitsWits involve keeping a comprehensive record of customer contact across all communication channels (phone, email, social media).
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -199,10 +203,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Simplified Payments
+                    Customer Support
                     </h5>
                     <p className='white'>
-                        Mobile applications allow users to instantly pay, donate, and order without any hassle.
+                    Our CRM development services include incorporating top customer service features to efficiently manage questions, complaints, and solutions for our users.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -216,10 +220,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Increased Visibility
+                    Obtain a Personalized Solution
                     </h5>
                     <p className='white'>
-                        A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
+                    We don't provide universal CRM development services and solutions. Our specialists will modify the system to meet your particular company needs, workflows, and procedures. This makes sure you get a solution that is customized according to your unique demands and goals.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -234,10 +238,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Competitive Advantage
+                    Get Top CRM Experts Access
                     </h5>
                     <p className='white'>
-                        Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
+                    High-caliber CRM experts offer perfect CRM development services that help manage difficult deployments for many sectors that make up our team. They have the necessary skills to provide the greatest value and facilitate the easy adoption of the CRM.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>
@@ -253,10 +257,10 @@ export default function mobileappdevelopment() {
                         <Image src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                        Future-Proof Your Business
+                    Increasing Output
                     </h5>
                     <p className='white'>
-                        Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
+                    Our CRM development services and solutions are designed to break down data silos, automate repetitive tasks, and simplify procedures throughout the whole business. Our solutions promote cooperation and information exchange, increasing efficiency throughout your organization.
                     </p>
                     <h5 class="font14">
                         <span>Connect Now</span>

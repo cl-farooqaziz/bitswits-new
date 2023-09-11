@@ -433,7 +433,11 @@
   }
 
   .megaMenu2 {
-    height: 60vh;
+    height: 55vh;
+  }
+
+  .megaMenu2 {
+    padding: 30px 20px 0;
   }
 }
 
@@ -443,11 +447,15 @@
   }
 
   .megaMenu3 {
-    height: 70vh;
+    height: 65vh;
   }
 
   .megaMenu4 {
-    height: 70vh;
+    height: 66vh;
+  }
+
+  .megaMenu3 .megaRow {
+    padding: 20px 20px 0;
   }
 }
 

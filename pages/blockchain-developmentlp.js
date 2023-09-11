@@ -77,6 +77,7 @@ export default function Home() {
       <main className={styles.main}>
 
         <Banners />
+        
         <Logoslide />
 
         <LeftContent

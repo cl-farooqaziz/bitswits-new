@@ -11,7 +11,7 @@ import barcode1 from '@/public/blockchain/images/barcode1.png'
 const Contact = (props) => {
     return (
         <>
-            <div className={style[props.whychooseclass]}>
+            <div className={`${style[props.whychooseclass]} secPad`}>
                 <Container>
                     <Row className='justify-content-center align-items-center text-center mb-4'>
                         <Col lg={12}>
