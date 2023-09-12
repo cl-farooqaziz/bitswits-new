@@ -36,13 +36,11 @@ import icon31 from '../public/images/fyicons/9.png'
 import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
 import NewDecFy from '@/components/NewDecFy';
 //
-import news1 from '/public/images/new2/1.svg'
-import news2 from '/public/images/new2/2.svg'
-import news3 from '/public/images/new2/3.svg'
-import news4 from '/public/images/new2/4.svg'
-import news5 from '/public/images/new2/5.svg'
-import news6 from '/public/images/new2/6.svg'
-import news7 from '/public/images/new2/7.svg'
+import news1 from '/public/images/new2/1.webp'
+import news2 from '/public/images/new2/2.webp'
+import news3 from '/public/images/new2/3.webp'
+import news4 from '/public/images/new2/4.webp'
+import news5 from '/public/images/new2/5.webp'
 
 
 export default function mobileappdevelopment() {
@@ -514,8 +512,7 @@ export default function mobileappdevelopment() {
                             <Image src={news3} alt="bitswits" className='img-fluid' />
                             <Image src={news4} alt="bitswits" className='img-fluid' />
                             <Image src={news5} alt="bitswits" className='img-fluid' />
-                            <Image src={news6} alt="bitswits" className='img-fluid' />
-                            <Image src={news7} alt="bitswits" className='img-fluid' />
+                         
                         </div>
     
                     </>}
