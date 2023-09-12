@@ -56,6 +56,9 @@ const Maintaining = (props) => {
 
                             <h3 className={styles.serve}> {props.subtitle} </h3>
                             <h2 className={styles.qualitu}> {props.title} </h2>
+
+                            <p className='center mb-5'> {props.paratext} </p>
+
                         </Col>
                     </Row>
                     <Row className={styles.apps}>

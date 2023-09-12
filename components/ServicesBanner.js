@@ -77,6 +77,9 @@ const ServicesBanner = (props) => {
                                 <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                             </div>
 
+
+                            <p className='font16 fontf font-regular fyColor justify mt-4'>{props.infopara}</p>
+                           
                             <div className={`mt-2 mb-3`}>
                                 <div className='newbit2'>
                                     <Image src={news1} alt="bitswits" className='img-fluid' />
@@ -109,7 +112,7 @@ const ServicesBanner = (props) => {
                             </div> */}
 
 
-                            {props.infopara}
+                            
 
                             {/* <div className={styles.srvcBannerImg}>
                                 <div className={styles.logo14}>

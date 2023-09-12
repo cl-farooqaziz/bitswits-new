@@ -518,6 +518,7 @@ export default function mobileappdevelopment() {
                 para={para}
                 bannerimg={banImg}
                 bgClass="mobile"
+                infopara = 'From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.'
             />
 
             <NewDecFy />
@@ -547,7 +548,8 @@ export default function mobileappdevelopment() {
             <Maintainingservices
             
             subtitle = 'Services'
-            title = 'Maintaining Digital Quality with our Collection of Customizable Services'
+            title = {  <>  Transforming Visions into Reality with <br></br> Exceptional Mobile App Solutions </> }
+            paratext = { <> At BitsWits, our expert team specializes in professional app development.  Whether you want to build an app from <br></br> scratch or make an app that stands out, we're here to turn your ideas into reality. </> }
 
             icon1 = {icon1}
             title1 = 'Mobile App Development'
