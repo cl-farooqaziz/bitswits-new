@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 
 
-const Howweare = () => {
+const Howweare = (props) => {
     return (
         <>
 
@@ -16,16 +16,21 @@ const Howweare = () => {
                 <Container fluid>
                     <Row>
                         <Col xl={9} className='p-0'>
-                            <Image src={icon1} className='img-fluid w-100 h-auto' />
-                            
+                            <Image src={props.icon1} className='img-fluid w-100 h-auto' />
+
                         </Col>
                         <Col xl={3}>
                             <div className={styles.bump}>
-                                <h3 className={styles.who}>WHO WE ARE</h3>
-                                <h2 className={styles.greater}>We build greater futures through <br></br> innovation and collective knowledge.</h2>
-                                <p>Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years.</p>
+                                <h3 className={styles.who}>{props.subtitle}</h3>
+                                <h2 className={styles.greater}> {props.title} </h2>
+                                <p> {props.para} </p>
 
-                                <Link href='#'>Get to know us  <Image src={icon2} className={styles.imgfluid} /> </Link>
+
+                                {props.para1 &&
+                                    <p> {props.para1} </p>
+                                }
+
+                                <Link href='#'> {props.linkdem}  <Image src={icon2} className={styles.imgfluid} /> </Link>
 
                             </div>
 

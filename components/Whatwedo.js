@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 
 
-const Whatwedo = () => {
+const Whatwedo = (props) => {
     return (
         <>
 
@@ -18,18 +18,18 @@ const Whatwedo = () => {
                       
                         <Col xl={3}>
                             <div className={styles.bump}>
-                                <h3 className={styles.who}>WHAT WE DO</h3>
-                                <h2 className={styles.greater}>Bitswits transforms businesses through technology.</h2>
-                                <p>We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.</p>
+                                <h3 className={styles.who}> {props.subtitle} </h3>
+                                <h2 className={styles.greater}> {props.title} </h2>
+                                <p> {props.para} </p>
 
-                                <Link href='#'>Get to know us  <Image src={icon2} className={styles.imgfluid} /> </Link>
+                                <Link href='#'> {props.linkdem}  <Image src={icon2} className={styles.imgfluid} /> </Link>
 
                             </div>
 
                         </Col>
 
                         <Col xl={9} className='p-0'>
-                            <Image src={icon1} className='img-fluid w-100 h-auto' />
+                            <Image src={props.icon12} className='img-fluid w-100 h-auto' />
                             
                         </Col>
 

@@ -6,6 +6,12 @@ import icon3 from '../public/images/ourservices/web30.png'
 import icon4 from '../public/images/ourservices/blockchain.png'
 import icon5 from '../public/images/ourservices/webflow.png'
 import icon6 from '../public/images/ourservices/artifical.png'
+import icon11 from '../public/images/howweare/howweare.png'
+import icon12 from '../public/images/howweare/whatwedo.png'
+import Link from 'next/link';
+import Image from 'next/image';
+
+
 //components
 // import Banner from '@/components/Banner'
 // import Rated from '@/components/Rated'
@@ -227,11 +233,26 @@ export default function Home() {
 
       <About />
 
-      <Howweare />
+      <Howweare
+
+        subtitle='WHO WE ARE'
+        title={<>  We build greater futures through <br></br> innovation and collective knowledge. </>}
+        para='Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years.'
+        linkdem={<>  Get to know us </>}
+        icon1={icon11}
+      />
 
       <Justbuildit />
 
-      <Whatwedo />
+      <Whatwedo
+
+        subtitle='WHAT WE DO'
+        title={<>  Bitswits transforms businesses through technology. </>}
+        para='We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.'
+        linkdem={<>  Get to know us </>}
+        icon12={icon12}
+
+      />
 
       <Maintaining />
 
