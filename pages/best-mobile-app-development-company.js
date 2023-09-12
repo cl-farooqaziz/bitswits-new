@@ -54,6 +54,14 @@ import icon6 from '../public/images/servicesnewicon/6.png'
 import icon7 from '../public/images/servicesnewicon/7.png'
 import icon8 from '../public/images/servicesnewicon/8.png'
 
+import news1 from '/public/images/new2/1.svg'
+import news2 from '/public/images/new2/2.svg'
+import news3 from '/public/images/new2/3.svg'
+import news4 from '/public/images/new2/4.svg'
+import news5 from '/public/images/new2/5.svg'
+import news6 from '/public/images/new2/6.svg'
+import news7 from '/public/images/new2/7.svg'
+
 
 export default function mobileappdevelopment() {
 

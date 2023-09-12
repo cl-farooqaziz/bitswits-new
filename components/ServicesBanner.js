@@ -38,8 +38,7 @@ const ServicesBanner = (props) => {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 10000,
-        pauseOnHover: false,
+        speed: 5000,
         cssEase: 'linear',
         slidesToShow: 3,
         slidesToScroll: 1
