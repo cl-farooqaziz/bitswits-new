@@ -311,7 +311,7 @@ export default function flutterappdevelopmentusa() {
                     Company In USA </>}
 
                 text={<> BitsWits stands out as the best flutter mobile app development company in the USA, with its expertise in delivering innovative and seamless user experiences. Our team of skilled developers is dedicated to crafting top-notch mobile apps optimized for user satisfaction. Choose us for your next flutter app development project, and watch your vision transform into a flawless mobile experience. </>}
-                banClass= 'mobile'
+                banClass='mobile'
                 img1={<>
                     <div className='newbit'>
                         <Image src={new1} alt="bitswits" className='img-fluid' />
@@ -336,9 +336,9 @@ export default function flutterappdevelopmentusa() {
 
 
             />
-             <NewDecFy />
+            <NewDecFy />
 
-<br></br> <br></br>
+            {/* <br></br> <br></br> */}
             <Yearsofexpertise
                 loop1={<> <Counter stopNumber={500} />+ </>}
                 looptext11={<> Applications Developed and Designed </>}
@@ -420,11 +420,7 @@ export default function flutterappdevelopmentusa() {
 
             <Lookingforlp />
 
-            <Musicapp />
-
-            <Cab />
-
-            <Findfood />
+            <Ourportfoliolp />
 
 
             {/* <NewSliderFy /> */}

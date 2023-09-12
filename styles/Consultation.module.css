@@ -15,7 +15,6 @@
   box-shadow: #e83468 2px 2px 29px 0;
   border: unset;
   letter-spacing: 1px;
-  text-transform: uppercase;
   transition: 0.5s ease-in-out;
   display: inline-block;
 }

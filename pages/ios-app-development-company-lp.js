@@ -57,6 +57,13 @@ import Aboutlp from '@/components/Aboutlp'
 import NewBannerFy from '@/components/NewBannerFy'
 import NewSliderFy from '@/components/NewSliderFy'
 import Contact from '@/components/Contact'
+//
+import Image from 'next/image'
+import news1 from '/public/images/new2/1.webp'
+import news2 from '/public/images/new2/2.webp'
+import news3 from '/public/images/new2/3.webp'
+import news4 from '/public/images/new2/4.webp'
+import news5 from '/public/images/new2/5.webp'
 
 
 
@@ -273,6 +280,20 @@ export default function iosappdevelopmentcompanylp() {
                 title={<> Our iOS App <br /> Development Company </>}
                 text='Our iOS development team works with you to determine the ideal features, design, and user experience that will make your app a success. We also take care of all the technical details, including testing and security measures. More so, we ensure that your app meets the App Store standards, so it can be released on time and without any issues.'
                 banClass="ios"
+                img1={<>
+
+
+                </>}
+                img2={<>
+                    <div className='newbit2'>
+                        <Image src={news1} alt="bitswits" className='img-fluid' />
+                        <Image src={news2} alt="bitswits" className='img-fluid' />
+                        <Image src={news3} alt="bitswits" className='img-fluid' />
+                        <Image src={news4} alt="bitswits" className='img-fluid' />
+                        <Image src={news5} alt="bitswits" className='img-fluid' />
+                    </div>
+
+                </>}
             />
 
 
@@ -285,12 +306,12 @@ export default function iosappdevelopmentcompanylp() {
 
 
             <Ourservices
-                title= 'IOS APP DEVELOPMENT SERVICES'
-                title2= { <>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
-                    
+                title='IOS APP DEVELOPMENT SERVICES'
+                title2={<>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
+
                     Craft Incredible Apps : <span className='grdiant'> Hire iOS App Developer! </span>
-                    
-                     </h2> </> }
+
+                </h2> </>}
                 services={services1}
             />
 
@@ -415,20 +436,20 @@ export default function iosappdevelopmentcompanylp() {
 
 
             <Lookingforlp
-            
-            tilte = {  <>    <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5> </> }
-            title2 = { <> <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
-            
-            Bring Out The Best Of Your <span className='grdiant'>Mobile Application With Our Scalable Technology</span> Stack
-            
-            </h2>  </> }
-            para = { <> 
-            
-            <p className='font18 black t-center'>We build top-notch mobile apps using a tried-and-true technological stack that can scale.</p>
-            
-            </> }
-            
-            
+
+                tilte={<>    <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5> </>}
+                title2={<> <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
+
+                    Bring Out The Best Of Your <span className='grdiant'>Mobile Application With Our Scalable Technology</span> Stack
+
+                </h2>  </>}
+                para={<>
+
+                    <p className='font18 black t-center'>We build top-notch mobile apps using a tried-and-true technological stack that can scale.</p>
+
+                </>}
+
+
             />
 
             <Consultation2 />

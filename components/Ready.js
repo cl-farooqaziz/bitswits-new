@@ -21,7 +21,7 @@ const Ready = () => {
                                 and secure your free consultation.</p>
 
                             <Link className={styles.btno} href="#">
-                                GET FREE CONSULTATION
+                                Get Free Consultation
                             </Link>
 
                         </Col>
@@ -32,7 +32,7 @@ const Ready = () => {
                                 app</p>
 
                             <Link className={styles.btno} href="#">
-                                CHAT NOW
+                                Chat Now
                             </Link>
 
                         </Col>
@@ -43,7 +43,7 @@ const Ready = () => {
                                 market</p>
 
                             <Link className={styles.btno} href="#">
-                                CALL NOW
+                                Call Now
                             </Link>
 
                         </Col>

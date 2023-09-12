@@ -11,6 +11,12 @@ import icon2 from '../public/images/banner/icon2.png'
 import icon4 from '../public/images/banner/icon4.png'
 import rev1 from '../public/images/newbanner/one.png'
 import rev2 from '../public/images/newbanner/two.png'
+//
+import news1 from '/public/images/new2/1.webp'
+import news2 from '/public/images/new2/2.webp'
+import news3 from '/public/images/new2/3.webp'
+import news4 from '/public/images/new2/4.webp'
+import news5 from '/public/images/new2/5.webp'
 
 
 const NewBannerFy = (props) => {
@@ -84,25 +90,34 @@ const NewBannerFy = (props) => {
                                 </Link>
                             </div>
 
-                            {props.img1 ?
- <>
-                                {props.img1}
-
-                                 {props.img2} 
-                                 
-                                 
-                                 </>
-
-
-
-                                :
-
-                                <div className={`${styles.revImg} mt-5`}>
-                                    <Image src={rev1} alt="bitswits" className='img-fluid' />
-                                    <Image src={rev2} alt="bitswits" className='img-fluid' />
+                            <div className={`mt-2 mb-3`}>
+                                <div className='newbit2'>
+                                    <Image src={news1} alt="bitswits" className='img-fluid' />
+                                    <Image src={news2} alt="bitswits" className='img-fluid' />
+                                    <Image src={news3} alt="bitswits" className='img-fluid' />
+                                    <Image src={news4} alt="bitswits" className='img-fluid' />
+                                    <Image src={news5} alt="bitswits" className='img-fluid' />
                                 </div>
+                            </div>
 
-                            }
+                            {/* <div className={`mt-5`}>
+                                {props.img1 ?
+                                    <>
+                                        {props.img1}
+
+                                        {props.img2}
+
+
+                                    </>
+
+
+
+                                    :
+
+                                    ''
+
+                                }
+                            </div> */}
 
 
                         </div>

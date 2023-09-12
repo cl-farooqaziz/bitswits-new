@@ -58,6 +58,13 @@ import icon5 from '../public/images/andriodservices/webflow.png'
 import icon6 from '../public/images/andriodservices/artifical.png'
 import Ourservices from '@/components/Ourserviceslp'
 import Contact from '@/components/Contact'
+//
+import Image from 'next/image'
+import news1 from '/public/images/new2/1.webp'
+import news2 from '/public/images/new2/2.webp'
+import news3 from '/public/images/new2/3.webp'
+import news4 from '/public/images/new2/4.webp'
+import news5 from '/public/images/new2/5.webp'
 
 
 export default function androidappdevelopmentcompanylp() {
@@ -258,6 +265,20 @@ export default function androidappdevelopmentcompanylp() {
                 text={<> BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development company firmly believes that no two businesses are the same, and neither should their apps be. </>}
                 text2={<> From design to testing, we cover every aspect of Android app development. Whether you need a standalone application for a specific purpose or an integrated app for multiple devices, our team can handle it all. </>}
                 banClass="andriod"
+                img1={<>
+
+
+                </>}
+                img2={<>
+                    <div className='newbit2'>
+                        <Image src={news1} alt="bitswits" className='img-fluid' />
+                        <Image src={news2} alt="bitswits" className='img-fluid' />
+                        <Image src={news3} alt="bitswits" className='img-fluid' />
+                        <Image src={news4} alt="bitswits" className='img-fluid' />
+                        <Image src={news5} alt="bitswits" className='img-fluid' />
+                    </div>
+
+                </>}
             />
 
             <NewDecFy />
@@ -268,7 +289,7 @@ export default function androidappdevelopmentcompanylp() {
                 title='WHAT WE DO'
                 title2={<>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
 
-Leveling Up Your App Game With Our Slew of <span className='grdiant'>Android App Development Service</span>!
+                    Leveling Up Your App Game With Our Slew of <span className='grdiant'>Android App Development Service</span>!
 
                 </h2> </>}
                 services={services1}
@@ -317,24 +338,24 @@ Leveling Up Your App Game With Our Slew of <span className='grdiant'>Android App
             <Ourportfoliolp />
 
             <Lookingforlp
-            
 
-    
 
-            tilte = {  <>    <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5> </> }
-            title2 = { <> <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
-            
-            Bring Out The Best Of Your <span className='grdiant'>Mobile Application
-            With Our Scalable Technology </span> Stack
-            
-            </h2>  </> }
-            para = { <> 
-            
-            <p className='font18 black t-center'>Experience the Success of Your Mobile Apps with Our Powerful Tech Stack</p>
-            
-            </> }
-            
-            
+
+
+                tilte={<>    <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5> </>}
+                title2={<> <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
+
+                    Bring Out The Best Of Your <span className='grdiant'>Mobile Application
+                        With Our Scalable Technology </span> Stack
+
+                </h2>  </>}
+                para={<>
+
+                    <p className='font18 black t-center'>Experience the Success of Your Mobile Apps with Our Powerful Tech Stack</p>
+
+                </>}
+
+
             />
 
             <Consultation2 />

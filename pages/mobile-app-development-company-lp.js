@@ -52,6 +52,13 @@ import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
 import FaqsLp from '@/components/FaqsmobileappLp'
 import Consultation2 from '@/components/Consultation2'
+//
+import Image from 'next/image'
+import news1 from '/public/images/new2/1.webp'
+import news2 from '/public/images/new2/2.webp'
+import news3 from '/public/images/new2/3.webp'
+import news4 from '/public/images/new2/4.webp'
+import news5 from '/public/images/new2/5.webp'
 
 
 
@@ -248,6 +255,20 @@ export default function androidappdevelopmentcompanylp() {
                 title2={<>We Don't Just Create Apps; We Create Experiences</>}
                 text={<> At BitsWits, we develop innovative and user-friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients. Our focus on delivering high-quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
                 banClass="mobile"
+                img1={<>
+
+
+                </>}
+                img2={<>
+                    <div className='newbit2'>
+                        <Image src={news1} alt="bitswits" className='img-fluid' />
+                        <Image src={news2} alt="bitswits" className='img-fluid' />
+                        <Image src={news3} alt="bitswits" className='img-fluid' />
+                        <Image src={news4} alt="bitswits" className='img-fluid' />
+                        <Image src={news5} alt="bitswits" className='img-fluid' />
+                    </div>
+
+                </>}
             />
 
             <NewDecFy />
@@ -257,17 +278,17 @@ export default function androidappdevelopmentcompanylp() {
             {/* <NewSliderFy /> */}
 
             <Ourservices
-               title= 'SERVICES'
-               title2= { <>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
-                   
-                   <span className='grdiant'>Mobile App Development</span> Services 
-                   
-                    </h2> </> }
-                    para ={ <>   <p className='font16 white fontf font-medium t-center'>
-                   
-                   Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.
-                    
-                     </p> </> }
+                title='SERVICES'
+                title2={<>   <h2 className='font50 black fontf font-bold line60 white mb-2 t-center'>
+
+                    <span className='grdiant'>Mobile App Development</span> Services
+
+                </h2> </>}
+                para={<>   <p className='font16 white fontf font-medium t-center'>
+
+                    Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.
+
+                </p> </>}
                 services={services1}
             />
 

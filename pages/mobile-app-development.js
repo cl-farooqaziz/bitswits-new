@@ -35,6 +35,12 @@ import icon30 from '../public/images/fyicons/8.png'
 import icon31 from '../public/images/fyicons/9.png'
 import icon32 from '../public/images/industryInt/feather-check-circle-svg.png'
 import NewDecFy from '@/components/NewDecFy';
+//
+import news1 from '/public/images/new2/1.webp'
+import news2 from '/public/images/new2/2.webp'
+import news3 from '/public/images/new2/3.webp'
+import news4 from '/public/images/new2/4.webp'
+import news5 from '/public/images/new2/5.webp'
 
 
 export default function mobileappdevelopment() {
@@ -494,8 +500,21 @@ export default function mobileappdevelopment() {
             <Banner
                 title={heading}
                 para={para}
-                bannerimg={banImg}
                 bgClass="mobile"
+                img1={<>
+                    
+
+                    </>}
+                    img2={<>
+                        <div className='newbit2'>
+                            <Image src={news1} alt="bitswits" className='img-fluid' />
+                            <Image src={news2} alt="bitswits" className='img-fluid' />
+                            <Image src={news3} alt="bitswits" className='img-fluid' />
+                            <Image src={news4} alt="bitswits" className='img-fluid' />
+                            <Image src={news5} alt="bitswits" className='img-fluid' />
+                        </div>
+    
+                    </>}
             />
 
             <NewDecFy />

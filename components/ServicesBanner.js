@@ -16,6 +16,12 @@ import banImg3 from '../public/images/agencylogos/agency-logo3.svg'
 import banImg4 from '../public/images/agencylogos/agency-logo4.svg'
 import banImg5 from '../public/images/agencylogos/agency-logo5.svg'
 //
+import news1 from '/public/images/new2/1.webp'
+import news2 from '/public/images/new2/2.webp'
+import news3 from '/public/images/new2/3.webp'
+import news4 from '/public/images/new2/4.webp'
+import news5 from '/public/images/new2/5.webp'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -70,10 +76,18 @@ const ServicesBanner = (props) => {
                                 <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                             </div>
 
+                            <div className={`mt-2 mb-3`}>
+                                <div className='newbit2'>
+                                    <Image src={news1} alt="bitswits" className='img-fluid' />
+                                    <Image src={news2} alt="bitswits" className='img-fluid' />
+                                    <Image src={news3} alt="bitswits" className='img-fluid' />
+                                    <Image src={news4} alt="bitswits" className='img-fluid' />
+                                    <Image src={news5} alt="bitswits" className='img-fluid' />
+                                </div>
+                            </div>
 
 
-
-                            <div className='mt-5'>
+                            {/* <div className='mt-5'>
                                 <Slider {...bannerslider} className={` ${styles.startSlide} Serbannerslider mt-5`}>
                                     <div className={styles.strpImg}>
                                         <Image alt="bitswits" src={banImg1} className="img-fluid" />
@@ -91,7 +105,7 @@ const ServicesBanner = (props) => {
                                         <Image alt="bitswits" src={banImg5} className={`${styles.clutchImg} img-fluid`} />
                                     </div>
                                 </Slider>
-                            </div>
+                            </div> */}
 
 
                             {props.infopara}

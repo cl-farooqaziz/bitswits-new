@@ -340,7 +340,7 @@ export default function mobileappdevelopmentusa() {
             />
             <NewDecFy />
 
-            <br></br> <br></br>
+            {/* <br></br> <br></br> */}
             <Yearsofexpertise
                 loop1={<> <Counter stopNumber={500} />+ </>}
                 looptext11={<> Applications Developed and Designed </>}
@@ -417,11 +417,7 @@ export default function mobileappdevelopmentusa() {
 
             <Lookingforlp />
 
-            <Musicapp />
-
-            <Cab />
-
-            <Findfood />
+            <Ourportfoliolp />
 
 
             {/* <NewSliderFy /> */}

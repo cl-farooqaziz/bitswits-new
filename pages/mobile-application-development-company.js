@@ -84,7 +84,7 @@ export default function mobileapplicationdevelopmentcompany() {
 
         {
             title: 'iOS App Development',
-            text: ( <> BitsWits is fueled by the zeal to create remarkable applications that exceed clients' expectations. As a leading iOS app development company, we recognize that launching a successful mobile app requires more than an excellent idea. We take every project as a chance to push our limits and deliver outstanding results. Hire us to turn your app vision into reality! </> ),
+            text: (<> BitsWits is fueled by the zeal to create remarkable applications that exceed clients' expectations. As a leading iOS app development company, we recognize that launching a successful mobile app requires more than an excellent idea. We take every project as a chance to push our limits and deliver outstanding results. Hire us to turn your app vision into reality! </>),
             btn1: (
                 <>
                     LET'S START
@@ -382,7 +382,7 @@ export default function mobileapplicationdevelopmentcompany() {
                 subtitle='Awarded #1 Mobile App Development Company In USA'
                 title={<>   Expert <span className='grdiant'>Mobile App Developers</span>
                     Crafting Experiences With Every Tap And Swipe. </>}
-                    banClass= 'mobile'
+                banClass='mobile'
 
 
                 img1={<>
@@ -413,7 +413,7 @@ export default function mobileapplicationdevelopmentcompany() {
 
 
 
-            <Consultancy/>
+            <Consultancy />
 
 
 
@@ -440,13 +440,13 @@ export default function mobileapplicationdevelopmentcompany() {
 
             />
 
-<section className='campny'>
+            <section className='campny'>
                 <Container>
                     <Row>
                         <Col>
                             <h3 className='f-20 f-700 black t-center'> WHAT WE DO </h3>
                             <h2 className='f-50 f-700 black t-center mb-5'> Array Of <span className='grdiant'>App Development Expertise</span> to Assemble
-Solutions, Engineer Success, And Launch Dreams!!! </h2>
+                                Solutions, Engineer Success, And Launch Dreams!!! </h2>
                         </Col>
                     </Row>
                     <Row className='gy-4'>
@@ -516,11 +516,7 @@ Solutions, Engineer Success, And Launch Dreams!!! </h2>
 
             <Lookingforlp />
 
-            <Musicapp />
-
-            <Cab />
-
-            <Findfood />
+            <Ourportfoliolp />
 
 
             {/* <NewSliderFy /> */}
