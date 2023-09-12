@@ -41,7 +41,7 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
         Develop Quality Websites With Our Top
             <span className='grdiant'> PHP Development Company</span>
         </h1>
@@ -49,24 +49,24 @@ export default function mobileappdevelopment() {
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
         Let's talk about utilizing PHP's flexibility to realize your most audacious online concepts!
         </p>
 
-        <ul className='mb-4 p-0'>
-            <li className="font16 fontf font-medium fyColor ">
+        <ul className='mb-4 mt-2 p-0'>
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 PHP Artisans: Expertise in Core PHP, Laravel, CodeIgniter, and more. 
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Smooth Integration and Diverse Platforms Through REST APIs and Web Services.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Cost-Effective Custom Solutions.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 21 Years of Excellence: Delivered 10000+ Successful PHP Websites and Apps for 480+ Clients.
             </li>

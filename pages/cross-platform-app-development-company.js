@@ -41,26 +41,26 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
-            <span className='grdiant font-bold'> Cross-Platform App </span> Development Company
+        <h1 className='font60 white fontf font-bold mb-1'>
+            <span className='grdiant font-bold'> Cross-Platform App </span> <br></br> Development Company
         </h1>
     </>
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
-        Don't Wait, Innovate! Contact us now and hire the best <span className='grdiant font-bold'>cross-platform app developers</span>  in the US. 
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
+        Don't Wait, Innovate! Contact us now and hire the best <span className='grdiant font-bold'>cross-platform <br></br> app developers</span>  in the US. 
         </p>
 
-        <ul className='mb-4 p-0'>
+        <ul className='mb-4 mt-2 p-0'>
 
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Client-Centric Approach </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Rapid Prototyping </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Seamless Cross-Platform Integration </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Customer satisfaction rate of 99% </li>
 
 

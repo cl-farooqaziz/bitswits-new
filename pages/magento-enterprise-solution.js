@@ -41,33 +41,33 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
-            The Leading
-            <span className='grdiant'>Magento Enterprise Solutions Company </span>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
+            The Leading <br></br>
+            <span className='grdiant'> Magento Enterprise Solutions Company </span> <br></br>
             Powering Online Retail Innovation
         </h1>
     </>
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
             Our Magento enterprise development services have been of highest quality for decades. Let our experts work on your project to make them succeed without hassles!
         </p>
 
-        <ul className='mb-4 p-0'>
-            <li className="font16 fontf font-medium fyColor ">
+        <ul className='mb-4 mt-2 p-0'>
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Custom Module Development
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Crafting Inventive Online Stores That Attract and Convert
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Customized Theme Designs
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Sales Optimization
             </li>

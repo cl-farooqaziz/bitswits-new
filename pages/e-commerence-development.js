@@ -41,33 +41,33 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
-        Our 
-            <span className='grdiant'> Expert Ecommerce Web Development  </span>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
+        Our  <br></br>
+            <span className='grdiant'> Expert Ecommerce Web Development  </span> <br></br>
             Company Helps You Grow Your Business Worldwide. 
         </h1>
     </>
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
         With over 20 years of experience building successful online stores, our eCommerce website developers have the expertise to create high-converting sales for your business. 
         </p>
 
-        <ul className='mb-4 p-0'>
-            <li className="font16 fontf font-medium fyColor ">
+        <ul className='mb-4 mt-2 p-0'>
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Product Filtering and Search
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 User-Friendly eCommerce Websites
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Optimized Checkout Funnels 
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Omnichannel Sales
             </li>

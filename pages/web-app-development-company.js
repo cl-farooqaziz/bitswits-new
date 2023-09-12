@@ -41,27 +41,27 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
             Innovate, Create, Succeed Top <br></br> <span className='grdiant font-bold'>Web App Development Company</span> <br></br> in US
         </h1>
     </>
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
-        Ready to Experience Excellence? Join us today for faster development and we guarantee a 60% boost in user engagement on your new web app!
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
+        Ready to Experience Excellence? Join us today for faster development and we guarantee <br></br> a 60% boost in user engagement on your new web app!
         </p>
 
-        <ul className='mb-4 p-0'>
+        <ul className='mb-4 mt-2 p-0'>
 
 
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>250+ successfully completed projects </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Robust Security Measures </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>24/7 Dedicated Support </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>100% customized web app solutions </li>
 
 

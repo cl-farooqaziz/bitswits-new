@@ -41,7 +41,7 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
             Building Futuristic Applications With Our World-Class
             <span className='grdiant'> Web App Development Company</span>
         </h1>
@@ -49,24 +49,24 @@ export default function mobileappdevelopment() {
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
             At BitsWits, our web application developers focus on creating web solutions and improving brand identity. Connect with us and let our experts fill your apps with creativity and entertainment.
         </p>
 
-        <ul className='mb-4 p-0'>
-            <li className="font16 fontf font-medium fyColor ">
+        <ul className='mb-4 mt-2 p-0'>
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Increased demand and functionality with scalable web apps.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Smart solutions into web apps.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Combining technology and innovation to create intelligent online apps.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Innovative web app development
             </li>

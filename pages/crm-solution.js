@@ -41,7 +41,7 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
             Let Success Come Your Way with the
             <span className='grdiant'>Top CRM Solutions Company!</span>
         </h1>
@@ -49,24 +49,24 @@ export default function mobileappdevelopment() {
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
             At BitsWits, our experts offer perfect CRM Solutions which will fit right to your business requirements. Contact us to increase your CRM success!
         </p>
 
-        <ul className='mb-4 p-0'>
-            <li className="font16 fontf font-medium fyColor ">
+        <ul className='mb-4 mt-2 p-0'>
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Improved CRM Development Services.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Tracking Sales Activities and Increased Productivity.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Powerful Reporting for Smarter Decisions.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Managing Customer Inquiries and Track Support Tickets
             </li>

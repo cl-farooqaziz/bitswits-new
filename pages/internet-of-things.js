@@ -41,7 +41,7 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
             <span className='grdiant'>Best Mobile App Development Company </span>
             <span className='font60 d-block white'>Your Purpose, Our Strategy</span>
         </h1>
@@ -49,20 +49,20 @@ export default function mobileappdevelopment() {
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
             At BitsWits, we transform visions into vibrant apps. As the best mobile app development company, we merge your goals with our expertise, creating digital experiences that resonate and inspire.
         </p>
 
-        <ul className='mb-4 p-0'>
-            <li className="font16 fontf font-medium fyColor ">
+        <ul className='mb-4 mt-2 p-0'>
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Custom-Tailored Solutions: Each app uniquely designed to fit your brand's narrative.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Innovative Approach: Harnessing the latest tech to set industry benchmarks.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Unwavering Quality: Delivering only the best, because you deserve nothing less.
             </li>

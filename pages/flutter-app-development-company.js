@@ -41,7 +41,7 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
+        <h1 className='font60 white fontf font-bold mb-1'>
             Flutter Your Way to App Success With Top <br></br> <span className='grdiant font-bold'>Flutter App Development Company</span>
 
         </h1>
@@ -49,20 +49,20 @@ export default function mobileappdevelopment() {
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
-            Our professional <span className='grdiant font-bold'>flutter app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
+            Our professional <span className='grdiant font-bold'>flutter app developers</span> at BitsWits, have a diverse portfolio of clients. Connect <br></br> with us today to utilize our expertise in your projects!
         </p>
 
-        <ul className='mb-4 p-0'>
+        <ul className='mb-4 mt-2 p-0'>
 
 
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>The go-to flutter app developers for popular brands </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>2000+ apps launched and counting  </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>250+ In-house flutter developers  </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Rapid, agile development  </li>
         </ul>
     </>

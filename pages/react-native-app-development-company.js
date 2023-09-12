@@ -41,29 +41,29 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
-            Innovate On Any Device with Top <br></br> <span className='grdiant font-bold'> React Native App Development Company</span> In USA
+        <h1 className='font60 white fontf font-bold mb-1'>
+            Innovate On Any Device with Top <br></br> <span className='grdiant font-bold'> React Native App Development Company</span> <br></br> In USA
 
         </h1>
     </>
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
         Our professional <span className='grdiant font-bold'>React Native app developers</span> at BitsWits, have a diverse portfolio of clients. Connect with us today to utilize our expertise in your projects!
         </p>
 
-        <ul className='mb-4 p-0'>
+        <ul className='mb-4 mt-2 p-0'>
 
 
 
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>2000+ apps launched and counting  </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>99% customer satisfaction rate  </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>250+ in-house React Native developers  </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Transparent and competitive pricing  </li>
 
 

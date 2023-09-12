@@ -41,8 +41,8 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
-            Now is the Time to Wear Tech On Your Hands Developed By Our
+        <h1 className='font60 white fontf font-bold mb-1'>
+            Now is the Time to Wear Tech On Your Hands Developed By Our <br></br>
             <span className='grdiant font-bold'> Wearable App Development Company</span>
 
         </h1>
@@ -50,21 +50,21 @@ export default function mobileappdevelopment() {
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
-        Skilled <span className='grdiant font-bold'>wearable app developers</span> at BitsWits offer exceptional <span className='grdiant font-bold'>wearable app development services</span> that will surpass all your expectations. 
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
+        Skilled <span className='grdiant font-bold'>wearable app developers</span> at BitsWits offer exceptional <span className='grdiant font-bold'>wearable app development services</span> <br></br> that will surpass all your expectations. 
         </p>
 
-        <ul className='mb-4 p-0'>
+        <ul className='mb-4 mt-2 p-0'>
 
 
 
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Pioneering Wearable Innovations and Technology. </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Striking Wearable App Designs. </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Smart Notifications. </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Health and Fitness Apps.  </li>
 
         </ul>

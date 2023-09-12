@@ -21,7 +21,7 @@ export default function aboutUs() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
+        <h1 className='font60 white fontf font-bold mb-1 mb-1'>
             <span className='grdiant font-bold'>About</span> Us
         </h1>
     </>
