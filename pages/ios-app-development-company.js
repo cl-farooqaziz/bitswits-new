@@ -50,7 +50,7 @@ export default function mobileappdevelopment() {
     const para = <>
 
         <p className='font16 fontf font-regular fyColor justify mt-2'>
-        Our top-rated iOS developers have engaged with a diverse array of exceptional clientele. Connect and let us build a perfect iOS application for your business!
+        Our top-rated iOS developers have engaged with a diverse array of exceptional clientele. <br></br> Connect and let us build a perfect iOS application for your business!
         </p>
 
         <ul className='mb-4 mt-2 p-0'>
