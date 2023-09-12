@@ -149,8 +149,8 @@ body {
 }
 
 .font60 {
-  font-size: 50px;
-  line-height: 55px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .font80 {
@@ -1258,6 +1258,13 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1440px) {
+
+  .font60 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+
   .services {
     font-size: 16px;
     line-height: 25px;

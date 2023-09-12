@@ -17,7 +17,7 @@ import Banner from '@/components/ServicesBanner'
 import OurProject from '@/components/OurProject';
 import ClientsThink from '@/components/ClientsThink'
 import Nextproject from '@/components/Nextproject'
-import About from '@/components/Aboutnewdesign'
+import About from '@/components/Aboutnewdesignservice'
 import Contact from '@/components/Contact'
 import MyExpertise from '@/components/MyExpertise';
 import WhyBuild from '@/components/WhyBuild';
@@ -59,32 +59,32 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
-            Top <span className='grdiant'>Mobile App Development Company</span> Empowering People, Enriching Lives
+        <h1 className='font60 white fontf font-bold mb-1'>
+            Top <span className='grdiant'>Mobile App Development Company</span> <br></br> Empowering People, Enriching Lives
 
         </h1>
     </>
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
-            At BitsWits, we redefine what a mobile app development company can achieve. Beyond just coding, each project is an opportunity for unique mobile app creation, tailor-made to manifest your vision.
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
+            At BitsWits, we redefine what a mobile app development company can achieve. Beyond <br></br> just coding, each project is an opportunity for unique mobile app creation, tailor-made <br></br> to manifest your vision.
         </p>
 
-        <ul className='mb-4 p-0'>
-            <li className="font16 fontf font-medium fyColor ">
+        <ul className='mb-4 mt-2 p-0'>
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Chart-topping Expertise: Our reputation speaks for itself.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Custom Solutions: Tailored specifically to your needs.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Beyond the Launch: Our commitment continues post-deployment.
             </li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Always Accessible: For all your needs, at any time.
             </li>
@@ -115,7 +115,7 @@ export default function mobileappdevelopment() {
     // Why Build
 
     const whytitle = <>
-        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 white'>Precision, Performance, Perfection</h3>
         <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
             Building Mobile Applications Where Vision Meets Excellence
         </h2>
@@ -518,12 +518,15 @@ export default function mobileappdevelopment() {
                 para={para}
                 bannerimg={banImg}
                 bgClass="mobile"
-                infopara = 'From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.'
+              
             />
 
             <NewDecFy />
 
-            <About />
+            <About
+            newprps = 'newprps'
+            
+            />
 
             <Howweare
 

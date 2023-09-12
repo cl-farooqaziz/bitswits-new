@@ -12,7 +12,7 @@ const MyExpertise = (props) => {
                 <Container>
                     <Row className='aboutfold'>
                         <Col md={12}>
-                            <h3 className='font20 fontf font-semibold letterspace text-center fyColor2 mb-3'>{props.title}</h3>
+                            <h3 className='font20 fontf font-semibold letterspace text-center fyColor2 mb-0'>{props.title}</h3>
                         </Col>
                         <Col lg={12}>
                             {props.subtitle}

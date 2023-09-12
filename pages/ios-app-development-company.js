@@ -41,28 +41,28 @@ export default function mobileappdevelopment() {
 
     // banner component data
     const heading = <>
-        <h1 className='font60 white fontf font-bold mb-4'>
-            <span className='white'>The Best <span className='grdiant'>iOS App Development Company!</span> </span>
+        <h1 className='font60 white fontf font-bold mb-1'>
+            <span className='white'>The Best <br></br> <span className='grdiant'>iOS App Development Company!</span> </span>
 
         </h1>
     </>
 
     const para = <>
 
-        <p className='font16 fontf font-regular fyColor justify'>
+        <p className='font16 fontf font-regular fyColor justify mt-2'>
         Our top-rated iOS developers have engaged with a diverse array of exceptional clientele. Connect and let us build a perfect iOS application for your business!
         </p>
 
-        <ul className='mb-4 p-0'>
+        <ul className='mb-4 mt-2 p-0'>
 
 
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Expert IOS Development Team</li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Delivering solutions across diverse industry verticals</li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Building Applications for the iOS Ecosystem</li>
-            <li className="font16 fontf font-medium fyColor ">
+            <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>High client satisfaction rate </li>
          
 
@@ -96,7 +96,7 @@ export default function mobileappdevelopment() {
     // Why Build
 
     const whytitle = <>
-    <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+    <h3 className='font50 fontf font-bold line60 text-center mb-0 white'>Precision, Performance, Perfection</h3>
     <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
     Why Do You Require Our iOS Applications?
     </h2>

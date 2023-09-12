@@ -16,11 +16,13 @@ import banImg3 from '../public/images/agencylogos/agency-logo3.svg'
 import banImg4 from '../public/images/agencylogos/agency-logo4.svg'
 import banImg5 from '../public/images/agencylogos/agency-logo5.svg'
 //
-import news1 from '/public/images/new2/1.webp'
-import news2 from '/public/images/new2/2.webp'
-import news3 from '/public/images/new2/3.webp'
-import news4 from '/public/images/new2/4.webp'
-import news5 from '/public/images/new2/5.webp'
+import news1 from '/public/images/new2/1.svg'
+import news2 from '/public/images/new2/2.svg'
+import news3 from '/public/images/new2/3.svg'
+import news4 from '/public/images/new2/4.svg'
+import news5 from '/public/images/new2/5.svg'
+import news6 from '/public/images/new2/6.svg'
+import news7 from '/public/images/new2/7.svg'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -36,7 +38,7 @@ const ServicesBanner = (props) => {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 20000,
+        speed: 10000,
         pauseOnHover: false,
         cssEase: 'linear',
         slidesToShow: 3,
@@ -78,38 +80,46 @@ const ServicesBanner = (props) => {
                             </div>
 
 
-                            <p className='font16 fontf font-regular fyColor justify mt-4'>{props.infopara}</p>
+                       
                            
-                            <div className={`mt-2 mb-3`}>
+                            {/* <div className={`mt-2 mb-3`}>
                                 <div className='newbit2'>
                                     <Image src={news1} alt="bitswits" className='img-fluid' />
                                     <Image src={news2} alt="bitswits" className='img-fluid' />
                                     <Image src={news3} alt="bitswits" className='img-fluid' />
                                     <Image src={news4} alt="bitswits" className='img-fluid' />
                                     <Image src={news5} alt="bitswits" className='img-fluid' />
+                                    <Image src={news6} alt="bitswits" className='img-fluid' />
+                                    <Image src={news7} alt="bitswits" className='img-fluid' />
                                 </div>
-                            </div>
+                            </div> */}
 
 
-                            {/* <div className='mt-5'>
-                                <Slider {...bannerslider} className={` ${styles.startSlide} Serbannerslider mt-5`}>
+                            <div>
+                                <Slider {...bannerslider} className={` ${styles.startSlide} Serbannerslider`}>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg1} className="img-fluid" />
+                                        <Image alt="bitswits" src={news1} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg2} className="img-fluid" />
+                                        <Image alt="bitswits" src={news2} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg3} className="img-fluid" />
+                                        <Image alt="bitswits" src={news3} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg4} className="img-fluid" />
+                                        <Image alt="bitswits" src={news4} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={banImg5} className={`${styles.clutchImg} img-fluid`} />
+                                        <Image alt="bitswits" src={news5} className={`${styles.clutchImg} img-fluid`} />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="bitswits" src={news6} className={`${styles.clutchImg} img-fluid`} />
+                                    </div>
+                                    <div className={styles.strpImg}>
+                                        <Image alt="bitswits" src={news7} className={`${styles.clutchImg} img-fluid`} />
                                     </div>
                                 </Slider>
-                            </div> */}
+                            </div>
 
 
                             

@@ -98,7 +98,7 @@ export default function mobileappdevelopment() {
     // Why Build
 
     const whytitle = <>
-        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 white'>Precision, Performance, Perfection</h3>
         <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
             Building Mobile Applications Where Vision Meets Excellence
         </h2>

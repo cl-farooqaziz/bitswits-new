@@ -42,7 +42,7 @@ export default function mobileappdevelopment() {
     // banner component data
     const heading = <>
         <h1 className='font60 white fontf font-bold mb-4'>
-            Innovate On Any Device with Top <span className='grdiant font-bold'> React Native App Development Company</span> In USA
+            Innovate On Any Device with Top <br></br> <span className='grdiant font-bold'> React Native App Development Company</span> In USA
 
         </h1>
     </>
@@ -94,7 +94,7 @@ export default function mobileappdevelopment() {
     // Why Build
 
     const whytitle = <>
-        <h3 className='font50 fontf font-bold line60 text-center mb-0 grdiant'>Precision, Performance, Perfection</h3>
+        <h3 className='font50 fontf font-bold line60 text-center mb-0 white'>Precision, Performance, Perfection</h3>
         <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
         Why is There a Need for <span className='grdiant font-bold'>React Native Apps</span>?
         </h2>
