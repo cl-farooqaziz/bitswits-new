@@ -16,13 +16,13 @@ import banImg3 from '../public/images/agencylogos/agency-logo3.svg'
 import banImg4 from '../public/images/agencylogos/agency-logo4.svg'
 import banImg5 from '../public/images/agencylogos/agency-logo5.svg'
 //
-import news1 from '/public/images/new2/1.svg'
-import news2 from '/public/images/new2/2.svg'
-import news3 from '/public/images/new2/3.svg'
-import news4 from '/public/images/new2/4.svg'
-import news5 from '/public/images/new2/5.svg'
-import news6 from '/public/images/new2/6.svg'
-import news7 from '/public/images/new2/7.svg'
+import news1 from '/public/images/new2/new1.svg'
+import news2 from '/public/images/new2/new2.svg'
+import news3 from '/public/images/new2/new3.svg'
+import news4 from '/public/images/new2/new4.svg'
+import news5 from '/public/images/new2/new5.svg'
+import news6 from '/public/images/new2/new6.svg'
+import news7 from '/public/images/new2/new7.svg'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
