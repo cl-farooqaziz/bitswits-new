@@ -68,7 +68,7 @@ export default function mobileappdevelopment() {
     // banner component data
     const heading = <>
         <h1 className='font60 white fontf font-bold mb-1'>
-            Top <span className='grdiant'>Mobile App Development Company</span> <br></br> Empowering People, Enriching Lives
+            Top <br></br> <span className='grdiant'>Mobile App Development Company</span> <br></br> Empowering People, Enriching Lives
 
         </h1>
     </>
