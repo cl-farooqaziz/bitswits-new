@@ -276,7 +276,7 @@ const Header = () => {
                                                                     </div>
 
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href="/blockchain-developmentlp">
+                                                                        <Link onClick={handleMenu} href="/blockchain-development-lp">
                                                                             <FaAngleRight />
                                                                             <span>Blockchain Development</span>
                                                                         </Link>
