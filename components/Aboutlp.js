@@ -67,7 +67,7 @@ const Aboutlp = () => {
 
                             <p className='font18 fontf font-medium mt-4 mb-4 black'>Witness the brilliance of our diverse portfolio which includes sound, food, pro-health improvement, real estate, traveling, and much more.  </p>
 
-                            <Button className={styles.aboutbtn}>CALL NOW!</Button>
+                            {/* <Button className={styles.aboutbtn}>CALL NOW!</Button> */}
 
                             {/* <div className="mt-4">
                                 <div className="row f-center align-items-start">

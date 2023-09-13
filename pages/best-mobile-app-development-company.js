@@ -563,30 +563,30 @@ export default function mobileappdevelopment() {
             paratext = { <> At BitsWits, our expert team specializes in professional app development.  Whether you want to build an app from <br></br> scratch or make an app that stands out, we're here to turn your ideas into reality. </> }
 
             icon1 = {icon1}
-            title1 = 'Mobile App Development'
+            title1 = 'iOS App Development'
             para1 = 'The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.'
 
 
             icon2 = {icon2}
-            title2 = 'Web App Development'
-            para2 = 'Our top app developers excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.'
+            title2 = 'Android App Development'
+            para2 = { <> Enter the vast Android universe with Bitswits, your trusted Android app development company. Our Android app solutions cater to diverse devices, ensuring a seamless user experience. With adept Android app developers on our side, your project is in safe hands. </> }
 
 
             icon3 = {icon3}
-            title3 = 'Blockchain Development'
-            para3 = 'We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.'
+            title3 = 'Flutter App Development'
+            para3 = { <> Flutter is more than a buzzword for us; it's our passion. As a pioneering Flutter app development company, we employ the latest tools and techniques to offer innovative app solutions. Rely on our Flutter app developers to craft apps that resonate with your audience. </> }
 
             icon4 = {icon4}
-            title4 = 'UI/UX App Design'
-            para4 = 'Our team of professional UI/UX app designers help develop designs that guide users towards meaningful interactions and impactful user experience.'
+            title4 = 'Web App Development'
+            para4 = 'Make your mark on the web with Bitswits, the web app development company that understands your vision. Our web app solutions are designed for impact, ensuring you make the right impression. Our web app developers are here to turn your dream into a digital reality.'
 
             icon5 = {icon5}
-            title5 = 'Internet of Things'
-            para5 = 'Our Internet of Things (IoT) services assist you in developing your concept for IoT adoption and in setting up safe technical support systems for complex data work.'
+            title5 = 'Custom App Development'
+            para5 = {<> Every brand is distinct, and so should be its app. As your chosen custom app development company, we offer tailor-made app solutions that mirror your brand's essence. With a team of adept custom app developers, we promise a product that stands out. </> }
 
             icon6 = {icon6}
-            title6 = 'AI'
-            para6 = {  <> Utilize AI's potential to promote automated interactions, personalized experiences, & predictive insights for better engagement with technology & data. </> }
+            title6 = 'React Native App Development'
+            para6 = {  <> Embrace the best of both iOS and Android with React Native. As a seasoned React Native app development company, our app solutions ensure consistent performance across devices. Our skilled React Native app developers craft apps that spell perfection. </> }
 
             
             

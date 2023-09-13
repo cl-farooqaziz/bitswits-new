@@ -17,7 +17,7 @@ const NewHomeHear = () => {
 
                     <Row>
                         <Col lg={6}>
-                            <p className=' f-20 text-white'>Let's work together</p>
+                            <p className=' f-20 font-bold text-white'>Let's work together</p>
                             <h2 className={`${styles.headContent} text-white f-60 font-bold`}>We would love to hear from you!
                             </h2>
                             <div className={styles.sec_btn}>
