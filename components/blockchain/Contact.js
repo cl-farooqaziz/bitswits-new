@@ -4,7 +4,7 @@ import style from '@/styles/Contact.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import posters from '@/public/blockchain/images/poster.png';
-import phone from '@/public/blockchain/images/phone.svg';
+import phone from '@/public/blockchain/images/phone.png';
 import Form from '@/components/blockchain//Form';
 import barcode1 from '@/public/blockchain/images/barcode1.png'
 

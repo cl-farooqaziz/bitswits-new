@@ -11,10 +11,11 @@
     /* background-position: 50% 100%; */
     transition: all 1s;
     margin: 20px 20px 0px 20px;
-    filter: drop-shadow(0rem 0rem 3rem rgb(0, 117, 53));
+    /* filter: drop-shadow(0rem 0rem 3rem rgb(0, 117, 53)); */
 }
 .feature img{
     transition: all 1s ease; 
+    width: 100%;
 }
 .feature img:hover{
     filter: grayscale(1);

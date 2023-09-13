@@ -4,7 +4,7 @@ import style from '@/styles/blockchain/WhychooseUs.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 // import posters from '@/public/blockchain/images/poster.png';
-import phone from '@/public/blockchain/images/phone.svg';
+import phone from '@/public/blockchain/images/phone.png';
 import icon1 from '@/public/blockchain/images/why/icon-1.png';
 import icon2 from '@/public/blockchain/images/why/icon-2.png';
 import icon3 from '@/public/blockchain/images/why/icon-3.png';

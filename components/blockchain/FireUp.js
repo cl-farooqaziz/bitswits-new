@@ -4,7 +4,7 @@ import styles from '@/styles/blockchain/leftContent.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import posters from '@/public/blockchain/images/poster.png';
-import phone from '@/public/blockchain/images/phone.svg';
+import phone from '@/public/blockchain/images/phone.png';
 import { useState } from 'react';
 // import CTA from '../components/cta';
 import usa from '@/public/blockchain/images/usa.png';

@@ -4,7 +4,7 @@ import styles from '@/styles/blockchain/leftContent.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 // import blockchain from '../public/images/blockchain.mp4';
-import phone from '@/public/blockchain/images/phone.svg';
+import phone from '@/public/blockchain/images/phone.png';
 import CTA from '@/components/blockchain/cta';
 // import ReactPlayer from "react-player/lazy";
 

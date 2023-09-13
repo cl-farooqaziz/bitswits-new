@@ -4,7 +4,7 @@ import styles from '@/styles/blockchain/cta.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 // import posters from '../public/images/poster.png';
-import phone from '@/public/blockchain/images/phone.svg';
+import phone from '@/public/blockchain/images/phone.png';
 
 const cta = (props) => {
     return(

@@ -4,13 +4,13 @@ import style from '@/styles/blockchain/Blockchain.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 // import posters from '../public/images/poster.png';
-import phone from '@/public/blockchain/images/phone.svg';
+import phone from '@/public/blockchain/images/phone.png';
 import Slider from "react-slick";
 
 
 const Blockchain = (props) => {
 
-   
+
     let settings = {
         dots: true,
         infinite: true,
@@ -19,56 +19,56 @@ const Blockchain = (props) => {
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
-          {
-              breakpoint: 1024,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          },
-          {
-              breakpoint: 768,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          },
-          {
-              breakpoint: 767,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          },
-          {
-              breakpoint: 575,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          }
-      ]
+            {
+                breakpoint: 1024,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                }
+            }
+        ]
     };
-    
-    return(
+
+    return (
         <>
-           <section>
+            <section>
                 <Container>
                     <Row className='justify-content-center align-items-center mb-5'>
                         <Col lg={12}>
@@ -77,94 +77,94 @@ const Blockchain = (props) => {
                         </Col>
                     </Row>
                     <div className='d-none d-lg-block d-md-block d-sm-none'>
-                    <Row className='justify-content-center align-items-center '>
-                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                            <div className={`${style.feature}`}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>1</span>
-                                <span className='text-white f14'>100% decentralized
-business structure</span>
+                        <Row className='justify-content-center align-items-center '>
+                            <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                <div className={`${style.feature}`}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>1</span>
+                                        <span className='text-white f14'>100% decentralized
+                                            business structure</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>2</span>
-                                <span className='text-white f14'>Highly secure
-</span>
+                            </Col>
+                            <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>2</span>
+                                        <span className='text-white f14'>Highly secure
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`${style.bb1} position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>3</span>
-                                <span className='text-white f14'>Better control over
-business data
-</span>
+                            </Col>
+                            <Col lg={4} className={`${style.bb1} position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>3</span>
+                                        <span className='text-white f14'>Better control over
+                                            business data
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>4</span>
-                                <span className='text-white f14'>Build trust between
-parties
-</span>
+                            </Col>
+                            <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>4</span>
+                                        <span className='text-white f14'>Build trust between
+                                            parties
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>5</span>
-                                <span className='text-white f14'>Improved privacy
-</span>
+                            </Col>
+                            <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>5</span>
+                                        <span className='text-white f14'>Improved privacy
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`${style.bb1} position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>6</span>
-                                <span className='text-white f14'>Reduced costs
-</span>
+                            </Col>
+                            <Col lg={4} className={`${style.bb1} position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>6</span>
+                                        <span className='text-white f14'>Reduced costs
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`${style.br1} position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>7</span>
-                                <span className='text-white f14'>Highly efficient &
-scalable
-</span>
+                            </Col>
+                            <Col lg={4} className={`${style.br1} position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>7</span>
+                                        <span className='text-white f14'>Highly efficient &
+                                            scalable
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`${style.br1}  position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>8</span>
-                                <span className='text-white f14'>Immutability &
-traceability
-</span>
+                            </Col>
+                            <Col lg={4} className={`${style.br1}  position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>8</span>
+                                        <span className='text-white f14'>Immutability &
+                                            traceability
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                        <Col lg={4} className={`position-relative`}>
-                            <div className={style.feature}>
-                                <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                <span className={`${style.numbers} f50 fw900`}>9</span>
-                                <span className='text-white f14'>Accelerated
-business processes
-</span>
+                            </Col>
+                            <Col lg={4} className={`position-relative`}>
+                                <div className={style.feature}>
+                                    <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
+                                        <span className={`${style.numbers} f50 fw900`}>9</span>
+                                        <span className='text-white f14'>Accelerated
+                                            business processes
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
-                    </Row>
+                            </Col>
+                        </Row>
                     </div>
                     <div className='d-block d-lg-none d-md-none d-sm-block'>
                         <Row className='justify-content-center align-items-center'>
@@ -172,94 +172,94 @@ business processes
                                 <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                     <div className={`${style.feature}`}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>1</span>
-                                        <span className='text-white f14'>100% decentralized
-        business structure</span>
+                                            <span className={`${style.numbers} f50 fw900`}>1</span>
+                                            <span className='text-white f14'>100% decentralized
+                                                business structure</span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>2</span>
-                                        <span className='text-white f14'>Highly secure
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>2</span>
+                                            <span className='text-white f14'>Highly secure
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`${style.bb1} position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>3</span>
-                                        <span className='text-white f14'>Better control over
-        business data
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>3</span>
+                                            <span className='text-white f14'>Better control over
+                                                business data
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>4</span>
-                                        <span className='text-white f14'>Build trust between
-        parties
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>4</span>
+                                            <span className='text-white f14'>Build trust between
+                                                parties
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>5</span>
-                                        <span className='text-white f14'>Improved privacy
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>5</span>
+                                            <span className='text-white f14'>Improved privacy
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`${style.bb1} position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>6</span>
-                                        <span className='text-white f14'>Reduced costs
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>6</span>
+                                            <span className='text-white f14'>Reduced costs
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`${style.br1} position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>7</span>
-                                        <span className='text-white f14'>Highly efficient &
-        scalable
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>7</span>
+                                            <span className='text-white f14'>Highly efficient &
+                                                scalable
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`${style.br1}  position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>8</span>
-                                        <span className='text-white f14'>Immutability &
-        traceability
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>8</span>
+                                            <span className='text-white f14'>Immutability &
+                                                traceability
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={4} className={`position-relative`}>
                                     <div className={style.feature}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
-                                        <span className={`${style.numbers} f50 fw900`}>9</span>
-                                        <span className='text-white f14'>Accelerated
-        business processes
-        </span>
+                                            <span className={`${style.numbers} f50 fw900`}>9</span>
+                                            <span className='text-white f14'>Accelerated
+                                                business processes
+                                            </span>
                                         </div>
                                     </div>
                                 </Col>
-                                </Slider>
+                            </Slider>
                         </Row>
                     </div>
                 </Container>
-           </section>
+            </section>
         </>
     )
 }

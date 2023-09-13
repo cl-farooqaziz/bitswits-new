@@ -35,10 +35,10 @@
     color: var(--mry);
 }
 .br1{
-    border-right:1px solid #032D17;
+    border-right:1px solid #F32F5A;
 } 
 .bb1{
-    border-bottom:1px solid #032D17;
+    border-bottom:1px solid #F32F5A;
 }
 .feature:hover img
 {

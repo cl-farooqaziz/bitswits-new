@@ -7,7 +7,7 @@ import style from '@/styles/blockchain/Banner.module.css';
 import ele from '@/public/blockchain/images/element2.svg';
 import icontill from '@/public/blockchain/images/icontill.svg';
 import CountUp from 'react-countup';
-import phone from '@/public/blockchain/images/phone.svg';
+import phone from '@/public/blockchain/images/phone.png';
 import { FaComment } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
