@@ -109,7 +109,7 @@ const NewHomeMaintain = () => {
                                 <h3 className='text-white f-20 font-bold text-center'>Internet of Things</h3>
                                 <p className={styles.para2}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
 
-                                <Image src={World} className='img-fluid d-block m-auto mt-1 w-75' />
+                                <Image src={World} className={ ` ${styles.custom} img-fluid d-block m-auto mt-1` } />
                             </div>
 
                         </Col>

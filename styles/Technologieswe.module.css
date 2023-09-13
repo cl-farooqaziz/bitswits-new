@@ -63,3 +63,29 @@
   align-items: center;
   gap: 15px;
 }
+
+
+@media screen and (max-width: 767px) { 
+
+
+
+  .newyork{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px 45px;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+  .work {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+}

@@ -1476,6 +1476,11 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 767px) {
+
+
+  .f-80 {
+    font-size: 40px;
+}
   .cursor2::after {
     width: 20px;
     height: 20px;
