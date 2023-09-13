@@ -9,7 +9,7 @@ import lap from "@/public/newHomePageImages/lap.png"
 import cool from "@/public/newHomePageImages/cool.png"
 import lum from "@/public/newHomePageImages/lum.png"
 import dem from "@/public/newHomePageImages/dem.png"
-import World from "@/public/newHomePageImages/World.png"
+import World from "@/public/newHomePageImages/world.png"
 import WhatImage from "@/public/newHomePageImages/what_Image.png"
 
 const NewHomeMaintain = () => {
