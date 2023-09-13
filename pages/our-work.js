@@ -251,11 +251,11 @@ export default function ourWork() {
 
             <OurWork />
 
-            <Digitallp />
+            {/* <Digitallp />
 
             <Lookingforlp />
 
-            <ClientsThinklp />
+            <ClientsThinklp /> */}
 
             <Contact
                 newBg="newBg"

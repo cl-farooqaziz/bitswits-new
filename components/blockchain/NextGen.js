@@ -17,7 +17,7 @@ import poster from '@/public/blockchain/images/cube.png'
 const NextGen = (props) => {
     return(
         <>
-           <section>
+           <section className='secPad'>
                 <Container>
                     <Row className='justify-content-center align-items-center'>
                         <Col lg={8} className='pt-4 pb-4 border-top border-bottom'>

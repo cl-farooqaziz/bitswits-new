@@ -275,7 +275,7 @@ const NewHeaderFy = () => {
                                                                         </div>
 
                                                                         <li>
-                                                                            <Link onClick={handleMenu} href="/blockchain-development">
+                                                                            <Link onClick={handleMenu} href="/blockchain-developmentlp">
                                                                                 <FaAngleRight />
                                                                                 <span>Blockchain Development</span>
                                                                             </Link>
@@ -479,12 +479,6 @@ const NewHeaderFy = () => {
                                                                                             <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
                                                                                         </div>
 
-                                                                                        <li>
-                                                                                            <Link onClick={handleMenu} href='/game-development'>
-                                                                                                <FaAngleRight />
-                                                                                                <span>Game Development</span>
-                                                                                            </Link>
-                                                                                        </li>
 
                                                                                         <li>
                                                                                             <Link onClick={handleMenu} href='/game-app-development-company-lp'>
@@ -519,13 +513,19 @@ const NewHeaderFy = () => {
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
-                                                                                            <Link onClick={handleMenu} href='/2d-art'>
+                                                                                            <Link onClick={handleMenu} href='#'>
+                                                                                                <FaAngleRight />
+                                                                                                <span>Game Development</span>
+                                                                                            </Link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <Link onClick={handleMenu} href='#'>
                                                                                                 <FaAngleRight />
                                                                                                 <span>2D Art</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
-                                                                                            <Link onClick={handleMenu} href='/3d-art'>
+                                                                                            <Link onClick={handleMenu} href='#'>
                                                                                                 <FaAngleRight />
                                                                                                 <span>3D Art</span>
                                                                                             </Link>
