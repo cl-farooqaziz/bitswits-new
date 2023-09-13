@@ -1,0 +1,27 @@
+.team{
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 100px;
+ 
+}
+
+.high p{
+  font-size: 16px;
+  color: white;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.high h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.digi{
+  font-size: 12px!important;
+}
+
+.high{
+  text-align: center;
+}
