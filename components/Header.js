@@ -480,12 +480,7 @@ const Header = () => {
                                                                                         <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
                                                                                     </div>
 
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='#'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>Game Development</span>
-                                                                                        </Link>
-                                                                                    </li>
+                                                                                    
 
                                                                                     <li>
                                                                                         <Link onClick={handleMenu} href='/game-app-development-company-lp'>
@@ -517,6 +512,12 @@ const Header = () => {
                                                                                         <Link onClick={handleMenu} href='/blockchain-game-development-company-lp'>
                                                                                             <FaAngleRight />
                                                                                             <span>Blockchain Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='#'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Game Development</span>
                                                                                         </Link>
                                                                                     </li>
                                                                                     <li>

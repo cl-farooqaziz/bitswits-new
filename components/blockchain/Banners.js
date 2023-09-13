@@ -158,7 +158,7 @@ function Banners() {
                             </Col>
                         </Row>
                     </div>
-                    <div className='position-relative'>
+                    <div className='position-relative zindx'>
                         <form className={`${style.ctaForm} mt-3`}>
                             <Row className='px-4'>
                                 <Col lg={3} className=" pb-4">
