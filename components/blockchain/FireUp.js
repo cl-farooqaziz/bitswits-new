@@ -19,7 +19,7 @@ const FireUp = (props) => {
      const [key, setKey] = useState('home');
     return (
         <>
-        <section>
+        <section className='pt-5'>
             <div className={styles[props.whychooseclass]}>
                 <Container>
                     <Row className={`${styles.middle} gy-4`}>
