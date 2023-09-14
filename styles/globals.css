@@ -2344,7 +2344,6 @@ p {
   top: 0;
   height: 100%;
   overflow: hidden;
-  display: flex;
 }
 
 .zindx {
