@@ -1,0 +1,86 @@
+.metaverseBanner {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    /* position: relative; */
+}
+
+/* .overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+} */
+
+.point {
+    position: relative;
+    top: 45%;
+}
+
+.content {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.development {
+    margin-top: -50px !important;
+}
+
+.secBtns {
+    background-size: cover;
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    background-color: #70707036;
+    border: 0.5px solid #707070;
+    max-width: 500px;
+    margin: 27px auto;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+}
+
+.grediantBtn {
+    background-image: linear-gradient(to right, #EB335B, #4A78EF);
+    font-size: 14px;
+    padding: 13px 20px;
+    border-radius: 12px;
+}
+
+.centerBorder {
+    width: 1px;
+    height: 80%;
+    background: #707070;
+}
+
+.metaSpan {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.btnDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cube .secBtns.secBtns2 {
+    background-color: transparent;
+    border: none;
+    margin: 27px auto 27px 0;
+    padding: 0;
+    gap: 25px;
+    justify-content: flex-start;
+}
+
+.contentImage {
+    max-height: 550px;
+    object-fit: contain;
+}
