@@ -82,7 +82,7 @@
     background-image: url(../public/newHomePageImages/por3.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 32px 32px 9px 33px;
+    padding: 30px 28px 9px 33px;
 }
 
 .pont {
@@ -182,3 +182,40 @@
 .power{
     width: 60%;
 }
+
+
+.custom{
+    width: 75%;
+}
+
+@media screen and (min-width: 1500px) {
+
+
+    .app3 {
+        padding: 80px 28px 9px 33px; 
+    }
+
+    .app {
+        height: 500px;
+    }
+    .app1 {
+        height: 500px;
+    }
+    .app2 {
+        height: 500px;
+    }
+    .custom {
+       
+        width: 65%;
+    }
+
+
+ }
+
+
+ @media screen and (min-width: 1200px) { 
+
+
+
+
+ }

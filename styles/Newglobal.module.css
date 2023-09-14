@@ -23,3 +23,23 @@
   position: relative;
   left: -40px;
 }
+
+@media screen and (max-width: 1300px) { 
+
+  .pipe img {
+   
+    width: 29%;
+}
+
+
+}
+
+@media screen and (max-width: 1200px) { 
+
+  .pipe img {
+   
+    display: none;
+}
+
+
+}

@@ -1,0 +1,40 @@
+.about{
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.home{
+  background-color: black;
+  padding-top: 200px;
+}
+.build{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.deter p{
+  font-size: 16px;
+  color: white;
+}
+
+.home h3{
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.home h2{
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+
