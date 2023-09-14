@@ -33,7 +33,7 @@ const LeftContent = (props) => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.image}>
-                                <div>
+                                <div className='text-center'>
 
                                     {/* <video autoplay muted loop className={`${styles.video} img-fluid`} width={500} height={500}>         
         <source src='/images/blockchain.mp4' type="video/mp4"/>       

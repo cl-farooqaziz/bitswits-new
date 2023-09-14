@@ -119,10 +119,10 @@ const Header = () => {
                                         src={backarrow}
                                     />
                                 </div>
-                                <Row>
+                                <Row className='mt-4 mt-lg-0'>
                                     <Col md={12}>
                                         <Row className={styles.megaRow}>
-                                            <Col md={3}>
+                                            <Col lg={3}>
                                                 <div className={styles.listMain}>
 
                                                     <div className={styles.listBody}>
@@ -211,7 +211,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col md={3}>
+                                            <Col lg={3}>
                                                 <div className={styles.listMain}>
 
                                                     <div className={styles.listBody}>
@@ -276,7 +276,7 @@ const Header = () => {
                                                                     </div>
 
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href="/blockchain-development">
+                                                                        <Link onClick={handleMenu} href="/blockchain-development-lp">
                                                                             <FaAngleRight />
                                                                             <span>Blockchain Development</span>
                                                                         </Link>
@@ -334,7 +334,7 @@ const Header = () => {
                                                         </Row>
                                                     </div>
                                                 </div>
-                                                <div className={`${styles.listMain} mt-4`}>
+                                                {/* <div className={`${styles.listMain} mt-4`}>
 
                                                     <div className={styles.listBody}>
                                                         <Row>
@@ -343,7 +343,7 @@ const Header = () => {
                                                             </Col>
                                                         </Row>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                                 {/* <Col md={12} className='mt-4'>
                                                     <div className={styles.listMain}>
                                                         <div className={styles.listHeading}>
@@ -389,7 +389,7 @@ const Header = () => {
                                                     </div>
                                                 </Col> */}
                                             </Col>
-                                            <Col md={3}>
+                                            <Col lg={3}>
                                                 {/* <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -480,12 +480,7 @@ const Header = () => {
                                                                                         <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
                                                                                     </div>
 
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='/game-development'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>Game Development</span>
-                                                                                        </Link>
-                                                                                    </li>
+                                                                                    
 
                                                                                     <li>
                                                                                         <Link onClick={handleMenu} href='/game-app-development-company-lp'>
@@ -520,13 +515,19 @@ const Header = () => {
                                                                                         </Link>
                                                                                     </li>
                                                                                     <li>
-                                                                                        <Link onClick={handleMenu} href='/2d-art'>
+                                                                                        <Link onClick={handleMenu} href='#'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='#'>
                                                                                             <FaAngleRight />
                                                                                             <span>2D Art</span>
                                                                                         </Link>
                                                                                     </li>
                                                                                     <li>
-                                                                                        <Link onClick={handleMenu} href='/3d-art'>
+                                                                                        <Link onClick={handleMenu} href='#'>
                                                                                             <FaAngleRight />
                                                                                             <span>3D Art</span>
                                                                                         </Link>
@@ -541,7 +542,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col md={3}>
+                                            <Col lg={3} className='d-none d-lg-block'>
                                                 <div className={`${styles.listMain} mt-0`}>
                                                     <div className={styles.listBody}>
                                                         <Row>
@@ -791,9 +792,9 @@ const Header = () => {
 
                                     />
                                 </div>
-                                <Row className={styles.megaRow}>
+                                <Row className={`${styles.megaRow} mt-4 mt-lg-0`}>
 
-                                    <Col lg={4} md={6}>
+                                    <Col lg={4}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listBody}>
                                                 <ul className='mb-0 mt-0'>
@@ -817,7 +818,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={2} md={6}>
+                                    <Col lg={2}>
                                         <div className={styles.listMain}>
 
                                             <div className={styles.listBody}>
@@ -902,8 +903,8 @@ const Header = () => {
 
                                     />
                                 </div>
-                                <Row className={styles.megaRow}>
-                                    <Col lg={4} md={6}>
+                                <Row className={`${styles.megaRow} mt-4 mt-lg-0`}>
+                                    <Col lg={4}>
                                         <div className={styles.boxSpace}>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
@@ -949,7 +950,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} md={6}>
+                                    <Col lg={4}>
                                         <div className={styles.boxSpace}>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
@@ -995,7 +996,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} md={6}>
+                                    <Col lg={4}>
                                         <div className={styles.boxSpace}>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
@@ -1676,9 +1677,6 @@ const Header = () => {
 
 
             </header>
-
-
-
         </>
     )
 }

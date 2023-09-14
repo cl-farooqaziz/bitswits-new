@@ -7,6 +7,12 @@ import NewHomeWho from '@/components/NewHomeWho';
 import NewHomeWhat from '@/components/NewHomeWhat';
 import NewHomeHear from '@/components/NewHomeHear';
 import NewHomeMaintain from '@/components/NewHomeMaintain';
+import Newglobal from '@/components/Newglobal';
+import Newslider from '@/components/Newslider';
+import Technologieswe from '@/components/Technologieswe';
+import Homenextproject from '@/components/Homenextproject';
+import Capabilities from '@/components/Capabilities';
+import Faqs from '@/components/NewhomeFaqs';
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
@@ -33,6 +39,12 @@ export default function Home() {
             <Justbuildit />
             <NewHomeHear/>
             <NewHomeMaintain/>
+            <Newglobal />
+            <Capabilities/>
+            <Newslider />
+            <Technologieswe/>
+            <Homenextproject/>
+            <Faqs />
             
 
 

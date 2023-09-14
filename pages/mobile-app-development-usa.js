@@ -313,7 +313,7 @@ export default function mobileappdevelopmentusa() {
                     Company</span> in USA </>}
 
                 text={<> BitsWits, we are determined to provide you the best mobile application development experience. Our team of expert app developers always offers cutting-edge solutions to the clients that can cater to all of their business needs. </>}
-                banClass= 'mobile'
+                banClass='mobile'
                 img1={<>
                     <div className='newbit'>
                         <Image src={new1} alt="bitswits" className='img-fluid' />
@@ -341,26 +341,10 @@ export default function mobileappdevelopmentusa() {
             <NewDecFy />
 
             {/* <br></br> <br></br> */}
-            <Yearsofexpertise
-                loop1={<> <Counter stopNumber={500} />+ </>}
-                looptext11={<> Applications Developed and Designed </>}
-                loop2={<> <Counter stopNumber={250} />+ </>}
-                looptext22={<> Developers & Engineers
-                    Under One Roof </>}
-                loop3={<> <Counter stopNumber={12} />+ </>}
-
-                looptext33={<> Years in Software
-                    Development Business </>}
-                loop4={<> <Counter stopNumber={92} />+ </>}
-
-                looptext44={<> Client Retention </>}
-
-            />
-
 
             <Creativeopportunities
 
-               
+
                 eng={engagement}
                 tit1='iOS Apps'
                 text1={<> Our iOS app developers create apps that integrates with Apple's operating system and provide secure and seamless user experience. </>}
@@ -386,13 +370,14 @@ export default function mobileappdevelopmentusa() {
                 text6={<>   Our skilled Flutter developers create captivating, user-friendly apps for various platforms with engaging features and interfaces. </>}
                 btn6='Lets Start'
 
-
-
             />
 
 
+            <Consultation />
 
-            {/* <Container className='campny'>
+
+
+            <Container className='campny'>
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>WHAT WE DO</h3>
@@ -411,18 +396,33 @@ export default function mobileappdevelopmentusa() {
                         <Link className='btnclas' href='#'>Revolutionize Your Mobile Experience with Flutter Apps</Link>
                     </Col>
                 </Row>
-            </Container> */}
-
+            </Container>
 
 
             <Lookingforlp />
+
+            <Yearsofexpertise
+                loop1={<> <Counter stopNumber={500} />+ </>}
+                looptext11={<> Applications Developed and Designed </>}
+                loop2={<> <Counter stopNumber={250} />+ </>}
+                looptext22={<> Developers & Engineers
+                    Under One Roof </>}
+                loop3={<> <Counter stopNumber={12} />+ </>}
+
+                looptext33={<> Years in Software
+                    Development Business </>}
+                loop4={<> <Counter stopNumber={92} />+ </>}
+
+                looptext44={<> Client Retention </>}
+
+            />
 
             <Ourportfoliolp />
 
 
             {/* <NewSliderFy /> */}
 
-
+            <Consultation2 />
 
             <Publication />
 

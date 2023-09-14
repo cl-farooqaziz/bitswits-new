@@ -1,3 +1,9 @@
+.slide{
+  background-color: black;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
 .just {
   font-size: 130px;
   font-weight: bold;
@@ -11,7 +17,7 @@
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .book {
@@ -72,6 +78,11 @@
 
 @media screen and (max-width: 767px) {
 
+  .slide{
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
   .just {
     font-size: 35px;
   }
@@ -85,6 +96,8 @@
   .just {
     font-size: 30px;
   }
+
+
   
 
 }

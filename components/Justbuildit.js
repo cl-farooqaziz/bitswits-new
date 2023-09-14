@@ -40,7 +40,7 @@ const Justbuildit = () => {
     return (
         <>
 
-            <section>
+            <section className={styles.slide}>
 
                 <Container>
 

@@ -12,11 +12,11 @@ import icon4 from '../public/images/banner/icon4.png'
 import rev1 from '../public/images/newbanner/one.png'
 import rev2 from '../public/images/newbanner/two.png'
 //
-import news1 from '/public/images/new2/1.webp'
-import news2 from '/public/images/new2/2.webp'
-import news3 from '/public/images/new2/3.webp'
-import news4 from '/public/images/new2/4.webp'
-import news5 from '/public/images/new2/5.webp'
+import news1 from '/public/images/new1/1.webp'
+import news2 from '/public/images/new1/2.webp'
+import news3 from '/public/images/new1/3.webp'
+import news4 from '/public/images/new1/4.webp'
+import news5 from '/public/images/new1/5.webp'
 
 
 const NewBannerFy = (props) => {
@@ -96,7 +96,7 @@ const NewBannerFy = (props) => {
                                     <Image src={news2} alt="bitswits" className='img-fluid' />
                                     <Image src={news3} alt="bitswits" className='img-fluid' />
                                     <Image src={news4} alt="bitswits" className='img-fluid' />
-                                    <Image src={news5} alt="bitswits" className='img-fluid' />
+                                    {/* <Image src={news5} alt="bitswits" className='img-fluid' /> */}
                                 </div>
                             </div>
 

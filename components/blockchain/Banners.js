@@ -20,14 +20,15 @@ function Banners() {
 
 
             <div className='HomeBanner'>
+                <div className={style.overlay}></div>
                 <div className='homeVideo'>
-                    <video className='' autoPlay muted loop src="../../../blockchain/images/homeback.mp4" type="video/mp4"></video>
+                    <video className='' autoPlay muted loop src="../../../blockchain/images/homeback.mov" type="video/mov"></video>
                 </div>
 
                 <Container>
-                    <Row>
+                    <Row className='gy-3'>
                         <Col lg={6}>
-                            <div className='point'>
+                            <div className='point zindx'>
                                 <div className={style.Lcontent}>
                                     <h1 className='text-white mb-2 pl-4'>
                                         <span className='fw700 font50'> Your Trusted Tech Partner for
@@ -83,7 +84,7 @@ function Banners() {
                         </div> */}
                         </Col>
                     </Row>
-                    <div className='d-none d-lg-block d-md-block d-sm-none'>
+                    <div className='d-none d-lg-block d-md-block d-sm-none zindx'>
                         <Row className='pb-0 mb-0 align-items-end'>
                             <Col lg={5}>
                                 <div className={`${style.ctac} mt-2`}>
@@ -157,10 +158,10 @@ function Banners() {
                             </Col>
                         </Row>
                     </div>
-                    <div className='position-relative'>
+                    <div className='position-relative zindx mt-5 mt-md-0'>
                         <form className={`${style.ctaForm} mt-3`}>
                             <Row className='px-4'>
-                                <Col lg={3} className=" pb-4">
+                                <Col lg={3} className="pt-4 pb-4">
                                     <label htmlFor="name"> Name *</label>
                                     <input className='form-control' type="text" placeholder="Type Name" required />
                                 </Col>
