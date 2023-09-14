@@ -26,7 +26,7 @@ function Banners() {
                 </div>
 
                 <Container>
-                    <Row>
+                    <Row className='gy-3'>
                         <Col lg={6}>
                             <div className='point zindx'>
                                 <div className={style.Lcontent}>
@@ -158,10 +158,10 @@ function Banners() {
                             </Col>
                         </Row>
                     </div>
-                    <div className='position-relative zindx'>
+                    <div className='position-relative zindx mt-5 mt-md-0'>
                         <form className={`${style.ctaForm} mt-3`}>
                             <Row className='px-4'>
-                                <Col lg={3} className=" pb-4">
+                                <Col lg={3} className="pt-4 pb-4">
                                     <label htmlFor="name"> Name *</label>
                                     <input className='form-control' type="text" placeholder="Type Name" required />
                                 </Col>

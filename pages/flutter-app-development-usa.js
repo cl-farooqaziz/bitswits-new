@@ -339,21 +339,7 @@ export default function flutterappdevelopmentusa() {
             <NewDecFy />
 
             {/* <br></br> <br></br> */}
-            <Yearsofexpertise
-                loop1={<> <Counter stopNumber={500} />+ </>}
-                looptext11={<> Applications Developed and Designed </>}
-                loop2={<> <Counter stopNumber={250} />+ </>}
-                looptext22={<> Developers & Engineers
-                    Under One Roof </>}
-                loop3={<> <Counter stopNumber={12} />+ </>}
 
-                looptext33={<> Years in Software
-                    Development Business </>}
-                loop4={<> <Counter stopNumber={92} />+ </>}
-
-                looptext44={<> Client Retention </>}
-
-            />
 
 
             <Creativeopportunities
@@ -394,8 +380,10 @@ export default function flutterappdevelopmentusa() {
             />
 
 
+            <Consultation />
 
-            <Container className='campny'>
+
+            <Container className='campny pb-5'>
                 <Row>
                     <Col xl={12} className='mb-3'>
                         <h3 className='f-20 f-700 black t-center'>WHAT WE DO</h3>
@@ -417,14 +405,32 @@ export default function flutterappdevelopmentusa() {
             </Container>
 
 
-
             <Lookingforlp />
+
+
+            <Yearsofexpertise
+                loop1={<> <Counter stopNumber={500} />+ </>}
+                looptext11={<> Applications Developed and Designed </>}
+                loop2={<> <Counter stopNumber={250} />+ </>}
+                looptext22={<> Developers & Engineers
+                    Under One Roof </>}
+                loop3={<> <Counter stopNumber={12} />+ </>}
+
+                looptext33={<> Years in Software
+                    Development Business </>}
+                loop4={<> <Counter stopNumber={92} />+ </>}
+
+                looptext44={<> Client Retention </>}
+
+            />
+
 
             <Ourportfoliolp />
 
 
             {/* <NewSliderFy /> */}
 
+            <Consultation2 />
 
 
             <Publication />

@@ -1,8 +1,8 @@
 :root {
   --dark: #000000;
   --white: #fff;
-  --primary: #F32F53;
-  --mry: #F32F53;
+  --primary: #f32f53;
+  --mry: #f32f53;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -153,10 +153,9 @@ body {
   line-height: 50px;
 }
 
-.f-80{
+.f-80 {
   font-size: 80px;
 }
-
 
 .font80 {
   font-size: 125px;
@@ -1307,12 +1306,10 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1440px) {
-
   .font60 {
     font-size: 35px;
     line-height: 45px;
   }
-
 
   .services {
     font-size: 16px;
@@ -2292,7 +2289,7 @@ p {
   display: flex;
 }
 
-.zindx{
+.zindx {
   position: relative;
   z-index: 999;
 }
@@ -2469,6 +2466,49 @@ p {
 
   .testtimonials .slick-slider .slick-next {
     display: none !important;
+  }
+
+  .f14 {
+    font-size: 13px;
+  }
+  .f15 {
+    font-size: 14px;
+  }
+  .f18 {
+    font-size: 14px;
+  }
+  .f20 {
+    font-size: 18px;
+  }
+  .f22 {
+    font-size: 20px;
+  }
+  .f24 {
+    font-size: 22px;
+  }
+  .f26 {
+    font-size: 24px;
+  }
+  .f28 {
+    font-size: 26px;
+  }
+  .f30 {
+    font-size: 28px;
+  }
+  .f35 {
+    font-size: 30px;
+  }
+  .f40 {
+    font-size: 32px;
+  }
+  .f45 {
+    font-size: 33px;
+  }
+  .f50 {
+    font-size: 40px;
+  }
+  .f55 {
+    font-size: 45px;
   }
 }
 

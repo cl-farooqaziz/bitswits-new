@@ -74,13 +74,13 @@ const ServicesBanner = (props) => {
                             <div className={`${styles.bttnsto} mt-3`}>
                                 {/* <Link className={styles.bttns1} href='tel:(833) 500-6007'>(833)500-6007</Link> */}
                                 <Link className={styles.bttns2} href="#">Got an App Idea? Start a Conversation with Our Experts!
-</Link>
+                                </Link>
                                 <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                             </div>
 
 
-                       
-                           
+
+
                             {/* <div className={`mt-2 mb-3`}>
                                 <div className='newbit2'>
                                     <Image src={news1} alt="bitswits" className='img-fluid' />
@@ -121,7 +121,7 @@ const ServicesBanner = (props) => {
                             </div>
 
 
-                            
+
 
                             {/* <div className={styles.srvcBannerImg}>
                                 <div className={styles.logo14}>
