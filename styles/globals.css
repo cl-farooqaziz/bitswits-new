@@ -32,6 +32,7 @@ body {
 .fontfam {
   font-family: "Dosis", sans-serif;
 }
+
 .newfony {
   font-family: "Dosis", sans-serif;
 }
@@ -81,6 +82,10 @@ body {
   font-size: 15px;
 }
 
+.font16{
+  font-size: 16px;
+}
+
 .font18 {
   font-size: 18px;
   line-height: 24px;
@@ -115,6 +120,10 @@ body {
   line-height: 20px;
 }
 
+.font15{
+  font-size: 15px;
+}
+
 .font16 {
   font-size: 16px;
   line-height: 26px;
@@ -138,6 +147,14 @@ body {
 
 .font30 {
   font-size: 30px;
+}
+
+.font33 {
+  font-size: 33px;
+}
+
+.font55{
+  font-size: 55px;
 }
 
 .font50 {
@@ -201,12 +218,15 @@ body {
 .ling25 {
   line-height: 25px;
 }
+
 .line1 {
   line-height: 1;
 }
+
 .line2 {
   line-height: 1.2;
 }
+
 /* colors */
 .black {
   color: #000000;
@@ -334,6 +354,7 @@ a {
   margin-right: 4%;
   margin-top: 4%;
 }
+
 .newbit2 img {
   margin-right: 4%;
   margin-top: 4%;
@@ -344,6 +365,7 @@ a {
   text-align: center;
   padding-top: 50px;
 }
+
 .rename p {
   max-width: 800px;
   margin: 0 auto !important;
@@ -352,6 +374,7 @@ a {
 .nopl {
   filter: brightness(0.5);
 }
+
 .marque {
   margin-left: 4%;
 }
@@ -1174,6 +1197,7 @@ input::-webkit-inner-spin-button {
 .cursor2 {
   cursor: pointer;
 }
+
 .cursor3 {
   cursor: pointer;
 }
@@ -1605,6 +1629,7 @@ input::-webkit-inner-spin-button {
   .newbit img {
     display: none;
   }
+
   .newbit2 img {
     display: none;
   }
@@ -1878,6 +1903,7 @@ button {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .ourspacingbottom {
   padding-bottom: 50px;
 }
@@ -2063,51 +2089,72 @@ button {
 .f10 {
   font-size: 10px;
 }
+
 .f11 {
   font-size: 11px;
 }
+
 .f12 {
   font-size: 13px;
 }
+
 .f14 {
   font-size: 14px;
 }
+
 .f15 {
   font-size: 15px;
 }
+
 .f18 {
   font-size: 18px;
 }
+
 .f20 {
   font-size: 20px;
 }
+
 .f22 {
   font-size: 22px;
 }
+
 .f24 {
   font-size: 24px;
 }
+
 .f26 {
   font-size: 26px;
 }
+
 .f28 {
   font-size: 28px;
 }
+
 .f30 {
   font-size: 30px;
 }
+
+.f32 {
+  font-size: 32px;
+  line-height: 45px;
+}
+
 .f35 {
   font-size: 35px;
 }
+
 .f40 {
   font-size: 40px;
 }
+
 .f45 {
   font-size: 45px;
 }
+
 .f50 {
   font-size: 50px;
 }
+
 .f55 {
   font-size: 55px;
 }
@@ -2115,21 +2162,27 @@ button {
 .fw300 {
   font-weight: 300;
 }
+
 .fw400 {
   font-weight: 400;
 }
+
 .fw500 {
   font-weight: 500;
 }
+
 .fw600 {
   font-weight: 600;
 }
+
 .fw700 {
   font-weight: 700;
 }
+
 .fw800 {
   font-weight: 800;
 }
+
 .fw900 {
   font-weight: 900;
 }
@@ -2138,9 +2191,11 @@ button {
   0% {
     background-position: 0%;
   }
+
   50% {
     background-position: 50%;
   }
+
   100% {
     background-position: 100%;
   }
@@ -2149,6 +2204,7 @@ button {
 .form-control:focus {
   box-shadow: 0px 0px 0px #000 !important;
 }
+
 .form-control:focus-visible {
   box-shadow: 0px 0px 0px #000 !important;
 }
@@ -2176,6 +2232,7 @@ button {
   outline: 0;
   box-shadow: 0px;
 }
+
 .point {
   position: relative;
   top: 18%;
@@ -2256,6 +2313,7 @@ button {
   top: 1px;
   left: 10px;
 }
+
 h1,
 h2,
 h3,
@@ -2337,9 +2395,11 @@ p {
   .marginb {
     margin-bottom: 10px;
   }
+
   .mobile-center {
     text-align: center;
   }
+
   .mobile-center span {
     margin-top: 20px;
   }

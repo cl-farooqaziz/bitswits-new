@@ -1,0 +1,82 @@
+.paddingTop{
+    padding: 80px 0;
+}
+
+.card {
+    background: transparent;
+    background-image: url(../../public/metaverse/images/cardBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 20px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    max-width: 600px;
+    min-height: 288px;
+}
+
+.grediantBtn {
+    background-image: linear-gradient(to right, #EB335B, #4A78EF);
+    font-size: 14px;
+    padding: 13px 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.cardImage {
+    max-width: 500px;
+}
+
+.cardImage img {
+    position: absolute;
+    top: -52px;
+    right: 57px;
+    max-width: 230px;
+    max-height: 329px;
+}
+
+.cardImageTwo img {
+    position: absolute;
+    right: 6px;
+    top: -52px;
+    max-height: 326px;
+    max-width: 292px;
+}
+
+.cardImageFour img {
+    position: absolute;
+    right: 48px;
+    max-width: 242px;
+    min-height: 330px;
+    top: -62px;
+    max-height: 257px;
+}
+
+.cardContent {
+    max-width: 330px;
+    margin-top: 43px;
+}
+
+.br1 {
+    border-right: 1px dashed #f32f5a45;
+}
+
+.bb1 {
+    border-bottom: 1px dashed #f32f5a45;
+}
+
+.cardPosition {
+    position: relative;
+}
+
+.metaDot img {
+    position: absolute;
+    left: 48%;
+    top: 46%;
+    z-index: 99999;
+}

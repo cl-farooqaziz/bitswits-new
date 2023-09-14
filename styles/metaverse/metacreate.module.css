@@ -1,0 +1,35 @@
+.metaCreate {
+    background: #221716;
+}
+
+.videoBg {
+    width: 100%;
+    background: #0d2119;
+    min-width: 450px;
+    height: 100%;
+    min-height: 376px;
+}
+
+.metaCreate h2 {
+    max-width: 660px;
+}
+
+.metaCreate p {
+    max-width: 575px;
+}
+
+.secBtns {
+    background-size: cover;
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    background-color: #70707036;
+    border: 0.5px solid #707070;
+    max-width: 500px;
+    margin: 27px 0;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+}
