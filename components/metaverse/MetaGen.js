@@ -1,10 +1,10 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/metaverse/metagen.module.css';
+import styles from '@/styles/metaverse/metaverse.module.css';
 import Image from 'next/image';
-import Link from 'next/link';
-import CTA from '../../components/blockchain/cta';
 import poster from '@/public/blockchain/images/cube.png'
+import MetaBtn from './MetaBtn';
 
 const MetaGen = (props) => {
     return (
@@ -15,7 +15,10 @@ const MetaGen = (props) => {
                         <Col lg={8} className='pt-4 pb-4'>
                             <h2 className="fw300 f30 text-white mb-2">{props.Metasub}</h2>
                             <p className='font16 text-white fw300'>{props.MetaPara}</p>
-                            <CTA number="1-844-400-0025" discuss="Hire Blockchain Developer" />
+                            <div className={`${styles.secBtns} ${styles.secBtns2} mb-0`}>
+                                <MetaBtn number="1-844-400-0025"
+                                    discuss="Hire Blockchain Developer" />
+                            </div>
                         </Col>
                         <Col lg={4}>
 

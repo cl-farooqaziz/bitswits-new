@@ -38,7 +38,7 @@ export default function Home() {
     </span>
 
 
-    const NextTtitle1 = <span className='f50 fw700 text-center'> <span className='grdiant'>Building Your Bussiness</span>Digital Universe:
+    const NextTtitle1 = <span className='f50 fw700 text-center'> <span className='grdiant'>Building Your Bussiness</span> Digital Universe:
         Our Metaverse Development Services</span>
     const NextPara = <span>We help you revolutionize your business’s digital presence with premium metaverse developmentsolutions. Get on a call with our experts to discuss your metaverse development requirements.</span>
 

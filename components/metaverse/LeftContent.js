@@ -11,7 +11,6 @@ const LeftContent = (props) => {
             <div className={`${styles[props.whychooseclass]} secPad`}>
                 <Container>
                     <Row className={`${styles.middle} gy-4 align-items-center`}>
-
                         <Col lg={6}>
                             <div className={styles.cube}>
                                 <h2 className="text-white mb-2 ">{props.title}</h2>

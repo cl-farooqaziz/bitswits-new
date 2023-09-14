@@ -57,13 +57,13 @@
     background-image: linear-gradient(to right, #EB335B, #4A78EF);
     font-size: 14px;
     padding: 15px 20px;
-    border-radius: 12px;
-    margin-right: 50px;
+    border-radius: 30px;
+    margin-left: -10px;
 }
 
 .centerBorder {
     width: 1px;
-    height: 80%;
+    height: 70%;
     background: #707070;
 }
 
@@ -78,10 +78,10 @@
     gap: 10px;
 }
 
-.cube .secBtns.secBtns2 {
+.secBtns.secBtns2 {
     background-color: transparent;
     border: none;
-    margin: 27px auto 27px 0;
+    margin: 27px auto 27px 15px;
     padding: 0;
     gap: 25px;
     justify-content: flex-start;

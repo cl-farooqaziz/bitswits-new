@@ -89,7 +89,7 @@ const Metaverse = (props) => {
                                                     <span className='f28 fw700'>Metaverse <span className='txt-primary'>NFT</span></span>
                                                     <span className='f20 fw600 d-block'>Development Services</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2'>
+                                                <p className='text-white font11 pt-2 pb-3'>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>
@@ -114,7 +114,7 @@ const Metaverse = (props) => {
                                                     <span className='f28 fw700'>Metaverse <span className='txt-primary'>Decentralized</span></span>
                                                     <span className='f20 fw600 d-block'>Development Services</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2'>
+                                                <p className='text-white font11 pt-2 pb-3'>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>
@@ -142,7 +142,7 @@ const Metaverse = (props) => {
                                                     <span className='f28 fw700'>Metaverse <span className='txt-primary'>NFT</span></span>
                                                     <span className='f20 fw600 d-block'>Development Services</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2'>
+                                                <p className='text-white font11 pt-2 pb-3'>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>
@@ -167,7 +167,7 @@ const Metaverse = (props) => {
                                                     <span className='f28 fw700'>Metaverse <span className='txt-primary'>Decentralized</span></span>
                                                     <span className='f20 fw600 d-block'>Platforms Development</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2'>
+                                                <p className='text-white font11 pt-2 pb-3'>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>

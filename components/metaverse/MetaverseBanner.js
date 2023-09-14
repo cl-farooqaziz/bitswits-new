@@ -34,7 +34,7 @@ function MetaverseBanner() {
                                     <p className={`${style.content} text-white f15`}>Launch robust metaverse platforms with our core expertise in blockchain, AR, VR and other metaverse technologies.<br></br>
                                         Hire our top-notch metaverse experts to capture the future of digital reality. Accelerate your success in the web3 space with our metaverse development services.</p>
                                 </div>
-                                <div className={`${style.secBtns} d-sm-block d-none`}>
+                                <div className={`${style.secBtns}`}>
                                     <MetaBtn></MetaBtn>
                                 </div>
                             </div>

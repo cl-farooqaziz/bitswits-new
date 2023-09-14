@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/metaverse/metawork.module.css';
+import styles from '@/styles/metaverse/metaverse.module.css';
 import Image from 'next/image';
-import Link from 'next/link';
 //
 import WorkOne from '@/public/metaverse/images/work-bg.png';
 import MetaBtn from './MetaBtn';
@@ -106,8 +106,9 @@ const MetaWork = (props) => {
                                             market their products to a global audience and multiply
                                             their revenue.
                                         </p>
-                                        <div className={style.workBtn}>
-                                            <MetaBtn />
+                                        <div className={`${styles.secBtns} ${styles.secBtns2} mb-0`}>
+                                            <MetaBtn number="1-844-400-0025"
+                                                discuss="Hire Blockchain Developer" />
                                         </div>
                                     </div>
                                 </div>
@@ -126,8 +127,9 @@ const MetaWork = (props) => {
                                             market their products to a global audience and multiply
                                             their revenue.
                                         </p>
-                                        <div className={style.workBtn}>
-                                            <MetaBtn />
+                                        <div className={`${styles.secBtns} ${styles.secBtns2} mb-0`}>
+                                            <MetaBtn number="1-844-400-0025"
+                                                discuss="Hire Blockchain Developer" />
                                         </div>
                                     </div>
                                 </div>
@@ -175,8 +177,9 @@ const MetaWork = (props) => {
                                             market their products to a global audience and multiply
                                             their revenue.
                                         </p>
-                                        <div className={style.workBtn}>
-                                            <MetaBtn />
+                                        <div className={`${styles.secBtns} ${styles.secBtns2} mb-0`}>
+                                            <MetaBtn number="1-844-400-0025"
+                                                discuss="Hire Blockchain Developer" />
                                         </div>
                                     </div>
                                 </div>
@@ -195,8 +198,9 @@ const MetaWork = (props) => {
                                             market their products to a global audience and multiply
                                             their revenue.
                                         </p>
-                                        <div className={style.workBtn}>
-                                            <MetaBtn />
+                                        <div className={`${styles.secBtns} ${styles.secBtns2} mb-0`}>
+                                            <MetaBtn number="1-844-400-0025"
+                                                discuss="Hire Blockchain Developer" />
                                         </div>
                                     </div>
                                 </div>

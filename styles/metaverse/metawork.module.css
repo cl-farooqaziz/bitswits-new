@@ -27,6 +27,12 @@
     clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 57%, 76% 100%, 0 100%, 0% 80%, 0% 20%);
 }
 
+.centerBorder {
+    width: 1px;
+    height: 70%;
+    background: #707070;
+}
+
 .video {
     /* max-width: 550px;
     max-height: 240px; */
@@ -79,7 +85,7 @@
 
 .imageHeight {
     min-height: 402px;
-    padding-top: 45px;
+    padding-top: 40px;
 }
 
 .contentHeight {
