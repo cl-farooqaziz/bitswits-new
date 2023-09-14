@@ -11,8 +11,62 @@ import lum from "@/public/newHomePageImages/lum.png"
 import dem from "@/public/newHomePageImages/dem.png"
 import World from "@/public/newHomePageImages/world.png"
 import WhatImage from "@/public/newHomePageImages/what_Image.png"
+import { useEffect, useRef } from "react";
+import lottie from 'lottie-web';
+
+import mobileapp from '../public/mobileapp.json';
+import game from '../public/game.json';
+import blockchain from '../public/blockchain.json';
+import ai from '../public/ai.json';
+
+
+
 
 const NewHomeMaintain = () => {
+    const anime = useRef(null);
+ 
+    useEffect(() => {
+        
+        lottie.loadAnimation({
+            container: document.getElementById('lottie'),
+            animationData: game,
+            loop: true,
+            autoplay: true,
+        });
+
+        lottie.loadAnimation({
+            container: document.getElementById('blockchain'),
+            animationData: blockchain,
+            loop: true,
+            autoplay: true,
+        });
+        lottie.loadAnimation({
+            container: document.getElementById('artifical'),
+            animationData: ai,
+            loop: true,
+            autoplay: true,
+            renderer:"svg",
+        });
+
+         
+  
+            lottie.loadAnimation({
+            container: document.getElementById('lottie-container'),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            animationData: mobileapp,
+            });
+
+
+
+
+
+    }, []);
+
+
+
+
 
     return (
         <>
@@ -33,7 +87,13 @@ const NewHomeMaintain = () => {
                                 <h3 className='text-white f-20 font-bold text-center'>Mobile App Development</h3>
                                 <p className={styles.para}>The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.</p>
 
-                                <Image src={CardOne} className='img-fluid d-block m-auto mt-5 w-75' />
+                                {/* <Image src={CardOne} className='img-fluid d-block m-auto mt-5 w-75' /> */}
+
+                               
+                          
+
+                                <div id="lottie-container"></div>
+
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -41,14 +101,25 @@ const NewHomeMaintain = () => {
                                 <h3 className='text-white f-20 font-bold text-center'>Game Development</h3>
                                 <p className={styles.para}>Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.</p>
 
-                                <Image src={lap} className='img-fluid d-block m-auto mt-5' />
+                                {/* <Image src={lap} className='img-fluid d-block m-auto mt-5' /> */}
+
+                            
+                                
+                                <div id="lottie"></div>
+                                
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app2}>
                                 <h3 className='text-black f-20 font-bold text-center'>Blockchain Development</h3>
                                 <p className={styles.para}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
-                                <Image src={cool} className='img-fluid d-block m-auto mt-5' />
+
+                                {/* <Image src={cool} className='img-fluid d-block m-auto mt-5' /> */}
+
+                                <div id="blockchain"></div>
+                                
+
+
                             </div>
                         </Col>
 
@@ -65,7 +136,8 @@ const NewHomeMaintain = () => {
                                         </div>
                                     </Col>
                                     <Col xl={4}>
-                                        <Image src={lum} className='img-fluid' />
+                                        {/* <Image src={lum} className='img-fluid' /> */}
+                                        <div ref={anime} ></div>
                                     </Col>
                                 </Row>
 
@@ -109,7 +181,7 @@ const NewHomeMaintain = () => {
                                 <h3 className='text-white f-20 font-bold text-center'>Internet of Things</h3>
                                 <p className={styles.para2}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
 
-                                <Image src={World} className={ ` ${styles.custom} img-fluid d-block m-auto mt-1` } />
+                                <Image src={World} className={` ${styles.custom} img-fluid d-block m-auto mt-1`} />
                             </div>
 
                         </Col>
