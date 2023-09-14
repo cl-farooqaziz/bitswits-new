@@ -24,45 +24,45 @@ import ai from '../public/ai.json';
 
 const NewHomeMaintain = () => {
     const anime = useRef(null);
- 
-    useEffect(() => {
-        
-        lottie.loadAnimation({
-            container: document.getElementById('lottie'),
-            animationData: game,
-            loop: true,
-            autoplay: true,
-        });
 
-        lottie.loadAnimation({
-            container: document.getElementById('blockchain'),
-            animationData: blockchain,
-            loop: true,
-            autoplay: true,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('artifical'),
-            animationData: ai,
-            loop: true,
-            autoplay: true,
-            renderer:"svg",
-        });
+    // useEffect(() => {
 
-         
-  
-            lottie.loadAnimation({
-            container: document.getElementById('lottie-container'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: mobileapp,
-            });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie'),
+    //         animationData: game,
+    //         loop: true,
+    //         autoplay: true,
+    //     });
+
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('blockchain'),
+    //         animationData: blockchain,
+    //         loop: true,
+    //         autoplay: true,
+    //     });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('artifical'),
+    //         animationData: ai,
+    //         loop: true,
+    //         autoplay: true,
+    //         renderer: "svg",
+    //     });
 
 
 
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie-container'),
+    //         renderer: "svg",
+    //         loop: true,
+    //         autoplay: true,
+    //         animationData: mobileapp,
+    //     });
 
 
-    }, []);
+
+
+
+    // }, []);
 
 
 
@@ -89,8 +89,8 @@ const NewHomeMaintain = () => {
 
                                 {/* <Image src={CardOne} className='img-fluid d-block m-auto mt-5 w-75' /> */}
 
-                               
-                          
+
+
 
                                 <div id="lottie-container"></div>
 
@@ -103,10 +103,10 @@ const NewHomeMaintain = () => {
 
                                 {/* <Image src={lap} className='img-fluid d-block m-auto mt-5' /> */}
 
-                            
-                                
+
+
                                 <div id="lottie"></div>
-                                
+
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -117,7 +117,7 @@ const NewHomeMaintain = () => {
                                 {/* <Image src={cool} className='img-fluid d-block m-auto mt-5' /> */}
 
                                 <div id="blockchain"></div>
-                                
+
 
 
                             </div>
