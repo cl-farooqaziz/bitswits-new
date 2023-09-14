@@ -1,0 +1,79 @@
+/* .ImageBack{
+    background-image: url(../../public/metaverse/images/work-bg.png);
+    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+} */
+
+.relative {
+    position: relative;
+}
+
+.br1 {
+    border-right: 2px dashed #f32f5a45;
+}
+
+.bb1 {
+    border-bottom: 1px dashed #f32f5a45;
+}
+
+.workContent {
+    padding-left: 40px;
+}
+
+.ImageBack {
+    max-width: 550px;
+    max-height: 240px;
+    /* margin-top: 33px; */
+}
+
+.workImage{
+    width: 100%;
+    max-width: 550px;
+    min-height: 220px;
+    object-fit: contain;
+}
+
+.contentPara {
+    color: #7a7a7a;
+    line-height: 30px;
+}
+
+.ml {
+    margin-left: 40px;
+    display: block;
+}
+
+.metaDot img {
+    position: absolute;
+    bottom: 71%;
+    left: 51%;
+    transform: translate(-74%, -55%);
+    z-index: 99999;
+}
+
+.metaDotTwo img {
+    position: absolute;
+    bottom: 21%;
+    left: 48%;
+    transform: translate(-1%, -53%);
+    z-index: 99999;
+}
+
+
+.workBtn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 38px;
+}
+
+.imageHeight {
+    max-height: 353px;
+    padding-top: 45px;
+}
+
+.contentHeight {
+    min-height: 348px;
+    padding-top: 20px;
+}

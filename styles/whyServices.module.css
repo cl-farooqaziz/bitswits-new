@@ -85,7 +85,7 @@
 }
 
 .imgBox img{
-  /* filter: grayscale(); */
+  filter: brightness(500);
   width: 500px;
 }
 

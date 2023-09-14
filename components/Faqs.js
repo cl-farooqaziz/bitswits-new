@@ -15,7 +15,7 @@ const Faqs = () => {
     const [faq3show, setfaq3] = useState(false);
     const [faq4show, setfaq4] = useState(false);
     const [faq5show, setfaq5] = useState(false);
-    const [faq6show, setfaq6] = useState(false);
+    const [faq6show, setfaq6] = useState(false); 
 
     function faq1() {
         setfaq1(!faq1show);
