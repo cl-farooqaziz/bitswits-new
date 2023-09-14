@@ -20,7 +20,27 @@ import bestglobal10 from '../public/images/bestglobal/10.png'
 import bestglobal11 from '../public/images/bestglobal/11.png'
 import bestgloba12 from '../public/images/bestglobal/12.png'
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Newglobal = () => {
+
+
+    let lctonSlider = {
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        adaptiveHeight: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+    };
+
+
+
+
     return (
         <>
 
@@ -31,32 +51,54 @@ const Newglobal = () => {
                         <Col xl={9}>
                             <h3 className='f45 font-bold white'>World-Renowned</h3>
                             <h2 className={styles.success}>Brands Trust Us</h2>
-                            <div >
+
+
+                            <div className={styles.postpoint}>
+                                <div>
+                                    <Image src={bestglobal1} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestglobal2} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestglobal3} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestgloba4} className='img-fluid' alt='bitswits' />
+
+
+                                </div>
+
+                                <div className={styles.pont}>
+                                    <Image src={bestglobal5} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestglobal6} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestglobal7} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestgloba8} className='img-fluid' alt='bitswits' />
+
+
+                                </div>
+
+                                <div >
+                                    <Image src={bestglobal9} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestglobal10} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestglobal11} className='img-fluid' alt='bitswits' />
+                                    <Image src={bestgloba12} className='img-fluid' alt='bitswits' />
+
+
+                                </div>
+                            </div>
+
+                            <Slider {...lctonSlider} className={styles.lctnslide}>
                                 <Image src={bestglobal1} className='img-fluid' alt='bitswits' />
                                 <Image src={bestglobal2} className='img-fluid' alt='bitswits' />
                                 <Image src={bestglobal3} className='img-fluid' alt='bitswits' />
                                 <Image src={bestgloba4} className='img-fluid' alt='bitswits' />
-
-
-                            </div>
-
-                            <div className={styles.pont}>
                                 <Image src={bestglobal5} className='img-fluid' alt='bitswits' />
                                 <Image src={bestglobal6} className='img-fluid' alt='bitswits' />
                                 <Image src={bestglobal7} className='img-fluid' alt='bitswits' />
                                 <Image src={bestgloba8} className='img-fluid' alt='bitswits' />
-
-
-                            </div>
-
-                            <div >
                                 <Image src={bestglobal9} className='img-fluid' alt='bitswits' />
                                 <Image src={bestglobal10} className='img-fluid' alt='bitswits' />
                                 <Image src={bestglobal11} className='img-fluid' alt='bitswits' />
                                 <Image src={bestgloba12} className='img-fluid' alt='bitswits' />
 
 
-                            </div>
+
+                            </Slider>
 
                         </Col>
                         <Col xl={3}>

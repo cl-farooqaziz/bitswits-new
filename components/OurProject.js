@@ -60,9 +60,7 @@ const OurProject = () => {
                             <Col lg={2}><div className={styles.line1}></div></Col>
                             <Col lg={2}><div className={styles.line2}></div></Col>
                             <Col lg={2}><div className={styles.line3}></div></Col>
-                            <Col lg={2}><div className={styles.line4}></div></Col>
-                            <Col lg={2}><div className={styles.line5}></div></Col>
-                            <Col lg={2}><div className={styles.line6}></div></Col>
+                         
 
                         </Row>
 

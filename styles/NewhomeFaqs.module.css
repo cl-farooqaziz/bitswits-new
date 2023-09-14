@@ -44,7 +44,7 @@
   border-width: 4px;
   border-style: solid;
   padding: 10px 20px;
-  margin-top: 3%;
+  margin-top: 1%;
   cursor: pointer;
   padding-bottom: unset;
   background-color: black;
@@ -89,4 +89,10 @@
   .faqs {
     padding: 50px 0;
   }
+}
+@media screen and (max-width: 480px) {
+  .about {
+    margin-right: auto;
+    margin-bottom: 5%;
+}
 }

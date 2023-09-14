@@ -213,9 +213,50 @@
  }
 
 
- @media screen and (min-width: 1200px) { 
+ @media screen and (max-width: 1200px) { 
+
+    .app4 {
+        height: auto;
+    }
+    .app5 {
+        height: auto;
+    }
+    .app3 {
+
+        background-size: auto;
+        padding: 30px 28px 9px 33px;
+    }
+    .app3 img {
+        max-width: 24%;
+        margin-top: 2%;
+    }
 
 
+ }
+
+ @media screen and (max-width: 767px) {  
+
+    .newHomeBg {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pick {
+        display: flex;
+        flex-direction: column;
+    }
+    .power{
+        width: 100%;
+    }
+
+    .app6 {
+        height: auto;
+    }
+
+    .app{
+    
+        height: auto;
+    }
 
 
  }

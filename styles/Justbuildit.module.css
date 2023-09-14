@@ -78,6 +78,11 @@
 
 @media screen and (max-width: 767px) {
 
+  .slide{
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
   .just {
     font-size: 35px;
   }
@@ -91,6 +96,8 @@
   .just {
     font-size: 30px;
   }
+
+
   
 
 }
