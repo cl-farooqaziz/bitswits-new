@@ -12,58 +12,13 @@ const Blockchain = (props) => {
 
 
     let settings = {
-        dots: true,
+        dots: false,
+        arrows: false,
         infinite: true,
-        slidesToShow: 6,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            }
-        ]
     };
 
     return (
@@ -76,7 +31,7 @@ const Blockchain = (props) => {
                             <h4 className="fw300 f40 txt-primary mb-2">{props.hireSubTile}</h4>
                         </Col>
                     </Row>
-                    <div className='d-none d-lg-block d-md-block d-sm-none'>
+                    <div className='d-none d-lg-block'>
                         <Row className='justify-content-center align-items-center '>
                             <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                 <div className={`${style.feature}`}>
@@ -166,7 +121,7 @@ const Blockchain = (props) => {
                             </Col>
                         </Row>
                     </div>
-                    <div className='d-block d-lg-none d-md-none d-sm-block'>
+                    <div className='d-block d-lg-none'>
                         <Row className='justify-content-center align-items-center'>
                             <Slider {...settings}>
                                 <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>

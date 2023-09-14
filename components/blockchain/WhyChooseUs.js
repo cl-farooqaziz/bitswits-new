@@ -19,67 +19,17 @@ import Slider from "react-slick";
 const WhyChooseUs = (props) => {
 
     let settings = {
-        dots: true,
+        dots: false,
+        arrows: false,
         infinite: true,
-        slidesToShow: 6,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        centerMode:true,
-        responsive: [
-          {
-              breakpoint: 1024,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 3,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-                  centerMode: true,
-              }
-          },
-          {
-              breakpoint: 768,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-                  centerMode: true,
-              }
-          },
-          {
-              breakpoint: 767,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-                  centerMode: true,
-              }
-          },
-          {
-              breakpoint: 575,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-                  centerMode: true,
-              }
-          }
-      ]
-    };  
-    return(
+    };
+    return (
         <>
-           <section className='py-5'>
+            <section className='py-0 py-md-0'>
                 <Container>
                     <Row className='justify-content-center align-items-center '>
                         <Col lg={6} className='border-top border-bottom pt-5 pb-5 pe-5'>
@@ -88,166 +38,166 @@ const WhyChooseUs = (props) => {
                             <p className='f14 text-white'> {props.whyPara}</p>
                         </Col>
                         <Col lg={6}>
-                        <div className='d-none d-lg-block d-md-block d-sm-none'>
-                            <Row className='justify-content-center align-items-center'>
-                                
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                                    <div className={`${style.feature}`}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon1} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white'>Core blockchain developers</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon2} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white'>Agile development process</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon3} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white'>Customer-centric App </p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon4} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white'>Business focused approach</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon5} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>Dynamic engagement model</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon6} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>Cost-effective services</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon7} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>Cost-effective services</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon8} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>On-time project delivery</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon9} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>24*7 technical support</p>
-                                        </div>
-                                    </div>
-                                </Col>
+                            <div className='d-none d-lg-block'>
+                                <Row className='justify-content-center align-items-center'>
 
-                            </Row>
-                        </div>
-                        <div className='d-block d-lg-none d-md-none d-sm-block'>
-                            <Row className='justify-content-center align-items-center text-center'>
-                            <Slider {...settings}>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative text-center`}>
-                                    <div className={`${style.feature}`}>
-                                        <div className={`${style.gap2} justify-content-center align-items-center mx-auto`}>
-                                        <Image src={icon1} alt="Blockchain" className='img-fluid text-center' />
-                                        <p className='text-white'>Core blockchain developers</p>
+                                    <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                        <div className={`${style.feature}`}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon1} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white'>Core blockchain developers</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative  text-center`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon2} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white'>Agile development process</p>
+                                    </Col>
+                                    <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon2} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white'>Agile development process</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon3} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white'>Customer-centric App </p>
+                                    </Col>
+                                    <Col lg={4} className={`${style.bb1} position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon3} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white'>Customer-centric App </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon4} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white'>Business focused approach</p>
+                                    </Col>
+                                    <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon4} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white'>Business focused approach</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon5} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>Dynamic engagement model</p>
+                                    </Col>
+                                    <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon5} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white f14'>Dynamic engagement model</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.bb1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon6} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>Cost-effective services</p>
+                                    </Col>
+                                    <Col lg={4} className={`${style.bb1} position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon6} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white f14'>Cost-effective services</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon7} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>Cost-effective services</p>
+                                    </Col>
+                                    <Col lg={4} className={`${style.br1} position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon7} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white f14'>Cost-effective services</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon8} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>On-time project delivery</p>
+                                    </Col>
+                                    <Col lg={4} className={`${style.br1} position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon8} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white f14'>On-time project delivery</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4} className={`position-relative`}>
-                                    <div className={style.feature}>
-                                        <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                        <Image src={icon9} alt="Blockchain" className='img-fluid' />
-                                        <p className='text-white f14'>24*7 technical support</p>
+                                    </Col>
+                                    <Col lg={4} className={`position-relative`}>
+                                        <div className={style.feature}>
+                                            <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                <Image src={icon9} alt="Blockchain" className='img-fluid' />
+                                                <p className='text-white f14'>24*7 technical support</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                               </Slider>
-                            </Row>
-                         </div>
+                                    </Col>
+
+                                </Row>
+                            </div>
+                            <div className='d-block d-lg-none'>
+                                <Row className='justify-content-center align-items-center text-center'>
+                                    <Slider {...settings}>
+                                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative text-center`}>
+                                            <div className={`${style.feature}`}>
+                                                <div className={`${style.gap2} justify-content-center align-items-center mx-auto`}>
+                                                    <Image src={icon1} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white'>Core blockchain developers</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative  text-center`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon2} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white'>Agile development process</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`${style.bb1} position-relative`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon3} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white'>Customer-centric App </p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon4} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white'>Business focused approach</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon5} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white f14'>Dynamic engagement model</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`${style.bb1} position-relative`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon6} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white f14'>Cost-effective services</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`${style.br1} position-relative`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon7} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white f14'>Cost-effective services</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`${style.br1} position-relative`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon8} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white f14'>On-time project delivery</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                        <Col lg={4} className={`position-relative`}>
+                                            <div className={style.feature}>
+                                                <div className={`${style.gap2} justify-content-left align-items-center`}>
+                                                    <Image src={icon9} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <p className='text-white f14'>24*7 technical support</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Slider>
+                                </Row>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
-           </section>
+            </section>
         </>
     )
 }

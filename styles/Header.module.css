@@ -6,6 +6,7 @@
   justify-content: space-between;
   background-color: #4d4c4c;
   position: relative;
+  z-index: 9999;
 }
 
 .navLogo {
@@ -485,11 +486,18 @@
   }
 
   .listImg img {
-    margin-top: 75px;
+    margin-top: 0;
+  }
+
+  .listBody ul,
+  .listImg,
+  .megaMenu2 .listBody ul,
+  .boxSpace {
+    height: auto;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .cross {
     top: 10px;
     right: 10px;
@@ -525,6 +533,7 @@
     gap: 30px;
     background-color: #272727;
     transition: all 0.5s ease-in-out;
+    z-index: 9999;
   }
 
   .menu.active {
@@ -628,7 +637,7 @@
   }
 
   .navTogle .line {
-    background-color: #000;
+    background-color: #fff;
     width: 30px;
     height: 3px;
     display: block;
@@ -682,10 +691,6 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-  }
-
-  .listImg img {
-    margin-top: 25px;
   }
 
   .mbInq {

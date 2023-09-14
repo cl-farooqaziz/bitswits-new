@@ -495,7 +495,14 @@
   }
 
   .listImg img {
-    margin-top: 75px;
+    margin-top: 0;
+  }
+
+  .listBody ul,
+  .listImg,
+  .megaMenu2 .listBody ul,
+  .boxSpace {
+    height: auto;
   }
 
   .cross {
@@ -533,6 +540,7 @@
     gap: 30px;
     background-color: #272727;
     transition: all 0.5s ease-in-out;
+    z-index: 9999;
   }
 
   .menu.active {
@@ -690,10 +698,6 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-  }
-
-  .listImg img {
-    margin-top: 25px;
   }
 
   .mbInq {

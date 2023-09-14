@@ -16,150 +16,34 @@ import Slider from "react-slick";
 const Standing = (props) => {
 
     let settings = {
-        dots: true,
+        dots: false,
+        arrows: false,
         infinite: true,
-        slidesToShow: 6,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        responsive: [
-          {
-              breakpoint: 1024,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          },
-          {
-              breakpoint: 768,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          },
-          {
-              breakpoint: 767,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          },
-          {
-              breakpoint: 575,
-              settings: {
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 2000,
-              }
-          }
-      ]
-    };   
-    return(
+    };
+    return (
         <>
-           <section className='secPad'>
+            <section className='secPad'>
                 <Container>
-                    <Row className='justify-content-center text-center align-items-center mb-5'>
+                    <Row className='justify-content-center text-center align-items-center mb-lg-5'>
                         <Col lg={12} >
                             <h2 className="text-white f50 fw700 mb-2">Delivering <span className='fw700'>Outstanding</span> <span>Outstanding</span> <span className='grdiant'>Blockchain Development Services</span> Across Industry</h2>
                             <h4 className="fw300 f30 text-white mb-2">{props.nextsub}</h4>
                             <p className='text-white fw300'>{props.nextPara}</p>
                         </Col>
                     </Row>
-                    <div className='d-none d-lg-block d-md-block d-sm-none'>
+                    <div className='d-none d-lg-block'>
                         <Row className={`${style.standing} justify-content-center align-items-center mb-5 pb-5`}>
-                            
-                                <Col lg={4} className={`${style.br1} ${style.bb1} ${style.bb1} position-relative`}>
-                                    <div className={`${style.feature}`}>
-                                        <div className='d-flex justify-content-center align-items-center'>
-                                        <span className={`${style.numbers}`}>
-                                            <Image src={health} width={200} className='img-fluid' alt="Blockchain"/>
-                                        </span>
-                                        </div>
-                                    </div>
-                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Healthcare</h4>
-                                </Col>
-                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
-                                    <div className={`${style.feature}`}>
-                                        <div className='d-flex justify-content-center align-items-center'>
-                                        <span className={`${style.numbers}`}>
-                                        <Image src={Banking} width={200} className='img-fluid' alt="Blockchain"/>
-                                        </span>
-                                        </div>
-                                    
-                                    </div>
-                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Banking</h4>
-                                </Col>
-                                <Col lg={4} className={`${style.bb1} position-relative`}>
-                                    <div className={`${style.feature}`}>
-                                        <div className='d-flex justify-content-center align-items-center'>
-                                        <span className={`${style.numbers}`}>
-                                        <Image src={ecommerce} width={200} className='img-fluid' alt="Blockchain"/>
-                                        </span>
-                                        </div>
-                                    
-                                    </div>
-                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>E-Commerce</h4>
-                                </Col>
-                                <Col lg={4} className={`${style.br1}  position-relative`}>
-                                    <div className={`${style.feature}`}>
-                                        <div className='d-flex justify-content-center align-items-center'>
-                                        <span className={`${style.numbers}`}>
-                                        <Image src={supply} width={200} className='img-fluid' alt="Blockchain"/>
-                                        </span>
-                                        </div>
-                                    
-                                    </div>
-                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Supply Chain</h4>
-                                </Col>
-                                <Col lg={4} className={`${style.br1}  position-relative`}>
-                                    <div className={`${style.feature}`}>
-                                        <div className='d-flex justify-content-center align-items-center'>
-                                        <span className={`${style.numbers}`}>
-                                        <Image src={realestate} width={200} className='img-fluid' alt="Blockchain"/>
-                                        </span>
-                                        </div>
-                                    
-                                    </div>
-                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Reat Estate</h4>
-                                </Col>
-                                <Col lg={4} className='position-relative'>
-                                    <div className={`${style.feature}`}>
-                                        <div className='d-flex justify-content-center align-items-center'>
-                                        <span className={`${style.numbers}`}>
-                                        <Image src={retail} width={200} className='img-fluid' alt="Blockchain"/>
-                                        </span>
-                                        </div>
-                                    
-                                    </div>
-                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Retail</h4>
-                                </Col>
-                            
-                        </Row>
-                    </div>
-                    <div className='d-block d-lg-none d-md-none d-sm-block'>
-                        <Row className={`${style.standing} justify-content-center align-items-center mb-5 pb-5`}>
-                            <Slider {...settings}>
+
                             <Col lg={4} className={`${style.br1} ${style.bb1} ${style.bb1} position-relative`}>
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
-                                    <span className={`${style.numbers}`}>
-                                        <Image src={health} width={200} className='img-fluid' alt="Blockchain"/>
-                                    </span>
+                                        <span className={`${style.numbers}`}>
+                                            <Image src={health} width={200} className='img-fluid' alt="Blockchain" />
+                                        </span>
                                     </div>
                                 </div>
                                 <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Healthcare</h4>
@@ -167,71 +51,142 @@ const Standing = (props) => {
                             <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
-                                    <span className={`${style.numbers}`}>
-                                    <Image src={Banking} width={200} className='img-fluid' alt="Blockchain"/>
-                                    </span>
+                                        <span className={`${style.numbers}`}>
+                                            <Image src={Banking} width={200} className='img-fluid' alt="Blockchain" />
+                                        </span>
                                     </div>
-                                
+
                                 </div>
                                 <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Banking</h4>
                             </Col>
                             <Col lg={4} className={`${style.bb1} position-relative`}>
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
-                                    <span className={`${style.numbers}`}>
-                                    <Image src={ecommerce} width={200} className='img-fluid' alt="Blockchain"/>
-                                    </span>
+                                        <span className={`${style.numbers}`}>
+                                            <Image src={ecommerce} width={200} className='img-fluid' alt="Blockchain" />
+                                        </span>
                                     </div>
-                                
+
                                 </div>
                                 <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>E-Commerce</h4>
                             </Col>
                             <Col lg={4} className={`${style.br1}  position-relative`}>
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
-                                    <span className={`${style.numbers}`}>
-                                    <Image src={supply} width={200} className='img-fluid' alt="Blockchain"/>
-                                    </span>
+                                        <span className={`${style.numbers}`}>
+                                            <Image src={supply} width={200} className='img-fluid' alt="Blockchain" />
+                                        </span>
                                     </div>
-                                
+
                                 </div>
                                 <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Supply Chain</h4>
                             </Col>
                             <Col lg={4} className={`${style.br1}  position-relative`}>
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
-                                    <span className={`${style.numbers}`}>
-                                    <Image src={realestate} width={200} className='img-fluid' alt="Blockchain"/>
-                                    </span>
+                                        <span className={`${style.numbers}`}>
+                                            <Image src={realestate} width={200} className='img-fluid' alt="Blockchain" />
+                                        </span>
                                     </div>
-                                
+
                                 </div>
                                 <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Reat Estate</h4>
                             </Col>
                             <Col lg={4} className='position-relative'>
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
-                                    <span className={`${style.numbers}`}>
-                                    <Image src={retail} width={200} className='img-fluid' alt="Blockchain"/>
-                                    </span>
+                                        <span className={`${style.numbers}`}>
+                                            <Image src={retail} width={200} className='img-fluid' alt="Blockchain" />
+                                        </span>
                                     </div>
-                                
+
                                 </div>
                                 <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Retail</h4>
                             </Col>
+
+                        </Row>
+                    </div>
+                    <div className='d-block d-lg-none'>
+                        <Row className={`${style.standing} justify-content-center align-items-center mb-lg-5 pb-lg-5`}>
+                            <Slider {...settings}>
+                                <Col lg={4} className={`${style.br1} ${style.bb1} ${style.bb1} position-relative`}>
+                                    <div className={`${style.feature}`}>
+                                        <div className='d-flex justify-content-center align-items-center'>
+                                            <span className={`${style.numbers}`}>
+                                                <Image src={health} width={200} className='img-fluid' alt="Blockchain" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Healthcare</h4>
+                                </Col>
+                                <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
+                                    <div className={`${style.feature}`}>
+                                        <div className='d-flex justify-content-center align-items-center'>
+                                            <span className={`${style.numbers}`}>
+                                                <Image src={Banking} width={200} className='img-fluid' alt="Blockchain" />
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Banking</h4>
+                                </Col>
+                                <Col lg={4} className={`${style.bb1} position-relative`}>
+                                    <div className={`${style.feature}`}>
+                                        <div className='d-flex justify-content-center align-items-center'>
+                                            <span className={`${style.numbers}`}>
+                                                <Image src={ecommerce} width={200} className='img-fluid' alt="Blockchain" />
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>E-Commerce</h4>
+                                </Col>
+                                <Col lg={4} className={`${style.br1}  position-relative`}>
+                                    <div className={`${style.feature}`}>
+                                        <div className='d-flex justify-content-center align-items-center'>
+                                            <span className={`${style.numbers}`}>
+                                                <Image src={supply} width={200} className='img-fluid' alt="Blockchain" />
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Supply Chain</h4>
+                                </Col>
+                                <Col lg={4} className={`${style.br1}  position-relative`}>
+                                    <div className={`${style.feature}`}>
+                                        <div className='d-flex justify-content-center align-items-center'>
+                                            <span className={`${style.numbers}`}>
+                                                <Image src={realestate} width={200} className='img-fluid' alt="Blockchain" />
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Reat Estate</h4>
+                                </Col>
+                                <Col lg={4} className='position-relative'>
+                                    <div className={`${style.feature}`}>
+                                        <div className='d-flex justify-content-center align-items-center'>
+                                            <span className={`${style.numbers}`}>
+                                                <Image src={retail} width={200} className='img-fluid' alt="Blockchain" />
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <h4 className='line-height-1 text-center fw700 f18 text-white mb-4'>Retail</h4>
+                                </Col>
                             </Slider>
                         </Row>
                     </div>
 
-                    <div className='d-none d-lg-block d-md-block d-sm-none'>
+                    <div className='d-none d-lg-block'>
                         <Row className='mt-5 mb-5'>
                             <Col lg={12} className='position-relative'>
-                                <Image src={FullView} className='img-fluid' alt="Blockchain"/>
+                                <Image src={FullView} className='img-fluid' alt="Blockchain" />
                             </Col>
                         </Row>
                     </div>
                 </Container>
-           </section>
+            </section>
         </>
     )
 }

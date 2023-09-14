@@ -48,7 +48,7 @@ const Lookingforlp = (props) => {
 
     return (
         <>
-            <section className={styles.lookingfor}>
+            <section className={`${styles.lookingfor} pt-4`}>
                 <Container>
                     <Row className={`${styles.project} justify-content-between`}>
                         <Col lg={2}>

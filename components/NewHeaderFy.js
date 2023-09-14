@@ -44,6 +44,7 @@ import Modal from 'react-bootstrap/Modal';
 import Freequote from '../components/Freequote'
 import { RxCross2 } from 'react-icons/rx'
 import newImg from '../public/images/1.jpg'
+import Bitswitspopup from '../components/Bitswitspopup'
 
 
 const NewHeaderFy = () => {
@@ -118,10 +119,10 @@ const NewHeaderFy = () => {
                                             src={backarrow}
                                         />
                                     </div>
-                                    <Row>
+                                    <Row className='mt-4 mt-lg-0'>
                                         <Col md={12}>
                                             <Row className={styles.megaRow}>
-                                                <Col md={3}>
+                                                <Col lg={3}>
                                                     <div className={styles.listMain}>
 
                                                         <div className={styles.listBody}>
@@ -210,7 +211,7 @@ const NewHeaderFy = () => {
                                                         </div>
                                                     </div>
                                                 </Col>
-                                                <Col md={3}>
+                                                <Col lg={3}>
                                                     <div className={styles.listMain}>
 
                                                         <div className={styles.listBody}>
@@ -333,16 +334,16 @@ const NewHeaderFy = () => {
                                                             </Row>
                                                         </div>
                                                     </div>
-                                                    <div className={`${styles.listMain}`}>
+                                                    {/* <div className={`${styles.listMain} mt-4`}>
 
-                                                        <div className={styles.listBody}>
-                                                            <Row>
-                                                                <Col md={12}>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
 
-                                                                </Col>
-                                                            </Row>
-                                                        </div>
+                                                            </Col>
+                                                        </Row>
                                                     </div>
+                                                </div> */}
                                                     {/* <Col md={12} className='mt-4'>
                                                     <div className={styles.listMain}>
                                                         <div className={styles.listHeading}>
@@ -388,7 +389,7 @@ const NewHeaderFy = () => {
                                                     </div>
                                                 </Col> */}
                                                 </Col>
-                                                <Col md={3}>
+                                                <Col lg={3}>
                                                     {/* <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
@@ -480,6 +481,7 @@ const NewHeaderFy = () => {
                                                                                         </div>
 
 
+
                                                                                         <li>
                                                                                             <Link onClick={handleMenu} href='/game-app-development-company-lp'>
                                                                                                 <FaAngleRight />
@@ -540,7 +542,7 @@ const NewHeaderFy = () => {
                                                         </div>
                                                     </div>
                                                 </Col>
-                                                <Col md={3}>
+                                                <Col lg={3} className='d-none d-lg-block'>
                                                     <div className={`${styles.listMain} mt-0`}>
                                                         <div className={styles.listBody}>
                                                             <Row>
@@ -790,9 +792,9 @@ const NewHeaderFy = () => {
 
                                         />
                                     </div>
-                                    <Row className={styles.megaRow}>
+                                    <Row className={`${styles.megaRow} mt-4 mt-lg-0`}>
 
-                                        <Col lg={4} md={6}>
+                                        <Col lg={4}>
                                             <div className={styles.listMain}>
                                                 <div className={styles.listBody}>
                                                     <ul className='mb-0 mt-0'>
@@ -816,7 +818,7 @@ const NewHeaderFy = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg={2} md={6}>
+                                        <Col lg={2}>
                                             <div className={styles.listMain}>
 
                                                 <div className={styles.listBody}>
@@ -901,8 +903,8 @@ const NewHeaderFy = () => {
 
                                         />
                                     </div>
-                                    <Row className={styles.megaRow}>
-                                        <Col lg={4} md={6}>
+                                    <Row className={`${styles.megaRow} mt-4 mt-lg-0`}>
+                                        <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
                                                     <Image alt="bitswits"
@@ -948,7 +950,7 @@ const NewHeaderFy = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg={4} md={6}>
+                                        <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
                                                     <Image alt="bitswits"
@@ -994,7 +996,7 @@ const NewHeaderFy = () => {
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg={4} md={6}>
+                                        <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
                                                     <Image alt="bitswits"
@@ -1668,7 +1670,7 @@ const NewHeaderFy = () => {
                     </nav>
 
                     <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-                        <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
+                        <Modal.Body> <Bitswitspopup formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
 
 
                     </Modal>

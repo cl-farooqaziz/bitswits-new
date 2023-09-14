@@ -413,34 +413,11 @@ export default function mobileapplicationdevelopmentcompany() {
 
 
 
-            <Consultancy />
+            {/* <Consultancy /> */}
 
 
 
-            <div className='rename'>
-                <h5 className="font20 fontf font-semibold letterspace white">OUR STORY</h5>
-                <p className="font18 fontf white p-0 m-0"> In 2009, a group of tech enthusiasts came together to form BitsWits, with a shared vision of creating innovative digital solutions. Today, we are a leading mobile app development company in USA delivering cutting-edge mobile apps to businesses worldwide.
-                </p>
-
-            </div>
-
-            <Yearsofexpertise
-                loop1={<> <Counter stopNumber={500} />+ </>}
-                looptext11={<> Applications Developed and Designed </>}
-                loop2={<> <Counter stopNumber={250} />+ </>}
-                looptext22={<> Developers & Engineers
-                    Under One Roof </>}
-                loop3={<> <Counter stopNumber={12} />+ </>}
-
-                looptext33={<> Years in Software
-                    Development Business </>}
-                loop4={<> <Counter stopNumber={92} />+ </>}
-
-                looptext44={<> Client Retention </>}
-
-            />
-
-            <section className='campny'>
+            <section className='campny pb-5'>
                 <Container>
                     <Row>
                         <Col>
@@ -510,17 +487,46 @@ export default function mobileapplicationdevelopmentcompany() {
                 </Row>
             </Container> */}
 
-            <HybridApp />
+            {/* <HybridApp /> */}
 
+
+            <div className='rename'>
+                <h5 className="font20 fontf font-semibold letterspace white">OUR STORY</h5>
+                <p className="font18 fontf white p-0 m-0"> In 2009, a group of tech enthusiasts came together to form BitsWits, with a shared vision of creating innovative digital solutions. Today, we are a leading mobile app development company in USA delivering cutting-edge mobile apps to businesses worldwide.
+                </p>
+
+            </div>
+
+            <Yearsofexpertise
+                loop1={<> <Counter stopNumber={500} />+ </>}
+                looptext11={<> Applications Developed and Designed </>}
+                loop2={<> <Counter stopNumber={250} />+ </>}
+                looptext22={<> Developers & Engineers
+                    Under One Roof </>}
+                loop3={<> <Counter stopNumber={12} />+ </>}
+
+                looptext33={<> Years in Software
+                    Development Business </>}
+                loop4={<> <Counter stopNumber={92} />+ </>}
+
+                looptext44={<> Client Retention </>}
+
+            />
 
 
             <Lookingforlp />
+
+
+            <Consultation />
+
 
             <Ourportfoliolp />
 
 
             {/* <NewSliderFy /> */}
 
+
+            <Consultation2 />
 
 
             <Publication />
