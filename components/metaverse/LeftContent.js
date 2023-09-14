@@ -1,12 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from '@/styles/metaverse/metaverse.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
 import MetaBtn from './MetaBtn';
-
-//
-import leftContentImage from '@/public/metaverse/images/leftcontentImage.png'
 
 
 
@@ -19,7 +14,7 @@ const LeftContent = (props) => {
 
                         <Col lg={6}>
                             <div className={styles.cube}>
-                                <h2 className="text-white mb-2">{props.title}</h2>
+                                <h2 className="text-white mb-2 ">{props.title}</h2>
                                 <p className='f14 text-white mt-3'>{props.text}</p>
                                 <p className='f14 text-white mt-2'>{props.subtext}</p>
                                 <p className='f14 text-white mt-2'>{props.subtext2}</p>
@@ -32,9 +27,10 @@ const LeftContent = (props) => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.image}>
-                                <div>
-
-                                    <Image src={leftContentImage} className={styles.contentImage}/>
+                                <div className={styles.leftvideo}>
+                                    <div className={styles.videoDiv}>
+                                        <video className={styles.video} autoPlay muted loop src="../../../metaverse/images/leftvideo.mp4" type="video/mov"></video>
+                                    </div>
 
                                 </div>
                             </div>

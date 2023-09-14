@@ -31,5 +31,32 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 21px;
+    padding: 12px 21px;
+}
+
+@media only screen and (max-width: 991px) {
+    .f-80 {
+        font-size: 70px;
+    }
+
+    .font35 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .f-80 {
+        font-size: 55px;
+    }
+
+    .font35 {
+        font-size: 26px;
+        line-height: 47px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .f15 {
+        font-size: 13px;
+    }
 }

@@ -82,7 +82,7 @@ body {
   font-size: 15px;
 }
 
-.font16{
+.font16 {
   font-size: 16px;
 }
 
@@ -120,7 +120,7 @@ body {
   line-height: 20px;
 }
 
-.font15{
+.font15 {
   font-size: 15px;
 }
 
@@ -153,7 +153,11 @@ body {
   font-size: 33px;
 }
 
-.font55{
+.font35 {
+  font-size: 37px;
+}
+
+.font55 {
   font-size: 55px;
 }
 
@@ -742,11 +746,11 @@ a {
   position: relative;
 }
 
-.qtech .slick-slide img{
+.qtech .slick-slide img {
 
   display: unset;
-    margin: unset;
-    padding-top: 0!important;
+  margin: unset;
+  padding-top: 0 !important;
 
 }
 
@@ -1227,7 +1231,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-.qtech  .slick-dots li button:before {
+.qtech .slick-dots li button:before {
   content: "";
   position: absolute;
   color: #000;
@@ -1243,14 +1247,14 @@ input::-webkit-inner-spin-button {
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: 50px; 
-  padding: 2px; 
-  background:linear-gradient(45deg,#F32F53,#F32FC2, #4A78EF); 
-  -webkit-mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
+  border-radius: 50px;
+  padding: 2px;
+  background: linear-gradient(45deg, #F32F53, #F32FC2, #4A78EF);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
-          mask-composite: exclude; 
+  mask-composite: exclude;
 }
 
 .qtech .slick-dots {
@@ -1258,10 +1262,12 @@ input::-webkit-inner-spin-button {
   top: -100px;
   left: 0%;
 }
+
 .qtech .slick-dots li {
   width: 175px;
   height: 5px;
 }
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {
@@ -1423,9 +1429,9 @@ input::-webkit-inner-spin-button {
   .qtech .slick-dots li {
     width: 120px;
     height: 5px;
-}
+  }
 
- }
+}
 
 
 /* ========================= */
@@ -1450,7 +1456,7 @@ input::-webkit-inner-spin-button {
   .qtech .slick-dots li {
     width: 90px;
     height: 5px;
-}
+  }
 
 
   .benefitscard .card {
@@ -1563,7 +1569,8 @@ input::-webkit-inner-spin-button {
 
   .f-80 {
     font-size: 30px;
-}
+  }
+
   .cursor2::after {
     width: 20px;
     height: 20px;
@@ -1621,6 +1628,7 @@ input::-webkit-inner-spin-button {
     font-size: 50px;
     line-height: 45px;
   }
+
 }
 
 /* ========================= */
@@ -1668,6 +1676,10 @@ input::-webkit-inner-spin-button {
 
   .newyou .row {
     margin-bottom: 25%;
+  }
+
+  .d-none {
+    display: none;
   }
 }
 
@@ -2034,6 +2046,7 @@ button {
   animation: 0.7s ease-in-out forwards growDown;
   transform-origin: top;
 }
+
 .newfaqsgloble .touch .d-block {
   padding-top: unset !important;
   padding: 1.5em;
@@ -2059,6 +2072,7 @@ button {
 .touch {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
+
 .newfaqsgloble .touch {
   box-shadow: #f32fc261 0 1px 30px 0;
 }
@@ -2435,7 +2449,7 @@ p {
 
   .f45 {
     font-size: 25px;
-}
+  }
 
   .bgimageserve .col-md-4 {
     width: 100%;
@@ -2444,6 +2458,10 @@ p {
   br {
     display: none;
   }
+
+  .f28 {
+    font-size: 22px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -2453,7 +2471,7 @@ p {
     display: none;
     width: 60px;
     height: 5px;
-}
+  }
 
   .btnclas {
     font-size: 11px;
@@ -2530,42 +2548,55 @@ p {
   .f14 {
     font-size: 13px;
   }
+
   .f15 {
     font-size: 14px;
   }
+
   .f18 {
     font-size: 14px;
   }
+
   .f20 {
     font-size: 18px;
   }
+
   .f22 {
     font-size: 20px;
   }
+
   .f24 {
     font-size: 22px;
   }
+
   .f26 {
     font-size: 24px;
   }
+
   .f28 {
     font-size: 26px;
   }
+
   .f30 {
     font-size: 28px;
   }
+
   .f35 {
     font-size: 30px;
   }
+
   .f40 {
     font-size: 32px;
   }
+
   .f45 {
     font-size: 33px;
   }
+
   .f50 {
     font-size: 40px;
   }
+
   .f55 {
     font-size: 45px;
   }
@@ -2590,6 +2621,15 @@ p {
   }
 
   .line60 {
-    line-height: 45px;
+    line-height: 20px;
+  }
+
+  .font35 {
+    font-size: 25px;
+  }
+
+  .f32 {
+    font-size: 20px;
+    line-height: 30px;
   }
 }

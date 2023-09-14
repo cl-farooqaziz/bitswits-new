@@ -27,7 +27,7 @@ export default function Home() {
 
     const title = <span className='f32 fw600'>Unlock Business Growth Opportunities
         with Our Metaverse Development
-        Servicesopment Company </span>;
+        Services </span>;
 
     const hireSubTile = <span className='f15 '>We utilize the full potential and intrinsic features of the Unreal Engine to integrate advanced functionalities into your metaverse platform.
 

@@ -73,15 +73,15 @@ const Metaverse = (props) => {
         <>
             <section className={style.paddingTop}>
                 <Container>
-                    <Row className='justify-content-center align-items-center mb-5'>
+                    <Row className='justify-content-center align-items-center mb-sm-5'>
                         <Col lg={12}>
-                            <p className="text-white mb-5">{props.hireSubTile}</p>
+                            <p className="text-white mb-sm-4">{props.hireSubTile}</p>
                         </Col>
                     </Row>
-                    <div className={`d-none d-lg-block d-md-block d-sm-none ${style.cardPosition}`}>
+                    <div className={` ${style.cardPosition}`}>
                         <Row className={`justify-content-center align-items-center ${style.relative}`}>
                             <Col lg={6} className={`${style.br1} ${style.bb1} pb-5`}>
-                                <div className={style.card}>
+                                <div className={`${style.card} mb-lg-0 mb-sm-5`}>
                                     <div className={`${style.feature}`}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
@@ -99,14 +99,14 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImage}>
-                                                <Image src={CardOne} />
+                                                <Image src={CardOne} className="" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.bb1} ${style.bb1} pb-5  position-relative`}>
-                                <div className={`${style.card} ms-auto`}>
+                                <div className={`${style.card} ms-auto mb-lg-0 mb-sm-5`}>
                                     <div className={`${style.feature}`}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
@@ -124,7 +124,7 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImageTwo}>
-                                                <Image src={CardTwo} />
+                                                <Image src={CardTwo} className="" />
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@ const Metaverse = (props) => {
                                 <Image src={MetaDot} />
                             </span>
                             <Col lg={6} className={`${style.br1} position-relative pt-5`}>
-                                <div className={style.card}>
+                                <div className={`${style.card} mb-lg-0 mb-sm-5`}>
                                     <div className={`${style.feature}`}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
@@ -152,14 +152,14 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImage}>
-                                                <Image src={CardThree} />
+                                                <Image src={CardThree} className="" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={6} className={` position-relative pt-5`}>
-                                <div className={`${style.card} ms-auto`}>
+                                <div className={`${style.card} ms-auto mb-lg-0 mb-sm-5`}>
                                     <div className={`${style.feature}`}>
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
@@ -177,7 +177,7 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImageFour}>
-                                                <Image src={CardFour} />
+                                                <Image src={CardFour}  className=""/>
                                             </div>
                                         </div>
                                     </div>

@@ -1,9 +1,8 @@
-/* .ImageBack{
-    background-image: url(../../public/metaverse/images/work-bg.png);
-    background-position: center;
-    background-size: cover !important;
-    background-repeat: no-repeat;
-} */
+.ImageBack {
+    position: absolute;
+    width: 79.5%;
+    top: 78px;
+}
 
 .relative {
     position: relative;
@@ -19,18 +18,28 @@
 
 .workContent {
     padding-left: 40px;
+    padding-top: inherit;
 }
 
-.ImageBack {
-    max-width: 550px;
-    max-height: 240px;
+.videoFront {
+    width: 89%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 57%, 76% 100%, 0 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 57%, 76% 100%, 0 100%, 0% 80%, 0% 20%);
+}
+
+.video {
+    /* max-width: 550px;
+    max-height: 240px; */
     /* margin-top: 33px; */
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 35px;
 }
 
-.workImage{
+.workImage {
     width: 100%;
-    max-width: 550px;
-    min-height: 220px;
+    /* max-width: 550px;
+    min-height: 220px; */
     object-fit: contain;
 }
 
@@ -41,12 +50,12 @@
 
 .ml {
     margin-left: 40px;
-    display: block;
+    padding-bottom: 20px;
 }
 
 .metaDot img {
     position: absolute;
-    bottom: 71%;
+    bottom: 72.3%;
     left: 51%;
     transform: translate(-74%, -55%);
     z-index: 99999;
@@ -54,7 +63,7 @@
 
 .metaDotTwo img {
     position: absolute;
-    bottom: 21%;
+    bottom: 22.8%;
     left: 48%;
     transform: translate(-1%, -53%);
     z-index: 99999;
@@ -69,11 +78,24 @@
 }
 
 .imageHeight {
-    max-height: 353px;
+    min-height: 402px;
     padding-top: 45px;
 }
 
 .contentHeight {
     min-height: 348px;
     padding-top: 20px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.ml .videoFront {
+    width: 95%;
+}
+
+.ml .videoFront .video {
+    padding-top: 35px;
 }

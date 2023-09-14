@@ -4,7 +4,7 @@ import style from '@/styles/metaverse/metawork.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 //
-import WorkOne from '@/public/metaverse/images/work-1.png';
+import WorkOne from '@/public/metaverse/images/work-bg.png';
 import MetaBtn from './MetaBtn';
 import MetaDot from '@/public/metaverse/images/metaversedot.png';
 
@@ -80,65 +80,104 @@ const MetaWork = (props) => {
                     <div className='d-none d-lg-block d-md-block d-sm-none'>
                         <Row className={`justify-content-center align-items-center ${style.relative}`}>
                             <Col lg={6} className={`${style.br1} ${style.contentHeight} ${style.bb1} position-relative pb-5 h-100`}>
-                                <div className={style.ImageBack}>
-                                    <Image src={WorkOne} className={`${style.workImage}`} />
+                                <div className='p-4'>
+                                    <Row>
+                                        <Col lg={12}>
+                                            <div className={style.videoFront}>
+                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid1.mp4" type="video/mov"></video>
+                                            </div>
+                                        </Col>
+                                        <Col lg={12}>
+                                            <div className={style.ImageBack}>
+                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.bb1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div className={`${style.workContent}`}>
-                                    <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                    <p className={`f22 ${style.contentPara}`}>
-                                        Fashion has entered the metaverse trend by launching
-                                        metaverse fashion week,metaverse fashion stores, and
-                                        NFTs. Metaverse is empowering fashion brands to
-                                        market their products to a global audience and multiply
-                                        their revenue.
-                                    </p>
-                                    <div className={style.workBtn}>
-                                        <MetaBtn />
+                                <div className='p-4'>
+                                    <div className={`${style.workContent}`}>
+                                        <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
+                                        <p className={`f22 ${style.contentPara}`}>
+                                            Fashion has entered the metaverse trend by launching
+                                            metaverse fashion week,metaverse fashion stores, and
+                                            NFTs. Metaverse is empowering fashion brands to
+                                            market their products to a global audience and multiply
+                                            their revenue.
+                                        </p>
+                                        <div className={style.workBtn}>
+                                            <MetaBtn />
+                                        </div>
                                     </div>
                                 </div>
                             </Col>
                             <span className={style.metaDot}>
                                 <Image src={MetaDot} />
                             </span>
-                            <Col lg={6} className={`${style.bb1} ${style.br1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div>
-                                    <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                    <p className={`f22 ${style.contentPara}`}>
-                                        Fashion has entered the metaverse trend by launching
-                                        metaverse fashion week,metaverse fashion stores, and
-                                        NFTs. Metaverse is empowering fashion brands to
-                                        market their products to a global audience and multiply
-                                        their revenue.
-                                    </p>
-                                    <div className={style.workBtn}>
-                                        <MetaBtn />
+                            <Col lg={6} className={`${style.br1} ${style.bb1} ${style.imageHeight} position-relative pb-5 h-100`}>
+                                <div className='p-4'>
+                                    <div className={`${style.workContent} ps-0`}>
+                                        <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
+                                        <p className={`f22 ${style.contentPara}`}>
+                                            Fashion has entered the metaverse trend by launching
+                                            metaverse fashion week,metaverse fashion stores, and
+                                            NFTs. Metaverse is empowering fashion brands to
+                                            market their products to a global audience and multiply
+                                            their revenue.
+                                        </p>
+                                        <div className={style.workBtn}>
+                                            <MetaBtn />
+                                        </div>
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className={` ${style.contentHeight} ${style.bb1} position-relative pb-5 h-100`}>
-                                <div className={style.ImageBack}>
-                                    <Image src={WorkOne} className={`${style.workImage} ${style.ml}`} />
+                            <Col lg={6} className={`${style.contentHeight} ${style.bb1} position-relative pb-5 h-100`}>
+                                <div className={`${style.ml} p-4 mb-1`}>
+                                    <Row>
+                                        <Col lg={12}>
+                                            <div className={style.videoFront}>
+                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid2.mp4" type="video/mov"></video>
+                                            </div>
+                                        </Col>
+                                        <Col lg={12}>
+                                            <div className={style.ImageBack}>
+                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.br1} ${style.contentHeight} ${style.bb1} position-relative pb-5 h-100`}>
-                                <div className={style.ImageBack}>
-                                    <Image src={WorkOne} className={`${style.workImage}`} />
+                                <div className='p-4'>
+                                    <Row>
+                                        <Col lg={12}>
+                                            <div className={style.videoFront}>
+                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid1.mp4" type="video/mov"></video>
+                                            </div>
+                                        </Col>
+                                        <Col lg={12}>
+                                            <div className={style.ImageBack}>
+                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.bb1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div className={`${style.workContent}`}>
-                                    <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                    <p className={`f22 ${style.contentPara}`}>
-                                        Fashion has entered the metaverse trend by launching
-                                        metaverse fashion week,metaverse fashion stores, and
-                                        NFTs. Metaverse is empowering fashion brands to
-                                        market their products to a global audience and multiply
-                                        their revenue.
-                                    </p>
-                                    <div className={style.workBtn}>
-                                        <MetaBtn />
+                                <div className='p-4'>
+                                    <div className={`${style.workContent}`}>
+                                        <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
+                                        <p className={`f22 ${style.contentPara}`}>
+                                            Fashion has entered the metaverse trend by launching
+                                            metaverse fashion week,metaverse fashion stores, and
+                                            NFTs. Metaverse is empowering fashion brands to
+                                            market their products to a global audience and multiply
+                                            their revenue.
+                                        </p>
+                                        <div className={style.workBtn}>
+                                            <MetaBtn />
+                                        </div>
                                     </div>
                                 </div>
                             </Col>
@@ -146,23 +185,36 @@ const MetaWork = (props) => {
                                 <Image src={MetaDot} />
                             </span>
                             <Col lg={6} className={`${style.br1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div>
-                                    <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                    <p className={`f22 ${style.contentPara}`}>
-                                        Fashion has entered the metaverse trend by launching
-                                        metaverse fashion week,metaverse fashion stores, and
-                                        NFTs. Metaverse is empowering fashion brands to
-                                        market their products to a global audience and multiply
-                                        their revenue.
-                                    </p>
-                                    <div className={style.workBtn}>
-                                        <MetaBtn />
+                                <div className='p-4'>
+                                    <div className={`${style.workContent} ps-0`}>
+                                        <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
+                                        <p className={`f22 ${style.contentPara}`}>
+                                            Fashion has entered the metaverse trend by launching
+                                            metaverse fashion week,metaverse fashion stores, and
+                                            NFTs. Metaverse is empowering fashion brands to
+                                            market their products to a global audience and multiply
+                                            their revenue.
+                                        </p>
+                                        <div className={style.workBtn}>
+                                            <MetaBtn />
+                                        </div>
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className={` ${style.contentHeight} position-relative pb-5 h-100`}>
-                                <div className={style.ImageBack}>
-                                    <Image src={WorkOne} className={`${style.workImage} ${style.ml}`} />
+                            <Col lg={6} className={`${style.contentHeight} position-relative pb-5 h-100`}>
+                                <div className={`${style.ml} p-4 pb-5`}>
+                                    <Row>
+                                        <Col lg={12}>
+                                            <div className={style.videoFront}>
+                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid2.mp4" type="video/mov"></video>
+                                            </div>
+                                        </Col>
+                                        <Col lg={12}>
+                                            <div className={style.ImageBack}>
+                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </Col>
                         </Row>
