@@ -2373,6 +2373,14 @@ p {
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 
+.mixColor2 {
+  height: 50px;
+  z-index: 100;
+  position: relative;
+  bottom: -115px;
+  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
+}
+
 .badge.badge-primary {
   background: black;
 }

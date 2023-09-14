@@ -12,7 +12,7 @@ import Standing from '@/components/blockchain/Standing';
 import Expertise from '@/components/blockchain/Expertise';
 import Process from '@/components/blockchain/Process';
 import WhyChooseUs from '@/components/blockchain/WhyChooseUs';
-import Contact from '@/components/blockchain/Contact';
+import Contact from '@/components/Contact';
 import FireUp from '@/components/blockchain/FireUp';
 // import { keyframes } from "@emotion/react";
 import Banners from '@/components/blockchain/Banners';
@@ -77,7 +77,7 @@ export default function Home() {
       <main className={styles.main}>
 
         <Banners />
-        
+
         <Logoslide />
 
         <LeftContent
@@ -134,9 +134,10 @@ export default function Home() {
           whyPara={whyPara}
         />
 
-        <Contact />
+        <Contact
+          newBg="newBg"
+        />
 
-        <FireUp />
 
       </main>
     </>

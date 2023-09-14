@@ -29,7 +29,7 @@ const WhyChooseUs = (props) => {
     };
     return (
         <>
-            <section className='py-0 py-md-0'>
+            <section className='py-5'>
                 <Container>
                     <Row className='justify-content-center align-items-center '>
                         <Col lg={6} className='border-top border-bottom pt-5 pb-5 pe-5'>

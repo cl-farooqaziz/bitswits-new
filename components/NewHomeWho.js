@@ -41,8 +41,12 @@ const NewHomeWho = () => {
                 </Container>
 
                 <div className='sec_image text-center pt-4'>
-                    <Image src={WhoImage} className={styles.secImage}/>
+                    <Image src={WhoImage} className={styles.secImage} />
                 </div>
+
+                <div class="mixColor2"></div>
+
+
             </section >
 
 
