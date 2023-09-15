@@ -1,19 +1,12 @@
-import Image from 'next/image';
 import React from 'react';
-import Link from 'next/link';
 import { Col, Row, Container } from 'react-bootstrap';
-// import Container from 'react-bootstrap/Container';
 import style from '@/styles/metaverse/metaverse.module.css';
-// import styles from '@/styles/';
 import MetaBtn from './MetaBtn';
 
 function MetaverseBanner() {
 
     return (
         <>
-
-
-
 
             <div className={`HomeBanner ${style.metaverseBanner}`}>
 

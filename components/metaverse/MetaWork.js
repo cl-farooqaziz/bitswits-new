@@ -3,68 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/metaverse/metawork.module.css';
 import styles from '@/styles/metaverse/metaverse.module.css';
 import Image from 'next/image';
-//
+// Images 
 import WorkOne from '@/public/metaverse/images/work-bg.png';
 import MetaBtn from './MetaBtn';
 import MetaDot from '@/public/metaverse/images/metaversedot.png';
 
 const MetaWork = (props) => {
-
-    let settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            }
-        ]
-    };
-
     return (
         <>
             <section className={style.metaWork}>
@@ -135,7 +79,7 @@ const MetaWork = (props) => {
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.contentHeight} ${style.bb1} position-relative pb-5 h-100`}>
-                                <div className={`${style.ml} p-4 mb-1`}>
+                                <div className={`${style.ml} p-sm-4 mb-1`}>
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>
@@ -205,7 +149,7 @@ const MetaWork = (props) => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className={`${style.contentHeight} position-relative pb-5 h-100`}>
+                            <Col lg={6} className={`${style.contentHeight} position-relative pb-5 h-100 d-none d-sm-block`}>
                                 <div className={`${style.ml} p-4 pb-5`}>
                                     <Row>
                                         <Col lg={12}>

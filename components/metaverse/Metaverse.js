@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/metaverse/metaverseCard.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-// import posters from '../public/images/poster.png';
 import CardOne from '@/public/metaverse/images/card-1.png';
 import CardTwo from '@/public/metaverse/images/card-2.png';
 import CardThree from '@/public/metaverse/images/card-3.png';
@@ -12,62 +11,6 @@ import MetaDot from '@/public/metaverse/images/metaversedot.png';
 
 
 const Metaverse = (props) => {
-
-
-    let settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                }
-            }
-        ]
-    };
 
     return (
         <>

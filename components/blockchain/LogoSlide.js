@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-// import Link from 'next/link';
 import { Col, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import style from '@/styles/blockchain/Banner.module.css';
@@ -13,12 +12,6 @@ import logo6 from '@/public/blockchain/images/logo-6.png';
 import Slider from "react-slick";
 
 function LogoSlide() {
-    // dots: true,
-    // infinite: true,
-    // slidesToShow: 3,
-    // slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
 
     let settings = {
         dots: false,

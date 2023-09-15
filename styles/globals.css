@@ -348,6 +348,7 @@ a {
 .borderbottom {
   border-bottom: 1px solid #cccccc;
 }
+
 .borderbottomfooter {
   padding-bottom: 3%;
   border-bottom: 1px solid #cccccc;
@@ -2473,7 +2474,7 @@ p {
 
   .f28 {
     font-size: 22px;
-}
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2524,6 +2525,10 @@ p {
   .f-50 {
     font-size: 28px;
     line-height: 38px;
+  }
+
+  .font55 {
+    font-size: 38px;
   }
 
   .f-60 {
