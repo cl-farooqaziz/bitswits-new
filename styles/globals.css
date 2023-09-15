@@ -241,7 +241,7 @@ body {
 }
 
 .grdiant {
-  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  background: linear-gradient(to right, #EB335B 35%, #4A78EF 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
