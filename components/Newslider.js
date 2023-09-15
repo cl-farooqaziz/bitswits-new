@@ -33,7 +33,7 @@ const Newslider = () => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 className='f-80 font-bold white center'>What Clients <br></br> Think About US</h2>
+                            <h2 className='f-80 font-bold white center'>What <span className='grdiant'>Clients</span> <br></br> <span className='grdiant'>Think</span> About US</h2>
 
                             <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
 
