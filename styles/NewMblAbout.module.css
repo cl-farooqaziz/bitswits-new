@@ -1,0 +1,30 @@
+.newHomeBg {
+    background: #000;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.wid {
+    max-width: 1100px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .secImage {
+        width: 80%;
+        object-fit: contain;
+        max-height: 320px;
+    }
+
+    .newHomeBg {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .secImage {
+        width: 100%;
+        max-height: 220px;
+    }
+
+}
