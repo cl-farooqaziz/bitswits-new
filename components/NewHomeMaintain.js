@@ -216,7 +216,7 @@ const NewHomeMaintain = () => {
 
                         </Col>
                         <Col xl={4}>
-                            <div className={styles.app6}>
+                            <div className={styles.app7}>
                                 <h3 className='text-white f-20 font-bold text-center'>Internet of Things</h3>
                                 <p className={styles.para2}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
 
