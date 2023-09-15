@@ -240,7 +240,7 @@
     }
     .app3 {
 
-        background-size: auto;
+        background-size: cover;
         padding: 30px 28px 9px 33px;
     }
     .app3 img {
@@ -248,8 +248,28 @@
         margin-top: 2%;
     }
 
+    .app7 {
+        height: auto;
+    }
+
 
  }
+
+
+ @media screen and (max-width: 991px) {  
+
+    .app1, .app {
+        -webkit-mask: linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);
+        padding-top: 50px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+    .app2 {
+        height: auto;
+    }
+
+  }
+
 
  @media screen and (max-width: 767px) {  
 
@@ -277,3 +297,13 @@
 
 
  }
+
+
+ @media screen and (max-width: 480px) {  
+
+    .book, .about{
+       font-size: 12px;
+   }
+   
+   
+     }
