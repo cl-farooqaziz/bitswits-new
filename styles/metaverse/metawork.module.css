@@ -105,3 +105,10 @@
 .ml .videoFront .video {
     padding-top: 35px;
 }
+
+@media screen and (max-width: 1399px) {
+    .imageHeight {
+        padding-top: 40px;
+        background: white;
+    }
+}

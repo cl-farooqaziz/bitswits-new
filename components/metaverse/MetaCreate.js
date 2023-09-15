@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/metaverse/metacreate.module.css';
+import styles from '@/styles/metaverse/metaverse.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import poster from '@/public/blockchain/images/cube.png'
@@ -16,8 +17,9 @@ const MetaCreate = (props) => {
                             <div className={`${style.content} pt-5 pb-4`}>
                                 <h2 className="fw300 f30 text-white mb-2">{props.createSub}</h2>
                                 <p className='font16 text-white fw300'>{props.createPara}</p>
-                                <div className={style.secBtns}>
-                                    <MetaBtn></MetaBtn>
+                                <div className={`${styles.secBtns} ${styles.secBtns2} mb-0`}>
+                                    <MetaBtn number="1-844-400-0025"
+                                        discuss="Hire Blockchain Developer" />
                                 </div>
                             </div>
                         </Col>
