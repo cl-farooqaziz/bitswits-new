@@ -1,11 +1,11 @@
 .newHomeBg {
-    background: #000;
-    padding-top: 140px ;
-    background-image: url(../public/newHomePageImages/hear_bg.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    position: relative;
+
+}
+.polt{
+    position: absolute;
+    top: 25%;
+    left: 10%;
 }
 
 .headContent{
@@ -21,4 +21,23 @@
     padding-left: 15px;
     width: 20px;
     height: 20px;
+}
+
+
+@media screen and (max-width: 767px) { 
+
+    .polt{
+        position: absolute;
+        top: 10%;
+        left: 3%;
+    }
+
+}
+@media screen and (max-width: 480px) { 
+
+    .headContent{
+        font-size: 20px!important;
+        line-height: 30px;
+    }
+
 }

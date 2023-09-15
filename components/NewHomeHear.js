@@ -13,7 +13,14 @@ const NewHomeHear = () => {
 
             <section className={styles.newHomeBg}>
 
-                <Container>
+
+                <div className={styles.videobackground}>
+
+                    <video  width="100%" autoPlay loop muted src="/girls.mp4" type="video/mp4"></video>
+                </div>
+
+
+                <Container className={styles.polt}>
 
                     <Row>
                         <Col lg={6}>
