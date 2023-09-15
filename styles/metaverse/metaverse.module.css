@@ -34,7 +34,7 @@
 }
 
 .development {
-    margin-top: -220px !important;
+    margin-top: -160px !important;
 }
 
 .secBtns {
@@ -120,17 +120,34 @@
 
 @media only screen and (max-width:480px) {
     .cube .secBtns.secBtns2 {
-        gap: 12px;
+        gap: 4px;
+    }
+
+    .secBtns.secBtns2 {
+        gap: 5px;
     }
 
     .metaSpan {
         font-size: 13px;
         margin-left: 0px;
     }
+
     .grediantBtn {
         margin-right: 0;
         font-size: 11px;
         padding: 11px 10px;
-        border-radius: 12px; 
+        border-radius: 12px;
+    }
+
+    .secBtns {
+        padding: 12px 13px;
+        gap: 5px 0;
+        margin-top: 20px;
+        border: 0;
+        background: transparent;
+    }
+
+    .dNone {
+        display: none;
     }
 }

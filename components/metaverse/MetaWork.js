@@ -67,7 +67,7 @@ const MetaWork = (props) => {
 
     return (
         <>
-            <section>
+            <section className={style.metaWork}>
                 <Container>
                     <Row className='justify-content-center align-items-center mb-3 mt-2'>
                         <Col lg={12}>
@@ -77,10 +77,10 @@ const MetaWork = (props) => {
 
                         </Col>
                     </Row>
-                    <div className='d-none d-lg-block d-md-block d-sm-none'>
+                    <div className=''>
                         <Row className={`justify-content-center align-items-center ${style.relative}`}>
                             <Col lg={6} className={`${style.br1} ${style.contentHeight} ${style.bb1} position-relative pb-5 h-100`}>
-                                <div className='p-4'>
+                                <div className='p-sm-4'>
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>
@@ -96,7 +96,7 @@ const MetaWork = (props) => {
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.bb1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div className='p-4'>
+                                <div className='p-sm-4'>
                                     <div className={`${style.workContent}`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
                                         <p className={`f22 ${style.contentPara}`}>
@@ -117,7 +117,7 @@ const MetaWork = (props) => {
                                 <Image src={MetaDot} />
                             </span>
                             <Col lg={6} className={`${style.br1} ${style.bb1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div className='p-4'>
+                                <div className='p-sm-4'>
                                     <div className={`${style.workContent} ps-0`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
                                         <p className={`f22 ${style.contentPara}`}>
@@ -151,7 +151,7 @@ const MetaWork = (props) => {
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.br1} ${style.contentHeight} ${style.bb1} position-relative pb-5 h-100`}>
-                                <div className='p-4'>
+                                <div className='p-sm-4'>
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>
@@ -167,7 +167,7 @@ const MetaWork = (props) => {
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.bb1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div className='p-4'>
+                                <div className='p-sm-4'>
                                     <div className={`${style.workContent}`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
                                         <p className={`f22 ${style.contentPara}`}>
@@ -188,7 +188,7 @@ const MetaWork = (props) => {
                                 <Image src={MetaDot} />
                             </span>
                             <Col lg={6} className={`${style.br1} ${style.imageHeight} position-relative pb-5 h-100`}>
-                                <div className='p-4'>
+                                <div className='p-sm-4'>
                                     <div className={`${style.workContent} ps-0`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
                                         <p className={`f22 ${style.contentPara}`}>
