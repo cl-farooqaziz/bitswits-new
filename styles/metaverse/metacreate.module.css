@@ -1,5 +1,6 @@
 .metaCreate {
-    background: #0d2119;;
+    background: #0d2119;
+    margin-bottom: 100px;
 }
 
 .videoBg {
@@ -58,5 +59,14 @@
 @media screen and (max-width: 567px) {
     .f15 {
         font-size: 13px;
+    }
+
+    .metaCreate {
+        margin-bottom: 0px;
+    }
+
+    .cntcTxt h2 {
+        font-size: 35px;
+        line-height: 45px;
     }
 }

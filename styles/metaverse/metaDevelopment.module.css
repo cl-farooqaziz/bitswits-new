@@ -1,6 +1,21 @@
-.developmentSec{
-    padding: 80px 0 120px;
+.developmentSec {
+    padding: 80px 0 160px;
 }
-.development{
-    margin-top: -160px;
+
+@media screen and (max-width: 480px) {
+    .developmentSec {
+        padding: 0px 0 20px;
+    }
+
+    .font55 {
+        font-size: 30px;
+    }
+
+    .font15 {
+        font-size: 13px;
+    }
+
+    .development {
+        margin-top: 8px;
+    }
 }

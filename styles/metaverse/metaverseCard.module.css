@@ -1,5 +1,5 @@
 .paddingTop {
-    padding: 80px 0;
+    padding: 100px 0 80px;
 }
 
 .card {
@@ -160,5 +160,11 @@
 
     .metaDot img {
         display: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .paddingTop {
+        padding: 0px 0;
     }
 }

@@ -1,3 +1,7 @@
+.metaWork {
+    padding: 100px 0 80px;
+}
+
 .ImageBack {
     position: absolute;
     width: 79.5%;
@@ -84,8 +88,9 @@
 }
 
 .imageHeight {
-    min-height: 402px;
+    min-height: 456px;
     padding-top: 40px;
+    max-height: 440px;
 }
 
 .contentHeight {
@@ -108,7 +113,163 @@
 
 @media screen and (max-width: 1399px) {
     .imageHeight {
-        padding-top: 40px;
-        background: white;
+        padding-top: 0px;
+    }
+
+    .workContent {
+        padding-left: 5px;
+    }
+
+    .f22 {
+        font-size: 20px;
+    }
+
+    .secBtns.secBtns2 {
+        margin: 13px auto 27px 15px;
+    }
+
+    .imageHeight {
+        max-height: 407px;
+        min-height: 407px;
+    }
+
+    .contentHeight {
+        min-height: 347px;
+        padding-top: 20px;
+        max-height: 407px;
+    }
+
+    .metaDot img {
+        bottom: 71.5%;
+    }
+
+    .metaDotTwo img {
+        bottom: 21.5%;
+        left: 47.6%;
+    }
+
+    .ml .videoFront {
+        width: 100%;
+    }
+
+    .ImageBack {
+        width: 80.5%;
+    }
+
+    .videoFront {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ImageBack {
+        width: 90%;
+    }
+
+    .videoFront {
+        width: 99.4%;
+    }
+
+    .imageHeight {
+        max-height: 325px;
+        min-height: 325px;
+    }
+
+    .metaDot img {
+        display: none;
+    }
+
+    .metaDotTwo img {
+        display: none;
+    }
+
+    .br1 {
+        border-right: none;
+    }
+
+    .bb1 {
+        border-bottom: none;
+    }
+
+    .ml {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .paddingTop {
+        padding: 100px 0 0;
+    }
+
+    .metaWork {
+        padding: 30px 0 0px;
+    }
+
+    .contentHeight {
+        padding-top: 0;
+    }
+
+    .ImageBack {
+        top: 48px;
+    }
+
+    .video {
+        padding-top: 27px;
+    }
+
+    .videoFront {
+        width: 103.4%;
+    }
+
+    .ml .videoFront .video {
+        padding-top: 27px;
+    }
+
+    .ml .videoFront {
+        width: 103%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .ImageBack {
+        top: 26px;;
+    }
+
+    .ImageBack {
+        width: 95%;
+    }
+
+    .contentHeight {
+        min-height: 47px;
+    }
+
+    .contentHeight {
+        max-height: 195px;
+    }
+
+    .contentPara {
+        line-height: 22px;
+    }
+
+    .f22 {
+        font-size: 16px;
+    }
+
+    .metaWork .secBtns.secBtns2 {
+        gap: 5px;
+        margin: 27px auto 27px 9px;
+    }
+
+    .workContent {
+        padding-left: 0;
+    }
+
+    .secBtns.secBtns2 {
+        margin: 27px auto 27px 9px;
+    }
+
+    .dNone{
+        display: none;
     }
 }

@@ -1,7 +1,19 @@
-.metaSec{
+.metaSec {
     padding: 80px 0;
 }
 
-.metaSec p{
+.metaSec p {
     max-width: 610px;
+}
+
+@media screen and (max-width: 767px) {
+    .metaSec {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .f40 {
+        font-size: 29px;
+    }
 }
