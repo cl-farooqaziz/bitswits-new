@@ -17,7 +17,12 @@ import lottie from 'lottie-web';
 import mobileapp from '../public/mobileapp.json';
 import game from '../public/game.json';
 import blockchain from '../public/blockchain.json';
-import ai from '../public/ai.json';
+import ai from '../public/artificial.json';
+
+import web from '../public/webapp.json';
+import uiux from '../public/uiuxapp.json';
+import arvrapp from '../public/arvr.json';
+import internetapp from '../public/internetofthings.json';
 
 
 
@@ -25,44 +30,73 @@ import ai from '../public/ai.json';
 const NewHomeMaintain = () => {
     const anime = useRef(null);
 
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     lottie.loadAnimation({
-    //         container: document.getElementById('lottie'),
-    //         animationData: game,
-    //         loop: true,
-    //         autoplay: true,
-    //     });
+        lottie.loadAnimation({
+            container: document.getElementById('lottie'),
+            animationData: game,
+            loop: true,
+            autoplay: true,
+        });
 
-    //     lottie.loadAnimation({
-    //         container: document.getElementById('blockchain'),
-    //         animationData: blockchain,
-    //         loop: true,
-    //         autoplay: true,
-    //     });
-    //     lottie.loadAnimation({
-    //         container: document.getElementById('artifical'),
-    //         animationData: ai,
-    //         loop: true,
-    //         autoplay: true,
-    //         renderer: "svg",
-    //     });
-
-
-
-    //     lottie.loadAnimation({
-    //         container: document.getElementById('lottie-container'),
-    //         renderer: "svg",
-    //         loop: true,
-    //         autoplay: true,
-    //         animationData: mobileapp,
-    //     });
+        lottie.loadAnimation({
+            container: document.getElementById('blockchain'),
+            animationData: blockchain,
+            loop: true,
+            autoplay: true,
+        });
+        lottie.loadAnimation({
+            container: document.getElementById('artifical'),
+            animationData: ai,
+            loop: true,
+            autoplay: true,
+            renderer: "svg",
+        });
 
 
 
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-container'),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            animationData: mobileapp,
+        });
+
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-web'),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            animationData: web,
+        });
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-uiux'),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            animationData: uiux,
+        });
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-arvrapp'),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            animationData: arvrapp,
+        });
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-internetapp'),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            animationData: internetapp,
+        });
 
 
-    // }, []);
+
+
+
+    }, []);
 
 
 
@@ -93,6 +127,7 @@ const NewHomeMaintain = () => {
 
 
                                 <div id="lottie-container"></div>
+
 
                             </div>
                         </Col>
@@ -137,7 +172,7 @@ const NewHomeMaintain = () => {
                                     </Col>
                                     <Col xl={4}>
                                         {/* <Image src={lum} className='img-fluid' /> */}
-                                        <div ref={anime} ></div>
+                                        <div id='artifical' ></div>
                                     </Col>
                                 </Row>
 
@@ -147,14 +182,17 @@ const NewHomeMaintain = () => {
                             <div className={styles.app4}>
                                 <h3 className='text-white f-20 font-bold text-center'>Web App Development</h3>
                                 <p className={styles.para2}>Our top app developers excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.</p>
+                                <div id="lottie-web"></div>
 
 
                             </div>
+
                         </Col>
                         <Col xl={6}>
                             <div className={styles.app5}>
                                 <h3 className='text-black f-20 font-bold text-center'>UI/UX App Design</h3>
                                 <p className={styles.para3}>Our team of professional UI/UX app designers help develop designs that guide users towards meaningful interactions and impactful user experience.</p>
+                                <div id="lottie-uiux"></div>
 
                             </div>
                         </Col>
@@ -168,7 +206,8 @@ const NewHomeMaintain = () => {
                                         <p className='text-white f-16'>Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.</p>
                                     </div>
                                     <div>
-                                        <Image src={dem} className='img-fluid d-block m-auto mt-5' />
+                                        <div id="lottie-arvrapp"></div>
+                                      
                                     </div>
 
                                 </div>
@@ -177,11 +216,11 @@ const NewHomeMaintain = () => {
 
                         </Col>
                         <Col xl={4}>
-                            <div className={styles.app4}>
+                            <div className={styles.app7}>
                                 <h3 className='text-white f-20 font-bold text-center'>Internet of Things</h3>
                                 <p className={styles.para2}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
 
-                                <Image src={World} className={` ${styles.custom} img-fluid d-block m-auto mt-1`} />
+                                <div id="lottie-internetapp"></div>
                             </div>
 
                         </Col>
