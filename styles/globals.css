@@ -241,7 +241,7 @@ body {
 }
 
 .grdiant {
-  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  background: linear-gradient(to right, #EB335B 35%, #4A78EF 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -352,6 +352,7 @@ a {
 .borderbottom {
   border-bottom: 1px solid #cccccc;
 }
+
 .borderbottomfooter {
   padding-bottom: 3%;
   border-bottom: 1px solid #cccccc;
@@ -2477,7 +2478,7 @@ p {
 
   .f28 {
     font-size: 22px;
-}
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2528,6 +2529,10 @@ p {
   .f-50 {
     font-size: 28px;
     line-height: 38px;
+  }
+
+  .font55 {
+    font-size: 38px;
   }
 
   .f-60 {

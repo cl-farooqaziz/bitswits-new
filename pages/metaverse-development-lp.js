@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/blockchain/Home.module.css'
 import Logoslide from '../components/blockchain/LogoSlide'
 import typeofbooks from '@/public/blockchain/images/logo-1.png';
@@ -10,7 +9,6 @@ import Metaverse from '@/components/metaverse/Metaverse';
 import MetaWork from '@/components/metaverse/MetaWork';
 import MetaBussiness from '@/components/metaverse/MetaBussiness';
 import MetaGen from '@/components/metaverse/MetaGen';
-import MetaContact from '../components/metaverse/MetaContact';
 import MetaDevelopment from '@/components/metaverse/MetaverseDevelopment';
 import MetaCreate from '@/components/metaverse/MetaCreate';
 
@@ -40,17 +38,6 @@ export default function Home() {
 
     const NextTtitle1 = <span className='f50 fw700 text-center'> <span className='grdiant'>Building Your Bussiness</span> Digital Universe:
         Our Metaverse Development Services</span>
-    const NextPara = <span>We help you revolutionize your business’s digital presence with premium metaverse developmentsolutions. Get on a call with our experts to discuss your metaverse development requirements.</span>
-
-
-    const NextTtitle2 = <span className='f50 fw700'> Let’s Build <span className='grdiant'>A Secure,</span>  Transparent, <span className=''>And</span>  Decentralized <span className='grdiant'> Future <br /> Together</span></span>
-    // const Nextsub2 = <span className=''> Next Generational Blockchain Solution </span>
-    const NextPara2 = <span>Get in touch with our blockchain experts to discuss your project <br /> requirements and get a free quote.</span>
-    const Image = "../public/images/poster.png";
-
-    const exTitle = <span className='f50 fw700'>Our <span className='f50 fw700'>Expertise </span> In <span className='grdiant'>Blockchain Development</span> Platforms</span>
-    const exPara = <span>Our in-depth knowledge and experience in major blockchain platforms and protocols empowers us to deliver best blockchain solutions and of standard quality.</span>
-
 
     const Metasub = <span className='f40 font-medium '>Shape The Future Of Your Business & Connect With Your Audience On A <span className='grdiant font-extrabold'>Virtual Platform</span> With Our Metaverse Development Services
     </span>
