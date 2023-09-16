@@ -246,6 +246,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.blkgrdiant {
+  background: linear-gradient(to right, #000000, #1D1D1D);
+}
+
 .white {
   color: #ffffff;
 }

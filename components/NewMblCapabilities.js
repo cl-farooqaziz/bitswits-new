@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '@/styles/Capabilities.module.css'
+import styles from '@/styles/NewMblCapabilities.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import team1 from '../public/newHomePageImages/discuss.png'
-import close from '../public/newHomePageImages/close.png'
+import team1 from '../public/newMobilePageImages/discuss.png'
+import close from '../public/newMobilePageImages/mark.png'
 import Image from 'next/image';
 
 const Capabilities = () => {
@@ -33,49 +33,42 @@ const Capabilities = () => {
                 <Container className='qtech'>
                     <Row className={styles.posttext}>
                         <Col xl={12}>
-                            <h3>Capabilities</h3>
+                            <h3>Industries</h3>
                         </Col>
                         <Col xl={12}>
                             <div className={styles.build}>
-                                <h2>The game plan for building your app.</h2>
+                                <h2>Mobile Application Development <br />
+                                    Company For Everyone Out There</h2>
                                 <Link className={styles.about} href="#">Connect Now!</Link>
                             </div>
                         </Col>
                     </Row>
                     <Row>
-
                         <div className={styles.connsct}>
                             <Row className={` mt-5 mb-5`}>
-
-
                                 <Col lg={2}><div className={styles.line1}></div></Col>
                                 <Col lg={2}><div className={styles.line2}></div></Col>
                                 <Col lg={2}><div className={styles.line3}></div></Col>
                                 <Col lg={2}><div className={styles.line4}></div></Col>
                                 <Col lg={2}><div className={styles.line5}></div></Col>
                                 <Col lg={2}><div className={styles.line6}></div></Col>
-
-
                             </Row>
                         </div>
                         <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
 
                             <div className={styles.high}>
-                                <Row>
+                                <Row className='align-items-center'>
                                     <Col xl={6}>
-                                        <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
-                                        </div>
-
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
-
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
+                                            <h3>Health Care </h3>
+                                            <p>
+                                            We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
+                                            </p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
@@ -83,57 +76,22 @@ const Capabilities = () => {
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
-
-                                </Row>
-
-
-
-
-
-
-                            </div>
-
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={6}>
-                                        <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
-                                        </div>
-                                        <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
-
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
-                                        </div>
-                                    </Col>
-                                    <Col xl={6}>
-                                        <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
-                                        </div>
-                                    </Col>
-
                                 </Row>
                             </div>
 
                             <div className={styles.high}>
-                                <Row>
+                                <Row className='align-items-center'>
                                     <Col xl={6}>
-                                        <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
-                                        </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
-
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
+                                            <h3>Health Care </h3>
+                                            <p>
+                                            We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
+                                            </p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
@@ -141,25 +99,22 @@ const Capabilities = () => {
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
-
                                 </Row>
                             </div>
 
                             <div className={styles.high}>
-                                <Row>
+                                <Row className='align-items-center'>
                                     <Col xl={6}>
-                                        <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
-                                        </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
-
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
+                                            <h3>Health Care </h3>
+                                            <p>
+                                            We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
+                                            </p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
@@ -167,24 +122,44 @@ const Capabilities = () => {
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
+                                </Row>
+                            </div>
 
+                            <div className={styles.high}>
+                                <Row className='align-items-center'>
+                                    <Col xl={6}>
+                                        <div className={styles.deter}>
+                                            <h3>Health Care </h3>
+                                            <p>
+                                            We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
+                                            </p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
+                                        </div>
+                                    </Col>
+                                    <Col xl={6}>
+                                        <div>
+                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                        </div>
+                                    </Col>
                                 </Row>
                             </div>
                             <div className={styles.high}>
-                                <Row>
+                                <Row className='align-items-center'>
                                     <Col xl={6}>
-                                        <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
-                                        </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
-
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
+                                            <h3>Health Care </h3>
+                                            <p>
+                                            We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
+                                            </p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
@@ -192,24 +167,21 @@ const Capabilities = () => {
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
-
                                 </Row>
                             </div>
                             <div className={styles.high}>
-                                <Row>
+                                <Row className='align-items-center'>
                                     <Col xl={6}>
-                                        <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
-                                        </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
-
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
+                                            <h3>Health Care </h3>
+                                            <p>
+                                            We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
+                                            </p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
@@ -217,13 +189,8 @@ const Capabilities = () => {
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
-
                                 </Row>
                             </div>
-
-
-
-
 
                         </Slider>
                     </Row>

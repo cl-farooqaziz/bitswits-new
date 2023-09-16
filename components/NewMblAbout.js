@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "@/styles/NewHomeAbout.module.css";
+import styles from "@/styles/NewMblAbout.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'

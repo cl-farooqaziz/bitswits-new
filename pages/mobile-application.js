@@ -1,19 +1,21 @@
 import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
-import NewHomeBanner from '@/components/NewHomeBanner2';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewHomeWho from '@/components/NewHomeWho';
-import NewHomeWhat from '@/components/NewHomeWhat';
-import NewHomeHear from '@/components/NewHomeHear';
-import NewHomeMaintain from '@/components/NewHomeMaintain';
-import Newglobal from '@/components/Newglobal';
-import Newslider from '@/components/Newslider';
-import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextproject';
-import Capabilities from '@/components/Capabilities';
-import Faqs from '@/components/NewhomeFaqs';
 //components
+import NewMblBanner from '@/components/NewMblBanner';
+import NewMblAbout from '@/components/NewMblAbout';
+import NewMblWho from '@/components/NewMblWho';
+import NewMblWhat from '@/components/NewMblWhat';
+import NewHomeHear from '@/components/NewHomeHear';
+import NewMblMaintain from '@/components/NewMblMaintain';
+import NewMblGlobal from '@/components/NewMblGlobal';
+import NewMblSlider from '@/components/NewMblSlider';
+import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
+import NewMblNextProject from '@/components/NewMblNextProject';
+import NewMblCapabilities from '@/components/NewMblCapabilities';
+import Faqs from '@/components/NewhomeFaqs';
+import Newsuccess from '@/components/NewMblSuccess';
+import NewMblPortFolio from '@/components/NewMblPortFolio';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
@@ -32,18 +34,20 @@ export default function Home() {
             </Head>
 
 
-            <NewHomeBanner />
-            <NewHomeAbout />
-            <NewHomeWho />
-            <NewHomeWhat />
+            <NewMblBanner />
+            <NewMblAbout />
+            <NewMblWho />
             <Justbuildit />
+            <NewMblWhat />
             <NewHomeHear />
-            <NewHomeMaintain />
-            <Newglobal />
-            <Capabilities />
-            <Newslider />
-            <Technologieswe />
-            <Homenextproject />
+            <NewMblMaintain />
+            <NewMblPortFolio />
+            <NewMblCapabilities />
+            <Newsuccess />
+            <NewMblGlobal />
+            <NewMblSlider />
+            <NewMblTechnologiesWe />
+            <NewMblNextProject />
             <Faqs />
 
 

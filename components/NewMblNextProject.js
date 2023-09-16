@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/Homenextproject.module.css'
+import styles from '@/styles/NewMblNextProject.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import icon1 from '../public/newHomePageImages/tech/1.png'

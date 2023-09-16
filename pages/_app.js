@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/mobile-app-services'
     || router.pathname == '/homelp';
 
-  const newfooterfy = router.pathname == '/new-home-page';
+  const newfooterfy = router.pathname == '/new-home-page' || router.pathname == '/mobile-application';
 
   return (
     <>
@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
 
 
-     
+
 
       {newfooter ? (
 

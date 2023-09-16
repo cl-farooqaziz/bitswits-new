@@ -19,7 +19,7 @@
 
 .home {
   background-color: black;
-  padding-top: 200px;
+  padding-bottom: 300px;
 }
 
 .build {
@@ -73,6 +73,7 @@
 
 .cen img {
   padding-right: 1%;
+  width: 20px;
 }
 
 .line1,

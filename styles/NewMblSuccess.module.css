@@ -1,0 +1,68 @@
+.happens {
+  background-color: black;
+  padding-bottom: 350px;
+  position: relative;
+}
+
+.befImg {
+  position: absolute;
+  top: 18.5%;
+  right: 10.5%;
+}
+
+.happens h2 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.happens h5 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sucssBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+  height: 335px;
+  border: 1px solid #fff;
+  width: 30%;
+}
+
+.sucssBtn {
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .happens h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+}
