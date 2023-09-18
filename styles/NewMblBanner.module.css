@@ -123,11 +123,15 @@
   text-decoration: none;
 }
 
-.read{
+.read {
   padding-left: 50px;
 }
 
-.free p{
+.read .free {
+  margin-bottom: 20px;
+}
+
+.free p {
   color: #707070;
 }
 
@@ -200,6 +204,7 @@
 .take {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .take p {
@@ -212,26 +217,24 @@
 }
 
 .locations {
-  display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-wrap: wrap;
-  row-gap: 20px;
-  gap: 40px;
+  row-gap: 30px;
 }
 
 .locInner {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  padding: 0;
 }
 
-.subInner{
+.subInner {
   display: flex;
   flex-direction: column;
 }
 
-.subInner p{
+.subInner p {
   color: #707070;
 }
 
@@ -243,42 +246,69 @@
     object-fit: contain;
     max-height: 320px;
   }
-
-  .just {
-    font-size: 45px;
-  }
 }
 
 @media screen and (max-width: 991px) {
   .just {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .just2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .newHomeBg h3 {
     font-size: 40px;
+    line-height: 50px;
+  }
+
+  .secImage {
+    width: 100%;
+    max-height: 100%;
+    margin-top: 0px;
+  }
+
+  .take p {
+    font-size: 16px;
+  }
+
+  .read {
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+
+  .read .free {
+    margin-bottom: 40px;
+  }
+
+  .read .free p {
+    font-size: 20px;
+  }
+
+  .locations {
+    padding: 0 20px;
+  }
+
+  .locations .locInner {
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .just {
+  .newHomeBg h3 {
     font-size: 25px;
+    line-height: 30px;
+    margin-top: 0;
   }
 
-  .develop {
-    font-size: 30px;
-    line-height: 35px;
-    margin-top: 9px;
-  }
-
-  .newHomeBg {
-    padding-bottom: 5px;
-  }
-}
-
-@media screen and (max-width: 480px) {
   .just {
     font-size: 18px;
   }
 
-  .develop {
-    font-size: 25px;
-    line-height: 30px;
+  .newHomeBg {
+    padding-bottom: 5px;
   }
 
   .book,
@@ -288,6 +318,25 @@
 
   .secImage {
     width: 100%;
-    max-height: 220px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .take p {
+    font-size: 14px;
+  }
+
+  .read .free {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .read .free p {
+    font-size: 16px;
+  }
+
+  .locations .locInner {
+    justify-content: flex-start;
+    gap: 10px;
   }
 }

@@ -72,7 +72,7 @@ const Capabilities = () => {
                                         </div>
                                     </Col>
                                     <Col xl={6}>
-                                        <div>
+                                        <div className='mt-5 mt-lg-0 text-center'>
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
@@ -95,7 +95,7 @@ const Capabilities = () => {
                                         </div>
                                     </Col>
                                     <Col xl={6}>
-                                        <div>
+                                        <div className='mt-5 mt-lg-0 text-center'>
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
@@ -118,7 +118,7 @@ const Capabilities = () => {
                                         </div>
                                     </Col>
                                     <Col xl={6}>
-                                        <div>
+                                        <div className='mt-5 mt-lg-0 text-center'>
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
@@ -141,7 +141,7 @@ const Capabilities = () => {
                                         </div>
                                     </Col>
                                     <Col xl={6}>
-                                        <div>
+                                        <div className='mt-5 mt-lg-0 text-center'>
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
@@ -163,7 +163,7 @@ const Capabilities = () => {
                                         </div>
                                     </Col>
                                     <Col xl={6}>
-                                        <div>
+                                        <div className='mt-5 mt-lg-0 text-center'>
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
@@ -185,7 +185,7 @@ const Capabilities = () => {
                                         </div>
                                     </Col>
                                     <Col xl={6}>
-                                        <div>
+                                        <div className='mt-5 mt-lg-0 text-center'>
                                             <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>

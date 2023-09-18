@@ -1,3 +1,8 @@
+.secPad {
+    padding-top: 250px;
+}
+
+
 .metaverseBanner {
     height: 80vh;
     display: flex;
@@ -120,6 +125,11 @@
     .development {
         margin-top: 0px !important;
     }
+
+    .secPad {
+        padding-top: 125px;
+    }
+
 }
 
 @media only screen and (max-width:480px) {
@@ -159,5 +169,9 @@
         display: none;
     }
 
-   
+    .secPad {
+        padding-top: 75px;
+        padding-bottom: 60px;
+    }
+
 }

@@ -1,5 +1,5 @@
 .paddingTop {
-    padding: 100px 0 80px;
+    padding-top: 250px;
 }
 
 .card {
@@ -116,6 +116,10 @@
 
     .f28 {
         font-size: 22px;
+    }
+
+    .paddingTop {
+        padding-top: 125px;
     }
 }
 

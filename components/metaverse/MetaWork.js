@@ -28,7 +28,7 @@ const MetaWork = (props) => {
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>
-                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid1.mp4" type="video/mov"></video>
+                                                <video className={style.video} poster="../../../metaverse/images/video-thumbnail1.png" autoPlay muted loop src="../../../metaverse/images/workVid1.mp4" type="video/mov"></video>
                                             </div>
                                         </Col>
                                         <Col lg={12}>
@@ -43,7 +43,7 @@ const MetaWork = (props) => {
                                 <div className='p-sm-4'>
                                     <div className={`${style.workContent}`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                        <p className={`f22 ${style.contentPara}`}>
+                                        <p className={`f18 ${style.contentPara}`}>
                                             Fashion has entered the metaverse trend by launching
                                             metaverse fashion week,metaverse fashion stores, and
                                             NFTs. Metaverse is empowering fashion brands to
@@ -64,7 +64,7 @@ const MetaWork = (props) => {
                                 <div className='p-sm-4'>
                                     <div className={`${style.workContent} ps-0`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                        <p className={`f22 ${style.contentPara}`}>
+                                        <p className={`f18 ${style.contentPara}`}>
                                             Fashion has entered the metaverse trend by launching
                                             metaverse fashion week,metaverse fashion stores, and
                                             NFTs. Metaverse is empowering fashion brands to
@@ -83,7 +83,7 @@ const MetaWork = (props) => {
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>
-                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid2.mp4" type="video/mov"></video>
+                                                <video className={style.video} poster="../../../metaverse/images/video-thumbnail2.png" autoPlay muted loop src="../../../metaverse/images/workVid2.mp4" type="video/mov"></video>
                                             </div>
                                         </Col>
                                         <Col lg={12}>
@@ -99,7 +99,7 @@ const MetaWork = (props) => {
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>
-                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid1.mp4" type="video/mov"></video>
+                                                <video className={style.video} poster="../../../metaverse/images/video-thumbnail1.png" autoPlay muted loop src="../../../metaverse/images/workVid1.mp4" type="video/mov"></video>
                                             </div>
                                         </Col>
                                         <Col lg={12}>
@@ -114,7 +114,7 @@ const MetaWork = (props) => {
                                 <div className='p-sm-4'>
                                     <div className={`${style.workContent}`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                        <p className={`f22 ${style.contentPara}`}>
+                                        <p className={`f18 ${style.contentPara}`}>
                                             Fashion has entered the metaverse trend by launching
                                             metaverse fashion week,metaverse fashion stores, and
                                             NFTs. Metaverse is empowering fashion brands to
@@ -135,7 +135,7 @@ const MetaWork = (props) => {
                                 <div className='p-sm-4'>
                                     <div className={`${style.workContent} ps-0`}>
                                         <h4 className={`f35 font-bold text-white`}>Build a Realistic Fashion Store</h4>
-                                        <p className={`f22 ${style.contentPara}`}>
+                                        <p className={`f18 ${style.contentPara}`}>
                                             Fashion has entered the metaverse trend by launching
                                             metaverse fashion week,metaverse fashion stores, and
                                             NFTs. Metaverse is empowering fashion brands to
@@ -154,7 +154,7 @@ const MetaWork = (props) => {
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>
-                                                <video className={style.video} autoPlay muted loop src="../../../metaverse/images/workVid2.mp4" type="video/mov"></video>
+                                                <video className={style.video} poster="../../../metaverse/images/video-thumbnail2.png" autoPlay muted loop src="../../../metaverse/images/workVid2.mp4" type="video/mov"></video>
                                             </div>
                                         </Col>
                                         <Col lg={12}>

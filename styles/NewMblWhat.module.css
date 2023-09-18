@@ -53,22 +53,13 @@
 
 @media screen and (max-width: 1200px) {
   .secImage {
-    width: 80%;
+    width: 100%;
     object-fit: contain;
-    max-height: 320px;
-  }
-
-  .newHomeBg {
-    padding-bottom: 0;
+    max-height: 400px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .secImage {
-    width: 100%;
-    max-height: 220px;
-  }
-
+@media screen and (max-width: 767px) {
   .btn_txt {
     font-size: 19px;
   }
@@ -76,5 +67,13 @@
   .wid {
     line-height: 25px;
     font-size: 15px;
+  }
+
+  .secImage {
+    width: 95%;
+  }
+
+  .mixColor2 {
+    bottom: -165px;
   }
 }

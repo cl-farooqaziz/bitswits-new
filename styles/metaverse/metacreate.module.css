@@ -1,6 +1,6 @@
 .metaCreate {
     background: #0d2119;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .videoBg {
@@ -33,6 +33,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 12px 21px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .metaCreate {
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (max-width: 991px) {

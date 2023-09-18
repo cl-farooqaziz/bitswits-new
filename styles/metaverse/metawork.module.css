@@ -1,5 +1,5 @@
 .metaWork {
-    padding: 100px 0 80px;
+    padding-top: 250px;
 }
 
 .ImageBack {
@@ -38,9 +38,6 @@
 }
 
 .video {
-    /* max-width: 550px;
-    max-height: 240px; */
-    /* margin-top: 33px; */
     width: 75%;
     margin: 0 auto;
     padding-top: 35px;
@@ -48,8 +45,6 @@
 
 .workImage {
     width: 100%;
-    /* max-width: 550px;
-    min-height: 220px; */
     object-fit: contain;
 }
 
@@ -161,6 +156,12 @@
     }
 }
 
+@media only screen and (max-width: 1199px) {
+    .metaWork {
+        padding-top: 125px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .ImageBack {
         width: 90%;
@@ -229,7 +230,7 @@
         width: 101%;
     }
 
-    .relative{
+    .relative {
         gap: 70px 0;
     }
 
@@ -237,7 +238,8 @@
 
 @media screen and (max-width: 480px) {
     .ImageBack {
-        top: 26px;;
+        top: 26px;
+        ;
     }
 
     .ImageBack {
@@ -273,7 +275,7 @@
         margin: 27px auto 27px 9px;
     }
 
-    .dNone{
+    .dNone {
         display: none;
     }
 }
