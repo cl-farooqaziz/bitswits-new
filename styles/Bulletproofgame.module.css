@@ -57,15 +57,57 @@
 
 }
 
-.boy {
+.creative {
   position: relative;
 }
 
 .tested img {
   position: absolute;
   width: 790px;
-  right: -114px;
+  right: 0;
   height: 664px;
   bottom: 0;
   z-index: 1;
+}
+
+@media screen and (min-width: 1900px) {
+
+  .tested img {
+    position: absolute;
+    width: 1044px;
+    right: 0;
+    height: 864px;
+    bottom: 149px;
+    z-index: 1;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1600px) {
+
+  .tested img {
+    position: absolute;
+    width: 889px;
+    right: 0;
+    height: 788px;
+    bottom: 149px;
+    z-index: 1;
+  }
+
+
+}
+@media screen and (max-width: 1400px) {
+
+  .tested img {
+    position: absolute;
+    width: 789px;
+    right: 0;
+    height: 688px;
+    bottom: 149px;
+    z-index: 1;
+}
+
+
 }

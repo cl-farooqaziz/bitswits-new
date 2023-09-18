@@ -14,8 +14,9 @@
     max-width: 300px;
     margin: 0 auto;
     text-align: center;
-    color: white;   
-    height: 75px;
+    color: #fff;
+    height: 65px;
+    overflow: auto;
 }
 .para1{
     font-size: 14px;
@@ -157,7 +158,8 @@
     margin: 0 auto;
     text-align: center;
     color: white;   
-    height: 75px;
+    height: 65px;
+    overflow: auto;
 }
 .para3{
     font-size: 14px;
