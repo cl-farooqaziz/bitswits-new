@@ -167,7 +167,8 @@
     margin: 0 auto;
     text-align: center;
     color: black;   
-    height: 75px;
+    height: 65px;
+    overflow: auto;
 }
 
 .app5{
