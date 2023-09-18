@@ -2382,11 +2382,19 @@ p {
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 
+.mixColor1 {
+  height: 50px;
+  z-index: 100;
+  position: relative;
+  bottom: -215px;
+  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
+}
+
 .mixColor2 {
   height: 50px;
   z-index: 100;
   position: relative;
-  bottom: -115px;
+  bottom: -165px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 
