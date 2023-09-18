@@ -8,7 +8,7 @@ import MetaBtn from './MetaBtn';
 const LeftContent = (props) => {
     return (
         <>
-            <div className={`${styles[props.whychooseclass]} secPad`}>
+            <div className={`${styles[props.whychooseclass]} ${styles.secPad}`}>
                 <Container>
                     <Row className={`${styles.middle} gy-4 align-items-center`}>
                         <Col lg={6}>
