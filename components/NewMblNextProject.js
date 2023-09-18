@@ -93,10 +93,10 @@ const Homenextproject = () => {
                   <Image  alt="bitswits"      src={icon6} className="img-fluid w-50" />
                 </div>
                 <div className={`${styles.strpImg} ${styles.minImg}`}>
-                  <Image  alt="bitswits"      src={icon7} className="img-fluid w-50" />
+                  <Image  alt="bitswits"      src={icon7} className="img-fluid w-25" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon8} className="img-fluid w-50" />
+                  <Image  alt="bitswits"      src={icon8} className="img-fluid w-25" />
                 </div>
               
               </Slider>

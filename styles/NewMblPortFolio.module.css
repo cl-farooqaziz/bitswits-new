@@ -54,3 +54,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.poliBox img{
+  width: 100%;
+}
