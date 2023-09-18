@@ -137,7 +137,7 @@ const NewHomeMaintain = () => {
                                         </div>
                                     </Col>
                                     <Col xl={4}>
-                                        <div id='flutter' ></div>
+                                        <div id='flutter'></div>
                                     </Col>
                                 </Row>
 
