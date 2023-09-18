@@ -30,7 +30,7 @@ const Newsuccess = () => {
                                     <span className='font16 white'>Contact us without obligation by email or phone and secure your free consultation.</span>
                                     <Link href="#" className={styles.sucssBtn}>Connect Now!</Link>
                                 </div>
-                                <div className={styles.sucssBox}>
+                                <div className={`${styles.sucssBox} ${styles.box2}`}>
                                     <span className='f-60 font-bold grdiant mb-0'>02</span>
                                     <span className='font30 font-bold white mb-0'>Get A Quote</span>
                                     <span className='font16 white'>Get an exact cost breakdown structure of your app</span>
