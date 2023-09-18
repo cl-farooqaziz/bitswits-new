@@ -1,0 +1,108 @@
+.engage{
+  background-color: black;
+  padding-bottom: 50px;
+}
+.forget{
+  margin-bottom: 10%;
+}
+.forget h3{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.forget h2{
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 1;
+}
+
+.cont h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.cont p{
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  height: 63px;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+.cont{
+  align-items: center;
+}
+
+.longline{
+  position: relative;
+  margin-bottom: 85%;
+}
+.longline::before{
+  position: absolute;
+  content: '';
+  background-image: url(../public/shark/1.png);
+  width: 427px;
+  height: 296px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.longline img{
+  position: absolute;
+  content: '';
+  top: -75px;
+  left: 20px;
+}
+.expertise{
+  position: relative;
+}
+
+.bring{
+  position: relative;
+  top: 160px;
+  left: 6%;
+}
+
+
+.longline1::before{
+  position: absolute;
+  content: '';
+  background-image: url(../public/shark/2.png);
+  width: 427px;
+  height: 296px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: -55px;
+}
+.longline1{
+  position: relative;
+  margin-bottom: 85%;
+}
+.expertise1{
+  position: relative;
+}
+
+.longline1 img{
+  position: absolute;
+    content: '';
+    top: -75px;
+    right: -45px;
+}
+
+.bring1{
+  text-align: right;
+  position: relative;
+  top: 140px;
+    left: 6%;
+}
+
+.offers{
+  position: relative;
+  left: 9%;
+  top: -70px;
+}
