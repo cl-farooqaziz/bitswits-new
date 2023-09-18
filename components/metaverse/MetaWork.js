@@ -150,7 +150,7 @@ const MetaWork = (props) => {
                                 </div>
                             </Col>
                             <Col lg={6} className={`${style.contentHeight} position-relative pb-5 h-100 d-none d-sm-block`}>
-                                <div className={`${style.ml} p-4 pb-5`}>
+                                <div className={`${style.ml} p-4 pb-5`}> 
                                     <Row>
                                         <Col lg={12}>
                                             <div className={style.videoFront}>

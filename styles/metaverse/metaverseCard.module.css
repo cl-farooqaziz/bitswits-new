@@ -126,15 +126,39 @@
 @media screen and (max-width: 991px) {
     .card {
         max-width: 100%;
-        min-height: 249px;
+        min-height: 338px;
         max-height: 234px;
     }
 
     .card img {
-        top: -51px;
-        right: 43px;
-        max-width: 229px;
-        max-height: 294px;
+        top: -56px;
+        right: 70px;
+        max-width: 240px;
+        max-height: 444px;
+    }
+
+    .cardContent {
+        margin-top: 30px;
+        max-width: 258px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card img {
+        top: -55px;
+        right: 45px;
+        max-width: 210px;
+        max-height: 292px;
+    }
+
+    .card {
+        max-width: 100%;
+        min-height: 250px;
+        max-height: 210px;
+    }
+
+    .cardContent {
+        margin-top: 0;
     }
 }
 
