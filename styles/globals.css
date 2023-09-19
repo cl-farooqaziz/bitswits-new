@@ -1277,6 +1277,16 @@ input::-webkit-inner-spin-button {
   height: 5px;
 }
 
+#lottie-container {
+  position: relative;
+  bottom: 70px;
+}
+
+#lottie-web {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1920px) {

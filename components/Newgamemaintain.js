@@ -184,7 +184,7 @@ const Newgamemaintain = () => {
                             <div className={styles.app4}>
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>AR Game Development</h3>
-                                    <p className={styles.para2}>
+                                    <p className={styles.para3}>
                                         BitsWits helps you unlock a world of dazzling possibilities and experience the ultimate gaming entertainment with its sheer expertise in building AR games. With cutting-edge technologies such as 3D scanning, game engine creation, and cloud-based storage, we provide innovative solutions built to stand the test of time!
                                     </p>
                                 </div>
