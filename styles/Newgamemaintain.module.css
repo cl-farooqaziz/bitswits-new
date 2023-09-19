@@ -233,6 +233,15 @@
     height: 65px;
     overflow: auto;
 }
+.possibilities {
+    font-size: 14px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    height: 65px;
+    overflow: auto;
+}
 
 .app5 {
     border-radius: 15px;
