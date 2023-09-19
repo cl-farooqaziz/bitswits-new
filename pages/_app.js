@@ -60,13 +60,9 @@ export default function App({ Component, pageProps }) {
 
         <Footerlp />
 
-      ) : newfooterfy ? (
+      )  : (
 
         <Footernewfy />
-
-      ) : (
-
-        <Footer />
 
       )}
 

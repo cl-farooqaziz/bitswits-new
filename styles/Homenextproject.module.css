@@ -89,3 +89,20 @@
   }
 
 }
+
+
+@media screen and (max-width: 480px) {
+
+
+  .closing h3 {
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+
+  .closing {
+    
+    gap: 10px;
+}
+
+
+ }

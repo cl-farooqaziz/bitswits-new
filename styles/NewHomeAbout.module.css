@@ -10,15 +10,19 @@
 
 @media screen and (max-width: 1200px) {
 
+    .newHomeBg {
+        background: #000;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .secImage {
         width: 80%;
         object-fit: contain;
         max-height: 320px;
     }
 
-    .newHomeBg {
-        padding-bottom: 0;
-    }
+   
 }
 
 @media screen and (max-width: 480px) {

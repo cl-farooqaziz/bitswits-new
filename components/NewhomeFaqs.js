@@ -75,10 +75,10 @@ const NewhomeFaqs = () => {
         <>
             <section className={`${styles.faqs} newfaqsgloble`}>
                 <Container>
-                <Row>
+                <Row className={styles.comfort}>
                         <Col lg={2}>
                             <h2 className="white f-20 f-500 left mt-3">
-                            Blogs
+                            Customer Support
                             </h2>
                         </Col>
                         <Col lg={6}>

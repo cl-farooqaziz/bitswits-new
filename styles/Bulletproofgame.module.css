@@ -1,6 +1,5 @@
-
-.creative2{
-  padding-bottom: 150px;
+.creative2 {
+  padding-bottom: 250px;
   background-color: black;
 }
 
@@ -98,6 +97,7 @@
 
 
 }
+
 @media screen and (max-width: 1400px) {
 
   .tested img {
@@ -107,7 +107,62 @@
     height: 688px;
     bottom: 0;
     z-index: 1;
+  }
+
+
 }
 
+
+@media screen and (max-width: 1200px) {
+
+  .tested img {
+    display: none;
+  }
+
+  .creative2 {
+    padding-bottom: 50px;
+    background-color: black;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .game h2 {
+    font-size: 30px;
+
+  }
+
+  .game h3 {
+    font-size: 20px;
+
+  }
+
+  .dscool h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .game h2 {
+    font-size: 30px;
+  }
+
+  .game h3 {
+    font-size: 15px;
+  }
+
+  .dscool h3 {
+    font-size: 25px;
+  }
+
+  .dscool {
+
+    flex-direction: column;
+}
 
 }

@@ -313,7 +313,12 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+ @media screen and (max-width: 1200px) { 
+
+    .newHomeBg {
+        padding-bottom: 50px;
+        background: #000;
+    }
 
     .app4 {
         height: auto;
@@ -390,10 +395,18 @@
 
 @media screen and (max-width: 480px) {
 
-    .book,
-    .about {
-        font-size: 12px;
+    .book, .about {
+        font-size: 10px!important;
     }
 
+    .app,.app4,.app6, .app2,.app5,.app7{
+        padding: 30px 28px 9px 33px;
+    }
+    
 
-}
+  
+   .newHomeBg h1 {
+    font-size: 30px;
+   }
+   
+     }

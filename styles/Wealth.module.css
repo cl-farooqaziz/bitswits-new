@@ -1,7 +1,7 @@
 .weall {
   background-color: black;
   padding-top: 300px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 
 
 }
@@ -45,13 +45,15 @@
   position: relative;
 }
 
-@media screen and (max-width: 1600px) { 
+
+
+@media screen and (max-width: 1600px) {
 
   .weall img {
     position: absolute;
     right: 1%;
     bottom: -67px;
-}
+  }
 
 }
 
@@ -62,10 +64,8 @@
 
   .weall {
     background-color: black;
-    padding-top: 200px;
-    padding-bottom: 150px;
-  
-  
+
+
   }
 
   .weall img {
@@ -74,7 +74,7 @@
     bottom: 50px;
     width: 145%;
     height: 145%;
-}
+  }
 
 
   .weall h2 {
@@ -87,9 +87,65 @@
 
 }
 
-@media screen and (min-width: 1600px) { 
 
-  .weall img{
+
+
+@media screen and (max-width: 1200px) {
+
+  .weall a {
+    width: 50%;
+  }
+
+
+  .weall {
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .weall a {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .weall a {
+    width: 100%;
+  }
+
+  .weall h2 {
+
+    font-size: 30px;
+
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .weall a {
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  .weall h2 {
+
+    font-size: 30px;
+
+  }
+
+ }
+
+@media screen and (min-width: 1600px) {
+
+  .weall img {
     position: absolute;
     right: -6%;
     bottom: -70px;
