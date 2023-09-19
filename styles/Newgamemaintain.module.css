@@ -58,6 +58,15 @@
        padding-bottom: 20px;
        height: 465px;
 }
+
+.app1,.app2,.app,.app4,.app5,.app6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 0;
+}
+
+
 .app1 .para{
     height: 105px;
 }

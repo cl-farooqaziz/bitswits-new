@@ -119,10 +119,12 @@ const Newgamemaintain = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
-                                <h3 className='text-white f-20 font-bold text-center'>Unity 3D Games</h3>
+                              <div>
+                              <h3 className='text-white f-20 font-bold text-center'>Unity 3D Games</h3>
                                 <p className={styles.para}>
                                     We work with Unity 3D technology to foster unforgettable gaming experiences that push the boundaries of what's possible. Whether you want an action-packed shooter or a more peaceful puzzle title, we can ensure your game is a success and tends to become a revenue-generating machine!
                                 </p>
+                              </div>
 
                                 <div id="lottie-container"></div>
 
@@ -131,10 +133,12 @@ const Newgamemaintain = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app1}>
-                                <h3 className='text-white f-20 font-bold text-center'>VR game development</h3>
+                               <div>
+                               <h3 className='text-white f-20 font-bold text-center'>VR game development</h3>
                                 <p className={styles.para}>
                                     Producing immersive and mind-blowing virtual reality experiences for gamers and businesses alike. Our games are designed with the player's experience in mind and feature intuitive controls, immersive soundscapes, and realistic visuals that transport players into another world. Get ready to hook your gamers and urge them to return for more!
                                 </p>
+                               </div>
 
                                 <div id="lottie"></div>
 
@@ -142,10 +146,12 @@ const Newgamemaintain = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app2}>
-                                <h3 className='text-black f-20 font-bold text-center'>3D Game Development</h3>
+                               <div>
+                               <h3 className='text-black f-20 font-bold text-center'>3D Game Development</h3>
                                 <p className={styles.para}>
                                     BitsWits masters the art of creating stunning 3D games, harnessing the power of cutting-edge technology and state-of-the-art tools. We know that a successful 3D game requires more than just great visuals – it's also about a compelling gameplay experience. Hence, we ensure games that are balanced, entertaining, and mesmerizing for players of all ages! Believe it or not, we are the perfect place to get your next gaming project off the ground!
                                 </p>
+                               </div>
 
                                 <div id="blockchain"></div>
 
@@ -176,10 +182,12 @@ const Newgamemaintain = () => {
 
                         <Col xl={6}>
                             <div className={styles.app4}>
+                                <div>
                                 <h3 className='text-white f-20 font-bold text-center'>AR Game Development</h3>
                                 <p className={styles.para2}>
                                     BitsWits helps you unlock a world of dazzling possibilities and experience the ultimate gaming entertainment with its sheer expertise in building AR games. With cutting-edge technologies such as 3D scanning, game engine creation, and cloud-based storage, we provide innovative solutions built to stand the test of time!
                                 </p>
+                                </div>
                                 <div id="lottie-web"></div>
 
                             </div>
@@ -187,10 +195,12 @@ const Newgamemaintain = () => {
                         </Col>
                         <Col xl={6}>
                             <div className={styles.app5}>
-                                <h3 className='text-black f-20 font-bold text-center'>MR Game Development</h3>
+                              <div>
+                              <h3 className='text-black f-20 font-bold text-center'>MR Game Development</h3>
                                 <p className={styles.para3}>
                                     BitsWits create technology-advanced VR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!
                                 </p>
+                              </div>
                                 <div id="lottie-uiux"></div>
 
 
