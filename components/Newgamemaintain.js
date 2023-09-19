@@ -229,7 +229,7 @@ const Newgamemaintain = () => {
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Buildbox Game
                                         Development</h3>
-                                    <p className={styles.para2}>BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!</p>
+                                    <p className={styles.para9}>BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!</p>
                                 </div>
 
                                 <div id="lottie-internetapp"></div>

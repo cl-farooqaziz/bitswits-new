@@ -116,6 +116,15 @@ div#lottie-web {
     height: 65px;
     overflow: auto;
 }
+.para9 {
+    font-size: 14px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    height: 65px;
+    overflow: auto;
+}
 
 .app1 .para {
     height: 105px;
