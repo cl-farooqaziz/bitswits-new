@@ -92,6 +92,16 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+
+  .happens {
+    background-color: black;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+ }
+
 @media screen and (max-width: 991px) {
   .befImg {
     display: none;

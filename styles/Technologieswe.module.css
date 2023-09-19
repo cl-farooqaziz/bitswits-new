@@ -78,6 +78,17 @@
   }
 }
 
+
+@media screen and (max-width: 1200px) {
+
+
+  .tech {
+    background-color: black;
+    padding-bottom: 50px;
+  }
+
+}
+
 @media screen and (max-width: 991px) {
 
   .active::before {

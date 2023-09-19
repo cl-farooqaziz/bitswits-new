@@ -233,6 +233,11 @@
 
  @media screen and (max-width: 1200px) { 
 
+    .newHomeBg {
+        padding-bottom: 50px;
+        background: #000;
+    }
+
     .app4 {
         height: auto;
     }
@@ -305,6 +310,8 @@
     .book, .about{
        font-size: 12px;
    }
-   
+   .newHomeBg h1 {
+    font-size: 30px;
+   }
    
      }

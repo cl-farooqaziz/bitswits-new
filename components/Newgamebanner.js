@@ -30,7 +30,6 @@ const NewHomeBanner = () => {
         dots: false,
         arrows: false,
         autoplay: true,
-        infinite: true,
         autoplaySpeed: 0,
         speed: 5000,
         pauseOnHover: false,
@@ -86,7 +85,7 @@ const NewHomeBanner = () => {
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant py-5`}>
                     <Container>
-                        <Row>
+                        <Row className='align-items-center'>
                             <Col lg={7}>
                                 <div className={styles.make}>
                                     <form className={styles.formsbanner}>
@@ -94,14 +93,16 @@ const NewHomeBanner = () => {
                                             <Col lg={6}>
                                                 <div>
                                                     <input type='text' className={styles.forminput} placeholder='Your Name' />
+                                                    <input type='email' className={`${styles.forminput} d-block d-lg-none`} placeholder='Email Address' />
                                                     <input type='number' className={styles.forminput} placeholder='Phone Number' />
+                                                    <textarea className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
                                                     <div className={`${styles.take} d-flex`}>
                                                         <p className='font12 font-semibold fontf m-0'>We take your privacy <br /> seriously. Read our <span>Privacy</span></p>
                                                         <input type='Submit' className={styles.notice} />
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col lg={6}>
+                                            <Col lg={6} className='d-none d-lg-block'>
                                                 <div>
                                                     <input type='email' className={styles.forminput} placeholder='Email Address' />
                                                     <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
@@ -118,8 +119,8 @@ const NewHomeBanner = () => {
                                             Make an obligation-free enquiry
                                         </p>
                                     </div>
-                                    <div className={styles.locations}>
-                                        <div className={`${styles.locInner}`}>
+                                    <Row className={styles.locations}>
+                                        <Col lg={8} md={6} className={`${styles.locInner}`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon11} className='img-fluid' />
                                             </div>
@@ -141,8 +142,8 @@ const NewHomeBanner = () => {
                                                     +1 833 500 6007
                                                 </Link>
                                             </div>
-                                        </div>
-                                        <div className={`${styles.locInner}`}>
+                                        </Col>
+                                        <Col lg={4} md={6} sm={6} className={`${styles.locInner} col-6`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon12} className='img-fluid' />
                                             </div>
@@ -152,8 +153,8 @@ const NewHomeBanner = () => {
                                                     +97 155 503 1266
                                                 </Link>
                                             </div>
-                                        </div>
-                                        <div className={`${styles.locInner}`}>
+                                        </Col>
+                                        <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon13} className='img-fluid' />
                                             </div>
@@ -163,8 +164,8 @@ const NewHomeBanner = () => {
                                                     +92 346 828 0101
                                                 </Link>
                                             </div>
-                                        </div>
-                                        <div className={`${styles.locInner}`}>
+                                        </Col>
+                                        <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon14} className='img-fluid' />
                                             </div>
@@ -174,8 +175,8 @@ const NewHomeBanner = () => {
                                                     Labuan
                                                 </Link>
                                             </div>
-                                        </div>
-                                    </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </Col>
                         </Row>
@@ -186,25 +187,25 @@ const NewHomeBanner = () => {
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon20} className="img-fluid" />
+                            <Image alt="bitswits" src={icon20} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon30} className="img-fluid" />
+                            <Image alt="bitswits" src={icon30} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon40} className="img-fluid" />
+                            <Image alt="bitswits" src={icon40} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon50} className="img-fluid" />
+                            <Image alt="bitswits" src={icon50} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon60} className="img-fluid" />
+                            <Image alt="bitswits" src={icon60} className="img-fluid w-50" />
                         </div>
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
-                            <Image alt="bitswits" src={icon70} className="img-fluid" />
+                            <Image alt="bitswits" src={icon70} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon80} className="img-fluid" />
+                            <Image alt="bitswits" src={icon80} className="img-fluid w-50" />
                         </div>
                     </Slider>
                 </div>
