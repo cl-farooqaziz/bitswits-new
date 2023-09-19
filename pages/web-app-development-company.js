@@ -118,7 +118,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Web apps can be assessed on any device with a Wi-Fi connection, letting you engage in business anytime and anywhere. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -135,7 +135,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Web apps provide an interactive platform to communicate and engage customers.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -152,7 +152,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our web apps can automate business workflows for improved efficiency and simplified processes.   
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -169,7 +169,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     <span className='grdiant font-bold'>Web app developers</span> at BitsWits create apps that allow users to access information faster and more efficiently. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -186,7 +186,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Web apps have data and information that can provide valuable insights that guide in the decision-making process. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -203,7 +203,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     At BitsWits, web applications require lower development and maintenance costs compared to native apps. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -220,7 +220,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Web applications can be developed and updated quickly as compared to other applications. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -238,7 +238,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>web app developers</span> extend your brand’s reach to the international market and industry. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -257,7 +257,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Web applications provide a new self-service sales channel to advertise and promote goods and services. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -297,7 +297,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our skilled <span className='grdiant font-bold'>web app developers</span> rapidly design, develop, test, and launch web apps, delivering right on schedule with faster ROI. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -320,7 +320,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Professional <span className='grdiant font-bold'>web app developers</span> at BitsWits utilize modern tech and tools to build secure and reliable apps. We stay on top of technologies like React, Angular, Node.js, MongoDB, and much more to deliver excellence.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -343,7 +343,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our expertise focuses on saving time and costs in building, testing, and launching your web apps. We optimize resources and processes to deliver app projects on time and within budget. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -366,7 +366,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Understanding users is kept a priority. Our <span className='grdiant font-bold'>web app developers</span> deliver perfect and engaging UI/UX designs that develop trust and win the hearts of our customers. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

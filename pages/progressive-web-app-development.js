@@ -119,7 +119,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Mobile apps allow you to connect with customers anywhere and anytime worldwide.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -136,7 +136,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -153,7 +153,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Mobile applications improve learning experiences by offering interesting content, podcasts, and videos to read and watch.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -170,7 +170,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -187,7 +187,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Mobile applications provide a convenient way for customers to purchase your products and services on the go.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -204,7 +204,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Mobile applications allow users to instantly pay, donate, and order without any hassle.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -221,7 +221,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         A prominent icon of your app with an elegant theme color on the user's home screen acts as a constant reminder to interact.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -239,7 +239,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -258,7 +258,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -298,7 +298,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -321,7 +321,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -344,7 +344,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -367,7 +367,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

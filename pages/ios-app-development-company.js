@@ -122,7 +122,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>iOS developers</span> craft pixel-perfect iOS apps with beautiful and latest designs for Apple devices. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -139,7 +139,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Expert <span className='grdiant font-bold'>iOS developers</span> at BitsWits know about Swift and Xcode and utilize the latest iOS features for perfect user experiences.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -156,7 +156,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     We build powerful and high-performing iOS applications that are stable, smooth, and fast.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -173,7 +173,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     For optimal App Store optimization, our <span className='grdiant font-bold'>iOS developers</span> stick to Apple's strict interface rules and standards of excellence.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -192,7 +192,7 @@ export default function mobileappdevelopment() {
 We provide on-going support and maintenance to keep your applications updated with high-quality services. 
 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -209,7 +209,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <p className='white'>
                     Our <span className='grdiant font-bold'>iOS developers</span> ensure open dialogues and total transparency throughout the development process. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -226,7 +226,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <p className='white'>
                     BitsWits focuses on thorough QA testing, which guarantees your iOS app is free of bugs. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -244,7 +244,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <p className='white'>
                     Outsourcing professional <span className='grdiant font-bold'>iOS app developers</span> from BitsWits, helps reduce risks of launch delays and failure.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -263,7 +263,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <p className='white'>
                     Our <span className='grdiant font-bold'>iOS app development services</span> are known to have a proven history of successfully delivering hundreds of iOS applications for customers.  
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -303,7 +303,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 <p className='font14'>
                                 Our <span className='grdiant font-bold'>iOS app development services</span> boost productivity, user growth, and income in the real world of business. We use analytics to demonstrate that our apps increase ROI across important business metrics.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -326,7 +326,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 <p className='font14'>
                                 BitsWits, a leading <span className='grdiant font-bold'>iOS app development company</span>, always stays up-to-date with Apple’s latest iOS features to create differentiated and smooth innovative user experiences. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -349,7 +349,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 <p className='font14'>
                                 Our <span className='grdiant font-bold'>iOS app developers</span> have a swift speed in taking your app from concept to launch than most companies. With high-quality applications, BitsWits will definitely surpass your expectations. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -372,7 +372,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 <p className='font14'>
                                 Our wealth of experience launching hundreds of iOS apps reduces risks of delays, rejections, or other complications. To ensure that your software is approved and goes live on the app store on time, we know how to avoid frequent errors.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

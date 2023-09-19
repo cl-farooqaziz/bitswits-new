@@ -117,7 +117,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Flutter allows app deployment to both iOS and Android platforms, saving time and cost for development.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -134,7 +134,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Flutter widgets and composition models help <span className='grdiant font-bold'>Flutter app developers</span> quickly build intuitive and high-quality UI/UX on each platform. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -151,7 +151,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     <span className='grdiant font-bold'>Flutter app development agency</span> builds fast-performing apps by compiling directly to native ARM code rather than JavaScript. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -168,7 +168,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                    <span className='grdiant font-bold'> Flutter app developers</span> use a single codebase that reduces development and maintenance costs. No need for a separate iOS and Android codebase.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -185,7 +185,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     The hot reload feature allows <span className='grdiant font-bold'>Flutter app developers</span> to see code changes reflected immediately without recompiling or accelerating the process. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -202,7 +202,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     To add features without writing repetitive code, BitsWits have created an extensive network of high-quality plugins for Flutter.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -219,7 +219,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Flutter code is easy to maintain and extend with the use of proven reactive patterns.  
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -237,7 +237,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>Flutter app development services</span> are used by leading global companies like Google, Alibaba, eBay, and more. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -256,7 +256,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Flutter can be used for mobile, web, desktop, and embedded apps with the potential for a complete solution. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -296,7 +296,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 BitsWits, the most reliable <span className='grdiant font-bold'>Flutter app development company</span>, has a proven history of successful Flutter app projects that ensures the ability to deliver successful solutions in the scheduled time. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -319,7 +319,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 The <span className='grdiant font-bold'>Flutter app developers</span> at BitsWits, have a reputable team of experts who move quickly with agile processes, collaboration, and modern development workflows. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -342,7 +342,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 BitsWits, a leading <span className='grdiant font-bold'>Flutter app development company</span>, knows the importance of ongoing support, maintenance, and improvements. With our assistance, your applications will stay up-to-date and bug-free. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -365,7 +365,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Hiring an experienced <span className='grdiant font-bold'>Flutter app development company</span> reduces the risks of projects catching bugs and optimizing stability to ensure a smooth user experience.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

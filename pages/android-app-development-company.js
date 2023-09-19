@@ -120,7 +120,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Android is the most widely used mobile operating system globally which means it can aid your business to reach potential customers globally. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -137,7 +137,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Android apps have high discoverability in the Play Store due to its extensive user base, robust search algorithm, and easy downloading.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -154,7 +154,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Apps run smoothly on smartphones, tablets, mobile devices, and other devices due to Android's support for flexible UI design.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -171,7 +171,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Apps leverage Android's unique features like widgets, AI, and alerts. We ensure seamless integration, delivering the best user experience
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -188,7 +188,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Android app offers a direct and interactive channel for users to engage with your brand on their mobile devices. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -205,7 +205,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Android apps can reach a wide audience without the need for expensive hardware or software, reducing development and distribution costs.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -222,7 +222,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     To promote the development of Android apps, Google offers a wealth of developer resources, tools, and documentation.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -240,7 +240,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Android apps offer various options for monetization, from ads, in-app purchases, subscriptions and other methods to customize the revenue approach. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -261,7 +261,7 @@ export default function mobileappdevelopment() {
 Android apps use open platforms for development, incorporating third-party services, and continuously adapting to evolving user demands.
 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -301,7 +301,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 <p className='font14'>
                                 Our <span className='grdiant font-bold'>top Android app developers</span> have 10+ years of experience building and launching successful applications on Google Play. We also stay up-to-date on the latest Android features.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -324,7 +324,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 <p className='font14'>
                                 BitsWits, a leading Android <span className='grdiant font-bold'>app development agency</span>, conducts thorough app testing across various Android phones, tablets, and other gadgets and software.  
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -347,7 +347,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 <p className='font14'>
                                 Our <span className='grdiant font-bold'>Android app development services</span> include quicker app delivery without sacrificing quality due to our simple processes and agile framework.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -370,7 +370,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 <p className='font14'>
                                 In order to increase your app's exposure and discovery in the Google Play store, our <span className='grdiant font-bold'>top Android app developers</span> employ proven Store Optimization techniques.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

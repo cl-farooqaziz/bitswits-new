@@ -124,7 +124,7 @@
 }
 
 .read {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 .read .free {
@@ -226,7 +226,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 0;
 }
 
 .subInner {
@@ -240,18 +239,25 @@
 
 /* =========================================== */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .secImage {
-    width: 80%;
-    object-fit: contain;
-    max-height: 320px;
+    margin-top: -130px;
+  }
+
+  .just {
+    font-size: 16px;
+    line-height: 26px;
+    width: 50%;
+    margin: 0 auto;
   }
 }
+
 
 @media screen and (max-width: 991px) {
   .just {
     font-size: 18px;
     line-height: 28px;
+    width: 100%;
   }
 
   .just2 {

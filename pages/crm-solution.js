@@ -123,7 +123,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Contact management involves compiling and keeping up an extensive database of client data, interactions, and contact history.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -140,7 +140,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our CRM solutions company keeps records and tracks of lead's interactions and information to enable efficient follow-ups and conversions.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -157,7 +157,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our custom CRM development services include simplifying the sales process by automating operations like lead assignment, follow-ups, and data input.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -174,7 +174,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our Experts visualize sales prospects and their progression through different phases to help with resource allocation and forecasting.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -191,7 +191,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     CRM software solutions at BitsWits involve keeping a comprehensive record of customer contact across all communication channels (phone, email, social media).
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -208,7 +208,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our CRM development services include incorporating top customer service features to efficiently manage questions, complaints, and solutions for our users.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -225,7 +225,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     We don't provide universal CRM development services and solutions. Our specialists will modify the system to meet your particular company needs, workflows, and procedures. This makes sure you get a solution that is customized according to your unique demands and goals.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -243,7 +243,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     High-caliber CRM experts offer perfect CRM development services that help manage difficult deployments for many sectors that make up our team. They have the necessary skills to provide the greatest value and facilitate the easy adoption of the CRM.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -262,7 +262,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our CRM development services and solutions are designed to break down data silos, automate repetitive tasks, and simplify procedures throughout the whole business. Our solutions promote cooperation and information exchange, increasing efficiency throughout your organization.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -303,7 +303,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>mobile app developers</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -326,7 +326,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -349,7 +349,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -372,7 +372,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>mobile app developers</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

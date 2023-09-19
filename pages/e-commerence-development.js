@@ -124,7 +124,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     As eCommerce experts, we offer specialized design, development, and integration services for Magento stores with an extensive list of features.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -142,7 +142,7 @@ export default function mobileappdevelopment() {
                     For effective operations, our eCommerce website developers create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps. 
 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -159,7 +159,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     BitsWits utilizes WooCommerce for WordPress sites and adds extensions, payment connections, and shipping options. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -176,7 +176,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     On the Salesforce Commerce Cloud platform, our eCommerce website developers implement enterprise-level B2B and B2C services. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -193,7 +193,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     On the Oracle eCommerce platform, we create adaptable, customizable omnichannel ecommerce experiences for users.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -210,7 +210,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     For international firms, our SAP eCommerce solutions assist in combining several business systems into a unified eCommerce website development platform.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -227,7 +227,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     We create and modify OpenCart stores with responsive design, marketing tools, payment gateways, and shipping connections.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -245,7 +245,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Multi-vendor markets with extensions for subscriptions, auctions, and specialized product design are implemented by our X-Cart specialists.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -264,7 +264,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     We brand-specifically provide attractive themes, sales, and integrations to the PrestaShop CMS for eCommerce website development.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -305,7 +305,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our <span className='grdiant font-bold'>eCommerce website developers</span> build websites that are rich in features to help you acquire new customers in areas where services are scarce. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -328,7 +328,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our UX specialists simplify <span className='grdiant font-bold'> site navigation, and our marketing tools</span> promote interaction to increase traffic and revenues. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -351,7 +351,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 <span className='grdiant font-bold'>Ecommerce website developers </span>at BitsWits assist in lowering overhead expenses and human labor by integrating systems and automating processes on our integrated platforms.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -374,7 +374,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our innovative <span className='grdiant font-bold'>e-commerce solutions </span> enable you to stand out from the crowd, provide the best possible customer service, and outperform rivals.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

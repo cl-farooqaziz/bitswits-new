@@ -33,7 +33,7 @@ const NewMblPortFolio = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.poliBox} ${styles.poliBox1}`}>
-                                <Image src={folio1} alt='BitsWits' className={`img-fluid`} />
+                                <Image src={folio1} quality={75} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Germ Guard Case Study</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
@@ -42,7 +42,7 @@ const NewMblPortFolio = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.poliBox} ${styles.poliBox2}`}>
-                                <Image src={folio2} alt='BitsWits' className={`img-fluid`} />
+                                <Image src={folio2} quality={75} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Find Food Case Study</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
@@ -51,7 +51,7 @@ const NewMblPortFolio = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.poliBox} ${styles.poliBox3}`}>
-                                <Image src={folio3} alt='BitsWits' className={`img-fluid`} />
+                                <Image src={folio3} quality={75} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Bliss Travel Case Study</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
@@ -60,7 +60,7 @@ const NewMblPortFolio = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.poliBox} ${styles.poliBox4}`}>
-                                <Image src={folio4} alt='BitsWits' className={`img-fluid`} />
+                                <Image src={folio4} quality={75} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Soul Sound Case Study</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
@@ -69,7 +69,7 @@ const NewMblPortFolio = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.poliBox} ${styles.poliBox5}`}>
-                                <Image src={folio5} alt='BitsWits' className={`img-fluid`} />
+                                <Image src={folio5} quality={75} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>eride Case Study</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
@@ -78,7 +78,7 @@ const NewMblPortFolio = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.poliBox} ${styles.poliBox6}`}>
-                                <Image src={folio6} alt='BitsWits' className={`img-fluid`} />
+                                <Image src={folio6} quality={75} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>PRO Health Case Study</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>

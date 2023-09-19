@@ -87,7 +87,7 @@ const NewhomeFaqs = () => {
                             </h2>
                         </Col>
                         <Col lg={4}>
-                        <Link className={styles.about} href="#">AlL Blogs</Link>
+                        <Link className={styles.about} href="#">Connect Now</Link>
                         </Col>
                     </Row>
                     <Row>

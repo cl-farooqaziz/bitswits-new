@@ -11,8 +11,6 @@ const nextConfig = {
       }
     ]
   }
-
-  
 }
 
 rewrites: async () => [

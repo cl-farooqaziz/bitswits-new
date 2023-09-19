@@ -120,7 +120,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     React native apps allow building one application that runs on both iOS and Android from a single JavaScript codebase. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -137,7 +137,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     For near-native performance, React Native compiles native code. It doesn’t have hybrid lag like other cross-platform options
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -154,7 +154,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Development is accelerated by the ability to reuse a significant amount of code, such as business logic and APIs, between iOS and Android.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -171,7 +171,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Live reloading speeds the development process by allowing code updates to be made instantly
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -188,7 +188,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     At BitsWits, our team utilizes the active open source React Native framework to build applications without bugs.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -205,7 +205,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -222,7 +222,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     <span className='grdiant font-bold'>React native app developers</span> build apps utilizing well-known React pattern libraries and common native technologies like Xcode, Android Studio, etc. 
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -240,7 +240,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -259,7 +259,7 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     The built-in mobile platform APIs allow for the straightforward incorporation of features like camera, location, and storage.
                     </p>
-                    <h5 class="font14">
+                    <h5 className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </h5>
@@ -299,7 +299,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our <span className='grdiant font-bold'>React native app developers</span> provide the best-quality services as per their expertise and experience, which ensures excellence in all aspects of your application. 
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -322,7 +322,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                <span className='grdiant font-bold'>  React Native app developers</span> at BitsWits have successfully delivered complicated projects for satisfied clients across multiple industries, which portrays their capabilities and abilities.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -345,7 +345,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 For quick prototypes and prompt delivery, our React native app developers efficiently utilize <span className='grdiant font-bold'>React Native development</span> features. Now is the time to say NO to all the slower and older applications.
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>
@@ -368,7 +368,7 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 The team at BitsWits not only delivers the app but provides maintenance, improvements, and lifetime support. Isn’t that all you need?
                                 </p>
-                                <h5 class="font14 fyColor3">
+                                <h5 className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                                 </h5>

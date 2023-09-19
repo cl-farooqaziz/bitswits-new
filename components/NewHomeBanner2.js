@@ -27,7 +27,7 @@ const NewHomeBanner = () => {
                             </div>
 
                             <div className='mt-5 text-center'>
-                                <Image src={BannerImage} className={styles.secImage}/>
+                                <Image src={BannerImage} className={styles.secImage} loading="eager" unoptimized={true}/>
                             </div>
 
                         </Col>
