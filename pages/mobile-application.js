@@ -12,7 +12,7 @@ import NewMblGlobal from '@/components/NewMblGlobal';
 import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
 import NewMblNextProject from '@/components/NewMblNextProject';
-import NewMblCapabilities from '@/components/NewMblCapabilities';
+import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewMblPortFolio from '@/components/NewMblPortFolio';
@@ -42,7 +42,7 @@ export default function Home() {
             <NewHomeHear />
             <NewMblMaintain />
             <NewMblPortFolio />
-            <NewMblCapabilities />
+            <Capabilities/>
             <Newsuccess />
             <NewMblGlobal />
             <NewMblSlider />

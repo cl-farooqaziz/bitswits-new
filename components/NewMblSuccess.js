@@ -42,11 +42,10 @@ const Newsuccess = () => {
                                     <span className='font16 white'>Contact us without obligation by email or phone and secure your free consultation.</span>
                                     <Link href="#" className={styles.sucssBtn}>Call Now!</Link>
                                 </div>
+                                <Image src={team1} alt='BitsWits' className={`${styles.befImg} img-fluid`} />
                             </div>
                         </Col>
-
                     </Row>
-                    <Image src={team1} alt='BitsWits' className={`${styles.befImg} img-fluid`} />
                 </Container>
 
             </section>

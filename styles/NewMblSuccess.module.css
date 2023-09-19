@@ -1,13 +1,12 @@
 .happens {
   background-color: black;
-  padding-bottom: 350px;
-  position: relative;
+  padding: 250px 0 350px;
 }
 
 .befImg {
   position: absolute;
-  top: 18.5%;
-  right: 18.3%;
+  top: -2%;
+  right: 3%;
 }
 
 .happens h2 {
@@ -28,6 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .sucssBox {
@@ -60,13 +60,13 @@
 
 @media screen and (max-width: 1600px) {
   .befImg {
-    right: 12%;
+    right: 3%;
   }
 }
 
 @media screen and (max-width: 1536px) {
   .befImg {
-    right: 10.5%;
+    right: 3%;
   }
 }
 

@@ -33,7 +33,7 @@ const Capabilities = () => {
                 <Container className='qtech'>
                     <Row className={styles.posttext}>
                         <Col xl={12}>
-                            <h3>Capabilities</h3>
+                            <h3>Process</h3>
                         </Col>
                         <Col xl={12}>
                             <div className={styles.build}>
@@ -70,43 +70,20 @@ const Capabilities = () => {
 
                                         <div className={styles.deter}>
                                             <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                            <p>We begin by comprehending the objectives, target audiences, user base, and features of your app.</p>
 
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
-                                        </div>
-                                    </Col>
-                                    <Col xl={6}>
-                                        <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
-                                        </div>
-                                    </Col>
-
-                                </Row>
-
-
-
-
-
-
-                            </div>
-
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={6}>
-                                        <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
-                                        </div>
-                                        <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
-
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Determine UX challenges & goals
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                competitor analysis.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Map our user personas and use cases.
+                                            </p>
 
                                         </div>
                                     </Col>
@@ -127,12 +104,21 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                            <h3>Requirements Gathering</h3>
+                                            <p>We work together to define precise platform requirements, UI/UX requirements, and thorough specs.</p>
 
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Monitoring and maintenance.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Optimizing performance post-release.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Post launch QA and optimization.
+                                            </p>
 
                                         </div>
                                     </Col>
@@ -153,12 +139,56 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                            <h3>Design and Prototyping</h3>
+                                            <p>Wireframing and prototyping are tools we use to create flexible designs that are platform-optimized.</p>
 
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Mapping out app structure and flow.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Designing low-fidelity skeletal framework.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Enabling quick revision based on feedback. 
+                                            </p>
+
+                                        </div>
+                                    </Col>
+                                    <Col xl={6}>
+                                        <div>
+                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                        </div>
+                                    </Col>
+
+                                </Row>
+                            </div>
+
+                            <div className={styles.high}>
+                                <Row>
+                                    <Col xl={6}>
+                                        <div className={styles.solved}>
+                                            <Link href='#' className={styles.research}>Research</Link>
+                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                        </div>
+                                        <div className={styles.deter}>
+                                            <h3>Development</h3>
+                                            <p>Our professionals create cross-platform apps with reusable content and components by using frameworks like React Native.</p>
+
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Applying visual branding assets and styles.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Crafting intuitive user experiences.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Creating an interactive prototype.
+                                            </p>
 
                                         </div>
                                     </Col>
@@ -178,12 +208,21 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                            <h3>Testing and QA</h3>
+                                            <p>Thorough platform testing guarantees that your software offers the best user experience possible everywhere.</p>
 
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Applying visual branding assets and styles.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Crafting intuitive user experiences.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Creating an interactive prototype.
+                                            </p>
 
                                         </div>
                                     </Col>
@@ -203,13 +242,21 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We will begin every project with a discovery phase to determine the actual problem to solve. Because "a problem well defined is a problem half solved."</p>
+                                            <h3>Launch and Deployment</h3>
+                                            <p>We assist you with platform launch across the board and offer continuing support and maintenance.</p>
 
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Determine UX challenges & goals</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Conduct user research & interviews</p>
-                                            <p className={styles.cen}>  <Image src={close} className='img-fluid' /> Analyze data for targeted UX solutions</p>
-
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Applying visual branding assets and styles.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Crafting intuitive user experiences.
+                                            </p>
+                                            <p className={styles.cen}>
+                                                <Image src={close} className='img-fluid' />
+                                                Creating an interactive prototype.
+                                            </p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>

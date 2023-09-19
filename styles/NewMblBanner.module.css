@@ -224,8 +224,8 @@
 
 .locInner {
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
+  align-items: center;
+  gap: 10px;
   padding: 0;
 }
 
@@ -316,6 +316,10 @@
     font-size: 12px;
   }
 
+  .read {
+    margin-top: 35px;
+  }
+
   .secImage {
     width: 100%;
     margin-top: 20px;
@@ -327,12 +331,12 @@
   }
 
   .read .free {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
   }
 
   .read .free p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .locations .locInner {
