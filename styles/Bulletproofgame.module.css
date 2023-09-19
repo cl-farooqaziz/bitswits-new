@@ -1,8 +1,8 @@
-.creative {
-  background-color: black;
-  padding-bottom: 150px;
-}
 
+.creative2{
+  padding-bottom: 150px;
+  background-color: black;
+}
 
 .dscool {
   display: flex;
@@ -63,9 +63,9 @@
 
 .tested img {
   position: absolute;
-  width: 790px;
+  width: 990px;
   right: 0;
-  height: 664px;
+  height: 864px;
   bottom: 0;
   z-index: 1;
 }
@@ -77,7 +77,7 @@
     width: 1044px;
     right: 0;
     height: 864px;
-    bottom: 149px;
+    bottom: 0;
     z-index: 1;
   }
 
@@ -92,7 +92,7 @@
     width: 889px;
     right: 0;
     height: 788px;
-    bottom: 149px;
+    bottom: 0;
     z-index: 1;
   }
 
@@ -105,7 +105,7 @@
     width: 789px;
     right: 0;
     height: 688px;
-    bottom: 149px;
+    bottom: 0;
     z-index: 1;
 }
 
