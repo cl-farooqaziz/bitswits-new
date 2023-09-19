@@ -44,7 +44,7 @@ const NewHomeWho = () => {
                     <Image src={WhoImage} className={styles.secImage} />
                 </div>
 
-                <div class="mixColor1"></div>
+                <div className="mixColor1"></div>
 
 
             </section >
