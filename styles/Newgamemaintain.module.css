@@ -307,9 +307,16 @@
 
  @media screen and (max-width: 480px) {  
 
-    .book, .about{
-       font-size: 12px;
-   }
+    .book, .about {
+        font-size: 10px!important;
+    }
+
+    .app,.app4,.app6, .app2,.app5,.app7{
+        padding: 30px 28px 9px 33px;
+    }
+    
+
+  
    .newHomeBg h1 {
     font-size: 30px;
    }
