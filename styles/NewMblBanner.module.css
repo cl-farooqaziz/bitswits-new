@@ -252,7 +252,6 @@
   }
 }
 
-
 @media screen and (max-width: 991px) {
   .just {
     font-size: 18px;
@@ -322,14 +321,14 @@
     font-size: 12px;
   }
 
-  .read {
-    margin-top: 35px;
-  }
-
   .secImage {
     width: 100%;
     margin-top: 20px;
     margin-left: 0;
+  }
+
+  .read {
+    margin-top: 35px;
   }
 
   .take p {

@@ -42,7 +42,7 @@ export default function Home() {
             <NewHomeHear />
             <NewMblMaintain />
             <NewMblPortFolio />
-            <Capabilities/>
+            <Capabilities />
             <Newsuccess />
             <NewMblGlobal />
             <NewMblSlider />

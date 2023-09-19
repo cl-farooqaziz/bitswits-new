@@ -124,7 +124,7 @@
 }
 
 .read {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 .read .free {
@@ -224,9 +224,8 @@
 
 .locInner {
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 0;
+  align-items: center;
+  gap: 10px;
 }
 
 .subInner {
@@ -322,17 +321,21 @@
     margin-left: 0;
   }
 
+  .read {
+    margin-top: 35px;
+  }
+
   .take p {
     font-size: 14px;
   }
 
   .read .free {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
   }
 
   .read .free p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .locations .locInner {

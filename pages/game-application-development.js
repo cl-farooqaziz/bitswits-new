@@ -54,7 +54,7 @@ export default function Gameapplicationdevelopment() {
 
             <Newsuccess />
             <Newglobal />
-            <Capabilities/>
+            <Capabilities />
             <Newslider />
             <Technologieswe/>
             <Homenextproject/>

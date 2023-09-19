@@ -21,7 +21,7 @@ import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
-
+ 
 
 
 const NewHomeBanner = () => {
@@ -83,9 +83,9 @@ const NewHomeBanner = () => {
                         </Col>
                     </Row>
                 </Container>
-                <div className={`${styles.bannerform} blkgrdiant py-5`}>
+                <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
                     <Container>
-                        <Row className='align-items-center'>
+                        <Row>
                             <Col lg={7}>
                                 <div className={styles.make}>
                                     <form className={styles.formsbanner}>
@@ -120,62 +120,62 @@ const NewHomeBanner = () => {
                                         </p>
                                     </div>
                                     <Row className={styles.locations}>
-                                        <Col lg={8} md={6} className={`${styles.locInner}`}>
+                                        <Col lg={4} md={6} className={`${styles.locInner} col-6`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon11} className='img-fluid' />
                                             </div>
                                             <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-2'>Delaware</p>
+                                                <p className='font12 font-bold fontf mb-1'>USA</p>
                                                 <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
                                                     +1 833 500 6007
                                                 </Link>
-                                                <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
+                                                {/* <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
                                                     +1 312 379 5987
-                                                </Link>
+                                                </Link> */}
                                             </div>
-                                            <div className={`${styles.subInner} ms-3`}>
-                                                <p className='font12 font-bold fontf mb-2'>California</p>
+                                            {/* <div className={`${styles.subInner} ms-3`}>
+                                                <p className='font12 font-bold fontf mb-1'>California</p>
                                                 <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
                                                     +1 312 379 5987
                                                 </Link>
                                                 <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
                                                     +1 833 500 6007
                                                 </Link>
-                                            </div>
+                                            </div> */}
                                         </Col>
                                         <Col lg={4} md={6} sm={6} className={`${styles.locInner} col-6`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon12} className='img-fluid' />
                                             </div>
                                             <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-2'>Sharjah</p>
+                                                <p className='font12 font-bold fontf mb-1'>Middle East</p>
                                                 <Link href="tel:+97 155 503 1266" className='font12 font-regular fontf white texdocration'>
                                                     +97 155 503 1266
                                                 </Link>
                                             </div>
                                         </Col>
-                                        <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
+                                        <Col lg={4} md={6} className={`${styles.locInner} col-6`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon13} className='img-fluid' />
                                             </div>
                                             <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-2'>Karachi</p>
+                                                <p className='font12 font-bold fontf mb-1'>Asia</p>
                                                 <Link href="tel:+92 346 828 0101" className='font12 font-regular fontf white texdocration'>
                                                     +92 346 828 0101
                                                 </Link>
                                             </div>
                                         </Col>
-                                        <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
+                                        {/* <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon14} className='img-fluid' />
                                             </div>
                                             <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-2'>Malaysia</p>
+                                                <p className='font12 font-bold fontf mb-1'>Malaysia</p>
                                                 <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
                                                     Labuan
                                                 </Link>
                                             </div>
-                                        </Col>
+                                        </Col> */}
                                     </Row>
                                 </div>
                             </Col>
