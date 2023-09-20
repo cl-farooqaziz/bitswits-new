@@ -1,13 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 import styles from '@/styles/Capabilities.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import team1 from '../public/newHomePageImages/discuss.png'
+//
+import team1 from '../public/newHomePageImages/1.png'
+import team2 from '../public/newHomePageImages/2.png'
+import team3 from '../public/newHomePageImages/3.png'
+import team4 from '../public/newHomePageImages/4.png'
+import team5 from '../public/newHomePageImages/5.png'
+import team6 from '../public/newHomePageImages/6.png'
 import close from '../public/newHomePageImages/close.png'
-import Image from 'next/image';
 
 const Capabilities = () => {
 
@@ -124,7 +130,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image src={team2} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -159,7 +165,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image src={team3} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -194,7 +200,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image src={team4} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -228,7 +234,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image src={team5} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -261,16 +267,12 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image src={team6} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
                                 </Row>
                             </div>
-
-
-
-
 
                         </Slider>
                     </Row>

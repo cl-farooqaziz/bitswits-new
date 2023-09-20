@@ -103,19 +103,19 @@ const ServicesBanner = (props) => {
                                         <Image alt="bitswits" src={news2} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={news3} className="img-fluid" />
+                                        <Image alt="bitswits" src={news3} className="img-fluid w-50" />
                                     </div>
                                     <div className={styles.strpImg}>
                                         <Image alt="bitswits" src={news4} className="img-fluid" />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={news5} className={`${styles.clutchImg} img-fluid`} />
+                                        <Image alt="bitswits" src={news5} className={`${styles.clutchImg} img-fluid w-50`} />
                                     </div>
                                     <div className={styles.strpImg}>
                                         <Image alt="bitswits" src={news6} className={`${styles.clutchImg} img-fluid`} />
                                     </div>
                                     <div className={styles.strpImg}>
-                                        <Image alt="bitswits" src={news7} className={`${styles.clutchImg} img-fluid`} />
+                                        <Image alt="bitswits" src={news7} className={`${styles.clutchImg} img-fluid w-50`} />
                                     </div>
                                 </Slider>
                             </div>
