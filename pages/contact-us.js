@@ -83,7 +83,7 @@ export default function ContactUs() {
                                             <h4 className="f-14 font-bold mb-0">Mail to Our Sales Department</h4>
                                             <ul className="ps-0 mt-3 mb-3">
                                                 <li>
-                                                    <Link href="mailto:info@bitswits.com" className="grdiant font-bold">Contact Email</Link>
+                                                    <Link href="mailto:info@bitswits.co" className="grdiant font-bold">Contact Email</Link>
                                                 </li>
                                                 <li className='font14 font-bold'>Skype - Daniel</li>
                                                 <li className='font14 font-bold'>Phone:

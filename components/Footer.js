@@ -226,7 +226,7 @@ const Footer = () => {
                   <BsFillEnvelopeFill size={20} className={styles.email} />
                 </div>
                 <div>
-                  <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.com"> info@bitswits.com</Link>
+                  <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co"> info@bitswits.com</Link>
                 </div>
               </div>
               <div className={styles.fill}>

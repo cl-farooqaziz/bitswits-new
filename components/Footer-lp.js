@@ -244,7 +244,7 @@ const Footerlp = () => {
                                 </ul>
                                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                                     <li className="mb-2">
-                                        <Link href="mailto:info@bitswits.com">
+                                        <Link href="mailto:info@bitswits.co">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={mail}
 
