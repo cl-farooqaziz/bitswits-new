@@ -437,7 +437,7 @@ export default function iosappdevelopmentcompanylp() {
 
             <Lookingforlp
 
-                tilte={<>    <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Technology Stack</h5> </>}
+                tilte={<>    <h5 className='font20 fontf font-semibold t-center letterspace black'>Technology Stack</h5> </>}
                 title2={<> <h2 className='font65 black fontf font-bold line60 black mb-3 t-center'>
 
                     Bring Out The Best Of Your <span className='grdiant'>Mobile Application With Our Scalable Technology</span> Stack

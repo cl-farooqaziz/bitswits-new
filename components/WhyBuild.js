@@ -10,7 +10,7 @@ const WhyBuild = (props) => {
                 <Container>
                     <Row className='aboutfold'>
                         <Col md={12}>
-                            <h3 className='font20 fontf font-semibold letterspace fyColor2 text-center mb-0'>{props.title}</h3>
+                            <h3 className='font20 fontf font-semibold letterspace fyColor2 text-center mb-2'>{props.title}</h3>
                         </Col>
                         <Col lg={12}>
                             {props.subtitle}

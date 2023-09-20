@@ -46,8 +46,8 @@ const Digitallp = () => {
             <section className={styles.ourProject}>
                 <Container>
                     <Row className={styles.project}>
-                        <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace white mb-3 mb-lg-0'>Industries</h5>
+                        <Col lg={12}>
+                            <h5 className='font20 fontf font-semibold t-center letterspace white mb-3 mb-lg-2'>Industries</h5>
                         </Col>
                         <Col lg={12}>
                             <p className='font12 white fontf font-meduim letterspace t-center mb-0'>WE SERVE A RANGE OF SECTORS</p>

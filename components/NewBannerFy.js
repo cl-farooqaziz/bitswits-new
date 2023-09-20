@@ -165,7 +165,7 @@ const NewBannerFy = (props) => {
                                             <Image alt="bitswits" src={icon2} className='img-fluid mt-2' />
                                         </div>
                                         <div className={styles.subInner}>
-                                            <p className='font10 font-bold fontf mb-0 white'>UAE</p>
+                                            <p className='font10 font-bold fontf mb-0 white'>Middle East</p>
                                             <Link href="#" className='font10 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
                                             </Link>
@@ -177,7 +177,7 @@ const NewBannerFy = (props) => {
                                             <Image alt="bitswits" src={icon4} className='img-fluid mt-1' />
                                         </div>
                                         <div className={styles.subInner}>
-                                            <p className='font10 font-bold fontf mb-0 white'>MALAYSIA</p>
+                                            <p className='font10 font-bold fontf mb-0 white'>Asia</p>
                                             <Link href="#" className='font10 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
                                             </Link>

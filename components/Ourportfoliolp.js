@@ -58,8 +58,8 @@ const Ourportfoliolp = () => {
             <section className={styles.ourportfolio}>
                 <Container>
                     <Row className={styles.project}>
-                        <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Work</h5>
+                        <Col lg={12}>
+                            <h5 className='font20 fontf font-semibold t-center letterspace black'>Work</h5>
                         </Col>
                         <Col lg={12}>
                             <h2 className='font65 black fontf font-bold line60 black t-center'>Our <span className='grdiant'>Portfolio</span></h2>

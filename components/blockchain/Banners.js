@@ -127,7 +127,7 @@ function Banners() {
                                     <div className='d-inline'>
                                         <div className='d-flex justify-content-between align-items-center'>
                                             <span className='font14 text-white fw400'>Years Of Experience</span>
-                                            <span className='txt-primary'>
+                                            <span className='text-white'>
 
                                                 <CountUp duration={4.75} end={10} delay={3000} enableScrollSpy /> <span>+</span>
                                             </span>

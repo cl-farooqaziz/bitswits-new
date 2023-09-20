@@ -43,8 +43,8 @@ function ClientsThinklp() {
             <section className={styles.ourClients}>
                 <Container>
                     <Row className={styles.clients}>
-                        <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black mb-0'>Reviews</h5>
+                        <Col lg={12}>
+                            <h5 className='font20 fontf font-semibold t-center letterspace black mb-2'>Reviews</h5>
                         </Col>
                         <Col lg={12}>
                             <h2 className='font50 black fontf font-bold line60 mb-0 t-center'>

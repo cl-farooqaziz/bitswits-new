@@ -51,7 +51,7 @@ const Lookingforlp = (props) => {
             <section className={`${styles.lookingfor} pt-4`}>
                 <Container>
                     <Row className={`${styles.project} justify-content-between`}>
-                        <Col lg={2}>
+                        <Col lg={12}>
                           {props.tilte}
                         </Col>
                         <Col lg={12}>
