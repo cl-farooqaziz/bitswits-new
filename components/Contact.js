@@ -1,14 +1,16 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Contact.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import { FaRegEnvelope, FaPhoneAlt, FaLinkedin, FaFacebookSquare, FaInstagram, FaDribbble, FaPinterest, FaBehance } from 'react-icons/fa';
-import icon from '../public/images/footer/icon.png'
+//
+import img1 from '../public/images/agencylogos/agency-logo1.png'
+import img2 from '../public/images/agencylogos/agency-logo2.png'
+import img3 from '../public/images/agencylogos/agency-logo3.png'
+import img4 from '../public/images/agencylogos/agency-logo4.png'
 
 
 const Contact = (props) => {
-
 
     const [score, setScore] = useState('Time to Book The Call');
 
@@ -69,33 +71,20 @@ const Contact = (props) => {
                                     LET’S <span className='grdiant'>TALK ABOUT YOUR</span> PROJECTS
                                 </h2>
                                 <p className='font18 fontf mb-4'>Have a project idea? Tell us more about the details and we'll get back to you within 24 hours</p>
-                                <div className={styles.getInTch}>
-                                    <div className={styles.touch}>
-                                        <FaRegEnvelope />
-                                        <span>info@bitswits.co</span>
-                                    </div>
-                                    <div className={styles.touch}>
-                                        <FaPhoneAlt />
-                                        <span>+1 (833) 500-6007 </span>
-                                    </div>
-                                    <div className={styles.touch}>
-                                        <FaPhoneAlt />
-                                        <span>+1 (312) 379 5987</span>
-                                    </div>
-
-                                </div>
-                                <div className={styles.social}>
-                                    <h5 className='font16 fontf mt-5 mb-3'>OUR SOCIALS</h5>
-                                    <div className={styles.socialIcn}>
-                                        <Link href="#"> <FaLinkedin className={styles.email} /></Link>
-                                        <Link href="#"> <FaFacebookSquare className={styles.email} /></Link>
-                                        <Link href="#"> <FaInstagram className={styles.email} /></Link>
-                                        <Link href="#"> <FaDribbble className={styles.email} /></Link>
-                                        <Link href="#" > <Image alt="bitswits" src={icon} className={`${styles.email}`} /> </Link>
-                                        <Link href="#"> <FaPinterest className={styles.email} /></Link>
-                                        <Link href="#"> <FaBehance className={styles.email} /></Link>
-                                    </div>
-                                </div>
+                                <Row className='g-5 mt-3'>
+                                    <Col md={6}>
+                                        <Image src={img1} className='img-fluid' alt='bitswits' />
+                                    </Col>
+                                    <Col md={6}>
+                                        <Image src={img2} className='img-fluid' alt='bitswits' />
+                                    </Col>
+                                    <Col md={6}>
+                                        <Image src={img3} className='img-fluid' alt='bitswits' />
+                                    </Col>
+                                    <Col md={6}>
+                                        <Image src={img4} className='img-fluid' alt='bitswits' />
+                                    </Col>
+                                </Row>
                             </div>
                         </Col>
                         <Col lg={7}>

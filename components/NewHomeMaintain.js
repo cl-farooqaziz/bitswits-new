@@ -18,7 +18,6 @@ import mobileapp from '../public/mobileapp.json';
 import game from '../public/game.json';
 import blockchain from '../public/blockchain.json';
 import ai from '../public/artificial.json';
-
 import web from '../public/webapp.json';
 import uiux from '../public/uiuxapp.json';
 import arvrapp from '../public/arvr.json';
