@@ -84,13 +84,29 @@
   justify-content: center;
 }
 
-.imgBox img{
+.imgBox img {
   filter: brightness(500);
   width: 500px;
 }
 
-.soluCard h5 img{
+
+
+.soluCard a img {
   filter: grayscale();
+}
+
+.soluCard a:hover {
+  color: #5275e9;
+}
+
+.soluCard a span {
+  color: #5275e9;
+  transition: all .5s ease-in-out;
+}
+
+.soluCard a:hover span {
+  margin-right: 10px;
+  transition: all .5s ease-in-out;
 }
 
 .soluCard h5 {
@@ -99,9 +115,7 @@
   color: #a7a7a7;
 }
 
-.soluCard h5 span{
-  color: #5275e9;
-}
+
 
 .soluCard p {
   font-size: 14px;
@@ -123,13 +137,15 @@
   gap: 10px;
 }
 
-.borderleft{
+.borderleft {
   border-left: 1px solid #e5e5e5;
 }
-.borderright{
-  border-right:1px solid #e5e5e5;
+
+.borderright {
+  border-right: 1px solid #e5e5e5;
 }
-.borderbottom{
+
+.borderbottom {
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -166,5 +182,5 @@
   .soluRow {
     margin-top: 0px !important;
   }
- 
+
 }

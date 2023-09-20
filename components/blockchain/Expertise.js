@@ -30,7 +30,7 @@ const Expertise = (props) => {
 
     return (
         <>
-            <section className='secPad'>
+            <section className={style.secPad}>
                 <Container>
                     <Row>
                         <Col lg={9} className='pb-4'>

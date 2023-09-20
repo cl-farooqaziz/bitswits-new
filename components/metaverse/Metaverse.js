@@ -29,10 +29,10 @@ const Metaverse = (props) => {
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
                                                 <span className='text-white line2 mb-3'>
-                                                    <span className='f28 fw700'>Metaverse <span className='txt-primary'>NFT</span></span>
+                                                    <span className={`${style.f28} fw700`}>Metaverse <span className='txt-primary'>NFT</span></span>
                                                     <span className='f20 fw600 d-block'>Development Services</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2 pb-1 pb-sm-3'>
+                                                <p className={`text-white font11 pt-2 ${style.cardpara}`}>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>
@@ -54,10 +54,10 @@ const Metaverse = (props) => {
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
                                                 <span className='text-white line2 mb-3'>
-                                                    <span className='f28 fw700'>Metaverse <span className='txt-primary'>Decentralized</span></span>
+                                                    <span className={`${style.f28} fw700`}>Metaverse <span className='txt-primary'>Decentralized</span></span>
                                                     <span className='f20 fw600 d-block'>Development Services</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2 pb-1 pb-sm-3'>
+                                                <p className={`text-white font11 pt-2 ${style.cardpara}`}>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>
@@ -82,10 +82,10 @@ const Metaverse = (props) => {
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
                                                 <span className='text-white line2 mb-3'>
-                                                    <span className='f28 fw700'>Metaverse <span className='txt-primary'>NFT</span></span>
+                                                    <span className={`${style.f28} fw700`}>Metaverse <span className='txt-primary'>NFT</span></span>
                                                     <span className='f20 fw600 d-block'>Development Services</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2 pb-1 pb-sm-3'>
+                                                <p className={`text-white font11 pt-2 ${style.cardpara}`}>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>
@@ -107,10 +107,10 @@ const Metaverse = (props) => {
                                         <div className={`${style.gap2} d-flex justify-content-left align-items-center`}>
                                             <div className={style.cardContent}>
                                                 <span className='text-white line2 mb-3'>
-                                                    <span className='f28 fw700'>Metaverse <span className='txt-primary'>Decentralized</span></span>
+                                                    <span className={`${style.f28} fw700`}>Metaverse <span className='txt-primary'>Decentralized</span></span>
                                                     <span className='f20 fw600 d-block'>Platforms Development</span>
                                                 </span>
-                                                <p className='text-white font11 pt-2 pb-1 pb-sm-3'>
+                                                <p className={`text-white font11 pt-2 ${style.cardpara}`}>
                                                     Level up your metaverse app by enhancing the metaverse economy through digital assets. NFTs offer users a way to buy and sell digital assets in the virtual world transparently and securely.
                                                 </p>
                                                 <div className='cardImage'>
@@ -120,7 +120,7 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImageFour}>
-                                                <Image src={CardFour}  className=""/>
+                                                <Image src={CardFour} className="" />
                                             </div>
                                         </div>
                                     </div>

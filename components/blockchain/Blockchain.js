@@ -23,7 +23,7 @@ const Blockchain = (props) => {
 
     return (
         <>
-            <section>
+            <section className={style.secPad}>
                 <Container>
                     <Row className='justify-content-center align-items-center mb-5'>
                         <Col lg={12}>

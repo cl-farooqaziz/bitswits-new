@@ -124,10 +124,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     To expand the possibilities of your ecommerce shop, Magento developers construct new modules that are specifically suited to your individual business demands.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -141,10 +141,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our Magento enterprise developers expertly connect the highest quality third-party softwares, including ERP, CRM, and marketing automation solutions.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -158,10 +158,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our designers produce distinctive, brand-aligned themes that entice customers to visit your shop.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -175,10 +175,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our Magento enterprise solutions include tools and data analysis to improve pricing, promotions, and product listings for greater conversions and sales.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -192,10 +192,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     With the aid of automation and data insights, Magento enterprise developers at BitsWits assist you in developing focused campaigns and customer experiences.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -209,10 +209,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Magento enterprise developers builds an adaptable, safe, and high-performing infrastructure that can expand with the growth of your company.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -226,10 +226,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     The team at BitsWits consists of professional Magento enterprise developers who are officially certified by Magento for their skills.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -244,10 +244,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our Magento developers have extensive experience on complex enterprise-scale Magento projects. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
 
                 </div>
             </Col>
@@ -263,10 +263,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Magento enterprise Solutions provide quality and value by reducing costs, timelines, and other obstacles. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -304,10 +304,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>Magento Enterprise Solutions</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -327,10 +327,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>app developers</span> regularly optimize and update your application to keep it resilient and competitive over time.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -350,10 +350,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits is known for its reliability. Our <span className='grdiant font-bold'>app developers</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -373,10 +373,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>Magento Enterprise Solutions</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>

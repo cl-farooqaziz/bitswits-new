@@ -117,10 +117,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     <span className='grdiant font-bold'>Cross-platform apps</span> work across iOS, Android, web, and other platforms to access a global target market. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -134,10 +134,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                    <span className='grdiant font-bold'> Cross-platform app developers</span> build multiple platforms from one codebase, which reduces development time, resources, and costs. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -151,10 +151,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Cross-platform applications allow a unified UI/UX across devices for brand consistency.  
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -168,10 +168,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>cross-platform app developers improve</span> updates and bug fixes with a shared codebase issued simultaneously across platforms.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -185,10 +185,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Apps that are cross-platform may be used on new gadgets and platforms without having to be rebuilt.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -202,10 +202,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     At BitsWits, professional <span className='grdiant font-bold'>cross-platform app developers</span> focus on smooth customer engagement and experience.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -219,10 +219,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     A single cross-platform launch speeds up the process of entering the market and responses from consumers.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -237,10 +237,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     BitsWits is one of the many <span className='grdiant font-bold'>cross-platform app development company</span> that helps in effective resource allocation.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
 
                 </div>
             </Col>
@@ -256,10 +256,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>cross-platform app developers</span> unify cross-platform access to native device features, including the camera, GPS, and notification alerts.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
         </Row>
@@ -296,10 +296,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Utilize the knowledge of our <span className='grdiant font-bold'>cross-platform app developers</span> to create adaptable codebases that deliver simplified, high-quality experiences on iOS, Android, and other platforms.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -319,10 +319,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our <span className='grdiant font-bold'>cross-platform app developers</span> build powerful initiatives that easily jump across platforms due to solid cross-platform designs and strict multi-platform testing procedures.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -342,10 +342,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our expertise across platforms enables us to build smooth app experiences that seem genuine on any device, allowing your idea to take a fly.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -365,10 +365,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Our skilled <span className='grdiant font-bold'>cross-platform app developers</span> use a single codebase to create, test, and deploy high-performing apps across platforms, saving you time and money.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
