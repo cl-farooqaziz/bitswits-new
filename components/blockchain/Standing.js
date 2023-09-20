@@ -26,7 +26,7 @@ const Standing = (props) => {
     };
     return (
         <>
-            <section className='secPad'>
+            <section className={style.secPad}>
                 <Container>
                     <Row className='justify-content-center text-center align-items-center mb-lg-5'>
                         <Col lg={12} >
@@ -178,7 +178,7 @@ const Standing = (props) => {
                         </Row>
                     </div>
 
-                    <div className='d-none d-lg-block'>
+                    <div className='d-none d-lg-block mt-5 pt-5'>
                         <Row className='mt-5 mb-5'>
                             <Col lg={12} className='position-relative'>
                                 <Image src={FullView} className='img-fluid' alt="Blockchain" />

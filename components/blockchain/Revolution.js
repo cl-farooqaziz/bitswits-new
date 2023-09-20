@@ -27,7 +27,7 @@ const Revolution = (props) => {
 
     return (
         <>
-            <section className='secPad'>
+            <section className={style.secPad}>
                 <Container>
                     <Row className='justify-content-center align-items-center mb-5 mt-5'>
                         <Col lg={12}>

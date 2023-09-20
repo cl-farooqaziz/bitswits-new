@@ -1,8 +1,13 @@
-.feature{
+.secPad {
+    padding-top: 250px;
+}
+
+.feature {
     /* padding: 40px; */
     margin-bottom: 20px;
 }
-.feature{
+
+.feature {
     /* background-image: url(../public/images/shadows.png); */
     /* background-repeat: no-repeat;
     background-size: contain; */
@@ -13,18 +18,21 @@
     margin: 20px 20px 0px 20px;
     filter: drop-shadow(0 0 3rem rgb(255, 72, 209));
 }
-.feature img{
-    transition: all 1s ease; 
+
+.feature img {
+    transition: all 1s ease;
     width: 100%;
 }
-.feature img:hover{
+
+.feature img:hover {
     filter: grayscale(1);
 }
 
-.feature span{
+.feature span {
     text-align: center;
-    color: #676767; 
+    color: #676767;
 }
+
 /* .feature span:hover{
     color: var(--mry);
 }
@@ -36,26 +44,34 @@
     padding-right: 1.2rem;
 }
 
-.feature:hover span{
+.feature:hover span {
     color: var(--mry);
 }
-.standing h4:hover{
+
+.standing h4:hover {
     color: var(--mry);
 }
-.br1{
-    border-right:1px solid #676767;
-} 
-.bb1{
-    border-bottom:1px solid #676767;
+
+.br1 {
+    border-right: 1px solid #676767;
+}
+
+.bb1 {
+    border-bottom: 1px solid #676767;
 }
 
 @media (max-width:768px) {
-    .br1 , .bb1{
+
+    .br1,
+    .bb1 {
         border: none;
     }
 }
+
 @media (max-width:1028px) {
-    .br1 , .bb1{
+
+    .br1,
+    .bb1 {
         border: none;
     }
 }

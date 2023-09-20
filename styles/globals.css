@@ -1191,9 +1191,24 @@ input::-webkit-inner-spin-button {
   text-align: justify;
 }
 
-.benefitscard h5 img {
+.benefitscard a img {
   filter: grayscale(1);
 }
+
+.benefitscard a:hover {
+  color: #5275e9;
+}
+
+.benefitscard a span {
+  color: #5275e9;
+  transition: all .5s ease-in-out;
+}
+
+.benefitscard a:hover span {
+  margin-right: 10px;
+  transition: all .5s ease-in-out;
+}
+
 
 .greyscale {
   filter: grayscale(1);

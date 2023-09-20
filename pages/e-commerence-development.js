@@ -42,16 +42,16 @@ export default function mobileappdevelopment() {
     // banner component data
     const heading = <>
         <h1 className='font60 white fontf font-bold mb-1 mb-1'>
-        Our  <br></br>
+            Our  <br></br>
             <span className='grdiant'> Expert Ecommerce Web Development  </span> <br></br>
-            Company Helps You Grow Your Business Worldwide. 
+            Company Helps You Grow Your Business Worldwide.
         </h1>
     </>
 
     const para = <>
 
         <p className='font16 fontf font-regular fyColor justify mt-2'>
-        With over 20 years of experience building successful online stores, our eCommerce website developers have the expertise to create high-converting sales for your business. 
+            With over 20 years of experience building successful online stores, our eCommerce website developers have the expertise to create high-converting sales for your business.
         </p>
 
         <ul className='mb-4 mt-2 p-0'>
@@ -65,7 +65,7 @@ export default function mobileappdevelopment() {
             </li>
             <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
-                Optimized Checkout Funnels 
+                Optimized Checkout Funnels
             </li>
             <li className="font15 fontf font-medium fyColor ">
                 <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
@@ -100,7 +100,7 @@ export default function mobileappdevelopment() {
     const whytitle = <>
         <h3 className='font50 fontf font-bold line60 text-center mb-0 white'>Precision, Performance, Perfection</h3>
         <h2 className='font30 fontf font-bold line30 text-center fyColor mb-3 mt-2'>
-        Let Our eCommerce Website Developers Can Develop Your Online Store From Scratch By Working On These Top Platforms. 
+            Let Our eCommerce Website Developers Can Develop Your Online Store From Scratch By Working On These Top Platforms.
         </h2>
     </>
 
@@ -119,15 +119,15 @@ export default function mobileappdevelopment() {
                         <Image src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    Magento 
+                        Magento
                     </h5>
                     <p className='white'>
-                    As eCommerce experts, we offer specialized design, development, and integration services for Magento stores with an extensive list of features.
+                        As eCommerce experts, we offer specialized design, development, and integration services for Magento stores with an extensive list of features.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -136,84 +136,84 @@ export default function mobileappdevelopment() {
                         <Image src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    Shopify
+                        Shopify
                     </h5>
                     <p className='white'>
-                    For effective operations, our eCommerce website developers create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps. 
+                        For effective operations, our eCommerce website developers create Shopify stores that are optimized and linked with POS, accounting, ERP, and custom apps.
 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' />
+                        <Image src={icon25} alt='BitsWits' className={styles.cardImage} />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    WooCommerce 
+                        WooCommerce
                     </h5>
                     <p className='white'>
-                    BitsWits utilizes WooCommerce for WordPress sites and adds extensions, payment connections, and shipping options. 
+                        BitsWits utilizes WooCommerce for WordPress sites and adds extensions, payment connections, and shipping options.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' />
+                        <Image src={icon26} alt='BitsWits' className={styles.cardImageTwo} />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    Salesforce Commerce Cloud
+                        Salesforce Commerce Cloud
                     </h5>
                     <p className='white'>
-                    On the Salesforce Commerce Cloud platform, our eCommerce website developers implement enterprise-level B2B and B2C services. 
+                        On the Salesforce Commerce Cloud platform, our eCommerce website developers implement enterprise-level B2B and B2C services.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' />
+                        <Image src={icon27} alt='BitsWits' className={styles.cardImage} />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    Oracle Commerce
+                        Oracle Commerce
                     </h5>
                     <p className='white'>
-                    On the Oracle eCommerce platform, we create adaptable, customizable omnichannel ecommerce experiences for users.
+                        On the Oracle eCommerce platform, we create adaptable, customizable omnichannel ecommerce experiences for users.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' />
+                        <Image src={icon28} alt='BitsWits' className={styles.cardImage} />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    SAP Commerce 
+                        SAP Commerce
                     </h5>
                     <p className='white'>
-                    For international firms, our SAP eCommerce solutions assist in combining several business systems into a unified eCommerce website development platform.
+                        For international firms, our SAP eCommerce solutions assist in combining several business systems into a unified eCommerce website development platform.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -222,15 +222,15 @@ export default function mobileappdevelopment() {
                         <Image src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    OpenCart 
+                        OpenCart
                     </h5>
                     <p className='white'>
-                    We create and modify OpenCart stores with responsive design, marketing tools, payment gateways, and shipping connections.
+                        We create and modify OpenCart stores with responsive design, marketing tools, payment gateways, and shipping connections.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -240,15 +240,15 @@ export default function mobileappdevelopment() {
                         <Image src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    X-Cart
+                        X-Cart
                     </h5>
                     <p className='white'>
-                    Multi-vendor markets with extensions for subscriptions, auctions, and specialized product design are implemented by our X-Cart specialists.
+                        Multi-vendor markets with extensions for subscriptions, auctions, and specialized product design are implemented by our X-Cart specialists.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
 
                 </div>
             </Col>
@@ -259,15 +259,15 @@ export default function mobileappdevelopment() {
                         <Image src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
-                    PrestaShop
+                        PrestaShop
                     </h5>
                     <p className='white'>
-                    We brand-specifically provide attractive themes, sales, and integrations to the PrestaShop CMS for eCommerce website development.
+                        We brand-specifically provide attractive themes, sales, and integrations to the PrestaShop CMS for eCommerce website development.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -279,7 +279,7 @@ export default function mobileappdevelopment() {
 
     const whytitle2 = <>
         <h2 className='font50 fontf font-bold line60 text-center black mb-3'>
-        Ready to Grow Your Business? Our <span className='grdiant'>eCommerce Web Development Company </span>Can Develop Interactive Online Stores 
+            Ready to Grow Your Business? Our <span className='grdiant'>eCommerce Web Development Company </span>Can Develop Interactive Online Stores
         </h2>
     </>
 
@@ -300,15 +300,15 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                Reach More Customers Online 
+                                    Reach More Customers Online
                                 </h4>
                                 <p className='font14'>
-                                Our <span className='grdiant font-bold'>eCommerce website developers</span> build websites that are rich in features to help you acquire new customers in areas where services are scarce. 
+                                    Our <span className='grdiant font-bold'>eCommerce website developers</span> build websites that are rich in features to help you acquire new customers in areas where services are scarce.
                                 </p>
-                                <h5 className="font14 fyColor3">
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                </Link>
                             </Col>
                         </Row>
                     </div>
@@ -323,15 +323,15 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                Boost Conversion Rates 
+                                    Boost Conversion Rates
                                 </h4>
                                 <p className='font14'>
-                                Our UX specialists simplify <span className='grdiant font-bold'> site navigation, and our marketing tools</span> promote interaction to increase traffic and revenues. 
+                                    Our UX specialists simplify <span className='grdiant font-bold'> site navigation, and our marketing tools</span> promote interaction to increase traffic and revenues.
                                 </p>
-                                <h5 className="font14 fyColor3">
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                </Link>
                             </Col>
                         </Row>
                     </div>
@@ -346,15 +346,15 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                                Reduced Operating Costs
+                                    Reduced Operating Costs
                                 </h4>
                                 <p className='font14'>
-                                <span className='grdiant font-bold'>Ecommerce website developers </span>at BitsWits assist in lowering overhead expenses and human labor by integrating systems and automating processes on our integrated platforms.
+                                    <span className='grdiant font-bold'>Ecommerce website developers </span>at BitsWits assist in lowering overhead expenses and human labor by integrating systems and automating processes on our integrated platforms.
                                 </p>
-                                <h5 className="font14 fyColor3">
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                </Link>
                             </Col>
                         </Row>
                     </div>
@@ -369,15 +369,15 @@ export default function mobileappdevelopment() {
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
-                               Obtain a Competitive Edge
+                                    Obtain a Competitive Edge
                                 </h4>
                                 <p className='font14'>
-                                Our innovative <span className='grdiant font-bold'>e-commerce solutions </span> enable you to stand out from the crowd, provide the best possible customer service, and outperform rivals.
+                                    Our innovative <span className='grdiant font-bold'>e-commerce solutions </span> enable you to stand out from the crowd, provide the best possible customer service, and outperform rivals.
                                 </p>
-                                <h5 className="font14 fyColor3">
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                                     <span>Connect Now</span>
                                     <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                </Link>
                             </Col>
                         </Row>
                     </div>

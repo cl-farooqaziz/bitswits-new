@@ -120,10 +120,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Wearable apps allow real-time, reliable interactions that can boost customer loyalty. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -137,10 +137,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>wearable app developers</span> create a brand that is recognized globally with improved visibility. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -154,10 +154,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Wearables apps can gather insightful customer information such as location, behaviors, and health measurements. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -171,10 +171,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>wearable app developers</span> make it possible to use subscription services, in-app purchases, and premium app features.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -188,10 +188,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     For workplace users, <span className='grdiant font-bold'>wearable app developers</span> at BitsWIts can simplify workflows and information access.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -205,10 +205,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Data and network security can be improved through wearable applications that use biometrics and authentication.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -222,10 +222,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our <span className='grdiant font-bold'>wearable app developers</span> provide location awareness by which customized promos are offered for marketing purposes. 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -240,10 +240,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     A distinct technological edge over competitors might come from being an early adopter of wearable apps.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
 
                 </div>
             </Col>
@@ -261,10 +261,10 @@ export default function mobileappdevelopment() {
 Wearable apps let you future-proof your business by supporting new wearables like smart glasses and smartwatches.
 
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
         </Row>
@@ -303,10 +303,10 @@ Wearable apps let you future-proof your business by supporting new wearables lik
 A top <span className='grdiant font-bold'>wearable app development company</span> will have an extensive understanding of wearable technologies, platforms, future developments, and best practices for creating advanced apps.
 
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -326,10 +326,10 @@ A top <span className='grdiant font-bold'>wearable app development company</span
                                 <p className='font14'>
                                 At BitsWits, the <span className='grdiant font-bold'>top wearable app developers</span> are fluent in programming languages like Kotlin, Swift, and C++ to create wearable app optimizations.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -349,10 +349,10 @@ A top <span className='grdiant font-bold'>wearable app development company</span
                                 <p className='font14'>
                                 Our expert <span className='grdiant font-bold'>wearable app developers</span> can significantly reduce time and costs as compared to building applications in-house. 
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -372,10 +372,10 @@ A top <span className='grdiant font-bold'>wearable app development company</span
                                 <p className='font14'>
                                 Stay up-to-date with the best <span className='grdiant font-bold'>wearable app development company</span> where the newest wearable technology, including waterproof smartwatches and AR/VR, are produced.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>

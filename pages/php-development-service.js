@@ -123,10 +123,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     PHP developers can create safe, high-performing websites that are flexible and fast.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -140,10 +140,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our PHP developers build intuitive and engaging web applications with rich functionality using PHP frameworks.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -157,10 +157,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     For various channels and devices, PHP developers can create well-documented REST and SOAP APIs.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -174,10 +174,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     PHP developers at BitsWits develop unique CMS solutions based on the demands and specifications of your particular organization.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -191,10 +191,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     PHP developers create e-commerce platforms with features like payment gateways and shopping carts that are optimized for sales.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -208,10 +208,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     At BitsWits, we create online meal ordering platforms with features for menu browsing, order customization, delivery window selection, etc
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -225,10 +225,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Solutions for logistics management can be made by PHP developers and programmers to handle inventory, shipping, tracking, and other tasks.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -243,10 +243,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our PHP developers build perfect customer relationship management systems to manage contacts, track interactions, and gain trust.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
 
                 </div>
             </Col>
@@ -262,10 +262,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     BitsWits has the best PHP developers who extensively check for bugs in your PHP solutions and resolve any errors that occur.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -303,10 +303,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 BitsWits creates <span className='grdiant font-bold'>high-performing, flexible solutions </span>to address complicated demands with expertise in the most recent PHP versions and frameworks like Laravel and Symfony. They stand out due to their growth abilities and finest practices
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -326,10 +326,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 Some of the top <span className='grdiant font-bold'>PHP developers </span>can be found at BitsWits, and they frequently receive home awards from reputable websites. Our skilled talent delivers the highest quality PHP development services and excellence in every project
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -349,10 +349,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 BitsWits uses <span className='grdiant font-bold'>PHP development services</span>  and strategies that are future-oriented. They craft forward-compatible code while monitoring upcoming PHP trends. By doing this, solutions created today can adapt to the future.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -372,10 +372,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                 The customer is at the core of everything BitsWits does. Our<span className='grdiant font-bold'> PHP developers </span> collaborate closely with customers during the development process to fully comprehend demands and provide specialized solutions.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>

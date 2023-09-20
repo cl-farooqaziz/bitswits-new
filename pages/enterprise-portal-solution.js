@@ -124,10 +124,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     At BitsWits, we create user-friendly, integrated portals that improve processes within the organization. This increases effectiveness and production.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -141,10 +141,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     We create inclusive, dynamic portals that can be accessed on any device. This guarantees that all workers can safely obtain the information they require.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -158,10 +158,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our enterprise portal development services make it easy for teams, departments, and locations to work together effectively, which leads to better coordination, communication, and outcomes.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -175,10 +175,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     We incorporate analytics and constantly changing information visualization into portals. This enables quicker, data-driven decision- making throughout the whole organization.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -192,10 +192,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our portals combine many systems into a single platform. In the long run, this reduces IT expenses by removing redundancies.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -209,10 +209,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Hire enterprise portal developers at BitsWits to create adaptable and flexible portals that are prepared for expansion and innovation in the future. This also assists in decreasing the upgrading expenses
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -226,10 +226,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     All our staff has quick access to customer data and insights through our portals. This encourages a customer-centric attitude across the whole organization
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -244,10 +244,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                     Our specialized, innovative enterprise portal development services provide businesses the advantage of outperforming the competitors and providing superb customer service.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
 
                 </div>
             </Col>
@@ -263,10 +263,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Cell phones are the present and future of the digital realm, and a mobile app makes your business accessible anytime and anywhere.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -304,10 +304,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>Enterprise Portal Developer</span> are aware of the distinctive nature of every business. They work closely to understand your objectives, niche and needs to develop a unique app that exactly matches your company's goals.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -327,10 +327,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits provide ongoing maintenance and support long after the launch. Our <span className='grdiant font-bold'>Enterprise Portal Developer</span> regularly optimize and update your application to keep it resilient and competitive over time.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -350,10 +350,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     BitsWits is known for its reliability. Our <span className='grdiant font-bold'>Enterprise Portal Developer</span> understand the value of time and prioritize delivering projects on schedule without compromising quality.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -373,10 +373,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>Enterprise Portal Developer</span> focus on protecting your data and sensitive information. We prioritize confidentiality and ensure to maintain the trust between the user and the company.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>

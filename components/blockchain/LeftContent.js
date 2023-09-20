@@ -13,7 +13,7 @@ import CTA from '@/components/blockchain/cta';
 const LeftContent = (props) => {
     return (
         <>
-            <div className={`${styles[props.whychooseclass]} secPad`}>
+            <div className={`${styles[props.whychooseclass]}  ${styles.secPad}`}>
                 <Container>
                     <Row className={`${styles.middle} gy-4`}>
 

@@ -123,10 +123,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         We create feature-rich online shops that are optimized for simplified usage and sales. Extensive product brochures, secure checkout, promotions, SEO, and other features are available on our eCommerce platforms.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -140,10 +140,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Our web developers create branded, private portals that accelerate procedures and centralize access, communication, and collaboration.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -157,10 +157,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Our web application developers create interactive web games using a variety of technologies, including HTML5, WebGL, and JavaScript. Our games draw players in with amazing graphics, engaging gameplay, and social features.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -174,10 +174,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         For the purpose of providing online training and courses, we construct reliable learning management systems. Course creation, testing, certification, and social learning are all part of our LMS solutions.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -191,10 +191,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         To link consumers with pertinent providers and companies, we provide specialized directories and classified websites. On our platforms, users can browse, search, check reviews, make reservations, and more.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -208,10 +208,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         We create social networks that link members based on shared interests and goals. Modern features on our social networks include profiles, newsfeeds, chat, groups, and more.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
@@ -225,10 +225,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         We build platforms for streaming rich media, including music, video, and photos. Our platforms include responsive playback, playlists, comments, and other features.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -243,10 +243,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         Our web app developers provide adaptable content management solutions that are customized to your unique content processing requirements.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
 
                 </div>
             </Col>
@@ -262,10 +262,10 @@ export default function mobileappdevelopment() {
                     <p className='white'>
                         We create real estate portals that showcase the latest features like mortgage calculation, agent biographies, virtual tours, tax reports metrics and 360-Degree Entity Management.
                     </p>
-                    <h5 className="font14">
+                    <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
                         <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                    </h5>
+                    </Link>
                 </div>
             </Col>
 
@@ -303,10 +303,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our expert group of <span className='grdiant font-bold'>web app developers and designers </span>has built web applications for businesses and startups. We keep up with the most recent trends in web and mobile app development and can create anything from basic CRUD applications to more intricate SaaS solutions.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -326,10 +326,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our team offers expertise in advanced technologies like <span className='grdiant font-bold'>machine learning, augmented reality, real-time communication, and blockchain,</span> in addition to more conventional talents like React and Node. We can assist with integrating modern features.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -349,10 +349,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     By delegating work to us, you lighten the pressure on your <span className='grdiant font-bold'>present developers.</span> This enables them to concentrate on their strategic ambitions and primary goals rather than extra tasks.
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
@@ -372,10 +372,10 @@ export default function mobileappdevelopment() {
                                 <p className='font14'>
                                     Our <span className='grdiant font-bold'>top web application developers</span> remain up to date with contemporary web stacks like React, Angular, Node, and Golang. We can create apps that are more accessible and maintainable
                                 </p>
-                                <h5 className="font14 fyColor3">
-                                    <span>Connect Now</span>
-                                    <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
-                                </h5>
+                                <Link href="tel:(833) 500-6007" className="font14 fyColor3">
+                        <span>Connect Now</span>
+                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                    </Link>
                             </Col>
                         </Row>
                     </div>
