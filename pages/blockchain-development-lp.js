@@ -135,7 +135,7 @@ export default function Home() {
         />
 
         <Contact
-          newBg="newBg"
+          newBg="newBgSpc"
         />
 
 

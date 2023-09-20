@@ -1,6 +1,6 @@
 .contact {
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-family: "Montserrat";
 }
 
@@ -159,11 +159,21 @@
   color: #f32f4d;
 }
 
+.newBgSpc {
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
 .newBg {
   background-color: #000;
   border-bottom: 1px solid #fff;
 }
 
+.newBgSpc .cntcForm form input,
+.newBgSpc .cntcForm form select,
+.newBgSpc .cntcForm form textarea,
 .newBg .cntcForm form input,
 .newBg .cntcForm form select,
 .newBg .cntcForm form textarea {
@@ -172,10 +182,12 @@
   color: #fff;
 }
 
+.newBgSpc .cntcForm form ::placeholder,
 .newBg .cntcForm form ::placeholder {
   color: #fff;
 }
 
+.newBgSpc .cntcForm form .btns,
 .newBg .cntcForm form .btns {
   border: 0;
   background-color: #fff;
@@ -183,6 +195,7 @@
   transition: background-color 2s;
 }
 
+.newBgSpc .cntcForm form .btns:hover,
 .newBg .cntcForm form .btns:hover {
   border: 1px solid #fff;
   background-color: transparent;
@@ -190,6 +203,10 @@
   transition: background-color 2s;
 }
 
+.newBgSpc .touch svg,
+.newBgSpc .touch span,
+.newBgSpc .social h5,
+.newBgSpc .socialIcn svg,
 .newBg .touch svg,
 .newBg .touch span,
 .newBg .social h5,
@@ -197,19 +214,24 @@
   color: #fff;
 }
 
+.newBgSpc .socialIcn img,
 .newBg .socialIcn img {
   filter: invert(0);
 }
 
+.newBgSpc .cntcTxt p,
+.newBgSpc .formPara p,
 .newBg .cntcTxt p,
 .newBg .formPara p {
   color: #fff;
 }
 
+.newBgSpc .cntcTxt h2,
 .newBg .cntcTxt h2 {
   color: #fff;
 }
 
+.newBgSpc .cntcForm form label,
 .newBg .cntcForm form label {
   color: #fff;
   font-family: "Montserrat", sans-serif;
