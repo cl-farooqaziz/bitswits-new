@@ -161,7 +161,7 @@ function Banners() {
                     <div className='position-relative zindx mt-5 mt-md-0'>
                         <form className={`${style.ctaForm} mt-3`}>
                             <Row className='px-4'>
-                                <Col lg={3} className="pt-4 pb-4">
+                                <Col lg={3} className="pb-4">
                                     <label htmlFor="name"> Name *</label>
                                     <input className='form-control' type="text" placeholder="Type Name" required />
                                 </Col>
@@ -173,7 +173,7 @@ function Banners() {
                                     <label htmlFor="email">Email  *</label>
                                     <input className='form-control' type="email" placeholder="Type Your Email" required />
                                 </Col>
-                                <Col lg={3} className="pt-4">
+                                <Col lg={3} className="pt-4 mt-2">
                                     <button className={style.btnprimary}>Submit</button>
                                 </Col>
                             </Row>

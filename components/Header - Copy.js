@@ -1032,8 +1032,8 @@ const Header = () => {
                                                             <BsFillEnvelopeFill size={20} className={styles.email} />
                                                         </div>
                                                         <div>
-                                                            <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                                info@bitswits.co
+                                                            <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.com" onClick={handleMenu}>
+                                                                info@bitswits.com
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -1633,8 +1633,8 @@ const Header = () => {
                                             <BsFillEnvelopeFill size={20} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                info@bitswits.co
+                                            <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.com" onClick={handleMenu}>
+                                                info@bitswits.com
                                             </Link>
                                         </div>
                                     </div>
