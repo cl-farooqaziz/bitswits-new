@@ -132,6 +132,17 @@
 
 }
 
+@media (max-width:767px) {
+    .grediantBtn {
+        font-size: 10px;
+    }
+
+    .metaSpan {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+}
+
 @media only screen and (max-width:480px) {
     .cube .secBtns.secBtns2 {
         gap: 14px;
