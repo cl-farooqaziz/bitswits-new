@@ -19,8 +19,6 @@ import banImg5 from '../public/images/banner/bannerImg1.png'
 const Justbuildit = () => {
 
 
-
-
     var bannerslider = {
         dots: false,
         arrows: false,

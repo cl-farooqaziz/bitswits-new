@@ -2,6 +2,7 @@
   background: #000;
   padding-top: 250px;
   padding-bottom: 250px;
+  border-bottom: 1px solid black;
 }
 
 .wid {
@@ -16,7 +17,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .wid{
+  .wid {
     font-size: 16px;
   }
 }

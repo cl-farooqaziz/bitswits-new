@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "@/styles/Newglobal.module.css";
+import styles from "@/styles/NewHomeGlobal.module.css";
 import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -24,7 +24,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Newglobal = () => {
+const NewHomeGlobal = () => {
 
 
     let lctonSlider = {
@@ -38,12 +38,8 @@ const Newglobal = () => {
         slidesToScroll: 1,
     };
 
-
-
-
     return (
         <>
-
             <section className={styles.team}>
                 <Container>
                     <Row>
@@ -101,26 +97,12 @@ const Newglobal = () => {
 
                         </Col>
                         <Col xl={3}>
-                            <div className={styles.pipe}>
-
-                                <Image src={team1} className='img-fluid' alt='bitswits' />
-
-                            </div>
-                        </Col>
+                        </Col>  
                     </Row>
-                </Container>
-
-
+                </Container>    
             </section>
-
-
-
-
-
-
-
         </>
     )
 }
 
-export default Newglobal
+export default NewHomeGlobal
