@@ -11,22 +11,22 @@ import arrow from '../../public/images/blogBanners/right-arrow.webp'
 import logo from '../../public/images/icons/favicon.png'
 
 
-export async function getStaticProps({ params }) {
-    const postData = await getSinglePost(params.postSlug);
+// export async function getStaticProps({ params }) {
+//     const postData = await getSinglePost(params.postSlug);
 
-    let featuredImageUrl = "https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/2023/08/moz-brand-authority-768x439-1.png";
+//     let featuredImageUrl = "https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
-    if (postData.featuredImage) {
-        featuredImageUrl = `https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`;
-    }
+//     if (postData.featuredImage) {
+//         featuredImageUrl = `https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`;
+//     }
 
-    return {
-        props: {
-            postData,
-            featuredImageUrl,
-        }
-    };
-}
+//     return {
+//         props: {
+//             postData,
+//             featuredImageUrl,
+//         }
+//     };
+// }
 
 export async function getStaticPaths() {
     const postSlugs = await getPostSlugs();
