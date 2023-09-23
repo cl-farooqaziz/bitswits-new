@@ -2427,6 +2427,15 @@ p {
   background: black;
 }
 
+.newLogoSlide .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.newLogoSlide .slick-track img {
+  margin:  0 auto;
+}
+
 @keyframes moveInleft {
   0% {
     opacity: 0;

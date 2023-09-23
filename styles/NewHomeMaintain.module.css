@@ -497,6 +497,12 @@
         padding: 30px 28px 9px 33px;
     }
 
+    .app1,
+    .app,
+    .app2 {
+        height: 548px;
+    }
+
     .newHomeBg h1 {
         font-size: 30px;
     }
