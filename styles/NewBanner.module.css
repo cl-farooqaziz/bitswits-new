@@ -76,12 +76,23 @@
 }
 
 @media screen and (max-width: 1300px) {
+
+    .BannerSlider {
+        padding-bottom: 15px;
+        margin-top: -164px;
+    }
+
     .newHomeBg {
-        height: 100vh;
+        height: 90vh;
     }
 }
 
 @media screen and (max-width: 1200px) {
+
+    .BannerSlider {
+        padding-bottom: 15px;
+        margin-top: -185px;
+    }
 
     .secImage {
         width: 80%;
@@ -121,6 +132,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .BannerSlider {
+        margin-top: -145px;
+    }
 
     .just {
         font-size: 18px;

@@ -1403,6 +1403,10 @@ input::-webkit-inner-spin-button {
     align-items: center;
   }
 
+  .font25 {
+    font-size: 31px;
+  }
+
   .sidenew .slick-current {
     background-color: #565656;
     width: 800px !important;
@@ -2433,7 +2437,7 @@ p {
 }
 
 .newLogoSlide .slick-track img {
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 @keyframes moveInleft {

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from "@/styles/NewHomeMaintain.module.css";
+
 import { Container, Row, Col } from 'react-bootstrap'
 //
 import cardNine from '../public/newHomePage/images/newMaintain9.png'
@@ -108,7 +108,7 @@ const NewMaintain = () => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-25 font-bold'>Mobile App Development</h3>
+                                    <h3 className='text-white font25 font-bold'>Mobile App Development</h3>
                                     <p className={styles.para}>
                                         The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.
                                     </p>
@@ -118,7 +118,7 @@ const NewMaintain = () => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-25 font-bold'>Game Development</h3>
+                                    <h3 className='text-white font25 font-bold'>Game Development</h3>
                                     <p className={styles.para}>
                                         Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.
                                     </p>
@@ -128,7 +128,7 @@ const NewMaintain = () => {
                         <Col lg={4}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-25 font-bold'>Blockchain Development</h3>
+                                    <h3 className='text-white font25 font-bold'>Blockchain Development</h3>
                                     <p className={styles.para}>
                                         We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.
                                     </p>
@@ -182,7 +182,7 @@ const NewMaintain = () => {
                             <div className={styles.app6}>
                                 <div className={styles.pick}>
                                     <div className={styles.power}>
-                                        <h3 className='text-white f-25 font-bold'>AR/VR</h3>
+                                        <h3 className='text-white font25 font-bold'>AR/VR</h3>
                                         <p className={`text-white f-16 ${styles.contentPara}`}>Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.</p>
                                     </div>
                                 </div>

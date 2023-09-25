@@ -13,7 +13,6 @@ import NewBanner from '@/components/NewBanner';
 import NewMaintain from '@/components/NewMaintain';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
-import Locations from '@/components/Locations';
 import HomeLocation from '@/components/HomeLocation';
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));

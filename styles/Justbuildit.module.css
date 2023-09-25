@@ -1,4 +1,4 @@
-.slide{
+.slide {
   background-color: black;
   padding-bottom: 250px;
   padding-top: 50px;
@@ -70,6 +70,16 @@
 
 @media screen and (max-width: 991px) {
 
+  .develop {
+    position: relative;
+    z-index: 999;
+  }
+
+
+  .pont {
+    margin-top: 10%;
+  }
+
   .just {
     font-size: 40px;
   }
@@ -78,7 +88,7 @@
 
 @media screen and (max-width: 767px) {
 
-  .slide{
+  .slide {
     padding-bottom: 50px;
     padding-top: 50px;
   }
@@ -86,7 +96,8 @@
   .just {
     font-size: 35px;
   }
-  .develop{
+
+  .develop {
     font-size: 20px;
   }
 }
@@ -98,6 +109,6 @@
   }
 
 
-  
+
 
 }

@@ -127,9 +127,9 @@
 .app2 {
     border-radius: 30px;
     /*1*/
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background-color: transparent;
+    /* padding-top: 50px;
+    padding-bottom: 20px; */
     height: 531px;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -378,6 +378,10 @@
     .app6 {
         height: 381px;
     }
+
+    .power {
+        padding-left: 5%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -393,7 +397,7 @@
 
     .app2 {
         height: auto;
-        border-radius: 47px;
+        border-radius: 24px;
     }
 
     .app3 {
@@ -444,9 +448,13 @@
         width: 100%;
     }
 
+    .app6 {
+        padding: 0 40px;
+    }
+
     .app6,
     .app7 {
-        height: 510px;
+        height: 650px;
     }
 
     .app1,
@@ -479,6 +487,10 @@
         gap: 14px;
     }
 
+    .power {
+        padding-left: 0%;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -497,10 +509,32 @@
         padding: 30px 28px 9px 33px;
     }
 
+    .app4,
+    .app5 {
+        height: 304px;
+        border: 2px solid;
+        border-image: linear-gradient(45deg, #F32FC2, #4A78EF) 1;
+        border-radius: 3px;
+        background-image: none;
+    }
+
+    .app6,
+    .app7 {
+        height: 300px;
+        border: 2px solid;
+        border-image: linear-gradient(45deg, #F32FC2, #4A78EF) 1;
+        border-radius: 3px;
+        background-image: none;
+    }
+
     .app1,
     .app,
     .app2 {
-        height: 548px;
+        height: 300px;
+        border: 2px solid;
+        border-image: linear-gradient(45deg, #F32FC2, #4A78EF) 1;
+        border-radius: 3px;
+        background-image: none;
     }
 
     .newHomeBg h1 {
@@ -509,5 +543,17 @@
 
     .app7 .appImage {
         display: none;
+    }
+
+    .app7 {
+        flex-direction: inherit;
+    }
+
+    .app3 {
+        height: 340px;
+        border: 2px solid;
+        border-image: linear-gradient(45deg, #F32FC2, #4A78EF) 1;
+        border-radius: 3px;
+        background-image: none;
     }
 }
