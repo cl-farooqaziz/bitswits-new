@@ -141,7 +141,7 @@
   height: 45px;
   width: 100%;
   border-radius: unset;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   padding-left: 2%;
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -184,7 +184,7 @@
 }
 
 .notice {
-  background-color: #e83468;
+  background-image: linear-gradient(to right, #f32f53, #4a78ef);
   width: 40%;
   height: 45px;
   display: block;

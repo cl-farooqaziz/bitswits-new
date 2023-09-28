@@ -48,10 +48,6 @@ export default function Gameapplicationdevelopment() {
             <Wealth />
             <Genreofgames/>
             <Engage />
-
-
-
-
             <Newsuccess />
             <Newglobal />
             <Capabilities />

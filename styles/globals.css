@@ -103,6 +103,10 @@ body {
   font-size: 21px;
 }
 
+.font22 {
+  font-size: 22px;
+}
+
 .font24 {
   font-size: 24px;
 }
@@ -1262,7 +1266,7 @@ input::-webkit-inner-spin-button {
   opacity: 1;
   background-color: unset;
   height: 42px;
-  border: 1px solid gray;
+  border: 1px solid white;
   width: 80%;
   border-radius: 50px;
 }
@@ -1287,9 +1291,39 @@ input::-webkit-inner-spin-button {
   left: 0%;
 }
 
+/* .qtech ul li:nth-last-child(3) {
+  bottom: auto;
+  top: 75px;
+  left: 7.5%;
+}
+
+.qtech ul li:nth-last-child(2) {
+  bottom: auto;
+  top: 75px;
+  left: 9%;
+}
+
+.qtech ul li:nth-last-child(1) {
+  bottom: auto;
+  top: 75px;
+  left: 8.4%;
+}
+
+.qtech ul li:nth-last-child(4) {
+  bottom: auto;
+  top: 102px;
+  left: -61.5%;
+}
+
+
+
+.slick-dots li button {
+  width: 100%;
+} */
 .qtech .slick-dots li {
   width: 175px;
   height: 5px;
+  margin-left: 19px;
 }
 
 #lottie-container {
@@ -1797,6 +1831,11 @@ li {
   line-height: 22px;
 }
 
+.f-13 {
+  font-size: 13px;
+  line-height: 24px;
+}
+
 .f-14 {
   font-size: 14px;
   line-height: 24px;
@@ -1829,7 +1868,7 @@ li {
 
 .f-22 {
   font-size: 22px;
-  line-height: 32px;
+  line-height: 23px;
 }
 
 .f-28 {
