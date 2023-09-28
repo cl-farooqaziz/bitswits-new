@@ -766,6 +766,13 @@ a {
   padding-top: 0 !important;
 
 }
+.qtechcap .slick-slide img {
+
+  display: unset;
+  margin: unset;
+  padding-top: 0 !important;
+
+}
 
 .newproject .slick-prev,
 .newproject .slick-next {
@@ -1324,6 +1331,45 @@ input::-webkit-inner-spin-button {
   width: 175px;
   height: 5px;
   margin-left: 19px;
+}
+
+
+.qtechcap .slick-dots li button:before {
+  content: "";
+  position: absolute;
+  color: #000;
+  opacity: 1;
+  background-color: unset;
+  height: 42px;
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.qtechcap .slick-dots li.slick-active button:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  padding: 2px;
+  background: linear-gradient(45deg, #F32F53, #F32FC2, #4A78EF);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.qtechcap .slick-dots {
+  bottom: auto;
+  top: -100px;
+  left: 0%;
+}
+
+.qtechcap .slick-dots li {
+  width: 175px;
+  height: 5px;
+  margin-bottom: 10%;
 }
 
 #lottie-container {
@@ -2547,6 +2593,11 @@ p {
 }
 
 @media screen and (max-width: 991px) {
+
+
+  .qtechcap .slick-dots li button:before{
+    display: none;
+  }
 
   .f45 {
     font-size: 25px;
