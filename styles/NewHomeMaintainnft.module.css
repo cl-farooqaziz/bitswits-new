@@ -309,7 +309,13 @@
   height: 531px;
 }
 
+@media screen and (min-width: 1400px) { 
 
+  .map{
+    margin-top: 2.5%;
+  }
+
+}
 
 @media screen and (min-width: 1500px) {
   .app3 {
@@ -559,7 +565,10 @@
 
   .app1,
   .app,
-  .app2 {
+  .app2,
+  .app11,
+  .app22,
+  .app33 {
     height: 300px;
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;

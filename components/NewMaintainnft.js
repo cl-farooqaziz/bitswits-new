@@ -180,7 +180,7 @@ const NewMaintainlogo = () => {
                         </Col>
 
 
-                        <Col sm={6} lg={4}>
+                        <Col sm={6} lg={4} className={styles.map}>
                             <div className={styles.app11}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Take Home What You Earn</h3>
@@ -190,7 +190,7 @@ const NewMaintainlogo = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={6} lg={4}>
+                        <Col sm={6} lg={4} className={styles.map}>
                             <div className={styles.app22}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Rewarding Challenges</h3>
@@ -200,7 +200,7 @@ const NewMaintainlogo = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={4} className={styles.map}>
                             <div className={styles.app33}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Strengthen Your Character</h3>
