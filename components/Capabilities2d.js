@@ -18,6 +18,14 @@ import close from '../public/newHomePageImages/close.png'
 
 import blog212 from '../public/newHomePageImages/blog1.png'
 
+import dcharacter from '../public/nftslider/2dcharacter.png'
+import casualart from '../public/nftslider/casualart.png'
+import characterdesign from '../public/nftslider/characterdesign.png'
+import hiddenobjects from '../public/nftslider/hiddenobjects.png'
+import slotsgamesconceptart from '../public/nftslider/slotsgamesconceptart.png'
+import uiux from '../public/nftslider/uiux.png'
+
+
 const Capabilities2d = () => {
 
 
@@ -103,7 +111,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image src={dcharacter} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -129,7 +137,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image src={uiux} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -141,7 +149,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image src={characterdesign} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -153,7 +161,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image src={casualart} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -165,7 +173,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image src={slotsgamesconceptart} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -177,7 +185,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image src={hiddenobjects} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
