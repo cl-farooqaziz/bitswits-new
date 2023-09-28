@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from "@/styles/NewMblBanner.module.css";
+import styles from "@/styles/GamedevelopmentBanner.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
-import BannerImage from "@/public/newMobilePageImages/banner_image.png"
+import BannerImage from "@/public/blockchaindevelopment/images/blockchainbanner.png"
 import icon11 from '../public/newMobilePageImages/city1.png'
 import icon12 from '../public/newMobilePageImages/city2.png'
 import icon13 from '../public/newMobilePageImages/city4.png'
@@ -24,7 +24,7 @@ import icon80 from '../public/newHomePageImages/nexticon/8.png'
 
 
 
-const NewHomeBanner = () => {
+const GamedevelopmentBanner = () => {
 
     var awardslogo = {
         dots: false,
@@ -65,12 +65,11 @@ const NewHomeBanner = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <p modern digital factory className={`${styles.just} ${styles.just2} text-center font25 font-regular mb-2 mb-lg-0`}>A TOP</p>
+
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-1`}>
-                                <span className='grdiant d-block'>MOBILE APP DEVELOPMENT</span>
-                                <span className='d-block'>Company At Your Service</span>
+                                We Revolutionize The Way Digital Games Are Designed And Played!!!
                             </h3>
-                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>We deliver great results, on time and on budget. Contact usto start talking about your project today!</p>
+                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>BitsWits is an up-and-coming blockchain game development company that produces cutting-edge blockchain games for the global gaming market. We create next-generation games based on distributed ledger technology (DLT).</p>
 
                             <div className={styles.pont}>
                                 <Link className={styles.book} href="#">Book A Call</Link>
@@ -80,7 +79,6 @@ const NewHomeBanner = () => {
                             <div className={styles.secImage}>
                                 <Image src={BannerImage} className={`img-fluid`} />
                             </div>
-
                         </Col>
                     </Row>
                 </Container>
@@ -215,4 +213,4 @@ const NewHomeBanner = () => {
     )
 }
 
-export default NewHomeBanner
+export default GamedevelopmentBanner

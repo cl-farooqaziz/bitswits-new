@@ -11,9 +11,6 @@
 
 .para {
     font-size: 14px;
-    max-width: 390px;
-    margin: 0 auto;
-    text-align: center;
     color: white;
     /* height: 75px; */
 }
@@ -28,14 +25,29 @@
     min-height: 550px;
 }
 
+.app,
+.app1,
+.app2,
+.app3,
+.app4,
+.app5,
+.app6,
+.app7,
+.app8,
+.app9,
+.app10 {
+    padding: 0 30px;
+}
+
 .app {
-    background-image: url(../public/newMobilePageImages/card1.png);
+    border-radius: 30px;
+    background-image: url(../public/blockchaindevelopment/images/gaming1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
-    height: 440px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,14 +57,25 @@
     margin-bottom: -45%;
 }
 
-.app4,
+.app10 .cardContent {
+    margin-bottom: 0%;
+}
+
+.app9 .cardContent {
+    margin-bottom: 0%;
+}
+
+.app4 .cardContent {
+    margin-bottom: 0%;
+}
+
 .app5 .cardContent {
-    margin-bottom: -30%;
+    margin-bottom: 0%;
 }
 
 
 .app1 {
-    background-image: url(../public/newMobilePageImages/card2.png);
+    background-image: url(../public/blockchaindevelopment/images/gaming2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,7 +96,7 @@
 }
 
 .app2 {
-    background-image: url(../public/newMobilePageImages/card3.png);
+    background-image: url(../public/blockchaindevelopment/images/gaming3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +114,7 @@
 }
 
 .app3 {
-    background-image: url(../public/newMobilePageImages/card4.png);
+    background-image: url(../public/blockchaindevelopment/images/gaming4.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -141,11 +164,34 @@
     letter-spacing: 2px;
 }
 
+.app7 {
+    background-image: url(../public/blockchaindevelopment/images/gaming8.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 533px;
+}
 
+.app8 {
+    background-image: url(../public/blockchaindevelopment/images/gaming9.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 531px;
+}
 
-
-.app4 {
-    background-image: url(../public/newMobilePageImages/card5.png);
+.app9 {
+    background-image: url(../public/blockchaindevelopment/images/gaming10.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -154,29 +200,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 720px;
-
+    height: 580px;
 }
 
-.app7 {
-    border-radius: 15px;
-    /*1*/
-    border: 4px solid;
-    /*2*/
-    border-image: linear-gradient(#F32F53, #F32FC2, #4A78EF) 10;
-    -webkit-mask:
-        /*4*/
-        linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
+.app10 {
+    background-image: url(../public/blockchaindevelopment/images/gaming11.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
-    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
+}
 
+.app4 {
+    background-image: url(../public/blockchaindevelopment/images/gaming5.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
 }
 
 .para2 {
     font-size: 14px;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -193,7 +248,7 @@
 }
 
 .app5 {
-    background-image: url(../public/newMobilePageImages/card6.png);
+    background-image: url(../public/blockchaindevelopment/images/gaming6.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -202,25 +257,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 720px;
+    height: 580px;
 
 }
 
 
 .app6 {
-    border-radius: 15px;
-    /*1*/
-    border: 10px solid transparent;
-    /*2*/
-    background: linear-gradient(#F32F53, #F32FC2, #4A78EF) border-box;
-    /*3*/
-    -webkit-mask:
-        /*4*/
-        linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
+    background-image: url(../public/blockchaindevelopment/images/gaming7.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
-    height: 465px;
+    height: 533px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pick {
@@ -257,7 +309,7 @@
 
     .app4,
     .app5 {
-        height: 800px;
+        height: 580px;
     }
 
     .custom {
