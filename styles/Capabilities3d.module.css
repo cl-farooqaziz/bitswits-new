@@ -85,69 +85,69 @@
     padding-right: 1%;
 }
 
-.line1,
-.line2,
-.line3,
-.line4,
-.line5,
-.line6,
-.line7,
-.line8,
-.line9 {
+.connsct3d .line1,
+.connsct3d .line2,
+.connsct3d .line3,
+.connsct3d .line4,
+.connsct3d .line5,
+.connsct3d .line6,
+.connsct3d .line7,
+.connsct3d .line8,
+.connsct3d .line9 {
     position: relative;
 }
 
-.line1::before {
+.connsct3d .line1::before {
     content: "3D Environment";
     position: absolute;
-    left: 40px;
+    left: 33%;
     top: -10px;
     display: block;
     color: #707070;
     font-size: 14px;
 }
 
-.line1::after {
+.connsct3d .line1::after {
     position: absolute;
     content: '';
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
-    left: 57%;
+    left: 62%;
 }
 
-.line2::before {
-    content: "2D Models";
+.connsct3d .line2::before {
+    content: "3D Models";
     position: absolute;
-    left: 55px;
+    left: 40%;
     top: -10px;
     display: block;
     color: #707070;
     font-size: 14px;
 }
 
-.line2::after {
+.connsct3d .line2::after {
     position: absolute;
     content: '';
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
-    left: 57%;
+    left: 60%;
 }
 
-.line3::before {
-    content: "2D Character Art";
+.connsct3d .line3::before {
+    content: "3D Character Art";
     position: absolute;
-    left: 29px;
+    left: 23%;
     top: -10px;
     display: block;
     color: #707070;
     font-size: 14px;
 }
 
-.line3::after {
+.connsct3d .line3::after {
     position: absolute;
     content: '';
     background-color: gray;
@@ -157,133 +157,70 @@
     left: 53%;
 }
 
-.line4::before {
-    content: "2D Background Art";
+.connsct3d .line4::before {
+    content: "3D Background Art";
     position: absolute;
-    left: 15px;
+    left: 13%;
     top: -10px;
     display: block;
     color: #707070;
     font-size: 14px;
 }
 
-.line4::after {
+.connsct3d .line4::after {
     position: absolute;
     content: '';
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
-    left: 50%;
+    left: 48%;
 }
 
-.line5::before {
+.connsct3d .line5::before {
     content: "UI/UX";
     position: absolute;
-    left: 55px;
+    left: 32%;
     top: -10px;
     display: block;
     color: #707070;
     font-size: 14px;
 }
 
-.line5::after {
+.connsct3d .line5::after {
     position: absolute;
     content: '';
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
-    left: 45%;
+    left: 42%;
 }
 
-.line6::before {
+.connsct3d .line6::before {
     content: "Character Design";
     position: absolute;
-    left: 15px;
+    left: 7%;
     top: -10px;
     display: block;
     color: #707070;
     font-size: 14px;
 }
 
-.line6::after {
+.connsct3d .line6::after {
     position: absolute;
     content: '';
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
-    left: 45%;
+    left: 38%;
 }
 
-.line7::before {
-    content: "Casual Art";
+.connsct3d .line7::before {
+    content: "Character Design";
     position: absolute;
-    left: 337px;
-    top: 115px;
-    display: block;
-    color: #707070;
-    font-size: 14px;
-    white-space: pre;
-}
-
-.line7::after {
-    position: absolute;
-    content: '';
-    background-color: gray;
-    width: 1px;
-    height: 25px;
-    top: 80px;
-    left: 230%;
-}
-
-.line8::before {
-    content: "Slots";
-    position: absolute;
-    left: 290px;
-    top: 118px;
-    display: block;
-    color: #707070;
-    font-size: 12.5px;
-    white-space: pre;
-}
-
-.line8::after {
-    position: absolute;
-    content: '';
-    background-color: gray;
-    width: 1px;
-    height: 25px;
-    top: 80px;
-    left: 220%;
-}
-
-.line9::before {
-    content: "Hidden Objects";
-    position: absolute;
-    left: 310px;
-    top: 115px;
-    display: block;
-    color: #707070;
-    font-size: 14px;
-    white-space: pre;
-}
-
-.line9::after {
-    position: absolute;
-    content: '';
-    background-color: gray;
-    width: 1px;
-    height: 25px;
-    top: 80px;
-    left: 215%;
-}
-
-.line10::before {
-    content: "Hidden Objects";
-    position: absolute;
-    left: 790px;
+    left: 138%;
     top: 135px;
     display: block;
     color: #707070;
@@ -291,14 +228,77 @@
     white-space: pre;
 }
 
-.line10::after {
+.connsct3d .line7::after {
     position: absolute;
     content: '';
     background-color: gray;
     width: 1px;
     height: 25px;
-    top: 80px;
-    left: 215%;
+    top: 98px;
+    left: 170%;
+}
+
+.connsct3d .line8::before {
+    content: "Casual Art";
+    position: absolute;
+    left: 148%;
+    top: 135px;
+    display: block;
+    color: #707070;
+    font-size: 12.5px;
+    white-space: pre;
+}
+
+.connsct3d .line8::after {
+    position: absolute;
+    content: '';
+    background-color: gray;
+    width: 1px;
+    height: 25px;
+    top: 98px;
+    left: 165%;
+}
+
+.connsct3d .line9::before {
+    content: "Slots Games Concept Art";
+    position: absolute;
+    left: 115%;
+    top: 135px;
+    display: block;
+    color: #707070;
+    font-size: 14px;
+    white-space: pre;
+}
+
+.connsct3d .line9::after {
+    position: absolute;
+    content: '';
+    background-color: gray;
+    width: 1px;
+    height: 25px;
+    top: 98px;
+    left: 160%;
+}
+
+.connsct3d .line10::before {
+    content: "Hidden Objects";
+    position: absolute;
+    left: 70%;
+    top: 135px;
+    display: block;
+    color: #707070;
+    font-size: 14px;
+    white-space: pre;
+}
+
+.connsct3d .line10::after {
+    position: absolute;
+    content: '';
+    background-color: gray;
+    width: 1px;
+    height: 25px;
+    top: 98px;
+    left: 74%;
 }
 
 .connsct {

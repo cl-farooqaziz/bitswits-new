@@ -56,20 +56,18 @@ const Capabilities3d = () => {
                     </Row>
                     <Row>
 
-                        <div className={styles.connsct}>
+                        <div className={`${styles.connsct} ${styles.connsct3d}`}>
                             <Row className={` ${styles.bor}  mt-5 mb-5 `}>
-
-
-                                <Col lg={2}><div className={styles.line1}></div></Col>
-                                <Col lg={2}><div className={styles.line2}></div></Col>
-                                <Col lg={2}><div className={styles.line3}></div></Col>
-                                <Col lg={2}><div className={styles.line4}></div></Col>
-                                <Col lg={2}><div className={styles.line5}></div></Col>
-                                <Col lg={2}><div className={styles.line6}></div></Col>
-                                <Col lg={2}><div className={styles.line7}></div></Col>
-                                <Col lg={2}><div className={styles.line8}></div></Col>
-                                <Col lg={2}><div className={styles.line9}></div></Col>
-                                {/* <Col lg={2}><div className={styles.line10}></div></Col> */}
+                                <Col lg={2}><div className={`${styles.line1} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line2} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line3} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line4} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line5} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line6} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line7} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line8} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line9} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line10} line3d`}></div></Col>
 
                             </Row>
                         </div>
@@ -185,7 +183,7 @@ const Capabilities3d = () => {
                                 </Row>
                             </div>
 
-                            {/* <div className={styles.high}>
+                            <div className={styles.high}>
                                 <Row>
                                     <Col xl={12}>
                                         <div>
@@ -195,7 +193,7 @@ const Capabilities3d = () => {
 
 
                                 </Row>
-                            </div> */}
+                            </div>
 
                         </Slider>
                     </Row>

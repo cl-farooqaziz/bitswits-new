@@ -1373,6 +1373,12 @@ input::-webkit-inner-spin-button {
   margin-bottom: 10%;
 }
 
+.qtechcap .prohome .slick-dots li {
+  width: 200px;
+  height: 5px;
+  margin-bottom: 10%;
+}
+
 #lottie-container {
   position: relative;
   bottom: 70px;
