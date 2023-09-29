@@ -2,12 +2,9 @@ import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
 //components
-import NewMblBanner from '@/components/NewMblBanner';
 import NewMblAbout from '@/components/NewMblAbout';
-import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 import NewHomeHear from '@/components/NewHomeHear';
-import NewMblMaintain from '@/components/NewMblMaintain';
 import NewMblGlobal from '@/components/NewMblGlobal';
 import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
@@ -17,17 +14,20 @@ import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewMblPortFolio from '@/components/NewMblPortFolio';
 import NewMblServices from '@/components/NewMblServices';
-import GamedevelopmentBanner from '@/components/GamedevelopmentBanner';
-import GameAdvantages from '@/components/blockchainadvantages';
-import GamingServices from '@/components/GamingServices';
-import GameTechnologies from '@/components/GameTechnologies';
-import GameCapabilities from '@/components/GameCapabilities';
-import Solutions from '../components/Solution';
-import GameEngage from '@/components/EngageGame';
+import New3dBanner from '@/components/3dBanner';
+import New3dAdvantage from '@/components/3dAdvantage';
+import New3dTarget from '@/components/3dTarget';
+import New3dMaintain from '@/components/3dMaintain';
+import Experience from '@/components/3dExperience';
+import New3dSolutions from '@/components/3dSolution';
+import Genreof3dgames from '@/components/3dGenre';
+import Capabilities3d from '@/components/3dCapabilities';
+import Engage3d from '@/components/3dEngage';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import Technologieswe from '@/components/NewMblTechnologiesWe';
 import Homenextproject from '@/components/Homenextproject';
+import HomeLocation from '@/components/HomeLocation';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
@@ -41,14 +41,16 @@ export default function mobileApplication() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <GamedevelopmentBanner />
+            <New3dBanner />
             <NewMblAbout />
-            <GameAdvantages />
-            <GamingServices />
-            <GameTechnologies />
-            <GameCapabilities />
-            <Solutions />
-            <GameEngage />
+            <New3dAdvantage />
+            <New3dTarget />
+            <New3dMaintain />
+            <Experience />
+            <New3dSolutions />
+            <Genreof3dgames />
+            <Capabilities3d />
+            <Engage3d />
             <Newsuccess />
             <NewHomeGlobal />
             <NewHomeSlider />

@@ -288,6 +288,7 @@
     width: 75%;
 }
 
+
 @media screen and (min-width: 1500px) {
 
 
@@ -320,6 +321,34 @@
 
 }
 
+
+@media screen and (max-width: 1400px) {
+
+    .app {
+        min-height: 456px;
+    }
+
+    .app1 {
+        height: 456px;
+    }
+
+    .app2 {
+        height: 460px;
+    }
+
+    .app6 {
+        height: 456px;
+    }
+
+    .app7 {
+        height: 456px;
+    }
+
+    .app8 {
+        height: 455px;
+    }
+
+}
 
 @media screen and (max-width: 1200px) {
 

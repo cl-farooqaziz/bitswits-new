@@ -1,22 +1,26 @@
 .newHomeBg {
-    padding: 120px 0 0;
+    padding: 200px 0 0;
     background: #000;
-    background-image: url(../public/blockchaindevelopment/images/blockchainbanner-bg.png);
+    background-image: url(../public/3d-game-development/images/banner-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    margin-top: -140px;
 }
 
 .just {
     color: white;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .develop {
     max-width: 985px;
     margin: 0 auto;
     color: white;
+}
+
+.bannerImage {
+    max-height: 508px;
+    margin-top: 90px;
 }
 
 .book {
@@ -60,7 +64,7 @@
 .secImage {
     width: 100%;
     margin-left: 10px;
-    margin-top: 60px;
+    margin-top: -150px;
     text-align: center;
 }
 
@@ -243,7 +247,7 @@
 
 @media screen and (max-width: 1400px) {
     .secImage {
-        margin-top: 20px;
+        margin-top: -130px;
     }
 
     .just {
