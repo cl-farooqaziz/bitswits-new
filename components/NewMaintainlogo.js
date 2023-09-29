@@ -105,7 +105,7 @@ const NewMaintainlogo = () => {
                             <h1 className='text-white f-55 font-bold text-center pb-4'>What You May Expect When <br></br>
                                 Committing To Us?</h1>
                         </Col>
-                        <Col sm={6} lg={4}>
+                        <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>2D Concept Art and Design</h3>
@@ -115,7 +115,7 @@ const NewMaintainlogo = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={6} lg={4}>
+                        <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Single Player Games</h3>
@@ -125,7 +125,7 @@ const NewMaintainlogo = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Game App Integration</h3>
@@ -136,7 +136,7 @@ const NewMaintainlogo = () => {
                             </div>
                         </Col>
 
-                        <Col lg={12}>
+                        <Col lg={12} className={styles.earn}>
                             <div className={styles.app3}>
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
@@ -155,7 +155,7 @@ const NewMaintainlogo = () => {
                             </div>
                         </Col>
 
-                        <Col sm={6}>
+                        <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>UI/UX Graphics</h3>
@@ -166,7 +166,7 @@ const NewMaintainlogo = () => {
                             </div>
 
                         </Col>
-                        <Col sm={6}>
+                        <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Storyboarding</h3>

@@ -381,6 +381,13 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+.app11, .app22, .app33 {
+  height: 456px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
   .newHomeBg {
     padding-bottom: 50px;
     background: #000;
@@ -426,13 +433,32 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .para{
+    max-width: unset;
+  }
+
+
+  .app1, .app, .app2, .app11, .app22, .app33, .app3, .app4, .app5 {
+    height: auto;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
+    border-radius: 3px;
+    background-image: none;
+    text-align: center;
+}
+
+
   .app1,
-  .app {
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-      linear-gradient(#fff 0 0);
+  .app,
+  .app2,
+  .app11,
+  .app22,
+  .app33 {
+
     padding-top: 50px;
     padding-bottom: 0px;
-    height: 428px;
+    height: auto;
   }
 
   .app2 {
@@ -441,12 +467,10 @@
   }
 
   .app3 {
-    height: 340px;
+    height: auto;
   }
 
-  .paraThreeContent {
-    margin-top: 92px;
-  }
+
 
   .app4,
   .app5 {
@@ -472,6 +496,25 @@
 }
 
 @media screen and (max-width: 767px) {
+
+.earn, .map{
+  width: 100%;
+  text-align: center;
+}
+.app1 .para {
+  max-width: unset;
+
+}
+ .para {
+  text-overflow: unset;
+  display:unset;
+
+}
+
+.possibilities{
+  height: auto;
+}
+
   .newHomeBg {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -492,17 +535,17 @@
 
   .app6,
   .app7 {
-    height: 650px;
+    height: auto;
   }
 
   .app1,
   .app {
-    height: 315px;
+    height: auto;
   }
 
   .app4,
   .app5 {
-    height: 208px;
+    height: auto;
   }
 
   .app6 {
@@ -531,6 +574,17 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .cardContent{
+    text-align: center;
+  }
+  .paraThreeContent{
+    text-align: center;
+  }
+
+
+
+
   .book,
   .about {
     font-size: 10px !important;

@@ -721,7 +721,9 @@
 @media screen and (max-width: 991px) {
 
 
-
+  .high {
+    margin-top: 1%;
+}
 
   .bor {
     display: none
@@ -780,6 +782,12 @@
 
 @media screen and (max-width: 480px) {
 
+  .about {
+    width: 100%;
+}
+.home{
+  text-align: center;
+}
 
   .solved {
     margin-bottom: 10%;

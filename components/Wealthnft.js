@@ -15,7 +15,7 @@ const Wealth = () => {
 
             <section className={styles.weall}>
                 <Container>
-                    <Row>
+                    <Row className='gy-5'>
                         <Col xl={6} className={styles.table}>
                             <h3 className='white font20'>We'll Make Your NFT Game Dreams A Reality!</h3>
                             <h2>Be at the Forefront of Blockchain Technology  and Utilize NFT Games for Big Wins</h2>

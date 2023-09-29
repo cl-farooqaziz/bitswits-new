@@ -89,7 +89,8 @@
 
   .tech {
     background-color: black;
-    padding-bottom: 50px;
+    padding-top: 350px;
+    padding-bottom: 350px;
   }
 
 }
@@ -105,6 +106,13 @@
 }
 
 @media screen and (max-width: 767px) {
+
+
+  .tech {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 0;
+  }
 
   .analpost div {
     color: #707070;

@@ -125,3 +125,11 @@
     height: 320px;
   }
 }
+
+@media screen and (max-width: 767px) 
+{
+  .happens {
+    background-color: black;
+    padding: 0px 0 0px;
+  }
+}

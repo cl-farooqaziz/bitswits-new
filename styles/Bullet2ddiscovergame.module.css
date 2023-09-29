@@ -116,6 +116,12 @@
 
 @media screen and (max-width: 1200px) {
 
+
+
+  .colname{
+    width: 100%;
+  }
+
   .tested img {
     display: none;
   }
@@ -148,6 +154,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .creative2{
+    text-align: center;
+  }
 
   .game h2 {
     font-size: 30px;

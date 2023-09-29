@@ -73,15 +73,19 @@
 
 @media screen and (max-width: 1200px) {
 
+
+
   .weall a {
-    width: 50%;
+    width: 100%;
   }
 
 
   .weall {
     background-color: black;
-    padding-top: 0px;
-    padding-bottom: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+  
+  
   }
 
 }
@@ -97,6 +101,12 @@
 
 @media screen and (max-width: 767px) {
 
+  .weall {
+    background-color: black;
+   
+    padding-bottom: 50px;
+}
+
   .weall a {
     width: 100%;
   }
@@ -110,6 +120,14 @@
 }
 
 @media screen and (max-width: 480px) {
+
+
+
+.weall{
+  padding-top: 50px;
+  text-align: center;
+}
+
   .weall a {
     width: 100%;
     font-size: 14px;

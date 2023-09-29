@@ -186,6 +186,28 @@
 
 @media screen and (max-width: 767px) {
 
+  .forget{
+    margin-bottom: 100px;
+  }
+
+  .engage{
+    text-align: center;
+  }
+  .longline img {
+    position: absolute;
+    content: '';
+    top: -75px;
+    left: 0;
+    right: 0;
+}
+  .bring1{
+    text-align: center;
+  }
+  .engage img{
+    display: block;
+    margin: 0 auto;
+  }
+
   .forget h2 {
     font-size: 30px;
     font-weight: bold;

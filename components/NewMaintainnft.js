@@ -106,7 +106,7 @@ const NewMaintainlogo = () => {
                         <p className='white center mb-5'>Are you ready to take your gaming experience to the next level? With play-to-earn NFT games, the possibilities are endless! Whether you're a hardcore collector or just looking for some extra cash, these interactive experiences can offer you something special. Explore the features of play-to-earn games, and get the ball rolled today!</p>
                         
                         </Col>
-                        <Col sm={6} lg={4}>
+                        <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Take Home What You Earn</h3>
@@ -116,7 +116,7 @@ const NewMaintainlogo = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={6} lg={4}>
+                        <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Rewarding Challenges</h3>
@@ -126,7 +126,7 @@ const NewMaintainlogo = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Strengthen Your Character</h3>
@@ -137,12 +137,12 @@ const NewMaintainlogo = () => {
                             </div>
                         </Col>
 
-                        <Col lg={12}>
+                        <Col lg={12} className={styles.earn}>
                             <div className={styles.app3}>
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Create Your Own Path</h3>
+                                            <h3 className='text-white font25 font-bold '>Create Your Own Path</h3>
                                             <p className={styles.para1}>
                                             With Play-to-Earn NFT games, you can be your own boss. Create an economy for yourself by earning tokens, rewards, and additional items to help you progress in the game. The possibilities are endless with what you can achieve!
                                             </p>
@@ -156,10 +156,10 @@ const NewMaintainlogo = () => {
                             </div>
                         </Col>
 
-                        <Col sm={6}>
+                        <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Diversity of Games</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Diversity of Games</h3>
                                     <p className={styles.possibilities}>
                                     A massive variety of NFT games is available for players to choose from, so you can find something that fits your interests and tastes. From sports games to puzzle games, there's something for everyone!
                                     </p>
@@ -167,10 +167,10 @@ const NewMaintainlogo = () => {
                             </div>
 
                         </Col>
-                        <Col sm={6}>
+                        <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Collect Rare Items</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Collect Rare Items</h3>
                                     <p className={styles.possibilities}>
                                     Step into a world of exclusive collectibles with NFT games! Unlock rare items that can't be found in other games and flaunt your one-of-a-kind collection to your friends. It's time to level up your gaming experience and invest in something unique.
                                     </p>

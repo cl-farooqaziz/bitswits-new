@@ -743,6 +743,16 @@
 
 @media screen and (max-width: 767px) {
 
+.high{
+  margin-top: 3%;
+}
+
+  .home{
+    text-align: center;
+  }
+.about{
+  width: 100%;
+}
   .connsct {
     display: none;
   }
