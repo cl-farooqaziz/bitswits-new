@@ -98,7 +98,7 @@
 }
 
 .line1::before {
-  content: "2D Environment";
+  content: "3D Environment";
   position: absolute;
   left: 40px;
   top: -10px;
@@ -118,7 +118,7 @@
 }
 
 .line2::before {
-  content: "2D Models";
+  content: "3D Models";
   position: absolute;
   left: 55px;
   top: -10px;
@@ -138,7 +138,7 @@
 }
 
 .line3::before {
-  content: "2D Character Art";
+  content: "3D Character Art";
   position: absolute;
   left: 29px;
   top: -10px;
@@ -158,7 +158,7 @@
 }
 
 .line4::before {
-  content: "2D Background Art";
+  content: "3D Background Art";
   position: absolute;
   left: 15px;
   top: -10px;
@@ -317,7 +317,7 @@
 
 
   .line1::before {
-    content: "2D Environment";
+    content: "3D Environment";
     position: absolute;
     left: 40px;
     top: -10px;
@@ -337,7 +337,7 @@
   }
 
   .line2::before {
-    content: "2D Models";
+    content: "3D Models";
     position: absolute;
     left: 25px;
     top: -10px;
@@ -357,7 +357,7 @@
   }
 
   .line3::before {
-    content: "2D Character Art";
+    content: "3D Character Art";
     position: absolute;
     left: -35px;
     top: -10px;
@@ -377,7 +377,7 @@
   }
 
   .line4::before {
-    content: "2D Background Art";
+    content: "3D Background Art";
     position: absolute;
     left: -75px;
     top: -10px;
@@ -525,7 +525,7 @@
 
 
   .line1::before {
-    content: "2D Environment";
+    content: "3D Environment";
     position: absolute;
     left: 45px;
     top: -10px;
@@ -546,7 +546,7 @@
   }
 
   .line2::before {
-    content: "2D Models";
+    content: "3D Models";
     position: absolute;
     left: 85px;
     top: -10px;
@@ -567,7 +567,7 @@
   }
 
   .line3::before {
-    content: "2D Character Art";
+    content: "3D Character Art";
     position: absolute;
     left: 95px;
     top: -10px;
@@ -588,7 +588,7 @@
   }
 
   .line4::before {
-    content: "2D Background Art";
+    content: "3D Background Art";
     position: absolute;
     left: 100px;
     top: -10px;
@@ -721,7 +721,9 @@
 @media screen and (max-width: 991px) {
 
 
-
+  .high {
+    margin-top: 1%;
+}
 
   .bor {
     display: none
@@ -743,16 +745,6 @@
 
 @media screen and (max-width: 767px) {
 
-.high{
-  margin-top: 3%;
-}
-
-  .home{
-    text-align: center;
-  }
-.about{
-  width: 100%;
-}
   .connsct {
     display: none;
   }
@@ -790,6 +782,12 @@
 
 @media screen and (max-width: 480px) {
 
+  .about {
+    width: 100%;
+}
+.home{
+  text-align: center;
+}
 
   .solved {
     margin-bottom: 10%;

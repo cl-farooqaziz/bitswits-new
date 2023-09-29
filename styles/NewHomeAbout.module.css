@@ -26,6 +26,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+.newHomeBg{
+    text-align: center;
+}
+
     .secImage {
         width: 100%;
         max-height: 220px;

@@ -91,3 +91,11 @@
     }
 
 }
+@media screen and (max-width: 480px) {
+
+
+    .team{
+        text-align: center;
+    }
+
+}

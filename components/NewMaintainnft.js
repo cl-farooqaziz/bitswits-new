@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import styles from "@/styles/NewHomeMaintainlogo.module.css";
+import styles from "@/styles/NewHomeMaintainnft.module.css";
 
 import { Container, Row, Col } from 'react-bootstrap'
 //
@@ -100,17 +100,18 @@ const NewMaintainlogo = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}>Our Services Are Where Innovation Meets Play
+                            <p className={` f-20 font-bold text-white text-center mb-3`}>Features
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>What You May Expect When <br></br>
-                                Committing To Us?</h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'>Unlock Treasure Troves of Fun with <br></br> Play-to-Earn NFT Games!</h1>
+                        <p className='white center mb-5'>Are you ready to take your gaming experience to the next level? With play-to-earn NFT games, the possibilities are endless! Whether you're a hardcore collector or just looking for some extra cash, these interactive experiences can offer you something special. Explore the features of play-to-earn games, and get the ball rolled today!</p>
+                        
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>2D Concept Art and Design</h3>
+                                    <h3 className='text-white font25 font-bold'>Take Home What You Earn</h3>
                                     <p className={styles.para}>
-                                        2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.
+                                    Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!
                                     </p>
                                 </div>
                             </div>
@@ -118,9 +119,9 @@ const NewMaintainlogo = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Single Player Games</h3>
+                                    <h3 className='text-white font25 font-bold'>Rewarding Challenges</h3>
                                     <p className={styles.para}>
-                                        Our team is well versed in various technologies such as C++, Unity, Unreal Engine, HTML5, and more to provide a seamless single-player gaming experience across different platforms. BitsWits guarantee bug-free code, easy navigation, intuitive controls, and perfect performance in our games so players can enjoy their experience without frustration. Whether you're looking for a complex 2D game or an old-school classic side-scroller, our 2D game developers can make it happen.
+                                    With these NFT games, you will face rewarding challenges that test your abilities and allow you to earn rewards or tokens for completing them. It's a great way to increase your skills and expand your knowledge.
                                     </p>
                                 </div>
                             </div>
@@ -128,9 +129,9 @@ const NewMaintainlogo = () => {
                         <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Game App Integration</h3>
+                                    <h3 className='text-white font25 font-bold'>Strengthen Your Character</h3>
                                     <p className={styles.para}>
-                                        Our integration services offer a range of features across platforms, including multiplayer mode, leaderboard integration, in-app purchases, analytics, and more. Our streamlined integration process ensures your game runs smoothly while maintaining high-security standards. Whether it's connecting your game app with existing APIs or creating custom solutions, we guarantee that our solutions are robust and secure.
+                                    These Play-to-Earn NFT games can help you develop your character and increase confidence. As you make progress in the game, you learn more about yourself and can become a better player.
                                     </p>
                                 </div>
                             </div>
@@ -141,9 +142,9 @@ const NewMaintainlogo = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Multiplayer Games</h3>
+                                            <h3 className='text-white font25 font-bold '>Create Your Own Path</h3>
                                             <p className={styles.para1}>
-                                                Whether you're looking to build a complex, engaging multiplayer game from the ground up or optimize an existing project with cutting-edge technology, we have you covered! From first-person shooters and RPGs to strategic board games and party games, we foster multiplayer gaming experiences for businesses to help them make huge bucks.
+                                            With Play-to-Earn NFT games, you can be your own boss. Create an economy for yourself by earning tokens, rewards, and additional items to help you progress in the game. The possibilities are endless with what you can achieve!
                                             </p>
                                         </div>
                                     </Col>
@@ -158,9 +159,9 @@ const NewMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>UI/UX Graphics</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Diversity of Games</h3>
                                     <p className={styles.possibilities}>
-                                        Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.
+                                    A massive variety of NFT games is available for players to choose from, so you can find something that fits your interests and tastes. From sports games to puzzle games, there's something for everyone!
                                     </p>
                                 </div>
                             </div>
@@ -169,14 +170,50 @@ const NewMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Storyboarding</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Collect Rare Items</h3>
                                     <p className={styles.possibilities}>
-                                        With our team of expert animators, you can watch your characters come alive and see your story unfold in vivid detail. Our 2D animation and storyboard services allow you to visually represent what is happening in your script or story before it gets animated. This ensures that all elements are in place for a successful storyboard.
+                                    Step into a world of exclusive collectibles with NFT games! Unlock rare items that can't be found in other games and flaunt your one-of-a-kind collection to your friends. It's time to level up your gaming experience and invest in something unique.
                                     </p>
                                 </div>
                             </div>
 
                         </Col>
+
+
+                        <Col sm={6} lg={4} className={styles.map}>
+                            <div className={styles.app11}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white font25 font-bold'>Take Home What You Earn</h3>
+                                    <p className={styles.para}>
+                                    Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col sm={6} lg={4} className={styles.map}>
+                            <div className={styles.app22}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white font25 font-bold'>Rewarding Challenges</h3>
+                                    <p className={styles.para}>
+                                    With these NFT games, you will face rewarding challenges that test your abilities and allow you to earn rewards or tokens for completing them. It's a great way to increase your skills and expand your knowledge.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={4} className={styles.map}>
+                            <div className={styles.app33}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white font25 font-bold'>Strengthen Your Character</h3>
+                                    <p className={styles.para}>
+                                    These Play-to-Earn NFT games can help you develop your character and increase confidence. As you make progress in the game, you learn more about yourself and can become a better player.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+
+                     
+
+                      
                      
                     </Row>
 

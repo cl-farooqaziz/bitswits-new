@@ -28,7 +28,7 @@ const Bullet2dproofgame = () => {
     </Row>
 
     <Row className={styles.boy}>
-        <Col xl={6}>
+        <Col xl={6} className={styles.colname}>
 
             <div className={styles.dscool}>
                 <div>

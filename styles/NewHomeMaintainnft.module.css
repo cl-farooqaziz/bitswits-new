@@ -36,7 +36,7 @@
 }
 
 .app {
-  background-image: url(../public/newHomePageImages/gamed.png);
+  background-image: url(../public/newHomePageImages/appnft.png);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -49,7 +49,7 @@
 }
 
 .app1 {
-  background-image: url(../public/newHomePageImages/game3d.png);
+  background-image: url(../public/newHomePageImages/appnft1.png);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -58,7 +58,7 @@
 }
 
 .app2 {
-  background-image: url(../public/newHomePageImages/game4d.png);
+  background-image: url(../public/newHomePageImages/appnft2.png);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -140,7 +140,7 @@
 }
 
 .app3 {
-  background-image: url(../public/newHomePageImages/gameapp4.png);
+  background-image: url(../public/newHomePageImages/appnft3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,7 +189,7 @@
 }
 
 .app4 {
-  background-image: url(../public/newHomePageImages/gamme.png);
+  background-image: url(../public/newHomePageImages/appnft4.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@
 }
 
 .app7 {
-  background-image: url(../public/newHomePageImages/gum.png);
+  background-image: url(../public/newHomePageImages/appnft5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@
 }
 
 .app5 {
-  background-image: url(../public/newHomePageImages/gum.png);
+  background-image: url(../public/newHomePageImages/appnft5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -251,12 +251,7 @@
 }
 
 .app6 {
-  /* border-radius: 15px;
-    border: 4px solid;
-    border-image: linear-gradient(#f32f53, #f32fc2, #4a78ef) 10;
-    -webkit-mask:
-        linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0); */
+
   background-image: url(../public/newHomePage/images/newMaintain8.png);
   background-position: right;
   background-size: cover;
@@ -276,7 +271,51 @@
   width: 75%;
 }
 
+.app11, .app22, .app33 {
+  height: 456px;
+  display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding: 0 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
+
+.app11 {
+  background-image: url(../public/newHomePageImages/appnft00.png);
+  background-position: center;
+
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app22 {
+  background-image: url(../public/newHomePageImages/appnft001.png);
+  background-position: center;
+
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app33 {
+  background-image: url(../public/newHomePageImages/appnft002.png);
+  background-position: center;
+
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+@media screen and (min-width: 1400px) { 
+
+  .map{
+    margin-top: 2.5%;
+  }
+
+}
 
 @media screen and (min-width: 1500px) {
   .app3 {
@@ -342,6 +381,13 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+.app11, .app22, .app33 {
+  height: 456px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
   .newHomeBg {
     padding-bottom: 50px;
     background: #000;
@@ -387,7 +433,6 @@
 }
 
 @media screen and (max-width: 991px) {
-  
 
   .para{
     max-width: unset;
@@ -429,15 +474,15 @@
 
   .app4,
   .app5 {
-    height: auto;
+    height: 282px;
   }
 
   .app6 {
-    height: auto;
+    height: 430px;
   }
 
   .app7 {
-    height: auto;
+    height: 485px;
     background-image: none;
     border: 3px solid #f32f53;
     border-radius: 22px;
@@ -448,30 +493,27 @@
     max-width: 99%;
     margin-left: 3px;
   }
-
-
 }
 
 @media screen and (max-width: 767px) {
 
+.earn, .map{
+  width: 100%;
+  text-align: center;
+}
+.app1 .para {
+  max-width: unset;
 
-  .earn, .map{
-    width: 100%;
-    text-align: center;
-  }
-  .app1 .para {
-    max-width: unset;
-  
-  }
-   .para {
-    text-overflow: unset;
-    display:unset;
-  
-  }
-  
-  .possibilities{
-    height: auto;
-  }
+}
+ .para {
+  text-overflow: unset;
+  display:unset;
+
+}
+
+.possibilities{
+  height: auto;
+}
 
   .newHomeBg {
     padding-top: 50px;
@@ -532,6 +574,17 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .cardContent{
+    text-align: center;
+  }
+  .paraThreeContent{
+    text-align: center;
+  }
+
+
+
+
   .book,
   .about {
     font-size: 10px !important;
@@ -548,7 +601,7 @@
 
   .app4,
   .app5 {
-    height: auto;
+    height: 304px;
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
@@ -557,7 +610,7 @@
 
   .app6,
   .app7 {
-    height: auto;
+    height: 300px;
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
@@ -566,8 +619,11 @@
 
   .app1,
   .app,
-  .app2 {
-    height: auto;
+  .app2,
+  .app11,
+  .app22,
+  .app33 {
+    height: 300px;
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
@@ -587,7 +643,7 @@
   }
 
   .app3 {
-    height: auto;
+    height: 340px;
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import styles from '@/styles/Capabilities2d.module.css'
+import styles from '@/styles/Capabilitiesnft.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -16,17 +16,9 @@ import team6 from '../public/newHomePageImages/6.png'
 import close from '../public/newHomePageImages/close.png'
 
 
-import blog212 from '../public/newHomePageImages/blog1.png'
+import blog212 from '../public/newHomePageImages/blog2.png'
 
-import dcharacter from '../public/nftslider/2dcharacter.png'
-import casualart from '../public/nftslider/casualart.png'
-import characterdesign from '../public/nftslider/characterdesign.png'
-import hiddenobjects from '../public/nftslider/hiddenobjects.png'
-import slotsgamesconceptart from '../public/nftslider/slotsgamesconceptart.png'
-import uiux from '../public/nftslider/uiux.png'
-
-
-const Capabilities2d = () => {
+const Capabilitiesnft = () => {
 
 
     var awardslogo = {
@@ -55,8 +47,8 @@ const Capabilities2d = () => {
                         <Col xl={12}>
                             <div className={styles.build}>
                                 <div>
-                                    <h2>Join the Revolution - Play on Any <br></br> Platform with BitsWits' 2D Game <br></br> Development Company</h2>
-                                    <p className='white'>We provide an optimal gaming experience across multiple platforms by developing games for iOS, Android,  Windows, and Mac OS. Our cross-platform approach ensures that your game reaches the broadest possible audience  of gamers. We also provide extensive testing and optimization services to ensure seamless performance and compatibility on the target platforms. BitsWits uses high-quality tools such as Unity 2D and HTML5 to develop custom games to ensure maximum device performance. So, get in touch with us today, and let us help you take your gaming  venture to the next level!</p>
+                                    <h2>Creating Digital Magic: Tap Into the <br></br> Power of On-Demand NFT Game <br></br> Development</h2>
+                                    <p className='white'>BitsWits combine the power of blockchain technology with digital gaming to create innovative and captivating experiences. We uphold the mission of bringing a new kind of entertainment to the world—one that is safe, secure, and exciting! Whether NFT games for mobile, PC, and console platforms, our games feature dynamic gameplay, stunning graphics, and immersive storylines that captivate players. With cutting-edge technology and unbeatable artistry, we are transforming gaming into an entirely new experience.</p>
                                 </div>
                                 <Link className={styles.about} href="#">Connect Now!</Link>
                             </div>
@@ -111,7 +103,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={dcharacter} alt='bitswits' className='img-fluid' />
+                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -137,7 +129,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={uiux} alt='bitswits' className='img-fluid' />
+                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -149,7 +141,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={characterdesign} alt='bitswits' className='img-fluid' />
+                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -161,7 +153,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={casualart} alt='bitswits' className='img-fluid' />
+                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -173,7 +165,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={slotsgamesconceptart} alt='bitswits' className='img-fluid' />
+                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -185,7 +177,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={hiddenobjects} alt='bitswits' className='img-fluid' />
+                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -205,4 +197,4 @@ const Capabilities2d = () => {
     )
 }
 
-export default Capabilities2d
+export default Capabilitiesnft

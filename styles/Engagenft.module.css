@@ -186,14 +186,27 @@
 
 @media screen and (max-width: 767px) {
 
+  .forget{
+    margin-bottom: 100px;
+  }
 
-
-
-  .longline {
-    margin-bottom: 60%;
-    width: 90%;
-    margin-top: 15%;
+  .engage{
+    text-align: center;
+  }
+  .longline img {
+    position: absolute;
+    content: '';
+    top: -75px;
+    left: 0;
+    right: 0;
 }
+  .bring1{
+    text-align: center;
+  }
+  .engage img{
+    display: block;
+    margin: 0 auto;
+  }
 
   .forget h2 {
     font-size: 30px;
@@ -218,45 +231,17 @@
 
 @media screen and (max-width: 480px) {
 
-  .expertise1 img {
-    position: absolute;
-    content: '';
-    top: -75px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-
-
-  .bring1{
-    text-align: center;
-  }
-
-  .longline img {
-    position: absolute;
-    content: '';
-    top: -75px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-
- .engage{
-  text-align: center;
- }
-
   .forget {
     margin-bottom: 90px;
   }
 
   .longline {
-    margin-bottom: 80%;
+    margin-bottom: 90%;
     width: 90%;
   }
 
   .longline1 {
-    margin-bottom: 60%;
+    margin-bottom: 80%;
     width: 90%;
   }
 
