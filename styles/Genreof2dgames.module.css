@@ -58,7 +58,13 @@
 .bod p {
   text-align: center;
   font-size: 13px;
-
+  text-align: center;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
 
 .play a {
@@ -135,16 +141,18 @@
     font-size: 30px;
 
   }
+
   .which h3 {
 
     font-size: 18px;
 
   }
+
   .play h3 {
     font-size: 20px;
     font-weight: bold;
     color: white;
-}
+  }
 
 }
 
@@ -156,19 +164,21 @@
     font-size: 30px;
 
   }
+
   .which h3 {
 
     font-size: 15px;
 
   }
+
   .play h3 {
     font-size: 25px;
     font-weight: bold;
     color: white;
+  }
+
+
+
+
+
 }
-
-
-
-
-
- }
