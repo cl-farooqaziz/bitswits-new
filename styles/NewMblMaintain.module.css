@@ -305,11 +305,30 @@
         -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
         padding-top: 50px;
         padding-bottom: 0px;
-        height: auto;
+        height: 440px;
     }
 
     .app2 {
-        height: auto;
+        height: 440px;
+    }
+
+    .app4 {
+        height: 440px;
+        background-size: cover
+    }
+
+    .app5 {
+        height: 440px;
+        background-size: cover
+    }
+
+    .cardContent {
+        margin-bottom: -8%;
+    }
+
+    .app4,
+    .app5 .cardContent {
+        margin-bottom: 0;
     }
 
 }
