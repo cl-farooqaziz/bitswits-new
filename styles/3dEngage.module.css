@@ -227,6 +227,10 @@
         width: 90%;
     }
 
+    .longline img {
+        top: -105px;
+    }
+
 }
 
 
@@ -248,6 +252,10 @@
     .longline1 {
         margin-bottom: 60%;
         width: 90%;
+    }
+
+    .cont p {
+        font-size: 13px;
     }
 
 

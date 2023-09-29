@@ -4,7 +4,7 @@
     background-image: url(../public/3d-game-development/images/banner-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-top: -140px;
 }
 

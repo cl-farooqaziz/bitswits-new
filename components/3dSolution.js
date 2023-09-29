@@ -24,7 +24,7 @@ const New3dSolutions = () => {
                             <Link className={styles.about} href="#">Consult A Gaming Expert To Begin</Link>
                         </Col>
                         <Col lg={6}>
-                            <Image src={Solution} />
+                            <Image src={Solution} className='img-fluid mt-5 mt-lg-0'/>
                         </Col>
                     </Row>
                 </Container>

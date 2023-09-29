@@ -4,11 +4,11 @@
 }
 
 .newHomeBg {
-    background-image: url(../public/newHomePageImages/banner-bg.png);
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+  background-image: url(../public/newHomePageImages/banner-bg.png);
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .wid {
   max-width: 702px;
@@ -66,4 +66,9 @@
   .btn_txt {
     font-size: 19px;
   }
+
+  .newHomeBg {
+    padding-bottom: 100px;
+  }
+
 }

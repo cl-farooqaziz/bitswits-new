@@ -413,12 +413,60 @@
     }
 
     .app6 {
-        height: auto;
+        height: 466px;
     }
 
     .app {
+        height: 466px;
+    }
 
-        height: auto;
+    .app1 {
+
+        height: 466px;
+    }
+
+    .app2 {
+
+        height: 466px;
+    }
+
+    .app4 {
+
+        height: 341px;
+    }
+
+    .app5 {
+        height: 333px;
+    }
+
+    .app7 {
+        height: 463px;
+    }
+
+    .app8 {
+        height: 463px;
+    }
+
+    .app9 {
+        height: 339px;
+    }
+
+    .app10 {
+        height: 339px;
+    }
+
+    .app,
+    .app1,
+    .app2,
+    .app3,
+    .app4,
+    .app5,
+    .app6,
+    .app7,
+    .app8,
+    .app9,
+    .app10 {
+        padding: 0 15px;
     }
 
 

@@ -117,7 +117,7 @@ const New3dBanner = () => {
                                         </p>
                                     </div>
                                     <Row className={styles.locations}>
-                                        <Col lg={8} md={6} className={`${styles.locInner} col-6`}>
+                                        <Col lg={8} md={6} className={`${styles.locInner} `}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon11} className='img-fluid' />
                                             </div>
@@ -140,7 +140,7 @@ const New3dBanner = () => {
                                                 </Link>
                                             </div>
                                         </Col>
-                                        <Col lg={4} md={6} sm={6} className={`${styles.locInner} col-6`}>
+                                        <Col lg={4} md={6} sm={6} className={`${styles.locInner} `}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon12} className='img-fluid' />
                                             </div>
@@ -151,7 +151,7 @@ const New3dBanner = () => {
                                                 </Link>
                                             </div>
                                         </Col>
-                                        <Col lg={4} md={6} className={`${styles.locInner} col-6`}>
+                                        <Col lg={4} md={6} className={`${styles.locInner} `}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon13} className='img-fluid' />
                                             </div>
@@ -162,7 +162,7 @@ const New3dBanner = () => {
                                                 </Link>
                                             </div>
                                         </Col>
-                                        <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
+                                        <Col md={6} sm={6} className={`${styles.locInner} `}>
                                             <div className={styles.locImg}>
                                                 <Image alt="bitswits" src={icon14} className='img-fluid' />
                                             </div>

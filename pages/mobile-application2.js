@@ -7,7 +7,6 @@ import NewMblAbout from '@/components/NewMblAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 import NewHomeHear from '@/components/NewHomeHear';
-import NewMblMaintain from '@/components/NewMblMaintain';
 import NewMblGlobal from '@/components/NewMblGlobal';
 import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';

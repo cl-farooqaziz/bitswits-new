@@ -10,21 +10,27 @@
   height: 100%;
   position: relative;
 }
+
 .poliBox1 {
   background-image: url(../public/newMobilePageImages/portfolio/folio1.png);
 }
+
 .poliBox2 {
   background-image: url(../public/newMobilePageImages/portfolio/folio2.png);
 }
+
 .poliBox3 {
   background-image: url(../public/newMobilePageImages/portfolio/folio3.png);
 }
+
 .poliBox4 {
   background-image: url(../public/newMobilePageImages/portfolio/folio4.png);
 }
+
 .poliBox5 {
   background-image: url(../public/newMobilePageImages/portfolio/folio5.png);
 }
+
 .poliBox6 {
   background-image: url(../public/newMobilePageImages/portfolio/folio6.png);
 }
@@ -55,6 +61,13 @@
   letter-spacing: 2px;
 }
 
-.poliBox img{
+.poliBox img {
   width: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+  .polioTxt {
+    bottom: 15%;
+  }
 }

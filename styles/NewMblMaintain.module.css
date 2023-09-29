@@ -154,7 +154,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 720px;
+    height: 430px;
 
 }
 
@@ -202,7 +202,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 720px;
+    height: 420px;
 
 }
 
@@ -332,12 +332,41 @@
     }
 
     .app6 {
-        height: auto;
+        height: 460px;
     }
 
     .app {
+        height: 460px;
+    }
 
-        height: auto;
+    .app1 {
+        height: 460px;
+    }
+
+    .app2 {
+        height: 460px;
+    }
+
+    .app3 {
+        height: 330px;
+        display: block;
+    }
+
+    .app4 {
+        height: 460px;
+    }
+
+    .app5 {
+        height: 460px;
+    }
+
+    .cardContent {
+        margin-bottom: 15%;
+    }
+
+    .app4,
+    .app5 .cardContent {
+        margin-bottom: -25%;
     }
 
 

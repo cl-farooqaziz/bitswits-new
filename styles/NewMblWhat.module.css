@@ -76,4 +76,17 @@
   .mixColor2 {
     bottom: -165px;
   }
+
+  .newHomeBg {
+    padding-bottom: 100px;
+  }
+
+  .mixColor2 {
+    display: none;
+  }
+
+
+  .cardContent {
+    margin-bottom: 0;
+  }
 }

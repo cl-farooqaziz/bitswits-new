@@ -393,7 +393,8 @@
     }
 
     .app2 {
-        height: auto;
+        height: 456px;
+        background-size: cover;
         border-radius: 24px;
     }
 
@@ -402,12 +403,13 @@
     }
 
     .paraThreeContent {
-        margin-top: 92px;
+        margin-top: 0;
     }
 
     .app4,
     .app5 {
-        height: 282px;
+        height: 382px;
+        background-size: cover;
     }
 
     .app6 {
@@ -484,6 +486,10 @@
 
     .power {
         padding-left: 0%;
+    }
+
+    .paraThreeContent {
+        margin-top: -70px;
     }
 }
 

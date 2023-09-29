@@ -766,6 +766,7 @@ a {
   padding-top: 0 !important;
 
 }
+
 .qtechcap .slick-slide img {
 
   display: unset;
@@ -1330,7 +1331,7 @@ input::-webkit-inner-spin-button {
 .qtech .slick-dots li {
   width: 175px;
   height: 5px;
-  margin-left: 19px;
+  /* margin-left: 19px; */
 }
 
 
@@ -1745,6 +1746,10 @@ input::-webkit-inner-spin-button {
   .font80 {
     font-size: 50px;
     line-height: 45px;
+  }
+
+  .font25 {
+    font-size: 25px;
   }
 
 }
@@ -2595,7 +2600,7 @@ p {
 @media screen and (max-width: 991px) {
 
 
-  .qtechcap .slick-dots li button:before{
+  .qtechcap .slick-dots li button:before {
     display: none;
   }
 
