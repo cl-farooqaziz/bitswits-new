@@ -7,6 +7,7 @@ import NewMblAbout from '@/components/NewMblAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 import NewHomeHear from '@/components/NewHomeHear';
+import NewMblMaintain from '@/components/NewMblMaintain';
 import NewMblGlobal from '@/components/NewMblGlobal';
 import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
@@ -15,11 +16,14 @@ import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewMblPortFolio from '@/components/NewMblPortFolio';
-import NewMblServices from '@/components/NewMblServices';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
-export default function mobileApplication() {
+export default function Home() {
+
+
+
+
     return (
         <>
             <Head>
@@ -29,13 +33,14 @@ export default function mobileApplication() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
+
             <NewMblBanner />
             <NewMblAbout />
             <NewMblWho />
             <Justbuildit />
             <NewMblWhat />
             <NewHomeHear />
-            <NewMblServices />
+            <NewMblMaintain />
             <NewMblPortFolio />
             <Capabilities />
             <Newsuccess />
@@ -44,6 +49,8 @@ export default function mobileApplication() {
             <NewMblTechnologiesWe />
             <NewMblNextProject />
             <Faqs />
+
+
 
         </>
     )
