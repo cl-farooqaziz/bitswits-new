@@ -83,6 +83,14 @@
     z-index: 0;
 }
 
+.active span {
+    color: white;
+}
+
+.active .tabImage {
+    opacity: 0.9;
+}
+
 .newyork {
     display: flex;
     justify-content: center;
