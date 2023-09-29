@@ -66,31 +66,31 @@ export default function hireShopifyDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Official Shopify Partners
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Theme Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Theme Customisation
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 App Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 App Configuration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Product Import & Maintenance
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Social Media Branding
             </li>
         </ul>
@@ -111,7 +111,7 @@ export default function hireShopifyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Theme Development</h5>
                     <p>
@@ -122,7 +122,7 @@ export default function hireShopifyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">App Development</h5>
                     <p>
@@ -133,7 +133,7 @@ export default function hireShopifyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Magento to Shopify Migration</h5>
                     <p>
@@ -144,7 +144,7 @@ export default function hireShopifyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Support & Maintenance</h5>
                     <p>
@@ -155,7 +155,7 @@ export default function hireShopifyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Social Media Branding</h5>
                     <p>
@@ -166,7 +166,7 @@ export default function hireShopifyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Customised features</h5>
                     <p>

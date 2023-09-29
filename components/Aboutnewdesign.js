@@ -18,7 +18,7 @@ const Aboutnewdesign = () => {
 
                         <Col lg={12}>
 
-                            <Image src={icon1} className='img fluid w-100 h-auto' />
+                            <Image quality={75} src={icon1} className='img fluid w-100 h-auto' />
 
 
                             <h3 className={styles.about}>About BitsWits</h3>

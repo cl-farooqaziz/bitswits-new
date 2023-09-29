@@ -52,14 +52,14 @@ export default function socialmediaoptimization() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Enhances Brand Awareness & Reputability </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Improves Brand Loyalty </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Increase Sales and ROI </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Cost-Effective </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Real-time Metrics and Results </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>More Inbound Traffic </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Higher Conversion Rates </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Expands Customer Base </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Enhances Brand Awareness & Reputability </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Improves Brand Loyalty </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Increase Sales and ROI </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Cost-Effective </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Real-time Metrics and Results </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>More Inbound Traffic </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Higher Conversion Rates </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Expands Customer Base </li>
         </ul>
     </>
 
@@ -154,7 +154,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Reputation
@@ -168,7 +168,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Engagement
@@ -182,7 +182,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Authority
@@ -196,7 +196,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Leadership
@@ -210,7 +210,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Social
@@ -225,7 +225,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Media
@@ -239,7 +239,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Optimization
@@ -253,7 +253,7 @@ export default function socialmediaoptimization() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Content
@@ -380,14 +380,14 @@ export default function socialmediaoptimization() {
                 <Col>
                     <h3 className='center font-bold mb-5'>Our Social Media Marketing Expertise Also Include</h3>
                     <ul className={styles.mservice}>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  Youtube Video Advertising </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> Facebook Cold Display Advertising  </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  Facebook Dynamic Adverts </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  Facebook Remarketing &amp; Campaigns</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  Instagram Ads </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  LinkedIn Advertising</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  Twitter Ads</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  Content Development &amp; Marketing</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  Youtube Video Advertising </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> Facebook Cold Display Advertising  </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  Facebook Dynamic Adverts </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  Facebook Remarketing &amp; Campaigns</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  Instagram Ads </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  LinkedIn Advertising</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  Twitter Ads</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  Content Development &amp; Marketing</li>
                     </ul>
                 </Col>
             </Row>
@@ -405,14 +405,14 @@ const data =
 
 
                         <ul className={dataStyles.mservice}>
-                            <li> <Image src={mobilearrow1} alt="bitswits" />  Youtube Video Advertising </li>
-                            <li> <Image src={mobilearrow1} alt="bitswits" /> Facebook Cold Display Advertising  </li>
-                            <li> <Image src={mobilearrow1} alt="bitswits" />  Facebook Dynamic Adverts </li>
-                            <li> <Image src={mobilearrow1} alt="bitswits" />  Facebook Remarketing &amp; Campaigns</li>
-                            <li> <Image src={mobilearrow1} alt="bitswits" />  Instagram Ads </li>
-                            <li> <Image src={mobilearrow1} alt="bitswits" />  LinkedIn Advertising</li>
-                            <li> <Image src={mobilearrow1} alt="bitswits" />  Twitter Ads</li>
-                            <li> <Image src={mobilearrow1} alt="bitswits" />  Content Development &amp; Marketing</li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  Youtube Video Advertising </li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" /> Facebook Cold Display Advertising  </li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  Facebook Dynamic Adverts </li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  Facebook Remarketing &amp; Campaigns</li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  Instagram Ads </li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  LinkedIn Advertising</li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  Twitter Ads</li>
+                            <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  Content Development &amp; Marketing</li>
                         </ul>
                     </Col>
                 </Row>

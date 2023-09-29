@@ -44,35 +44,35 @@ export default function hireRubyDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Custom web application development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Custom Enterprise Apps
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Web 2.0 Applications & e-Commerce Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Custom Community Websites & Web Portals Creation
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Redesign and enhancement of websites/applications
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Deployment, Installation and Migration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 CMS Development Services
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Maintenance and Upgrade
             </li>
         </ul>
@@ -93,7 +93,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Web Portal Development</h5>
                     <p>
@@ -104,7 +104,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Layout Design</h5>
                     <p>
@@ -115,7 +115,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Support & Maintenance</h5>
                     <p>
@@ -126,7 +126,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Custom Web Application Development</h5>
                     <p>
@@ -137,7 +137,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">E-Commerce Application Development</h5>
                     <p>
@@ -148,7 +148,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Installation & CMS Development</h5>
                     <p>
@@ -159,7 +159,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Web 2.0 Development</h5>
                     <p>
@@ -170,7 +170,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Application Development</h5>
                     <p>
@@ -181,7 +181,7 @@ export default function hireRubyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Portal Development</h5>
                     <p>
@@ -203,7 +203,7 @@ export default function hireRubyDeveloper() {
         <Row className={`${reStyles.soluRow} mt-5`}>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon33} alt='BitsWits' className='img-fluid mb-3' />
+                    <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid mb-3' />
                     <h5 className='font20 fontf font-bold line30'>
                         CONSUMER APPS
                     </h5>
@@ -214,7 +214,7 @@ export default function hireRubyDeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon34} alt='BitsWits' className='img-fluid mb-3' />
+                    <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid mb-3' />
                     <h5 className='font20 fontf font-bold line30'>
                         BUSINESS APPS
                     </h5>
@@ -225,7 +225,7 @@ export default function hireRubyDeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon35} alt='BitsWits' className='img-fluid mb-3' />
+                    <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid mb-3' />
                     <h5 className='font20 fontf font-bold line30'>
                         ENTERTAINMENT APPS
                     </h5>

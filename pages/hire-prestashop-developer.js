@@ -66,10 +66,10 @@ export default function hirePrestashopDeveloper() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>eCommerce store design & development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Custom extensions</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Upgrades & migrations</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Applications & portals</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>eCommerce store design & development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Custom extensions</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Upgrades & migrations</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Applications & portals</li>
         </ul>
 
     </>
@@ -89,7 +89,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Websites Design And Development</h5>
                     <p>
@@ -100,7 +100,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Integration With 3rd Party Applications</h5>
                     <p>
@@ -111,7 +111,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Performance Optimization</h5>
                     <p>
@@ -122,7 +122,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Search Engine Optimization For Online Stores</h5>
                     <p>
@@ -133,7 +133,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Marketplace</h5>
                     <p>
@@ -144,7 +144,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Data Migration</h5>
                     <p>
@@ -155,7 +155,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Theming</h5>
                     <p>
@@ -166,7 +166,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Module Development</h5>
                     <p>
@@ -177,7 +177,7 @@ export default function hirePrestashopDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-medium line30">Module Development</h5>
                     <p>

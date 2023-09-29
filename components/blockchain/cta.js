@@ -15,7 +15,7 @@ const cta = (props) => {
                 </span>
                 <span className='line'></span>
                 <span  className='px-3 pt-sm-2 text-sm-center'>
-                    <Image src={phone} alt='logo' width={20} /> 
+                    <Image quality={75} src={phone} alt='logo' width={20} /> 
                     <Link className={styles.asnumber} href="tel:1-844-400-0025"> {props.number}</Link>
                 </span> 
             </div>

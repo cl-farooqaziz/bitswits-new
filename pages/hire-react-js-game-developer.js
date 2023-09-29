@@ -102,13 +102,13 @@ export default function hirereactjsgamedeveloper() {
    
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Dedicated Game Developers </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Experienced React JS Professionals</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> NDA Protection</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Effiicient Project Management</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Absolute Attention to Details</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Fluid UI for perfect Hybrid UX</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Easy Update Services</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Dedicated Game Developers </li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Experienced React JS Professionals</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> NDA Protection</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>   Effiicient Project Management</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Absolute Attention to Details</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Fluid UI for perfect Hybrid UX</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Easy Update Services</li>
         </ul>
     </>
 
@@ -202,7 +202,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We can develop CRM solutions using these technologies - Microsoft Dynamics CRM/ 365, Salesforce, Sugar CRM.
@@ -212,7 +212,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Our experts have the experience in using great technologies like MS Dynamics CRM and Salesforce solutions for domains ranging from Medical legal firms, Telecommunication industries, Travel.
@@ -223,7 +223,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’re great at Custom CRM Development
@@ -233,7 +233,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ve served our clients on a vast industrial spectrum ranging from enterprises to medium and small scale organisations.
@@ -244,7 +244,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for complete document management.
@@ -254,7 +254,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We have the knowledge of carrying out all integrations with Microsoft SharePoint.
@@ -265,7 +265,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Want updates and migration services? We can do it for you.
@@ -275,7 +275,7 @@ export default function hirereactjsgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for Upgrade and Migration
@@ -546,14 +546,14 @@ export default function hirereactjsgamedeveloper() {
             <Row>
                 <Col xl={4} className='borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones1} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Large Community</h3>
                         <p className=''>ReactJS is a quite prominent JavaScript library for building user interface with a huge community support. It opens up ways for better future improvements.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones2} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Live Reload</h3>
                         <p className=''>Eliminate the time-consuming and inefficient technology that requires reloading of the application with multiple changes with this library that supports live reload.</p>
                     </div>
@@ -561,21 +561,21 @@ export default function hirereactjsgamedeveloper() {
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Modular Architecture</h3>
                         <p className=''>ReactJS is a quite prominent JavaScript library for building user interface with a huge community support. It opens up ways for better future improvements.</p>
                     </div>
                 </Col>
                 <Col xl={4}>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones4} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Mobile Interface</h3>
                         <p className=''>ReactJS is all about UI, and with its fluidity, it is the best option for the development of hybrid gaming apps that can run smoothly on multiple devices.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones5} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Code Reuse</h3>
                         <p className=''>With this extensively useful library, you can easily reuse the code for the creation of both iOS and Android hybrid apps leading to an incredible cost-saving.</p>
                     </div>

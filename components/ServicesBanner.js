@@ -75,7 +75,7 @@ const ServicesBanner = (props) => {
                                 {/* <Link className={styles.bttns1} href='tel:(833) 500-6007'>(833)500-6007</Link> */}
                                 <Link className={styles.bttns2} href="#">Got an App Idea? Start a Conversation with Our Experts!
                                 </Link>
-                                <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                                <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                             </div>
 
 
@@ -83,13 +83,13 @@ const ServicesBanner = (props) => {
 
                             {/* <div className={`mt-2 mb-3`}>
                                 <div className='newbit2'>
-                                    <Image src={news1} alt="bitswits" className='img-fluid' />
-                                    <Image src={news2} alt="bitswits" className='img-fluid' />
-                                    <Image src={news3} alt="bitswits" className='img-fluid' />
-                                    <Image src={news4} alt="bitswits" className='img-fluid' />
-                                    <Image src={news5} alt="bitswits" className='img-fluid' />
-                                    <Image src={news6} alt="bitswits" className='img-fluid' />
-                                    <Image src={news7} alt="bitswits" className='img-fluid' />
+                                    <Image quality={75} src={news1} alt="bitswits" className='img-fluid' />
+                                    <Image quality={75} src={news2} alt="bitswits" className='img-fluid' />
+                                    <Image quality={75} src={news3} alt="bitswits" className='img-fluid' />
+                                    <Image quality={75} src={news4} alt="bitswits" className='img-fluid' />
+                                    <Image quality={75} src={news5} alt="bitswits" className='img-fluid' />
+                                    <Image quality={75} src={news6} alt="bitswits" className='img-fluid' />
+                                    <Image quality={75} src={news7} alt="bitswits" className='img-fluid' />
                                 </div>
                             </div> */}
 

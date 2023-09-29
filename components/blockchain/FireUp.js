@@ -41,22 +41,22 @@ const FireUp = (props) => {
           <Nav variant="pills" className="flex-row">
             <Nav.Item>
               <Nav.Link eventKey="first">
-                <Image src={usa} alt="Blockchain" className='img-fluid'/> 
+                <Image quality={75} src={usa} alt="Blockchain" className='img-fluid'/> 
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="second">
-                <Image src={uae} alt="Blockchain" className='img-fluid'/> 
+                <Image quality={75} src={uae} alt="Blockchain" className='img-fluid'/> 
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="third">
-                <Image src={maleshia} alt="Blockchain" className='img-fluid'/> 
+                <Image quality={75} src={maleshia} alt="Blockchain" className='img-fluid'/> 
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="fourth">
-                <Image src={pakistan} alt="Blockchain" className='img-fluid'/> 
+                <Image quality={75} src={pakistan} alt="Blockchain" className='img-fluid'/> 
               </Nav.Link>
             </Nav.Item>
           </Nav>
@@ -79,7 +79,7 @@ const FireUp = (props) => {
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <Image src={mapusa} alt="Blockchain" className='img-fluid' />
+                        <Image quality={75} src={mapusa} alt="Blockchain" className='img-fluid' />
                     </Col>
                 </Row>    
             </Tab.Pane>
@@ -95,7 +95,7 @@ const FireUp = (props) => {
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <Image src={mapusa} alt="Blockchain" className='img-fluid' />
+                        <Image quality={75} src={mapusa} alt="Blockchain" className='img-fluid' />
                     </Col>
                 </Row>   
             </Tab.Pane>
@@ -112,7 +112,7 @@ const FireUp = (props) => {
                        
                     </Col>
                     <Col lg={6}>
-                        <Image src={mapusa} alt="Blockchain" className='img-fluid' />
+                        <Image quality={75} src={mapusa} alt="Blockchain" className='img-fluid' />
                     </Col>
                 </Row>   
             </Tab.Pane>
@@ -129,7 +129,7 @@ const FireUp = (props) => {
                        
                     </Col>
                     <Col lg={6}>
-                        <Image src={mapusa} alt="Blockchain" className='img-fluid' />
+                        <Image quality={75} src={mapusa} alt="Blockchain" className='img-fluid' />
                     </Col>
                 </Row>   
             </Tab.Pane>

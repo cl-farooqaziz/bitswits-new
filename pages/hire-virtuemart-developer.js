@@ -52,12 +52,12 @@ export default function virtuemartDeveloper() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>VirtueMart Customisation </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>E-Commerce Application Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Migration App to VirtueMart</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Payment Gateway Integration</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Custom Extension Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Theme Development & Integration</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>VirtueMart Customisation </li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>E-Commerce Application Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Migration App to VirtueMart</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Payment Gateway Integration</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Custom Extension Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Theme Development & Integration</li>
         </ul>
 
     </>
@@ -78,7 +78,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular line30">Custom Design <br /> Integration</h5>
                 </div>
@@ -86,7 +86,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular line30">Shipping Methods <br /> Integration</h5>
                 </div>
@@ -94,7 +94,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular line30">Web <br /> Services</h5>
                 </div>
@@ -102,7 +102,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular line30">Online Store <br /> Development</h5>
                 </div>
@@ -110,7 +110,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon5} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular line30">Third Party <br /> API</h5>
                 </div>
@@ -118,7 +118,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular line30">Nested Category <br /> Support</h5>
                 </div>
@@ -138,7 +138,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox} ${expStyles.sizImg}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
                         Design & Development Services
@@ -147,15 +147,15 @@ export default function virtuemartDeveloper() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Theme Development, Customisation & Modification
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Responsive Templates Creation PSD to VirtueMart
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Logo/Banner Creation
                                 </li>
                             </ul>
@@ -166,7 +166,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox} ${expStyles.sizImg}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
                         Custom Development
@@ -175,31 +175,31 @@ export default function virtuemartDeveloper() {
                         <Col>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     VirtueMart Optimisation
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Online Store Customisation
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Customised Shopping Cart
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Product Addition and Data Import
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     HTML to VirtueMart Development
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Versions Upgrade
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Plugin Development & Customisation
                                 </li>
                             </ul>
@@ -210,7 +210,7 @@ export default function virtuemartDeveloper() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox} ${expStyles.sizImg}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
                         Integration Services
@@ -219,31 +219,31 @@ export default function virtuemartDeveloper() {
                         <Col>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     3rd Party Systems Integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Shipping Method Integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     New Theme Integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Facebook Store Integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Payment Gateway Integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Configure Free Shipping or Flat-Rate Shipping
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Valid Schema Markup for Improved SEO Performance
                                 </li>
                             </ul>
@@ -267,7 +267,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         21+ years experience
@@ -278,7 +278,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Streamlined
@@ -289,7 +289,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Proven
@@ -300,7 +300,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Competitive
@@ -311,7 +311,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Source Code
@@ -322,7 +322,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Comprehensive
@@ -333,7 +333,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Security and
@@ -344,7 +344,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Well versed with
@@ -355,7 +355,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Quality Network &
@@ -366,7 +366,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Flexible Engagement
@@ -377,7 +377,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Best-in-industry
@@ -388,7 +388,7 @@ export default function virtuemartDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Hire from a pool of highly

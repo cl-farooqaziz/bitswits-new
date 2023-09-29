@@ -68,19 +68,19 @@ export default function hireMagentoDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Theme design & development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Custom extensions & modules
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Multi-Vendor Solutions
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Migration Services
             </li>
         </ul>
@@ -101,7 +101,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Websites Design And Development</h5>
                     <p>
@@ -112,7 +112,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Integration With 3rd Party Applications</h5>
                     <p>
@@ -123,7 +123,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Performance Optimization</h5>
                     <p>
@@ -134,7 +134,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Search Engine Optimization For Online Stores</h5>
                     <p>
@@ -145,7 +145,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Marketplace</h5>
                     <p>
@@ -156,7 +156,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Data Migration</h5>
                     <p>
@@ -167,7 +167,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Theming</h5>
                     <p>
@@ -178,7 +178,7 @@ export default function hireMagentoDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Module Development</h5>
                     <p>
@@ -201,23 +201,23 @@ export default function hireMagentoDeveloper() {
                     <p className='font18 font-regular center mb-5'>With 20+ years of experience, We are BitsWits, a company of Dotsquares Ltd, We are certified Magento developers and Adobe partners. We’ve been working with Magento since it was launched in 2008. Here are some of our real, independently verifiable stats:</p>
                     <ul className={markstyles.mservice}>
                         <li>
-                            <Image src={mobilearrow2} alt="bitswits" />
+                            <Image quality={75} src={mobilearrow2} alt="bitswits" />
                             Currently, <strong>52 members</strong> of our <strong>1,000</strong>-strong permanent workforce are Magento Certified
                         </li>
                         <li>
-                            <Image src={mobilearrow2} alt="bitswits" />
+                            <Image quality={75} src={mobilearrow2} alt="bitswits" />
                             At last count, we'd built <strong>1287 Magento stores</strong> - including over <strong>100 stores</strong> built in 2023 <strong>alone</strong>
                         </li>
                         <li>
-                            <Image src={mobilearrow2} alt="bitswits" />
+                            <Image quality={75} src={mobilearrow2} alt="bitswits" />
                             We've developed and launched <strong>109 Magento Extensions</strong>
                         </li>
                         <li>
-                            <Image src={mobilearrow2} alt="bitswits" />
+                            <Image quality={75} src={mobilearrow2} alt="bitswits" />
                             Need a multi-vendor solution? No problem! We've successfully completed <strong>53 multi-vendor stores</strong>
                         </li>
                         <li>
-                            <Image src={mobilearrow2} alt="bitswits" />
+                            <Image quality={75} src={mobilearrow2} alt="bitswits" />
                             We have designed & built over <strong>1460 Magento templates</strong>
                         </li>
                     </ul>

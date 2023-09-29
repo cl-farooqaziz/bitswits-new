@@ -50,7 +50,7 @@ const supersale = () => {
                                 <div className={styles.innerborder}>
                                     <div className="">
                                         <Link href="javascript:;" className="">
-                                            <Image src={logo} width="300px" alt="bitswits" />
+                                            <Image quality={75} src={logo} width="300px" alt="bitswits" />
                                         </Link>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@ const supersale = () => {
                                 <Col lg={12}>
                                     <div className={styles.headercontent}>
                                         <div className={styles.textcenter}>
-                                            <Image src="" className="img-fluid" width="155" alt="logo" />
+                                            <Image quality={75} src="" className="img-fluid" width="155" alt="logo" />
                                             <h4 className={styles.elevate}>Elevate Your Mobile App
                                                 Experience With
                                             </h4>
@@ -120,7 +120,7 @@ const supersale = () => {
                                                 </div>
                                                 <div className="col-lg-1"></div>
                                                 <div className="col-lg-6 col-xl-6  mt-2">
-                                                    <Image src="" className="img-fluid" alt="Awards" />
+                                                    <Image quality={75} src="" className="img-fluid" alt="Awards" />
                                                 </div>
                                             </div>
                                         </div>
@@ -137,21 +137,21 @@ const supersale = () => {
                                                     </li>
                                                     <li className="border-right-1"></li>
                                                     <li>
-                                                        <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer"> <Image src="" width="" height="" alt="bitswits" /></Link>
+                                                        <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer"> <Image quality={75} src="" width="" height="" alt="bitswits" /></Link>
                                                     </li>
                                                     <li>
-                                                        <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer"> <Image src="" width="" height="" alt="bitswits" /></Link>
+                                                        <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer"> <Image quality={75} src="" width="" height="" alt="bitswits" /></Link>
                                                     </li>
                                                     <li>
-                                                        <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer"> <Image src="" width="" height="" alt="bitswits" /></Link>
+                                                        <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer"> <Image quality={75} src="" width="" height="" alt="bitswits" /></Link>
                                                     </li>
                                                     <li>
-                                                        <Link href="#" target="_blank" rel="noopener noreferrer"> <Image src="" width="" height="" alt="bitswits" /></Link>
+                                                        <Link href="#" target="_blank" rel="noopener noreferrer"> <Image quality={75} src="" width="" height="" alt="bitswits" /></Link>
                                                     </li>
 
                                                     <li className="border-left-1"></li>
                                                     <li>
-                                                        <Link href="#"> <Image src="" width="" height="26" alt="bitswits" /></Link>
+                                                        <Link href="#"> <Image quality={75} src="" width="" height="26" alt="bitswits" /></Link>
                                                     </li>
                                                 </ul>
                                             </div>

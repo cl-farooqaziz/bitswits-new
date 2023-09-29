@@ -22,14 +22,14 @@ const Whatwedo = (props) => {
                                 <h2 className={styles.greater}> {props.title} </h2>
                                 <p> {props.para} </p>
 
-                                <Link href='#'> {props.linkdem}  <Image src={icon2} className={styles.imgfluid} /> </Link>
+                                <Link href='#'> {props.linkdem}  <Image quality={75} src={icon2} className={styles.imgfluid} /> </Link>
 
                             </div>
 
                         </Col>
 
                         <Col xl={9} className='p-0'>
-                            <Image src={props.icon12} className='img-fluid w-100 h-auto' />
+                            <Image quality={75} src={props.icon12} className='img-fluid w-100 h-auto' />
                             
                         </Col>
 

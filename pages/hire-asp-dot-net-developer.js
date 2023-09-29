@@ -94,12 +94,12 @@ export default function hireaspdotnetdeveloper() {
        
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> ASP.Net MVC Web API's</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Custom .NET Application Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Enterprise .NET Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  .NET Core Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  .NET MVC 3/MVC 4 Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> .NET Software Development</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> ASP.Net MVC Web API's</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Custom .NET Application Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Enterprise .NET Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  .NET Core Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  .NET MVC 3/MVC 4 Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> .NET Software Development</li>
           
         </ul>
     </>
@@ -194,7 +194,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We can develop CRM solutions using these technologies - Microsoft Dynamics CRM/ 365, Salesforce, Sugar CRM.
@@ -204,7 +204,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Our experts have the experience in using great technologies like MS Dynamics CRM and Salesforce solutions for domains ranging from Medical legal firms, Telecommunication industries, Travel.
@@ -215,7 +215,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’re great at Custom CRM Development
@@ -225,7 +225,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ve served our clients on a vast industrial spectrum ranging from enterprises to medium and small scale organisations.
@@ -236,7 +236,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for complete document management.
@@ -246,7 +246,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We have the knowledge of carrying out all integrations with Microsoft SharePoint.
@@ -257,7 +257,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Want updates and migration services? We can do it for you.
@@ -267,7 +267,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for Upgrade and Migration
@@ -289,7 +289,7 @@ export default function hireaspdotnetdeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Cross Platform <br></br>
@@ -303,7 +303,7 @@ Application Developement
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Third Party <br></br>
@@ -316,7 +316,7 @@ Customisationt
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Customized Application <br></br>
@@ -329,7 +329,7 @@ Development
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Mobile <br></br>
@@ -343,7 +343,7 @@ Apps
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Application <br></br>
@@ -358,7 +358,7 @@ Integration
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Cloud Based <br></br>

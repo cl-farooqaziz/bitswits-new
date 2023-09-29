@@ -57,13 +57,13 @@ export default function mobileappdevelopment() {
 
 
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>The go-to Android app developers for popular brands </li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>The go-to Android app developers for popular brands </li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>2000+ apps launched and counting  </li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>2000+ apps launched and counting  </li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>A highly skilled in-house team of 250+ experts </li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>A highly skilled in-house team of 250+ experts </li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Global presence  </li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Global presence  </li>
 
 
 
@@ -112,7 +112,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' />
+                        <Image quality={75} src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Extensive Audience Reach
@@ -122,14 +122,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' />
+                        <Image quality={75} src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Higher Discoverability in the App Store
@@ -139,14 +139,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' />
+                        <Image quality={75} src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Flexible UI Design Features 
@@ -156,14 +156,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' />
+                        <Image quality={75} src={icon26} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Combining Advanced Features 
@@ -173,14 +173,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' />
+                        <Image quality={75} src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Brand Visibility and Recognition
@@ -190,14 +190,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' />
+                        <Image quality={75} src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Economical and Cost-Effective
@@ -207,14 +207,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' />
+                        <Image quality={75} src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Extensive Developer Support 
@@ -224,7 +224,7 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
@@ -232,7 +232,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' />
+                        <Image quality={75} src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Options for Flexible Monetization 
@@ -242,7 +242,7 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
 
                 </div>
@@ -251,7 +251,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' />
+                        <Image quality={75} src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Utilizing Open Platforms for Innovation 
@@ -263,7 +263,7 @@ Android apps use open platforms for development, incorporating third-party servi
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
@@ -292,7 +292,7 @@ Android apps use open platforms for development, incorporating third-party servi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -303,7 +303,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -315,7 +315,7 @@ Android apps use open platforms for development, incorporating third-party servi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -326,7 +326,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -338,7 +338,7 @@ Android apps use open platforms for development, incorporating third-party servi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -349,7 +349,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -361,7 +361,7 @@ Android apps use open platforms for development, incorporating third-party servi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -372,7 +372,7 @@ Android apps use open platforms for development, incorporating third-party servi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -403,7 +403,7 @@ Android apps use open platforms for development, incorporating third-party servi
             <Col lg={7}>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Initial Consultation
                     </h4>
                     <p>
@@ -412,7 +412,7 @@ Android apps use open platforms for development, incorporating third-party servi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Gathering Requirements
                     </h4>
                     <p>
@@ -421,7 +421,7 @@ Android apps use open platforms for development, incorporating third-party servi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Design and Prototyping
                     </h4>
                     <p>
@@ -430,7 +430,7 @@ Android apps use open platforms for development, incorporating third-party servi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Development
                     </h4>
                     <p>
@@ -439,7 +439,7 @@ Android apps use open platforms for development, incorporating third-party servi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Testing and Quality Control
                     </h4>
                     <p>
@@ -448,7 +448,7 @@ Android apps use open platforms for development, incorporating third-party servi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Launch and Deployment
                     </h4>
                     <p>

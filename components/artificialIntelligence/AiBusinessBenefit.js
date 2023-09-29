@@ -99,7 +99,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border12}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={Enhanced} />
+                                        <Image quality={75} src={Enhanced} />
                                         <p className='text-white f14'>Enhanced <br></br> Productivity</p>
                                     </div>
 
@@ -108,7 +108,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border12}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={impove} />
+                                        <Image quality={75} src={impove} />
                                         <p className='text-white f14'>Improve <br></br> Efficiency</p>
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border12}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={enable} />
+                                        <Image quality={75} src={enable} />
                                         <p className='text-white f14'>Enable Informed  <br></br> Decision Making</p>
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border12}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={accelerate} />
+                                        <Image quality={75} src={accelerate} />
                                         <p className='text-white f14'>Accelerate Sales<br></br> Growth</p>
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border12}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={UX} />
+                                        <Image quality={75} src={UX} />
                                         <p className='text-white f14'>Improve Customer<br></br>Experience</p>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border13}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={increase} />
+                                        <Image quality={75} src={increase} />
                                         <p className='text-white f14'>Increase  <br></br>Profitability</p>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border14}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={bigdata} />
+                                        <Image quality={75} src={bigdata} />
                                         <p className='text-white f14'>Accurate Big <br></br>Data Analysis</p>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border14}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={ensure} />
+                                        <Image quality={75} src={ensure} />
                                         <p className='text-white f14'>Ensure Brand  <br></br>Resilience</p>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border14}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={predictive} />
+                                        <Image quality={75} src={predictive} />
                                         <p className='text-white f14'>Predictive   <br></br>Analysis</p>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border14}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={cut} />
+                                        <Image quality={75} src={cut} />
                                         <p className='text-white f14'>Cut Operational  <br></br>Costs</p>
                                     </div>
                                 </div>
@@ -181,7 +181,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border14}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={reduce} />
+                                        <Image quality={75} src={reduce} />
                                         <p className='text-white f14'>Reduce Human   <br></br>Errors</p>
                                     </div>
                                 </div>
@@ -189,7 +189,7 @@ const Aibusiness = () => {
                             <Col lg={2} className={`${style.border15}`}>
                                 <div className={`${style.whyy} justify-content-center align-items-center`}>
                                     <div className={`${style.img11}`}>
-                                        <Image src={automate} />
+                                        <Image quality={75} src={automate} />
                                         <p className='text-white f14'>Automate Repetitive <br></br>Tasks</p>
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@ const Aibusiness = () => {
                                 <Col lg={2}>
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11} `}>
-                                            <Image src={Enhanced} className='mx-auto' />
+                                            <Image quality={75} src={Enhanced} className='mx-auto' />
                                             <p className='text-white f20'>Enhanced <br></br> Productivity</p>
                                         </div>
 
@@ -212,7 +212,7 @@ const Aibusiness = () => {
                                 <Col lg={2}>
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={impove} className='mx-auto' />
+                                            <Image quality={75} src={impove} className='mx-auto' />
                                             <p className='text-white f20'>Improve <br></br> Efficiency</p>
                                         </div>
                                     </div>
@@ -220,7 +220,7 @@ const Aibusiness = () => {
                                 <Col lg={2}>
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={enable} className='mx-auto' />
+                                            <Image quality={75} src={enable} className='mx-auto' />
                                             <p className='text-white f20'>Enable Informed  <br></br> Decision Making</p>
                                         </div>
                                     </div>
@@ -228,7 +228,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={accelerate} className='mx-auto' />
+                                            <Image quality={75} src={accelerate} className='mx-auto' />
                                             <p className='text-white f20'>Accelerate Sales<br></br> Growth</p>
                                         </div>
                                     </div>
@@ -236,7 +236,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={UX} className='mx-auto' />
+                                            <Image quality={75} src={UX} className='mx-auto' />
                                             <p className='text-white f20'>Improve Customer<br></br>Experience</p>
                                         </div>
                                     </div>
@@ -244,7 +244,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={increase} className='mx-auto' />
+                                            <Image quality={75} src={increase} className='mx-auto' />
                                             <p className='text-white f20'>Increase  <br></br>Profitability</p>
                                         </div>
                                     </div>
@@ -253,7 +253,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={bigdata} className='mx-auto' />
+                                            <Image quality={75} src={bigdata} className='mx-auto' />
                                             <p className='text-white f20'>Accurate Big <br></br>Data Analysis</p>
                                         </div>
                                     </div>
@@ -261,7 +261,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={ensure} className='mx-auto' />
+                                            <Image quality={75} src={ensure} className='mx-auto' />
                                             <p className='text-white f20'>Ensure Brand  <br></br>Resilience</p>
                                         </div>
                                     </div>
@@ -269,7 +269,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={predictive} className='mx-auto' />
+                                            <Image quality={75} src={predictive} className='mx-auto' />
                                             <p className='text-white f20'>Predictive   <br></br>Analysis</p>
                                         </div>
                                     </div>
@@ -277,7 +277,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={cut} className='mx-auto' />
+                                            <Image quality={75} src={cut} className='mx-auto' />
                                             <p className='text-white f20'>Cut Operational  <br></br>Costs</p>
                                         </div>
                                     </div>
@@ -285,7 +285,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={reduce} className='mx-auto' />
+                                            <Image quality={75} src={reduce} className='mx-auto' />
                                             <p className='text-white f20'>Reduce Human   <br></br>Errors</p>
                                         </div>
                                     </div>
@@ -293,7 +293,7 @@ const Aibusiness = () => {
                                 <Col lg={2} >
                                     <div className={`${style.whyy} justify-content-center align-items-center`}>
                                         <div className={`${style.img11}`}>
-                                            <Image src={automate} className='mx-auto' />
+                                            <Image quality={75} src={automate} className='mx-auto' />
                                             <p className='text-white f20'>Automate Repetitive <br></br>Tasks</p>
                                         </div>
                                     </div>

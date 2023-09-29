@@ -68,27 +68,27 @@ export default function hireLaravelDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Laravel Extension Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Laravel Customization & Integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Laravel Web Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Laravel Application Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Custom Laravel Programming
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Maintenance & Support
             </li>
         </ul>
@@ -189,23 +189,23 @@ export default function hireLaravelDeveloper() {
                         <div className={rebStyles.left}>
                             <ul className={rebStyles.clearfix}>
                                 <li>
-                                    <Image src={servc1} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc1} className='img-fluid' alt="" />
                                     <span> Web Application Development  </span>
                                 </li>
                                 <li>
-                                    <Image src={servc2} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc2} className='img-fluid' alt="" />
                                     <span> Customisation and Integration</span>
                                 </li>
                                 <li>
-                                    <Image src={servc3} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc3} className='img-fluid' alt="" />
                                     <span> Website Migration Services </span>
                                 </li>
                                 <li>
-                                    <Image src={servc4} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc4} className='img-fluid' alt="" />
                                     <span> Template Design and Development </span>
                                 </li>
                                 <li>
-                                    <Image src={servc5} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc5} className='img-fluid' alt="" />
                                     <span>
                                         Multilingual Solutions
                                     </span>
@@ -214,29 +214,29 @@ export default function hireLaravelDeveloper() {
                         </div>
 
                         <div className={rebStyles.mid}>
-                            <Image src={flodimg} className='img-fluid' alt="" />
+                            <Image quality={75} src={flodimg} className='img-fluid' alt="" />
                         </div>
 
                         <div className={rebStyles.right}>
                             <ul className={rebStyles.clearfix}>
                                 <li>
-                                    <Image src={servc6} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc6} className='img-fluid' alt="" />
                                     <span> Extension Development  </span>
                                 </li>
                                 <li>
-                                    <Image src={servc7} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc7} className='img-fluid' alt="" />
                                     <span> e-Commerce Development </span>
                                 </li>
                                 <li>
-                                    <Image src={servc8} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc8} className='img-fluid' alt="" />
                                     <span> Restful Application Development </span>
                                 </li>
                                 <li>
-                                    <Image src={servc9} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc9} className='img-fluid' alt="" />
                                     <span> Social Media Development  </span>
                                 </li>
                                 <li>
-                                    <Image src={servc10} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc10} className='img-fluid' alt="" />
                                     <span> SaaS App Development  </span>
                                 </li>
                             </ul>

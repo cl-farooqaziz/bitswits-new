@@ -59,23 +59,23 @@ export default function hirereactnativedeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Open Source
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Rapid Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Expandable Functionality
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Versatile
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Rich Ecosystem
             </li>
 
@@ -110,21 +110,21 @@ export default function hirereactnativedeveloper() {
             <Row className={`${expertStyle.expertRow} justify-content-evenly`}>
                 <Col lg={4}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b1} alt='BitsWits' className='img-fluid' />
                         <h4>MOBILE APP SUPPORT
 & MAINTENANCE</h4>
                     </div>
                 </Col>
                 <Col lg={4}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b2} alt='BitsWits' className='img-fluid' />
                         <h4>HIRE REACT NATIVE
 DEVELOPERS</h4>
                     </div>
                 </Col>
                 <Col lg={4}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b3} alt='BitsWits' className='img-fluid' />
                         <h4>SERVER SIDE APIS
 FOR MOBILE</h4>
                     </div>
@@ -133,21 +133,21 @@ FOR MOBILE</h4>
 
                 <Col lg={4}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b4} alt='BitsWits' className='img-fluid' />
                         <h4>HIRE REACT NATIVE
 DEVELOPMENT TEAM</h4>
                     </div>
                 </Col>
                 <Col lg={4}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b5} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b5} alt='BitsWits' className='img-fluid' />
                         <h4>AGILE
 DEVELOPMENT</h4>
                     </div>
                 </Col>
                 <Col lg={4}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                         <h4>MINIMUM VIABLE
 PRODUCT</h4>
                     </div>
@@ -170,7 +170,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Open source
@@ -184,7 +184,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Rapid Development
@@ -198,7 +198,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Re-usable code
@@ -212,7 +212,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Flexibility
@@ -225,7 +225,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Rich ecosystem
@@ -239,7 +239,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Quicker iteration
@@ -253,7 +253,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     React
@@ -267,7 +267,7 @@ React Native Solutions </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Live updates

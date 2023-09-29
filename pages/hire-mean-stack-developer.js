@@ -61,28 +61,28 @@ export default function hiremeanstackdeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Website Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Enterprise Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Web Applications Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 ERP Development
 
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 CMS Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Maintenance & Support
             </li>
 
@@ -116,20 +116,20 @@ export default function hiremeanstackdeveloper() {
             <Row className={`${expertStyle.expertRow} justify-content-evenly`}>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b1} alt='BitsWits' className='img-fluid' />
                         <h4>ENTERPRISE
 SOFTWARE</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b2} alt='BitsWits' className='img-fluid' />
                         <h4>SOCIAL MEDIA</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b3} alt='BitsWits' className='img-fluid' />
                         <h4>ECOMMERCE</h4>
                     </div>
                 </Col>
@@ -137,33 +137,33 @@ SOFTWARE</h4>
 
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b4} alt='BitsWits' className='img-fluid' />
                         <h4>PAYMENT
 PROCESSING</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b5} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b5} alt='BitsWits' className='img-fluid' />
                         <h4>REAL-TIME
 SERVICES</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                         <h4>GAMES</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                         <h4>LOGISTICS</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                         <h4>IMAGE & VIDEO
 UPLOAD</h4>
                     </div>
@@ -187,7 +187,7 @@ UPLOAD</h4>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Web Services and
@@ -202,7 +202,7 @@ API Development
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Android Application
@@ -217,7 +217,7 @@ Development for Enterprise
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Personalized Business
@@ -232,7 +232,7 @@ Intelligence and Reporting
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     CMS Development
@@ -245,7 +245,7 @@ Intelligence and Reporting
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     ERP Development
@@ -259,7 +259,7 @@ Intelligence and Reporting
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Migration and Porting
@@ -272,7 +272,7 @@ Intelligence and Reporting
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Maintenance & Support
@@ -286,7 +286,7 @@ Intelligence and Reporting
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Web Development
@@ -302,7 +302,7 @@ Intelligence and Reporting
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Responsive Web
@@ -317,7 +317,7 @@ App Development
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon333} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon333} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Real Time Chat
@@ -330,7 +330,7 @@ App Development
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon343} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon343} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     3rd Party API's
@@ -344,7 +344,7 @@ App Development
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon353} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon353} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Payment Gateway

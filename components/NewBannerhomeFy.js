@@ -85,8 +85,8 @@ const NewBannerFy = (props) => {
                             </div>
 
                             <div className={`${styles.revImg} mt-5`}>
-                                <Image src={rev1} alt="bitswits" className='img-fluid' />
-                                <Image src={rev2} alt="bitswits" className='img-fluid' />
+                                <Image quality={75} src={rev1} alt="bitswits" className='img-fluid' />
+                                <Image quality={75} src={rev2} alt="bitswits" className='img-fluid' />
                             </div>
                         </div>
                     </Col>

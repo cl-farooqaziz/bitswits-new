@@ -69,7 +69,7 @@ const Maintaining = () => {
                         <Col xl={3} className='p-0'>
 
                             <div className={styles.dev}>
-                                <Image src={icon1} className='img-fluid' />
+                                <Image quality={75} src={icon1} className='img-fluid' />
                                 <h3>Mobile App Development</h3>
                                 <p>The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.</p>
                             </div>
@@ -77,7 +77,7 @@ const Maintaining = () => {
                         </Col>
                         <Col xl={3} className='p-0'>
                             <div className={styles.dev}>
-                                <Image src={icon2} className='img-fluid' />
+                                <Image quality={75} src={icon2} className='img-fluid' />
                                 <h3>Web App Development</h3>
                                 <p>Our top app developers excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.</p>
                             </div>
@@ -85,7 +85,7 @@ const Maintaining = () => {
                         </Col>
                         <Col xl={3} className='p-0'>
                             <div className={styles.dev}>
-                                <Image src={icon3} className='img-fluid' />
+                                <Image quality={75} src={icon3} className='img-fluid' />
                                 <h3>Game Development</h3>
                                 <p>Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.</p>
                             </div>
@@ -93,7 +93,7 @@ const Maintaining = () => {
                         </Col>
                         <Col xl={3} className='p-0'>
                             <div className={styles.dev1}>
-                                <Image src={icon4} className='img-fluid' />
+                                <Image quality={75} src={icon4} className='img-fluid' />
                                 <h3>Blockchain Development</h3>
                                 <p>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
                             </div>
@@ -105,7 +105,7 @@ const Maintaining = () => {
                         <Col xl={3} className='p-0'>
 
                             <div className={styles.dev2}>
-                                <Image src={icon5} className='img-fluid' />
+                                <Image quality={75} src={icon5} className='img-fluid' />
                                 <h3>UI/UX App Design</h3>
                                 <p>Our team of professional UI/UX app designers help develop designs that guide users towards meaningful interactions and impactful user experience.</p>
                             </div>
@@ -113,7 +113,7 @@ const Maintaining = () => {
                         </Col>
                         <Col xl={3} className='p-0'>
                             <div className={styles.dev2}>
-                                <Image src={icon6} className='img-fluid' />
+                                <Image quality={75} src={icon6} className='img-fluid' />
                                 <h3>Internet of Things</h3>
                                 <p>Our Internet of Things (IoT) services assist you in developing your concept for IoT adoption and in setting up safe technical support systems for complex data work.</p>
                             </div>
@@ -121,7 +121,7 @@ const Maintaining = () => {
                         </Col>
                         <Col xl={3} className='p-0'>
                             <div className={styles.dev2}>
-                                <Image src={icon7} className='img-fluid' />
+                                <Image quality={75} src={icon7} className='img-fluid' />
                                 <h3>AR/VR</h3>
                                 <p>Utilize AI's potential to promote automated interactions, personalized experiences, & predictive insights for better engagement with technology & data.</p>
                             </div>
@@ -129,7 +129,7 @@ const Maintaining = () => {
                         </Col>
                         <Col xl={3} className='p-0'>
                             <div className={styles.dev3}>
-                                <Image src={icon8} className='img-fluid' />
+                                <Image quality={75} src={icon8} className='img-fluid' />
                                 <h3>AI</h3>
                                 <p>Utilize AI's potential to promote automated interactions, personalized experiences, & predictive insights for better engagement with technology & data.</p>
                             </div>
@@ -144,7 +144,7 @@ const Maintaining = () => {
                         
 
                             <div className={styles.dev}>
-                                <Image src={icon1} className='img-fluid' />
+                                <Image quality={75} src={icon1} className='img-fluid' />
                                 <h3>Mobile App Development</h3>
                                 <p>The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.</p>
                             </div>
@@ -152,7 +152,7 @@ const Maintaining = () => {
                         
                         
                             <div className={styles.dev}>
-                                <Image src={icon2} className='img-fluid' />
+                                <Image quality={75} src={icon2} className='img-fluid' />
                                 <h3>Web App Development</h3>
                                 <p>Our top app developers excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.</p>
                             </div>
@@ -160,7 +160,7 @@ const Maintaining = () => {
                         
                         
                             <div className={styles.dev}>
-                                <Image src={icon3} className='img-fluid' />
+                                <Image quality={75} src={icon3} className='img-fluid' />
                                 <h3>Game Development</h3>
                                 <p>Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.</p>
                             </div>
@@ -168,7 +168,7 @@ const Maintaining = () => {
                         
                         
                             <div className={styles.dev1}>
-                                <Image src={icon4} className='img-fluid' />
+                                <Image quality={75} src={icon4} className='img-fluid' />
                                 <h3>Blockchain Development</h3>
                                 <p>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
                             </div>
@@ -180,7 +180,7 @@ const Maintaining = () => {
                         
 
                             <div className={styles.dev2}>
-                                <Image src={icon5} className='img-fluid' />
+                                <Image quality={75} src={icon5} className='img-fluid' />
                                 <h3>UI/UX App Design</h3>
                                 <p>Our team of professional UI/UX app designers help develop designs that guide users towards meaningful interactions and impactful user experience.</p>
                             </div>
@@ -188,7 +188,7 @@ const Maintaining = () => {
                         
                         
                             <div className={styles.dev2}>
-                                <Image src={icon6} className='img-fluid' />
+                                <Image quality={75} src={icon6} className='img-fluid' />
                                 <h3>Internet of Things</h3>
                                 <p>Our Internet of Things (IoT) services assist you in developing your concept for IoT adoption and in setting up safe technical support systems for complex data work.</p>
                             </div>
@@ -196,7 +196,7 @@ const Maintaining = () => {
                         
                         
                             <div className={styles.dev2}>
-                                <Image src={icon7} className='img-fluid' />
+                                <Image quality={75} src={icon7} className='img-fluid' />
                                 <h3>AR/VR</h3>
                                 <p>Utilize AI's potential to promote automated interactions, personalized experiences, & predictive insights for better engagement with technology & data.</p>
                             </div>
@@ -204,7 +204,7 @@ const Maintaining = () => {
                         
                         
                             <div className={styles.dev3}>
-                                <Image src={icon8} className='img-fluid' />
+                                <Image quality={75} src={icon8} className='img-fluid' />
                                 <h3>AI</h3>
                                 <p>Utilize AI's potential to promote automated interactions, personalized experiences, & predictive insights for better engagement with technology & data.</p>
                             </div>

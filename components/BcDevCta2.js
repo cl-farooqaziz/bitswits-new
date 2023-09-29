@@ -28,7 +28,7 @@ const BcDevCta2 = () => {
                         </Col>
                         <Col lg={5} className='mx-auto'>
                             <div className='text-center'>
-                                <Image src={cta} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={cta} alt='Bitswits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>

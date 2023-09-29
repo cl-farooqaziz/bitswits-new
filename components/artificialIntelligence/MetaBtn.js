@@ -13,7 +13,7 @@ function MetaBtn() {
             </Link>
             <span className={style.centerBorder}></span>
             <Link href="javascript:;" className={`font25 text-white`}>
-                <Image src={Phone} width={25} className=''/>
+                <Image quality={75} src={Phone} width={25} className=''/>
                 <span className={style.metaSpan}>
                     1-844-400-0025
                 </span>

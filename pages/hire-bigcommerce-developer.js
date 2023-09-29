@@ -55,35 +55,35 @@ export default function hireBigcommerceDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Custom Programming
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Template Design
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Bigcommerce Customization
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Template Integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Website Maintenence & Support
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 API Integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Inventory Modules
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Flash Integration
             </li>
         </ul>
@@ -104,7 +104,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Theme Development
@@ -115,7 +115,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Installation
@@ -125,7 +125,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Template Design
@@ -136,7 +136,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         API Integration
@@ -146,7 +146,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon5} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Payment Module
@@ -157,7 +157,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Website Maintenance
@@ -168,7 +168,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon7} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Flash Integration
@@ -178,7 +178,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon8} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Development Of
@@ -189,7 +189,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon9} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon9} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         PSD To
@@ -200,7 +200,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon10} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon10} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         CMS Development
@@ -210,7 +210,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon11} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon11} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Migration Services
@@ -220,7 +220,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon12} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon12} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Blog Integration
@@ -287,7 +287,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         21+ years experience
@@ -298,7 +298,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Streamlined
@@ -309,7 +309,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Proven
@@ -320,7 +320,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Competitive
@@ -331,7 +331,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Source Code
@@ -342,7 +342,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Comprehensive
@@ -353,7 +353,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Security and
@@ -364,7 +364,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Well versed with
@@ -375,7 +375,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Quality Network &
@@ -386,7 +386,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Flexible Engagement
@@ -397,7 +397,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Best-in-industry
@@ -408,7 +408,7 @@ export default function hireBigcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Hire from a pool of highly

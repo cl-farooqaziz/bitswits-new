@@ -49,7 +49,7 @@ const Partner = () => {
                         <Col lg={6}>
                             <div className={styles.rightpadding}>
                                 <h3 className="white f-30 f-playfair f-700 mb-3">Hybrid <br className="d-none d-xl-block" /> <span className='grdiant'>App Development</span> </h3>
-                                <Image src={hybird} className='img-fluid mt-2 mb-4' />
+                                <Image quality={75} src={hybird} className='img-fluid mt-2 mb-4' />
                                 <p className="f-16 white f-500 f-montserrat mb-4 ">
                                     BitsWits take pride in developing hybrid apps that are visually stunning and perform exceptionally well. Our team of skilled hybrid app developers leverages the latest technologies to create fast, secure, and user-friendly apps, ensuring your business stays ahead of the curve with:
                                 </p>
@@ -71,7 +71,7 @@ const Partner = () => {
                         <Col lg={6}>
                             <div className={styles.leftpadding}>
                                 <h3 className="white f-30 f-playfair f-700 mb-3">Native <br className="d-none d-xl-block" />  <span className='grdiant'>App Development</span> </h3>
-                                <Image src={native} className='img-fluid mt-2 mb-4' />
+                                <Image quality={75} src={native} className='img-fluid mt-2 mb-4' />
                                 <p className="f-16 white f-500 f-montserrat mb-4 ">
                                     BitsWits specializes in creating native applications that provide users with the best experience. With our native app developers, we deeply understand the most popular operating systems and programming languages to ensure that any app developed with us will have professional performance. Our key focus includes:
                                 </p>
@@ -96,7 +96,7 @@ const Partner = () => {
                     <Slider {...prtnrSlider}>
                         <div className={styles.rightpadding}>
                             <h3 className="white f-30 f-playfair f-700 mb-3">Hybrid <br className="d-none d-xl-block" /> <span className='grdiant'>App Development</span> </h3>
-                            <Image src={hybird} className='img-fluid mt-2 mb-4' />
+                            <Image quality={75} src={hybird} className='img-fluid mt-2 mb-4' />
                             <p className="f-16 white f-500 f-montserrat mb-4 ">
                                 BitsWits take pride in developing hybrid apps that are visually stunning and perform exceptionally well. Our team of skilled hybrid app developers leverages the latest technologies to create fast, secure, and user-friendly apps, ensuring your business stays ahead of the curve with:
                             </p>
@@ -116,7 +116,7 @@ const Partner = () => {
                         </div>
                         <div className={styles.leftpadding}>
                             <h3 className="white f-30 f-playfair f-700 mb-3">Native <br className="d-none d-xl-block" />  <span className='grdiant'>App Development</span> </h3>
-                            <Image src={native} className='img-fluid mt-2 mb-4' />
+                            <Image quality={75} src={native} className='img-fluid mt-2 mb-4' />
                             <p className="f-16 white f-500 f-montserrat mb-4 ">
                                 BitsWits specializes in creating native applications that provide users with the best experience. With our native app developers, we deeply understand the most popular operating systems and programming languages to ensure that any app developed with us will have professional performance. Our key focus includes:
                             </p>

@@ -191,7 +191,7 @@ const NewMaintain = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app7}>
-                                <Image src={cardNine} className={`${styles.appImage}`} />
+                                <Image quality={75} src={cardNine} className={`${styles.appImage}`} />
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Internet of Things</h3>
                                     <p className={styles.para9}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>

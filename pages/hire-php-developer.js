@@ -63,31 +63,31 @@ export default function hirePhpDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Dynamic Applications
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Open Source Customisation
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Technical Robust Solutions
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Expert Support and Maintenance
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 CMS and e-commerce Solutions
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Payment Gateway Integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Comprehensive Reporting
             </li>
         </ul>
@@ -107,7 +107,7 @@ export default function hirePhpDeveloper() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Custom PHP Development
@@ -122,7 +122,7 @@ export default function hirePhpDeveloper() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             PHP Based CMS Systems
@@ -137,7 +137,7 @@ export default function hirePhpDeveloper() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             E-Commerce Solutions
@@ -152,7 +152,7 @@ export default function hirePhpDeveloper() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon4} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Corporate Websites
@@ -167,7 +167,7 @@ export default function hirePhpDeveloper() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon5} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Web Applications
@@ -182,7 +182,7 @@ export default function hirePhpDeveloper() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon6} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Social Networking Solutions

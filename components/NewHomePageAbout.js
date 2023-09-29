@@ -24,7 +24,7 @@ const NewHomeAbout = () => {
                             </p>
                            
                             <div className='sec_image text-center'>
-                                <Image src={AboutImage} className={styles.secImage} />
+                                <Image quality={75} src={AboutImage} className={styles.secImage} />
                             </div>
                         </Col>
                     </Row>

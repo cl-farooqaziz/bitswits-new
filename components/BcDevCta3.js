@@ -27,7 +27,7 @@ const BcDevCta3 = () => {
                         </Col>
                         <Col lg={4} className='mx-auto'>
                             <div className={styles.imgBox}>
-                                <Image src={cta} alt='Bitswits' className='img-fluid mb-3' />
+                                <Image quality={75} src={cta} alt='Bitswits' className='img-fluid mb-3' />
                                 <p className='font16 black fontf font-medium'>Providing solutions through synergizing technologies and collaborative approach</p>
                             </div>
                         </Col>

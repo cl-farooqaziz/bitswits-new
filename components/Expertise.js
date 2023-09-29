@@ -27,7 +27,7 @@ const Expertise = () => {
                                 <Accordion defaultActiveKey="0">
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>
-                                            <Image src={human} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={human} alt='Bitswits' className='img-fluid' />
                                             <span>Human Resources</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -37,7 +37,7 @@ const Expertise = () => {
 
                                     <Accordion.Item eventKey="1">
                                         <Accordion.Header>
-                                            <Image src={food} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={food} alt='Bitswits' className='img-fluid' />
                                             <span>Food & Beverages</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -47,7 +47,7 @@ const Expertise = () => {
 
                                     <Accordion.Item eventKey="2">
                                         <Accordion.Header>
-                                            <Image src={health} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={health} alt='Bitswits' className='img-fluid' />
                                             <span>Health-Tech</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -57,7 +57,7 @@ const Expertise = () => {
 
                                     <Accordion.Item eventKey="3">
                                         <Accordion.Header>
-                                            <Image src={social} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={social} alt='Bitswits' className='img-fluid' />
                                             <span>Social Network</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -69,7 +69,7 @@ const Expertise = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.indusImgbox}>
-                                <Image src={foldImg} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={foldImg} alt='Bitswits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>

@@ -25,26 +25,26 @@ const Footer = () => {
                 <Row>
                     <Col lg={2}>
                         <div className={style.widgets}>
-                            <Image src={FooterLogo} alt="Blockchain" className="img-fluid mb-5"/>
+                            <Image quality={75} src={FooterLogo} alt="Blockchain" className="img-fluid mb-5"/>
                         <ul>
                             <li className={style.IconText}>
-                                <Image src={email} alt="Blockchain" className="img-fluid"/> 
+                                <Image quality={75} src={email} alt="Blockchain" className="img-fluid"/> 
                                 <span><Link className="d-block mb-1" href="mailto:"> CONTACT EMAIL</Link> </span>
                             </li>
                             <li className={style.IconText}>
-                                <Image src={usa} alt="Blockchain" className="img-fluid"/> 
+                                <Image quality={75} src={usa} alt="Blockchain" className="img-fluid"/> 
                                 <p><Link className="d-block mb-1" href="tel:13123795987"> +1 833 500 6007</Link>
                                 <Link className="d-block" href="tel:13123795987">+1 312 379 5987</Link>
                                 </p>
                                 {/* <p><Link href="tel:13123795987"> +1 312 379 5987</Link></p>  */}
                             </li>
                             <li className={style.IconText}>
-                                <Image src={uae} alt="Blockchain" className="img-fluid"/> 
+                                <Image quality={75} src={uae} alt="Blockchain" className="img-fluid"/> 
                                 <p><Link href="tel:13123795987"> +97 155 503 1266</Link></p>
                                 {/* <p><Link href="tel:13123795987"> +1 312 379 5987</Link></p>  */}
                             </li>
                             <li className={style.IconText}>
-                                <Image src={pakistan} alt="Blockchain" className="img-fluid"/> 
+                                <Image quality={75} src={pakistan} alt="Blockchain" className="img-fluid"/> 
                                 <p><Link href="tel:923468280101"> +92 346 828 0101</Link></p>
                                 {/* <p><Link href="tel:13123795987"> +1 312 379 5987</Link></p>  */}
                             </li>
@@ -211,7 +211,7 @@ const Footer = () => {
                          <ul>
                             <Link href="#">   
                              <li className={style.IconText}>
-                                <Image src={whatsapp} alt="Blockchain" className="img-fluid"/>
+                                <Image quality={75} src={whatsapp} alt="Blockchain" className="img-fluid"/>
                                 <h4 className="fw700 f20 text-white"> WhatsApp Updates </h4>
                             </li>
                             </Link>

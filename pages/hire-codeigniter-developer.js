@@ -69,31 +69,31 @@ export default function hireCodeigniterDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Website Upgrades
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Customisation & Integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Website Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Maintenance & Support
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Shopping Cart
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Web Applications
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Enterprise Level
             </li>
         </ul>
@@ -114,7 +114,7 @@ export default function hireCodeigniterDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p className='mt-3'>
                         Being fast, reliable and extremely lightweight the framework has gained widespread support from a large number of industry experts.
@@ -124,7 +124,7 @@ export default function hireCodeigniterDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p className='mt-3'>
                         User-friendly interface that help developers to create a dynamic, flexible and secure web applications with minimal effort.
@@ -134,7 +134,7 @@ export default function hireCodeigniterDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p className='mt-3'>
                         Provides hassle-free migration opportunities and is compatible with most widely used servers, operating systems and platforms.
@@ -144,7 +144,7 @@ export default function hireCodeigniterDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p className='mt-3'>
                         An effective easy to program and simple to debug MVC framework that can be customised as per the requirements of the project.
@@ -245,37 +245,37 @@ export default function hireCodeigniterDeveloper() {
             <Row>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones1} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones1} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Job Portal Development</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones2} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones2} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Event Management</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones3} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones3} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">CRM Applications</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones4} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones4} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Custom Web Development</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones5} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones5} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Payment Gateway Integration</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones6} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones6} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">3rd Party API Integration</h5>
                     </div>
                 </Col>

@@ -46,57 +46,57 @@ const Expertise = (props) => {
 
                                     <Col lg={4} className='mb-5 position-relative'>
                                         <div className={style.feature}>
-                                            <Image src={Ethereum} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Ethereum} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Ethereum</h4>
                                         <div className={style.borderX}></div>
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={Polygon} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Polygon} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Polygon</h4>
 
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={Binance} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Binance} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Binance</h4>
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={Hyperledger} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Hyperledger} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Hyperledger</h4>
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={Corda} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Corda} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Corda</h4>
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={Substrate} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Substrate} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Substrate</h4>
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={Avalanche} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Avalanche} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Avalanche</h4>
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={Polkadot} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={Polkadot} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Polkadot</h4>
                                     </Col>
                                     <Col lg={4} className='mb-5'>
                                         <div className={style.feature}>
-                                            <Image src={NearProtocol} alt="Blockchain" width={57} className='img-fluid' />
+                                            <Image quality={75} src={NearProtocol} alt="Blockchain" width={57} className='img-fluid' />
                                         </div>
                                         <h4 className='f20 fw700 text-white'>Near Protocol</h4>
                                     </Col>
@@ -108,57 +108,57 @@ const Expertise = (props) => {
                                     <Slider {...settings} className='d-flex justify-content-center align-items-center text-center'>
                                         <Col lg={4} className='mb-5 position-relative'>
                                             <div className={style.feature}>
-                                                <Image src={Ethereum} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Ethereum} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Ethereum</h4>
                                             <div className={style.borderX}></div>
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={Polygon} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Polygon} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Polygon</h4>
 
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={Binance} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Binance} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Binance</h4>
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={Hyperledger} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Hyperledger} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Hyperledger</h4>
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={Corda} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Corda} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Corda</h4>
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={Substrate} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Substrate} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Substrate</h4>
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={Avalanche} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Avalanche} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Avalanche</h4>
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={Polkadot} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={Polkadot} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Polkadot</h4>
                                         </Col>
                                         <Col lg={4} className='mb-5'>
                                             <div className={style.feature}>
-                                                <Image src={NearProtocol} alt="Blockchain" width={57} className='img-fluid' />
+                                                <Image quality={75} src={NearProtocol} alt="Blockchain" width={57} className='img-fluid' />
                                             </div>
                                             <h4 className='f20 fw700 text-white'>Near Protocol</h4>
                                         </Col>

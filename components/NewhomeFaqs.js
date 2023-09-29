@@ -96,7 +96,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
-                                        What Is Mobile Application Development?  {faq1show ? <span className={styles.plus}>  <Image src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image src={close} className='img-fluid' /> </span>}
+                                        What Is Mobile Application Development?  {faq1show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -120,7 +120,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq2show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq2} className={styles.heading}>
                                     <h3>
-                                        Does BitsWits Offers Hybrid and Native app development? {faq2show ? <span className={styles.plus}>  <Image src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image src={close} className='img-fluid' /> </span>}
+                                        Does BitsWits Offers Hybrid and Native app development? {faq2show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -146,7 +146,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
                                     <h3>
-                                        Why Choose BitsWits as a mobile app development company? {faq3show ? <span className={styles.plus}>  <Image src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image src={close} className='img-fluid' /> </span>}
+                                        Why Choose BitsWits as a mobile app development company? {faq3show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -172,7 +172,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq4show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq4} className={styles.heading}>
                                     <h3>
-                                        Is there any customer support available? {faq4show ? <span className={styles.plus}>  <Image src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image src={close} className='img-fluid' /> </span>}
+                                        Is there any customer support available? {faq4show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -197,7 +197,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq5show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq5} className={styles.heading}>
                                     <h3>
-                                        How to choose a mobile app development company? {faq5show ? <span className={styles.plus}>  <Image src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image src={close} className='img-fluid' /> </span>}
+                                        How to choose a mobile app development company? {faq5show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -224,7 +224,7 @@ const NewhomeFaqs = () => {
                             <div className={faq6show ? 'touch' : ''}>
                                 <div onClick={faq6} className={styles.heading}>
                                     <h3>
-                                        What industries does BitsWits cater to? {faq6show ? <span className={styles.plus}>  <Image src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image src={close} className='img-fluid' /> </span>}
+                                        What industries does BitsWits cater to? {faq6show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 

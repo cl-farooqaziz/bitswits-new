@@ -79,7 +79,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -91,7 +91,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -103,7 +103,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -115,7 +115,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -129,7 +129,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -141,7 +141,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -153,7 +153,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -165,7 +165,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -177,7 +177,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 

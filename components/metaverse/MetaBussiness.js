@@ -20,7 +20,7 @@ const MetaBussiness = (props) => {
                             </div>
                         </Col>
                         <Col lg={12}>
-                            <Image src={poster} className={`img-fluid ${style.bussinessImage}`}/>
+                            <Image quality={75} src={poster} className={`img-fluid ${style.bussinessImage}`}/>
                         </Col>
                     </Row>
                 </Container>

@@ -42,7 +42,7 @@ const Standing = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={health} width={200} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={health} width={200} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ const Standing = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={Banking} width={200} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={Banking} width={200} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -63,7 +63,7 @@ const Standing = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={ecommerce} width={200} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={ecommerce} width={200} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -74,7 +74,7 @@ const Standing = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={supply} width={200} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={supply} width={200} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -85,7 +85,7 @@ const Standing = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={realestate} width={200} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={realestate} width={200} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -96,7 +96,7 @@ const Standing = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={retail} width={200} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={retail} width={200} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -113,7 +113,7 @@ const Standing = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={health} width={200} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={health} width={200} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
                                     </div>
@@ -123,7 +123,7 @@ const Standing = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={Banking} width={200} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={Banking} width={200} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -134,7 +134,7 @@ const Standing = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={ecommerce} width={200} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={ecommerce} width={200} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -145,7 +145,7 @@ const Standing = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={supply} width={200} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={supply} width={200} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -156,7 +156,7 @@ const Standing = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={realestate} width={200} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={realestate} width={200} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -167,7 +167,7 @@ const Standing = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={retail} width={200} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={retail} width={200} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -181,7 +181,7 @@ const Standing = (props) => {
                     <div className='d-none d-lg-block mt-5 pt-5'>
                         <Row className='mt-5 mb-5'>
                             <Col lg={12} className='position-relative'>
-                                <Image src={FullView} className='img-fluid' alt="Blockchain" />
+                                <Image quality={75} src={FullView} className='img-fluid' alt="Blockchain" />
                             </Col>
                         </Row>
                     </div>

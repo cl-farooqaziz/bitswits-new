@@ -81,19 +81,19 @@ export default function mobileappdevelopment() {
 
         <ul className='mb-4 mt-2 p-0'>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Chart-topping Expertise: Our reputation speaks for itself.
             </li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Custom Solutions: Tailored specifically to your needs.
             </li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Beyond the Launch: Our commitment continues post-deployment.
             </li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>
                 Always Accessible: For all your needs, at any time.
             </li>
         </ul>
@@ -141,7 +141,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' />
+                        <Image quality={75} src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Greater Customer Reach
@@ -151,14 +151,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' />
+                        <Image quality={75} src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Improved Customer Service
@@ -168,14 +168,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' />
+                        <Image quality={75} src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Shared Valuable Content
@@ -185,14 +185,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' />
+                        <Image quality={75} src={icon26} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Customer Loyalty
@@ -202,14 +202,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' />
+                        <Image quality={75} src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Drive Sales
@@ -219,14 +219,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' />
+                        <Image quality={75} src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Simplified Payments
@@ -236,14 +236,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' />
+                        <Image quality={75} src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Increased Visibility
@@ -253,7 +253,7 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
@@ -261,7 +261,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' />
+                        <Image quality={75} src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Competitive Advantage
@@ -271,7 +271,7 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
 
                 </div>
@@ -280,7 +280,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' />
+                        <Image quality={75} src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                         Future-Proof Your Business
@@ -290,7 +290,7 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
@@ -320,7 +320,7 @@ export default function mobileappdevelopment() {
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -331,7 +331,7 @@ export default function mobileappdevelopment() {
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -343,7 +343,7 @@ export default function mobileappdevelopment() {
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -354,7 +354,7 @@ export default function mobileappdevelopment() {
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -366,7 +366,7 @@ export default function mobileappdevelopment() {
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -377,7 +377,7 @@ export default function mobileappdevelopment() {
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -389,7 +389,7 @@ export default function mobileappdevelopment() {
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -400,7 +400,7 @@ export default function mobileappdevelopment() {
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -431,7 +431,7 @@ export default function mobileappdevelopment() {
             <Col lg={7}>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Initial Consultation
                     </h4>
                     <p>
@@ -440,7 +440,7 @@ export default function mobileappdevelopment() {
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Gathering Requirements
                     </h4>
                     <p>
@@ -449,7 +449,7 @@ export default function mobileappdevelopment() {
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Design and Prototyping
                     </h4>
                     <p>
@@ -458,7 +458,7 @@ export default function mobileappdevelopment() {
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Development
                     </h4>
                     <p>
@@ -467,7 +467,7 @@ export default function mobileappdevelopment() {
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Testing and Quality Control
                     </h4>
                     <p>
@@ -476,7 +476,7 @@ export default function mobileappdevelopment() {
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Launch and Deployment
                     </h4>
                     <p>

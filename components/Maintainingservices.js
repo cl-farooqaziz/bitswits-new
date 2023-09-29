@@ -65,7 +65,7 @@ const Maintaining = (props) => {
                         <Col xl={4} className='p-0'>
 
                             <div className={styles.dev}>
-                                <Image src={props.icon1} className='img-fluid' />
+                                <Image quality={75} src={props.icon1} className='img-fluid' />
                                 <h3> {props.title1} </h3>
                                 <p>  {props.para1} </p>
                             </div>
@@ -73,7 +73,7 @@ const Maintaining = (props) => {
                         </Col>
                         <Col xl={4} className='p-0'>
                             <div className={styles.dev}>
-                                <Image src={props.icon2} className='img-fluid' />
+                                <Image quality={75} src={props.icon2} className='img-fluid' />
                                 <h3> {props.title2} </h3>
                                 <p>  {props.para2} </p>
                             </div>
@@ -82,7 +82,7 @@ const Maintaining = (props) => {
 
                         <Col xl={4} className='p-0'>
                             <div className={styles.dev1}>
-                                <Image src={props.icon3} className='img-fluid' />
+                                <Image quality={75} src={props.icon3} className='img-fluid' />
                                 <h3> {props.title3} </h3>
                                 <p>  {props.para3} </p>
                             </div>
@@ -94,7 +94,7 @@ const Maintaining = (props) => {
                         <Col xl={4} className='p-0'>
 
                             <div className={styles.dev2}>
-                                <Image src={props.icon4} className='img-fluid' />
+                                <Image quality={75} src={props.icon4} className='img-fluid' />
                                 <h3> {props.title4} </h3>
                                 <p>  {props.para4} </p>
                             </div>
@@ -102,7 +102,7 @@ const Maintaining = (props) => {
                         </Col>
                         <Col xl={4} className='p-0'>
                             <div className={styles.dev2}>
-                                <Image src={props.icon5} className='img-fluid' />
+                                <Image quality={75} src={props.icon5} className='img-fluid' />
                                 <h3> {props.title5} </h3>
                                 <p>  {props.para5} </p>
                             </div>
@@ -111,7 +111,7 @@ const Maintaining = (props) => {
 
                         <Col xl={4} className='p-0'>
                             <div className={styles.dev3}>
-                                <Image src={props.icon6} className='img-fluid' />
+                                <Image quality={75} src={props.icon6} className='img-fluid' />
                                 <h3> {props.title6} </h3>
                                 <p>  {props.para6} </p>
                             </div>
@@ -126,7 +126,7 @@ const Maintaining = (props) => {
 
 
                         <div className={styles.dev}>
-                            <Image src={props.icon1} className='img-fluid' />
+                            <Image quality={75} src={props.icon1} className='img-fluid' />
                             <h3> {props.title1} </h3>
                             <p>  {props.para1} </p>
                         </div>
@@ -134,7 +134,7 @@ const Maintaining = (props) => {
 
 
                         <div className={styles.dev}>
-                            <Image src={props.icon2} className='img-fluid' />
+                            <Image quality={75} src={props.icon2} className='img-fluid' />
                             <h3> {props.title2} </h3>
                             <p>  {props.para2} </p>
                         </div>
@@ -146,25 +146,25 @@ const Maintaining = (props) => {
 
 
                         <div className={styles.dev1}>
-                            <Image src={props.icon3} className='img-fluid' />
+                            <Image quality={75} src={props.icon3} className='img-fluid' />
                             <h3> {props.title3} </h3>
                             <p>  {props.para3} </p>
                         </div>
 
                         <div className={styles.dev2}>
-                            <Image src={props.icon4} className='img-fluid' />
+                            <Image quality={75} src={props.icon4} className='img-fluid' />
                             <h3> {props.title4} </h3>
                             <p>  {props.para4} </p>
                         </div>
 
                         <div className={styles.dev2}>
-                            <Image src={props.icon5} className='img-fluid' />
+                            <Image quality={75} src={props.icon5} className='img-fluid' />
                             <h3> {props.title5} </h3>
                             <p>  {props.para5} </p>
                         </div>
 
                         <div className={styles.dev3}>
-                            <Image src={props.icon6} className='img-fluid' />
+                            <Image quality={75} src={props.icon6} className='img-fluid' />
                             <h3> {props.title6} </h3>
                             <p>  {props.para6} </p>
                         </div>

@@ -63,27 +63,27 @@ export default function hireOpenCartDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Theme development & integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 E-Commerce Solutions
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Template Customization
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Extensions Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Version Upgrades Services
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Maintenance & Support
             </li>
         </ul>
@@ -107,37 +107,37 @@ export default function hireOpenCartDeveloper() {
             <Row>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones1} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones1} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Single Vendor Solution</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones2} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones2} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Multi-Vendor Solution</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones3} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones3} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Secure Payment Processing</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones4} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones4} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Multi-Currency Management</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones5} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones5} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Payment Gateway Integration</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones6} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones6} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">3rd Party API Integration</h5>
                     </div>
                 </Col>

@@ -42,7 +42,7 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImage}>
-                                                <Image src={CardOne} className="" />
+                                                <Image quality={75} src={CardOne} className="" />
                                             </div>
                                         </div>
                                     </div>
@@ -67,14 +67,14 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImageTwo}>
-                                                <Image src={CardTwo} className="" />
+                                                <Image quality={75} src={CardTwo} className="" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
                             <span className={style.metaDot}>
-                                <Image src={MetaDot} />
+                                <Image quality={75} src={MetaDot} />
                             </span>
                             <Col lg={6} className={`${style.br1} position-relative pt-5`}>
                                 <div className={`${style.card} mb-lg-0 mb-sm-5`}>
@@ -95,7 +95,7 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImage}>
-                                                <Image src={CardThree} className="" />
+                                                <Image quality={75} src={CardThree} className="" />
                                             </div>
                                         </div>
                                     </div>
@@ -120,7 +120,7 @@ const Metaverse = (props) => {
                                                 </div>
                                             </div>
                                             <div className={style.cardImageFour}>
-                                                <Image src={CardFour} className="" />
+                                                <Image quality={75} src={CardFour} className="" />
                                             </div>
                                         </div>
                                     </div>

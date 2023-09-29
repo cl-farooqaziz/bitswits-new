@@ -90,7 +90,7 @@ const HybridApp = () => {
                             <Col lg={6} className='d-none d-lg-block'>
 
                                 <div className='marque'>
-                                    <Image src={languages} className='img-fluid mt-5 nopl' />
+                                    <Image quality={75} src={languages} className='img-fluid mt-5 nopl' />
                                 </div>
                                 <ul className='mt-5'>
                                     <li className='fontf black font-medium font15'>1. Cross-platform Compatibility.</li>
@@ -133,7 +133,7 @@ const HybridApp = () => {
                             <Col lg={6} className='d-none d-lg-block'>
 
                                 <div className='marque'>
-                                    <Image src={database} className='img-fluid mt-5 nopl' />
+                                    <Image quality={75} src={database} className='img-fluid mt-5 nopl' />
                                 </div>
 
                                 <ul className='mt-5'>

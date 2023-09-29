@@ -102,13 +102,13 @@ export default function hireunrealgamedeveloper() {
         
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Experienced Unreal Developers </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Dedicated Game Specialists</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Expert 3D Graphic Designers</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  NDA Protetcion</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   Agile Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Creative Game Studio</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Post Deployment Support</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Experienced Unreal Developers </li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Dedicated Game Specialists</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Expert 3D Graphic Designers</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  NDA Protetcion</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>   Agile Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Creative Game Studio</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Post Deployment Support</li>
         </ul>
     </>
 
@@ -202,7 +202,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We can develop CRM solutions using these technologies - Microsoft Dynamics CRM/ 365, Salesforce, Sugar CRM.
@@ -212,7 +212,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Our experts have the experience in using great technologies like MS Dynamics CRM and Salesforce solutions for domains ranging from Medical legal firms, Telecommunication industries, Travel.
@@ -223,7 +223,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’re great at Custom CRM Development
@@ -233,7 +233,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ve served our clients on a vast industrial spectrum ranging from enterprises to medium and small scale organisations.
@@ -244,7 +244,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for complete document management.
@@ -254,7 +254,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We have the knowledge of carrying out all integrations with Microsoft SharePoint.
@@ -265,7 +265,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Want updates and migration services? We can do it for you.
@@ -275,7 +275,7 @@ export default function hireunrealgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for Upgrade and Migration
@@ -547,14 +547,14 @@ export default function hireunrealgamedeveloper() {
             <Row>
             <Col xl={4} className='borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones1} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Physical Based Rendering</h3>
                         <p className=''>Unreal Engine 4 has Physically Based Rendering in its rendering pipeline that allows the creation of more vibrant and realistic graphics.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones2} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Multi-Device Support</h3>
                         <p className=''>The engine can be used for the development of multiple devices ranging from mobile phones, tablets, PCs, and VR devices.</p>
                     </div>
@@ -562,21 +562,21 @@ export default function hireunrealgamedeveloper() {
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Powerful Physics Engine</h3>
                         <p className=''>Unreal is a powerful physics engine with multiple tools for the development of realistic visuals, custom shaders, and PBR for complex VR experience.</p>
                     </div>
                 </Col>
                 <Col xl={4}>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones4} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Royalty Terms</h3>
                         <p className=''>The gaming engine comes with clear and feasible royalty terms which give us full access to the entire toolkit and features.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones5} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Built-In-Editor</h3>
                         <p className=''>It has a powerful yet flexible suite of integrated tools with GUI editor as well as a complete development environment for C++.</p>
                     </div>
@@ -584,7 +584,7 @@ export default function hireunrealgamedeveloper() {
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones6} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Blueprints</h3>
                         <p className=''>Blueprints is a visual scripting method supported by Unreal that allows rapid prototyping of application without any coding at all.</p>
                     </div>

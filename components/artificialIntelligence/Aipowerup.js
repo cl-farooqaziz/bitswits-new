@@ -82,7 +82,7 @@ const powerup = () => {
                     <Row>
                         <Col lg={4} >
                             <div className='justify-content-center align-items-center text-center'>
-                                <Image src={Aipowerup1} className='text-center' />
+                                <Image quality={75} src={Aipowerup1} className='text-center' />
                                 <p className='f18 fw400 text-white text-center'>Understand customer experience by analyzing data from social media, feedback forms and chatbot history.</p>
                             </div>
 
@@ -90,7 +90,7 @@ const powerup = () => {
 
                         <Col lg={4} className='justify-content-center align-items-center '>
                         <div className='justify-content-center align-items-center text-center'>
-                            <Image src={Aipowerup2} />
+                            <Image quality={75} src={Aipowerup2} />
                             <p className='f18 fw400 text-white text-center'>Understand customer experience by analyzing data from social media, feedback forms and chatbot history.</p>
 
                             </div>
@@ -99,7 +99,7 @@ const powerup = () => {
                         <Col lg={4} className='justify-content-center align-items-center text-center'>
                         <div className='justify-content-center align-items-center'>
 
-                            <Image src={Aipowerup3} />
+                            <Image quality={75} src={Aipowerup3} />
                             <p className='f18 fw400 text-white text-center'>Understand customer experience by analyzing data from social media, feedback forms and chatbot history.</p>
                         </div>
                         </Col>

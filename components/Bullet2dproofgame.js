@@ -69,7 +69,7 @@ const Bullet2dproofgame = () => {
                             </Col>
                             <Col xl={6}>
                                 <div className={styles.tested}>
-                                    <Image src={icon11} alt='bitswits' />
+                                    <Image quality={75} src={icon11} alt='bitswits' />
                                 </div>
 
 

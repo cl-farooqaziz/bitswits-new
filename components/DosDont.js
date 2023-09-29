@@ -22,7 +22,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Do
@@ -37,7 +37,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Do
@@ -52,7 +52,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Do
@@ -67,7 +67,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Do
@@ -82,7 +82,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard} ${styles.dont}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Don't
@@ -97,7 +97,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard} ${styles.dont}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Don't
@@ -112,7 +112,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard} ${styles.dont}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Don't
@@ -127,7 +127,7 @@ const DosDont = () => {
                             <div className={`${styles.soluCard} ${styles.dont}`}>
                                 <div>
                                     <div className={`${styles.imgBox}`}>
-                                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 fontf font-medium my-3'>
                                         Don't

@@ -73,7 +73,7 @@ const Creativeopportunities = (props) => {
                                     </div>
                                     <div className={styles.appcardcenter}>
                                         <div className={styles.mobielscreen}>
-                                            <Image src={props.eng}
+                                            <Image quality={75} src={props.eng}
                                                 className="img-fluid mx-auto" alt="bitswits" />
                                         </div>
                                     </div>

@@ -554,7 +554,7 @@ const Header = () => {
                                                                             <Col md={12}>
                                                                                 <ul className='mb-0 mt-0'>
                                                                                     <li>
-                                                                                        <Image src={newImg} alt='BitsWits' className='img-fluid' />
+                                                                                        <Image quality={75} src={newImg} alt='BitsWits' className='img-fluid' />
                                                                                     </li>
                                                                                 </ul>
                                                                             </Col>
@@ -642,7 +642,7 @@ const Header = () => {
                                     {/* <Col md={3} className={styles.imgCol}>
                                         <div className={styles.listMain2}>
 
-                                            <Image src={newImg} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={newImg} alt='BitsWits' className='img-fluid' />
 
                                             <div className={styles.listHeading}>
                                                 <h5 className='font20 fontf font-semibold mb-0'>INDUSTRIES</h5>

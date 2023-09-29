@@ -67,7 +67,7 @@ export default function Post({ postData, featuredImageUrl }) {
                                 <div className={`${styles.contentHeading}`}>
                                     <h1>{postData.title}</h1>
                                     <h6 className={`${styles.detailDate} mt-5`}>
-                                        <Image src={logo} alt="BitsWits" width={25} height={25} />
+                                        <Image quality={75} src={logo} alt="BitsWits" width={25} height={25} />
                                         <span>By BitsWits Team in 2023</span>
                                     </h6>
                                     <h6 className="mt-3 mb-0 fw-bold font14">
@@ -75,7 +75,7 @@ export default function Post({ postData, featuredImageUrl }) {
                                     </h6>
                                 </div>
                                 <div className="mt-4">
-                                    <Image src={featuredImageUrl} alt="BitsWits" width={736} height={450} />
+                                    <Image quality={75} src={featuredImageUrl} alt="BitsWits" width={736} height={450} />
                                 </div>
                                 <div className={`${styles.contentBody} mt-4`}
                                     dangerouslySetInnerHTML={{ __html: postData.content }}>

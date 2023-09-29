@@ -40,7 +40,7 @@ const Developer = (props) => {
                                             <div>
                                                 <div className={styles.devminicard}>
                                                     <div className={styles.devminiimg}>
-                                                        <Image src={props.pic2}
+                                                        <Image quality={75} src={props.pic2}
                                                             className="img-fluid" alt="bitswits" />
                                                     </div>
                                                     <h4>
@@ -54,7 +54,7 @@ const Developer = (props) => {
                                             <div>
                                                 <div className={styles.devminicard}>
                                                     <div className={styles.devminiimg}>
-                                                        <Image src={props.pic3}
+                                                        <Image quality={75} src={props.pic3}
                                                             className="img-fluid" alt="bitswits" />
                                                     </div>
                                                     <h4>
@@ -70,7 +70,7 @@ const Developer = (props) => {
                                             <div>
                                                 <div className={styles.devminicard}>
                                                     <div className={styles.devminiimg}>
-                                                        <Image src={props.pic4}
+                                                        <Image quality={75} src={props.pic4}
                                                             className="img-fluid" alt="bitswits" />
                                                     </div>
                                                     <h4>
@@ -84,7 +84,7 @@ const Developer = (props) => {
                                             <div>
                                                 <div className={styles.devminicard}>
                                                     <div className={styles.devminiimg}>
-                                                        <Image src={props.pic5}
+                                                        <Image quality={75} src={props.pic5}
                                                             className="img-fluid" alt="bitswits" />
                                                     </div>
                                                     <h4>

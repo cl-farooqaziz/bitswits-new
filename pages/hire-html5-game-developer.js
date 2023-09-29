@@ -102,13 +102,13 @@ export default function hirehtml5gamedeveloper() {
       
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Experienced Developers </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Updated Stack of Technology</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Understanding of Native Environment</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  NDA Protection</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Transparent Project Management</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Experience with Multiple Genre</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Technical Support</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Experienced Developers </li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Updated Stack of Technology</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Complete Understanding of Native Environment</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  NDA Protection</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Transparent Project Management</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Experience with Multiple Genre</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Complete Technical Support</li>
         </ul>
     </>
 
@@ -202,7 +202,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We can develop CRM solutions using these technologies - Microsoft Dynamics CRM/ 365, Salesforce, Sugar CRM.
@@ -212,7 +212,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Our experts have the experience in using great technologies like MS Dynamics CRM and Salesforce solutions for domains ranging from Medical legal firms, Telecommunication industries, Travel.
@@ -223,7 +223,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’re great at Custom CRM Development
@@ -233,7 +233,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ve served our clients on a vast industrial spectrum ranging from enterprises to medium and small scale organisations.
@@ -244,7 +244,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for complete document management.
@@ -254,7 +254,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We have the knowledge of carrying out all integrations with Microsoft SharePoint.
@@ -265,7 +265,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Want updates and migration services? We can do it for you.
@@ -275,7 +275,7 @@ export default function hirehtml5gamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for Upgrade and Migration
@@ -546,14 +546,14 @@ export default function hirehtml5gamedeveloper() {
             <Row>
                 <Col xl={4} className='borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones1} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Feature Rich Framework</h3>
                         <p className=''>The integrated suite of HTML5 game development comes loaded with effective features that accelerate the entire process.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones2} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>API Integration</h3>
                         <p className=''>The framework simplifies the addition of third-party APIs, optimising the development process for better functionalities with minimal efforts.</p>
                     </div>
@@ -561,21 +561,21 @@ export default function hirehtml5gamedeveloper() {
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Multiple Platform</h3>
                         <p className=''>The multi-platform deployment in HTML5 makes it extremely cost-effective technology for the creation of complex as well as casual games.</p>
                     </div>
                 </Col>
                 <Col xl={4}>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones4} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Community Support</h3>
                         <p className=''>The framework is supported by a large community of promoters who work progressively to keep the language updated with the time and market’s requirements.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones5} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Versatile Development</h3>
                         <p className=''>In its core, HTML5 is a markup language that makes it truly flexible and versatile for the creation of completely new and complex ideas.</p>
                     </div>
@@ -583,7 +583,7 @@ export default function hirehtml5gamedeveloper() {
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones6} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Support for Ranging Multimedia</h3>
                         <p className=''>HTML 5’s support for wide range of multimedia files will ensure that your game has appealing visual and auditory effects for better user engagement.</p>
                     </div>

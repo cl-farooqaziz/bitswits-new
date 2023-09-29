@@ -64,11 +64,11 @@ export default function hirejavadeveloper() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Java/J2EE/J2SE development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Enterprise Java development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Java Mobile & IOT development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Custom Java development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Integration services</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Java/J2EE/J2SE development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Enterprise Java development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Java Mobile & IOT development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Custom Java development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Integration services</li>
         </ul>
     </>
 
@@ -166,7 +166,7 @@ export default function hirejavadeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Java Web
@@ -181,7 +181,7 @@ export default function hirejavadeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Java mobile &
@@ -196,7 +196,7 @@ export default function hirejavadeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Custom Java
@@ -211,7 +211,7 @@ export default function hirejavadeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Apps modernization
@@ -241,7 +241,7 @@ Team in BitsWits </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     JAVA API Development
@@ -255,7 +255,7 @@ Team in BitsWits </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Web Services integartion
@@ -269,7 +269,7 @@ Team in BitsWits </span></h2>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Manageable Data Connector
@@ -284,7 +284,7 @@ Oracle, Microsoft and ERP Solutions</p>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                     Enterprise Service
@@ -413,14 +413,14 @@ enterprise solutions</p>
                     <h3 className='center font-bold'>Our Social Media Marketing Expertise Also Include</h3>
 
                     <ul className={styles.mservice}>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> SIMPLE DEVELOPMENT PROCESS </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> HIGH PERFORMANCE  </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> ELIMINATES COMPLEXITY </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  SAVES TIME</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />   HIGH SPEED </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> STRONG CONSISTENCY</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> COST EFFECTIVE MODEL</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> SIMPLE DEVELOPMENT PROCESS </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> HIGH PERFORMANCE  </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> ELIMINATES COMPLEXITY </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  SAVES TIME</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />   HIGH SPEED </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> STRONG CONSISTENCY</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> COST EFFECTIVE MODEL</li>
                     </ul>
                 </Col>
             </Row>
@@ -439,14 +439,14 @@ enterprise solutions</p>
                             <p className='center mb-5'>Everything about MongoDB is amazing – these benefits do all the talking.</p>
 
                             <ul className={dataStyles.mservice}>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   SIMPLE DEVELOPMENT PROCESS </li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" /> HIGH PERFORMANCE  </li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" /> ELIMINATES COMPLEXITY</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   SAVES TIME</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   HIGH SPEED </li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />  STRONG CONSISTENCY</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   COST EFFECTIVE MODEL</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   SIMPLE DEVELOPMENT PROCESS </li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" /> HIGH PERFORMANCE  </li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" /> ELIMINATES COMPLEXITY</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   SAVES TIME</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   HIGH SPEED </li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  STRONG CONSISTENCY</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   COST EFFECTIVE MODEL</li>
                             </ul>
                         </Col>
                     </Row>
@@ -472,40 +472,40 @@ enterprise solutions</p>
             <Row>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones1} className='img-fluid me-auto mb-3 greyscale' />
+                        <Image quality={75} src={milestones1} className='img-fluid me-auto mb-3 greyscale' />
                         <h5 className="font18 fontf font-semibold me-auto">Enterprise Content
                             Management</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones2} className='img-fluid me-auto mb-3 greyscale' />
+                        <Image quality={75} src={milestones2} className='img-fluid me-auto mb-3 greyscale' />
                         <h5 className="font18 fontf font-semibold me-auto">Data Mining and
                             Business Interlligence</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones3} className='img-fluid me-auto mb-3 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid me-auto mb-3 greyscale' />
                         <h5 className="font18 fontf font-semibold me-auto">Customer Relationship
                             Management</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones4} className='img-fluid me-auto mb-3 greyscale' />
+                        <Image quality={75} src={milestones4} className='img-fluid me-auto mb-3 greyscale' />
                         <h5 className="font18 fontf font-semibold me-auto">Middleware</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones5} className='img-fluid me-auto mb-3 greyscale' />
+                        <Image quality={75} src={milestones5} className='img-fluid me-auto mb-3 greyscale' />
                         <h5 className="font18 fontf font-semibold me-auto">Corporate Portals</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones6} className='img-fluid me-auto mb-3 greyscale' />
+                        <Image quality={75} src={milestones6} className='img-fluid me-auto mb-3 greyscale' />
                         <h5 className="font18 fontf font-semibold me-auto">Inventory Management</h5>
                     </div>
                 </Col>

@@ -16,7 +16,7 @@ const Howweare = (props) => {
                 <Container fluid>
                     <Row>
                         <Col xl={9} className='p-0'>
-                            <Image src={props.icon1} className='img-fluid w-100 h-auto' />
+                            <Image quality={75} src={props.icon1} className='img-fluid w-100 h-auto' />
 
                         </Col>
                         <Col xl={3}>
@@ -30,7 +30,7 @@ const Howweare = (props) => {
                                     <p> {props.para1} </p>
                                 }
 
-                                <Link href='#'> {props.linkdem}  <Image src={icon2} className={styles.imgfluid} /> </Link>
+                                <Link href='#'> {props.linkdem}  <Image quality={75} src={icon2} className={styles.imgfluid} /> </Link>
 
                             </div>
 

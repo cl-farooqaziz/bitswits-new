@@ -24,40 +24,40 @@ const Store = () => {
                             <div className={`${styles.featureList} d-flex`}>
                                 <div className={`${styles.featureLeft}`}>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Easy Integration with <br /> Marketing Channels</p>
                                     </div>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Flexible &amp; Customizable <br /> Code</p>
                                     </div>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Guaranteed Uptime with <br /> fully Hosted eStore</p>
                                     </div>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Simplified Product Catalogue <br /> Management</p>
                                     </div>
                                 </div>
                                 <div className={`${styles.featureImg}`}>
-                                    <Image src={Shopyfold} alt="BitsWits" className='img-fluid' />
+                                    <Image quality={75} src={Shopyfold} alt="BitsWits" className='img-fluid' />
                                 </div>
                                 <div className={`${styles.featureLeft} ${styles.featureRight}`}>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Mobile App for <br /> Easy Accesss</p>
                                     </div>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Multiple Payment <br /> Gateway Integration</p>
                                     </div>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Tones of Theme <br /> and Plugins</p>
                                     </div>
                                     <div className={`${styles.featuresNew} d-flex`}>
-                                        <Image src={check} alt="BitsWits" className='img-fluid' />
+                                        <Image quality={75} src={check} alt="BitsWits" className='img-fluid' />
                                         <p>Highly Secure Platform with <br /> Proactive Management</p>
                                     </div>
                                 </div>

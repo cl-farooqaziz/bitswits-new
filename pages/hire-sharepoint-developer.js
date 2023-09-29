@@ -37,27 +37,27 @@ export default function sharepointdevelopment() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Sharepoint websites
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Web part-development
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Workflow development
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Business workflows
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 MS Dynamics CRM
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Enterprise collaboration
             </li>
         </ul>
@@ -77,7 +77,7 @@ export default function sharepointdevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Online Document
@@ -93,7 +93,7 @@ export default function sharepointdevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Integration with Business Applications
@@ -109,7 +109,7 @@ export default function sharepointdevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Site Pages Designing
@@ -124,7 +124,7 @@ export default function sharepointdevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Workflow Creation and Business
@@ -140,7 +140,7 @@ export default function sharepointdevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Site Branding and Page
@@ -156,7 +156,7 @@ export default function sharepointdevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Installation and Site Migration
@@ -178,7 +178,7 @@ export default function sharepointdevelopment() {
         <Container>
             <Row className={portstyles.portRow}>
                 <Col lg={6} className='mx-auto'>
-                    <Image src={sevcImg} alt='BitsWits' className='img-fluid' />
+                    <Image quality={75} src={sevcImg} alt='BitsWits' className='img-fluid' />
                 </Col>
                 <Col lg={6} className='mx-auto'>
                     <h3 className='font-bold mb-3'>Services we offer</h3>

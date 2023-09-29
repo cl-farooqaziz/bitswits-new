@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import styles from '@/styles/Capabilities2d.module.css'
+import styles from '@/styles/Capabilities3d.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -9,6 +9,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import blog212 from '../public/3d-game-development/images/blog1.png'
+import blogModels from '../public/3d-game-development/images/3D-MODELS.png'
+import blogCharacter from '../public/3d-game-development/images/CHARACTER-DESIGN.png'
+import blogBackground from '../public/3d-game-development/images/2D-BACKGROUND-ART.png'
+import blogUIUX from '../public/3d-game-development/images/UIUX.png'
+import blogDesign from '../public/3d-game-development/images/CHARACTER-DESIGN.png'
+// import blog212 from '../public/3d-game-development/images/blog1.png'
+// import blog212 from '../public/3d-game-development/images/blog1.png'
 
 const Capabilities3d = () => {
 
@@ -62,6 +69,7 @@ const Capabilities3d = () => {
                                 <Col lg={2}><div className={styles.line7}></div></Col>
                                 <Col lg={2}><div className={styles.line8}></div></Col>
                                 <Col lg={2}><div className={styles.line9}></div></Col>
+                                {/* <Col lg={2}><div className={styles.line10}></div></Col> */}
 
                             </Row>
                         </div>
@@ -71,7 +79,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -83,7 +91,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogModels} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -95,7 +103,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogCharacter} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -107,7 +115,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogBackground} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -121,7 +129,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogUIUX} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -133,7 +141,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogDesign} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -145,7 +153,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -157,7 +165,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -169,13 +177,25 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
 
                                 </Row>
                             </div>
+
+                            {/* <div className={styles.high}>
+                                <Row>
+                                    <Col xl={12}>
+                                        <div>
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                        </div>
+                                    </Col>
+
+
+                                </Row>
+                            </div> */}
 
                         </Slider>
                     </Row>

@@ -86,13 +86,13 @@ export default function hiredatabasedeveloper() {
 
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Designing</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Programming</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Backup and Recovery</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Mirroring</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Database Encryption
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Database Designing</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Database Programming</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Backup and Recovery</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Database Mirroring</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Database Encryption
             </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Database Migration</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Database Migration</li>
 
 
 
@@ -190,7 +190,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We can develop CRM solutions using these technologies - Microsoft Dynamics CRM/ 365, Salesforce, Sugar CRM.
@@ -200,7 +200,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Our experts have the experience in using great technologies like MS Dynamics CRM and Salesforce solutions for domains ranging from Medical legal firms, Telecommunication industries, Travel.
@@ -211,7 +211,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’re great at Custom CRM Development
@@ -221,7 +221,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ve served our clients on a vast industrial spectrum ranging from enterprises to medium and small scale organisations.
@@ -232,7 +232,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for complete document management.
@@ -242,7 +242,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We have the knowledge of carrying out all integrations with Microsoft SharePoint.
@@ -253,7 +253,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Want updates and migration services? We can do it for you.
@@ -263,7 +263,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for Upgrade and Migration
@@ -285,7 +285,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Database Programming
@@ -298,7 +298,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Database Reporting Services
@@ -310,7 +310,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Database Tuning & Optimization
@@ -322,7 +322,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Database Migration Services
@@ -335,7 +335,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Application Integration
@@ -349,7 +349,7 @@ export default function hiredatabasedeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Database Capacity Planning
@@ -379,63 +379,63 @@ export default function hiredatabasedeveloper() {
             <Row className='gy-3'>
                 <Col xl={4}>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones1} className='img-fluid mb-4 greyscale' />
                         <p>Developed and Maintained big Travel Booking systems with high number of concurrent visitors</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones2} className='img-fluid mb-4 greyscale' />
                         <p>Developed and Maintained Tracking and Security systems for many UK based clients</p>
                     </div>
 
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <p>Developed systems with full database encryption for added security and to meet UK, US and EU data privacy guidelines</p>
                     </div>
                 </Col>
                 <Col xl={4}>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones4} className='img-fluid mb-4 greyscale' />
                         <p>Implemented huge database with proper design and architecture to meet performance critical standards</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones5} className='img-fluid mb-4 greyscale' />
                         <p>Implemented both code first and database first systems with Microsoft SQL Server</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones6} className='img-fluid mb-4 greyscale' />
                         <p>Data migration from MySQL to SQL Server, SQL Server to MySQL</p>
                     </div>
                 </Col>
                 <Col xl={4}>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones7} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones7} className='img-fluid mb-4 greyscale' />
                         <p >SQL Server Reporting Services</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones8} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones8} className='img-fluid mb-4 greyscale' />
                         <p >Integration with PowerBI and other Big Data tools</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones9} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones9} className='img-fluid mb-4 greyscale' />
                         <p >Database migration and performance tuning</p>
                     </div>
                 </Col>
 
                 <Col xl={4} className='mongo2'>
                     <div className=' pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones10} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones10} className='img-fluid mb-4 greyscale' />
                         <p >Fail safe systems using SQL Server Mirroring</p>
                     </div>
                 </Col>

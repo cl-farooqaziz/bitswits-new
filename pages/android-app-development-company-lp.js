@@ -271,11 +271,11 @@ export default function androidappdevelopmentcompanylp() {
                 </>}
                 img2={<>
                     <div className='newbit2'>
-                        <Image src={news1} alt="bitswits" className='img-fluid' />
-                        <Image src={news2} alt="bitswits" className='img-fluid' />
-                        <Image src={news3} alt="bitswits" className='img-fluid' />
-                        <Image src={news4} alt="bitswits" className='img-fluid' />
-                        <Image src={news5} alt="bitswits" className='img-fluid' />
+                        <Image quality={75} src={news1} alt="bitswits" className='img-fluid' />
+                        <Image quality={75} src={news2} alt="bitswits" className='img-fluid' />
+                        <Image quality={75} src={news3} alt="bitswits" className='img-fluid' />
+                        <Image quality={75} src={news4} alt="bitswits" className='img-fluid' />
+                        <Image quality={75} src={news5} alt="bitswits" className='img-fluid' />
                     </div>
 
                 </>}

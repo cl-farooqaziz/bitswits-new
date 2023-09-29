@@ -90,7 +90,7 @@ function Banners() {
                                 <div className={`${style.ctac} mt-2`}>
                                     <div className='d-flex justify-content-start'>
                                         <Link href='#' className={style.btnpri}><i></i> <FaComment /> Live Chat</Link>
-                                        <Link href='#' className={style.btnpri1}><Image src={phone} alt='logo' width={20} />  1-844-400-0025
+                                        <Link href='#' className={style.btnpri1}><Image quality={75} src={phone} alt='logo' width={20} />  1-844-400-0025
                                         </Link>
                                     </div>
                                 </div>

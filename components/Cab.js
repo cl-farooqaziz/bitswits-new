@@ -29,7 +29,7 @@ const Cab = () => {
                            
 
 
-                            <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid"  />
+                            <Image quality={75} src={publication1} width="717" height="589" alt="bitswits" className="img-fluid"  />
                         </Col>
                     </Row>
                 </Container>

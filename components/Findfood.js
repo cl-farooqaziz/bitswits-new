@@ -15,7 +15,7 @@ const Findfood = () => {
                     <Row className={` ${styles.almost} gy-4`}>
                         <Col md={5}>
 
-                            <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid"  />
+                            <Image quality={75} src={publication1} width="717" height="589" alt="bitswits" className="img-fluid"  />
 
                         </Col>
                         <Col md={6}>

@@ -31,7 +31,7 @@ const NewHomeWhat = () => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -41,7 +41,7 @@ const NewHomeWhat = () => {
                 </Container>
 
                 <div className='sec_image text-center pt-5'>
-                    <Image src={WhatImage} className={styles.secImage} />
+                    <Image quality={75} src={WhatImage} className={styles.secImage} />
                 </div>
 
                 <div className={styles.mixColor2}></div>

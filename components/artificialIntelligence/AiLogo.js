@@ -21,12 +21,12 @@ const AiLogo = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <Image src={Unity} alt="bitswits"/>
-                            <Image src={XTCom} alt="bitswits"/>
-                            <Image src={Binance} alt="bitswits"/>
-                            <Image src={Enterprise} alt="bitswits"/>
-                            {/* <Image src={Unity} alt="bitswits"/>
-                            <Image src={Unity} alt="bitswits"/> */}
+                            <Image quality={75} src={Unity} alt="bitswits"/>
+                            <Image quality={75} src={XTCom} alt="bitswits"/>
+                            <Image quality={75} src={Binance} alt="bitswits"/>
+                            <Image quality={75} src={Enterprise} alt="bitswits"/>
+                            {/* <Image quality={75} src={Unity} alt="bitswits"/>
+                            <Image quality={75} src={Unity} alt="bitswits"/> */}
                         </Col>
                     </Row>
                 </Container>

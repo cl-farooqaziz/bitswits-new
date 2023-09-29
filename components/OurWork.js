@@ -33,7 +33,7 @@ const OurWork = () => {
                         <Col lg={6}>
                             <div className={styles.workImg}>
                                 <div>
-                                    <Image src={ourportfolio1} alt='Bitswits' className='img-fluid' />
+                                    <Image quality={75} src={ourportfolio1} alt='Bitswits' className='img-fluid' />
                                 </div>
                             </div>
                         </Col>
@@ -57,7 +57,7 @@ const OurWork = () => {
                         <Col lg={6}>
                             <div className={styles.workImg}>
                                 <div>
-                                    <Image src={ourportfolio2} alt='Bitswits' className='img-fluid' />
+                                    <Image quality={75} src={ourportfolio2} alt='Bitswits' className='img-fluid' />
                                 </div>
                             </div>
                         </Col>
@@ -81,7 +81,7 @@ const OurWork = () => {
                         <Col lg={6}>
                             <div className={styles.workImg}>
                                 <div>
-                                    <Image src={ourportfolio3} alt='Bitswits' className='img-fluid' />
+                                    <Image quality={75} src={ourportfolio3} alt='Bitswits' className='img-fluid' />
                                 </div>
                             </div>
                         </Col>
@@ -105,7 +105,7 @@ const OurWork = () => {
                         <Col lg={6}>
                             <div className={styles.workImg}>
                                 <div>
-                                    <Image src={ourportfolio4} alt='Bitswits' className='img-fluid' />
+                                    <Image quality={75} src={ourportfolio4} alt='Bitswits' className='img-fluid' />
                                 </div>
                             </div>
                         </Col>
@@ -129,7 +129,7 @@ const OurWork = () => {
                         <Col lg={6}>
                             <div className={styles.workImg}>
                                 <div>
-                                    <Image src={ourportfolio5} alt='Bitswits' className='img-fluid' />
+                                    <Image quality={75} src={ourportfolio5} alt='Bitswits' className='img-fluid' />
                                 </div>
                             </div>
                         </Col>
@@ -153,7 +153,7 @@ const OurWork = () => {
                         <Col lg={6}>
                             <div className={styles.workImg}>
                                 <div>
-                                    <Image src={ourportfolio6} alt='Bitswits' className='img-fluid' />
+                                    <Image quality={75} src={ourportfolio6} alt='Bitswits' className='img-fluid' />
                                 </div>
                             </div>
                         </Col>

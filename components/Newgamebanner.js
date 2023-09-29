@@ -77,7 +77,7 @@ const NewHomeBanner = () => {
                             </div>
 
                             <div className='mt-5'>
-                                <Image src={BannerImage} className={`img-fluid`} />
+                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
                             </div>
 
                         </Col>

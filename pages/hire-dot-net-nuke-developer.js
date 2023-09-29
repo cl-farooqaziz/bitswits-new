@@ -71,31 +71,31 @@ export default function dnnDevelopment() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 E-Commerce and Marketing
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 User Interaction
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Skinning and Theme Design
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Module Development
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Maintenance and Version Upgrades
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Intranet Application Development
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Mobile Development
             </li>
         </ul>
@@ -115,7 +115,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Open Source
@@ -127,7 +127,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Ease of Use
@@ -139,7 +139,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Powers You to Manage
@@ -152,7 +152,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Optimize Website
@@ -165,7 +165,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Increase Website Traffic
@@ -179,7 +179,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Helps Keep Your Website
@@ -192,7 +192,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Provides Ability
@@ -205,7 +205,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Power Modules
@@ -217,7 +217,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Reliable and
@@ -230,7 +230,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-medium mt-3'>
                             Over 750,000 Organizations
@@ -305,7 +305,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Theme Design
@@ -321,7 +321,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Extension Development
@@ -337,7 +337,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Custom DNN
@@ -353,7 +353,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             E-Commerce
@@ -368,7 +368,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon36} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon36} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Intranet Applications
@@ -383,7 +383,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon37} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon37} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Migration And Update
@@ -398,7 +398,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon38} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon38} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Multilanguage
@@ -414,7 +414,7 @@ export default function dnnDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon39} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon39} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             SEO & QA

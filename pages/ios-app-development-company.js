@@ -57,13 +57,13 @@ export default function mobileappdevelopment() {
 
 
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Expert IOS Development Team</li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Expert IOS Development Team</li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Delivering solutions across diverse industry verticals</li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Delivering solutions across diverse industry verticals</li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Building Applications for the iOS Ecosystem</li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>Building Applications for the iOS Ecosystem</li>
             <li className="font15 fontf font-medium fyColor ">
-                <Image src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>High client satisfaction rate </li>
+                <Image quality={75} src={mobilearrow} alt="bitswits" className='img-fluid multi'></Image>High client satisfaction rate </li>
          
 
 
@@ -114,7 +114,7 @@ export default function mobileappdevelopment() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' />
+                        <Image quality={75} src={icon23} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Stunning and Intuitive Designs
@@ -124,14 +124,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' />
+                        <Image quality={75} src={icon24} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Expert Development
@@ -141,14 +141,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' />
+                        <Image quality={75} src={icon25} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     High Performing Apps
@@ -158,14 +158,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' />
+                        <Image quality={75} src={icon26} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Apple Guidelines Compliance
@@ -175,14 +175,14 @@ export default function mobileappdevelopment() {
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' />
+                        <Image quality={75} src={icon27} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Continuous Support
@@ -194,14 +194,14 @@ We provide on-going support and maintenance to keep your applications updated wi
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' />
+                        <Image quality={75} src={icon28} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Open Communication
@@ -211,14 +211,14 @@ We provide on-going support and maintenance to keep your applications updated wi
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' />
+                        <Image quality={75} src={icon29} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Extensive Testing 
@@ -228,7 +228,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
@@ -236,7 +236,7 @@ We provide on-going support and maintenance to keep your applications updated wi
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' />
+                        <Image quality={75} src={icon30} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Risk Reduction 
@@ -246,7 +246,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
 
                 </div>
@@ -255,7 +255,7 @@ We provide on-going support and maintenance to keep your applications updated wi
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' />
+                        <Image quality={75} src={icon31} alt='BitsWits' />
                     </div>
                     <h5 className='font20 fontf white font-bold line30 mb-4 mt-2'>
                     Proven Track Record 
@@ -265,7 +265,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     </p>
                     <Link href="tel:(833) 500-6007" className="font14">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                 </div>
             </Col>
@@ -294,7 +294,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg1} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -305,7 +305,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -317,7 +317,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg2} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -328,7 +328,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -340,7 +340,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg3} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -351,7 +351,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -363,7 +363,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                     <div className='card-body'>
                         <Row className='gy-4'>
                             <Col lg={5}>
-                                <Image src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
+                                <Image quality={75} src={benefitimg4} className='img-fluid pe-3' width={400} height={400}></Image>
                             </Col>
                             <Col lg={7}>
                                 <h4 className='font20 lheight24 font-bold'>
@@ -374,7 +374,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                                 </p>
                                 <Link href="tel:(833) 500-6007" className="font14 fyColor3">
                         <span>Connect Now</span>
-                        <Image src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
+                        <Image quality={75} src={arrow} alt='BitsWits' className='ms-2 img-fluid' />
                     </Link>
                             </Col>
                         </Row>
@@ -405,7 +405,7 @@ We provide on-going support and maintenance to keep your applications updated wi
             <Col lg={7}>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Initial Consultation
                     </h4>
                     <p>
@@ -414,7 +414,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Gathering Requirements
                     </h4>
                     <p>
@@ -423,7 +423,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Design and Prototyping
                     </h4>
                     <p>
@@ -432,7 +432,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Development
                     </h4>
                     <p>
@@ -441,7 +441,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Testing and Quality Control
                     </h4>
                     <p>
@@ -450,7 +450,7 @@ We provide on-going support and maintenance to keep your applications updated wi
                 </div>
                 <div className='pb-3'>
                     <h4 className='font20 fw-bold d-flex align-items-center gap-2'>
-                        <Image src={icon32} width={20} className='img-fluid' />
+                        <Image quality={75} src={icon32} width={20} className='img-fluid' />
                         Launch and Deployment
                     </h4>
                     <p>

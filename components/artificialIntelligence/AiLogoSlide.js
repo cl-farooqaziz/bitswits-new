@@ -66,22 +66,22 @@ function LogoSlide() {
                         <Col>
                             <Slider {...settings} className={`${style.partnerLogos} partnerLogos ForSeoLogo`}>
                                 <div>
-                                    <Image src={logo1} width="127" alt="trustPilot" height="auto" />
+                                    <Image quality={75} src={logo1} width="127" alt="trustPilot" height="auto" />
                                 </div>
                                 <div>
-                                    <Image src={logo2} alt="amazon" width="127" height="auto" />
+                                    <Image quality={75} src={logo2} alt="amazon" width="127" height="auto" />
                                 </div>
                                 <div>
-                                    <Image src={logo3} alt="googleCloud" width="127" height="auto" />
+                                    <Image quality={75} src={logo3} alt="googleCloud" width="127" height="auto" />
                                 </div>
                                 <div>
-                                    <Image src={logo4} alt="microSoft" width="127" height="auto" />
+                                    <Image quality={75} src={logo4} alt="microSoft" width="127" height="auto" />
                                 </div>
                                 <div>
-                                    <Image src={logo5} alt="googlePartner" width="127" height="auto" />
+                                    <Image quality={75} src={logo5} alt="googlePartner" width="127" height="auto" />
                                 </div>
                                 <div>
-                                    <Image src={logo6} alt="fb" width="127" height="auto" />
+                                    <Image quality={75} src={logo6} alt="fb" width="127" height="auto" />
                                 </div>
 
                             </Slider>

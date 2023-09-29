@@ -25,35 +25,35 @@ const Stack = () => {
                     </Row>
                     <Row className='gy-3 mt-3'>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony1} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony1} className='img-fluid' />
                                 <p className='f-16 f-700 white'>ETHEREUM</p></div>
                         </Col>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony2} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony2} className='img-fluid' />
                                 <p className='f-16 f-700 white'>EOS</p></div>
                         </Col>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony3} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony3} className='img-fluid' />
                                 <p className='f-16 f-700 white'>TRON</p></div>
                         </Col>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony4} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony4} className='img-fluid' />
                                 <p className='f-16 f-700 white'>BSC</p></div>
                         </Col>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony5} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony5} className='img-fluid' />
                                 <p className='f-16 f-700 white'>SOLANA</p></div>
                         </Col>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony6} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony6} className='img-fluid' />
                                 <p className='f-16 f-700 white'>TEZOS</p></div>
                         </Col>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony7} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony7} className='img-fluid' />
                                 <p className='f-16 f-700 white'>COSMOS</p></div>
                         </Col>
                         <Col lg={3}>
-                            <div className={styles.floatpont}><Image src={pony8} className='img-fluid' />
+                            <div className={styles.floatpont}><Image quality={75} src={pony8} className='img-fluid' />
                                 <p className='f-16 f-700 white'>MATIC</p></div>
                         </Col>
                     </Row>

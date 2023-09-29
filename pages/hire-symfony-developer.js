@@ -76,27 +76,27 @@ export default function hireSymfonyDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Website Design & Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Enterprise Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Web Applications Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Customization & Integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 E-commerce Solutions
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Social Networking Solutions
             </li>
         </ul>
@@ -117,7 +117,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Speed</h5>
                     <p>
@@ -128,7 +128,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Performance</h5>
                     <p>
@@ -139,7 +139,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Debugging</h5>
                     <p>
@@ -150,7 +150,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Bundles</h5>
                     <p>
@@ -161,7 +161,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} `}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">SEO Friendly URL (Routing)</h5>
                     <p>
@@ -172,7 +172,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Rapid Application Development</h5>
                     <p>
@@ -183,7 +183,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Well Maintained Coding Standards</h5>
                     <p>
@@ -194,7 +194,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Ready to use Plugins or Add-ons from Community support</h5>
                     <p>
@@ -205,7 +205,7 @@ export default function hireSymfonyDeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-bold line30">Easy To Extend, Allowing for Integration With Other Vendor Libraries</h5>
                     <p>
@@ -302,19 +302,19 @@ export default function hireSymfonyDeveloper() {
             <Row className={`${expertStyle.expertRow} justify-content-evenly`}>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b1} alt='BitsWits' className='img-fluid' />
                         <h4>CUSTOM WEB DEVELOPMENT</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b2} alt='BitsWits' className='img-fluid' />
                         <h4>PAYMENT GATEWAY INTEGRATION</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b3} alt='BitsWits' className='img-fluid' />
                         <h4>3RD PARTY API INTEGRATION</h4>
                     </div>
                 </Col>
@@ -322,19 +322,19 @@ export default function hireSymfonyDeveloper() {
             <Row className={`${expertStyle.expertRow} justify-content-evenly mt-4`}>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b4} alt='BitsWits' className='img-fluid' />
                         <h4>JOB PORTAL DEVELOPMENT</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b5} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b5} alt='BitsWits' className='img-fluid' />
                         <h4>EVENT MANAGEMENT</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                         <h4>CRM APPLICATIONS</h4>
                     </div>
                 </Col>

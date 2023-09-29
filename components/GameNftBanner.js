@@ -79,7 +79,7 @@ const GameNftBanner = () => {
                             </div>
 
                             <div className={` ${styles.recy} mt-2 center`}>
-                                <Image src={BannerImage} className={`img-fluid`} />
+                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
                             </div>
 
                         </Col>

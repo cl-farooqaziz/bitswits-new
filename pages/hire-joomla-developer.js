@@ -103,12 +103,12 @@ export default function joomlaDev() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Theme Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Website Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Extension Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Multivendor solutions</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Version Upgrades Services</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Migration Services</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Theme Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Website Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Extension Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Multivendor solutions</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Version Upgrades Services</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Migration Services</li>
         </ul>
     </>
 
@@ -127,7 +127,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Web & Application
@@ -138,7 +138,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Portal Development
@@ -148,7 +148,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Zend Integration Services
@@ -158,7 +158,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Zend Customisation
@@ -169,7 +169,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Build and Deploy
@@ -180,7 +180,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Maintenance and
@@ -191,7 +191,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Enterprise Solutions
@@ -201,7 +201,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         CMS Solutions
@@ -211,7 +211,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Payment Gateways
@@ -222,7 +222,7 @@ export default function joomlaDev() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 mt-3 fontf font-regular line30'>
                         Zend Web 2.0
@@ -254,23 +254,23 @@ export default function joomlaDev() {
                         <div className={rebStyles.left}>
                             <ul className={rebStyles.clearfix}>
                                 <li>
-                                    <Image src={servc1} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc1} className='img-fluid' alt="" />
                                     <span> Web Application Development  </span>
                                 </li>
                                 <li>
-                                    <Image src={servc2} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc2} className='img-fluid' alt="" />
                                     <span> Customisation and Integration</span>
                                 </li>
                                 <li>
-                                    <Image src={servc3} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc3} className='img-fluid' alt="" />
                                     <span> Website Migration Services </span>
                                 </li>
                                 <li>
-                                    <Image src={servc4} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc4} className='img-fluid' alt="" />
                                     <span> Template Design and Development </span>
                                 </li>
                                 <li>
-                                    <Image src={servc5} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc5} className='img-fluid' alt="" />
                                     <span>
                                         Multilingual Solutions
                                     </span>
@@ -279,29 +279,29 @@ export default function joomlaDev() {
                         </div>
 
                         <div className={rebStyles.mid}>
-                            <Image src={flodimg} className='img-fluid' alt="" />
+                            <Image quality={75} src={flodimg} className='img-fluid' alt="" />
                         </div>
 
                         <div className={rebStyles.right}>
                             <ul className={rebStyles.clearfix}>
                                 <li>
-                                    <Image src={servc6} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc6} className='img-fluid' alt="" />
                                     <span> Extension Development  </span>
                                 </li>
                                 <li>
-                                    <Image src={servc7} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc7} className='img-fluid' alt="" />
                                     <span> e-Commerce Development </span>
                                 </li>
                                 <li>
-                                    <Image src={servc8} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc8} className='img-fluid' alt="" />
                                     <span> Restful Application Development </span>
                                 </li>
                                 <li>
-                                    <Image src={servc9} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc9} className='img-fluid' alt="" />
                                     <span> Social Media Development  </span>
                                 </li>
                                 <li>
-                                    <Image src={servc10} className='img-fluid' alt="" />
+                                    <Image quality={75} src={servc10} className='img-fluid' alt="" />
                                     <span> SaaS App Development  </span>
                                 </li>
                             </ul>
@@ -323,73 +323,73 @@ export default function joomlaDev() {
             <Row className={`${expertStyle.expertRow} justify-content-center`}>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b1} alt='BitsWits' className='img-fluid' />
                         <h4>User-Friendly Interface</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b2} alt='BitsWits' className='img-fluid' />
                         <h4>Enhanced Security</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b3} alt='BitsWits' className='img-fluid' />
                         <h4>Seo-Friendly</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b4} alt='BitsWits' className='img-fluid' />
                         <h4>Scalability</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b5} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b5} alt='BitsWits' className='img-fluid' />
                         <h4>User-Friendly Interface</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                         <h4>Enhanced Security</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b7} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b7} alt='BitsWits' className='img-fluid' />
                         <h4>Seo-Friendly</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b8} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b8} alt='BitsWits' className='img-fluid' />
                         <h4>Scalability</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b9} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b9} alt='BitsWits' className='img-fluid' />
                         <h4>User-Friendly Interface</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b10} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b10} alt='BitsWits' className='img-fluid' />
                         <h4>Enhanced Security</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b11} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b11} alt='BitsWits' className='img-fluid' />
                         <h4>Seo-Friendly</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b12} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b12} alt='BitsWits' className='img-fluid' />
                         <h4>Scalability</h4>
                     </div>
                 </Col>
@@ -463,84 +463,84 @@ export default function joomlaDev() {
             <Row>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones1} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones1} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">CRM Application</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones2} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones2} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Custom Web Development</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones3} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones3} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">MVC Architecture</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones4} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones4} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Web Services</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones5} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones5} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Third PartY API</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones6} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones6} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Enterprise Applications</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones7} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones7} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">CRM Application</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones8} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones8} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Custom Web Development</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones9} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones9} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">MVC Architecture</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones10} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones10} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Web Services</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones11} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones11} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Third PartY API</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones12} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones12} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Enterprise Applications</h5>
                         <p>Our supreme coding standards are at such a level that your website will outshine other competitors, and your business would certainly flourish.</p>
                     </div>

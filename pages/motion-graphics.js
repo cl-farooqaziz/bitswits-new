@@ -55,12 +55,12 @@ export default function motiongraphics() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Module Devlopment </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Third Party API  Integration </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Theme Customisations </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Manage Marketing and Sales Activities </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Report On All Activities </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Migration Service </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Module Devlopment </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Third Party API  Integration </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Theme Customisations </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Manage Marketing and Sales Activities </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Report On All Activities </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Migration Service </li>
         </ul>
     </>
 
@@ -154,7 +154,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Websites Development
@@ -169,7 +169,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Integration With 3rd Party Applications
@@ -184,7 +184,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Performance Optimization
@@ -199,7 +199,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon4} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Theming
@@ -214,7 +214,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon5} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Module Development
@@ -229,7 +229,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon6} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Customize magento Enterprise
@@ -253,7 +253,7 @@ export default function motiongraphics() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon7} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
                         Analytics and <br /> Reporting
@@ -262,19 +262,19 @@ export default function motiongraphics() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Integration with Google Analytics
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Admin Report Dashboard with Business Overview
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Sales Reports Including Total Sales and Returns
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Tax Reports
                                 </li>
                             </ul>
@@ -285,7 +285,7 @@ export default function motiongraphics() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon8} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
                         Marketing Promotions <br /> and Tools
@@ -294,15 +294,15 @@ export default function motiongraphics() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Online Poll Creation and Management
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Landing Page Creation Tools
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Catalog Promotional Pricing and Controls
                                 </li>
                             </ul>
@@ -313,7 +313,7 @@ export default function motiongraphics() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBR}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon9} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon9} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
                         Customer Service
@@ -322,23 +322,23 @@ export default function motiongraphics() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Contact Us Form
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Feature-rich Customer Accounts
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Order History with Status Updates
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Order Tracking from Account
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Order and Account Update Emails
                                 </li>
                             </ul>
@@ -349,7 +349,7 @@ export default function motiongraphics() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon10} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon10} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
                         Customer <br /> Accounts
@@ -358,23 +358,23 @@ export default function motiongraphics() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Order status and history
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Re-orders from account
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Recently ordered items
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Address Book with unlimited addresses
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Default Billing and Shipping addresses
                                 </li>
                             </ul>
@@ -385,7 +385,7 @@ export default function motiongraphics() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon11} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon11} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
                         Product <br /> Browsing
@@ -394,23 +394,23 @@ export default function motiongraphics() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Multiple Images Per Product
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Product Image Zoom-in Capability
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Product Reviews
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Related Products
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Stock Availability
                                 </li>
                             </ul>
@@ -421,7 +421,7 @@ export default function motiongraphics() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon12} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon12} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font18 fontf font-bold mt-3'>
                         Catalog <br /> Browsing
@@ -430,11 +430,11 @@ export default function motiongraphics() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Layered / Faceted Navigation for filtering of products in categories and search results.
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Flat Catalog Module for Improved Performance with large catalogs
                                 </li>
                             </ul>
@@ -456,7 +456,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon13} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon13} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-4'>
                             Drive Sales and Improve Productivity
@@ -471,7 +471,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon14} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon14} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-4'>
                             Improve Your Management Experience
@@ -486,7 +486,7 @@ export default function motiongraphics() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon15} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon15} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-4'>
                             Simplify With One Platform

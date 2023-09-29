@@ -31,7 +31,7 @@ const Contact = (props) => {
                             <Form formshome='formclass' />
                         </Col>
                         <Col lg={6} className={style.barcode}>
-                           <Image src={barcode1} alt="Blockchain" className='img-fluid' />
+                           <Image quality={75} src={barcode1} alt="Blockchain" className='img-fluid' />
                         </Col>
                     </Row>
                 </Container>

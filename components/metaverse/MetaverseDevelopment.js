@@ -18,7 +18,7 @@ const MetaDevelopment = (props) => {
 
                         </Col>
                         <Col lg={12}>
-                            <Image src={poster} className={`img-fluid ${style.bussinessImage}`} />
+                            <Image quality={75} src={poster} className={`img-fluid ${style.bussinessImage}`} />
                             <div className={`${styles.secBtns} ${styles.development}`}>
                                 <MetaBtn></MetaBtn>
                             </div>

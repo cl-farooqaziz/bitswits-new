@@ -97,11 +97,11 @@ export default function ecommerencedevelopment() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Node.JS API Development & Integration </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Web/Mobile App UI/UX Development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> AJAX Development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Plug-In Development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> Node.JS Consulting, Maintenance & More </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Node.JS API Development & Integration </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Web/Mobile App UI/UX Development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> AJAX Development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Plug-In Development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Node.JS Consulting, Maintenance & More </li>
            
         </ul>
     </>
@@ -125,7 +125,7 @@ export default function ecommerencedevelopment() {
         <Container>
             <Row className={portstyles.portRow}>
                 <Col lg={6} className='mx-auto'>
-                    <Image src={sevcImg} alt='BitsWits' className='img-fluid' />
+                    <Image quality={75} src={sevcImg} alt='BitsWits' className='img-fluid' />
                 </Col>
                 <Col lg={6} className='mx-auto'>
                     <h3 className='font-bold mb-3'>Working with us you can also
@@ -265,61 +265,61 @@ export default function ecommerencedevelopment() {
                     <ul>
                         <li>
                             <Link href="#">
-                                <Image src={icon38} alt="Real Estate" />
+                                <Image quality={75} src={icon38} alt="Real Estate" />
                                 <p>Real Estate </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon39} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon39} alt="Travel &amp; Hospitality" />
                                 <p> Travel &amp; Hospitality </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon40} alt="B2B Solutions" />
+                                <Image quality={75} src={icon40} alt="B2B Solutions" />
                                 <p>  B2B Solutions  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon41} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon41} alt="Travel &amp; Hospitality" />
                                 <p>  Healthcare  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon42} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon42} alt="Travel &amp; Hospitality" />
                                 <p>   Education & E-Learning   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon43} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon43} alt="Travel &amp; Hospitality" />
                                 <p>   Banking & Finance  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon44} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon44} alt="Travel &amp; Hospitality" />
                                 <p>   Startup Solutions   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon45} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon45} alt="Travel &amp; Hospitality" />
                                 <p>    Startup Solutions </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon46} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon46} alt="Travel &amp; Hospitality" />
                                 <p>   Media & Publishing    </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon47} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon47} alt="Travel &amp; Hospitality" />
                                 <p>   Food & Drink   </p>
                             </Link>
                         </li>

@@ -12,7 +12,7 @@ const Designacross = (props) => {
                 <Container>
                     <Row className={` ${styles.almost} gy-4`}>
                         <Col md={5}>
-                            <Image src={props.imgland} width="717" height="589" alt="bitswits" className="img-fluid"  />
+                            <Image quality={75} src={props.imgland} width="717" height="589" alt="bitswits" className="img-fluid"  />
                         </Col>
                         <Col md={6}>
                             <h4 className='font16 black fontf font-bold'> {props.sub} </h4>

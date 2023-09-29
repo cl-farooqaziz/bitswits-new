@@ -31,7 +31,7 @@ const NewHomeHear = () => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>

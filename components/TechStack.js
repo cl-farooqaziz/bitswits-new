@@ -108,7 +108,7 @@ const TechStack = () => {
                                 <div onClick={framework} className={show ? styles.boxBtn : styles.boxCard} >
                                     <div className={`${styles.techCard} ${styles.card1}`}>
                                         <div className={`${styles.imgBox} ${styles.one}`}>
-                                            <Image src={icon1} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon1} alt='Bitswits' className='img-fluid' />
                                         </div>
                                         <h5 className='font18 black fontf font-medium line30'>Frameworks</h5>
                                     </div>
@@ -117,7 +117,7 @@ const TechStack = () => {
                                 <div onClick={tools} className={show1 ? styles.boxBtn : styles.boxCard} >
                                     <div className={`${styles.techCard} ${styles.card2}`}>
                                         <div className={`${styles.imgBox} ${styles.two}`}>
-                                            <Image src={icon2} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon2} alt='Bitswits' className='img-fluid' />
                                         </div>
                                         <h5 className='font18 black fontf font-medium line30'>Tools</h5>
                                     </div>
@@ -126,7 +126,7 @@ const TechStack = () => {
                                 <div onClick={lang} className={show2 ? styles.boxBtn : styles.boxCard} >
                                     <div className={`${styles.techCard} ${styles.card3}`}>
                                         <div className={`${styles.imgBox} ${styles.three}`}>
-                                            <Image src={icon3} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon3} alt='Bitswits' className='img-fluid' />
                                         </div>
                                         <h5 className='font18 black fontf font-medium line30'>Languages</h5>
                                     </div>
@@ -138,7 +138,7 @@ const TechStack = () => {
                             <div className={styles.mobileDropdown} onClick={toggleDropdown}>
                                 <div className={`${styles.techCard} ${styles.card1}`}>
                                     <div className={`${styles.imgBox} ${styles[selectedImgBox]}`}>
-                                        <Image src={icon1} alt='Bitswits' className='img-fluid' />
+                                        <Image quality={75} src={icon1} alt='Bitswits' className='img-fluid' />
                                     </div>
                                     <h5 className='font18 black fontf font-medium line30'>{selectedOption}</h5>
                                 </div>
@@ -152,7 +152,7 @@ const TechStack = () => {
                                     <div onClick={() => handleOptionSelect('Frameworks', 'one')} className={selectedOption === 'Frameworks' ? styles.boxBtn : styles.boxCard}>
                                         <div className={`${styles.techCard} ${styles.card1}`}>
                                             <div className={`${styles.imgBox} ${styles.one}`}>
-                                                <Image src={icon1} alt='Bitswits' className='img-fluid' />
+                                                <Image quality={75} src={icon1} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <h5 className='font18 black fontf font-medium line30'>Frameworks</h5>
                                         </div>
@@ -161,7 +161,7 @@ const TechStack = () => {
                                     <div onClick={() => handleOptionSelect('Tools', 'two')} className={selectedOption === 'Tools' ? styles.boxBtn : styles.boxCard}>
                                         <div className={`${styles.techCard} ${styles.card2}`}>
                                             <div className={`${styles.imgBox} ${styles.two}`}>
-                                                <Image src={icon2} alt='Bitswits' className='img-fluid' />
+                                                <Image quality={75} src={icon2} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <h5 className='font18 black fontf font-medium line30'>Tools</h5>
                                         </div>
@@ -170,7 +170,7 @@ const TechStack = () => {
                                     <div onClick={() => handleOptionSelect('Languages', 'three')} className={selectedOption === 'Languages' ? styles.boxBtn : styles.boxCard}>
                                         <div className={`${styles.techCard} ${styles.card3}`}>
                                             <div className={`${styles.imgBox} ${styles.three}`}>
-                                                <Image src={icon3} alt='Bitswits' className='img-fluid' />
+                                                <Image quality={75} src={icon3} alt='Bitswits' className='img-fluid' />
                                             </div>
                                             <h5 className='font18 black fontf font-medium line30'>Languages</h5>
                                         </div>
@@ -202,28 +202,28 @@ const TechStack = () => {
                                         <Col lg={6}>
                                             <ul className={styles.tabCntntImg}>
                                                 <li>
-                                                    <Image src={fram1} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram1} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram2} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram2} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram3} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram3} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram4} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram4} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram5} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram5} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram6} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram6} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram7} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram7} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram8} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram8} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                             </ul>
                                         </Col>
@@ -249,25 +249,25 @@ const TechStack = () => {
                                         <Col lg={6}>
                                             <ul className={styles.tabCntntImg}>
                                                 <li>
-                                                    <Image src={tool1} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool1} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool2} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool2} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool3} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool3} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool4} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool4} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool5} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool5} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool6} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool6} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool7} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool7} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                             </ul>
                                         </Col>
@@ -293,25 +293,25 @@ const TechStack = () => {
                                         <Col lg={6}>
                                             <ul className={styles.tabCntntImg}>
                                                 <li>
-                                                    <Image src={lang1} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang1} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang2} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang2} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang3} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang3} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang4} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang4} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang5} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang5} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang6} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang6} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang7} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang7} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                             </ul>
                                         </Col>
@@ -340,28 +340,28 @@ const TechStack = () => {
                                         <Col lg={6}>
                                             <ul className={styles.tabCntntImg}>
                                                 <li>
-                                                    <Image src={fram1} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram1} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram2} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram2} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram3} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram3} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram4} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram4} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram5} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram5} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram6} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram6} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram7} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram7} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={fram8} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={fram8} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                             </ul>
                                         </Col>
@@ -383,25 +383,25 @@ const TechStack = () => {
                                         <Col lg={6}>
                                             <ul className={styles.tabCntntImg}>
                                                 <li>
-                                                    <Image src={tool1} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool1} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool2} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool2} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool3} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool3} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool4} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool4} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool5} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool5} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool6} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool6} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={tool7} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={tool7} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                             </ul>
                                         </Col>
@@ -423,25 +423,25 @@ const TechStack = () => {
                                         <Col lg={6}>
                                             <ul className={styles.tabCntntImg}>
                                                 <li>
-                                                    <Image src={lang1} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang1} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang2} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang2} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang3} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang3} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang4} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang4} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang5} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang5} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang6} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang6} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                                 <li>
-                                                    <Image src={lang7} alt='Bitswits' className='img-fluid' />
+                                                    <Image quality={75} src={lang7} alt='Bitswits' className='img-fluid' />
                                                 </li>
                                             </ul>
                                         </Col>

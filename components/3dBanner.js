@@ -74,7 +74,7 @@ const New3dBanner = () => {
                             </div>
 
                             <div className={styles.secImage}>
-                                <Image src={BannerImage} className={`${styles.bannerImage} img-fluid`} />
+                                <Image quality={75} src={BannerImage} className={`${styles.bannerImage} img-fluid`} />
                             </div>
 
                         </Col>

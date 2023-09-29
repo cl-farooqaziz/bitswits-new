@@ -57,23 +57,23 @@ export default function hiresalesforcedeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Salesforce Consultancy and Integrations.
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Automate Your Sales Processes To Grow Customer Base.
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 One-stop Destination for All Salesforce Solutions.
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Registered Salesforce Partner.
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 End-to-End Implementation & Integration.
             </li>
             
@@ -99,7 +99,7 @@ export default function hiresalesforcedeveloper() {
         <Row className={`${reStyles.soluRow} mt-5`}>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon33} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                     Sales
                     </h5>
@@ -110,7 +110,7 @@ export default function hiresalesforcedeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon34} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                     Service
                     </h5>
@@ -121,7 +121,7 @@ export default function hiresalesforcedeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon35} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                     Marketing
                     </h5>
@@ -132,7 +132,7 @@ export default function hiresalesforcedeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon36} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon36} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                     Community
                     </h5>
@@ -143,7 +143,7 @@ export default function hiresalesforcedeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon37} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon37} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                     Analytics
                     </h5>
@@ -154,7 +154,7 @@ export default function hiresalesforcedeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon38} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon38} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                     Apps
                     </h5>
@@ -179,19 +179,19 @@ export default function hiresalesforcedeveloper() {
            <Row className={`${expertStyle.expertRow} justify-content-evenly`}>
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b1} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b1} alt='BitsWits' className='img-fluid' />
                        <h4>DOCUMENT MANAGEMENT</h4>
                    </div>
                </Col>
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b2} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b2} alt='BitsWits' className='img-fluid' />
                        <h4>SOCIAL MEDIA</h4>
                    </div>
                </Col>
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b3} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b3} alt='BitsWits' className='img-fluid' />
                        <h4>ECOMMERCE</h4>
                    </div>
                </Col>
@@ -199,33 +199,33 @@ export default function hiresalesforcedeveloper() {
         
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b4} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b4} alt='BitsWits' className='img-fluid' />
                        <h4>ACCOUNTING</h4>
                    </div>
                </Col>
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b5} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b5} alt='BitsWits' className='img-fluid' />
                        <h4>PAYMENT
 GATEWAYS</h4>
                    </div>
                </Col>
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b6} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                        <h4>MICROSOFT
 PRODUCTS</h4>
                    </div>
                </Col>
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b5} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b5} alt='BitsWits' className='img-fluid' />
                        <h4>SERVICES</h4>
                    </div>
                </Col>
                <Col lg={3}>
                    <div className={expertStyle.exebox}>
-                       <Image src={b6} alt='BitsWits' className='img-fluid' />
+                       <Image quality={75} src={b6} alt='BitsWits' className='img-fluid' />
                        <h4>MUCH MORE</h4>
                    </div>
                </Col>

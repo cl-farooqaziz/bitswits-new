@@ -68,27 +68,27 @@ export default function craftDevelopment() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Craft Website Development
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Craft Ecommerce Development
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Craft CMS Customization
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Craft CMS Plugin Development
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Craft CMS Migration
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Craft Maintenance
             </li>
         </ul>
@@ -108,7 +108,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Craft Website
@@ -124,7 +124,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Craft eCommerce
@@ -140,7 +140,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Craft CMS
@@ -156,7 +156,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Craft CMS
@@ -172,7 +172,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Craft CMS
@@ -188,7 +188,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Craft Support
@@ -219,61 +219,61 @@ export default function craftDevelopment() {
                     <ul>
                         <li>
                             <Link href="#">
-                                <Image src={icon35} alt="Real Estate" />
+                                <Image quality={75} src={icon35} alt="Real Estate" />
                                 <p>Real Estate </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon36} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon36} alt="Travel &amp; Hospitality" />
                                 <p> Travel &amp; Hospitality </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon37} alt="B2B Solutions" />
+                                <Image quality={75} src={icon37} alt="B2B Solutions" />
                                 <p>  B2B Solutions  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon38} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon38} alt="Travel &amp; Hospitality" />
                                 <p>  Healthcare  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon39} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon39} alt="Travel &amp; Hospitality" />
                                 <p>   Education & E-Learning   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon40} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon40} alt="Travel &amp; Hospitality" />
                                 <p>   Banking & Finance  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon41} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon41} alt="Travel &amp; Hospitality" />
                                 <p>   Startup Solutions   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon42} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon42} alt="Travel &amp; Hospitality" />
                                 <p>    Startup Solutions </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon43} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon43} alt="Travel &amp; Hospitality" />
                                 <p>   Media & Publishing    </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon44} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon44} alt="Travel &amp; Hospitality" />
                                 <p>   Food & Drink   </p>
                             </Link>
                         </li>
@@ -296,7 +296,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Easy Customisation
@@ -311,7 +311,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Live Preview
@@ -326,7 +326,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Compatibility
@@ -341,7 +341,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon4} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Lightweight
@@ -356,7 +356,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon5} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Enhanced Security
@@ -371,7 +371,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon6} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Easy-to-Update
@@ -386,7 +386,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon7} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             Lifetime Licence
@@ -401,7 +401,7 @@ export default function craftDevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon8} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-bold mt-3'>
                             SEO-Friendly

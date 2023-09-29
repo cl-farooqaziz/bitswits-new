@@ -101,7 +101,7 @@ const NewHomeMaintain = () => {
                             <div className={styles.app}>
                                 <h3 className='text-white f-20 font-bold text-center'>IOS Application Development</h3>
                                 <p className={styles.para}>The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.</p>
-                                {/* <Image src={CardOne} className='img-fluid d-block m-auto mt-5 w-75' /> */}
+                                {/* <Image quality={75} src={CardOne} className='img-fluid d-block m-auto mt-5 w-75' /> */}
                                 <div id="lottie-container"></div>
                             </div>
                         </Col>
@@ -109,7 +109,7 @@ const NewHomeMaintain = () => {
                             <div className={styles.app1}>
                                 <h3 className='text-white f-20 font-bold text-center'>Android Application Development</h3>
                                 <p className={styles.para}>Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.</p>
-                                {/* <Image src={lap} className='img-fluid d-block m-auto mt-5' /> */}
+                                {/* <Image quality={75} src={lap} className='img-fluid d-block m-auto mt-5' /> */}
                                 <div id="lottie"></div>
                             </div>
                         </Col>
@@ -117,7 +117,7 @@ const NewHomeMaintain = () => {
                             <div className={styles.app2}>
                                 <h3 className='text-black f-20 font-bold text-center'>Web App Development</h3>
                                 <p className={styles.para}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
-                                {/* <Image src={cool} className='img-fluid d-block m-auto mt-5' /> */}
+                                {/* <Image quality={75} src={cool} className='img-fluid d-block m-auto mt-5' /> */}
                                 <div id="blockchain"></div>
                             </div>
                         </Col>
@@ -134,7 +134,7 @@ const NewHomeMaintain = () => {
                                         </div>
                                     </Col>
                                     <Col xl={4}>
-                                        {/* <Image src={lum} className='img-fluid' /> */}
+                                        {/* <Image quality={75} src={lum} className='img-fluid' /> */}
                                         <div id='artifical' ></div>
                                     </Col>
                                 </Row>

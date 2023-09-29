@@ -102,13 +102,13 @@ export default function hireiosgamedeveloper() {
         
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>  Experienced Developers </li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Updated Stack of Technology</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Understandign of the Native Environment</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>   NDA Protection</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>  Transparent Protection Management</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Experience with Multiple Genre</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image> Complete Technical Support</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Experienced Developers </li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Updated Stack of Technology</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Complete Understandign of the Native Environment</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>   NDA Protection</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>  Transparent Protection Management</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Experience with Multiple Genre</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> Complete Technical Support</li>
         </ul>
     </>
 
@@ -202,7 +202,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We can develop CRM solutions using these technologies - Microsoft Dynamics CRM/ 365, Salesforce, Sugar CRM.
@@ -212,7 +212,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Our experts have the experience in using great technologies like MS Dynamics CRM and Salesforce solutions for domains ranging from Medical legal firms, Telecommunication industries, Travel.
@@ -223,7 +223,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’re great at Custom CRM Development
@@ -233,7 +233,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ve served our clients on a vast industrial spectrum ranging from enterprises to medium and small scale organisations.
@@ -244,7 +244,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for complete document management.
@@ -254,7 +254,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We have the knowledge of carrying out all integrations with Microsoft SharePoint.
@@ -265,7 +265,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         Want updates and migration services? We can do it for you.
@@ -275,7 +275,7 @@ export default function hireiosgamedeveloper() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.soluCardBR} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <p>
                         We’ll be responsible for Upgrade and Migration
@@ -546,14 +546,14 @@ export default function hireiosgamedeveloper() {
             <Row >
                 <Col xl={4} className='borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones1} className='img-fluid mb-4 greyscale' />
                         <h3 className='font20 font-semi-bold black mb-2'>Casual iOS Games</h3>
                         <p className=''>We understand the interface of iOS devices and know how to make even the most casual of all the games look highly engaging.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones2} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Educational Games</h3>
                         <p className=''>Our team will work in complete collaboration with you to build absolutely educative and bespoke educational iOS gaming apps with the perfect learning experience.</p>
                     </div>
@@ -561,28 +561,28 @@ export default function hireiosgamedeveloper() {
                 </Col>
                 <Col xl={4} className='mongo borderbottom'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Game Marketing</h3>
                         <p className=''>We know a game is only good if it is engaging the gamers, and to reach the right gamers we will also devise a matching marketing strategy for you.</p>
                     </div>
                 </Col>
                 <Col xl={4} className=''>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Game App Submission</h3>
                         <p className=''>Game deployment and App Store submission can be tricky if not built with proper preparation, this is why our process is kept error-free from the beginning.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>Gaming QA</h3>
                         <p className=''>We ensure that the game that gets delivered from our end is without any flaws and has the best quality in terms of graphics and functionality.</p>
                     </div>
                 </Col>
                 <Col xl={4} className='mongo'>
                     <div className=' pt-5 pb-5'>
-                        <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                         <h3  className='font20 font-semi-bold black mb-2'>AR Games</h3>
                         <p className=''>We have a brilliant team of AR development experts who have already developed a handful of highly engaging games, giving them the necessary experience to develop yours swiftly.</p>
                     </div>

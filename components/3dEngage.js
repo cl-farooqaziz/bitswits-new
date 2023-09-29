@@ -31,7 +31,7 @@ const Engage3d = () => {
 
                             <div className={styles.longline}>
                                 <div className={styles.expertise}>
-                                    <Image src={gameicon1} className='img-fluid' />
+                                    <Image quality={75} src={gameicon1} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
                                     <h3>Customized Solutions</h3>
@@ -41,7 +41,7 @@ const Engage3d = () => {
                             </div>
                             <div className={styles.longline2}>
                                 <div className={styles.expertise}>
-                                    <Image src={gameicon3} className='img-fluid' />
+                                    <Image quality={75} src={gameicon3} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
                                     <h3>Experienced Professionals</h3>
@@ -54,7 +54,7 @@ const Engage3d = () => {
                         <Col xl={4}>
 
                             <div className={styles.offers}>
-                                <Image src={main} className='img-fluid' />
+                                <Image quality={75} src={main} className='img-fluid' />
                             </div>
 
                         </Col>
@@ -62,7 +62,7 @@ const Engage3d = () => {
 
                             <div className={`${styles.longline3}`}>
                                 <div className={styles.expertise1}>
-                                    <Image src={gameicon2} className='img-fluid' />
+                                    <Image quality={75} src={gameicon2} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
                                     <h3>Innovative Solutions</h3>
@@ -73,7 +73,7 @@ const Engage3d = () => {
 
                             <div className={`${styles.longline1}`}>
                                 <div className={styles.expertise1}>
-                                    <Image src={gameicon4} className='img-fluid' />
+                                    <Image quality={75} src={gameicon4} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
                                     <h3>Exclusive Client Services</h3>

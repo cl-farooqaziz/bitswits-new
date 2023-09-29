@@ -18,7 +18,7 @@ const Altruist = () => {
                     <Row>
                         <Col lg={6}>
                             <div className={styles.indusImgbox}>
-                                <Image src={foldImg} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={foldImg} alt='Bitswits' className='img-fluid' />
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -32,7 +32,7 @@ const Altruist = () => {
                                 <Accordion defaultActiveKey="0">
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>
-                                            <Image src={supply} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={supply} alt='Bitswits' className='img-fluid' />
                                             <span>SupplyChain</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -42,7 +42,7 @@ const Altruist = () => {
 
                                     <Accordion.Item eventKey="1">
                                         <Accordion.Header>
-                                            <Image src={demand} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={demand} alt='Bitswits' className='img-fluid' />
                                             <span>On-Demand</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -52,7 +52,7 @@ const Altruist = () => {
 
                                     <Accordion.Item eventKey="2">
                                         <Accordion.Header>
-                                            <Image src={conglomerate} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={conglomerate} alt='Bitswits' className='img-fluid' />
                                             <span>Conglomerate</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -62,7 +62,7 @@ const Altruist = () => {
 
                                     <Accordion.Item eventKey="3">
                                         <Accordion.Header>
-                                            <Image src={industries} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={industries} alt='Bitswits' className='img-fluid' />
                                             <span>Other-Industries</span>
                                         </Accordion.Header>
                                         <Accordion.Body>

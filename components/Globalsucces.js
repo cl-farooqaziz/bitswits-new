@@ -58,22 +58,22 @@ const Globalsucces = () => {
 
                     <Row>
                         <div className={styles.atten}>
-                            <Image src={icon1} className='img-fluid' />
-                            <Image src={icon2} className='img-fluid' />
-                            <Image src={icon3} className='img-fluid' />
-                            <Image src={icon4} className='img-fluid' />
-                            <Image src={icon5} className='img-fluid' />
-                            <Image src={icon6} className='img-fluid' />
+                            <Image quality={75} src={icon1} className='img-fluid' />
+                            <Image quality={75} src={icon2} className='img-fluid' />
+                            <Image quality={75} src={icon3} className='img-fluid' />
+                            <Image quality={75} src={icon4} className='img-fluid' />
+                            <Image quality={75} src={icon5} className='img-fluid' />
+                            <Image quality={75} src={icon6} className='img-fluid' />
 
                         </div>
 
                         <div className={styles.atten}>
-                            <Image src={icon7} className='img-fluid' />
-                            <Image src={icon8} className='img-fluid' />
-                            <Image src={icon9} className='img-fluid' />
-                            <Image src={icon10} className='img-fluid' />
-                            <Image src={icon11} className='img-fluid' />
-                            <Image src={icon12} className='img-fluid' />
+                            <Image quality={75} src={icon7} className='img-fluid' />
+                            <Image quality={75} src={icon8} className='img-fluid' />
+                            <Image quality={75} src={icon9} className='img-fluid' />
+                            <Image quality={75} src={icon10} className='img-fluid' />
+                            <Image quality={75} src={icon11} className='img-fluid' />
+                            <Image quality={75} src={icon12} className='img-fluid' />
 
                         </div>
                     </Row>
@@ -81,18 +81,18 @@ const Globalsucces = () => {
                     <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
 
                    
-                            <Image src={icon1} className='img-fluid' />
-                            <Image src={icon2} className='img-fluid' />
-                            <Image src={icon3} className='img-fluid' />
-                            <Image src={icon4} className='img-fluid' />
-                            <Image src={icon5} className='img-fluid' />
-                            <Image src={icon6} className='img-fluid' />
-                            <Image src={icon7} className='img-fluid' />
-                            <Image src={icon8} className='img-fluid' />
-                            <Image src={icon9} className='img-fluid' />
-                            <Image src={icon10} className='img-fluid' />
-                            <Image src={icon11} className='img-fluid' />
-                            <Image src={icon12} className='img-fluid' />
+                            <Image quality={75} src={icon1} className='img-fluid' />
+                            <Image quality={75} src={icon2} className='img-fluid' />
+                            <Image quality={75} src={icon3} className='img-fluid' />
+                            <Image quality={75} src={icon4} className='img-fluid' />
+                            <Image quality={75} src={icon5} className='img-fluid' />
+                            <Image quality={75} src={icon6} className='img-fluid' />
+                            <Image quality={75} src={icon7} className='img-fluid' />
+                            <Image quality={75} src={icon8} className='img-fluid' />
+                            <Image quality={75} src={icon9} className='img-fluid' />
+                            <Image quality={75} src={icon10} className='img-fluid' />
+                            <Image quality={75} src={icon11} className='img-fluid' />
+                            <Image quality={75} src={icon12} className='img-fluid' />
 
                        
 

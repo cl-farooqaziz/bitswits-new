@@ -66,12 +66,12 @@ export default function wordpressdevelopment() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Theme Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Website Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Extension Development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Multivendor solutions</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Version Upgrades Services</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Migration Services</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Theme Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Website Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Extension Development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Multivendor solutions</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Version Upgrades Services</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Migration Services</li>
         </ul>
     </>
 
@@ -90,7 +90,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -105,7 +105,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -120,7 +120,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -135,7 +135,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon19} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon19} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -151,7 +151,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon20} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon20} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -166,7 +166,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg} ${crmstyles.soluCardBR}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon21} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon21} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -182,7 +182,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -197,7 +197,7 @@ export default function wordpressdevelopment() {
             <Col lg={6} className={crmstyles.soluCol}>
                 <div className={`${crmstyles.soluCard} ${crmstyles.sizImg} ${crmstyles.soluCardBR} ${crmstyles.soluCardBB}`}>
                     <div className={`${crmstyles.imgBox}`}>
-                        <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div>
                         <h5 className='font20 fontf font-bold line30'>
@@ -225,13 +225,13 @@ export default function wordpressdevelopment() {
             <Row className={`${expertStyle.expertRow} justify-content-center`}>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b1} alt='BitsWits' className='img-fluid' />
                         <h4>User-Friendly Interface</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b2} alt='BitsWits' className='img-fluid' />
                         <h4>Enhanced Security</h4>
                     </div>
                 </Col>
@@ -239,13 +239,13 @@ export default function wordpressdevelopment() {
             <Row className={`${expertStyle.expertRow} mt-4 justify-content-center`}>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b3} alt='BitsWits' className='img-fluid' />
                         <h4>Seo-Friendly</h4>
                     </div>
                 </Col>
                 <Col lg={3}>
                     <div className={expertStyle.exebox}>
-                        <Image src={b4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={b4} alt='BitsWits' className='img-fluid' />
                         <h4>Scalability</h4>
                     </div>
                 </Col>

@@ -84,7 +84,7 @@ const Aibuild = (props) => {
                                     <div className={`${style.gaps} d-flex justify-content-center align-items-center pt-5 pb-5 px-4`}>
 
                                         <div className={`text-center ${style.cardContent}`}>
-                                            <Image src={AiIcon1} className='mx-auto' />
+                                            <Image quality={75} src={AiIcon1} className='mx-auto' />
                                             <h4 className={`fw700 text-white f15 mb-3 mt-3 ${style.line20}`}> Improve customer<br></br> experience with a custom<br></br> chatbot</h4>
                                         </div>
                                     </div>
@@ -94,7 +94,7 @@ const Aibuild = (props) => {
                                 <div className={`${style.feature} gap2`}>
                                     <div className={`${style.gaps} d-flex justify-content-center pt-5 pb-5 px-4`}>
                                         <div className={`text-center ${style.cardContent}`}>
-                                            <Image src={AiIcon2} className='mx-auto' />
+                                            <Image quality={75} src={AiIcon2} className='mx-auto' />
                                             <h4 className={`fw700 text-white f15 mb-3 mt-3 ${style.line20}`}>  Reduce operational costs <br></br>on sales and support<br></br> resources</h4>
                                         </div>
                                     </div>
@@ -106,7 +106,7 @@ const Aibuild = (props) => {
                                 <div className={`${style.feature} gap2`}>
                                     <div className={`${style.gaps} d-flex justify-content-center pt-5 pb-5 px-4`}>
                                         <div className={`text-center ${style.cardContent}`}>
-                                            <Image src={AiIcon3} className='mx-auto' />
+                                            <Image quality={75} src={AiIcon3} className='mx-auto' />
                                             <h4 className={`fw700 text-white f15 mb-3 mt-3 ${style.line20}`}> Make your business smarter<br></br> with AI-powered chatbots<br></br> that understand the tone and<br></br> intent of the queries.</h4>
 
                                         </div>
@@ -127,7 +127,7 @@ const Aibuild = (props) => {
                                         <div className={`${style.gaps} d-flex justify-content-center align-items-center pt-5 pb-5 px-4`}>
 
                                             <div className={`text-center ${style.cardContent}`}>
-                                                <Image src={AiIcon1} className='mx-auto' />
+                                                <Image quality={75} src={AiIcon1} className='mx-auto' />
                                                 <h4 className={`fw700 text-white f15 mb-3 mt-3 ${style.line20}`}> Improve customer experience<br></br> with a custom chatbot</h4>
                                             </div>
                                         </div>
@@ -137,7 +137,7 @@ const Aibuild = (props) => {
                                     <div className={`${style.feature} gap2`}>
                                         <div className={`${style.gaps} d-flex justify-content-center pt-5 pb-5 px-4`}>
                                             <div className={`text-center ${style.cardContent}`}>
-                                                <Image src={AiIcon2} className='mx-auto' />
+                                                <Image quality={75} src={AiIcon2} className='mx-auto' />
                                                 <h4 className={`fw700 text-white f15 mb-3 mt-3 ${style.line20}`}>  Reduce operational costs on <br></br>sales and support resources</h4>
 
 
@@ -151,7 +151,7 @@ const Aibuild = (props) => {
                                     <div className={`${style.feature} gap2`}>
                                         <div className={`${style.gaps} d-flex justify-content-center pt-5 pb-5 px-4`}>
                                             <div className={`text-center ${style.cardContent}`}>
-                                                <Image src={AiIcon3} className='mx-auto' />
+                                                <Image quality={75} src={AiIcon3} className='mx-auto' />
                                                 <h4 className={`fw700 text-white f15 mb-3 mt-3 ${style.line20}`}> Make your business smarter with<br></br> AI-powered chatbots that <br></br> understand the tone<br></br> and intent of the queries.</h4>
 
                                             </div>

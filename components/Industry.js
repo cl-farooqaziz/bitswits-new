@@ -25,7 +25,7 @@ const Industry = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.indusImgbox}>
-                                <Image src={foldImg} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={foldImg} alt='Bitswits' className='img-fluid' />
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -39,7 +39,7 @@ const Industry = () => {
                                 <Accordion defaultActiveKey="0">
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>
-                                            <Image src={game} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={game} alt='Bitswits' className='img-fluid' />
                                             <span>Gaming</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -49,7 +49,7 @@ const Industry = () => {
 
                                     <Accordion.Item eventKey="1">
                                         <Accordion.Header>
-                                            <Image src={fantsy} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={fantsy} alt='Bitswits' className='img-fluid' />
                                             <span>Fantasy</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -59,7 +59,7 @@ const Industry = () => {
 
                                     <Accordion.Item eventKey="2">
                                         <Accordion.Header>
-                                            <Image src={edTech} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={edTech} alt='Bitswits' className='img-fluid' />
                                             <span>Ed-Tech</span>
                                         </Accordion.Header>
                                         <Accordion.Body>
@@ -69,7 +69,7 @@ const Industry = () => {
 
                                     <Accordion.Item eventKey="3">
                                         <Accordion.Header>
-                                            <Image src={finTech} alt='Bitswits' className='img-fluid' />
+                                            <Image quality={75} src={finTech} alt='Bitswits' className='img-fluid' />
                                             <span>FinTech</span>
                                         </Accordion.Header>
                                         <Accordion.Body>

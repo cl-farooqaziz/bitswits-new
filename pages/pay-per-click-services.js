@@ -91,13 +91,13 @@ export default function payperclickservices() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Drive Website Traffic </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Quick, Attainable Results </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Intuitive Metrics </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Measurable Results </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Enhances Other Marketing Efforts </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>High-Level Brand Exposure </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Increased Search Engine Visibility </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Drive Website Traffic </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Quick, Attainable Results </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Intuitive Metrics </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Measurable Results </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Enhances Other Marketing Efforts </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>High-Level Brand Exposure </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Increased Search Engine Visibility </li>
         </ul>
     </>
 
@@ -194,7 +194,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         CRO-Conversion
@@ -207,7 +207,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Google Paid Search
@@ -219,7 +219,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Bing Paid Search
@@ -230,7 +230,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Google Remarketing
@@ -242,7 +242,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Google Display
@@ -256,7 +256,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Google Shopping
@@ -268,7 +268,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Google Dynamic
@@ -280,7 +280,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Google Video
@@ -293,7 +293,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Google Search
@@ -307,7 +307,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Amazon/Ebay 3rd
@@ -320,7 +320,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Gmail Ads
@@ -331,7 +331,7 @@ export default function payperclickservices() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Analytics And
@@ -464,16 +464,16 @@ export default function payperclickservices() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Identify your market, customers and competitors.
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Determine the message and calls-to-action you’re trying to convey. Consider how you will convince customers to choose you over your competitors.
 
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Determine your campaign goals and KPIs. More importantly, ensure they align!
                                 </li>
 
@@ -493,19 +493,19 @@ export default function payperclickservices() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Conduct basic keyword research
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Confirm all display URLs and destination URLs
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Generate list of negative keywords to deter the wrong type of visitors.
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Determine and set your daily monthly budget.
                                 </li>
                             </ul>
@@ -524,15 +524,15 @@ export default function payperclickservices() {
                         <Col>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Create a landing page customized to your campaign message, goal and KPIs.
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Ensure consistent messaging between keywords and your landing page to generate a higher Quality Score.
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Ensure your landing page is responsive if you plan on targeting mobile users
                                 </li>
 
@@ -552,15 +552,15 @@ export default function payperclickservices() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Conversion tracking MUST be implemented.
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Identify extra URL parameters you might need to add for tracking purposes.
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     If you’re incorporating remarketing, be sure to implement the remarketing code in AdWords.
                                 </li>
 
@@ -731,7 +731,7 @@ export default function payperclickservices() {
             />
 
 <div className='center spacingtb'>
-                <Image src={ppcimg} className='img-fluid' alt='bitswits' />
+                <Image quality={75} src={ppcimg} className='img-fluid' alt='bitswits' />
             </div>
 
 

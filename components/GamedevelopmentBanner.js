@@ -77,7 +77,7 @@ const GamedevelopmentBanner = () => {
                             </div>
 
                             <div className={styles.secImage}>
-                                <Image src={BannerImage} className={`img-fluid`} />
+                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
                             </div>
                         </Col>
                     </Row>

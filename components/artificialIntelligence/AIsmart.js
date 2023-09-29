@@ -80,7 +80,7 @@ const Expertise = (props) => {
                         </Col>
                         <Col lg={5} className=''>
                             <div>
-                                <Image src={smartai} alt="Blockchain" className={`${style.img11} img-fluid d-md-block d-none`} />
+                                <Image quality={75} src={smartai} alt="Blockchain" className={`${style.img11} img-fluid d-md-block d-none`} />
                             </div>
                         </Col>
                     </Row>

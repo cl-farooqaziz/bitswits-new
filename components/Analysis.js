@@ -61,7 +61,7 @@ const Analysis = () => {
                                 </ul>
                             </Col>
                             <Col md={5}>
-                                <Image src={publication1} width="717" height="589" alt="bitswits" className="img-fluid" />
+                                <Image quality={75} src={publication1} width="717" height="589" alt="bitswits" className="img-fluid" />
                             </Col>
                         </Row>
                     }
@@ -84,7 +84,7 @@ const Analysis = () => {
                                 </ul>
                             </Col>
                             <Col md={5}>
-                                <Image src={publication2} width="717" height="589" alt="bitswits" className="img-fluid" />
+                                <Image quality={75} src={publication2} width="717" height="589" alt="bitswits" className="img-fluid" />
                             </Col>
                         </Row>
                     }
@@ -104,7 +104,7 @@ const Analysis = () => {
                                 </ul>
                             </Col>
                             <Col md={5}>
-                                <Image src={publication3} width="717" height="589" alt="bitswits" className="img-fluid" />
+                                <Image quality={75} src={publication3} width="717" height="589" alt="bitswits" className="img-fluid" />
                             </Col>
                         </Row>
                     }
@@ -125,7 +125,7 @@ const Analysis = () => {
                                 </ul>
                             </Col>
                             <Col md={5}>
-                                <Image src={publication4} width="717" height="589" alt="bitswits" className="img-fluid" />
+                                <Image quality={75} src={publication4} width="717" height="589" alt="bitswits" className="img-fluid" />
                             </Col>
                         </Row>
                     }

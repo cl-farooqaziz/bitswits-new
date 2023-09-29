@@ -60,27 +60,27 @@ export default function hubspot() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 One Stop Solution to all your HubSpot Solutions
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 HubSpot Consultancy and Integrations
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Team of Dedicated & HubSpot Certified Developers
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 End-to-End HubSpot Implementation
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 24 x 7 support
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Offices in Brighton, London 
             </li>
         </ul>
@@ -103,7 +103,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         HubSpot Plugin Development
@@ -113,7 +113,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         HubSpot Migration
@@ -123,7 +123,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         HubSpot Training
@@ -133,7 +133,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         HubSpot Implementation
@@ -143,7 +143,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Landing Pages
@@ -153,7 +153,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Marketing Analytics
@@ -163,7 +163,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Social Media
@@ -173,7 +173,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         HubSpot Integration
@@ -183,7 +183,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Email Marketing
@@ -193,7 +193,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Content Management
@@ -204,7 +204,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         HubSpot Website Design
@@ -214,7 +214,7 @@ export default function hubspot() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Marketing Automation
@@ -340,7 +340,7 @@ const WhyBuilds1 = <>
             <div className={`${whyStyles.soluCard}`}>
                 <div>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon1} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font18 fontf font-regular mt-3'>
                     Truly Agile Process
@@ -355,7 +355,7 @@ const WhyBuilds1 = <>
             <div className={`${whyStyles.soluCard}`}>
                 <div>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon2} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font18 fontf font-regular mt-3'>
                     Wide Range of Experts
@@ -370,7 +370,7 @@ const WhyBuilds1 = <>
             <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                 <div>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon3} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font18 fontf font-regular mt-3'>
                     Hyper growth Approach
@@ -385,7 +385,7 @@ const WhyBuilds1 = <>
             <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                 <div>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon4} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font18 fontf font-regular mt-3'>
                     Holistic Business Support
@@ -400,7 +400,7 @@ const WhyBuilds1 = <>
             <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                 <div>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon5} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font18 fontf font-regular mt-3'>
                     We Grew Incredibly Fast
@@ -415,7 +415,7 @@ const WhyBuilds1 = <>
             <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
                 <div>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon6} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font18 fontf font-regular mt-3'>
                     We believe in making a difference

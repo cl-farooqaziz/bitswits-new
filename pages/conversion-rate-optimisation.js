@@ -43,12 +43,12 @@ export default function conversionrateoptimisation() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Higher Conversion Rate = Better Roi </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>More Cost Effective Than Finding More Visitors </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Defends Against Limited Patience Of Visitors </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Make Your Web Pages More Relevant To Visitors </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Increase Customer Trust By Using On-Page Elements </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Improve Calls-To-Actions - Turning Customers Into Leads </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Higher Conversion Rate = Better Roi </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>More Cost Effective Than Finding More Visitors </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Defends Against Limited Patience Of Visitors </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Make Your Web Pages More Relevant To Visitors </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Increase Customer Trust By Using On-Page Elements </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Improve Calls-To-Actions - Turning Customers Into Leads </li>
         </ul>
     </>
 
@@ -248,38 +248,38 @@ export default function conversionrateoptimisation() {
                 <Row className='gy-5'>
                     <Col xl={4}>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones1} className='img-fluid mb-4 greyscale' />
                             <p className='center'>We are a leading agency for Conversion Rate Optimisation (CRO)—a term that we coined in 2007.</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones2} className='img-fluid mb-4 greyscale' />
                             <p className='center'>We get great results, which is why we are greatly regarded by many of the web’s most sophisticated companies.</p>
                         </div>
 
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                             <p className='center'>We have a process of action and we vouch for the work we do.</p>
                         </div>
                     </Col>
                     <Col xl={4}>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones4} className='img-fluid mb-4 greyscale' />
                             <p className='center'>We build amazingly effective web pages, and then we stick our necks on the line by insisting that we carry out scientific A/B tests.</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones5} className='img-fluid mb-4 greyscale' />
                             <p className='center'>Our conversion rate optimisation experts have a minimum of 14 years of avid work experience.</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones6} className='img-fluid mb-4 greyscale' />
                             <p className='center'>We do not treat all our clients equal – we provide tailor-made solutions for specific business needs.</p>
                         </div>
                     </Col>

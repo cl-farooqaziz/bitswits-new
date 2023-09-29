@@ -88,7 +88,7 @@ const Revolution = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={blockchain} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={blockchain} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -99,7 +99,7 @@ const Revolution = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={technology} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={technology} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -110,7 +110,7 @@ const Revolution = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={appdev} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={appdev} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -121,7 +121,7 @@ const Revolution = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={bitcoin} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={bitcoin} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -132,7 +132,7 @@ const Revolution = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={nft} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={nft} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -143,7 +143,7 @@ const Revolution = (props) => {
                                 <div className={`${style.feature}`}>
                                     <div className='d-flex justify-content-center align-items-center'>
                                         <span className={`${style.numbers}`}>
-                                            <Image src={supplychain} className='img-fluid' alt="Blockchain" />
+                                            <Image quality={75} src={supplychain} className='img-fluid' alt="Blockchain" />
                                         </span>
                                     </div>
 
@@ -160,7 +160,7 @@ const Revolution = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={blockchain} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={blockchain} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -172,7 +172,7 @@ const Revolution = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={technology} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={technology} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -184,7 +184,7 @@ const Revolution = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={appdev} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={appdev} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -195,7 +195,7 @@ const Revolution = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={bitcoin} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={bitcoin} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -207,7 +207,7 @@ const Revolution = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={nft} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={nft} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 
@@ -219,7 +219,7 @@ const Revolution = (props) => {
                                     <div className={`${style.feature}`}>
                                         <div className='d-flex justify-content-center align-items-center'>
                                             <span className={`${style.numbers}`}>
-                                                <Image src={supplychain} className='img-fluid' alt="Blockchain" />
+                                                <Image quality={75} src={supplychain} className='img-fluid' alt="Blockchain" />
                                             </span>
                                         </div>
 

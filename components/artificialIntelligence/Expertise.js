@@ -89,57 +89,57 @@ const Expertise = (props) => {
                                
                                 <Col lg={4} className='mb-5 position-relative'>
                                     <div className={style.feature}>
-                                        <Image src={Ethereum} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Ethereum} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>Machine <br/> Learning</h4>
                                     <div className={style.borderX}></div>
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={Polygon} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Polygon} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>Predictive <br/> Analysis</h4>
                                 
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={Binance} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Binance} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>Custom AI <br/>     Solutions</h4>
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={Hyperledger} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Hyperledger} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>AI Classification Tool</h4>
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={Corda} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Corda} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>AI Conversation Tools</h4>
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={Substrate} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Substrate} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>Sales <br/> Intelligence</h4>
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={Avalanche} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Avalanche} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>Multimedia Analytics</h4>
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={Polkadot} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={Polkadot} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>Deep <br/> Learning</h4>
                                 </Col>
                                 <Col lg={4} className='mb-5'>
                                     <div className={style.feature}>
-                                        <Image src={NearProtocol} alt="Blockchain" width={57} className='img-fluid'/>
+                                        <Image quality={75} src={NearProtocol} alt="Blockchain" width={57} className='img-fluid'/>
                                     </div>
                                     <h4 className='f20 fw700 text-white'>Robotic Process Automation</h4>
                                 </Col>
@@ -152,57 +152,57 @@ const Expertise = (props) => {
                             <Slider {...settings} className='d-flex justify-content-center align-items-center text-center'>
                             <Col lg={4} className='mb-5 position-relative'>
                                 <div className={style.feature}>
-                                    <Image src={Ethereum} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Ethereum} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>Machine <br/> Learning</h4>
                                 <div className={style.borderX}></div>
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={Polygon} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Polygon} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>Predictive Analysis</h4>
                             
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={Binance} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Binance} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>Custom AI Solutions</h4>
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={Hyperledger} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Hyperledger} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>AI Classification Tool</h4>
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={Corda} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Corda} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>AI Conversation Tools</h4>
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={Substrate} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Substrate} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>Sales Intelligence</h4>
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={Avalanche} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Avalanche} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>Multimedia Analytics</h4>
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={Polkadot} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={Polkadot} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>Deep Learning</h4>
                             </Col>
                             <Col lg={4} className='mb-5'>
                                 <div className={style.feature}>
-                                    <Image src={NearProtocol} alt="Blockchain" width={57} className='img-fluid'/>
+                                    <Image quality={75} src={NearProtocol} alt="Blockchain" width={57} className='img-fluid'/>
                                 </div>
                                 <h4 className='f20 fw700 text-white'>Robotic Process Automation</h4>
                             </Col>

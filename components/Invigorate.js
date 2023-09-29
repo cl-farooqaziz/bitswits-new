@@ -22,7 +22,7 @@ const Invigorate = () => {
                     </Row>
                     <Row className='mt-4 gy-4'>
                         <Col lg={6}>
-                            <Image src={rating1} className='img-fluid' />
+                            <Image quality={75} src={rating1} className='img-fluid' />
                         </Col>
                         <Col lg={6}>
                             <h2 className='f-30 f-700 white'>We Ideate, Design, and Construct Expressive Games!!!</h2>
@@ -41,13 +41,13 @@ const Invigorate = () => {
 
                         </Col>
                         <Col lg={6}>
-                            <Image src={rating2} className='img-fluid' />
+                            <Image quality={75} src={rating2} className='img-fluid' />
                         </Col>
                     </Row>
 
                     <Row className='mt-4 gy-4'>
                         <Col lg={6}>
-                            <Image src={rating3} className='img-fluid' />
+                            <Image quality={75} src={rating3} className='img-fluid' />
                         </Col>
                         <Col lg={6}>
                             <h2 className='f-30 f-700 white'>We Utilize Cutting-Edge Mobile Gaming Technologies!!!</h2>
@@ -65,7 +65,7 @@ const Invigorate = () => {
 
                         </Col>
                         <Col lg={6}>
-                            <Image src={rating4} className='img-fluid' />
+                            <Image quality={75} src={rating4} className='img-fluid' />
                         </Col>
                     </Row>
                 </Container>

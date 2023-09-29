@@ -64,35 +64,35 @@ export default function umbracodevelopment() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 E-Commerce
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Backoffice
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 User Interaction
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Site Owners
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Multi Language
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Cloud
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Certified
             </li>
             <li className="font16 fontf font-medium black ">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Add-ONS
             </li>
         </ul>
@@ -112,7 +112,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon22} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon22} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             50+ Umbraco
@@ -128,7 +128,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon23} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon23} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Planning & Design
@@ -143,7 +143,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Proven Results
@@ -158,7 +158,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Custom CMS Development
@@ -173,7 +173,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             E-Commerce
@@ -188,7 +188,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Umbraco UI Design
@@ -203,7 +203,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Intranet Applications
@@ -218,7 +218,7 @@ export default function umbracodevelopment() {
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div>
                         <div className={`${whyStyles.imgBox}`}>
-                            <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                            <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                         </div>
                         <h5 className='font18 fontf font-regular mt-3'>
                             Umbraco API
@@ -292,7 +292,7 @@ export default function umbracodevelopment() {
         <Container>
             <Row className={portstyles.portRow}>
                 <Col lg={6} className='mx-auto'>
-                    <Image src={sevcImg} alt='BitsWits' className='img-fluid' />
+                    <Image quality={75} src={sevcImg} alt='BitsWits' className='img-fluid' />
                 </Col>
                 <Col lg={6} className='mx-auto'>
                     <h3 className='font-bold mb-3'>Umbraco Portal Development Services</h3>

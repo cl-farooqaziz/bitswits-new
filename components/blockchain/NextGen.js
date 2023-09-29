@@ -37,7 +37,7 @@ const NextGen = (props) => {
                             }
                             {props.poster1 ?
                                 <div className='text-center pt-sm-2 mt-5 mt-lg-0'>
-                                    <Image src={poster} className='img-fluid' alt="Blockchain" />
+                                    <Image quality={75} src={poster} className='img-fluid' alt="Blockchain" />
                                 </div>
                                 :
                                 ''

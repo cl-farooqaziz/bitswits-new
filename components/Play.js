@@ -31,7 +31,7 @@ const Play = ({ demand }) => {
 
                 <div className={styles.serveimg1} key={i} >
                     {item.click1 === item.data &&
-                        <Image src={item.img} alt='bitswits' className='img-fluid' />
+                        <Image quality={75} src={item.img} alt='bitswits' className='img-fluid' />
                     }
 
 

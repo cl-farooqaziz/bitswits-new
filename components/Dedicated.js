@@ -30,9 +30,9 @@ const Dedicated = () => {
                                 <h2 className='f-20  f-700 black t-center'> <span className='grdiant'>Front-End</span> Web Development</h2>
                                 <p className='f-16 t-center f-500'>We specialize in building innovative, complex, user-centric, responsive front-end web solutions that look incredible on mobile devices and desktop screens.</p>
                                 <div className={styles.front}>
-                                    <Image src={right1} className="img-fluid" />
-                                    <Image src={right2} className="img-fluid" />
-                                    <Image src={right3} className="img-fluid" />
+                                    <Image quality={75} src={right1} className="img-fluid" />
+                                    <Image quality={75} src={right2} className="img-fluid" />
+                                    <Image quality={75} src={right3} className="img-fluid" />
                                 </div>
                                 <Link className={styles.get} href='#'>CLICK TO GET STARTED</Link>
                             </div>
@@ -42,9 +42,9 @@ const Dedicated = () => {
                                 <h2 className='f-20  f-700 black t-center'> <span className='grdiant'>Back End</span> Web Development</h2>
                                 <p className='f-16 t-center f-500'>BitsWits render customized back-end solutions that process a large amount of data, operate seamlessly under heavy loads, and show absolutely no latency issues.</p>
                                 <div className={styles.front}>
-                                    <Image src={right4} className="img-fluid" />
-                                    <Image src={right5} className="img-fluid" />
-                                    <Image src={right6} className="img-fluid" />
+                                    <Image quality={75} src={right4} className="img-fluid" />
+                                    <Image quality={75} src={right5} className="img-fluid" />
+                                    <Image quality={75} src={right6} className="img-fluid" />
                                 </div>
                                 <Link className={styles.get} href='#'>CLICK TO GET STARTED</Link>
                             </div>

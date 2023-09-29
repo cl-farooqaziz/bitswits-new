@@ -59,12 +59,12 @@ export default function hireWoocommerceDeveloper() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>WooCommerce website design & build</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>WooCommerce Integration</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Theme development & integration</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Payment gateway integration</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Custom extension development</li>
-            <li className="font16 fontf font-medium black"> <Image src={mobilearrow} className='img-fluid multi'></Image>Shipping methods development and integration</li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>WooCommerce website design & build</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>WooCommerce Integration</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Theme development & integration</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Payment gateway integration</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Custom extension development</li>
+            <li className="font16 fontf font-medium black"> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Shipping methods development and integration</li>
         </ul>
 
     </>
@@ -82,7 +82,7 @@ export default function hireWoocommerceDeveloper() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon16} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon16} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
                         Design & Development Services
@@ -91,23 +91,23 @@ export default function hireWoocommerceDeveloper() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Brand new WooCommerce store design & build
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Theme development & customization, modification
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Responsive templates creation
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     PSD to WooCommerce
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Logo/banner creation
                                 </li>
                             </ul>
@@ -118,7 +118,7 @@ export default function hireWoocommerceDeveloper() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon17} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon17} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
                         Custom Development
@@ -127,35 +127,35 @@ export default function hireWoocommerceDeveloper() {
                         <Col sm={12}>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     WooCommerce optimization
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     WordPress store customization
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     WordPress Storefront theme customization with deep WooCommerce integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Customized WordPress shopping cart
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Product addition and data import
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     HTML to WooCommerce development
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Versions upgrade
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Plugin development & customization
                                 </li>
                             </ul>
@@ -166,7 +166,7 @@ export default function hireWoocommerceDeveloper() {
             <Col lg={4} md={6} className={expStyles.soluCol}>
                 <div className={`${expStyles.soluCard} ${expStyles.soluCardBR} ${expStyles.soluCardBB}`}>
                     <div className={`${expStyles.imgBox}`}>
-                        <Image src={icon18} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon18} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-bold line30'>
                         Integration Services
@@ -175,32 +175,32 @@ export default function hireWoocommerceDeveloper() {
                         <Col>
                             <ul className='p-0 m-0'>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     3rd party systems integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Shipping method integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     New theme integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Facebook Store integration
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Payment gateway integration (bundled
                                     gateways or specific payment gateways)
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Configure free shipping or flat-rate shipping
                                 </li>
                                 <li className="font14 fontf font-medium black ">
-                                    <Image src={grnArrow} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={grnArrow} alt='BitsWits' className='img-fluid' />
                                     Valid schema markup for improved SEO
                                     performance
                                 </li>

@@ -79,15 +79,15 @@ const Capabilities = () => {
                                             <p>We begin by comprehending the objectives, target audiences, user base, and features of your app.</p>
 
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Determine UX challenges & goals
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 competitor analysis.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Map our user personas and use cases.
                                             </p>
 
@@ -95,7 +95,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -114,15 +114,15 @@ const Capabilities = () => {
                                             <p>We work together to define precise platform requirements, UI/UX requirements, and thorough specs.</p>
 
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Monitoring and maintenance.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Optimizing performance post-release.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Post launch QA and optimization.
                                             </p>
 
@@ -130,7 +130,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team2} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} src={team2} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -149,15 +149,15 @@ const Capabilities = () => {
                                             <p>Wireframing and prototyping are tools we use to create flexible designs that are platform-optimized.</p>
 
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Mapping out app structure and flow.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Designing low-fidelity skeletal framework.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Enabling quick revision based on feedback. 
                                             </p>
 
@@ -165,7 +165,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team3} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} src={team3} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -184,15 +184,15 @@ const Capabilities = () => {
                                             <p>Our professionals create cross-platform apps with reusable content and components by using frameworks like React Native.</p>
 
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Applying visual branding assets and styles.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Crafting intuitive user experiences.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Creating an interactive prototype.
                                             </p>
 
@@ -200,7 +200,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team4} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} src={team4} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -218,15 +218,15 @@ const Capabilities = () => {
                                             <p>Thorough platform testing guarantees that your software offers the best user experience possible everywhere.</p>
 
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Applying visual branding assets and styles.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Crafting intuitive user experiences.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Creating an interactive prototype.
                                             </p>
 
@@ -234,7 +234,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team5} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} src={team5} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -252,22 +252,22 @@ const Capabilities = () => {
                                             <p>We assist you with platform launch across the board and offer continuing support and maintenance.</p>
 
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Applying visual branding assets and styles.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Crafting intuitive user experiences.
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image src={close} className='img-fluid' />
+                                                <Image quality={75} src={close} className='img-fluid' />
                                                 Creating an interactive prototype.
                                             </p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image src={team6} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} src={team6} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 

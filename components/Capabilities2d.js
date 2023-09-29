@@ -87,7 +87,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -99,7 +99,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -111,7 +111,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={dcharacter} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={dcharacter} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -123,7 +123,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -137,7 +137,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={uiux} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={uiux} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -149,7 +149,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={characterdesign} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={characterdesign} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -161,7 +161,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={casualart} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={casualart} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -173,7 +173,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={slotsgamesconceptart} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={slotsgamesconceptart} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -185,7 +185,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image src={hiddenobjects} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={hiddenobjects} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 

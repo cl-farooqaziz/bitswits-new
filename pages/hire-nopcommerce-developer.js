@@ -63,31 +63,31 @@ export default function hireNopcommerceDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Application Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Plugin Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Customized Solutions
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Responsive Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Marketing Aplication Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Multi-vendor and Store Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Payment Integration
             </li>
         </ul>
@@ -108,7 +108,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         e-Commerce
@@ -122,7 +122,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Multi-Store
@@ -136,7 +136,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Multi –Vendor
@@ -150,7 +150,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon4} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Checkout
@@ -164,7 +164,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon5} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Payment
@@ -178,7 +178,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon6} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Maintenance &
@@ -192,7 +192,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon7} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Plugin & Theme
@@ -206,7 +206,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon8} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Upgrade &
@@ -234,61 +234,61 @@ export default function hireNopcommerceDeveloper() {
                     <ul>
                         <li>
                             <Link href="#">
-                                <Image src={icon38} alt="Real Estate" />
+                                <Image quality={75} src={icon38} alt="Real Estate" />
                                 <p>Real Estate </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon39} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon39} alt="Travel &amp; Hospitality" />
                                 <p> Travel &amp; Hospitality </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon40} alt="B2B Solutions" />
+                                <Image quality={75} src={icon40} alt="B2B Solutions" />
                                 <p>  B2B Solutions  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon41} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon41} alt="Travel &amp; Hospitality" />
                                 <p>  Healthcare  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon42} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon42} alt="Travel &amp; Hospitality" />
                                 <p>   Education & E-Learning   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon43} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon43} alt="Travel &amp; Hospitality" />
                                 <p>   Banking & Finance  </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon44} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon44} alt="Travel &amp; Hospitality" />
                                 <p>   Startup Solutions   </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon45} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon45} alt="Travel &amp; Hospitality" />
                                 <p>    Startup Solutions </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon46} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon46} alt="Travel &amp; Hospitality" />
                                 <p>   Media & Publishing    </p>
                             </Link>
                         </li>
                         <li>
                             <Link href="#">
-                                <Image src={icon47} alt="Travel &amp; Hospitality" />
+                                <Image quality={75} src={icon47} alt="Travel &amp; Hospitality" />
                                 <p>   Food & Drink   </p>
                             </Link>
                         </li>
@@ -312,7 +312,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         21+ years experience
@@ -323,7 +323,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Streamlined
@@ -334,7 +334,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Proven
@@ -345,7 +345,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Competitive
@@ -356,7 +356,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Source Code
@@ -367,7 +367,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Comprehensive
@@ -378,7 +378,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Security and
@@ -389,7 +389,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Well versed with
@@ -400,7 +400,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Quality Network &
@@ -411,7 +411,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Flexible Engagement
@@ -422,7 +422,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Best-in-industry
@@ -433,7 +433,7 @@ export default function hireNopcommerceDeveloper() {
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR} ${whyStyles.soluCardBB}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className="font20 fontf font-regular mt-3 line30">
                         Hire from a pool of highly

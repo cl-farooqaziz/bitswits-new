@@ -41,7 +41,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.one}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon1} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     Blockchain App Development Solutions
@@ -54,7 +54,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.two}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon2} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     Blockchain Security Solutions
@@ -67,7 +67,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.three}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon3} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     Blockchain Game Development
@@ -80,7 +80,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.four}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon4} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     Smart Contract Development
@@ -93,7 +93,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.five}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon5} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     DApp Development
@@ -106,7 +106,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.six}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon6} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     IEO & ICO Services and Solutions
@@ -119,7 +119,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.one}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon7} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     Crypto Wallet App development
@@ -132,7 +132,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.two}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon8} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     NFT Launch Pad App development
@@ -145,7 +145,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.three}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon9} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon9} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     FinTech App Development
@@ -158,7 +158,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.four}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon10} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon10} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     NFT Market Place Development
@@ -171,7 +171,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.five}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon11} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon11} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     DAO Development
@@ -184,7 +184,7 @@ const BcDevSolution = () => {
                         <Col lg={3} md={6}>
                             <div className={`${styles.soluCard} ${styles.six}`}>
                                 <div className={`${styles.imgBox}`}>
-                                    <Image src={icon12} alt='BitsWits' className='img-fluid' />
+                                    <Image quality={75} src={icon12} alt='BitsWits' className='img-fluid' />
                                 </div>
                                 <h5 className='font24 fontf font-bold line30'>
                                     Custom Blockchain

@@ -17,7 +17,7 @@ const Yudiz = () => {
                         <Col lg={12}>
                             <div className={styles.indus}>
                                 <div className={styles.imgBox}>
-                                    <Image src={banner} alt='Bitswits' className='img-fluid' />
+                                    <Image quality={75} src={banner} alt='Bitswits' className='img-fluid' />
                                 </div>
                                 <div className={styles.cntntBox}>
                                     <div className={styles.left}>
@@ -37,7 +37,7 @@ const Yudiz = () => {
                                         </ul>
                                     </div>
                                     <div className={styles.right}>
-                                        <Image src={shape} alt='Bitswits' className='img-fluid' />
+                                        <Image quality={75} src={shape} alt='Bitswits' className='img-fluid' />
                                         <div className={styles.arrowBtn}>
                                             <Link href="#">
                                                 <Image className="img-fluid" src={arrow} alt="BitsWits" />

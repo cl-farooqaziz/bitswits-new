@@ -44,7 +44,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                         <div className={`${style.feature}`}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon1} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon1} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white'>Core blockchain developers</p>
                                             </div>
                                         </div>
@@ -52,7 +52,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon2} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon2} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white'>Agile development process</p>
                                             </div>
                                         </div>
@@ -60,7 +60,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.bb1} position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon3} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon3} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white'>Customer-centric App </p>
                                             </div>
                                         </div>
@@ -68,7 +68,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon4} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon4} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white'>Business focused approach</p>
                                             </div>
                                         </div>
@@ -76,7 +76,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon5} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon5} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white f14'>Dynamic engagement model</p>
                                             </div>
                                         </div>
@@ -84,7 +84,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.bb1} position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon6} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon6} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white f14'>Cost-effective services</p>
                                             </div>
                                         </div>
@@ -92,7 +92,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.br1} position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon7} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon7} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white f14'>Cost-effective services</p>
                                             </div>
                                         </div>
@@ -100,7 +100,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`${style.br1} position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon8} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon8} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white f14'>On-time project delivery</p>
                                             </div>
                                         </div>
@@ -108,7 +108,7 @@ const WhyChooseUs = (props) => {
                                     <Col lg={4} className={`position-relative`}>
                                         <div className={style.feature}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                <Image src={icon9} alt="Blockchain" className='img-fluid' />
+                                                <Image quality={75} src={icon9} alt="Blockchain" className='img-fluid' />
                                                 <p className='text-white f14'>24*7 technical support</p>
                                             </div>
                                         </div>
@@ -122,7 +122,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.br1} ${style.bb1} position-relative text-center`}>
                                             <div className={`${style.feature}`}>
                                                 <div className={`${style.gap2} justify-content-center align-items-center mx-auto`}>
-                                                    <Image src={icon1} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon1} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white'>Core blockchain developers</p>
                                                 </div>
                                             </div>
@@ -130,7 +130,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.br1} ${style.bb1} position-relative  text-center`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon2} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon2} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white'>Agile development process</p>
                                                 </div>
                                             </div>
@@ -138,7 +138,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.bb1} position-relative`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon3} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon3} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white'>Customer-centric App </p>
                                                 </div>
                                             </div>
@@ -146,7 +146,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon4} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon4} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white'>Business focused approach</p>
                                                 </div>
                                             </div>
@@ -154,7 +154,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon5} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon5} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white f14'>Dynamic engagement model</p>
                                                 </div>
                                             </div>
@@ -162,7 +162,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.bb1} position-relative`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon6} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon6} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white f14'>Cost-effective services</p>
                                                 </div>
                                             </div>
@@ -170,7 +170,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.br1} position-relative`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon7} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon7} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white f14'>Cost-effective services</p>
                                                 </div>
                                             </div>
@@ -178,7 +178,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`${style.br1} position-relative`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon8} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon8} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white f14'>On-time project delivery</p>
                                                 </div>
                                             </div>
@@ -186,7 +186,7 @@ const WhyChooseUs = (props) => {
                                         <Col lg={4} className={`position-relative`}>
                                             <div className={style.feature}>
                                                 <div className={`${style.gap2} justify-content-left align-items-center`}>
-                                                    <Image src={icon9} alt="Blockchain" className='img-fluid mx-auto' />
+                                                    <Image quality={75} src={icon9} alt="Blockchain" className='img-fluid mx-auto' />
                                                     <p className='text-white f14'>24*7 technical support</p>
                                                 </div>
                                             </div>

@@ -27,7 +27,7 @@ const BcDevCta4 = () => {
                         </Col>
                         <Col lg={6} md={6}>
                             <div className={styles.right}>
-                                <Image src={foldImg} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={foldImg} alt='Bitswits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>

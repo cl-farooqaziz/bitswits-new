@@ -63,27 +63,27 @@ export default function hireCakePhpDeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Website Upgrades
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Modifications to Existing Websites
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Web Portal Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Application Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Complex Customisation
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Maintenance & Support
             </li>
         </ul>
@@ -108,37 +108,37 @@ export default function hireCakePhpDeveloper() {
             <Row>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones1} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones1} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">CRM Application</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard}`}>
-                        <Image src={milestones2} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones2} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Custom Web Development</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones3} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones3} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">MVC Architecture</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones4} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones4} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Web Services</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB}`}>
-                        <Image src={milestones5} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones5} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Third PartY API</h5>
                     </div>
                 </Col>
                 <Col xl={4} className='p-0'>
                     <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBB} ${whyStyles.soluCardBR}`}>
-                        <Image src={milestones6} className='img-fluid me-auto mb-3' />
+                        <Image quality={75} src={milestones6} className='img-fluid me-auto mb-3' />
                         <h5 className="font18 fontf font-semibold me-auto">Enterprise Applications</h5>
                     </div>
                 </Col>

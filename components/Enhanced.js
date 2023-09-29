@@ -27,7 +27,7 @@ const Enhanced = (props) => {
                         <Col md={2}>
                             <div className={styles.maincard}>
                                 <div className={styles.cardbody}>
-                                    <Image src={props.lop1}
+                                    <Image quality={75} src={props.lop1}
                                         alt="bitswits" className={styles.mapp} />
                                     <h4 className={styles.cardhd}> {props.titl1} </h4>
                                     <p> {props.text1} </p>
@@ -37,7 +37,7 @@ const Enhanced = (props) => {
                         <Col md={2}>
                             <div className={styles.maincard}>
                                 <div className={styles.cardbody}>
-                                    <Image src={props.lop2}
+                                    <Image quality={75} src={props.lop2}
                                         alt="bitswits" />
                                     <h4 className={styles.cardhd}> {props.titl2} </h4>
                                     <p> {props.text2} </p>
@@ -47,7 +47,7 @@ const Enhanced = (props) => {
                         <Col md={2}>
                             <div className={styles.maincard}>
                                 <div className={styles.cardbody}>
-                                    <Image src={props.lop3}
+                                    <Image quality={75} src={props.lop3}
                                         alt="bitswits" />
                                     <h4 className={styles.cardhd}>{props.titl3} </h4>
                                     <p>  {props.text3} </p>
@@ -57,7 +57,7 @@ const Enhanced = (props) => {
                         <Col md={2}>
                             <div className={styles.maincard}>
                                 <div className={styles.cardbody}>
-                                    <Image src={props.lop4}
+                                    <Image quality={75} src={props.lop4}
                                         alt="bitswits" />
                                     <h4 className={styles.cardhd}> {props.titl4} </h4>
                                     <p>  {props.text4} </p>
@@ -67,7 +67,7 @@ const Enhanced = (props) => {
                         <Col md={2}>
                             <div className={styles.maincard}>
                                 <div className={styles.cardbody}>
-                                    <Image src={props.lop5}
+                                    <Image quality={75} src={props.lop5}
                                         alt="bitswits" />
                                     <h4 className={styles.cardhd}> {props.titl5} </h4>
                                     <p >  {props.text5} </p>
@@ -77,7 +77,7 @@ const Enhanced = (props) => {
                         <Col md={2}>
                             <div className={styles.maincard}>
                                 <div className={styles.cardbody}>
-                                    <Image src={props.lop6}
+                                    <Image quality={75} src={props.lop6}
                                         alt="bitswits" />
                                     <h4 className={styles.cardhd}> {props.titl6} </h4>
                                     <p > {props.text6} </p>
@@ -87,7 +87,7 @@ const Enhanced = (props) => {
                     </Row>
                 </Container>
                 <div className={styles.mobileimg} >
-                    <Image src={props.lop7} alt="bitswits" className="img-fluid"  />
+                    <Image quality={75} src={props.lop7} alt="bitswits" className="img-fluid"  />
                 </div>
             </section>
 

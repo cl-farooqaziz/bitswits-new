@@ -33,7 +33,7 @@ const MetaWork = (props) => {
                                         </Col>
                                         <Col lg={12}>
                                             <div className={style.ImageBack}>
-                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                                <Image quality={75} src={WorkOne} className={`${style.workImage} img-fluid`} />
                                             </div>
                                         </Col>
                                     </Row>
@@ -58,7 +58,7 @@ const MetaWork = (props) => {
                                 </div>
                             </Col>
                             <span className={style.metaDot}>
-                                <Image src={MetaDot} />
+                                <Image quality={75} src={MetaDot} />
                             </span>
                             <Col lg={6} className={`${style.br1} ${style.bb1} ${style.imageHeight} position-relative pb-5 h-100`}>
                                 <div className='p-sm-4'>
@@ -88,7 +88,7 @@ const MetaWork = (props) => {
                                         </Col>
                                         <Col lg={12}>
                                             <div className={style.ImageBack}>
-                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                                <Image quality={75} src={WorkOne} className={`${style.workImage} img-fluid`} />
                                             </div>
                                         </Col>
                                     </Row>
@@ -104,7 +104,7 @@ const MetaWork = (props) => {
                                         </Col>
                                         <Col lg={12}>
                                             <div className={style.ImageBack}>
-                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                                <Image quality={75} src={WorkOne} className={`${style.workImage} img-fluid`} />
                                             </div>
                                         </Col>
                                     </Row>
@@ -129,7 +129,7 @@ const MetaWork = (props) => {
                                 </div>
                             </Col>
                             <span className={style.metaDotTwo}>
-                                <Image src={MetaDot} />
+                                <Image quality={75} src={MetaDot} />
                             </span>
                             <Col lg={6} className={`${style.br1} ${style.imageHeight} position-relative pb-5 h-100`}>
                                 <div className='p-sm-4'>
@@ -159,7 +159,7 @@ const MetaWork = (props) => {
                                         </Col>
                                         <Col lg={12}>
                                             <div className={style.ImageBack}>
-                                                <Image src={WorkOne} className={`${style.workImage} img-fluid`} />
+                                                <Image quality={75} src={WorkOne} className={`${style.workImage} img-fluid`} />
                                             </div>
                                         </Col>
                                     </Row>

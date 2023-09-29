@@ -20,7 +20,7 @@ const Cuttingedge = () => {
 
                         <Col lg={4}>
                             <div className='center'>
-                                <Image src={interface1} className='img-fluid pt-4 pb-4' />
+                                <Image quality={75} src={interface1} className='img-fluid pt-4 pb-4' />
                                 <h3 className='font20 black fontf font-bold center'>Voice User Interface (VUI)</h3>
                                 <p className='font16 black fontf font-medium center'>By utilizing voice-based interactions, we help businesses to provide a more intuitive experience and create a stronger connection with their customers.</p>
                                 <Link className='font-bold black' href='#'>Learn More</Link>
@@ -28,7 +28,7 @@ const Cuttingedge = () => {
                         </Col>
                         <Col lg={4}>
                             <div className='center'>
-                                <Image src={interface2} className='img-fluid pt-4 pb-4' />
+                                <Image quality={75} src={interface2} className='img-fluid pt-4 pb-4' />
                                 <h3 className='font20 black fontf font-bold center'>Augmented Reality (AR)</h3>
                                 <p className='font16 black fontf font-medium center'>By incorporating AR into UI/UX design, we help businesses create engaging and immersive experiences that bring the digital world directly into the physical world.</p>
                                 <Link className='font-bold black' href='#'>Learn More</Link>
@@ -38,7 +38,7 @@ const Cuttingedge = () => {
                         </Col>
                         <Col lg={4}>
                             <div className='center'>
-                                <Image src={interface3} className='img-fluid pt-4 pb-4' />
+                                <Image quality={75} src={interface3} className='img-fluid pt-4 pb-4' />
                                 <h3 className='font20 black fontf font-bold center'>Mobile-First Design</h3>
                                 <p className='font16 black fontf font-medium center'>We develop with a mobile-first mindset that gives users smooth navigation on their smaller screens and allows them to access content easily, no matter what device they're using.</p>
                                 <Link className='font-bold black' href='#'>Learn More</Link>

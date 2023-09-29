@@ -58,11 +58,11 @@ export default function hiremongodbdeveloper() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image> MongoDB Consulting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>MongoDB Development </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>MongoDB Database Design </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>MongoDB Troubleshooting </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>MongoDB Integration </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image> MongoDB Consulting </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>MongoDB Development </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>MongoDB Database Design </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>MongoDB Troubleshooting </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>MongoDB Integration </li>
         </ul>
     </>
 
@@ -160,7 +160,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Aggregation
@@ -172,7 +172,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Load Balancing
@@ -184,7 +184,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Faster App
@@ -197,7 +197,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         File Storage
@@ -209,7 +209,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Server Support
@@ -222,7 +222,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Language Support
@@ -234,7 +234,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon30} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon30} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Ad hoc Queries
@@ -246,7 +246,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon31} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon31} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Indexing
@@ -258,7 +258,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon32} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon32} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Replication
@@ -271,7 +271,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon33} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Server Side
@@ -284,7 +284,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon34} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Real Time
@@ -297,7 +297,7 @@ solutions since MongoDB launched in 2009.</p> </>
             <Col lg={3} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon35} alt='BitsWits' className='img-fluid' />
+                        <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Enterprise Management
@@ -424,14 +424,14 @@ solutions since MongoDB launched in 2009.</p> </>
                     <h3 className='center font-bold'>Our Social Media Marketing Expertise Also Include</h3>
 
                     <ul className={styles.mservice}>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> SIMPLE DEVELOPMENT PROCESS </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> HIGH PERFORMANCE  </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> ELIMINATES COMPLEXITY </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />  SAVES TIME</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />   HIGH SPEED </li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> STRONG CONSISTENCY</li>
-                        <li> <Image src={mobilearrow2} alt="bitswits" /> COST EFFECTIVE MODEL</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> SIMPLE DEVELOPMENT PROCESS </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> HIGH PERFORMANCE  </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> ELIMINATES COMPLEXITY </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />  SAVES TIME</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />   HIGH SPEED </li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> STRONG CONSISTENCY</li>
+                        <li> <Image quality={75} src={mobilearrow2} alt="bitswits" /> COST EFFECTIVE MODEL</li>
                     </ul>
                 </Col>
             </Row>
@@ -450,14 +450,14 @@ solutions since MongoDB launched in 2009.</p> </>
                             <p className='center mb-5'>Everything about MongoDB is amazing – these benefits do all the talking.</p>
 
                             <ul className={dataStyles.mservice}>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   SIMPLE DEVELOPMENT PROCESS </li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" /> HIGH PERFORMANCE  </li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" /> ELIMINATES COMPLEXITY</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   SAVES TIME</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   HIGH SPEED </li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />  STRONG CONSISTENCY</li>
-                                <li> <Image src={mobilearrow1} alt="bitswits" />   COST EFFECTIVE MODEL</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   SIMPLE DEVELOPMENT PROCESS </li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" /> HIGH PERFORMANCE  </li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" /> ELIMINATES COMPLEXITY</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   SAVES TIME</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   HIGH SPEED </li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   IMPROVES FLEXIBILITY</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />  STRONG CONSISTENCY</li>
+                                <li> <Image quality={75} src={mobilearrow1} alt="bitswits" />   COST EFFECTIVE MODEL</li>
                             </ul>
                         </Col>
                     </Row>

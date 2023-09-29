@@ -71,14 +71,14 @@ const Scalable = () => {
                         <div>
                             <p className='font16 font-medium center black'>At BitsWits, we create customized mobile apps that deliver exceptional user experiences. To achieve this, we utilize a range of programming languages such as Java, Swift, Kotlin, and React Native, among others. Our team of skilled app developers uses the latest tools and frameworks to build efficient, scalable apps that cater to your unique business needs. Whether you're looking for an iOS or Android app, our focus on quality and innovation ensures that your app is developed with the best programming languages for your specific requirements.</p>
                             <div className={styles.correct}>
-                                <Image src={lang1} className='img-fluid' />
-                                <Image src={lang2} className='img-fluid' />
-                                <Image src={lang3} className='img-fluid' />
-                                <Image src={lang4} className='img-fluid' />
-                                <Image src={lang5} className='img-fluid' />
-                                <Image src={lang6} className='img-fluid' />
-                                <Image src={lang7} className='img-fluid' />
-                                <Image src={lang8} className='img-fluid' />
+                                <Image quality={75} src={lang1} className='img-fluid' />
+                                <Image quality={75} src={lang2} className='img-fluid' />
+                                <Image quality={75} src={lang3} className='img-fluid' />
+                                <Image quality={75} src={lang4} className='img-fluid' />
+                                <Image quality={75} src={lang5} className='img-fluid' />
+                                <Image quality={75} src={lang6} className='img-fluid' />
+                                <Image quality={75} src={lang7} className='img-fluid' />
+                                <Image quality={75} src={lang8} className='img-fluid' />
                             </div>
                         </div>
 
@@ -91,14 +91,14 @@ const Scalable = () => {
                             </p>
 
                             <div className={styles.correct}>
-                                <Image src={data1} className='img-fluid' />
-                                <Image src={data2} className='img-fluid' />
-                                <Image src={data3} className='img-fluid' />
-                                <Image src={data4} className='img-fluid' />
-                                <Image src={data5} className='img-fluid' />
-                                <Image src={data6} className='img-fluid' />
-                                <Image src={data7} className='img-fluid' />
-                                <Image src={data8} className='img-fluid' />
+                                <Image quality={75} src={data1} className='img-fluid' />
+                                <Image quality={75} src={data2} className='img-fluid' />
+                                <Image quality={75} src={data3} className='img-fluid' />
+                                <Image quality={75} src={data4} className='img-fluid' />
+                                <Image quality={75} src={data5} className='img-fluid' />
+                                <Image quality={75} src={data6} className='img-fluid' />
+                                <Image quality={75} src={data7} className='img-fluid' />
+                                <Image quality={75} src={data8} className='img-fluid' />
                             </div>
 
                         </div>
@@ -109,14 +109,14 @@ const Scalable = () => {
                         <div>
                             <p className='font16 font-medium center black'>Our team of experts uses a variety of frameworks to develop mobile apps and leverage the latest frameworks, such as React Native, Flutter, and Xamarin, among others, to build cross-platform mobile apps that work seamlessly across various devices and operating systems. We also utilize popular frameworks such as AngularJS and Vue.js to create potent web applications that integrate seamlessly with your mobile app. Our focus on innovation ensures that your app is developed using the best framework for your unique business needs, delivering exceptional user experiences and driving business growth.</p>
                             <div className={styles.correct}>
-                                <Image src={frame1} className='img-fluid' />
-                                <Image src={frame2} className='img-fluid' />
-                                <Image src={frame3} className='img-fluid' />
-                                <Image src={frame4} className='img-fluid' />
-                                <Image src={frame5} className='img-fluid' />
-                                <Image src={frame6} className='img-fluid' />
-                                <Image src={frame7} className='img-fluid' />
-                                <Image src={frame8} className='img-fluid' />
+                                <Image quality={75} src={frame1} className='img-fluid' />
+                                <Image quality={75} src={frame2} className='img-fluid' />
+                                <Image quality={75} src={frame3} className='img-fluid' />
+                                <Image quality={75} src={frame4} className='img-fluid' />
+                                <Image quality={75} src={frame5} className='img-fluid' />
+                                <Image quality={75} src={frame6} className='img-fluid' />
+                                <Image quality={75} src={frame7} className='img-fluid' />
+                                <Image quality={75} src={frame8} className='img-fluid' />
                             </div>
                         </div>
 

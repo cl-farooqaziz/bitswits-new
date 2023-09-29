@@ -46,36 +46,36 @@ export default function hiresugarcrmdeveloper() {
 
         <ul className='p-0'>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Module Development
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Third Party API Integration
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 SugarCRM Bridge
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Theme Customizations
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Manage Marketing & Sales Activities
             </li>
 
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Report on all Activities
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Migration Service
             </li>
             <li className="font16 fontf font-medium black">
-                <Image src={mobilearrow} className='img-fluid multi'></Image>
+                <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>
                 Customize and Extend SugarCRM
             </li>
 
@@ -102,7 +102,7 @@ export default function hiresugarcrmdeveloper() {
         <Row className={`${reStyles.soluRow} mt-5`}>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon33} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon33} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                         Ease of <br></br>
                         customization
@@ -114,7 +114,7 @@ export default function hiresugarcrmdeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon34} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon34} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                         SugarCRM for <br></br>
                         managing operations
@@ -126,7 +126,7 @@ export default function hiresugarcrmdeveloper() {
             </Col>
             <Col lg={4} md={6} className={reStyles.soluCol}>
                 <div className={`${reStyles.soluCard}`}>
-                    <Image src={icon35} alt='BitsWits' className='img-fluid mb-3 greyscale' />
+                    <Image quality={75} src={icon35} alt='BitsWits' className='img-fluid mb-3 greyscale' />
                     <h5 className='font20 fontf font-bold line30'>
                         No hidden charges <br></br>
                         & a rocking community
@@ -150,7 +150,7 @@ export default function hiresugarcrmdeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon24} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon24} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Websites <br></br>
@@ -165,7 +165,7 @@ export default function hiresugarcrmdeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon25} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon25} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Integration With 3rd <br></br>
@@ -181,7 +181,7 @@ export default function hiresugarcrmdeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon26} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon26} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Performance <br></br>
@@ -196,7 +196,7 @@ export default function hiresugarcrmdeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon27} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon27} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Data <br></br>
@@ -212,7 +212,7 @@ export default function hiresugarcrmdeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon28} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon28} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Module <br></br>
@@ -228,7 +228,7 @@ export default function hiresugarcrmdeveloper() {
             <Col lg={4} md={6} className={whyStyles.soluCol}>
                 <div className={`${whyStyles.soluCard} ${whyStyles.soluCardBR}`}>
                     <div className={`${whyStyles.imgBox}`}>
-                        <Image src={icon29} alt='BitsWits' className='img-fluid greyscale' />
+                        <Image quality={75} src={icon29} alt='BitsWits' className='img-fluid greyscale' />
                     </div>
                     <h5 className='font20 fontf font-medium line30'>
                         Customize and <br></br>

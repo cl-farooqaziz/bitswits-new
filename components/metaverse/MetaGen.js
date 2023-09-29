@@ -31,7 +31,7 @@ const MetaGen = (props) => {
                             }
                             {props.poster1 ?
                                 <div className='text-center pt-sm-2'>
-                                    <Image src={poster} className='img-fluid' alt="Blockchain" />
+                                    <Image quality={75} src={poster} className='img-fluid' alt="Blockchain" />
                                 </div>
                                 :
                                 ''

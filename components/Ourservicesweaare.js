@@ -55,13 +55,13 @@ const Ourservicesweaare = () => {
                                 <Slider {...crmExamples1} className={styles.site1}>
 
                                     <div className={styles.want1}>
-                                        <Image src={team1} className='img-fluid' />
+                                        <Image quality={75} src={team1} className='img-fluid' />
                                     </div>
                                     <div className={styles.want1}>
-                                        <Image src={team2} className='img-fluid' />
+                                        <Image quality={75} src={team2} className='img-fluid' />
                                     </div>
                                     <div className={styles.want1}>
-                                        <Image src={team3} className='img-fluid' />
+                                        <Image quality={75} src={team3} className='img-fluid' />
                                     </div>
 
 

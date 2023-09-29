@@ -23,7 +23,7 @@ const Streamlining = () => {
                         </Col>
                         <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
-                                <Image src={research} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={research} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>
                                     Research and Idea Generation
                                 </h5>
@@ -34,7 +34,7 @@ const Streamlining = () => {
                         </Col>
                         <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
-                                <Image src={design} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={design} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>
                                     Innovation and Design
                                 </h5>
@@ -45,7 +45,7 @@ const Streamlining = () => {
                         </Col>
                         <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
-                                <Image src={product} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={product} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>
                                     Full-Cycle Product Development
                                 </h5>
@@ -56,7 +56,7 @@ const Streamlining = () => {
                         </Col>
                         <Col lg={3} md={6}>
                             <div className={styles.cardbox}>
-                                <Image src={support} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={support} alt='Bitswits' className='img-fluid' />
                                 <h5 className='font20 black fontf font-bold line30 my-2'>
                                     Product Growth And Support
                                 </h5>

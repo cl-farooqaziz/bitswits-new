@@ -42,12 +42,12 @@ export default function digitalmarketing() {
     const para = <>
 
         <ul className='p-0'>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Brand Development & Reputation </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Greater Engagement Compete With Large Corporations </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Higher Roi & Revenues From Campaigns </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Connects With The Mobile & Internet Consumer </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Higher Conversion Rates </li>
-            <li className="font16 fontf font-medium black "> <Image src={mobilearrow} className='img-fluid multi'></Image>Lower Cost & Global Reach </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Brand Development & Reputation </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Greater Engagement Compete With Large Corporations </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Higher Roi & Revenues From Campaigns </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Connects With The Mobile & Internet Consumer </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Higher Conversion Rates </li>
+            <li className="font16 fontf font-medium black "> <Image quality={75} src={mobilearrow} className='img-fluid multi'></Image>Lower Cost & Global Reach </li>
         </ul>
     </>
 
@@ -248,38 +248,38 @@ const value = <>
                 <Row className='gy-5'>
                     <Col xl={4}>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones1} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones1} className='img-fluid mb-4 greyscale' />
                             <p className='center'>Engaged in offering effective and accurate Search Engine Optimization techniques to our valuable clients.</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones2} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones2} className='img-fluid mb-4 greyscale' />
                             <p className='center'>Regularly incorporating new technologies within the company for improved results.</p>
                         </div>
 
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones3} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones3} className='img-fluid mb-4 greyscale' />
                             <p className='center'>Presenting sustainability and implementation of new strategies which is the key policy of BitsWits.</p>
                         </div>
                     </Col>
                     <Col xl={4}>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                            <Image src={milestones4} className='img-fluid mb-4 greyscale' />
+                            <Image quality={75} src={milestones4} className='img-fluid mb-4 greyscale' />
                             <p className='center'>We’ve got the experience in many digital marketing techniques including SEO, PPC, Apps Store Optimization and Social Media Marketing.</p>
                         </div>
                     </Col>
                     <Col xl={4} className='mongo'>
                      <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                     <Image src={milestones5} className='img-fluid mb-4 greyscale' />
+                     <Image quality={75} src={milestones5} className='img-fluid mb-4 greyscale' />
                      <p className='center'>We offer world class and high quality services including assistance with timely execution and continuous improvement in design of your website</p>
                      </div>
                     </Col>
                     <Col xl={4} className='mongo'>
                         <div className='center pt-lg-5 pb-lg-5 pt-sm-0 pb-sm-0'>
-                        <Image src={milestones6} className='img-fluid mb-4 greyscale' />
+                        <Image quality={75} src={milestones6} className='img-fluid mb-4 greyscale' />
                         <p className='center'>We do not treat all our clients as equal because we understand that their needs differ and we provide tailor-made solutions according to the business needs.</p>
                         </div>
                     </Col>
