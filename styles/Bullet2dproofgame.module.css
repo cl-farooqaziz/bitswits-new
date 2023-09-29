@@ -29,7 +29,6 @@
 .dscool .gredient {
   background: #202020;
   border-radius: 0;
-  border: none;
   background-color: #202020;
   width: 100%;
   padding-top: 4%;
@@ -37,8 +36,7 @@
   padding-right: 1%;
   border-image: linear-gradient(90deg, #4A78EF, #F32FC2, #F32F53) 30;
   border-width: 1px;
-  border-style: solid !important;
-
+  border-style: solid;
 }
 
 .game h2 {
