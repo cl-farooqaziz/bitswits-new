@@ -180,7 +180,7 @@ const New3dBanner = () => {
                     </Container>
                 </div>
 
-                <div>
+                <div className={styles.slider}>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 
                         <div className={styles.strpImg}>
