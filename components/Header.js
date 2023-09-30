@@ -6,6 +6,8 @@ import { Row, Col } from 'react-bootstrap'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
+import { useEffect } from 'react';
+import { Router, useRouter } from 'next/router';
 // images
 import logo from '../public/images/icons/footerlogo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
@@ -84,9 +86,14 @@ const Header = () => {
         setMegaMenu4((prev) => !prev);
     }
 
+    const router = useRouter();
+    const currentRoute = router.pathname;
+    const path = currentRoute === "/3d-game-development-company"
+
+
     return (
         <>
-            <header className={styles.header}>
+            <header className={path ? `${styles.header} ${styles.trans}` : `${styles.header} header`}>
                 <div className={styles.navLogo}>
                     <Link href="/">
                         <Image alt="bitswits" className='img-fluid'
@@ -480,7 +487,7 @@ const Header = () => {
                                                                                         <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
                                                                                     </div>
 
-                                                                                    
+
 
                                                                                     <li>
                                                                                         <Link onClick={handleMenu} href='/game-app-development-company-lp'>

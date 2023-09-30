@@ -14,8 +14,8 @@ import blogCharacter from '../public/3d-game-development/images/CHARACTER-DESIGN
 import blogBackground from '../public/3d-game-development/images/2D-BACKGROUND-ART.png'
 import blogUIUX from '../public/3d-game-development/images/UIUX.png'
 import blogDesign from '../public/3d-game-development/images/CHARACTER-DESIGN.png'
-// import blog212 from '../public/3d-game-development/images/blog1.png'
-// import blog212 from '../public/3d-game-development/images/blog1.png'
+import blogGames from '../public/3d-game-development/images/Slots-Games-Concept.png'
+import blogHidden from '../public/3d-game-development/images/Hidden-Objects.png'
 
 const Capabilities3d = () => {
 
@@ -71,7 +71,7 @@ const Capabilities3d = () => {
 
                             </Row>
                         </div>
-                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
+                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome prohome1 mt-4 mb-4`}>
 
                             <div className={styles.high}>
                                 <Row>
@@ -175,7 +175,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogGames} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -187,7 +187,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogHidden} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 

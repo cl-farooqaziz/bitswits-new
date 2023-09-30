@@ -12,7 +12,18 @@ import tab6 from '../public/3d-game-development/images/tab6.png'
 import tab7 from '../public/3d-game-development/images/tab7.png'
 import tab8 from '../public/3d-game-development/images/tab8.png'
 import tab9 from '../public/3d-game-development/images/tab9.png'
-import tabRight from '../public/3d-game-development/images/tabRightImage.png'
+import var1 from '../public/3d-game-development/images/variation/01.png'
+import var2 from '../public/3d-game-development/images/variation/02.png'
+import var3 from '../public/3d-game-development/images/variation/03.png'
+import var4 from '../public/3d-game-development/images/variation/04.png'
+import var5 from '../public/3d-game-development/images/variation/05.png'
+import var6 from '../public/3d-game-development/images/variation/06.png'
+import var7 from '../public/3d-game-development/images/variation/07.png'
+import var8 from '../public/3d-game-development/images/variation/08.png'
+import var9 from '../public/3d-game-development/images/variation/09.png'
+import var10 from '../public/3d-game-development/images/variation/10.png'
+import var11 from '../public/3d-game-development/images/variation/11.png'
+import var12 from '../public/3d-game-development/images/variation/12.png'
 
 
 
@@ -125,7 +136,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var1} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -139,7 +150,7 @@ const Experience = () => {
                                 <div className={styles.newyork}>
 
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var2} className='img-fluid' />
                                     </div>
 
                                 </div>
@@ -150,7 +161,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var3} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -162,7 +173,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var4} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -172,7 +183,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var5} className='img-fluid' />
                                     </div>
 
                                 </div>
@@ -183,7 +194,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var6} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -194,7 +205,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var7} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -208,7 +219,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var8} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -218,7 +229,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var9} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -230,7 +241,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var10} className='img-fluid' />
                                     </div>
 
                                 </div>
@@ -241,7 +252,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var11} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -251,7 +262,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} src={tabRight} className='img-fluid' />
+                                        <Image quality={75} src={var12} className='img-fluid' />
                                     </div>
                                 </div>
 

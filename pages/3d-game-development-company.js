@@ -3,17 +3,8 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewMblAbout from '@/components/NewMblAbout';
-import NewMblWhat from '@/components/NewMblWhat';
-import NewHomeHear from '@/components/NewHomeHear';
-import NewMblGlobal from '@/components/NewMblGlobal';
-import NewMblSlider from '@/components/NewMblSlider';
-import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
-import NewMblNextProject from '@/components/NewMblNextProject';
-import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewMblPortFolio from '@/components/NewMblPortFolio';
-import NewMblServices from '@/components/NewMblServices';
 import New3dBanner from '@/components/3dBanner';
 import New3dAdvantage from '@/components/3dAdvantage';
 import New3dTarget from '@/components/3dTarget';
@@ -27,7 +18,6 @@ import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import Technologieswe from '@/components/NewMblTechnologiesWe';
 import Homenextproject from '@/components/Homenextproject';
-import HomeLocation from '@/components/HomeLocation';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 

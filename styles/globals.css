@@ -969,6 +969,7 @@ input::-webkit-inner-spin-button {
   margin-bottom: 0.5%;
 }
 
+
 /* ===============About Us Slider================ */
 
 .phoneSlider .slick-list {
@@ -1373,7 +1374,7 @@ input::-webkit-inner-spin-button {
   margin-bottom: 10%;
 }
 
-.qtechcap .prohome .slick-dots li {
+.qtechcap .prohome1 .slick-dots li {
   width: 200px;
   height: 5px;
   margin-bottom: 10%;
