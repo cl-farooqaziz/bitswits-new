@@ -350,7 +350,7 @@
     .app4,
     .app5 {
         height: 456px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
@@ -399,7 +399,7 @@
     }
 
     .app3 {
-        height: 340px;
+        height: 270px;
     }
 
     .paraThreeContent {
@@ -459,10 +459,10 @@
         height: 315px;
     }
 
-    .app4,
+    /* .app4,
     .app5 {
         height: 208px;
-    }
+    } */
 
     .app6 {
         background-image: url(../public/newHomePage/images/newMaintain10.png);

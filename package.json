@@ -16,6 +16,8 @@
     "google-spreadsheet": "^4.0.2",
     "googleapis": "^126.0.1",
     "lottie-web": "^5.12.2",
+    "mdb-react-ui-kit": "^6.3.0",
+    "mdb-ui-kit": "^6.4.2",
     "next": "13.4.4",
     "nodemailer": "^6.9.4",
     "react": "18.2.0",

@@ -84,10 +84,6 @@ const New3dMaintain = () => {
             animationData: internetapp,
         });
 
-
-
-
-
     }, []);
 
     return (
@@ -158,7 +154,7 @@ const New3dMaintain = () => {
                             </div>
                         </Col>
 
-                        <Col sm={8}>
+                        <Col md={8}>
                             <div className={styles.app4}>
                                 <div>
                                     <h3 className='text-white f-25 font-bold'>3D Imagining Art</h3>
@@ -169,7 +165,7 @@ const New3dMaintain = () => {
                             </div>
 
                         </Col>
-                        <Col sm={4}>
+                        <Col md={4}>
                             <div className={styles.app5}>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Support and Maintenance</h3>

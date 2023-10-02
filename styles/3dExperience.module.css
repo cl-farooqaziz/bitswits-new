@@ -121,6 +121,19 @@
 }
 
 
+.selectTabs {
+    background: transparent;
+    background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
+    color: #2B2B2B;
+    border: 0;
+    font-weight: 600;
+}
+
+.selectTabs:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
 @media screen and (min-width: 1400px) {
 
 

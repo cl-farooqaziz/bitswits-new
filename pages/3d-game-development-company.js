@@ -21,7 +21,7 @@ import Homenextproject from '@/components/Homenextproject';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
-export default function mobileApplication() {
+const mobileApplication = () => {
     return (
         <>
             <Head>
@@ -51,3 +51,6 @@ export default function mobileApplication() {
         </>
     )
 }
+
+
+export default mobileApplication
