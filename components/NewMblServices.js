@@ -120,7 +120,7 @@ const NewMblServices = () => {
                         </Col>
 
                         <Col lg={12}>
-                            <div className={styles.app3}>
+                            <div className={`${styles.app3} mt-3`}>
                                 <Row className='align-items-center'>
                                     <Col xl={7}>
                                         <h3 className='text-white f-22 font-bold '>Flutter App Development</h3>
