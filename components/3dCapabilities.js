@@ -128,7 +128,7 @@ const Capabilities3d = () => {
                                     <Col xl={12}>
                                         <div>
                                             <Image quality={75} src={blogUIUX} alt='bitswits' className='img-fluid' />
-                                        </div>
+                                        </div>  
                                     </Col>
 
 
