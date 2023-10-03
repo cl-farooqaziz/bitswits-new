@@ -2,21 +2,9 @@ import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
 //components
-import NewMblBanner from '@/components/NewMblBanner';
 import NewMblAbout from '@/components/NewMblAbout';
-import NewMblWho from '@/components/NewMblWho';
-import NewMblWhat from '@/components/NewMblWhat';
-import NewHomeHear from '@/components/NewHomeHear';
-import NewMblMaintain from '@/components/NewMblMaintain';
-import NewMblGlobal from '@/components/NewMblGlobal';
-import NewMblSlider from '@/components/NewMblSlider';
-import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
-import NewMblNextProject from '@/components/NewMblNextProject';
-import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewMblPortFolio from '@/components/NewMblPortFolio';
-import NewMblServices from '@/components/NewMblServices';
 import GamedevelopmentBanner from '@/components/GamedevelopmentBanner';
 import GameAdvantages from '@/components/blockchainadvantages';
 import GamingServices from '@/components/GamingServices';

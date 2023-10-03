@@ -2,14 +2,10 @@ import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewHomeWho from '@/components/NewHomeWho';
-import NewHomeWhat from '@/components/NewHomeWhat';
-import NewHomeHear from '@/components/NewHomeHear'
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilitiesnft from '@/components/Capabilitiesnft';
 import Faqs from '@/components/NewhomeFaqs';
-import NewBanner from '@/components/NewBanner';
 import NewMaintainnft from '@/components/NewMaintainnft';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
@@ -19,7 +15,6 @@ import Bullet2ddiscovergame from '@/components/Bullet2ddiscovergame';
 import Genreof2dgamesnft from '@/components/Genreof2dgamesnft';
 import Engagenft from '@/components/Engagenft';
 import Newsuccess from '@/components/NewMblSuccess';
-import Technologieswe2dgame from '@/components/Technologieswe2dgame';
 import Wealthnft from '@/components/Wealthnft';
 
 

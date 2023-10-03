@@ -7,16 +7,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import team1 from '../public/newHomePageImages/1.png'
-import team2 from '../public/newHomePageImages/2.png'
-import team3 from '../public/newHomePageImages/3.png'
-import team4 from '../public/newHomePageImages/4.png'
-import team5 from '../public/newHomePageImages/5.png'
-import team6 from '../public/newHomePageImages/6.png'
-import close from '../public/newHomePageImages/close.png'
-
-
-import blog212 from '../public/newHomePageImages/blog1.png'
+import blog212 from '../public/3d-game-development/images/blog1.png'
+import blogModels from '../public/3d-game-development/images/3D-MODELS.png'
+import blogCharacter from '../public/3d-game-development/images/CHARACTER-DESIGN.png'
+import blogBackground from '../public/3d-game-development/images/2D-BACKGROUND-ART.png'
+import blogUIUX from '../public/nftslider/uiux.png'
+import blogDesign from '../public/3d-game-development/images/CHARACTER-DESIGN.png'
+import blogGames from '../public/3d-game-development/images/Slots-Games-Concept.png'
+import blogHidden from '../public/3d-game-development/images/Hidden-Objects.png'
 
 const GameCapabilities = () => {
 
@@ -80,8 +78,6 @@ const GameCapabilities = () => {
                                             <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -89,7 +85,7 @@ const GameCapabilities = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogModels} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -101,7 +97,7 @@ const GameCapabilities = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogCharacter} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -113,7 +109,7 @@ const GameCapabilities = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogBackground} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -127,7 +123,7 @@ const GameCapabilities = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogUIUX} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -139,7 +135,7 @@ const GameCapabilities = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogDesign} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -151,7 +147,7 @@ const GameCapabilities = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogGames} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -163,7 +159,7 @@ const GameCapabilities = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={blogHidden} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
