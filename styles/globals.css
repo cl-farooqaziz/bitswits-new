@@ -340,6 +340,11 @@ a {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.spacingtb1 {
+  padding-top: 100px;
+  background-color: black;
+
+}
 
 .btnhide {
   display: none !important;
