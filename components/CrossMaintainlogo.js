@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import styles from "@/styles/NewaiMaintainlogo.module.css";
+import styles from "@/styles/NewcrossMaintainlogo.module.css";
 
 import { Container, Row, Col } from 'react-bootstrap'
 //
@@ -100,18 +100,19 @@ const AndriodMaintainlogo = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}> Go Beyond Expectations With
+                            <p className={` f-20 font-bold text-white text-center mb-0`}> What We Do
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>Shaping the Future with Cutting-Edge <br></br> Artificial Intelligence  Development <br></br> Services</h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'> Cross-Platform App Development <br></br> One Codebase,Multiple Platforms, <br></br> Infinite Possibilities </h1>
 
 
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Smart Systems</h3>
+                                    <h3 className='text-white font25 font-bold'>Custom Cross-Platform
+Development</h3>
                                     <p className={styles.para}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.
                                     </p>
                                 </div>
                             </div>
@@ -119,9 +120,10 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Gesture Recognition</h3>
+                                    <h3 className='text-white font25 font-bold'>Wearable Cross-Platform
+Apps</h3>
                                     <p className={styles.para}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise.
                                     </p>
                                 </div>
                             </div>
@@ -129,9 +131,10 @@ const AndriodMaintainlogo = () => {
                         <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'> Facial Recognition</h3>
+                                    <h3 className='text-white font25 font-bold'> Cross-Platform
+UI/UX Design Services</h3>
                                     <p className={styles.para}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.
                                     </p>
                                 </div>
                             </div>
@@ -142,9 +145,9 @@ const AndriodMaintainlogo = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Location Tracking</h3>
+                                            <h3 className='text-white f-25 font-bold '>Web-Based Cross-Platform Apps</h3>
                                             <p className={styles.para1}>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                            We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.
                                             </p>
                                         </div>
                                     </Col>
@@ -159,9 +162,9 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Motion Sensing</h3>
+                                    <h3 className='text-white f-25 font-bold text-center'>AI Integrated Cross Platforms Apps</h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business.
                                     </p>
                                 </div>
                             </div>
@@ -170,9 +173,9 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Web Conferencing</h3>
+                                    <h3 className='text-white f-25 font-bold text-center'>Cross Platforms Apps Consulting</h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.
                                     </p>
                                 </div>
                             </div>
