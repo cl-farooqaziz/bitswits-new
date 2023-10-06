@@ -78,6 +78,17 @@
   border-bottom: 0px;
   position: relative;
 }
+.bannerform1 {
+  height: 100%;
+  width: 95%;
+  margin: 50px auto;
+  border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom: 0px;
+  position: relative;
+  margin-top: 0;
+}
 
 .bannerform::before {
   content: "";
