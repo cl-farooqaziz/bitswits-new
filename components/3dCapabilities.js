@@ -121,8 +121,6 @@ const Capabilities3d = () => {
                                 </Row>
                             </div>
 
-
-
                             <div className={styles.high}>
                                 <Row>
                                     <Col xl={12}>

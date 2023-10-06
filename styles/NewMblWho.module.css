@@ -13,13 +13,13 @@
 .wid {
   max-width: 702px;
   margin-left: auto;
-  line-height: 35px;
-  font-size: 30px;
+  line-height: 40px;
+  font-size: 35px;
 }
 
 .width {
   color: white;
-  max-width: 640px;
+  max-width: 840px;
   margin-left: auto;
 }
 
