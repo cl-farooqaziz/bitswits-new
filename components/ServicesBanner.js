@@ -177,9 +177,9 @@ const ServicesBanner = (props) => {
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>USA</p>
-                                            <Link href="#" className='font12 font-regular fontf white texdocration'>
+                                            {/* <Link href="#" className='font12 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
-                                            </Link>
+                                            </Link> */}
                                         </div>
 
                                     </div>
@@ -189,9 +189,9 @@ const ServicesBanner = (props) => {
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>Middle East</p>
-                                            <Link href="#" className='font12 font-regular fontf white texdocration'>
+                                            {/* <Link href="#" className='font12 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
-                                            </Link>
+                                            </Link> */}
                                         </div>
                                     </div>
 
@@ -201,9 +201,9 @@ const ServicesBanner = (props) => {
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font15 font-bold fontf mb-0 white'>Asia</p>
-                                            <Link href="#" className='font12 font-regular fontf white texdocration'>
+                                            {/* <Link href="#" className='font12 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
-                                            </Link>
+                                            </Link> */}
                                         </div>
                                     </div>
                                 </div>

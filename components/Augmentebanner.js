@@ -63,9 +63,9 @@ const Augmentebanner = () => {
 
                 <Container>
 
-                    <Row>
+                   <Row>
                         <Col xl={12}>
-                            <p modern digital factory className={`${styles.just} text-center f-16 font-medium mb-0`}>Bitswits Is Your One-Stop Shop For</p>
+                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Bitswits Is Your One-Stop Shop For</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
                             Customized Augmented <br></br>
 Reality Apps Development Solutions

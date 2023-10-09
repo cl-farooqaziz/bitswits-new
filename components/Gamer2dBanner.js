@@ -4,6 +4,8 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
+import NewAddress from './NewAddress';
+//
 import BannerImage from "@/public/images/game2dbanner/bann.png"
 import icon11 from '../public/newMobilePageImages/city1.png'
 import icon12 from '../public/newMobilePageImages/city2.png'
@@ -21,7 +23,8 @@ import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
- 
+
+
 
 
 const NewHomeBanner = () => {
@@ -65,9 +68,9 @@ const NewHomeBanner = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <p modern digital factory className={`${styles.just} text-center f-16 font-medium mb-0`}>Best In Animation, Graphics, & Design - Your Own</p>
+                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Best In Animation, Graphics, & Design - Your Own</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                            <span className='grdiant font-bold'>2D Game</span> Development Company!
+                                <span className='grdiant font-bold'>2D Game</span> Development Company!
                             </h3>
 
                             <p className='white center mb-4'>From classic platformers to immersive RPGs, our 2D games will have your target market addicted in no time. We <br></br> specialize in crafting highly detailed and interactive worlds, characters, and stories that will capture your <br></br> imagination and keep your prospects hooked for hours on end.</p>
@@ -87,7 +90,7 @@ const NewHomeBanner = () => {
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
                     <Container>
-                        <Row>
+                        <Row className='align-items-center'>
                             <Col lg={7}>
                                 <div className={styles.make}>
                                     <form className={styles.formsbanner}>
@@ -115,71 +118,7 @@ const NewHomeBanner = () => {
                                 </div>
                             </Col>
                             <Col lg={5}>
-                                <div className={styles.read}>
-                                    <div className={`${styles.free}`}>
-                                        <p className='font16 texttran font-bold fontf'>
-                                            Make an obligation-free enquiry
-                                        </p>
-                                    </div>
-                                    <Row className={styles.locations}>
-                                        <Col lg={4} md={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon11} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>USA</p>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    +1 833 500 6007
-                                                </Link>
-                                                {/* <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
-                                                    +1 312 379 5987
-                                                </Link> */}
-                                            </div>
-                                            {/* <div className={`${styles.subInner} ms-3`}>
-                                                <p className='font12 font-bold fontf mb-1'>California</p>
-                                                <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
-                                                    +1 312 379 5987
-                                                </Link>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    +1 833 500 6007
-                                                </Link>
-                                            </div> */}
-                                        </Col>
-                                        <Col lg={4} md={6} sm={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon12} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Middle East</p>
-                                                <Link href="tel:+97 155 503 1266" className='font12 font-regular fontf white texdocration'>
-                                                    +97 155 503 1266
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                        <Col lg={4} md={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon13} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Asia</p>
-                                                <Link href="tel:+92 346 828 0101" className='font12 font-regular fontf white texdocration'>
-                                                    +92 346 828 0101
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                        {/* <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon14} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Malaysia</p>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    Labuan
-                                                </Link>
-                                            </div>
-                                        </Col> */}
-                                    </Row>
-                                </div>
+                                <NewAddress />
                             </Col>
                         </Row>
                     </Container>

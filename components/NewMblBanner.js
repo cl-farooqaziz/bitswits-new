@@ -21,6 +21,7 @@ import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
+import NewAddress from './NewAddress';
 
 
 
@@ -63,9 +64,9 @@ const NewHomeBanner = () => {
 
                 <Container>
 
-                    <Row>
+                   <Row>
                         <Col xl={12}>
-                            <p modern digital factory className={`${styles.just} ${styles.just2} text-center font25 font-regular mb-2 mb-lg-0`}>A TOP</p>
+                            <p className={`${styles.just} ${styles.just2} text-center font25 font-regular mb-2 mb-lg-0`}>A TOP</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-1`}>
                                 <span className='grdiant d-block'>MOBILE APP DEVELOPMENT</span>
                                 <span className='d-block'>Company At Your Service</span>
@@ -86,7 +87,7 @@ const NewHomeBanner = () => {
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
                     <Container>
-                        <Row>
+                        <Row className='align-items-center'>
                             <Col lg={7}>
                                 <div className={styles.make}>
                                     <form className={styles.formsbanner}>
@@ -114,71 +115,7 @@ const NewHomeBanner = () => {
                                 </div>
                             </Col>
                             <Col lg={5}>
-                                <div className={styles.read}>
-                                    <div className={`${styles.free}`}>
-                                        <p className='font20 font-bold fontf'>
-                                            Make an obligation-free enquiry
-                                        </p>
-                                    </div>
-                                    <Row className={styles.locations}>
-                                        <Col lg={8} md={6} className={`${styles.locInner} `}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon11} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>USA</p>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    +1 833 500 6007
-                                                </Link>
-                                                <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
-                                                    +1 312 379 5987
-                                                </Link>
-                                            </div>
-                                            <div className={`${styles.subInner} ms-3`}>
-                                                <p className='font12 font-bold fontf mb-1'>California</p>
-                                                <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
-                                                    +1 312 379 5987
-                                                </Link>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    +1 833 500 6007
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                        <Col lg={4} md={6} sm={6} className={`${styles.locInner} `}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon12} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Sharjah</p>
-                                                <Link href="tel:+97 155 503 1266" className='font12 font-regular fontf white texdocration'>
-                                                    +97 155 503 1266
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                        <Col lg={4} md={6} className={`${styles.locInner} `}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon13} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Karachi</p>
-                                                <Link href="tel:+92 346 828 0101" className='font12 font-regular fontf white texdocration'>
-                                                    +92 346 828 0101
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                        <Col md={6} sm={6} className={`${styles.locInner}`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon14} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Malaysia</p>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    Labuan
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
+                                <NewAddress />
                             </Col>
                         </Row>
                     </Container>
