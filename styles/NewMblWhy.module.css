@@ -6,7 +6,9 @@
 
 .whyBox {
   padding: 80px 20px;
-  border: 1px solid #4a78ef;
+  border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+  border-width: 1px;
+  border-style: solid;
   position: relative;
   height: 350px;
 }
