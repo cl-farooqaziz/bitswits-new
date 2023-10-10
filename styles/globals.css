@@ -1256,12 +1256,12 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
-.ani {
+/* .ani {
   animation: 0.7s ease-in-out forwards growDown;
   transform-origin: top;
-}
+} */
 
-@keyframes growDown {
+/* @keyframes growDown {
   0% {
     transform: scaleY(0);
   }
@@ -1273,7 +1273,7 @@ input::-webkit-inner-spin-button {
   100% {
     transform: scaleY(1);
   }
-}
+} */
 
 .newwidth {
   max-width: 90%;
@@ -2147,7 +2147,7 @@ button {
   display: block;
 }
 
-@keyframes growLeft {
+/* @keyframes growLeft {
   0% {
     transform: scaleX(0);
   }
@@ -2159,7 +2159,7 @@ button {
   100% {
     transform: scaleX(1);
   }
-}
+} */
 
 .getmodalvideo .modal-body {
   position: relative;
@@ -2461,16 +2461,7 @@ button {
   left: 10px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  animation-name: moveInleft;
-  animation-duration: 3s;
-}
+
 
 .HomeBanner {
   position: relative;

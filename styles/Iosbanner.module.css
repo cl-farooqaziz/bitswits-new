@@ -32,7 +32,7 @@
   letter-spacing: 2px;
 }
 
-.book2 {
+/* .book2 {
   border-image: linear-gradient(90deg, #f32f5e, #4a78ef) 30;
   border-width: 1px;
   border-style: solid;
@@ -45,7 +45,112 @@
   background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+} */
+
+.book2{
+  /* border-image: linear-gradient(90deg,#f32fc261,#4a78ef) 10;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 1%;
+  cursor: pointer;
+  background-color: unset;
+  font-size: 10px;
+  letter-spacing: 1px;
+  justify-content: flex-start;
+  padding: 0 0 0 10px;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0); */
+  
 }
+
+.post h5{
+  line-height: 1.2;
+}
+.menu:before {
+
+  content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    background: linear-gradient(183deg,#4a78ef 0%, #eb335b 65%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    margin-top: 1%;
+    margin-left: 1%;
+    
+}
+
+.menu{
+  position: relative;
+  cursor: pointer;
+
+}
+
+.book2 {
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  font-size: 10px;
+  background: linear-gradient(to right, #f32f53,#f32fc2,#4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: transparent;
+  border: 2px solid transparent;
+  padding: 0px;
+  font-weight: bold;
+  width: 100%;
+  letter-spacing: unset;
+  cursor: pointer;
+}
+
+
+/* .book2 {
+  border: none;
+  outline: none;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(to right, #00FFA3, #DC1FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  z-index: 9;
+  font-size: 10px;
+}
+
+.book2::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 4px;
+  z-index: -1;
+} */
+/* .book2::after {
+  content: attr(data);
+  font-size: 16px;
+  background: linear-gradient(to left, #00FFA3, #DC1FFF);
+ -webkit-background-clip: text;
+  color: transparent;
+  transition: 200ms
+} */
+
+/* .book2:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  padding: 2px;
+  background: linear-gradient(45deg,#f32f53,#f32fc2,#4a78ef);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.book2{
+  position: relative;
+} */
+
 
 .about {
   width: 198px;

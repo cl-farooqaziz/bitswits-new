@@ -1,3 +1,55 @@
+.secImage1 h4,
+.secImage1 h5 {
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+  line-height: 1.5;
+
+}
+
+
+.secImage1 h5 {
+  margin-bottom: 0;
+}
+
+.secImage1 p {
+  font-style: italic;
+  font-size: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.newHomeBg {
+  position: relative;
+}
+
+.secImage1 {
+  border: 2px solid #4A78EF;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 43%;
+  display: none;
+  text-align: left;
+
+}
+
+.client {
+  cursor: pointer;
+}
+
+.client:hover .secImage1 {
+  display: block;
+}
+
+
 .newHomeBg {
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-repeat: no-repeat;
@@ -26,7 +78,30 @@
   }
 }
 
+
+@media screen and (max-width: 991px) {
+
+
+
+  .secImage1{
+    width: 50%;
+}
+
+
+}
+
+
 @media screen and (max-width: 480px) {
+
+
+  .client h4{
+    font-size: 14px;
+  }
+
+  .secImage1{
+    width: 70%;
+}
+
   .newHomeBg {
     text-align: center;
   }
