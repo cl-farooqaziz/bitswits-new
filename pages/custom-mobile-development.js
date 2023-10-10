@@ -46,9 +46,9 @@ export default function CustomMobile() {
             <NewMblWhy />
             <NewHybridPortfolio />
             <Newsuccess />
-            <div className='spacingtb1'>
+            <section className='spacingtb1'>
             <Technologieswe />
-            </div>
+            </section>
             <NewHomeGlobal />
             <NewHomeSlider />
             <NewMblNextProject />

@@ -30,8 +30,6 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  position: relative;
-  z-index: 1;
 }
 
 img,
@@ -50,6 +48,7 @@ p,
 span,
 div {
   z-index: 3;
+  position: relative;
 }
 
 /* fontfamily */
@@ -647,8 +646,8 @@ a {
 
 .cursor {
   position: fixed;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
   background-image: var(--gradient);
