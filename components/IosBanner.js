@@ -104,6 +104,9 @@ const Iosbanner = () => {
                             <Image alt="bitswits" src={icon30} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
+                            <Image alt="bitswits" src={icon80} className="img-fluid w-25" />
+                        </div>
+                        <div className={styles.strpImg}>
                             <Image alt="bitswits" src={icon40} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
@@ -115,9 +118,7 @@ const Iosbanner = () => {
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-                        <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon80} className="img-fluid w-25" />
-                        </div>
+                       
                     </Slider>
                 </div>
             </section>
