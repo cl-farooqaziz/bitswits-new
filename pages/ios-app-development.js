@@ -44,6 +44,7 @@ export default function gamedevelopmentcompany() {
 
 
             <Iosbanner />
+            <NewHomeAbout />
             <IosMaintainlogo />
             <Justbuildit />
             <NewMblWho />

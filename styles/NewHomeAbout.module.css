@@ -1,39 +1,38 @@
 .newHomeBg {
-    background: #000;
-    padding-top: 250px;
-    padding-bottom: 250px;
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -700px center;
+  background-color: #000;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 .wid {
-    max-width: 1100px;
+  max-width: 1100px;
 }
 
 @media screen and (max-width: 1200px) {
+  .newHomeBg {
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-    .newHomeBg {
-        background: #000;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .secImage {
-        width: 80%;
-        object-fit: contain;
-        max-height: 320px;
-    }
-
-   
+  .secImage {
+    width: 80%;
+    object-fit: contain;
+    max-height: 320px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
-.newHomeBg{
+  .newHomeBg {
     text-align: center;
-}
+  }
 
-    .secImage {
-        width: 100%;
-        max-height: 220px;
-    }
-
+  .secImage {
+    width: 100%;
+    max-height: 220px;
+  }
 }
