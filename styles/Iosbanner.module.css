@@ -374,6 +374,14 @@
 
 /* =========================================== */
 
+@media screen and (max-width: 1600px) { 
+
+
+.appios{
+  max-width: 1470px;
+}
+
+}
 @media screen and (max-width: 1200px) {
   .secImage {
     width: 80%;

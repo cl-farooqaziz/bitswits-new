@@ -87,7 +87,7 @@ const Iosbanner = () => {
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                    <Container>
+                    <Container className={styles.appios}>
                         <Row className='align-items-start'>
                             <NewAddress />
                         </Row>
