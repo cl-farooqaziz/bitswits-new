@@ -22,7 +22,7 @@ import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
 import NewAddress from './NewAddress';
- 
+
 
 
 const CrossBanner = () => {
@@ -64,16 +64,16 @@ const CrossBanner = () => {
 
                 <Container>
 
-                   <Row>
+                    <Row>
                         <Col xl={12}>
                             <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Top-Notch Web Development Company</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                            Where Imagination Meets <br></br>
-Creativity
+                                Where Imagination Meets <br></br>
+                                Creativity
                             </h3>
 
                             <p className='white center mb-4'>
-                            BitsWits is a future-forward, human-centered, and client-focused web development company that <br></br> revolutionizes the way businesses appear on the online paradigm. We build dynamic, multi-purpose, <br></br> secure, and highly-performing websites that help brands gain online traction in no time.
+                                BitsWits is a future-forward, human-centered, and client-focused web development company that <br></br> revolutionizes the way businesses appear on the online paradigm. We build dynamic, multi-purpose, <br></br> secure, and highly-performing websites that help brands gain online traction in no time.
 
                             </p>
 
@@ -92,36 +92,8 @@ Creativity
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
                     <Container>
-                        <Row className='align-items-center'>
-                            <Col lg={7}>
-                                <div className={styles.make}>
-                                    <form className={styles.formsbanner}>
-                                        <Row>
-                                            <Col lg={6}>
-                                                <div>
-                                                    <input type='text' className={styles.forminput} placeholder='Your Name' />
-                                                    <input type='email' className={`${styles.forminput} d-block d-lg-none`} placeholder='Email Address' />
-                                                    <input type='number' className={styles.forminput} placeholder='Phone Number' />
-                                                    <textarea className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
-                                                    <div className={`${styles.take} d-flex`}>
-                                                        <p className='font12 font-semibold fontf m-0'>We take your privacy <br /> seriously. Read our <span>Privacy</span></p>
-                                                        <input type='Submit' className={styles.notice} />
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                            <Col lg={6} className='d-none d-lg-block'>
-                                                <div>
-                                                    <input type='email' className={styles.forminput} placeholder='Email Address' />
-                                                    <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </form>
-                                </div>
-                            </Col>
-                            <Col lg={5}>
-                                <NewAddress />
-                            </Col>
+                        <Row className='align-items-start'>
+                            <NewAddress />
                         </Row>
                     </Container>
                 </div>

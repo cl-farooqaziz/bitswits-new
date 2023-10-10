@@ -21,7 +21,8 @@ import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
- 
+import NewAddress from './NewAddress';
+
 
 
 const Augmentebanner = () => {
@@ -63,18 +64,18 @@ const Augmentebanner = () => {
 
                 <Container>
 
-                   <Row>
+                    <Row>
                         <Col xl={12}>
                             <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Bitswits Is Your One-Stop Shop For</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                            Customized Augmented <br></br>
-Reality Apps Development Solutions
+                                Customized Augmented <br></br>
+                                Reality Apps Development Solutions
                             </h3>
 
                             <p className='white center mb-4'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  <br></br>
-industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  <br></br>
-scrambled it to make a type specimen book. It has survived 
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  <br></br>
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  <br></br>
+                                scrambled it to make a type specimen book. It has survived
                             </p>
 
 
@@ -90,102 +91,10 @@ scrambled it to make a type specimen book. It has survived
                         </Col>
                     </Row>
                 </Container>
-                <div className={`${styles.bannerform1} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
+                <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
                     <Container>
-                        <Row>
-                            <Col lg={7}>
-                                <div className={styles.make}>
-                                    <form className={styles.formsbanner}>
-                                        <Row>
-                                            <Col lg={6}>
-                                                <div>
-                                                    <input type='text' className={styles.forminput} placeholder='Your Name' />
-                                                    <input type='email' className={`${styles.forminput} d-block d-lg-none`} placeholder='Email Address' />
-                                                    <input type='number' className={styles.forminput} placeholder='Phone Number' />
-                                                    <textarea className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
-                                                    <div className={`${styles.take} d-flex`}>
-                                                        <p className='font12 font-semibold fontf m-0'>We take your privacy <br /> seriously. Read our <span>Privacy</span></p>
-                                                        <input type='Submit' className={styles.notice} />
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                            <Col lg={6} className='d-none d-lg-block'>
-                                                <div>
-                                                    <input type='email' className={styles.forminput} placeholder='Email Address' />
-                                                    <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </form>
-                                </div>
-                            </Col>
-                            <Col lg={5}>
-                                <div className={styles.read}>
-                                    <div className={`${styles.free}`}>
-                                        <p className='font16 texttran font-bold fontf'>
-                                            Make an obligation-free enquiry
-                                        </p>
-                                    </div>
-                                    <Row className={styles.locations}>
-                                        <Col lg={4} md={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon11} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>USA</p>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    +1 833 500 6007
-                                                </Link>
-                                                {/* <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
-                                                    +1 312 379 5987
-                                                </Link> */}
-                                            </div>
-                                            {/* <div className={`${styles.subInner} ms-3`}>
-                                                <p className='font12 font-bold fontf mb-1'>California</p>
-                                                <Link href="tel:+1 312 379 5987" className='font12 font-regular fontf white texdocration'>
-                                                    +1 312 379 5987
-                                                </Link>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    +1 833 500 6007
-                                                </Link>
-                                            </div> */}
-                                        </Col>
-                                        <Col lg={4} md={6} sm={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon12} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Middle East</p>
-                                                <Link href="tel:+97 155 503 1266" className='font12 font-regular fontf white texdocration'>
-                                                    +97 155 503 1266
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                        <Col lg={4} md={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon13} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Asia</p>
-                                                <Link href="tel:+92 346 828 0101" className='font12 font-regular fontf white texdocration'>
-                                                    +92 346 828 0101
-                                                </Link>
-                                            </div>
-                                        </Col>
-                                        {/* <Col md={6} sm={6} className={`${styles.locInner} col-6`}>
-                                            <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon14} className='img-fluid' />
-                                            </div>
-                                            <div className={styles.subInner}>
-                                                <p className='font12 font-bold fontf mb-1'>Malaysia</p>
-                                                <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
-                                                    Labuan
-                                                </Link>
-                                            </div>
-                                        </Col> */}
-                                    </Row>
-                                </div>
-                            </Col>
+                        <Row className='align-items-start'>
+                            <NewAddress />
                         </Row>
                     </Container>
                 </div>

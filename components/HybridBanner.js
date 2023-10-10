@@ -84,36 +84,8 @@ const HybridBanner = () => {
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
                     <Container>
-                        <Row className='align-items-center'>
-                            <Col lg={7}>
-                                <div className={styles.make}>
-                                    <form className={styles.formsbanner}>
-                                        <Row>
-                                            <Col lg={6}>
-                                                <div>
-                                                    <input type='text' className={styles.forminput} placeholder='Your Name' />
-                                                    <input type='email' className={`${styles.forminput} d-block d-lg-none`} placeholder='Email Address' />
-                                                    <input type='number' className={styles.forminput} placeholder='Phone Number' />
-                                                    <textarea className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
-                                                    <div className={`${styles.take} d-flex mt-2`}>
-                                                        <p className='font12 font-semibold fontf m-0'>We take your privacy seriously. <br /> Read our <span>Privacy Notes.</span></p>
-                                                        <input type='Submit' className={styles.notice} />
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                            <Col lg={6} className='d-none d-lg-block'>
-                                                <div>
-                                                    <input type='email' className={styles.forminput} placeholder='Email Address' />
-                                                    <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </form>
-                                </div>
-                            </Col>
-                            <Col lg={5}>
-                                <NewAddress />
-                            </Col>
+                        <Row className='align-items-start'>
+                            <NewAddress />
                         </Row>
                     </Container>
                 </div>

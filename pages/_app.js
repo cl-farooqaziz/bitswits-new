@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useRouter } from "next/router";
 import Footerlp from '@/components/Footer-lp';
 import NewHeaderFy from '@/components/NewHeaderFy';
+import NewLpHeader from '@/components/NewLpHeader';
 import Footernewfy from '@/components/Footernewfydesign';
 
 export default function App({ Component, pageProps }) {
@@ -38,35 +39,42 @@ export default function App({ Component, pageProps }) {
 
   const newfooterfy = router.pathname == '/new-home-page' || router.pathname == '/mobile-application';
 
+  const newlpheader = router.pathname == '/new-lp-page'
+
   return (
     <>
 
 
-      {newfooter ?
+      {newfooter ? (
 
         <NewHeaderFy />
 
-        :
+      ) : (
 
-        <Header />
-      }
+        newlpheader ? (
+
+          <NewLpHeader />
+
+        ) : (
+
+          <Header />
+          
+        )
+      )}
+
 
       <Component {...pageProps} />
-
-
 
 
       {newfooter ? (
 
         <Footerlp />
 
-      )  : (
+      ) : (
 
         <Footernewfy />
 
       )}
-
-
 
 
     </>

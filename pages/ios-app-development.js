@@ -22,6 +22,7 @@ import Newsuccess from '@/components/NewMblSuccess';
 import Technologieswe2dgame from '@/components/Technologieswe2dgame';
 import Wealth2d from '@/components/Wealth2d';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
+import NewMblWhy from '@/components/NewMblWhy';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -44,9 +45,10 @@ export default function gamedevelopmentcompany() {
 
             <Iosbanner />
             <IosMaintainlogo />
-            <NewMblWho />
             <Justbuildit />
+            <NewMblWho />
             <NewMblWhat />
+            <NewMblWhy />
             <NewiosPortFolio />
             <Newsuccess />
             <div className='spacingtb1'>
