@@ -5,7 +5,6 @@ import dynamic from 'next/dynamic';
 import NewMblWhat from '@/components/NewMblWhat';
 import NewMblGlobal from '@/components/NewMblGlobal';
 import NewMblSlider from '@/components/NewMblSlider';
-import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
 import NewMblNextProject from '@/components/NewMblNextProject';
 import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
@@ -18,7 +17,11 @@ import HomeLocation from '@/components/HomeLocation';
 import NativeBanner from '@/components/NativeBanner';
 import NewNativeServices from '@/components/NewNativeServices';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-
+import NewMblWhy from '@/components/NewMblWhy';
+import Technologieswe from '@/components/Technologieswe';
+import NewHomeAbout from '@/components/NewHomePageAbout';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewHomeSlider from '@/components/NewHomeSlider';
 
 export default function nativeMobile() {
 
@@ -32,15 +35,19 @@ export default function nativeMobile() {
             </Head>
 
             <NativeBanner />
+            <NewHomeAbout />
             <NewNativeServices />
-            <NewHybridWho />
             <Justbuildit />
+            <NewHybridWho />
             <NewMblWhat />
+            <NewMblWhy />
             <NewHybridPortfolio />
             <Newsuccess />
-            <NewMblTechnologiesWe />
-            <NewMblGlobal />
-            <NewMblSlider />
+            <div className='spacingtb1'>
+            <Technologieswe />
+            </div>
+            <NewHomeGlobal />
+            <NewHomeSlider />
             <NewMblNextProject />
             <Faqs />
             <HomeLocation />

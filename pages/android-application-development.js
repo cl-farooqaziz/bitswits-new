@@ -24,6 +24,7 @@ import Wealth2d from '@/components/Wealth2d';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
 import NewMblWhy from '@/components/NewMblWhy';
 
+
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
@@ -44,6 +45,7 @@ export default function gamedevelopmentcompany() {
 
 
             <AndriodBanner />
+            <NewHomeAbout />
             <AndriodMaintainlogo />
             <NewMblWho />
             <Justbuildit />

@@ -44,6 +44,7 @@ export default function gamedevelopmentcompany() {
 
 
             <AiBanner />
+            <NewHomeAbout />
             <AiMaintainlogo />
             <NewMblWho />
             <Justbuildit />

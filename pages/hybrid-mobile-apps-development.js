@@ -16,7 +16,11 @@ import NewHybridWho from '@/components/NewHybridWho';
 import NewHybridPortfolio from './NewHybridPortfolio';
 import HomeLocation from '@/components/HomeLocation';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-
+import NewHomeAbout from '@/components/NewHomePageAbout';
+import NewMblWhy from '@/components/NewMblWhy';
+import Technologieswe from '@/components/Technologieswe';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewHomeSlider from '@/components/NewHomeSlider';
 
 export default function HybridMobile() {
 
@@ -30,15 +34,19 @@ export default function HybridMobile() {
             </Head>
 
             <HybridBanner />
+            <NewHomeAbout />
             <NewHybridServices />
-            <NewHybridWho />
             <Justbuildit />
+            <NewHybridWho />
             <NewMblWhat />
+            <NewMblWhy />
             <NewHybridPortfolio />
             <Newsuccess />
-            <NewMblTechnologiesWe />
-            <NewMblGlobal />
-            <NewMblSlider />
+            <div className='spacingtb1'>
+            <Technologieswe />
+            </div>
+            <NewHomeGlobal />
+            <NewHomeSlider />
             <NewMblNextProject />
             <Faqs />
             <HomeLocation />

@@ -17,6 +17,11 @@ import NewHybridPortfolio from './NewHybridPortfolio';
 import HomeLocation from '@/components/HomeLocation';
 import FlutterMaintain from '@/components/FlutterMaintain';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+import NewHomeAbout from '@/components/NewHomePageAbout';
+import NewMblWhy from '@/components/NewMblWhy';
+import Technologieswe from '@/components/Technologieswe';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewHomeSlider from '@/components/NewHomeSlider';
 
 
 export default function HybridMobile() {
@@ -31,15 +36,19 @@ export default function HybridMobile() {
             </Head>
 
             <FlutterBanner />
+            <NewHomeAbout />
             <FlutterMaintain />
-            <NewHybridWho />
             <Justbuildit />
+            <NewHybridWho />
             <NewMblWhat />
+            <NewMblWhy />
             <NewHybridPortfolio />
             <Newsuccess />
-            <NewMblTechnologiesWe />
-            <NewMblGlobal />
-            <NewMblSlider />
+            <div className='spacingtb1'>
+            <Technologieswe />
+            </div>
+            <NewHomeGlobal />
+            <NewHomeSlider />
             <NewMblNextProject />
             <Faqs />
             <HomeLocation />

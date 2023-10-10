@@ -19,6 +19,11 @@ import FlutterMaintain from '@/components/FlutterMaintain';
 import ReactNativeBanner from '@/components/ReactNativeBanner';
 import ReactnativeMaintain from '@/components/ReactnativeMaintain';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+import NewHomeAbout from '@/components/NewHomePageAbout';
+import NewMblWhy from '@/components/NewMblWhy';
+import Technologieswe from '@/components/Technologieswe';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewHomeSlider from '@/components/NewHomeSlider';
 
 
 export default function ReactNativeMobile() {
@@ -33,15 +38,18 @@ export default function ReactNativeMobile() {
             </Head>
 
             <ReactNativeBanner />
+            <NewHomeAbout />
             <ReactnativeMaintain />
-            <NewHybridWho />
             <Justbuildit />
+            <NewHybridWho />
             <NewMblWhat />
             <NewHybridPortfolio />
             <Newsuccess />
-            <NewMblTechnologiesWe />
-            <NewMblGlobal />
-            <NewMblSlider />
+            <div className='spacingtb1'>
+            <Technologieswe />
+            </div>
+            <NewHomeGlobal />
+            <NewHomeSlider />
             <NewMblNextProject />
             <Faqs />
             <HomeLocation />

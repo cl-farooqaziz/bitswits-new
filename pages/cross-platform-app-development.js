@@ -45,6 +45,7 @@ export default function gamedevelopmentcompany() {
 
 
             <CrossBanner />
+            <NewHomeAbout />
             <Partnercross />
             <CrossMaintainlogo />
             <NewMblWho />
