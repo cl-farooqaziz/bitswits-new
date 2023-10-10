@@ -46,8 +46,8 @@ export default function augmentedrealityappsdevelopment() {
             <Augmentebanner />
             <NewHomeAbout />
             <AugmentedMaintainlogo />
-            <NewMblWho />
             <Justbuildit />
+            <NewMblWho />
             <NewMblWhat />
             <NewMblWhy />
             <NewiosPortFolio />

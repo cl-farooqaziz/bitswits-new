@@ -49,8 +49,8 @@ export default function gamedevelopmentcompany() {
             <WebappBanner />
             <NewHomeAbout />
             <Dedicatedweb />
-            <NewMblWho />
             <Justbuildit />
+            <NewMblWho />
             <NewMblWhat />
             <NewMblWhy />
             <NewiosPortFolio />

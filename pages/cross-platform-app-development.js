@@ -48,8 +48,8 @@ export default function gamedevelopmentcompany() {
             <NewHomeAbout />
             <Partnercross />
             <CrossMaintainlogo />
-            <NewMblWho />
             <Justbuildit />
+            <NewMblWho />
             <NewMblWhat />
             <NewMblWhy />
             <NewiosPortFolio />

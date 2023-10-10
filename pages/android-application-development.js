@@ -47,8 +47,8 @@ export default function gamedevelopmentcompany() {
             <AndriodBanner />
             <NewHomeAbout />
             <AndriodMaintainlogo />
-            <NewMblWho />
             <Justbuildit />
+            <NewMblWho />
             <NewMblWhat />
             <NewMblWhy />
             <NewiosPortFolio />
