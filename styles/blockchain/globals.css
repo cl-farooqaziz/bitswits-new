@@ -355,7 +355,7 @@ animation-duration: 3s;
 
 .mixColor {
   height: 50px;
-  z-index: 100;
+  z-index: 1;
   position: relative;
   bottom: -40px;
   background: linear-gradient(360deg,#00120600, #050505, #050505, #00000000);

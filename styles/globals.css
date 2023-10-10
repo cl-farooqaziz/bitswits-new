@@ -3,6 +3,11 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
+  --gradient: linear-gradient(
+    90deg,
+    rgba(116, 25, 227, 0.5) 0%,
+    rgba(243, 47, 92, 0.5) 100%
+  );
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -25,6 +30,26 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+img,
+svg,
+i,
+a,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div {
+  z-index: 3;
 }
 
 /* fontfamily */
@@ -201,7 +226,7 @@ body {
   line-height: 280px;
 }
 
-.f-40{
+.f-40 {
   font-size: 40px;
   line-height: 50px;
 }
@@ -618,7 +643,24 @@ a {
   display: none;
 }
 
-/* =========================== */
+/* =============Custom Cursor============== */
+
+.cursor {
+  position: fixed;
+  width: 350px;
+  height: 350px;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background-image: var(--gradient);
+  filter: blur(131px);
+  /* opacity: 0.5; */
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.cursorActive {
+  transform: translate(-50%, -50%) scale(1);
+}
 
 /* ourservicesfaqs */
 
@@ -2461,8 +2503,6 @@ button {
   left: 10px;
 }
 
-
-
 .HomeBanner {
   position: relative;
   top: 0;
@@ -2491,7 +2531,7 @@ button {
 
 .mixColor {
   height: 50px;
-  z-index: 100;
+  z-index: 1;
   position: relative;
   bottom: -40px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
@@ -2499,7 +2539,7 @@ button {
 
 .mixColor1 {
   height: 50px;
-  z-index: 100;
+  z-index: 1;
   position: relative;
   bottom: -215px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
@@ -2507,7 +2547,7 @@ button {
 
 .mixColor2 {
   height: 50px;
-  z-index: 100;
+  z-index: 1;
   position: relative;
   bottom: -165px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
