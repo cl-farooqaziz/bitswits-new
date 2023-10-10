@@ -23,6 +23,7 @@ import Technologieswe2dgame from '@/components/Technologieswe2dgame';
 import Wealth2d from '@/components/Wealth2d';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
 import Partnercross from '@/components/Partnercross';
+import NewMblWhy from '@/components/NewMblWhy';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -49,6 +50,7 @@ export default function gamedevelopmentcompany() {
             <NewMblWho />
             <Justbuildit />
             <NewMblWhat />
+            <NewMblWhy />
             <NewiosPortFolio />
             <Newsuccess />
             <div className='spacingtb1'>

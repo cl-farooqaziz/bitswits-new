@@ -92,7 +92,7 @@ scrambled it to make a type specimen book. It has survived
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                    <Container>
+                <Container className={styles.appios}>
                         <Row className='align-items-start'>
                             <NewAddress />
                         </Row>
@@ -109,6 +109,9 @@ scrambled it to make a type specimen book. It has survived
                             <Image alt="bitswits" src={icon30} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
+                            <Image alt="bitswits" src={icon80} className="img-fluid w-25" />
+                        </div>
+                        <div className={styles.strpImg}>
                             <Image alt="bitswits" src={icon40} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
@@ -120,9 +123,7 @@ scrambled it to make a type specimen book. It has survived
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-                        <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon80} className="img-fluid w-25" />
-                        </div>
+                   
                     </Slider>
                 </div>
             </section>

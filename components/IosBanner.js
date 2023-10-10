@@ -35,7 +35,7 @@ const Iosbanner = () => {
         speed: 5000,
         pauseOnHover: false,
         cssEase: 'linear',
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
             {
