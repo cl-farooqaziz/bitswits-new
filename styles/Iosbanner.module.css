@@ -372,6 +372,21 @@
   color: #707070;
 }
 
+@-moz-document url-prefix() {
+  .menu::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    background: linear-gradient(183deg,#4a78ef,#eb335b 65%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+      mask-composite: add, add;
+    -webkit-mask-composite: exclude;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+} 
+
 /* =========================================== */
 
 @media screen and (max-width: 1920px) { 
