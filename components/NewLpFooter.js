@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image'
-import styles from '@/styles/Footerlp.module.css'
+import styles from '@/styles/NewLpFooter.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 //images
-import call from '../public/images/icons/phone-icon.webp'
-import mail from '../public/images/icons/email-icon.webp'
-import fb from '../public/images/icons//fb-icon.webp'
-import inta from '../public/images/icons/insta-icon.webp'
-import tweet from '../public/images/icons/twitter-icon.webp'
-import linkedin from '../public/images/icons/linkedin-icon.webp'
-import youtube from '../public/images/icons/youtube-icon.webp'
+import call from '../public/newlppage/phone-icon.webp'
+import mail from '../public/newlppage/email-icon.webp'
+import fb from '../public/newlppage//fb-icon.webp'
+import inta from '../public/newlppage/insta-icon.webp'
+import tweet from '../public/newlppage/twitter-icon.webp'
+import linkedin from '../public/newlppage/linkedin-icon.webp'
+import youtube from '../public/newlppage/youtube-icon.webp'
 //
 
 
@@ -20,7 +20,7 @@ const Footerlp = () => {
 
     return (
         <>
-            <footer className={styles.footer}>
+            <footer className={`${styles.footer} ${styles.newLpFooter}`}>
                 <Container>
 
                     <div className={styles.footerNav}>
@@ -32,9 +32,6 @@ const Footerlp = () => {
                                 <Row>
                                     <Col md={6}>
                                         <ul className='p-0 mb-0'>
-
-
-
                                             <li> <Link href="/ios-app-development-company">Ios App Development</Link></li>
                                             <li> <Link href="/mobile-app-development">Mobile App Development</Link></li>
                                             <li> <Link href="/android-app-development-company">Android App Development</Link></li>
@@ -43,22 +40,15 @@ const Footerlp = () => {
                                             <li> <Link href="/wearable-app-development-company">Wearable App Development</Link></li>
                                             <li> <Link href="/cross-platform-app-development-company">Cross Platform App Development</Link></li>
                                             <li> <Link href="/web-app-development-company">Web App Development</Link></li>
-
-
                                         </ul>
                                     </Col>
                                     <Col md={6}>
                                         <ul className='p-0'>
-
-
                                             <li><Link href="/web-development">Web Development</Link>  </li>
                                             <li><Link href="/php-development-service">Php Development Services</Link>  </li>
                                             <li><Link href="/e-commerence-development">ECommerce Development</Link>  </li>
                                             <li><Link href="/enterprise-portal-solution">Enterprise Portal Solution</Link>  </li>
                                             <li><Link href="/magento-enterprise-solution">Magento Enterprise Solution</Link>  </li>
-
-
-
                                         </ul>
                                     </Col>
                                 </Row>
@@ -70,8 +60,6 @@ const Footerlp = () => {
                                 <Row>
                                     <Col md={6}>
                                         <ul className='p-0 mb-0'>
-
-
                                             <li>  <Link href="/game-app-development-company-lp" className="modal-toggle">  Game App Development</Link> </li>
                                             <li>  <Link href="/2d-game-development-company-lp" className="modal-toggle">  2D Game Development </Link> </li>
                                             <li>  <Link href="/3d-game-development-company-lp" className="modal-toggle">  3D Game Development </Link> </li>
@@ -80,9 +68,6 @@ const Footerlp = () => {
                                             <li>  <Link href="/game-app-development-company-lp" className="modal-toggle">  Game Development </Link> </li>
                                             <li>  <Link href="#" className="modal-toggle">  2D Art </Link> </li>
                                             <li>  <Link href="#" className="modal-toggle">  3D Art </Link> </li>
-
-
-
                                         </ul>
                                     </Col>
                                     <Col md={6}>
@@ -90,7 +75,6 @@ const Footerlp = () => {
                                             <li>
                                                 <Link href="/blockchain-development-lp" className="modal-toggle">Blockchain Development</Link>
                                             </li>
-
                                         </ul>
                                     </Col>
                                 </Row>
@@ -124,7 +108,6 @@ const Footerlp = () => {
                                         <Link href="mailto:info@bitswits.co">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={mail}
-
                                                 loading="lazy"
                                             />
                                             <span className="email f-uppercase">Contact Email</span>
@@ -134,20 +117,9 @@ const Footerlp = () => {
                                         <Link href="tel:13123795987">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={call}
-
                                                 loading="lazy"
                                             />
                                             <span className="number">+1 312 379 5987</span>
-                                        </Link>
-                                    </li>
-                                    <li className="fw-bold">
-                                        <Link href="tel:18335006007">
-                                            <Image alt="bitswits" className='img-fluid'
-                                                src={call}
-
-                                                loading="lazy"
-                                            />
-                                            <span className="number">+1 833 500 6007</span>
                                         </Link>
                                     </li>
                                 </ul>
@@ -164,7 +136,6 @@ const Footerlp = () => {
                                         <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={fb}
-
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -173,7 +144,6 @@ const Footerlp = () => {
                                         <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={inta}
-
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -182,7 +152,6 @@ const Footerlp = () => {
                                         <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={tweet}
-
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -191,7 +160,6 @@ const Footerlp = () => {
                                         <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={linkedin}
-
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -200,7 +168,6 @@ const Footerlp = () => {
                                         <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits" className='img-fluid'
                                                 src={youtube}
-
                                                 loading="lazy"
                                             />
                                         </Link>

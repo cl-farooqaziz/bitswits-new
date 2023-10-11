@@ -7,6 +7,7 @@ import Footerlp from '@/components/Footer-lp';
 import NewHeaderFy from '@/components/NewHeaderFy';
 import NewLpHeader from '@/components/NewLpHeader';
 import Footernewfy from '@/components/Footernewfydesign';
+import NewLpFooter from '@/components/NewLpFooter';
 import Cursor from "@/components/Cursor";
 
 
@@ -98,8 +99,15 @@ export default function App({ Component, pageProps }) {
 
       ) : (
 
-        <Footernewfy />
+        newlpheader ? (
 
+          <NewLpFooter />
+
+        ) : (
+
+          <Footernewfy />
+
+        )
       )}
 
     </>

@@ -10,7 +10,7 @@ import arrow from '../public/newlppage/faqsarrow.png'
 
 const NewLpFaqs = () => {
 
-    const [faq1show, setfaq1] = useState(true);
+    const [faq1show, setfaq1] = useState(false);
     const [faq2show, setfaq2] = useState(false);
     const [faq3show, setfaq3] = useState(false);
     const [faq4show, setfaq4] = useState(false);
