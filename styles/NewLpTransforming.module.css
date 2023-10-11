@@ -24,3 +24,17 @@
     letter-spacing: 2px;
     margin-top: 20px;
 }
+
+
+@media screen and (max-width: 991px) {
+    .book {
+        margin: 25px auto;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .transformRow {
+        flex-direction: column-reverse;
+    }
+}

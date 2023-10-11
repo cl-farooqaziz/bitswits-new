@@ -93,24 +93,26 @@ const NewLpPublication = () => {
                             <h2 className='f-50 f-playfair f-700 black t-center text-white'> Many Got Featured In Major Publications Just By <br></br>Working With Us.
                             </h2>
                         </Col>
-                    </Row>
-                    <Row className="gy-3 mt-4">
-                        {bloglisting.map((item, i) =>
-                            <Col md={2} key={i} className='imgspacetop'>
-                                <div className={styles.publicationimg}>
-                                    <Image alt="bitswits" src={item.image} className='img-fluid' />
-                                </div>
-                            </Col>
-                        )}
+                        <Col lg={12} className={styles.brands}>
+                            {bloglisting.map((item, i) =>
+                                <Col md={2} key={i} className='imgspacetop'>
+                                    <div className={styles.publicationimg}>
+                                        <Image alt="bitswits" src={item.image} className='img-fluid' />
+                                    </div>
+                                </Col>
+                            )}
+                        </Col>
                     </Row>
                 </Container>
             </section>
-            <section className={`${styles.publi} d-lg-none d-block`}>
+            <section className={`${styles.publi} d-lg-none d-block bg-black`}>
                 <Container>
                     <Row className="gy-3">
-                        <Col md={12}>
-                            <h3 className='t-center f-18 f-montserrat f-700 orange'>PUBLICATIONS</h3>
-                            <h2 className='f-50 t-center black f-playfair'> Many Got Featured In Major <br></br>   Publications Just    By Working With Us.
+                        <Col lg={12}>
+                            <h3 className="f-20 f-montserrat f-700 mb-2 letterspace t-center text-white">Publications</h3>
+                        </Col>
+                        <Col lg={12}>
+                            <h2 className='f-50 f-playfair f-700 black t-center text-white'> Many Got Featured In Major Publications Just By <br></br>Working With Us.
                             </h2>
                         </Col>
                     </Row>

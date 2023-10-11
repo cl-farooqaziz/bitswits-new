@@ -21,6 +21,9 @@ const NewLpTransforming = () => {
                                 Digital Realities
                             </h3>
                         </Col>
+                    </Row>
+
+                    <Row className='align-items-center'>
                         <Col lg={6} className='mx-auto'>
                             <div>
                                 <h3 className={`f-40 font-bold my-1`}>Soul Sound - Music App</h3>
@@ -36,7 +39,9 @@ const NewLpTransforming = () => {
                                 <Image quality={75} src={foldimg} alt='Bitswits' loading="eager" />
                             </div>
                         </Col>
+                    </Row>
 
+                    <Row className={`${styles.transformRow} align-items-center`}>
                         <Col lg={6} className='mt-md-5'>
                             <div>
                                 <Image quality={75} src={foldimg2} alt='Bitswits' loading="eager" />
@@ -52,7 +57,9 @@ const NewLpTransforming = () => {
                                 <Link className={styles.book} href="#">VIEW CASE STUDY</Link>
                             </div>
                         </Col>
+                    </Row>
 
+                    <Row className='align-items-center'>
                         <Col lg={6} className='mx-auto mt-md-5'>
                             <div>
                                 <h3 className={`f-40 font-bold my-1`}>Soul Sound - Music App</h3>
@@ -68,8 +75,10 @@ const NewLpTransforming = () => {
                                 <Image quality={75} src={foldimg3} alt='Bitswits' loading="eager" />
                             </div>
                         </Col>
+                    </Row>
 
 
+                    <Row>
                         <div className='d-flex aligm-items-center justify-content-center mt-5'>
                             <Link className={styles.book} href="#">VIEW All</Link>
                         </div>

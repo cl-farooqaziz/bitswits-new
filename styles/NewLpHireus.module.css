@@ -21,11 +21,6 @@
     border: 0;
 }
 
-.resources.black .btnHire:hover {
-    background-color: #fff;
-    color: #000;
-}
-
 .hireUs {
     position: relative;
     text-align: center;
@@ -65,12 +60,6 @@
     text-transform: uppercase;
     border: 2px solid #000;
     margin: 0 auto;
-    transition: background-color 2s;
-}
-
-.btnHire:hover {
-    color: #fff;
-    background-color: #000;
     transition: background-color 2s;
 }
 

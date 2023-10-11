@@ -30,6 +30,25 @@
     transition: 1s ease-in-out;
 }
 
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0;
+}
+
 .publi {
     padding: 50px 0;
+}
+
+@media screen and (min-width: 991px) {
+    .public {
+        display: block !important;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .public {
+        display: none !important;
+    }
 }

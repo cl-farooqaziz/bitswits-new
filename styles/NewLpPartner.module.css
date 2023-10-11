@@ -107,6 +107,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+    .leftpadding {
+        height: 100%;
+    }
+
     .makes {
         padding-bottom: 25px;
     }
