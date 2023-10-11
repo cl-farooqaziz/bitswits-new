@@ -89,9 +89,32 @@ const NewHomeAbout = () => {
                                 <div onMouseEnter={() => fun1('active5')}
                                     onMouseLeave={() => fun2('secImage6')} className={isHovered == 'active5' ? styles.active5 : styles.secImage6}>
                                     <Image src={comma} className='img-fluid' />
-                                    <h4>BitsWits have done a great job making an attractive and eye-catching IOS application. I am grateful to the team for delivering this application perfectly on very short notice. Thanks a lot. <Image src={comma} className='img-fluid' /></h4>
-                                    <h5 className='mt-4'>Andrew Drake</h5>
-                                    <p>FOUNDER / CEO MARK PLACE</p>
+                                    <h4>The rider app developed by Bitswits transformed our ride-hailing service. The UI/UX is unmatched and our users love it! <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Rajesh K</h5>
+
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active6')}
+                                    onMouseLeave={() => fun2('secImage7')} className={isHovered == 'active6' ? styles.active6 : styles.secImage7}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>Our company's data visualization took a leap forward with the BI app from Bitswits. Accurate analytics and sleek presentation! <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Sophia T</h5>
+                                </div>
+
+
+                                <div onMouseEnter={() => fun1('active7')}
+                                    onMouseLeave={() => fun2('secImage8')} className={isHovered == 'active7' ? styles.active7 : styles.secImage8}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>Making informed business decisions is easier than ever with the BI app from Bitswits. Data visualization at its best! <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Samuel R</h5>
+                                </div>
+
+
+                                <div onMouseEnter={() => fun1('active8')}
+                                    onMouseLeave={() => fun2('secImage9')} className={isHovered == 'active8' ? styles.active8 : styles.secImage9}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>he social media app developed by Bitswits stands out in a crowded market. Fresh features and a user-centric approach! <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Natasha Z.</h5>
                                 </div>
 
 
@@ -126,6 +149,21 @@ const NewHomeAbout = () => {
                             <div onMouseEnter={() => fun1('active5')}
                                 onMouseLeave={() => fun2('secImage6')}
                                 className={styles.james5}></div>
+
+
+                            <div onMouseEnter={() => fun1('active6')}
+                                onMouseLeave={() => fun2('secImage7')}
+                                className={styles.james6}></div>
+
+
+                            <div onMouseEnter={() => fun1('active7')}
+                                onMouseLeave={() => fun2('secImage8')}
+                                className={styles.james7}></div>
+
+
+                            <div onMouseEnter={() => fun1('active8')}
+                                onMouseLeave={() => fun2('secImage9')}
+                                className={styles.james8}></div>
 
                         </Col>
                     </Row>
