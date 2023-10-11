@@ -74,7 +74,9 @@ export default function ReactNativeMobile() {
                 paraSix="Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others."
             />
             <NewHybridPortfolio />
-            <Newsuccess />
+           <div className='status'>
+           <Newsuccess />
+           </div>
             <section className='spacingtb1'>
             <Technologieswe />
             </section>

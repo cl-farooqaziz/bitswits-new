@@ -71,7 +71,9 @@ export default function HybridMobile() {
                 paraSix="To add features without writing repetitive code, BitsWits have created an extensive network of high-quality plugins for Flutter."
             />
             <NewHybridPortfolio />
-            <Newsuccess />
+            <div className='status'>
+           <Newsuccess />
+           </div>
             <section className='spacingtb1'>
             <Technologieswe />
             </section>
