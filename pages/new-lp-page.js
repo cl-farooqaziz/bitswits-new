@@ -5,7 +5,11 @@ import NewLpBanner from '@/components/NewLpBanner';
 import NewLpForm from '@/components/NewLpForm';
 import NewLpPlatform from '@/components/NewLpPlatform';
 import NewLpCounter from '@/components/NewLpCounter';
-import NewLpExpertise from '@/components/NewLpExpertise';
+import NewLpServices from '@/components/NewLpServices';
+import Partner from '@/components/Partner';
+import NewLpPartner from '@/components/NewLpPartner';
+import NewLpPublication from '@/components/NewLpPublication';
+
 
 export default function newLpPage() {
     return (
@@ -21,7 +25,9 @@ export default function newLpPage() {
             <NewLpForm />
             <NewLpPlatform />
             <NewLpCounter />
-            <NewLpExpertise />
+            <NewLpServices />
+            <NewLpPartner />
+            <NewLpPublication />
         </>
     )
 }

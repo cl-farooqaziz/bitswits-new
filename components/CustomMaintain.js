@@ -169,10 +169,10 @@ const CustomMaintain = () => {
                             <div className={styles.app5}>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Legacy Application
-                                         <br></br>
-                                         Modernization</h3>
+                                        <br></br>
+                                        Modernization</h3>
                                     <p className={styles.possibilities}>
-                                    Improve performance and throughput, upgrade UX/UI, and add new features to existing mobile apps.
+                                        Improve performance and throughput, upgrade UX/UI, and add new features to existing mobile apps.
                                     </p>
                                 </div>
                             </div>
