@@ -102,8 +102,8 @@ const IosMaintainlogo = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}> Ios App Development Services
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>Craft Incredible Apps: Hire iOS <br></br>
-App Developer!</h1>
+                            <h3 className='text-white font65 font-bold text-center mb-0'>Craft Incredible Apps</h3>
+                            <h2 className='grdiant font70 font-bold text-center pb-4'>Hire iOS App Developer!</h2>
 
 <p className='white center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                         </Col>

@@ -205,6 +205,11 @@ div {
   line-height: 50px;
 }
 
+.font65 {
+  font-size: 60px;
+  line-height: 65px;
+}
+
 .f-80 {
   font-size: 80px;
 }
