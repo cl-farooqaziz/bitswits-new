@@ -28,7 +28,7 @@
 .app {
     background-image: url(../public/hybridmbldevelopment/card1.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -51,7 +51,7 @@
 .app1 {
     background-image: url(../public/hybridmbldevelopment/card2.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -60,11 +60,13 @@
     align-items: center;
     justify-content: center;
 }
-
+.cardContent{
+    padding: 10%;
+}
 .app2 {
     background-image: url(../public/hybridmbldevelopment/card3.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
