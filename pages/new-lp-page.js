@@ -6,9 +6,14 @@ import NewLpForm from '@/components/NewLpForm';
 import NewLpPlatform from '@/components/NewLpPlatform';
 import NewLpCounter from '@/components/NewLpCounter';
 import NewLpServices from '@/components/NewLpServices';
-import Partner from '@/components/Partner';
 import NewLpPartner from '@/components/NewLpPartner';
 import NewLpPublication from '@/components/NewLpPublication';
+import NewLpExpertise from '@/components/NewLpExpertise';
+import NewLpTransforming from '@/components/NewLpTransforming';
+import NewLpHire from '@/components/NewLpHire';
+import NewLpFaqs from '@/components/NewLpFaqs';
+import NewLpReady from '@/components/NewLpReady';
+import NewLpLocations from '@/components/NewLpLoction';
 
 
 export default function newLpPage() {
@@ -25,9 +30,15 @@ export default function newLpPage() {
             <NewLpForm />
             <NewLpPlatform />
             <NewLpCounter />
+            <NewLpExpertise />
             <NewLpServices />
             <NewLpPartner />
             <NewLpPublication />
+            <NewLpTransforming />
+            <NewLpHire />
+            <NewLpFaqs />
+            <NewLpReady />
+            <NewLpLocations />
         </>
     )
 }

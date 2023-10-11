@@ -3,11 +3,9 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(
-    90deg,
-    rgba(116, 25, 227, 0.5) 0%,
-    rgba(243, 47, 92, 0.5) 100%
-  );
+  --gradient: linear-gradient(90deg,
+      rgba(116, 25, 227, 0.5) 0%,
+      rgba(243, 47, 92, 0.5) 100%);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -281,9 +279,9 @@ div {
   color: #272727;
 }
 
-.status{
+.status {
   padding-top: 150px;
- background-color: black;
+  background-color: black;
 }
 
 
@@ -306,6 +304,10 @@ div {
 .white {
   color: #ffffff;
 }
+
+/* .grediant {
+  color: #F32F5C;
+} */
 
 .lightgrey {
   color: #b2b2b2;
@@ -389,6 +391,7 @@ a {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .spacingtb1 {
   padding-top: 100px;
   background-color: black;
@@ -1988,6 +1991,10 @@ li {
   line-height: 40px;
 }
 
+.f-45 {
+  font-size: 45px;
+}
+
 .f-50 {
   font-size: 50px;
   line-height: 60px;
@@ -1996,6 +2003,10 @@ li {
 .f-60 {
   font-size: 60px;
   line-height: 70px;
+}
+
+.f-75 {
+  font-size: 75px;
 }
 
 /* lineheight */
@@ -2702,6 +2713,15 @@ button {
     line-height: 30px;
   }
 
+  .f-40 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .f-45 {
+    font-size: 35px;
+  }
+
   .f-30 {
     font-size: 22px;
     line-height: 32px;
@@ -2818,6 +2838,20 @@ button {
     font-size: 30px;
   }
 
+  .f-45 {
+    font-size: 28px;
+  }
+
+  .f-40 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .f-18 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
   .font60 {
     font-size: 35px;
   }
@@ -2833,5 +2867,18 @@ button {
   .f32 {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .font20 {
+    font-size: 16px;
+  }
+
+  .f-16 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .f-75 {
+    font-size: 45px;
   }
 }

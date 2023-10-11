@@ -1,4 +1,4 @@
-.public{
+.public {
     background-image: url(../public/newlppage/publication-bg.png);
     background-position: center;
     background-size: cover;
@@ -18,12 +18,16 @@
 
 .publicationimg img {
     filter: grayscale(1);
-    opacity: .5;
+    opacity: 1;
 }
 
-.publicationimg:hover img {
-    filter: unset;
-    opacity: unset;
+.publicationimg {
+    transition: 1s ease-in-out;
+}
+
+.publicationimg:hover {
+    background: linear-gradient(#f32f53, #4a78ef);
+    transition: 1s ease-in-out;
 }
 
 .publi {

@@ -103,12 +103,7 @@ const FaqsLp = () => {
 
                     </Row>
                 </Container>
-
-
             </section>
-
-
-
         </>
     )
 }
