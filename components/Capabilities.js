@@ -43,7 +43,7 @@ const Capabilities = () => {
                         </Col>
                         <Col xl={12}>
                             <div className={styles.build}>
-                                <h2>The game plan for building your app.</h2>
+                                <h2>Our App Development Blueprint</h2>
                                 <Link className={styles.about} href="#">Connect Now!</Link>
                             </div>
                         </Col>
@@ -75,20 +75,20 @@ const Capabilities = () => {
                                         </div>
 
                                         <div className={styles.deter}>
-                                            <h3>Initial Consultation</h3>
-                                            <p>We begin by comprehending the objectives, target audiences, user base, and features of your app.</p>
+                                            <h3>Ideation and Conceptualization</h3>
+                                            <p>In this initial phase, we brainstorm and shape your app idea into a well-defined concept.</p>
 
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Determine UX challenges & goals
+                                                Conduct Market Research
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                competitor analysis.
+                                                Define App Goals and Objectives
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Map our user personas and use cases.
+                                                Create User Personas
                                             </p>
 
                                         </div>
@@ -110,20 +110,20 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Requirements Gathering</h3>
-                                            <p>We work together to define precise platform requirements, UI/UX requirements, and thorough specs.</p>
+                                            <h3>Planning and Strategy</h3>
+                                            <p>We outline the project plan, budget, and overall strategy to ensure a successful app development journey.</p>
 
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Monitoring and maintenance.
+                                                Develop a Project Roadmap
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Optimizing performance post-release.
+                                                Set a Budget and Timeline
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Post launch QA and optimization.
+                                                Define the Technology Stack
                                             </p>
 
                                         </div>
@@ -145,20 +145,20 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Design and Prototyping</h3>
-                                            <p>Wireframing and prototyping are tools we use to create flexible designs that are platform-optimized.</p>
+                                            <h3>Design and Wireframing</h3>
+                                            <p>This stage involves creating the visual and structural design of your app.</p>
 
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Mapping out app structure and flow.
+                                                Create Prototypes
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Designing low-fidelity skeletal framework.
+                                                Design User Interfaces
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Enabling quick revision based on feedback. 
+                                                Ensure User Experience Optimization
                                             </p>
 
                                         </div>
@@ -180,20 +180,20 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Development</h3>
-                                            <p>Our professionals create cross-platform apps with reusable content and components by using frameworks like React Native.</p>
+                                            <h3>Development and Coding</h3>
+                                            <p>Our development team turns your app's design into a functional, interactive application.</p>
 
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Applying visual branding assets and styles.
+                                                Write Clean and Efficient Code
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Crafting intuitive user experiences.
+                                                Implement Features and Functionality
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Creating an interactive prototype.
+                                                Conduct Regular Code Reviews
                                             </p>
 
                                         </div>
@@ -214,20 +214,20 @@ const Capabilities = () => {
                                             <Link href='#' className={styles.research}>Analytic</Link>
                                         </div>
                                         <div className={styles.deter}>
-                                            <h3>Testing and QA</h3>
-                                            <p>Thorough platform testing guarantees that your software offers the best user experience possible everywhere.</p>
+                                            <h3>Testing and Quality Assurance</h3>
+                                            <p>Rigorous testing is carried out to identify and fix bugs, ensuring a smooth user experience.</p>
 
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Applying visual branding assets and styles.
+                                                Perform Functional Testing
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Crafting intuitive user experiences.
+                                                Conduct User Acceptance Testing 
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Creating an interactive prototype.
+                                                Optimize Performance and Security
                                             </p>
 
                                         </div>
@@ -249,19 +249,19 @@ const Capabilities = () => {
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Launch and Deployment</h3>
-                                            <p>We assist you with platform launch across the board and offer continuing support and maintenance.</p>
+                                            <p>We prepare your app for its official launch and make it available to users.</p>
 
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Applying visual branding assets and styles.
+                                                Prepare for App Store Submission
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Crafting intuitive user experiences.
+                                                Develop a Marketing and Launch Plan
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Creating an interactive prototype.
+                                                Monitor Post-Launch Performance 
                                             </p>
                                         </div>
                                     </Col>

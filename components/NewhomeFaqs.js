@@ -78,7 +78,7 @@ const NewhomeFaqs = () => {
                 <Row className={styles.comfort}>
                         <Col lg={2}>
                             <h2 className="white f-20 f-500 left mt-3">
-                            Customer Support
+                            App Development   
                             </h2>
                         </Col>
                         <Col lg={6}>
@@ -96,13 +96,13 @@ const NewhomeFaqs = () => {
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
-                                        What Is Mobile Application Development?  {faq1show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                    How do I get started with app development at BitsWits?  {faq1show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
                                 <div className={faq1show ? 'd-block' : 'd-none'} >
                                     <p>
-                                        Mobile application development creates software applications that run on mobile devices and other connected devices, such as wearables, automotive systems, cameras, and more. It requires skill sets in design, development, testing, deployment, and maintenance to create innovative user experiences across multiple platforms. With that being said, businesses hire mobile app developers to stay ahead of the competition and deliver market-leading products to their customers.
+                                    Reach out to us via our contact page, and let's discuss your app idea.
                                     </p>
                                     <div className="mt-2">
                                         <Link href="#">
@@ -120,15 +120,13 @@ const NewhomeFaqs = () => {
                             <div className={`${faq2show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq2} className={styles.heading}>
                                     <h3>
-                                        Does BitsWits Offers Hybrid and Native app development? {faq2show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                    What types of apps does BitsWits specialize in developing? {faq2show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
                                 <div className={faq2show ? 'd-block' : 'd-none'}>
                                     <p>
-                                        BitsWits has a team of the best mobile app developers expert in providing customized development
-                                        solutions, whether Hybrid or Native mobile application development is required. Our developers
-                                        always come up with creative and innovative app ideas that are best in your interest.
+                                    We specialize in a wide range of app types, from mobile and web apps to custom enterprise solutions.
                                     </p>
                                     <div className="mt-2">
                                         <Link href="#">
@@ -146,15 +144,13 @@ const NewhomeFaqs = () => {
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
                                     <h3>
-                                        Why Choose BitsWits as a mobile app development company? {faq3show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                    How long does it typically take to develop an app? {faq3show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
                                 <div className={faq3show ? 'd-block' : 'd-none'}>
                                     <p>
-                                        BitsWits is a top mobile app development company due to its decent clientele, commitment to
-                                        excellence, and innovative mobile app development solutions. We enjoy the top spot in the
-                                        application development industry with affordable packages and professional services.
+                                    Timelines vary based on complexity, but we work efficiently to ensure timely delivery.
                                     </p>
                                     <div className="mt-2">
                                         <Link href="#">
@@ -172,14 +168,13 @@ const NewhomeFaqs = () => {
                             <div className={`${faq4show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq4} className={styles.heading}>
                                     <h3>
-                                        Is there any customer support available? {faq4show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                    What sets BitsWits apart in terms of customer support? {faq4show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
                                 <div className={faq4show ? 'd-block' : 'd-none'}>
                                     <p>
-                                        Yes, BitsWits offers 24/7 incredible customer support, even post-mobile apps development USA. We
-                                        do not let our customers hang in the middle with any query that may bring trouble to them.
+                                    Our dedicated support team ensures your needs are met throughout the development process and beyond.
                                     </p>
                                     <div className="mt-2">
                                         <Link href="#">
@@ -197,16 +192,13 @@ const NewhomeFaqs = () => {
                             <div className={`${faq5show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq5} className={styles.heading}>
                                     <h3>
-                                        How to choose a mobile app development company? {faq5show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                    Can you help me with app maintenance and updates post-launch? {faq5show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
                                 <div className={faq5show ? 'd-block' : 'd-none'}>
                                     <p>
-                                        Checking client portfolios, communicating your requirements clearly, and considering the
-                                        development cost will help you choose the best mobile app development agency. BitsWits practices
-                                        open communication so that the solution to your query is answered adequately to provide you with
-                                        the utmost satisfaction.
+                                    Yes, we offer ongoing support and maintenance services to keep your app up-to-date and functioning smoothly.
                                     </p>
                                     <div className="mt-2">
                                         <Link href="#">
@@ -224,17 +216,13 @@ const NewhomeFaqs = () => {
                             <div className={faq6show ? 'touch' : ''}>
                                 <div onClick={faq6} className={styles.heading}>
                                     <h3>
-                                        What industries does BitsWits cater to? {faq6show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                    How can I stay updated on the progress of my app development project? {faq6show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
                                 <div className={faq6show ? 'd-block' : 'd-none'}>
                                     <p>
-                                        At BitsWits, we specialize in developing innovative and efficient mobile applications for various
-                                        industries across the United States. We offer customized mobile solutions from e-commerce to
-                                        healthcare and gaming to meet each client's specific requirements and business. We are a mobile
-                                        application development company dedicated to creating apps that cater to each client's unique
-                                        needs.
+                                    We provide regular project updates and encourage open communication to keep you informed every step of the way.
                                     </p>
                                     <div className="mt-2">
                                         <Link href="#">

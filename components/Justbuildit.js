@@ -44,8 +44,8 @@ const Justbuildit = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <h2 className={styles.just}>Just Build It.</h2>
-                            <h3 className={styles.develop}>Design, Develop, and Grow with Bitswits.</h3>
+                            <h2 className={styles.just}>Build Your App</h2>
+                            <h3 className={styles.develop}>BitsWits to Hire, Watch Your App Ideas Aspire!</h3>
 
                             <div className={styles.pont}>
                             <Link className={styles.book} href="#">Book A Call</Link>

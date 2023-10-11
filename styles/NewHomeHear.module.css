@@ -9,7 +9,7 @@
 }
 
 .headContent {
-  max-width: 590px;
+  max-width: unset;
 }
 
 .btn_txt {

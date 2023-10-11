@@ -21,11 +21,10 @@ const NewHomeWho = () => {
                     <Row>
                         <Col lg={12}>
                             <div className={styles.text_content}>
-                                <h1 className='text-white f-60 font-bold'>Who we are.</h1>
-                                <p className={`${styles.wid} f-20 text-white`}>We design & build frontend apps for brands who
-                                    want to break barriers and accelerate growth.
+                                <h1 className='text-white f-60 font-bold'>Our Value Proposition</h1>
+                                <p className={`${styles.wid} f-20 text-white`}>With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success.
                                 </p>
-                                <p className={`${styles.width} font14`}>Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years.</p>
+                                <p className={`${styles.width} font14`}>Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option.</p>
                             </div>
                             <div className={styles.sec_btn}>
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
