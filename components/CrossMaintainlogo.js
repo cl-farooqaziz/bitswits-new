@@ -102,7 +102,7 @@ const AndriodMaintainlogo = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}> What We Do
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'> Cross-Platform App Development <br></br> One Codebase,Multiple Platforms, <br></br> Infinite Possibilities </h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'> <span className='grdiant f-50'>Cross-Platform App Development</span> <br></br> One Codebase,Multiple Platforms, Infinite Possibilities </h1>
 
 
                         </Col>

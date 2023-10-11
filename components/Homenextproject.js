@@ -63,7 +63,7 @@ const Homenextproject = () => {
               <div className={styles.closing}>
                 <div>
                   <h3>Brace yourself for an App-venture! </h3>
-                  <h2>Contact Us Now. </h2>
+                  <h2 className='grdiant'>Contact Us Now. </h2>
                 </div>
                 <div>
                   <Link href='telto:(833) 500-6007'>(833) 500-6007</Link>

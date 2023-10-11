@@ -102,7 +102,7 @@ const AndriodMaintainlogo = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}> Go Beyond Expectations With
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>Shaping the Future with Cutting-Edge <br></br> Artificial Intelligence  Development <br></br> Services</h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'>Shaping the Future with Cutting-Edge <br></br><span className='grdiant f-50'> Artificial Intelligence  Development </span><br></br> Services</h1>
 
 
                         </Col>

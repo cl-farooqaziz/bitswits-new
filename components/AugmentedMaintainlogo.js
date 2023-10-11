@@ -104,7 +104,7 @@ const AugmentedMaintainlogo = () => {
                             </p>
                             <h1 className='text-white f-55 font-bold text-center pb-4'>
                                 
-                            Enhance your customer's experience <br></br> and empower your employees with <br></br> top-tier Augmented Reality <br></br> Development Service
+                            Enhance your customer's experience <br></br> and empower your employees with top-tier <br></br>  <span className="grdiant f-40"> Augmented Reality Development </span> Service
                                 
                                 </h1>
 
