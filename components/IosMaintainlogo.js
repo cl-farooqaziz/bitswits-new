@@ -105,7 +105,7 @@ const IosMaintainlogo = () => {
                             <h3 className='text-white font65 font-bold text-center mb-0'>Craft Incredible Apps</h3>
                             <h2 className='grdiant font70 font-bold text-center pb-4'>Hire iOS App Developer!</h2>
 
-<p className='white center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+<p className='white center'>As a premier iOS app development company, our iOS developers create eye-catching and user-friendly iPhone and iPad apps that capture attention immediately. To develop customized applications that are appropriate for Apple devices, our professional iOS developers and designers make use of the newest iOS capabilities.</p>
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
