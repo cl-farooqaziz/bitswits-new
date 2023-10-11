@@ -31,7 +31,7 @@ const NewHomeSlider = () => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 className='f-80 font-bold white center'>What <span className=''>Clients</span> <br></br> <span className=''>Think</span> About US</h2>
+                            <h2 className='f-80 font-bold white center'>What <span className=''>Clients</span> <br></br> <span className='grdiant'>Think About US</span> </h2>
 
                             <div className='center mt-5'>
                                 <Image className='img-fluid' src={team1} />

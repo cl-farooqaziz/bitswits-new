@@ -43,9 +43,11 @@ export default function CustomMobile() {
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />
-            <NewMblWhy />
+            {/* <NewMblWhy /> */}
             <NewHybridPortfolio />
-            <Newsuccess />
+            <div className='status'>
+                <Newsuccess />
+            </div>
             <section className='spacingtb1'>
             <Technologieswe />
             </section>

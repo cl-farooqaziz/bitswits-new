@@ -49,7 +49,7 @@ export default function augmentedrealityappsdevelopment() {
             <Justbuildit />
             <NewMblWho />
             <NewMblWhat />
-            <NewMblWhy />
+            {/* <NewMblWhy /> */}
             <NewiosPortFolio />
             <Newsuccess />
             <section className='spacingtb1'>

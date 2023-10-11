@@ -1,11 +1,11 @@
 .tech {
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 700px center;
-  background-color: black; 
-  padding-top: 250px;
-  padding-bottom: 300px;
+  background-size: 66%;
+  background-position: 824px center;
+  background-color: black;
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
 
 .work {
