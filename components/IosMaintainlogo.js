@@ -100,7 +100,7 @@ const IosMaintainlogo = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}> Ios App Development Services
+                            <p className={` f-20 font-bold text-white text-center mb-0`}> iOS App Development Services
                             </p>
                             <h3 className='text-white font65 font-bold text-center mb-0'>Craft Incredible Apps</h3>
                             <h2 className='grdiant font70 font-bold text-center pb-4'>Hire iOS App Developer!</h2>

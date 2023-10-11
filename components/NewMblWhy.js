@@ -17,7 +17,7 @@ const NewMblWhy = (props) => {
                     <Row>
                         <Col lg={10} className='mx-auto'>
                             <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4>
-                            <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection</h2>
+                            <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection</h2>
                             <p className={`f-20 text-white font-bold text-center`}>
                                 Why Do You Require Our iOS Applications?
                             </p>
