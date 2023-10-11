@@ -21,6 +21,10 @@
   padding: 10px 5px;
 }
 
+.whyBox .whyImg img {
+  filter: brightness(500);
+}
+
 .sec_btn {
   display: flex;
   align-items: center;
