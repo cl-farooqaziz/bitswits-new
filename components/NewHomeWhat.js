@@ -21,7 +21,7 @@ const NewHomeWhat = () => {
                             <h1 className='text-white f-60 font-bold'>Why Hire Us</h1>
                             <p className={`${styles.wid} f-20 text-white`}>Is your current app failing to deliver the results you desire?
                             </p>
-                            <p className={`${styles.width} font14`}>At BitsWits, your app’s success is our top priority. We ensure your business stays updated with online trends and tech innovations. Contact us today to elevate your app's performance
+                            <p className={`${styles.width} font14`}>At BitsWits, your app’s success is our top priority. We ensure your business stays updated with online trends and tech innovations. Contact us today to elevate your app's performance.
                             </p>
                             <div className={styles.sec_btn}>
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>

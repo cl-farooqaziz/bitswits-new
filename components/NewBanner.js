@@ -20,12 +20,10 @@ const NewBanner = () => {
                     <Row>
                         <Col xl={12}>
                             <div className={styles.content}>
-                                <p className={`${styles.just} text-center f-20 mb-0`}>A modern digital factory</p>
-                                <h3 className={`${styles.develop} text-center f-60 font-bold`}>Designed for ambitious <br></br>
-                                    brands and innovative concepts.</h3>
-
+                                <p className={`${styles.just} text-center f-20 mb-0`}>Top Mobile App Development Company</p>
+                                <h3 className={`${styles.develop} text-center f-60 font-bold`}>Empowering Brands with Big Dreams and Innovative Visions</h3>
                                 <div className={styles.pont}>
-                                    <Link className={styles.about} href="#">Let's Connect</Link>
+                                    <Link className={styles.about} href="tel:+1 833 500 6007">Book A Call</Link>
                                 </div>
                             </div>
                         </Col>
@@ -33,7 +31,7 @@ const NewBanner = () => {
 
                 </Container>
             </section>
-            
+
             <HomeBannerSlider />
 
         </>

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
 //components
-import NewMblAbout from '@/components/NewMblAbout';
+import NewHomeAbout from '@/components/NewHomePageAbout';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import GamedevelopmentBanner from '@/components/GamedevelopmentBanner';
@@ -30,7 +30,7 @@ export default function mobileApplication() {
             </Head>
 
             <GamedevelopmentBanner />
-            <NewMblAbout />
+            <NewHomeAbout />
             <GameAdvantages />
             <GamingServices />
             <GameTechnologies />

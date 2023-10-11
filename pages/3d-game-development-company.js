@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
 //components
-import NewMblAbout from '@/components/NewMblAbout';
+import NewHomeAbout from '@/components/NewHomePageAbout';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import New3dBanner from '@/components/3dBanner';
@@ -32,7 +32,7 @@ const mobileApplication = () => {
             </Head>
 
             <New3dBanner />
-            <NewMblAbout />
+            <NewHomeAbout />
             <New3dAdvantage />
             <New3dTarget />
             <New3dMaintain />

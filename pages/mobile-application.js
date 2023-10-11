@@ -3,7 +3,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewMblBanner from '@/components/NewMblBanner';
-import NewMblAbout from '@/components/NewMblAbout';
+import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 import NewHomeHear from '@/components/NewHomeHear';
@@ -30,7 +30,7 @@ export default function mobileApplication() {
             </Head>
 
             <NewMblBanner />
-            <NewMblAbout />
+            <NewHomeAbout />
             <NewMblWho />
             <Justbuildit />
             <NewMblWhat />
