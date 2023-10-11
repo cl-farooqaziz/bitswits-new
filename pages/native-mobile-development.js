@@ -40,11 +40,13 @@ export default function nativeMobile() {
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />
-            <NewMblWhy />
+            {/* <NewMblWhy /> */}
             <NewHybridPortfolio />
-            <Newsuccess />
+            <div className='status'>
+                <Newsuccess />
+            </div>
             <section className='spacingtb1'>
-            <Technologieswe />
+                <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />

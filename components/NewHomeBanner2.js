@@ -17,9 +17,8 @@ const NewHomeBanner = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-20 mb-0`}>A modern digital factory</p>
-                            <h3 className={`${styles.develop} text-center f-60 font-bold`}>Designed for ambitious
-                                brands and innovative concepts.</h3>
+                            <p className={`${styles.just} text-center f-20 mb-0`}>Top Mobile App Development Company</p>
+                            <h3 className={`${styles.develop} text-center f-60 font-bold`}>Empowering Brands with Big Dreams and Innovative Visions</h3>
 
                             <div className={styles.pont}>
                                 <Link className={styles.book} href="#">Book A Call</Link>

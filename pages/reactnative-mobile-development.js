@@ -26,6 +26,16 @@ import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 
 
+//Icons 
+
+import icon23 from '../public/images/fynative/1.png'
+import icon24 from '../public/images/fynative/2.png'
+import icon25 from '../public/images/fynative/3.png'
+import icon26 from '../public/images/fynative/4.png'
+import icon27 from '../public/images/fynative/5.png'
+import icon28 from '../public/images/fynative/6.png'
+
+
 export default function ReactNativeMobile() {
 
     return (
@@ -43,8 +53,30 @@ export default function ReactNativeMobile() {
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />
+            <NewMblWhy 
+                iconOne={icon23}
+                iconTwo={icon24}
+                iconThree={icon25}
+                iconFour={icon26}
+                iconFive={icon27}
+                iconSix={icon28}
+                titleOne="Cross-Platform Saves Cost and Time"
+                titleTwo="Better and Native Performance"
+                titleThree="Reusability"
+                titleFour="Live Reloading"
+                titleFive="Open-Source Framework"
+                titleSix="Corporate Backed"
+                paraOne="React native apps allow building one application that runs on both iOS and Android from a single JavaScript codebase."
+                paraTwo="For near-native performance, React Native compiles native code. It doesn’t have hybrid lag like other cross-platform options"
+                paraThree="Development is accelerated by the ability to reuse a significant amount of code, such as business logic and APIs, between iOS and Android."
+                paraFour="Live reloading speeds the development process by allowing code updates to be made instantly"
+                paraFive="At BitsWits, our team utilizes the active open source React Native framework to build applications without bugs."
+                paraSix="Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others."
+            />
             <NewHybridPortfolio />
-            <Newsuccess />
+           <div className='status'>
+           <Newsuccess />
+           </div>
             <section className='spacingtb1'>
             <Technologieswe />
             </section>

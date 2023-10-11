@@ -62,8 +62,8 @@ const Homenextproject = () => {
             <Col xl={12}>
               <div className={styles.closing}>
                 <div>
-                  <h3>Let's start talking about your</h3>
-                  <h2>Next Project.</h2>
+                  <h3>Brace yourself for an App-venture! </h3>
+                  <h2>Contact Us Now. </h2>
                 </div>
                 <div>
                   <Link href='telto:(833) 500-6007'>(833) 500-6007</Link>

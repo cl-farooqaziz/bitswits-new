@@ -81,7 +81,7 @@ Development Company
                             </div>
 
                             <div className='mt-5 center'>
-                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
+                                <Image quality={95} src={BannerImage} className={`img-fluid`} />
                             </div>
 
                         </Col>

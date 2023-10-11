@@ -1,6 +1,6 @@
 .newHomeBg {
-    padding-top: 250px;
-    padding-bottom: 300px;
+    padding-top: 50px;
+    padding-bottom: 150px;
     background: #000;
 }
 
@@ -27,15 +27,15 @@
 
 .app {
     background-image: url(../public/hybridmbldevelopment/card1.png);
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    height: 440px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
+    background-size: cover;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    height: 531px;
 }
 
 .cardContent {
@@ -50,28 +50,33 @@
 
 .app1 {
     background-image: url(../public/hybridmbldevelopment/card2.png);
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    height: 440px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    background-position: center;
+    background-size: cover;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    height: 531px;
 
+
+    
+}
+.cardContent{
+    padding: 10%;
+}
 .app2 {
     background-image: url(../public/hybridmbldevelopment/card3.png);
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    height: 440px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
+    background-size: cover;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    height: 531px;
 
 }
 
@@ -253,6 +258,14 @@
         width: 65%;
     }
 
+
+}
+
+@media screen and (max-width: 1400px) { 
+
+.app, .app1, .app2{
+    background-size: contain;
+}
 
 }
 

@@ -23,13 +23,13 @@ const NewHomeHear = () => {
                 <Container className={styles.polt}>
 
                     <Row>
-                        <Col lg={6}>
-                            <p className=' f-20 font-bold text-white'>Let's work together</p>
-                            <h2 className={`${styles.headContent} text-white f-60 font-bold`}>We would love to hear from you!
+                        <Col lg={12}>
+                            <p className=' f-20 font-bold text-white'>Mobile app development company </p>
+                            <h2 className={`${styles.headContent} text-white f-60 font-bold`}>Your Project, Our Expertise <br></br> – A Winning Combination
                             </h2>
                             <div className={styles.sec_btn}>
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
-                                    Get to know us
+                                Contact us now
                                     <span>
                                         <Image quality={75} src={ButtonIcon} width={15} height={15} />
                                     </span>

@@ -48,7 +48,6 @@ p,
 span,
 div {
   z-index: 3;
-  position: relative;
 }
 
 /* fontfamily */
@@ -206,6 +205,11 @@ div {
   line-height: 50px;
 }
 
+.font65 {
+  font-size: 60px;
+  line-height: 65px;
+}
+
 .f-80 {
   font-size: 80px;
 }
@@ -276,6 +280,12 @@ div {
 .liBlack {
   color: #272727;
 }
+
+.status{
+  padding-top: 150px;
+ background-color: black;
+}
+
 
 .grdiant {
   background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);

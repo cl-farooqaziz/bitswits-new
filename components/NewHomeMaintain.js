@@ -110,18 +110,20 @@ const NewHomeMaintain = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}>The Work We Undertake
+                            <p className={` f-20 font-bold text-white text-center mb-0`}>Delivering Excellence Daily
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center'>The Genres Of Games We Develop</h1>
-                            <p className='m-0 text-white text-center'>We are famous for creating immersive game experiences with engaging storylines, <br></br> stunning visuals, and innovative gameplay mechanics.</p>
-                            <p className='text-white text-center pb-3'>Here's an exciting rundown of what we bring to the table…</p>
+                            <h1 className='text-white f-55 font-bold text-center'>Trusted Development Company For Tech Solutions</h1>
+                            <p className='m-0 text-white text-center'>We, at BitsWits, are dedicated to being innovative and making our clients happy. </p>
+                            <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution, 
+We bring the following services to the table…
+</p>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Mobile App Development</h3>
                                     <p className={styles.para}>
-                                        The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.
+                                    We develop custom mobile apps from initial consultation to deployment, driving business growth across various industries.
                                     </p>
                                 </div>
 
@@ -135,7 +137,7 @@ const NewHomeMaintain = () => {
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Game Development</h3>
                                     <p className={styles.para}>
-                                        Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.
+                                    Hire our game development company to captivate your audience and transport them to thrilling virtual worlds.
                                     </p>
                                 </div>
 
@@ -148,7 +150,7 @@ const NewHomeMaintain = () => {
                                 <div>
                                     <h3 className='text-black f-20 font-bold text-center'>Blockchain Development</h3>
                                     <p className={styles.para}>
-                                        We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.
+                                    We specialize in developing solutions that fuels enterprise growth and efficiency through blockchain technology.
                                     </p>
                                 </div>
 
@@ -163,7 +165,7 @@ const NewHomeMaintain = () => {
                                     <Col xl={8}>
                                         <h3 className='text-white f-20 font-bold '>Artificial Intelligence (Ai)</h3>
                                         <p className={styles.para1}>
-                                            Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.
+                                        Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through artificial intelligence that raises its potential.
                                         </p>
 
                                         <div className={styles.pont}>
@@ -184,7 +186,7 @@ const NewHomeMaintain = () => {
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Web App Development</h3>
                                     <p className={styles.possibilities}>
-                                        Our top app developers excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.
+                                    Our top app developers excel in web app development, showcasing expert skills to ensure client satisfaction and punctual project delivery.
                                     </p>
                                 </div>
                                 <div id="lottie-web"></div>
@@ -197,7 +199,7 @@ const NewHomeMaintain = () => {
                                 <div>
                                     <h3 className='text-black f-20 font-bold text-center'>UI/UX App Design</h3>
                                     <p className={styles.para3}>
-                                        Our team of professional UI/UX app designers help develop designs that guide users towards meaningful interactions and impactful user experience.
+                                    Our team comprises professional responsive app designers who develop prototypes aimed at guiding users to meaningful interactions and achieving impactful user experiences. 
                                     </p>
                                 </div>
                                 <div id="lottie-uiux"></div>
@@ -211,7 +213,7 @@ const NewHomeMaintain = () => {
                                 <div className={styles.pick}>
                                     <div className={styles.power}>
                                         <h3 className='text-white f-20 font-bold'>AR/VR</h3>
-                                        <p className='text-white f-16'>Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.</p>
+                                        <p className='text-white f-16'>BitsWits serves as your AR/VR portal, we specialize in creating imaginative concepts into compelling digital realities that captivate, entertain, and inspire your audience. </p>
                                     </div>
                                     <div>
                                         <div id="lottie-arvrapp"></div>
@@ -227,7 +229,7 @@ const NewHomeMaintain = () => {
                             <div className={styles.app7}>
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Internet of Things</h3>
-                                    <p className={styles.para9}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
+                                    <p className={styles.para9}>We lead in IoT innovation delivering smart, connected solutions drive automation, efficiency, and connectivity across industries.</p>
                                 </div>
 
                                 <div id="lottie-internetapp"></div>

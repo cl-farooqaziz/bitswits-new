@@ -1,6 +1,6 @@
 .newHomeBg {
-    padding-top: 250px;
-    padding-bottom: 300px;
+    padding-top: 50px;
+    padding-bottom: 150px;
     background: #000;
 }
 
@@ -10,7 +10,7 @@
 
 .para {
     font-size: 15px;
-    max-width: 530px;
+    max-width: 495px;
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -29,7 +29,7 @@
 .app {
     background-image: url(../public/nativemobiledevelopment/card1.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -44,7 +44,7 @@
 .app1 {
     background-image: url(../public/nativemobiledevelopment/card2.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;

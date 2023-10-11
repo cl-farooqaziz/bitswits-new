@@ -7,7 +7,7 @@ import NewHomeWho from '@/components/NewHomeWho';
 import NewHomeWhat from '@/components/NewHomeWhat';
 import NewHomeHear from '@/components/NewHomeHear';
 import NewHomeMaintain from '@/components/NewHomeMaintain';
-import Newglobal from '@/components/Newglobal';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
 import Newslider from '@/components/Newslider';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
@@ -39,7 +39,7 @@ export default function Home() {
             <Justbuildit />
             <NewHomeHear/>
             <NewHomeMaintain/>
-            <Newglobal />
+            <NewHomeGlobal />
             <Capabilities/>
             <Newslider />
             <Technologieswe/>
