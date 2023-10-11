@@ -1,19 +1,18 @@
 import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
+import NewHomeBanner from '@/components/NewHomeBanner2';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewHomeWho from '@/components/NewHomeWho';
 import NewHomeWhat from '@/components/NewHomeWhat';
-import NewHomeHear from '@/components/NewHomeHear'
+import NewHomeHear from '@/components/NewHomeHear';
+import NewHomeMaintain from '@/components/NewHomeMaintain';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import Newslider from '@/components/Newslider';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
-import NewBanner from '@/components/NewBanner';
-import NewMaintain from '@/components/NewMaintain';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import HomeLocation from '@/components/HomeLocation';
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
@@ -33,20 +32,20 @@ export default function Home() {
             </Head>
 
 
-            <NewBanner />
+            <NewHomeBanner />
             <NewHomeAbout />
             <NewHomeWho />
             <NewHomeWhat />
             <Justbuildit />
-            <NewHomeHear />
-            <NewMaintain />
+            <NewHomeHear/>
+            <NewHomeMaintain/>
             <NewHomeGlobal />
-            <Capabilities />
-            <NewHomeSlider />
-            <Technologieswe />
-            <Homenextproject />
+            <Capabilities/>
+            <Newslider />
+            <Technologieswe/>
+            <Homenextproject/>
             <Faqs />
-            <HomeLocation />
+            
 
 
         </>

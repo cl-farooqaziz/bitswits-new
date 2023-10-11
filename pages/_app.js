@@ -7,7 +7,7 @@ import Footerlp from '@/components/Footer-lp';
 import NewHeaderFy from '@/components/NewHeaderFy';
 import NewLpHeader from '@/components/NewLpHeader';
 import Footernewfy from '@/components/Footernewfydesign';
-import Cursor from "@/components/Cursor"; 
+import Cursor from "@/components/Cursor";
 
 
 export default function App({ Component, pageProps }) {
@@ -43,9 +43,28 @@ export default function App({ Component, pageProps }) {
 
   const newlpheader = router.pathname == '/new-lp-page'
 
+  const mouse = router.pathname == '/'
+    || router.pathname == '/ios-app-development'
+    || router.pathname == '/android-application-development'
+    || router.pathname == '/augmented-reality-apps-development'
+    || router.pathname == '/artificial-intelligence'
+    || router.pathname == '/cross-platform-app-development'
+    || router.pathname == '/web-app-development'
+    || router.pathname == '/reactnative-mobile-development'
+    || router.pathname == '/hybrid-mobile-apps-development'
+    || router.pathname == '/custom-mobile-development'
+    || router.pathname == '/native-mobile-development'
+    || router.pathname == '/flutter-mobile-development'
+    || router.pathname == '/mobile-application'
+    || router.pathname == '/game-application-development'
+    || router.pathname == '/nft-game-development'
+    || router.pathname == '/3d-game-development-company'
+    || router.pathname == '/3d-game-development-company'
+    || router.pathname == '/blockchain-game-development';
+
+
   return (
     <>
-
 
       {newfooter ? (
 
@@ -60,11 +79,15 @@ export default function App({ Component, pageProps }) {
         ) : (
 
           <Header />
-          
+
         )
       )}
 
-      <Cursor />
+
+      {mouse &&
+        <Cursor />
+      }
+
 
       <Component {...pageProps} />
 
@@ -78,7 +101,6 @@ export default function App({ Component, pageProps }) {
         <Footernewfy />
 
       )}
-
 
     </>
   )
