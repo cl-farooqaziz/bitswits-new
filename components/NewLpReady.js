@@ -25,7 +25,7 @@ const NewLpReady = () => {
                                 <textarea rows="4" cols="50" required>
 
                                 </textarea>
-                                <Button className={styles.secBtn}>
+                                <Button className={styles.secBtn} type='submit'>
                                     GET MY FREE 30 MINUTES STRATEGY SESSION
                                 </Button>
                             </form>
