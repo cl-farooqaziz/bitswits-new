@@ -36,7 +36,7 @@ const Partnercross = () => {
                     <Col lg={12}>
                         <h2 className="f-50 f-playfair f-700 white t-center"> 
                         Best App Making Company <br></br>
-Technologies We Used
+                        <span className='grdiant'>Technologies We Used</span>
                         </h2>
                         <p className='font16 f-montserrat white mb-5 t-center'>
                         Bitswits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers <br></br> know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!

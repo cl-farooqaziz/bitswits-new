@@ -28,7 +28,7 @@ const NewiosPortFolio = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center`}>Portfolio</p>
                             <h1 className='text-white f-55 font-bold text-center pb-5'>
-                                Showcasing Our Creative Vision
+                                Showcasing Our <span className='grdiant'>Creative Vision</span>
                             </h1>
                         </Col>
                         <Col lg={6}>
