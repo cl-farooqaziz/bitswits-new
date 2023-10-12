@@ -82,11 +82,7 @@ const New3dBanner = () => {
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                    <Container>
-                        <Row className='align-items-start'>
-                            <NewAddress />
-                        </Row>
-                    </Container>
+                    <NewAddress />
                 </div>
                 <div className={styles.slider}>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>

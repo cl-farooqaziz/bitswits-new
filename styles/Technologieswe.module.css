@@ -1,8 +1,8 @@
 .tech {
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-repeat: no-repeat;
-  background-size: 66%;
-  background-position: 824px center;
+  background-size: 57%;
+  background-position: 895px center;
   background-color: black;
   padding-top: 0px;
   padding-bottom: 100px;
@@ -39,8 +39,8 @@
 
 .active::before {
   position: absolute;
-  content: '';
-  background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
+  content: "";
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
 
   width: auto;
   height: 3px;
@@ -74,45 +74,31 @@
   gap: 15px;
 }
 
-
 @media screen and (min-width: 1400px) {
-
-
   .active:before {
     bottom: -112%;
   }
 }
 
-
 @media screen and (max-width: 1200px) {
-
-
   .tech {
     background-color: black;
     padding-bottom: 50px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
-
   .active::before {
     bottom: -67%;
   }
-
-
-
 }
 
 @media screen and (max-width: 767px) {
-
   .analpost div {
     color: #707070;
     font-size: 13px;
     cursor: pointer;
   }
-
-
 
   .newyork {
     display: flex;
@@ -125,14 +111,12 @@
     margin: 0 auto;
   }
 
-
   .work {
     font-size: 30px;
     text-align: center;
     color: white;
     font-weight: bold;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -141,5 +125,4 @@
     font-size: 11px;
     cursor: pointer;
   }
-
 }

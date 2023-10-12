@@ -35,6 +35,10 @@
     margin-left: 17px;
 }
 
+.secImage{
+    position: relative;
+}
+
 @media screen and (max-width: 1200px) {
 
     .secImage {

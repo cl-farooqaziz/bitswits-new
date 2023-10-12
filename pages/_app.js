@@ -59,7 +59,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/mobile-application'
     || router.pathname == '/game-application-development'
     || router.pathname == '/nft-game-development'
-    || router.pathname == '/3d-game-development-company'
+    || router.pathname == '/2d-game-development-company'
     || router.pathname == '/3d-game-development-company'
     || router.pathname == '/blockchain-game-development';
 
