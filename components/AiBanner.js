@@ -92,11 +92,7 @@ scrambled it to make a type specimen book. It has survived
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <Container className={styles.appios}>
-                        <Row className='align-items-start'>
-                            <NewAddress />
-                        </Row>
-                    </Container>
+                <NewAddress />
                 </div>
 
                 <div>

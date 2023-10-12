@@ -46,7 +46,7 @@ const NewHomeWho = () => {
                 <div className="mixColor1"></div>
 
 
-            </section >
+            </section>
 
 
         </>

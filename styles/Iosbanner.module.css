@@ -47,7 +47,7 @@
   -webkit-text-fill-color: transparent;
 } */
 
-.book2{
+.book2 {
   /* border-image: linear-gradient(90deg,#f32fc261,#4a78ef) 10;
   border-width: 1px;
   border-style: solid;
@@ -59,30 +59,26 @@
   justify-content: flex-start;
   padding: 0 0 0 10px;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0); */
-  
 }
 
-.post h5{
+.post h5 {
   line-height: 1.2;
 }
 .menu:before {
-
   content: "";
-    position: absolute;
-    inset: 0;
-    padding: 1px;
-    background: linear-gradient(183deg,#4a78ef 0%, #eb335b 65%);
-    -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    margin-top: 1%;
-    margin-left: 1%;
-    
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  background: linear-gradient(183deg, #4a78ef 0%, #eb335b 65%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  margin-top: 1%;
+  margin-left: 1%;
 }
 
-.menu{
+.menu {
   position: relative;
   cursor: pointer;
-
 }
 
 .book2 {
@@ -90,7 +86,7 @@
   -webkit-background-clip: text;
   text-fill-color: transparent;
   font-size: 10px;
-  background: linear-gradient(to right, #f32f53,#f32fc2,#4a78ef);
+  background: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -102,7 +98,6 @@
   letter-spacing: unset;
   cursor: pointer;
 }
-
 
 /* .book2 {
   border: none;
@@ -150,7 +145,6 @@
 .book2{
   position: relative;
 } */
-
 
 .about {
   width: 198px;
@@ -378,33 +372,28 @@
     position: absolute;
     inset: 0;
     padding: 1px;
-    background: linear-gradient(183deg,#4a78ef,#eb335b 65%);
-    -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-      mask-composite: add, add;
+    background: linear-gradient(183deg, #4a78ef, #eb335b 65%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask-composite: add, add;
     -webkit-mask-composite: exclude;
     margin-top: 1%;
     margin-left: 1%;
   }
-} 
+}
 
 /* =========================================== */
 
-@media screen and (max-width: 1920px) { 
-
-
-  .appios{
+@media screen and (max-width: 1920px) {
+  .appios {
     max-width: 1750px;
   }
-  
-  }
-
-@media screen and (max-width: 1600px) { 
-
-
-.appios{
-  max-width: 1400px;
 }
 
+@media screen and (max-width: 1600px) {
+  .appios {
+    max-width: 1400px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .secImage {

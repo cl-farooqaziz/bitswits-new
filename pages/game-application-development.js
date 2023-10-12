@@ -4,22 +4,18 @@ import dynamic from 'next/dynamic';
 import Newgamebanner from '@/components/Newgamebanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewHomeWhat from '@/components/NewHomeWhat';
-import NewHomeHear from '@/components/NewHomeHear';
-import NewHomeMaintain from '@/components/NewHomeMaintain';
-import Newglobal from '@/components/Newglobal';
 import Newslider from '@/components/Newslider';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
-import NewMblBanner from '@/components/NewMblBanner';
 import Bulletproofgame from '@/components/Bulletproofgame';
 import Targetaudience from '@/components/Targetaudience';
 import Newgamemaintain from '@/components/Newgamemaintain';
 import Wealth from '@/components/Wealth';
 import Genreofgames from '@/components/Genreofgames';
 import Engage from '@/components/Engage';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -49,7 +45,7 @@ export default function Gameapplicationdevelopment() {
             <Genreofgames/>
             <Engage />
             <Newsuccess />
-            <Newglobal />
+            <NewHomeGlobal />
             <Capabilities />
             <Newslider />
             <Technologieswe/>
