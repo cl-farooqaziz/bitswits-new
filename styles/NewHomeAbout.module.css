@@ -326,6 +326,141 @@
   max-width: 1100px;
 }
 
+
+
+@media screen and (max-width: 1900px) {
+
+
+  .james::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 122px;
+    height: 88px;
+    left: 27%;
+    border-radius: 50px;
+    top: 31%;
+    cursor: pointer;
+  }
+
+  .james1::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 121px;
+    height: 134px;
+    left: 31%;
+    border-radius: 50px;
+    top: 59%;
+    cursor: pointer;
+    transform: rotate(8deg);
+
+  }
+
+  .james2::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 124px;
+    height: 137px;
+    left: 61%;
+    border-radius: 50px;
+    top: 61%;
+    cursor: pointer;
+
+  }
+
+  .james3::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 104px;
+    height: 90px;
+    left: 68%;
+    border-radius: 0;
+    top: 40%;
+    cursor: pointer;
+
+  }
+
+  .james4::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 125px;
+    height: 98px;
+    left: 37%;
+    border-radius: unset;
+    top: 43%;
+    cursor: pointer;
+    transform: rotate(8deg);
+
+  }
+
+
+
+
+
+
+  .james5::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 254px;
+    height: 211px;
+    left: 40%;
+    border-radius: unset;
+    top: 65%;
+    cursor: pointer;
+  }
+
+
+  .james6::after {
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+   width: 133px;
+   height: 82px;
+   left: 45%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
+
+  }
+
+  .james7::after {
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+   width: 100px;
+   height: 103px;
+   left: 53%;
+   border-radius: unset;
+   top: 40%;
+   cursor: pointer;
+
+  }
+
+  .james8::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+   width: 133px;
+   height: 67px;
+   left: 63%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
+   transform: rotate(355deg);
+
+  }
+
+
+}
+
+
+
 @media screen and (min-width: 1900px) {
 
 
