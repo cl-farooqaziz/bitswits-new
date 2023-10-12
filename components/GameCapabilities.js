@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import styles from '@/styles/Capabilities2d.module.css'
+import styles from '@/styles/CapabilitiesBlkChn.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -37,7 +37,7 @@ const GameCapabilities = () => {
         <>
 
             <section className={styles.home}>
-                <Container className='qtechcap'>
+                <Container className='qtechcap blckchn'>
                     <Row className={styles.posttext}>
                         <Col xl={12}>
                             <h3>On-Demand</h3>
@@ -69,7 +69,7 @@ const GameCapabilities = () => {
 
                             </Row>
                         </div>
-                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
+                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome blckchn mt-4 mb-4`}>
 
                             <div className={styles.high}>
                                 <Row>

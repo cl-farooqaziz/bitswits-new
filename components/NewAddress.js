@@ -28,6 +28,7 @@ const NewAddress = () => {
                                             <div className={`${styles.take} d-flex`}>
                                                 <p className='font12 font-semibold fontf m-0'>We take your privacy seriously. Read our <span>Privacy</span></p>
                                             </div>
+                                            <input type='Submit' className={`${styles.notice} d-block d-lg-none my-3`} />
                                         </div>
                                     </Col>
                                     <Col lg={6} className='d-none d-lg-block'>
