@@ -43,7 +43,7 @@
     border-radius: 30px;
     background-image: url(../public/blockchaindevelopment/images/gaming1.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -77,7 +77,7 @@
 .app1 {
     background-image: url(../public/blockchaindevelopment/images/gaming2.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
