@@ -515,7 +515,6 @@
         border: 2px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 
     .app6,
@@ -524,7 +523,6 @@
         border: 2px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 
     .app1,
@@ -534,7 +532,6 @@
         border: 2px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 
     .newHomeBg h1 {
@@ -554,6 +551,5 @@
         border: 2px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 }

@@ -183,9 +183,9 @@ const NewMaintainlogo = () => {
                         <Col sm={6} lg={4} className={styles.map}>
                             <div className={styles.app11}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Take Home What You Earn</h3>
+                                    <h3 className='text-white font25 font-bold'>Show Off Your Skills</h3>
                                     <p className={styles.para}>
-                                    Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!
+                                    What better way to show off your skills than playing Play-to-Earn NFT games? You can gain recognition as you progress in the game and make your mark on the gaming world.
                                     </p>
                                 </div>
                             </div>
@@ -193,9 +193,9 @@ const NewMaintainlogo = () => {
                         <Col sm={6} lg={4} className={styles.map}>
                             <div className={styles.app22}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Rewarding Challenges</h3>
+                                    <h3 className='text-white font25 font-bold'>Make Connections</h3>
                                     <p className={styles.para}>
-                                    With these NFT games, you will face rewarding challenges that test your abilities and allow you to earn rewards or tokens for completing them. It's a great way to increase your skills and expand your knowledge.
+                                    Play-to-Earn NFT games are a great way to connect with other players and enjoy the gaming experience together. Connecting with others helps build an online community and fosters collaboration and friendship.
                                     </p>
                                 </div>
                             </div>
@@ -203,9 +203,9 @@ const NewMaintainlogo = () => {
                         <Col lg={4} className={styles.map}>
                             <div className={styles.app33}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Strengthen Your Character</h3>
+                                    <h3 className='text-white font25 font-bold'>Compete for Rewards</h3>
                                     <p className={styles.para}>
-                                    These Play-to-Earn NFT games can help you develop your character and increase confidence. As you make progress in the game, you learn more about yourself and can become a better player.
+                                    Competing in these games allows you to compete for rewards or tokens, which can be used to purchase additional items, upgrade your character, and even purchase real-world products! With the challenge of competition comes great rewards! With Play-to-Earn NFT games, you can truly have it all!
                                     </p>
                                 </div>
                             </div>

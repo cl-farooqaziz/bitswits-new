@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
-import BannerImage from "@/public/newMobilePageImages/mobilebanner.png"
+import BannerImage from "@/public/newMobilePageImages/gameappbanner.png"
 import icon11 from '../public/newMobilePageImages/city1.png'
 import icon12 from '../public/newMobilePageImages/city2.png'
 import icon13 from '../public/newMobilePageImages/city4.png'
@@ -77,7 +77,7 @@ const NewHomeBanner = () => {
                                 <Link className={styles.about} href="#">Live Chat</Link>
                             </div>
 
-                            <div className='mt-5'>
+                            <div className='mt-5 text-center'>
                                 <Image quality={75} src={BannerImage} className={`img-fluid`} />
                             </div>
 
