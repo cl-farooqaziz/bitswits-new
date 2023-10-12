@@ -100,10 +100,10 @@ const AndriodMaintainlogo = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}> What We Do
+                            <p className={` f-20 font-bold text-white text-center mb-4`}> What We Do
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>Leveling Up Your App Game With Our <br></br>
-Slew of Android App Development <br></br>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'>Leveling Up Your App Game With Our Slew of <br></br>
+ <span className='grdiant f-60'>Android App Development </span><br></br>
 Service!</h1>
 
 
