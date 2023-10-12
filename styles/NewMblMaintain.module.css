@@ -1,6 +1,6 @@
 .newHomeBg {
-    padding-top: 250px;
-    padding-bottom: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background: #000;
 }
 
@@ -31,7 +31,7 @@
 .app {
     background-image: url(../public/newMobilePageImages/card1.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -42,19 +42,19 @@
 }
 
 .cardContent {
-    margin-bottom: -45%;
+    margin-bottom: -15%;
 }
 
 .app4,
 .app5 .cardContent {
-    margin-bottom: -30%;
+    margin-bottom: -15%;
 }
 
 
 .app1 {
     background-image: url(../public/newMobilePageImages/card2.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -75,7 +75,7 @@
 .app2 {
     background-image: url(../public/newMobilePageImages/card3.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;

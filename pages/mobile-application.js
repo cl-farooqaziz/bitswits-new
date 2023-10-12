@@ -18,6 +18,12 @@ import NewMblPortFolio from '@/components/NewMblPortFolio';
 import NewMblServices from '@/components/NewMblServices';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
+import GameCapabilities from '@/components/GameCapabilities';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Technologieswe from '@/components/NewMblTechnologiesWe';
+import Homenextproject from '@/components/Homenextproject';
+
 
 export default function mobileApplication() {
     return (
@@ -32,18 +38,25 @@ export default function mobileApplication() {
             <NewMblBanner />
             <NewHomeAbout />
             <NewMblWho />
-            <Justbuildit />
             <NewMblWhat />
+            <Justbuildit />
             <NewHomeHear />
             <NewMblServices />
             <NewMblPortFolio />
+
             <Capabilities />
-            <Newsuccess />
-            <NewMblGlobal />
-            <NewMblSlider />
-            <NewMblTechnologiesWe />
-            <NewMblNextProject />
+            <div className='status2'>
+
+                <Newsuccess />
+
+            </div>
+
+            <NewHomeGlobal />
+            <NewHomeSlider />
+            <Technologieswe />
+            <Homenextproject />
             <Faqs />
+
 
         </>
     )

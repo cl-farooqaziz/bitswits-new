@@ -286,6 +286,11 @@ div {
   background-color: black;
 }
 
+.status2 {
+  padding-top: 100px;
+  background-color: black;
+}
+
 .grdiant {
   background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
   -webkit-background-clip: text;

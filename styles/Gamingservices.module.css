@@ -1,6 +1,6 @@
 .newHomeBg {
-  padding-top: 250px;
-  padding-bottom: 300px;
+  padding-top: 0px;
+  padding-bottom: 170px;
   background: #000;
 }
 
@@ -362,17 +362,46 @@
 }
 
 @media screen and (max-width: 991px) {
+  .app,
   .app1,
-  .app {
+  .app2 {
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
       linear-gradient(#fff 0 0);
     padding-top: 50px;
     padding-bottom: 0px;
+    height: 875px;
+  }
+
+  .app3 {
+    background-size: contain;
+    height: 265px;
+  }
+
+  .para1 {
+    width: 60%;
+  }
+
+  .app4,
+  .app5 {
+    height: 100%;
+  }
+
+  .app4 p,
+  .app5 p,
+  .app6 p,
+  .app7 p {
     height: auto;
   }
 
-  .app2 {
-    height: auto;
+  .app6,
+  .app7 {
+    height: 450px;
+    background-size: contain;
+  }
+
+  .app8 {
+    background-size: contain;
+    height: 875px;
   }
 }
 
@@ -443,6 +472,15 @@
   .app9,
   .app10 {
     padding: 0 15px;
+  }
+
+  .app3 {
+    background-size: cover;
+    height: 265px;
+  }
+
+  .para1 {
+    width: 100%;
   }
 }
 
