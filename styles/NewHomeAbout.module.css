@@ -335,25 +335,25 @@
     position: absolute;
     content: '';
      background-color: #ff000000;
-    width: 122px;
-    height: 88px;
-    left: 27%;
-    border-radius: 50px;
-    top: 31%;
-    cursor: pointer;
+     width: 122px;
+     height: 88px;
+     left: 24%;
+     border-radius: 50px;
+     top: 31%;
+     cursor: pointer;
   }
 
   .james1::after {
     position: absolute;
     content: '';
      background-color: #ff000000;
-    width: 121px;
-    height: 134px;
-    left: 31%;
-    border-radius: 50px;
-    top: 59%;
-    cursor: pointer;
-    transform: rotate(8deg);
+     width: 121px;
+     height: 134px;
+     left: 29%;
+     border-radius: 50px;
+     top: 59%;
+     cursor: pointer;
+     transform: rotate(8deg);
 
   }
 
@@ -389,7 +389,7 @@
      background-color: #ff000000;
     width: 125px;
     height: 98px;
-    left: 37%;
+    left: 35%;
     border-radius: unset;
     top: 43%;
     cursor: pointer;
@@ -421,7 +421,7 @@
     background-color: #ff000000;
    width: 133px;
    height: 82px;
-   left: 45%;
+   left: 44%;
    border-radius: unset;
    top: 54%;
    cursor: pointer;
