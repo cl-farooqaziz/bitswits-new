@@ -34,8 +34,8 @@ const Engage3d = () => {
                                     <Image quality={75} src={gameicon1} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
-                                    <h3>Customized Solutions</h3>
-                                    <p>BitsWits provides tailor-made 2D games development services tailored to each client's needs and requirements. This helps create an engaging gaming experience for the user, which can be further modified according to their preferences.</p>
+                                    <h3>Skilled Team</h3>
+                                    <p>BitsWits celebrates a team of experienced game developers and designers with the necessary skills and knowledge to create engaging, highly-converting 3D games. Our developers always keep an eye on innovation and creativity.</p>
                                 </div>
 
                             </div>
@@ -44,8 +44,8 @@ const Engage3d = () => {
                                     <Image quality={75} src={gameicon3} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
-                                    <h3>Experienced Professionals</h3>
-                                    <p>The team at BitsWits consists of experienced professionals with years of experience in 2D game development. This ensures that the games developed are efficient and bug-free, providing a fantastic gaming experience to the users.</p>
+                                    <h3>Cutting Edge Technology</h3>
+                                    <p>The developers at BitsWits are always looking to stay ahead of the curve when it comes to using innovative technology in their 3D games. They utilize the latest technologies and tools to ensure top-quality 3D games with immersive graphics, engaging gameplay, and high performance.</p>
                                 </div>
 
                             </div>
@@ -65,8 +65,8 @@ const Engage3d = () => {
                                     <Image quality={75} src={gameicon2} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
-                                    <h3>Innovative Solutions</h3>
-                                    <p>BitsWits is always looking for new and innovative ways to develop 2D games that provide a unique and immersive gaming experience. We use the latest technologies and techniques to ensure that the users enjoy the best gaming experience.</p>
+                                    <h3>Quality Graphics</h3>
+                                    <p>BitsWits is committed to providing its clients with high-quality 3D graphics that capture the attention of players, making the gaming experience even more immersive.</p>
                                 </div>
 
                             </div>
@@ -76,8 +76,8 @@ const Engage3d = () => {
                                     <Image quality={75} src={gameicon4} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
-                                    <h3>Exclusive Client Services</h3>
-                                    <p>We are also proud to offer exclusive client services, including game beta testing and post-release support. We guarantee a smooth launch for your game and ensure your players have the best experience possible.</p>
+                                    <h3>Quality Assurance</h3>
+                                    <p>BitsWits employs a rigorous quality assurance process to ensure that every game created meets the highest standards of excellence. This helps to guarantee an exciting and bug-free gaming experience for all players.</p>
                                 </div>
 
                             </div>

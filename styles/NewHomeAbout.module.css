@@ -306,90 +306,7 @@
 
 
 
-.james::after {
-  position: absolute;
-  content: '';
-  background-color: #ff000000;
-  width: 108px;
-  height: 68px;
-  left: 18%;
-  border-radius: 50px;
-  top: 28%;
-  cursor: pointer;
-}
 
-.james1::after {
-  position: absolute;
-  content: '';
-  background-color: #ff404000;
-  width: 121px;
-  height: 134px;
-  left: 24%;
-  border-radius: 50px;
-  top: 57%;
-  cursor: pointer;
-
-}
-
-
-.james2::after {
-
-  position: absolute;
-  content: '';
-  background-color: #ff000000;
-  width: 106px;
-  height: 116px;
-  left: 65%;
-  border-radius: 50px;
-  top: 64%;
-  cursor: pointer;
-
-}
-
-
-
-.james3::after {
-
-  position: absolute;
-  content: '';
-  background-color: #ff000000;
-  width: 138px;
-  height: 165px;
-  left: 77%;
-  border-radius: 50px;
-  top: 30%;
-  cursor: pointer;
-
-}
-
-
-.james4::after {
-
-  position: absolute;
-  content: '';
-  background-color: #ff000000;
-  width: 133px;
-  height: 118px;
-  left: 31%;
-  border-radius: unset;
-  top: 39%;
-  cursor: pointer;
-
-}
-
-.james5::after {
-
-  position: absolute;
-  content: '';
-  background-color: #ff000000;
-  width: 213px;
-  height: 173px;
-  left: 38%;
-  border-radius: unset;
-  top: 65%;
-  cursor: pointer;
-
-}
 
 /* .james:after:hover .secImage1{
   display: block!important;
@@ -409,64 +326,41 @@
   max-width: 1100px;
 }
 
-@media screen and (min-width: 1900px) {
+
+
+@media screen and (max-width: 1900px) {
 
 
   .james::after {
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 122px;
-    height: 88px;
-    left: 27%;
-    border-radius: 50px;
-    top: 28%;
-    cursor: pointer;
+     background-color: #ff000000;
+     width: 122px;
+     height: 88px;
+     left: 24%;
+     border-radius: 50px;
+     top: 31%;
+     cursor: pointer;
   }
 
   .james1::after {
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 121px;
-    height: 134px;
-    left: 31%;
-    border-radius: 50px;
-    top: 57%;
-    cursor: pointer;
-
-  }
-
-  .james3::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 138px;
-    height: 165px;
-    left: 69%;
-    border-radius: 50px;
-    top: 30%;
-    cursor: pointer;
-
-  }
-
-  .james4::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 133px;
-    height: 118px;
-    left: 37%;
-    border-radius: unset;
-    top: 39%;
-    cursor: pointer;
+     background-color: #ff000000;
+     width: 121px;
+     height: 134px;
+     left: 29%;
+     border-radius: 50px;
+     top: 59%;
+     cursor: pointer;
+     transform: rotate(8deg);
 
   }
 
   .james2::after {
     position: absolute;
     content: '';
-    background-color: #ff000000;
+     background-color: #ff000000;
     width: 124px;
     height: 137px;
     left: 61%;
@@ -476,13 +370,42 @@
 
   }
 
+  .james3::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 104px;
+    height: 90px;
+    left: 68%;
+    border-radius: 0;
+    top: 40%;
+    cursor: pointer;
+
+  }
+
+  .james4::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 125px;
+    height: 98px;
+    left: 35%;
+    border-radius: unset;
+    top: 43%;
+    cursor: pointer;
+    transform: rotate(8deg);
+
+  }
+
+
+
 
 
 
   .james5::after {
     position: absolute;
     content: '';
-    background-color: #ff000000;
+     background-color: #ff000000;
     width: 254px;
     height: 211px;
     left: 40%;
@@ -495,26 +418,26 @@
   .james6::after {
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 133px;
-    height: 82px;
-    left: 44%;
-    border-radius: unset;
-    top: 52%;
-    cursor: pointer;
+    background-color: #ff000000;
+   width: 133px;
+   height: 82px;
+   left: 44%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
 
   }
 
   .james7::after {
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 100px;
-    height: 103px;
-    left: 54%;
-    border-radius: unset;
-    top: 36%;
-    cursor: pointer;
+    background-color: #ff000000;
+   width: 100px;
+   height: 103px;
+   left: 53%;
+   border-radius: unset;
+   top: 40%;
+   cursor: pointer;
 
   }
 
@@ -522,13 +445,147 @@
 
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 175px;
-    height: 67px;
-    left: 63%;
-    border-radius: unset;
-    top: 50%;
+    background-color: #ff000000;
+   width: 133px;
+   height: 67px;
+   left: 63%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
+   transform: rotate(355deg);
+
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 1900px) {
+
+
+  .james::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 122px;
+    height: 88px;
+    left: 27%;
+    border-radius: 50px;
+    top: 31%;
     cursor: pointer;
+  }
+
+  .james1::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 121px;
+    height: 134px;
+    left: 31%;
+    border-radius: 50px;
+    top: 59%;
+    cursor: pointer;
+    transform: rotate(8deg);
+
+  }
+
+  .james2::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 124px;
+    height: 137px;
+    left: 61%;
+    border-radius: 50px;
+    top: 61%;
+    cursor: pointer;
+
+  }
+
+  .james3::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 104px;
+    height: 90px;
+    left: 68%;
+    border-radius: 0;
+    top: 40%;
+    cursor: pointer;
+
+  }
+
+  .james4::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 125px;
+    height: 98px;
+    left: 37%;
+    border-radius: unset;
+    top: 43%;
+    cursor: pointer;
+    transform: rotate(8deg);
+
+  }
+
+
+
+
+
+
+  .james5::after {
+    position: absolute;
+    content: '';
+     background-color: #ff000000;
+    width: 254px;
+    height: 211px;
+    left: 40%;
+    border-radius: unset;
+    top: 65%;
+    cursor: pointer;
+  }
+
+
+  .james6::after {
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+   width: 133px;
+   height: 82px;
+   left: 45%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
+
+  }
+
+  .james7::after {
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+   width: 100px;
+   height: 103px;
+   left: 53%;
+   border-radius: unset;
+   top: 40%;
+   cursor: pointer;
+
+  }
+
+  .james8::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+   width: 133px;
+   height: 67px;
+   left: 63%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
+   transform: rotate(355deg);
 
   }
 
@@ -541,146 +598,26 @@
   .james::after {
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 114px;
-    height: 81px;
-    left: 23%;
-    border-radius: 50px;
-    top: 28%;
+   background-color: #ff000000;
+    width: 98px;
+    height: 73px;
+    left: 22%;
+    top: 31.5%;
     cursor: pointer;
+    transform: rotate(8deg);
   }
 
   .james1::after {
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 121px;
-    height: 134px;
-    left: 28%;
-    border-radius: 50px;
-    top: 57%;
+   background-color: #ff000000;
+    width: 109px;
+    height: 137px;
+    left: 27%;
+    border-radius: -38px;
+    top: 59%;
     cursor: pointer;
-  }
-
-  .james3::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 138px;
-    height: 165px;
-    left: 73%;
-    border-radius: 50px;
-    top: 30%;
-    cursor: pointer;
-  }
-
-  .james2::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 141px;
-    height: 157px;
-    left: 63%;
-    border-radius: 50px;
-    top: 64%;
-    cursor: pointer;
-
-  }
-
-  .james5::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 227px;
-    height: 173px;
-    left: 38%;
-    border-radius: unset;
-    top: 65%;
-    cursor: pointer;
-
-  }
-
-  .james4::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 133px;
-    height: 118px;
-    left: 34%;
-    border-radius: unset;
-    top: 39%;
-    cursor: pointer;
-
-  }
-
-  .james6::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 133px;
-    height: 82px;
-    left: 44%;
-    border-radius: unset;
-    top: 52%;
-    cursor: pointer;
-
-  }
-
-  .james7::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 100px;
-    height: 103px;
-    left: 54%;
-    border-radius: unset;
-    top: 36%;
-    cursor: pointer;
-
-  }
-
-  .james8::after {
-
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 175px;
-    height: 67px;
-    left: 68%;
-    border-radius: unset;
-    top: 50%;
-    cursor: pointer;
-
-  }
-
-
-}
-
-
-@media screen and (max-width: 1399px) {
-
-  .james::after {
-    position: absolute;
-    content: '';
-    background-color: #ff000000;
-    width: 108px;
-    height: 68px;
-    left: 18%;
-    border-radius: 50px;
-    top: 28%;
-    cursor: pointer;
-  }
-
-  .james1::after {
-    position: absolute;
-    content: '';
-    background-color: #ff404000;
-    width: 121px;
-    height: 134px;
-    left: 24%;
-    border-radius: 50px;
-    top: 57%;
-    cursor: pointer;
+    transform: rotate(2deg);
 
   }
 
@@ -689,7 +626,7 @@
 
     position: absolute;
     content: '';
-    background-color: #ff000000;
+   background-color: #ff000000;
     width: 106px;
     height: 116px;
     left: 65%;
@@ -705,13 +642,14 @@
 
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 138px;
-    height: 165px;
-    left: 77%;
+   background-color: #ff000000;
+    width: 85px;
+    height: 110px;
+    left: 75%;
     border-radius: 50px;
-    top: 30%;
+    top: 39%;
     cursor: pointer;
+
 
   }
 
@@ -720,13 +658,14 @@
 
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 133px;
-    height: 118px;
-    left: 31%;
+   background-color: #ff000000;
+    width: 131px;
+    height: 98px;
+    left: 33%;
     border-radius: unset;
-    top: 39%;
+    top: 43%;
     cursor: pointer;
+    transform: rotate(8deg);
 
   }
 
@@ -734,7 +673,148 @@
 
     position: absolute;
     content: '';
-    background-color: #ff000000;
+   background-color: #ff000000;
+    width: 220px;
+    height: 173px;
+    left: 40%;
+    border-radius: 129px;
+    top: 66%;
+    cursor: pointer;
+    transform: rotate(15deg);
+
+  }
+
+
+  .james6::after {
+
+    position: absolute;
+    content: '';
+   background-color: #ff000000;
+    width: 140px;
+    height: 74px;
+    left: 43.5%;
+    border-radius: unset;
+    top: 55%;
+    cursor: pointer;
+    transform: rotate(1deg);
+
+
+  }
+
+  .james7::after {
+
+    position: absolute;
+    content: '';
+   background-color: #ff000000;
+    width: 91px;
+    height: 103px;
+    left: 55%;
+    border-radius: unset;
+    top: 40%;
+    cursor: pointer;
+
+  }
+
+
+  .james8::after {
+
+    position: absolute;
+    content: '';
+   background-color: #ff000000;
+    width: 121px;
+    height: 67px;
+    left: 67%;
+    border-radius: unset;
+    top: 54%;
+    cursor: pointer;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 1399px) {
+
+  .james::after {
+    position: absolute;
+    content: '';
+  background-color: #ff000000;
+    width: 108px;
+    height: 68px;
+    left: 18%;
+    border-radius: 50px;
+    top: 32%;
+    cursor: pointer;
+  }
+
+  .james1::after {
+    position: absolute;
+    content: '';
+    background-color: #ff404000;
+    width: 124px;
+    height: 126px;
+    left: 24%;
+    border-radius: 50px;
+    top: 59%;
+    cursor: pointer;
+    transform: rotate(8deg);
+
+  }
+
+
+  .james2::after {
+
+    position: absolute;
+    content: '';
+  background-color: #ff000000;
+    width: 106px;
+    height: 116px;
+    left: 65%;
+    border-radius: 50px;
+    top: 64%;
+    cursor: pointer;
+
+  }
+
+
+
+  .james3::after {
+
+    position: absolute;
+    content: '';
+  background-color: #ff000000;
+   left: 76%;
+   border-radius: 50px;
+    border-radius: 50px;
+    top: 39%;
+    cursor: pointer;
+    transform: rotate(328deg);
+
+
+  }
+
+
+  .james4::after {
+
+    position: absolute;
+    content: '';
+  background-color: #ff000000;
+    width: 126px;
+    height: 98px;
+    left: 31.5%;
+    border-radius: unset;
+    top: 43%;
+    cursor: pointer;
+    transform: rotate(8deg);
+
+  }
+
+  .james5::after {
+
+    position: absolute;
+    content: '';
+  background-color: #ff000000;
     width: 213px;
     height: 173px;
     left: 38%;
@@ -749,13 +829,14 @@
 
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 146px;
-    height: 78px;
-    left: 42%;
+  background-color: #ff000000;
+    width: 140px;
+    height: 74px;
+    left: 42.5%;
     border-radius: unset;
-    top: 52%;
+    top: 55%;
     cursor: pointer;
+    transform: rotate(1deg);
 
   }
 
@@ -763,12 +844,12 @@
 
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 100px;
+  background-color: #ff000000;
+    width: 91px;
     height: 103px;
-    left: 54%;
+    left: 55%;
     border-radius: unset;
-    top: 33%;
+    top: 40%;
     cursor: pointer;
 
   }
@@ -778,13 +859,14 @@
 
     position: absolute;
     content: '';
-    background-color: #ff000000;
-    width: 175px;
-    height: 67px;
-    left: 68%;
-    border-radius: unset;
-    top: 50%;
-    cursor: pointer;
+  background-color: #ff000000;
+   width: 121px;
+   height: 67px;
+   left: 69%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
+   transform: rotate(20deg);
 
   }
 

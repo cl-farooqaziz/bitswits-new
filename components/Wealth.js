@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import styles from '@/styles/Wealth.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import isabella from '../public/newHomePageImages/ply.png'
+import isabella from '../public/newHomePageImages/playgame.png'
 import Link from 'next/link';
 
 

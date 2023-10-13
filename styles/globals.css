@@ -1392,11 +1392,16 @@ input::-webkit-inner-spin-button {
   left: -61.5%;
 }
 
-
-
 .slick-dots li button {
   width: 100%;
 } */
+
+.qtechcap.blckchn .slick-dots li {
+  width: 215px;
+  height: 5px;
+}
+
+/* ================================= */
 .qtech .slick-dots li {
   width: 175px;
   height: 5px;
@@ -1519,6 +1524,13 @@ input::-webkit-inner-spin-button {
   .newproject .slick-next {
     top: 50%;
     right: -5%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .qtechcap.blckchn .slick-dots li {
+    width: 200px;
+    height: 5px;
   }
 }
 

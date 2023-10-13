@@ -40,7 +40,7 @@ const Engage = () => {
                             </div>
                             <div className={styles.longline}>
                                 <div className={styles.expertise}>
-                                    <Image quality={75} src={gameicon2} className='img-fluid' />
+                                    <Image quality={75} src={gameicon3} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
                                     <h3>Creative Solutions</h3>
@@ -61,7 +61,7 @@ const Engage = () => {
 
                             <div className={styles.longline1}>
                                 <div className={styles.expertise1}>
-                                    <Image quality={75} src={gameicon3} className='img-fluid' />
+                                    <Image quality={75} src={gameicon2} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
                                     <h3>Tabs On Latest Trends</h3>
