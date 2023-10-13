@@ -2,6 +2,7 @@
   position: relative;
   background-color: #000;
 }
+
 .polt {
   position: absolute;
   top: 25%;
@@ -23,6 +24,15 @@
   height: 20px;
 }
 
+@media screen and (max-width: 991px) {
+  .polt {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+  }
+}
+
+
 @media screen and (max-width: 767px) {
   .polt {
     position: absolute;
@@ -30,6 +40,7 @@
     left: 3%;
   }
 }
+
 @media screen and (max-width: 480px) {
   .headContent {
     font-size: 20px !important;

@@ -15,7 +15,7 @@ const NewMblWhy = (props) => {
                 <Container>
 
                     <Row>
-                        <Col lg={10} className='mx-auto'>
+                        <Col lg={11} className='mx-auto'>
                             <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4>
                             <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection</h2>
                             <p className={`f-20 text-white font-bold text-center`}>
@@ -29,7 +29,7 @@ const NewMblWhy = (props) => {
                             <Row className='gy-5'>
                                 <Col lg={4}>
                                     <div className={styles.whyBox}>
-                                        <h5 className='font40 font-bold text-white mb-3'>{props.titleOne}</h5>
+                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleOne}</h5>
                                         <p className={`font16 text-white mb-0`}>{props.paraOne}</p>
                                         <div className={styles.whyImg}>
                                             <Image quality={75} src={props.iconOne} width={55} height={55} />
@@ -38,7 +38,7 @@ const NewMblWhy = (props) => {
                                 </Col>
                                 <Col lg={4}>
                                     <div className={styles.whyBox}>
-                                    <h5 className='font40 font-bold text-white mb-3'>{props.titleTwo}</h5>
+                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleTwo}</h5>
                                         <p className={`font16 text-white mb-0`}>{props.paraTwo}</p>
                                         <div className={styles.whyImg}>
                                             <Image quality={75} src={props.iconTwo} width={55} height={55} />
@@ -47,7 +47,7 @@ const NewMblWhy = (props) => {
                                 </Col>
                                 <Col lg={4}>
                                     <div className={styles.whyBox}>
-                                        <h5 className='font40 font-bold text-white mb-3'>{props.titleThree}</h5>
+                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleThree}</h5>
                                         <p className={`font16 text-white mb-0`}>{props.paraThree}</p>
                                         <div className={styles.whyImg}>
                                             <Image quality={75} src={props.iconThree} width={55} height={55} />
@@ -56,7 +56,7 @@ const NewMblWhy = (props) => {
                                 </Col>
                                 <Col lg={4}>
                                     <div className={styles.whyBox}>
-                                        <h5 className='font40 font-bold text-white mb-3'>{props.titleFour}</h5>
+                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleFour}</h5>
                                         <p className={`font16 text-white mb-0`}>{props.paraFour}</p>
                                         <div className={styles.whyImg}>
                                             <Image quality={75} src={props.iconFour} width={55} height={55} />
@@ -65,7 +65,7 @@ const NewMblWhy = (props) => {
                                 </Col>
                                 <Col lg={4}>
                                     <div className={styles.whyBox}>
-                                        <h5 className='font40 font-bold text-white mb-3'>{props.titleFive}</h5>
+                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleFive}</h5>
                                         <p className={`font16 text-white mb-0`}>{props.paraFive}</p>
                                         <div className={styles.whyImg}>
                                             <Image quality={75} src={props.iconFive} width={55} height={55} />
@@ -74,7 +74,7 @@ const NewMblWhy = (props) => {
                                 </Col>
                                 <Col lg={4}>
                                     <div className={styles.whyBox}>
-                                        <h5 className='font40 font-bold text-white mb-3'>{props.titleSix}</h5>
+                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleSix}</h5>
                                         <p className={`font16 text-white mb-0`}>{props.paraSix}</p>
                                         <div className={styles.whyImg}>
                                             <Image quality={75} src={props.iconSix} width={55} height={55} />

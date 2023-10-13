@@ -102,11 +102,11 @@ const AugmentedMaintainlogo = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}> Go Beyond Expectations With
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>
-                                
-                            Enhance your customer's experience <br></br> and empower your employees with top-tier <br></br>  <span className="grdiant f-40"> Augmented Reality Development </span> Service
-                                
-                                </h1>
+                            <h1 className='text-white f-58 font-bold text-center pb-4'>
+
+                                Enhance your customer's experience <br></br> and empower your employees with<br></br> top-tier   <span className="grdiant f-40"> Augmented Reality<br></br> Development </span> Service
+
+                            </h1>
 
 
                         </Col>
@@ -114,10 +114,10 @@ const AugmentedMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app44}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>AR, Game Development
-2D, 3D and Isometric Games</h3>
+                                    <h3 className='text-white f-25 font-bold text-center'>AR, Game Development<br></br>
+                                        2D, 3D and Isometric Games</h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                                     </p>
                                 </div>
                             </div>
@@ -126,11 +126,11 @@ const AugmentedMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app55}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Education
-3D Visual Animations |
-Interactions & Clicks</h3>
+                                    <h3 className='text-white f-25 font-bold text-center'>Education<br></br>
+                                        3D Visual Animations |<br></br>
+                                        Interactions & Clicks</h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                                     </p>
                                 </div>
                             </div>
@@ -146,9 +146,9 @@ Interactions & Clicks</h3>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
                                             <h3 className='text-white f-25 font-bold '>Travel <br></br>
-Interactive, Real-Time Guide</h3>
+                                                Interactive, Real-Time Guide</h3>
                                             <p className={styles.para1}>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                                             </p>
                                         </div>
                                     </Col>
@@ -164,9 +164,9 @@ Interactive, Real-Time Guide</h3>
                             <div className={styles.app4}>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Manufacturing <br></br>
-Digital Models | Design Insight</h3>
+                                        Digital Models | Design Insight</h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                                     </p>
                                 </div>
                             </div>
@@ -176,10 +176,10 @@ Digital Models | Design Insight</h3>
                             <div className={styles.app5}>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Product Launch <br></br>
-3D Visual Presentation | <br></br>
-Visualize, Measure Space</h3>
+                                        3D Visual Presentation | <br></br>
+                                        Visualize, Measure Space</h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                                     </p>
                                 </div>
                             </div>

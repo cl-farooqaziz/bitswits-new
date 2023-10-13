@@ -391,12 +391,12 @@
   .app55,
   .app5 {
     height: 456px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .app3 {
-    background-size: contain;
+    background-size: cover;
     padding: 30px 28px 9px 33px;
   }
 
@@ -423,8 +423,6 @@
 }
 
 @media screen and (max-width: 991px) {
-  
-
   .para{
     max-width: unset;
   }
@@ -435,7 +433,6 @@
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
     text-align: center;
 }
 
@@ -458,16 +455,16 @@
   }
 
   .app3 {
-    height: auto;
+    height: 231px;
+    border: 0;
   }
-
-
 
   .app4,
   .app44,
   .app55,
   .app5 {
-    height: auto;
+    height: 428px;
+    border: 3px solid #4a78ef;
   }
 
   .app6 {
@@ -476,7 +473,6 @@
 
   .app7 {
     height: auto;
-    background-image: none;
     border: 3px solid #f32f53;
     border-radius: 22px;
   }
@@ -596,7 +592,6 @@
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .app6,
@@ -605,7 +600,6 @@
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .app1,
@@ -615,7 +609,6 @@
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .newHomeBg h1 {
@@ -635,6 +628,5 @@
     border: 2px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 }

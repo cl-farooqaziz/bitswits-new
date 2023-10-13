@@ -3,10 +3,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewMblWhat from '@/components/NewMblWhat';
-import NewMblGlobal from '@/components/NewMblGlobal';
-import NewMblSlider from '@/components/NewMblSlider';
 import NewMblNextProject from '@/components/NewMblNextProject';
-import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import HybridBanner from '@/components/HybridBanner';

@@ -18,17 +18,17 @@ const Dedicated = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className='f-30  f-700 white t-center'>WHAT WE DO</h3>
-                            <h2 className='f-50  f-700 white t-center'>Full-service <span className='grdiant'>Web Development Company</span> Dedicated 
-                                To Unlocking Your Business Potential</h2>
-                            <p className='f-16 t-center white f-500'>BitsWits leave no stone unturned when it comes to developing websites that celebrate marketing features, customization, and robustness that add value to your business. When partnering with us, you knock the opportunity to outweigh the marketing investment you made initially. From developing B2B and B2C to B2E websites, there is nothing our industry-trained developers can't build.</p>
+                            <h3 className='f-20 f-700 white t-center mb-0'>WHAT WE DO</h3>
+                            <h2 className='f-50  f-700 white t-center'>Full-service <span className='grdiant'>Web Development<br></br>  Company</span> Dedicated 
+                                To Unlocking Your<br></br> Business Potential</h2>
+                            <p className='f-13 t-center white f-500'>BitsWits leave no stone unturned when it comes to developing websites that celebrate marketing features, customization, and robustness that add value to your business. When partnering with us, you knock the opportunity to outweigh the marketing investment you made initially. From developing B2B and B2C to B2E websites, there is nothing our industry-trained developers can't build.</p>
                         </Col>
                     </Row>
                     <Row>
                         <Col lg={6}>
                             <div className={styles.dev}>
-                                <h2 className='f-20  f-700 white t-center'> <span className='white'>Front-End</span> Web Development</h2>
-                                <p className='f-16 t-center f-500'>We specialize in building innovative, complex, user-centric, responsive front-end web solutions that look incredible on mobile devices and desktop screens.</p>
+                                <h2 className='f-28 f-700 white t-center'> <span className='white'>Front-End</span> Web Development</h2>
+                                <p className='f-13 t-center '>We specialize in building innovative, complex, user-centric, responsive front-end web solutions that look incredible on mobile devices and desktop screens.</p>
                                 <div className={styles.front}>
                                     <Image quality={75} src={right1} className="img-fluid" />
                                     <Image quality={75} src={right2} className="img-fluid" />
@@ -39,8 +39,8 @@ const Dedicated = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.dev}>
-                                <h2 className='f-20  f-700 white t-center'> <span className='white'>Back End</span> Web Development</h2>
-                                <p className='f-16 t-center f-500'>BitsWits render customized back-end solutions that process a large amount of data, operate seamlessly under heavy loads, and show absolutely no latency issues.</p>
+                                <h2 className='f-28 f-700 white t-center'> <span className='white'>Back End</span> Web Development</h2>
+                                <p className='f-13 t-center '>BitsWits render customized back-end solutions that process a large amount of data, operate seamlessly under heavy loads, and show absolutely no latency issues.</p>
                                 <div className={styles.front}>
                                     <Image quality={75} src={right4} className="img-fluid" />
                                     <Image quality={75} src={right5} className="img-fluid" />

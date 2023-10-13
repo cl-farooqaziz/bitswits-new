@@ -65,12 +65,6 @@
 
 @media screen and (max-width: 1600px) {
     .newHomeBg {
-        height: 96vh;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .newHomeBg {
         height: 97vh;
     }
 }
@@ -83,7 +77,7 @@
     }
 
     .newHomeBg {
-        height: 90vh;
+        height: 74vh;
     }
 }
 
@@ -115,6 +109,10 @@
 }
 
 @media screen and (max-width: 767px) {
+
+    .newHomeBg {
+        height: vh;
+    }
 
     .just {
         font-size: 25px;
