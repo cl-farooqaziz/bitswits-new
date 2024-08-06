@@ -1,8 +1,7 @@
-import Header from '@/components/Header';
-import Footer from '@/components/Footer'
 import '@/styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { useRouter } from "next/router";
+import Header from '@/components/Header';
 import Footerlp from '@/components/Footer-lp';
 import NewHeaderFy from '@/components/NewHeaderFy';
 import NewLpHeader from '@/components/NewLpHeader';
@@ -39,8 +38,6 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/mobile-application-development-company'
     || router.pathname == '/mobile-app-services'
     || router.pathname == '/homelp';
-
-  const newfooterfy = router.pathname == '/new-home-page' || router.pathname == '/mobile-application';
 
   const newlpheader = router.pathname == '/new-lp-page'
 

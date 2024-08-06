@@ -803,6 +803,7 @@ a {
 
 .newproject.solutn .slick-list::after {
   margin-right: -335px;
+  z-index: 99;
 }
 
 .newproject .slick-list::before {
@@ -816,6 +817,7 @@ a {
   background-color: #1f1f1f;
   z-index: 1;
   margin-left: -500px;
+  z-index: 99;
 }
 
 .newproject .slick-list::after {
